@@ -75,6 +75,7 @@ Objects {
   Name: "Barrier Plastic 01"
   Transform {
     Location {
+      X: 200
       Y: 200
     }
     Rotation {
