@@ -8,6 +8,15 @@
   }
 }
 Assets {
+  Id: 14564977088248004276
+  Name: "Bannister Single Post"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_bannister_post_001"
+  }
+}
+Assets {
   Id: 12095835209017042614
   Name: "Cube"
   PlatformAssetType: 1
