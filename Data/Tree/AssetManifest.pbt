@@ -44,6 +44,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14800789141718969789
+  Name: "Column Topper 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_column_top_002"
+  }
+}
+Assets {
   Id: 13812905202961015832
   Name: "Jungle Vine (tileable)"
   PlatformAssetType: 2
@@ -134,6 +143,24 @@ Assets {
   }
 }
 Assets {
+  Id: 5532445992735149067
+  Name: "Column Topper 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_column_top_001"
+  }
+}
+Assets {
+  Id: 4193024863549911546
+  Name: "Column Base 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_column_bottom_002"
+  }
+}
+Assets {
   Id: 3531127931406203473
   Name: "Terrain - Moss"
   PlatformAssetType: 2
@@ -167,5 +194,14 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_liana-vine_end_001_uv"
+  }
+}
+Assets {
+  Id: 246239282813903875
+  Name: "Column Segment 1m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_column_segment_001"
   }
 }
