@@ -1,6 +1,6 @@
 ﻿Assets {
   Id: 15673891618484958044
-  Name: "Rubble Pile Concrete - Small Template"
+  Name: "T_Rubble Pile Concrete - Small Template"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {

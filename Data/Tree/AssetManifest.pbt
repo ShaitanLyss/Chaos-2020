@@ -71,15 +71,6 @@ Assets {
   }
 }
 Assets {
-  Id: 15068970421343146948
-  Name: "Sci-fi Base Wall Interior 01 - Corner 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_scf_base_wall_int_001_corner_01_ref"
-  }
-}
-Assets {
   Id: 13812905202961015832
   Name: "Jungle Vine (tileable)"
   PlatformAssetType: 2
@@ -107,15 +98,6 @@ Assets {
   }
 }
 Assets {
-  Id: 11642748949632175552
-  Name: "Sci-Fi Base Girder 8m 03"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_scf_base_girder_003_ref"
-  }
-}
-Assets {
   Id: 11596170769460254100
   Name: "Cube - Chamfered Large"
   PlatformAssetType: 1
@@ -131,15 +113,6 @@ Assets {
   PrimaryAsset {
     AssetType: "BlueprintAssetRef"
     AssetId: "CORESKY_Skylight"
-  }
-}
-Assets {
-  Id: 11114464204901951579
-  Name: "Tree Oak Bare 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_tree_oak_002"
   }
 }
 Assets {
@@ -161,30 +134,12 @@ Assets {
   }
 }
 Assets {
-  Id: 9662723091772095612
-  Name: "Fantasy Castle Door 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_fan_cas_door_001"
-  }
-}
-Assets {
   Id: 9543099500142514010
   Name: "Bricks Red 01"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_brick_red_001"
-  }
-}
-Assets {
-  Id: 9522218801527862812
-  Name: "Sci-Fi Base Wall Interior 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_scf_base_wall_int_001_ref"
   }
 }
 Assets {
@@ -215,15 +170,6 @@ Assets {
   }
 }
 Assets {
-  Id: 8125088729252019753
-  Name: "Sci-Fi Base Floor 03 4m"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_scf_base_floor_003_4m_ref"
-  }
-}
-Assets {
   Id: 7887238662729938253
   Name: "Sky Dome"
   PlatformAssetType: 6
@@ -242,12 +188,12 @@ Assets {
   }
 }
 Assets {
-  Id: 6119047050679614913
-  Name: "Sci-fi Base Pillar 01"
+  Id: 6088670579724426206
+  Name: "Cone - Truncated Hollow Wide Thin"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_scf_base_pillar_001_ref"
+    AssetId: "sm_cone_truncated_hollow_006"
   }
 }
 Assets {
@@ -257,24 +203,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_plane_ring_001"
-  }
-}
-Assets {
-  Id: 4610199694065085021
-  Name: "Fantasy Castle Bannister 01 - Curve Large"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_fan_cas_bannister_001_curve_lg"
-  }
-}
-Assets {
-  Id: 4191756069127165282
-  Name: "Sci-Fi Base Wall Interior 01 Half"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_scf_base_wall_int_001_half_ref"
   }
 }
 Assets {
@@ -311,23 +239,5 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_liana-vine_end_001_uv"
-  }
-}
-Assets {
-  Id: 795932075519654652
-  Name: "Sci-Fi Base Girder Corner 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_scf_base_girder_001_ref"
-  }
-}
-Assets {
-  Id: 502748734764283331
-  Name: "Sci-Fi Base Wall Interior 01 Half - Doorway 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_scf_base_wall_int_001_door_02_half_ref"
   }
 }
