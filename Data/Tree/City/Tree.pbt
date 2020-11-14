@@ -1,4 +1,4 @@
-﻿Name: "City"
+Name: "City"
 RootId: 3910864673082085464
 Objects {
   Id: 17487369697015067399
