@@ -24,9 +24,9 @@ Objects {
   ChildIds: 6745649183796593614
   ChildIds: 4856151291872807726
   ChildIds: 9689766397784668220
-  ChildIds: 9349742863711792551
-  ChildIds: 11924974390321110054
-  ChildIds: 6727853299750332158
+  ChildIds: 6426151071884851175
+  ChildIds: 12081476209714244938
+  ChildIds: 17053742104047286379
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -39,18 +39,15 @@ Objects {
   }
 }
 Objects {
-  Id: 6727853299750332158
-  Name: "Cone - Truncated Hollow Wide Thin"
+  Id: 17053742104047286379
+  Name: "Arch Fancy 3m"
   Transform {
     Location {
-      X: 7381.0918
-      Y: 9403.22266
-      Z: 1633.23059
+      X: -1100
+      Y: 9950
+      Z: 450
     }
     Rotation {
-      Pitch: 7.62618589
-      Yaw: -63.2564468
-      Roll: 20.9947052
     }
     Scale {
       X: 1
@@ -67,7 +64,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 6088670579724426206
+      Id: 2661172188805559458
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -81,18 +78,15 @@ Objects {
   }
 }
 Objects {
-  Id: 11924974390321110054
-  Name: "Cone - Truncated Hollow Wide Thin"
+  Id: 12081476209714244938
+  Name: "Castle Part - Grate 01"
   Transform {
     Location {
-      X: 9579.00293
-      Y: 4472.04248
-      Z: 1764.31885
+      X: -600
+      Y: 9950
+      Z: 400
     }
     Rotation {
-      Pitch: 0.404360831
-      Yaw: -72.7759171
-      Roll: 24.5047989
     }
     Scale {
       X: 1
@@ -109,7 +103,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 6088670579724426206
+      Id: 10479360902011736390
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -123,23 +117,19 @@ Objects {
   }
 }
 Objects {
-  Id: 9349742863711792551
-  Name: "Cone - Truncated Hollow Wide Thin"
+  Id: 6426151071884851175
+  Name: "Cube - Bottom-Aligned"
   Transform {
     Location {
-      X: 7675.43408
-      Y: 7570.34229
-      Z: 1962.12415
+      X: -250
+      Y: 9900
     }
     Rotation {
-      Pitch: 4.01022911
-      Yaw: -68.0621567
-      Roll: 23.186409
     }
     Scale {
-      X: 1
+      X: 34.5000114
       Y: 1
-      Z: 1
+      Z: 11
     }
   }
   ParentId: 4781671109827199097
@@ -151,7 +141,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 6088670579724426206
+      Id: 12261119390269403232
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -831,11 +821,14 @@ Objects {
   Name: "Sun Light"
   Transform {
     Location {
+      X: -1200
+      Y: 11100
+      Z: 200
     }
     Rotation {
-      Pitch: -45.8452454
-      Yaw: 33.9371338
-      Roll: 8.92731857
+      Pitch: -40.9705811
+      Yaw: -40.0542
+      Roll: 104.141296
     }
     Scale {
       X: 1

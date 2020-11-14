@@ -232,6 +232,7 @@ Objects {
     Location {
     }
     Rotation {
+      Yaw: 5
     }
     Scale {
       X: 200
