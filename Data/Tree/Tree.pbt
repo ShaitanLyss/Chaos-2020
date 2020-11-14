@@ -39,6 +39,7 @@ Objects {
   ChildIds: 2324117029534271372
   ChildIds: 17608096947786026529
   ChildIds: 3607740841556151191
+  ChildIds: 16422676777990520312
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -48,6 +49,143 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 16422676777990520312
+  Name: "Moving platform test"
+  Transform {
+    Location {
+      X: 4150
+      Y: 8200
+      Z: 1150
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 6104131233464529744
+  ChildIds: 14282855935427001203
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 14282855935427001203
+  Name: "Cube"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16422676777990520312
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 17925326465180611494
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 6104131233464529744
+  Name: "Object Mover"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16422676777990520312
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 3142504813567088034
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Object Mover"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "cs:Object"
+          ObjectReference {
+            SelfId: 14282855935427001203
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        Overrides {
+          Name: "cs:MoveTo"
+          Vector {
+            X: 178.803268
+          }
+        }
+        Overrides {
+          Name: "cs:BounceOnRepeat"
+          Bool: true
+        }
+        Overrides {
+          Name: "cs:StartDelayRange"
+          Vector2 {
+          }
+        }
+        Overrides {
+          Name: "cs:IntervalDelayRange"
+          Vector2 {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 9951297657303948718
+    }
   }
 }
 Objects {
