@@ -35,6 +35,15 @@ Assets {
   }
 }
 Assets {
+  Id: 6038149759494645317
+  Name: "Electrical Arc Volume"
+  PlatformAssetType: 8
+  PrimaryAsset {
+    AssetType: "VfxBlueprintAssetRef"
+    AssetId: "fxbp_Electrical_Arc_Volume"
+  }
+}
+Assets {
   Id: 2136260330767674104
   Name: "Text 01: O"
   PlatformAssetType: 1

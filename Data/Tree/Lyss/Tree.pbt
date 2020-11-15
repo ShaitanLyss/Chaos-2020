@@ -1,6 +1,74 @@
 ﻿Name: "Lyss"
 RootId: 10490075164851024102
 Objects {
+  Id: 10427389964893209578
+  Name: "Electrical Arc Volume"
+  Transform {
+    Location {
+      X: 9050
+      Y: 4870
+      Z: 2660
+    }
+    Rotation {
+      Pitch: 89.2758331
+      Yaw: 147.290558
+      Roll: 141.798981
+    }
+    Scale {
+      X: 265.300018
+      Y: 121.3
+      Z: 108.700035
+    }
+  }
+  ParentId: 10490075164851024102
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Beam Appearance"
+      Enum {
+        Value: "mc:ebeamtexturetype:4"
+      }
+    }
+    Overrides {
+      Name: "bp:color"
+      Color {
+        R: 0.953377485
+        G: 1
+        B: 0.36
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Secondary Color"
+      Color {
+        R: 1
+        G: 0.90675503
+        B: 0.36
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Beam Width"
+      Float: 49.6701
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 6038149759494645317
+    }
+    TeamSettings {
+    }
+    Vfx {
+      AutoPlay: true
+    }
+  }
+}
+Objects {
   Id: 2519416983357696755
   Name: "Sign"
   Transform {
