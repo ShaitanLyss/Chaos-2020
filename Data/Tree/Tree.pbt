@@ -20,11 +20,11 @@ Objects {
   ChildIds: 15822499511466264029
   ChildIds: 11404857991553905137
   ChildIds: 16794870566995681664
-  ChildIds: 10490075164851024102
   ChildIds: 9195659622545013213
   ChildIds: 12203816870592117184
   ChildIds: 4861888266353863378
   ChildIds: 3217359669344804486
+  ChildIds: 10490075164851024102
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -34,6 +34,32 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 10490075164851024102
+  Name: "Lyss"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Lyss"
   }
 }
 Objects {
@@ -170,32 +196,6 @@ Objects {
       Physics {
       }
     }
-  }
-}
-Objects {
-  Id: 10490075164851024102
-  Name: "Lyss"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Lyss"
   }
 }
 Objects {
