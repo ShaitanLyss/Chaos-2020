@@ -1,6 +1,6 @@
 ﻿Assets {
   Id: 6965630994047288269
-  Name: "P_KillCylinder"
+  Name: "_P_KillCylinder"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {

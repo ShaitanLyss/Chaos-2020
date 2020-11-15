@@ -1,6 +1,6 @@
 ﻿Assets {
   Id: 1181993706902254897
-  Name: "P_Rectangle+Circle"
+  Name: "_P_Rectangle+Circle"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
