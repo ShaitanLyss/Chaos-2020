@@ -1,12 +1,12 @@
 ﻿Assets {
-  Id: 6341109253899925286
+  Id: 14125914624941304983
   Name: "Platform"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 18169993589046057262
+      RootId: 11673249680736116978
       Objects {
-        Id: 18169993589046057262
+        Id: 11673249680736116978
         Name: "Platform"
         Transform {
           Scale {
@@ -16,9 +16,8 @@
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 6611785864938160099
-        ChildIds: 15699089804041091718
-        ChildIds: 11688440608876291486
+        ChildIds: 5073100564011509672
+        ChildIds: 15925019654078393750
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -30,13 +29,10 @@
         }
       }
       Objects {
-        Id: 6611785864938160099
+        Id: 5073100564011509672
         Name: "PlatformModel"
         Transform {
           Location {
-            X: 8150
-            Y: 2500
-            Z: 1000
           }
           Rotation {
           }
@@ -46,8 +42,7 @@
             Z: 1
           }
         }
-        ParentId: 18169993589046057262
-        ChildIds: 9297566746792307508
+        ParentId: 11673249680736116978
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -59,77 +54,7 @@
         }
       }
       Objects {
-        Id: 9297566746792307508
-        Name: "Bench Full"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 3.5
-            Z: 2.5
-          }
-        }
-        ParentId: 6611785864938160099
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 1532547669046769202
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 15699089804041091718
-        Name: "Trigger"
-        Transform {
-          Location {
-            X: 8150
-            Y: 2500
-            Z: 1200
-          }
-          Rotation {
-          }
-          Scale {
-            X: 4.5
-            Y: 2.5
-            Z: 1
-          }
-        }
-        ParentId: 18169993589046057262
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Trigger {
-          TeamSettings {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          TriggerShape_v2 {
-            Value: "mc:etriggershape:box"
-          }
-        }
-      }
-      Objects {
-        Id: 11688440608876291486
+        Id: 15925019654078393750
         Name: "PlatformCheckPoint"
         Transform {
           Location {
@@ -142,12 +67,12 @@
             Z: 1
           }
         }
-        ParentId: 18169993589046057262
+        ParentId: 11673249680736116978
         UnregisteredParameters {
           Overrides {
             Name: "cs:Platform"
             ObjectReference {
-              SubObjectId: 18169993589046057262
+              SubObjectId: 11673249680736116978
             }
           }
         }
@@ -162,15 +87,6 @@
             Id: 10184727586948426952
           }
         }
-      }
-    }
-    Assets {
-      Id: 1532547669046769202
-      Name: "Bench Full"
-      PlatformAssetType: 1
-      PrimaryAsset {
-        AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_bench_001"
       }
     }
     PrimaryAssetId {
