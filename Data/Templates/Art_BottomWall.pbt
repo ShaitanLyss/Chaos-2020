@@ -266,16 +266,16 @@
         Name: "Column Base 01"
         Transform {
           Location {
-            X: -660
-            Y: 1450
-            Z: 1160
+            X: -652.474182
+            Y: 1424.94922
+            Z: 1160.00012
           }
           Rotation {
-            Yaw: 5.00000238
+            Yaw: 5
           }
           Scale {
-            X: 2.9
-            Y: 3.00000024
+            X: 3.2
+            Y: 3.2
             Z: 1
           }
         }
@@ -306,12 +306,12 @@
         Name: "Column Segment 1m"
         Transform {
           Location {
-            X: -670
-            Y: 1440
+            X: -652.472656
+            Y: 1424.9491
             Z: 1030
           }
           Rotation {
-            Yaw: 50.0000114
+            Yaw: 50
           }
           Scale {
             X: 5
