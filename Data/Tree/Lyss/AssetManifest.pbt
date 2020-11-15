@@ -44,6 +44,15 @@ Assets {
   }
 }
 Assets {
+  Id: 4606466836615111308
+  Name: "Large Dirt Impact VFX"
+  PlatformAssetType: 8
+  PrimaryAsset {
+    AssetType: "VfxBlueprintAssetRef"
+    AssetId: "fxbp_mil_dirt_impact_large"
+  }
+}
+Assets {
   Id: 2136260330767674104
   Name: "Text 01: O"
   PlatformAssetType: 1
