@@ -63,7 +63,6 @@ Objects {
   Name: "Third Person Camera"
   Transform {
     Location {
-      Z: 500
     }
     Rotation {
     }
@@ -85,15 +84,15 @@ Objects {
   Camera {
     UseAsDefault: true
     AttachToLocalPlayer: true
-    InitialDistance: 400
+    InitialDistance: 280
     MinDistance: 300
     MaxDistance: 600
     PositionOffset {
-      Y: 60
+      Z: -20
     }
     RotationOffset {
     }
-    FieldOfView: 90
+    FieldOfView: 95
     ViewWidth: 1200
     RotationMode {
       Value: "mc:erotationmode:lookangle"
@@ -182,9 +181,9 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: 2786.49414
-      Y: 5610.82422
-      Z: 1125.94727
+      X: 1860
+      Y: 5550
+      Z: 300
     }
     Rotation {
       Yaw: -164.880798
