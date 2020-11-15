@@ -24,7 +24,7 @@ Objects {
   ChildIds: 9195659622545013213
   ChildIds: 12203816870592117184
   ChildIds: 4861888266353863378
-  ChildIds: 3217359669344804486
+  ChildIds: 9004624623714712296
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -37,13 +37,15 @@ Objects {
   }
 }
 Objects {
-  Id: 3217359669344804486
-  Name: "Platform"
+  Id: 9004624623714712296
+  Name: "Group"
   Transform {
     Location {
-      X: -5200
-      Y: -7300
-      Z: 200
+      X: -3460
+      Y: -8940
+      Z: 105
+    }
+    Rotation {
     }
     Scale {
       X: 1
@@ -59,15 +61,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Folder {
-    IsFilePartition: true
-    FilePartitionName: "Platform"
-  }
-  InstanceHistory {
-    SelfId: 3217359669344804486
-    SubobjectId: 11673249680736116978
-    InstanceId: 2252079590226390318
-    TemplateId: 14125914624941304983
-    WasRoot: true
+    IsGroup: true
   }
 }
 Objects {

@@ -1,24 +1,24 @@
-﻿Name: "Platform"
-RootId: 3217359669344804486
+﻿Name: "Platform29"
+RootId: 13198577380122770745
 Objects {
-  Id: 10738070998079885408
+  Id: 2310105134917425347
   Name: "Trigger"
   Transform {
     Location {
-      X: -250
-      Y: -200
-      Z: 13.2752686
+      X: -7842.94482
+      Y: -16804.8984
+      Z: -50.0004883
     }
     Rotation {
-      Yaw: -37
+      Yaw: -21
     }
     Scale {
-      X: 6.25
-      Y: 13.5000057
+      X: 6.30001
+      Y: 9.80167389
       Z: 1
     }
   }
-  ParentId: 3217359669344804486
+  ParentId: 13198577380122770745
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -36,7 +36,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5789628208768095202
+  Id: 16869213978614969890
   Name: "PlatformCheckPoint"
   Transform {
     Location {
@@ -49,12 +49,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3217359669344804486
+  ParentId: 13198577380122770745
   UnregisteredParameters {
     Overrides {
       Name: "cs:Platform"
       ObjectReference {
-        SelfId: 3217359669344804486
+        SelfId: 13198577380122770745
       }
     }
   }
@@ -77,16 +77,16 @@ Objects {
   }
 }
 Objects {
-  Id: 14645331311317588444
+  Id: 425221177268461037
   Name: "PlatformModel"
   Transform {
     Location {
-      X: -250
-      Y: -200
-      Z: -50
+      X: -7800
+      Y: -16670
+      Z: -50.0004883
     }
     Rotation {
-      Yaw: -37
+      Yaw: -21
     }
     Scale {
       X: 6.25
@@ -94,8 +94,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3217359669344804486
-  ChildIds: 5419243879296336085
+  ParentId: 13198577380122770745
+  ChildIds: 16218839350130543261
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -113,20 +113,22 @@ Objects {
   }
 }
 Objects {
-  Id: 5419243879296336085
+  Id: 16218839350130543261
   Name: "P.28"
   Transform {
     Location {
+      X: -0.188065022
+      Y: -11.1415873
     }
     Rotation {
     }
     Scale {
-      X: 1
-      Y: 1
+      X: 0.999995
+      Y: 0.72
       Z: 1
     }
   }
-  ParentId: 14645331311317588444
+  ParentId: 425221177268461037
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
