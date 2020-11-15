@@ -1,24 +1,23 @@
-﻿Name: "Platform17_4"
-RootId: 15091935034002768785
+﻿Name: "Platform_2"
+RootId: 7353581307812871255
 Objects {
-  Id: 8827762200473205265
+  Id: 13293389958942294488
   Name: "Trigger"
   Transform {
     Location {
-      X: -9665
-      Y: -15070
-      Z: 100
+      X: 726.357422
+      Y: 226.657227
+      Z: 547.739075
     }
     Rotation {
-      Yaw: 142.5
     }
     Scale {
-      X: 13.2
-      Y: 15.5
-      Z: 1
+      X: 2.38281488
+      Y: 2.70046139
+      Z: 0.783073664
     }
   }
-  ParentId: 15091935034002768785
+  ParentId: 7353581307812871255
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -36,7 +35,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15316399396777718746
+  Id: 1942059150391406899
   Name: "PlatformCheckPoint"
   Transform {
     Location {
@@ -49,12 +48,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15091935034002768785
+  ParentId: 7353581307812871255
   UnregisteredParameters {
     Overrides {
       Name: "cs:Platform"
       ObjectReference {
-        SelfId: 15091935034002768785
+        SelfId: 7353581307812871255
       }
     }
   }
@@ -70,32 +69,31 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 11356697034371190774
-    SubobjectId: 8370321322901003152
-    InstanceId: 8649466991581744429
-    TemplateId: 17080666560096579051
+    SelfId: 1942059150391406899
+    SubobjectId: 15925019654078393750
+    InstanceId: 13660715805559659905
+    TemplateId: 14125914624941304983
   }
 }
 Objects {
-  Id: 2315158734917568722
+  Id: 9337610831630301965
   Name: "PlatformModel"
   Transform {
     Location {
-      X: -9500
-      Y: -15200
-      Z: -0.000244140625
+      X: 726.357422
+      Y: 226.657227
+      Z: 202.183777
     }
     Rotation {
-      Yaw: 142.5
     }
     Scale {
-      X: 16.5
-      Y: 15.75
-      Z: 1
+      X: 3.5112524
+      Y: 3.5112524
+      Z: 3.5112524
     }
   }
-  ParentId: 15091935034002768785
-  ChildIds: 4279033275207276392
+  ParentId: 7353581307812871255
+  ChildIds: 15338465337613671866
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -106,41 +104,27 @@ Objects {
     IsGroup: true
   }
   InstanceHistory {
-    SelfId: 2779116147437757973
-    SubobjectId: 14925820062078956147
-    InstanceId: 8649466991581744429
-    TemplateId: 17080666560096579051
+    SelfId: 9337610831630301965
+    SubobjectId: 5073100564011509672
+    InstanceId: 13660715805559659905
+    TemplateId: 14125914624941304983
   }
 }
 Objects {
-  Id: 4279033275207276392
-  Name: "P.27"
+  Id: 15338465337613671866
+  Name: "Capsule"
   Transform {
     Location {
-      X: 12.7464981
-      Y: -1.75801682
     }
     Rotation {
     }
     Scale {
-      X: 0.8
+      X: 1
       Y: 1
       Z: 1
     }
   }
-  ParentId: 2315158734917568722
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 16646680597962164372
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:smart"
-      Bool: true
-    }
-  }
+  ParentId: 9337610831630301965
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -149,7 +133,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 17737960441981515646
+      Id: 6162502818737667240
     }
     Teams {
       IsTeamCollisionEnabled: true

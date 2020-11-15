@@ -1,9 +1,9 @@
 ﻿Assets {
-  Id: 4341421177442453829
-  Name: "Cube - Bottom-Aligned"
+  Id: 6162502818737667240
+  Name: "Capsule"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_001"
+    AssetId: "sm_capsule_001"
   }
 }

@@ -5,11 +5,12 @@ Objects {
   Name: "Cube"
   Transform {
     Location {
+      Z: -856.406616
     }
     Rotation {
     }
     Scale {
-      X: 17.7690277
+      X: 1.56564903
       Y: 19.2781258
       Z: 15.3237762
     }

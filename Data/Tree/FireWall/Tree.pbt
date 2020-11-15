@@ -28,7 +28,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Angle"
-      Float: 0
+      Float: -30.3
     }
   }
   Collidable_v2 {
