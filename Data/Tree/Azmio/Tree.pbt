@@ -1,13 +1,13 @@
 ﻿Name: "Azmio"
 RootId: 11404857991553905137
 Objects {
-  Id: 7152120519525393735
-  Name: "K.5"
+  Id: 15132337380296437093
+  Name: "Level 1 - Circle 1"
   Transform {
     Location {
-      X: -9430
-      Y: -15115
-      Z: -800
+      X: -600
+      Y: 150
+      Z: -850
     }
     Rotation {
     }
@@ -18,6 +18,153 @@ Objects {
     }
   }
   ParentId: 11404857991553905137
+  ChildIds: 7152120519525393735
+  ChildIds: 3217359669344804486
+  ChildIds: 13198577380122770745
+  ChildIds: 8877129981370841732
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 8877129981370841732
+  Name: "K.6"
+  Transform {
+    Location {
+      X: -7925
+      Y: -17010
+      Z: 5
+    }
+    Rotation {
+      Yaw: -21
+    }
+    Scale {
+      X: 6.3
+      Y: 4.5
+      Z: 1
+    }
+  }
+  ParentId: 15132337380296437093
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.520995677
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 4341421177442453829
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 13198577380122770745
+  Name: "Platform29"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15132337380296437093
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Platform29"
+  }
+  InstanceHistory {
+    SelfId: 3217359669344804486
+    SubobjectId: 11673249680736116978
+    InstanceId: 2252079590226390318
+    TemplateId: 14125914624941304983
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 3217359669344804486
+  Name: "Platform28"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15132337380296437093
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Platform28"
+  }
+  InstanceHistory {
+    SelfId: 3217359669344804486
+    SubobjectId: 11673249680736116978
+    InstanceId: 2252079590226390318
+    TemplateId: 14125914624941304983
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 7152120519525393735
+  Name: "K.5"
+  Transform {
+    Location {
+      X: -8830
+      Y: -15265
+      Z: 50
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15132337380296437093
   ChildIds: 9069035552723041575
   ChildIds: 3889092590731176489
   ChildIds: 7982976270112978455
@@ -225,70 +372,5 @@ Objects {
       Physics {
       }
     }
-  }
-}
-Objects {
-  Id: 15132337380296437093
-  Name: "Level 1 - Circle 1"
-  Transform {
-    Location {
-      X: -600
-      Y: 150
-      Z: -850
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11404857991553905137
-  ChildIds: 7353581307812871255
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 7353581307812871255
-  Name: "Platform_2"
-  Transform {
-    Location {
-      X: -12251.3838
-      Y: -11985.7607
-      Z: -150.100586
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 15132337380296437093
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Platform_2"
-  }
-  InstanceHistory {
-    SelfId: 7353581307812871255
-    SubobjectId: 11673249680736116978
-    InstanceId: 13660715805559659905
-    TemplateId: 14125914624941304983
-    WasRoot: true
   }
 }
