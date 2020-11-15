@@ -20,6 +20,7 @@ Objects {
   ChildIds: 15822499511466264029
   ChildIds: 11404857991553905137
   ChildIds: 10490075164851024102
+  ChildIds: 4824889145888886172
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -29,6 +30,45 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 4824889145888886172
+  Name: "Size for lyss"
+  Transform {
+    Location {
+      X: -100
+      Y: 9950
+    }
+    Rotation {
+      Yaw: 90
+    }
+    Scale {
+      X: 1
+      Y: 26.18
+      Z: 7.75
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7600328839803009033
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
   }
 }
 Objects {
@@ -119,6 +159,8 @@ Objects {
   Name: "Terrain"
   Transform {
     Location {
+      X: -350
+      Y: -50
     }
     Rotation {
     }

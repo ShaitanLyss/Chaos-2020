@@ -5,8 +5,8 @@ Objects {
   Name: "Floor"
   Transform {
     Location {
-      X: 1870
-      Y: -1840
+      X: 3684.78931
+      Y: 562.973877
     }
     Rotation {
     }
@@ -33,8 +33,7 @@ Objects {
   Name: "BottomWall"
   Transform {
     Location {
-      X: -1880
-      Y: 1840
+      Y: 4305.91406
     }
     Rotation {
     }
