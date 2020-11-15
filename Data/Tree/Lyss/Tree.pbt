@@ -401,9 +401,6 @@ Objects {
       Volume: 1
       Falloff: 3600
       Radius: 40000
-      EnableOcclusion: true
-      IsSpatializationEnabled: true
-      IsAttenuationEnabled: true
     }
   }
 }
