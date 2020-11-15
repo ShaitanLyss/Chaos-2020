@@ -16,6 +16,8 @@
           }
         }
         ParentId: 6339063528643310247
+        ChildIds: 3511335812106484098
+        ChildIds: 6501508010533959706
         ChildIds: 9215944930008113058
         ChildIds: 6839941721878020996
         ChildIds: 16419551359600766148
@@ -31,6 +33,98 @@
         }
         Folder {
           IsFilePartition: true
+        }
+      }
+      Objects {
+        Id: 3511335812106484098
+        Name: "Wispy Fog Volume VFX"
+        Transform {
+          Location {
+            X: 700
+            Y: 450
+            Z: 550
+          }
+          Rotation {
+          }
+          Scale {
+            X: 27.5999985
+            Y: 17
+            Z: 10.4000006
+          }
+        }
+        ParentId: 586102269327232757
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:color"
+            Color {
+              R: 0.75
+              G: 0.75
+              B: 0.75
+              A: 0.292000026
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 15114409112028524366
+          }
+          TeamSettings {
+          }
+          Vfx {
+            AutoPlay: true
+          }
+        }
+      }
+      Objects {
+        Id: 6501508010533959706
+        Name: "Blizzard Volume VFX"
+        Transform {
+          Location {
+            X: 790
+            Y: 520
+            Z: 960
+          }
+          Rotation {
+          }
+          Scale {
+            X: 29.6
+            Y: 16.4
+            Z: 1
+          }
+        }
+        ParentId: 586102269327232757
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:color"
+            Color {
+              R: 0.076000005
+              G: 0.076000005
+              B: 0.076000005
+              A: 1
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 7392455638299458893
+          }
+          TeamSettings {
+          }
+          Vfx {
+            AutoPlay: true
+          }
         }
       }
       Objects {
@@ -1071,6 +1165,24 @@
             }
           }
         }
+      }
+    }
+    Assets {
+      Id: 15114409112028524366
+      Name: "Wispy Fog Volume VFX"
+      PlatformAssetType: 8
+      PrimaryAsset {
+        AssetType: "VfxBlueprintAssetRef"
+        AssetId: "fxbp_fog_volume_vfx"
+      }
+    }
+    Assets {
+      Id: 7392455638299458893
+      Name: "Blizzard Volume VFX"
+      PlatformAssetType: 8
+      PrimaryAsset {
+        AssetType: "VfxBlueprintAssetRef"
+        AssetId: "fxbp_blizzard_volume"
       }
     }
     Assets {

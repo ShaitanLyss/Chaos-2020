@@ -1,5 +1,5 @@
-﻿Name: "Floor 1"
-RootId: 16093149801066646306
+﻿Name: "Others"
+RootId: 10495101680115058112
 Objects {
   Id: 6031563484630275945
   Name: "Floor 1 - Part"
@@ -18,7 +18,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16093149801066646306
+  ParentId: 10495101680115058112
   TemplateInstance {
     ParameterOverrideMap {
       key: 9004552838829926765
@@ -30,8 +30,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -250
-            Y: -4235
+            X: -3980
+            Y: -4895
             Z: 0.000244140625
           }
         }
@@ -74,7 +74,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16093149801066646306
+  ParentId: 10495101680115058112
   TemplateInstance {
     ParameterOverrideMap {
       key: 9004552838829926765
@@ -86,15 +86,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 550
-            Y: -3110
+            X: -3180
+            Y: -3770
             Z: 0.00122070313
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -79.9999771
+            Yaw: -79.9999619
           }
         }
         Overrides {
@@ -130,7 +130,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16093149801066646306
+  ParentId: 10495101680115058112
   TemplateInstance {
     ParameterOverrideMap {
       key: 9004552838829926765
@@ -142,15 +142,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 1000
-            Y: -1810
+            X: -2730
+            Y: -2470
             Z: 0.000732421875
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -65.0000229
+            Yaw: -65.0000381
           }
         }
         Overrides {
@@ -186,7 +186,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16093149801066646306
+  ParentId: 10495101680115058112
   TemplateInstance {
     ParameterOverrideMap {
       key: 9004552838829926765
@@ -198,15 +198,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 1050
-            Y: -460
+            X: -2680
+            Y: -1120
             Z: 0.000244140625
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -50.0000114
+            Yaw: -50.0000267
           }
         }
         Overrides {
@@ -241,7 +241,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16093149801066646306
+  ParentId: 10495101680115058112
   TemplateInstance {
     ParameterOverrideMap {
       key: 9004552838829926765
@@ -253,15 +253,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 775
-            Y: 940
+            X: -2955
+            Y: 280
             Z: 0.000244140625
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -35.0000038
+            Yaw: -35.0000076
           }
         }
         Overrides {
@@ -295,7 +295,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16093149801066646306
+  ParentId: 10495101680115058112
   TemplateInstance {
     ParameterOverrideMap {
       key: 9004552838829926765
@@ -307,66 +307,14 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 200
-            Y: 2115
+            X: -3530
+            Y: 1455
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -19.9999943
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 11934995597691856320
-    }
-  }
-}
-Objects {
-  Id: 10246422494036909266
-  Name: "Floor 1 - Part"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16093149801066646306
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 9004552838829926765
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Floor 1 - Part"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -400
-            Y: 2915
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
+            Yaw: -19.9999905
           }
         }
         Overrides {

@@ -80,6 +80,15 @@ Assets {
   }
 }
 Assets {
+  Id: 4606466836615111308
+  Name: "Large Dirt Impact VFX"
+  PlatformAssetType: 8
+  PrimaryAsset {
+    AssetType: "VfxBlueprintAssetRef"
+    AssetId: "fxbp_mil_dirt_impact_large"
+  }
+}
+Assets {
   Id: 3531127931406203473
   Name: "Terrain - Moss"
   PlatformAssetType: 2

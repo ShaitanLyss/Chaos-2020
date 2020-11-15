@@ -1,6 +1,43 @@
 ﻿Name: "Azmio"
 RootId: 11404857991553905137
 Objects {
+  Id: 9395978448770372881
+  Name: "Large Dirt Impact VFX"
+  Transform {
+    Location {
+      X: 60
+      Y: -660
+      Z: 20
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11404857991553905137
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 4606466836615111308
+    }
+    TeamSettings {
+    }
+    Vfx {
+      AutoPlay: true
+    }
+  }
+}
+Objects {
   Id: 16422676777990520312
   Name: "Moving platform test"
   Transform {

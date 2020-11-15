@@ -7,7 +7,7 @@
       RootId: 9004552838829926765
       Objects {
         Id: 9004552838829926765
-        Name: "Floor 1 - Part"
+        Name: "Floor - Part"
         Transform {
           Scale {
             X: 1
@@ -15,7 +15,10 @@
             Z: 1
           }
         }
-        ParentId: 4781671109827199097
+        ParentId: 16093149801066646306
+        ChildIds: 9926771754585888902
+        ChildIds: 9820805587709911492
+        ChildIds: 12596117751129060553
         ChildIds: 2698138650553305259
         ChildIds: 16598060066119469468
         Collidable_v2 {
@@ -26,6 +29,133 @@
         }
         Folder {
           IsGroup: true
+        }
+      }
+      Objects {
+        Id: 9926771754585888902
+        Name: "Fire Volume VFX"
+        Transform {
+          Location {
+            X: 1070
+            Y: 3685
+            Z: 1030
+          }
+          Rotation {
+            Yaw: -30.0000095
+          }
+          Scale {
+            X: 20.9
+            Y: 4
+            Z: 4
+          }
+        }
+        ParentId: 9004552838829926765
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 6474768715633236406
+          }
+          TeamSettings {
+          }
+          Vfx {
+            AutoPlay: true
+          }
+        }
+      }
+      Objects {
+        Id: 9820805587709911492
+        Name: "Fire Volume VFX"
+        Transform {
+          Location {
+            X: 1720
+            Y: 4815
+            Z: 1030
+          }
+          Rotation {
+            Yaw: -30.0000095
+          }
+          Scale {
+            X: 20.9
+            Y: 4
+            Z: 4
+          }
+        }
+        ParentId: 9004552838829926765
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 6474768715633236406
+          }
+          TeamSettings {
+          }
+          Vfx {
+            AutoPlay: true
+          }
+        }
+      }
+      Objects {
+        Id: 12596117751129060553
+        Name: "Dust Motes Volume VFX"
+        Transform {
+          Location {
+            X: 1540
+            Y: 4315
+            Z: 1380
+          }
+          Rotation {
+            Yaw: -30.0000095
+          }
+          Scale {
+            X: 25.3000011
+            Y: 20.8000107
+            Z: 8.6
+          }
+        }
+        ParentId: 9004552838829926765
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Particle Scale Multiplier"
+            Float: 0.656867445
+          }
+          Overrides {
+            Name: "bp:color"
+            Color {
+              R: 1
+              G: 0.792966902
+              B: 0.460999966
+              A: 0.417
+            }
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 1.13675427
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 10934529727369033636
+          }
+          TeamSettings {
+          }
+          Vfx {
+            AutoPlay: true
+          }
         }
       }
       Objects {
@@ -995,6 +1125,24 @@
             }
           }
         }
+      }
+    }
+    Assets {
+      Id: 6474768715633236406
+      Name: "Fire Volume VFX"
+      PlatformAssetType: 8
+      PrimaryAsset {
+        AssetType: "VfxBlueprintAssetRef"
+        AssetId: "fxbp_fire_volume_vfx"
+      }
+    }
+    Assets {
+      Id: 10934529727369033636
+      Name: "Dust Motes Volume VFX"
+      PlatformAssetType: 8
+      PrimaryAsset {
+        AssetType: "VfxBlueprintAssetRef"
+        AssetId: "fxbp_dust_motes"
       }
     }
     Assets {

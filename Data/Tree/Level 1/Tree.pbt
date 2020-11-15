@@ -2,7 +2,7 @@
 RootId: 1695293941534654941
 Objects {
   Id: 16093149801066646306
-  Name: "Floor 1"
+  Name: "Floor"
   Transform {
     Location {
       X: 1870
@@ -25,7 +25,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Floor 1"
+    FilePartitionName: "Floor"
   }
 }
 Objects {

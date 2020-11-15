@@ -40,9 +40,9 @@ Objects {
       Z: 200
     }
     Rotation {
-      Pitch: -40.9705811
-      Yaw: -40.0542
-      Roll: 104.141296
+      Pitch: -48.0229187
+      Yaw: -114.665558
+      Roll: 89.5569763
     }
     Scale {
       X: 1
@@ -87,7 +87,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Intensity"
-      Float: 3.5
+      Float: 3.49186969
     }
     Overrides {
       Name: "bp:Sun Disc Color"
@@ -198,6 +198,12 @@ Objects {
         A: 1
       }
     }
+    Overrides {
+      Name: "bp:Ambient Image"
+      Enum {
+        Value: "mc:eambientcubemapssmall:1"
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -306,7 +312,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Brightness"
-      Float: 1
+      Float: 0.274076521
     }
     Overrides {
       Name: "bp:Background Clouds"
