@@ -276,6 +276,7 @@ Objects {
   ChildIds: 6137778364292772009
   ChildIds: 14295199153331957136
   ChildIds: 16109281738298070369
+  ChildIds: 12468894684579735909
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -284,6 +285,57 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 12468894684579735909
+  Name: "P.25"
+  Transform {
+    Location {
+      X: -11250
+      Y: -13700
+    }
+    Rotation {
+      Yaw: 127
+    }
+    Scale {
+      X: 5.5
+      Y: 6.75
+      Z: 0.75
+    }
+  }
+  ParentId: 15132337380296437093
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 16646680597962164372
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: true
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 17737960441981515646
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
   }
 }
 Objects {
