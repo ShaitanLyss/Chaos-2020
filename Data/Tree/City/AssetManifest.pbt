@@ -1,28 +1,10 @@
 ﻿Assets {
-  Id: 16421237708710033719
-  Name: "Bricks Mortar Thick 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_fan_bricks_mortar_001_uv"
-  }
-}
-Assets {
   Id: 15677562999280283166
   Name: "Plane Ring - One Sided Thick"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_plane_ring_003"
-  }
-}
-Assets {
-  Id: 15190788181857266541
-  Name: "Plane Ring - One Sided Thin"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_plane_ring_002"
   }
 }
 Assets {

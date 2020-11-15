@@ -1,10 +1,28 @@
 ﻿Assets {
+  Id: 18302154991031027573
+  Name: "Rock 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_rock_generic_001"
+  }
+}
+Assets {
   Id: 17925326465180611494
   Name: "Cube"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cube_002"
+  }
+}
+Assets {
+  Id: 17876715809223891970
+  Name: "Forest Floor 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "forest-floor_001"
   }
 }
 Assets {
@@ -44,12 +62,12 @@ Assets {
   }
 }
 Assets {
-  Id: 14800789141718969789
-  Name: "Column Topper 02"
+  Id: 14389787683247718105
+  Name: "Rock 02"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_column_top_002"
+    AssetId: "sm_rock_generic_002_sm_rock_generic_002_LOD0"
   }
 }
 Assets {
@@ -71,15 +89,6 @@ Assets {
   }
 }
 Assets {
-  Id: 12261119390269403232
-  Name: "Cube - Bottom-Aligned"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_001"
-  }
-}
-Assets {
   Id: 11596170769460254100
   Name: "Cube - Chamfered Large"
   PlatformAssetType: 1
@@ -95,15 +104,6 @@ Assets {
   PrimaryAsset {
     AssetType: "BlueprintAssetRef"
     AssetId: "CORESKY_Skylight"
-  }
-}
-Assets {
-  Id: 10479360902011736390
-  Name: "Castle Part - Grate 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_fan_cas_part_grate_001_ref"
   }
 }
 Assets {
@@ -143,24 +143,6 @@ Assets {
   }
 }
 Assets {
-  Id: 5532445992735149067
-  Name: "Column Topper 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_column_top_001"
-  }
-}
-Assets {
-  Id: 4193024863549911546
-  Name: "Column Base 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_column_bottom_002"
-  }
-}
-Assets {
   Id: 3531127931406203473
   Name: "Terrain - Moss"
   PlatformAssetType: 2
@@ -179,29 +161,11 @@ Assets {
   }
 }
 Assets {
-  Id: 2661172188805559458
-  Name: "Arch Fancy 3m"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_arch_fancy_3m_001"
-  }
-}
-Assets {
   Id: 1945798278848761889
   Name: "Jungle Vine (end)"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_liana-vine_end_001_uv"
-  }
-}
-Assets {
-  Id: 246239282813903875
-  Name: "Column Segment 1m"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_column_segment_001"
   }
 }
