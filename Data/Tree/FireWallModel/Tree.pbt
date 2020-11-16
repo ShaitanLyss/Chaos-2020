@@ -5,7 +5,7 @@ Objects {
   Name: "Cube"
   Transform {
     Location {
-      Z: 2395
+      Z: -739.866638
     }
     Rotation {
     }
@@ -41,10 +41,10 @@ Objects {
   }
   WantsNetworking: true
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CoreMesh {
     MeshAsset {

@@ -1,6 +1,86 @@
 ﻿Name: "Lyss"
 RootId: 10490075164851024102
 Objects {
+  Id: 12203816870592117184
+  Name: "Size for lyss"
+  Transform {
+    Location {
+      X: 941.594238
+      Y: 9881.55176
+      Z: 350
+    }
+    Rotation {
+      Yaw: 84.4999924
+    }
+    Scale {
+      X: 1
+      Y: 26
+      Z: 3.8656044
+    }
+  }
+  ParentId: 10490075164851024102
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceoff"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7600328839803009033
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 9195659622545013213
+  Name: "Block to verify alinement "
+  Transform {
+    Location {
+      X: 1400
+      Y: 6650
+      Z: 2650
+    }
+    Rotation {
+      Yaw: -15.00002
+    }
+    Scale {
+      X: 1
+      Y: 60.2500038
+      Z: 7.75
+    }
+  }
+  ParentId: 10490075164851024102
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceoff"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7600328839803009033
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
   Id: 12364884316927117307
   Name: "Stuff"
   Transform {

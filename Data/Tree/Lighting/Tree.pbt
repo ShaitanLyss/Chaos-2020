@@ -1,6 +1,49 @@
 ﻿Name: "Lighting"
 RootId: 4434011006133901618
 Objects {
+  Id: 18282247786711307050
+  Name: "Environment Fog Default VFX"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4434011006133901618
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Volumetric Fog"
+      Bool: false
+    }
+    Overrides {
+      Name: "bp:color"
+      Color {
+        R: 0.470000029
+        G: 0.168079481
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 2224571462023946700
+    }
+    TeamSettings {
+    }
+  }
+}
+Objects {
   Id: 10005074784157121906
   Name: "Default Sky"
   Transform {
@@ -37,12 +80,12 @@ Objects {
     Location {
       X: -1200
       Y: 11100
-      Z: 200
+      Z: 3310
     }
     Rotation {
-      Pitch: -48.0229187
-      Yaw: -114.665558
-      Roll: 89.5569763
+      Pitch: -18.2191772
+      Yaw: -148.176895
+      Roll: 84.0552521
     }
     Scale {
       X: 1
@@ -67,11 +110,13 @@ Objects {
     }
     Overrides {
       Name: "bp:Shape"
-      Int: 1
+      Enum {
+        Value: "mc:esundiscshapes:5"
+      }
     }
     Overrides {
       Name: "bp:Size"
-      Float: 5
+      Float: 60
     }
     Overrides {
       Name: "bp:Light Shaft Bloom"
@@ -87,14 +132,14 @@ Objects {
     }
     Overrides {
       Name: "bp:Intensity"
-      Float: 3.49186969
+      Float: 1.11667216
     }
     Overrides {
       Name: "bp:Sun Disc Color"
       Color {
-        R: 3
-        G: 3
-        B: 3
+        R: 1
+        G: 0.415033102
+        B: 0.269999981
         A: 1
       }
     }
