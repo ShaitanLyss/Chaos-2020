@@ -846,6 +846,13 @@ Objects {
     }
   }
   ParentId: 11404857991553905137
+  ChildIds: 10037359385964967755
+  ChildIds: 11846649720539508214
+  ChildIds: 8252663680390240732
+  ChildIds: 10071838898493080885
+  ChildIds: 194160055420890345
+  ChildIds: 1241148615274324242
+  ChildIds: 10402200151551395358
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -854,5 +861,257 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 10402200151551395358
+  Name: "P_7"
+  Transform {
+    Location {
+      X: -3000
+      Y: -8400
+      Z: -150
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15132337380296437093
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "P_7"
+  }
+  InstanceHistory {
+    SelfId: 8252663680390240732
+    SubobjectId: 11673249680736116978
+    InstanceId: 2511452984235847512
+    TemplateId: 14125914624941304983
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 1241148615274324242
+  Name: "P_6"
+  Transform {
+    Location {
+      X: -3000
+      Y: -8400
+      Z: -150
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15132337380296437093
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "P_6"
+  }
+  InstanceHistory {
+    SelfId: 8252663680390240732
+    SubobjectId: 11673249680736116978
+    InstanceId: 2511452984235847512
+    TemplateId: 14125914624941304983
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 194160055420890345
+  Name: "P_5"
+  Transform {
+    Location {
+      X: -3000
+      Y: -8400
+      Z: -150
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15132337380296437093
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "P_5"
+  }
+  InstanceHistory {
+    SelfId: 8252663680390240732
+    SubobjectId: 11673249680736116978
+    InstanceId: 2511452984235847512
+    TemplateId: 14125914624941304983
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 10071838898493080885
+  Name: "P_4"
+  Transform {
+    Location {
+      X: -3000
+      Y: -8400
+      Z: -150
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15132337380296437093
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "P_4"
+  }
+  InstanceHistory {
+    SelfId: 8252663680390240732
+    SubobjectId: 11673249680736116978
+    InstanceId: 2511452984235847512
+    TemplateId: 14125914624941304983
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 8252663680390240732
+  Name: "P_3"
+  Transform {
+    Location {
+      X: -3000
+      Y: -8400
+      Z: -150
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15132337380296437093
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "P_3"
+  }
+  InstanceHistory {
+    SelfId: 8252663680390240732
+    SubobjectId: 11673249680736116978
+    InstanceId: 2511452984235847512
+    TemplateId: 14125914624941304983
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 11846649720539508214
+  Name: "P_2"
+  Transform {
+    Location {
+      X: -3000
+      Y: -8400
+      Z: -150
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15132337380296437093
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "P_2"
+  }
+  InstanceHistory {
+    SelfId: 11846649720539508214
+    SubobjectId: 11673249680736116978
+    InstanceId: 2417039935939311515
+    TemplateId: 14125914624941304983
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 10037359385964967755
+  Name: "P_1"
+  Transform {
+    Location {
+      X: -3000
+      Y: -8400
+      Z: -150
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15132337380296437093
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "P_1"
+  }
+  InstanceHistory {
+    SelfId: 10037359385964967755
+    SubobjectId: 11673249680736116978
+    InstanceId: 15701826184880090002
+    TemplateId: 14125914624941304983
+    WasRoot: true
   }
 }
