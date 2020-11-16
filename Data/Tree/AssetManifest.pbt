@@ -17,15 +17,6 @@ Assets {
   }
 }
 Assets {
-  Id: 16122861514950347918
-  Name: "Planetary Ring"
-  PlatformAssetType: 6
-  PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "CORESKY_PlanetaryRing"
-  }
-}
-Assets {
   Id: 15603252222108994809
   Name: "Bark Redwood 01"
   PlatformAssetType: 2
@@ -41,15 +32,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_liana-vine_001_uv"
-  }
-}
-Assets {
-  Id: 12344193518355455075
-  Name: "Star Dome"
-  PlatformAssetType: 6
-  PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "CORESKY_StarDome"
   }
 }
 Assets {

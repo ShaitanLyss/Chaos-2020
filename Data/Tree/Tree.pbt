@@ -14,19 +14,18 @@ Objects {
       Z: 1
     }
   }
-  ChildIds: 3841774984750933128
   ChildIds: 17178724431697183245
+  ChildIds: 3841774984750933128
   ChildIds: 15822499511466264029
   ChildIds: 11404857991553905137
   ChildIds: 16794870566995681664
   ChildIds: 4861888266353863378
   ChildIds: 3217359669344804486
   ChildIds: 10490075164851024102
-  ChildIds: 4435943988130033809
-  ChildIds: 4185518877054539828
   ChildIds: 4434011006133901618
-  ChildIds: 16822725139485920883
-  ChildIds: 17374216160728892875
+  ChildIds: 9321966516087236899
+  ChildIds: 17503036414563174262
+  ChildIds: 14696390392128977292
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -39,17 +38,9 @@ Objects {
   }
 }
 Objects {
-  Id: 17374216160728892875
-  Name: "Planetary Ring"
+  Id: 14696390392128977292
+  Name: "F_Fern_4"
   Transform {
-    Location {
-      X: 6980
-      Y: 3540
-      Z: 1480
-    }
-    Rotation {
-      Pitch: -30
-    }
     Scale {
       X: 1
       Y: 1
@@ -57,35 +48,125 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Ring Appearance"
-      Enum {
-        Value: "mc:eplanetaryrings:3"
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 5874517661221398924
+      value {
+        Overrides {
+          Name: "Name"
+          String: "F_Fern_4"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1210
+            Y: 9755
+            Z: 25
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.8
+            Y: 0.8
+            Z: 0.8
+          }
+        }
       }
     }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 16122861514950347918
-    }
-    TeamSettings {
+    TemplateAsset {
+      Id: 18229426741649529381
     }
   }
 }
 Objects {
-  Id: 16822725139485920883
-  Name: "Star Dome"
+  Id: 17503036414563174262
+  Name: "F_Wild_Bush"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 31767873027108217
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            Z: 75.0000916
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.5
+            Y: 0.5
+            Z: 0.5
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 11451050256024917560
+      value {
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1.6
+            Y: 1.6
+            Z: 1.6
+          }
+        }
+        Overrides {
+          Name: "ma:Nature_Leaves:id"
+          AssetReference {
+            Id: 3915072953041394971
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17320432266554423745
+      value {
+        Overrides {
+          Name: "Name"
+          String: "F_Wild_Bush"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1225
+            Y: 9735
+            Z: 6.10351563e-05
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5437390543263377148
+    }
+  }
+}
+Objects {
+  Id: 9321966516087236899
+  Name: "NPCs and Dialogs"
   Transform {
     Location {
+      X: 5270
+      Y: 6320
+      Z: 1030
     }
     Rotation {
+      Yaw: 180
     }
     Scale {
       X: 1
@@ -100,12 +181,16 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  Blueprint {
-    BlueprintAsset {
-      Id: 12344193518355455075
-    }
-    TeamSettings {
-    }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "NPCs and Dialogs"
+  }
+  InstanceHistory {
+    SelfId: 9321966516087236899
+    SubobjectId: 14859362854836943051
+    InstanceId: 14431663957882783969
+    TemplateId: 7317441386107963647
+    WasRoot: true
   }
 }
 Objects {
@@ -133,64 +218,6 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Lighting"
-  }
-}
-Objects {
-  Id: 4185518877054539828
-  Name: "Lights"
-  Transform {
-    Location {
-      X: -170
-      Y: 8840
-      Z: 680
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Lights"
-  }
-}
-Objects {
-  Id: 4435943988130033809
-  Name: "NewFolder"
-  Transform {
-    Location {
-      X: 3010
-      Y: 7840
-      Z: -580
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "NewFolder"
   }
 }
 Objects {
@@ -898,6 +925,34 @@ Objects {
   }
 }
 Objects {
+  Id: 3841774984750933128
+  Name: "Gameplay"
+  Transform {
+    Location {
+      X: 1390
+      Y: 2800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Gameplay"
+  }
+}
+Objects {
   Id: 17178724431697183245
   Name: "Terrain"
   Transform {
@@ -928,33 +983,5 @@ Objects {
     VoxelSize: 500
     OctreeDepth: 5
     GeneratorID: "DEPRECATED"
-  }
-}
-Objects {
-  Id: 3841774984750933128
-  Name: "Gameplay"
-  Transform {
-    Location {
-      X: 1390
-      Y: 2800
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Gameplay"
   }
 }

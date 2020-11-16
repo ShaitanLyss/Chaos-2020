@@ -1,6 +1,64 @@
 ﻿Name: "Lyss"
 RootId: 10490075164851024102
 Objects {
+  Id: 4185518877054539828
+  Name: "Lights"
+  Transform {
+    Location {
+      X: -170
+      Y: 8840
+      Z: 680
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10490075164851024102
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Lights"
+  }
+}
+Objects {
+  Id: 4435943988130033809
+  Name: "Env"
+  Transform {
+    Location {
+      X: 3010
+      Y: 7840
+      Z: -580
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10490075164851024102
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Env"
+  }
+}
+Objects {
   Id: 12203816870592117184
   Name: "Size for lyss"
   Transform {

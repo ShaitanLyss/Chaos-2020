@@ -1,6 +1,77 @@
 ﻿Name: "Lighting"
 RootId: 4434011006133901618
 Objects {
+  Id: 16822725139485920883
+  Name: "Star Dome"
+  Transform {
+    Location {
+      Z: -700
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4434011006133901618
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 12344193518355455075
+    }
+    TeamSettings {
+    }
+  }
+}
+Objects {
+  Id: 17374216160728892875
+  Name: "Planetary Ring"
+  Transform {
+    Location {
+      X: 6980
+      Y: 3540
+      Z: 780
+    }
+    Rotation {
+      Pitch: -30
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4434011006133901618
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Ring Appearance"
+      Enum {
+        Value: "mc:eplanetaryrings:3"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 16122861514950347918
+    }
+    TeamSettings {
+    }
+  }
+}
+Objects {
   Id: 18282247786711307050
   Name: "Environment Fog Default VFX"
   Transform {
@@ -146,8 +217,7 @@ Objects {
       Name: "bp:Sun Disc Color"
       Color {
         R: 1
-        G: 0.415033102
-        B: 0.269999981
+        G: 0.198675513
         A: 1
       }
     }
