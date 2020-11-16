@@ -80,15 +80,6 @@ Assets {
   }
 }
 Assets {
-  Id: 4341421177442453829
-  Name: "Cube - Bottom-Aligned"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_001"
-  }
-}
-Assets {
   Id: 3531127931406203473
   Name: "Terrain - Moss"
   PlatformAssetType: 2

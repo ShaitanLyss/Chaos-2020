@@ -1,42 +1,80 @@
-﻿Name: "P_22"
-RootId: 3635771471139975716
+﻿Name: "P_26"
+RootId: 17350450742228133699
 Objects {
-  Id: 10827762958687136441
-  Name: "Trigger"
+  Id: 11342590800058110969
+  Name: "Object Mover"
   Transform {
-    Location {
-      X: -6409.49756
-      Y: -7093.63818
-      Z: 226.773682
-    }
-    Rotation {
-      Yaw: 142
-    }
     Scale {
-      X: 3.89993811
-      Y: 4.54173565
-      Z: 0.75
+      X: 1
+      Y: 1
+      Z: 1
     }
   }
-  ParentId: 3635771471139975716
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Trigger {
-    TeamSettings {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
+  ParentId: 17350450742228133699
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 3142504813567088034
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Object Mover"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        Overrides {
+          Name: "cs:BounceOnRepeat"
+          Bool: true
+        }
+        Overrides {
+          Name: "cs:StartDelayRange"
+          Vector2 {
+            Y: 1
+          }
+        }
+        Overrides {
+          Name: "cs:IntervalDelayRange"
+          Vector2 {
+            Y: 1
+          }
+        }
+        Overrides {
+          Name: "cs:Object"
+          ObjectReference {
+            SelfId: 13192629889614176555
+          }
+        }
+        Overrides {
+          Name: "cs:MoveTo"
+          Vector {
+            Y: 114.714066
+            Z: 100
+          }
+        }
+      }
     }
-    TriggerShape_v2 {
-      Value: "mc:etriggershape:box"
+    TemplateAsset {
+      Id: 9951297657303948718
     }
   }
 }
 Objects {
-  Id: 15716609612737364723
+  Id: 1059736634485542955
   Name: "PlatformCheckPoint"
   Transform {
     Location {
@@ -49,12 +87,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3635771471139975716
+  ParentId: 17350450742228133699
   UnregisteredParameters {
     Overrides {
       Name: "cs:Platform"
       ObjectReference {
-        SelfId: 3635771471139975716
+        SelfId: 17350450742228133699
       }
     }
   }
@@ -77,16 +115,15 @@ Objects {
   }
 }
 Objects {
-  Id: 3714278044586262073
+  Id: 13192629889614176555
   Name: "PlatformModel"
   Transform {
     Location {
-      X: -6413.19238
-      Y: -7096.53613
-      Z: 150
+      X: -5092.40137
+      Y: -17889.9375
     }
     Rotation {
-      Yaw: 142
+      Yaw: 173.5
     }
     Scale {
       X: 1
@@ -94,8 +131,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3635771471139975716
-  ChildIds: 7979963046388617253
+  ParentId: 17350450742228133699
+  ChildIds: 2867604839955150811
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -113,7 +150,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7979963046388617253
+  Id: 2867604839955150811
   Name: "_PS_Rectangle_wide"
   Transform {
     Scale {
@@ -122,7 +159,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3714278044586262073
+  ParentId: 13192629889614176555
   TemplateInstance {
     ParameterOverrideMap {
       key: 1825230877436865430
@@ -130,14 +167,16 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 4.99751711
-            Y: 5.58172607
+            X: 6.9
+            Y: 7.20000029
             Z: 1
           }
         }
         Overrides {
           Name: "Position"
           Vector {
+            X: 19.2072029
+            Y: 40.386673
           }
         }
         Overrides {
