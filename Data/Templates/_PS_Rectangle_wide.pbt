@@ -1,6 +1,6 @@
 ﻿Assets {
   Id: 17594147940704495209
-  Name: "PS_Rectangle_wide"
+  Name: "_PS_Rectangle_wide"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
