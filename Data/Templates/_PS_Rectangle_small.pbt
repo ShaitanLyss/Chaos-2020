@@ -7,7 +7,7 @@
       RootId: 10953068183107250475
       Objects {
         Id: 10953068183107250475
-        Name: "PS_Rectangle_small"
+        Name: "_PS_Rectangle_small"
         Transform {
           Scale {
             X: 1
@@ -132,7 +132,7 @@
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
-          Value: "mc:evisibilitysetting:forceon"
+          Value: "mc:evisibilitysetting:forceoff"
         }
         Folder {
           IsFilePartition: true
