@@ -1,21 +1,21 @@
 ﻿Name: "FireWallModel"
-RootId: 11538910119490506593
+RootId: 8768866053368028503
 Objects {
-  Id: 5363788852061299074
+  Id: 4442114770646351124
   Name: "Cube"
   Transform {
     Location {
-      Z: -739.866638
+      Z: -74.3609619
     }
     Rotation {
     }
     Scale {
-      X: 1.56564903
-      Y: 19.2781258
-      Z: 15.3237762
+      X: 1.6
+      Y: 18.1
+      Z: 15.3
     }
   }
-  ParentId: 11538910119490506593
+  ParentId: 8768866053368028503
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -41,10 +41,10 @@ Objects {
   }
   WantsNetworking: true
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
+    Value: "mc:ecollisionsetting:forceon"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
+    Value: "mc:evisibilitysetting:forceon"
   }
   CoreMesh {
     MeshAsset {
@@ -59,11 +59,5 @@ Objects {
       Physics {
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 5363788852061299074
-    SubobjectId: 11800078256514364900
-    InstanceId: 8649466991581744429
-    TemplateId: 17080666560096579051
   }
 }

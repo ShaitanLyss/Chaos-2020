@@ -1,8 +1,8 @@
 ﻿Name: "FireWall"
-RootId: 65857602579853648
+RootId: 13683379292976511251
 Objects {
-  Id: 12048948797892847672
-  Name: "MovingFireWall"
+  Id: 14312825458142689432
+  Name: "PathWay"
   Transform {
     Location {
     }
@@ -14,21 +14,23 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 65857602579853648
+  ParentId: 13683379292976511251
   UnregisteredParameters {
     Overrides {
       Name: "cs:FireWall"
       ObjectReference {
-        SelfId: 65857602579853648
+        SelfId: 13683379292976511251
       }
     }
     Overrides {
-      Name: "cs:Radius"
-      Int: 9000
+      Name: "cs:PathWays"
+      ObjectReference {
+        SelfId: 3815900182090651153
+      }
     }
     Overrides {
-      Name: "cs:Angle"
-      Float: -30.3
+      Name: "cs:Speed"
+      Float: 300
     }
   }
   Collidable_v2 {
@@ -39,24 +41,15 @@ Objects {
   }
   Script {
     ScriptAsset {
-      Id: 16016075786288835896
+      Id: 2347125828653425215
     }
-  }
-  InstanceHistory {
-    SelfId: 12048948797892847672
-    SubobjectId: 5657711055070887006
-    InstanceId: 8649466991581744429
-    TemplateId: 17080666560096579051
   }
 }
 Objects {
-  Id: 11538910119490506593
-  Name: "FireWallModel"
+  Id: 3815900182090651153
+  Name: "PathWays"
   Transform {
     Location {
-      X: -1741.0957
-      Y: 8920.5918
-      Z: 1625
     }
     Rotation {
     }
@@ -66,7 +59,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 65857602579853648
+  ParentId: 13683379292976511251
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -76,12 +69,36 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "FireWallModel"
+    FilePartitionName: "PathWays"
   }
-  InstanceHistory {
-    SelfId: 11538910119490506593
-    SubobjectId: 5300803502378670855
-    InstanceId: 8649466991581744429
-    TemplateId: 17080666560096579051
+}
+Objects {
+  Id: 8768866053368028503
+  Name: "FireWallModel"
+  Transform {
+    Location {
+      X: 9038.76855
+      Y: 14617.7451
+      Z: 1827.58887
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13683379292976511251
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "FireWallModel"
   }
 }

@@ -63,9 +63,16 @@ Objects {
   }
 }
 Objects {
-  Id: 65857602579853648
+  Id: 13683379292976511251
   Name: "FireWall"
   Transform {
+    Location {
+      X: -5160
+      Y: -6670
+      Z: -1030
+    }
+    Rotation {
+    }
     Scale {
       X: 1
       Y: 1
@@ -82,12 +89,6 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "FireWall"
-  }
-  InstanceHistory {
-    SelfId: 65857602579853648
-    SubobjectId: 16815231608214709558
-    InstanceId: 8649466991581744429
-    TemplateId: 17080666560096579051
   }
 }
 Objects {
