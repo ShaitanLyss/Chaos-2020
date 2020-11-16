@@ -1,10 +1,19 @@
 ﻿Assets {
-  Id: 18309489063350449221
-  Name: "Arch Fancy Peaked 6m"
+  Id: 18060226610933033475
+  Name: "Fantasy Castle Pillar 01 Cap"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_arch_fancy_ogive_6m_001"
+    AssetId: "sm_ts_fan_cas_pillar_001_cap"
+  }
+}
+Assets {
+  Id: 15114409112028524366
+  Name: "Wispy Fog Volume VFX"
+  PlatformAssetType: 8
+  PrimaryAsset {
+    AssetType: "VfxBlueprintAssetRef"
+    AssetId: "fxbp_fog_volume_vfx"
   }
 }
 Assets {
@@ -17,6 +26,15 @@ Assets {
   }
 }
 Assets {
+  Id: 10479360902011736390
+  Name: "Castle Part - Grate 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_fan_cas_part_grate_001_ref"
+  }
+}
+Assets {
   Id: 7822473577673662489
   Name: "Fantasy Castle Pillar 01 Mid"
   PlatformAssetType: 1
@@ -26,12 +44,30 @@ Assets {
   }
 }
 Assets {
-  Id: 7600328839803009033
-  Name: "Cube - Polished"
+  Id: 7392455638299458893
+  Name: "Blizzard Volume VFX"
+  PlatformAssetType: 8
+  PrimaryAsset {
+    AssetType: "VfxBlueprintAssetRef"
+    AssetId: "fxbp_blizzard_volume"
+  }
+}
+Assets {
+  Id: 6474768715633236406
+  Name: "Fire Volume VFX"
+  PlatformAssetType: 8
+  PrimaryAsset {
+    AssetType: "VfxBlueprintAssetRef"
+    AssetId: "fxbp_fire_volume_vfx"
+  }
+}
+Assets {
+  Id: 4807246352784612400
+  Name: "Trim Crenellated 4m 02"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_hq_test_001"
+    AssetId: "sm_trim_crenellated_6m_003"
   }
 }
 Assets {

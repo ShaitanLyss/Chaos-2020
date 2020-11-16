@@ -339,16 +339,16 @@ Objects {
   }
 }
 Objects {
-  Id: 17095587146242281342
+  Id: 17195604941036812059
   Name: "Art_BottomWall"
   Transform {
     Location {
-      X: 8272.13672
-      Y: -244.27832
+      X: -12629.542
+      Y: -7099.50098
       Z: 0.00170898438
     }
     Rotation {
-      Yaw: -95
+      Yaw: 74.9999695
     }
     Scale {
       X: 1
@@ -363,54 +363,29 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 586102269327232757
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Art_BottomWall"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -12629.542
-            Y: -7099.50098
-            Z: 0.00170898438
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 74.9999695
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 6241468626065726186
-    }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Art_BottomWall"
+  }
+  InstanceHistory {
+    SelfId: 17195604941036812059
+    SubobjectId: 586102269327232757
+    InstanceId: 17095587146242281342
+    TemplateId: 6241468626065726186
+    WasRoot: true
   }
 }
 Objects {
-  Id: 17288477324790323703
+  Id: 6604415738908363890
   Name: "Art_BottomWall"
   Transform {
     Location {
-      X: 7930
-      Y: 2170
+      X: -12711.8389
+      Y: -9536.51465
       Z: 0.000366210938
     }
     Rotation {
-      Yaw: -79.9999771
+      Yaw: 89.9999924
     }
     Scale {
       X: 1
@@ -425,41 +400,16 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 586102269327232757
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Art_BottomWall"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -12711.8389
-            Y: -9536.51465
-            Z: 0.000366210938
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 89.9999924
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 6241468626065726186
-    }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Art_BottomWall_1"
+  }
+  InstanceHistory {
+    SelfId: 6604415738908363890
+    SubobjectId: 586102269327232757
+    InstanceId: 17288477324790323703
+    TemplateId: 6241468626065726186
+    WasRoot: true
   }
 }
 Objects {
@@ -637,6 +587,25 @@ Objects {
             X: 1
             Y: 1
             Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 2008065106272296226
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 5204.81348
+            Y: -99.0258789
+            Z: -150
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -30
           }
         }
       }

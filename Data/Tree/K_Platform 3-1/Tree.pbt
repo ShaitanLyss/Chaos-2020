@@ -92,35 +92,6 @@ Objects {
   ParentId: 3018169020355857279
   TemplateInstance {
     ParameterOverrideMap {
-      key: 8881477080085901474
-      value {
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Pitch: 13.921216
-            Yaw: -0.90032959
-            Roll: -2.38479614
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.900000036
-            Y: 0.900000036
-            Z: 12.2000008
-          }
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 37.0164948
-            Y: 4.51821852
-            Z: 13.40201
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
       key: 14666212901670409171
       value {
         Overrides {
@@ -128,16 +99,13 @@ Objects {
           String: "_P_KillCylinder"
         }
         Overrides {
-          Name: "Rotation"
-          Rotator {
+          Name: "Position"
+          Vector {
           }
         }
         Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
+          Name: "Rotation"
+          Rotator {
           }
         }
       }

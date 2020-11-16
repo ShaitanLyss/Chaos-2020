@@ -127,33 +127,13 @@ Objects {
     }
   }
   ParentId: 324945685516363519
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
   TemplateInstance {
-    ParameterOverrideMap {
-      key: 8881477080085901474
-      value {
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 2
-            Y: 2
-            Z: 13.5
-          }
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -3.81469727e-06
-            Y: 3.42378259
-            Z: -41.0886459
-          }
-        }
-      }
-    }
     ParameterOverrideMap {
       key: 14666212901670409171
       value {
@@ -162,16 +142,13 @@ Objects {
           String: "_P_KillCylinder"
         }
         Overrides {
-          Name: "Rotation"
-          Rotator {
+          Name: "Position"
+          Vector {
           }
         }
         Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
+          Name: "Rotation"
+          Rotator {
           }
         }
       }
