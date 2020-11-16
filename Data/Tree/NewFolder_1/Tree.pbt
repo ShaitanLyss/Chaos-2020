@@ -1,7 +1,7 @@
 ﻿Name: "NewFolder_1"
-RootId: 9332781788853781263
+RootId: 8478859386800843165
 Objects {
-  Id: 2459832503109291462
+  Id: 5500164995879155512
   Name: "Ivy 03"
   Transform {
     Location {
@@ -20,7 +20,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9332781788853781263
+  ParentId: 8478859386800843165
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -43,17 +43,16 @@ Objects {
   }
 }
 Objects {
-  Id: 14067814534099528669
+  Id: 3744115028239153671
   Name: "Ivy 04"
   Transform {
     Location {
-      X: 352.327484
-      Y: -16.6038666
+      X: 350
+      Y: 10
       Z: 450
     }
     Rotation {
-      Pitch: 10
-      Yaw: -10
+      Pitch: 9.99999714
       Roll: 90
     }
     Scale {
@@ -62,7 +61,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9332781788853781263
+  ParentId: 8478859386800843165
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -85,7 +84,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12907183016557558931
+  Id: 8584638319593559078
   Name: "Ivy 04"
   Transform {
     Location {
@@ -102,7 +101,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9332781788853781263
+  ParentId: 8478859386800843165
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -125,7 +124,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5032159811786572913
+  Id: 16953806927470779734
   Name: "Ivy 03"
   Transform {
     Location {
@@ -144,7 +143,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9332781788853781263
+  ParentId: 8478859386800843165
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -167,7 +166,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18071946432160482705
+  Id: 17115826838412689932
   Name: "Ivy 04"
   Transform {
     Location {
@@ -184,7 +183,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9332781788853781263
+  ParentId: 8478859386800843165
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -207,7 +206,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1526873928225729322
+  Id: 7195004752364534315
   Name: "Ivy 04"
   Transform {
     Location {
@@ -224,7 +223,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9332781788853781263
+  ParentId: 8478859386800843165
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -247,7 +246,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9579437716000325837
+  Id: 2812241576254532982
   Name: "Ivy 03"
   Transform {
     Location {
@@ -266,7 +265,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9332781788853781263
+  ParentId: 8478859386800843165
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -289,7 +288,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17407450309685543442
+  Id: 5741679080503656208
   Name: "Ivy 04"
   Transform {
     Location {
@@ -306,7 +305,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9332781788853781263
+  ParentId: 8478859386800843165
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -329,7 +328,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10608282531576444322
+  Id: 3876440291532593692
   Name: "Ivy 04"
   Transform {
     Location {
@@ -346,7 +345,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9332781788853781263
+  ParentId: 8478859386800843165
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -369,7 +368,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8140619282699532465
+  Id: 13321619355422236125
   Name: "Ivy 03"
   Transform {
     Location {
@@ -388,7 +387,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9332781788853781263
+  ParentId: 8478859386800843165
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -411,7 +410,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11005168575099676460
+  Id: 8467428866955306786
   Name: "Ivy 04"
   Transform {
     Location {
@@ -428,7 +427,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9332781788853781263
+  ParentId: 8478859386800843165
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -451,7 +450,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3143679178764369814
+  Id: 7949891631958190428
   Name: "Ivy 04"
   Transform {
     Location {
@@ -468,7 +467,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9332781788853781263
+  ParentId: 8478859386800843165
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -491,7 +490,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18440317218321842493
+  Id: 12276402076782982481
   Name: "Ivy 03"
   Transform {
     Location {
@@ -510,7 +509,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9332781788853781263
+  ParentId: 8478859386800843165
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -533,7 +532,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5907779715963005979
+  Id: 3686935804338609781
   Name: "Ivy 04"
   Transform {
     Location {
@@ -551,7 +550,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9332781788853781263
+  ParentId: 8478859386800843165
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -574,7 +573,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5556599729136856708
+  Id: 17268316795734295461
   Name: "Ivy 04"
   Transform {
     Location {
@@ -590,7 +589,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9332781788853781263
+  ParentId: 8478859386800843165
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -613,7 +612,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12998351719816681299
+  Id: 1533135472781431908
   Name: "Ivy 03"
   Transform {
     Location {
@@ -632,7 +631,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9332781788853781263
+  ParentId: 8478859386800843165
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -655,7 +654,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15501142065991549488
+  Id: 13763663577972692925
   Name: "Ivy 04"
   Transform {
     Location {
@@ -672,7 +671,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9332781788853781263
+  ParentId: 8478859386800843165
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -695,7 +694,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9284422783752428926
+  Id: 130950951758036588
   Name: "Ivy 04"
   Transform {
     Location {
@@ -712,7 +711,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9332781788853781263
+  ParentId: 8478859386800843165
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -735,7 +734,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18180535502424646405
+  Id: 6128148787112807823
   Name: "Ivy 03"
   Transform {
     Location {
@@ -754,7 +753,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9332781788853781263
+  ParentId: 8478859386800843165
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -777,7 +776,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2549006866486827714
+  Id: 8560043924024616177
   Name: "Ivy 04"
   Transform {
     Location {
@@ -794,7 +793,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9332781788853781263
+  ParentId: 8478859386800843165
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -817,7 +816,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10570434532005890048
+  Id: 17521182388745327922
   Name: "Ivy 04"
   Transform {
     Location {
@@ -834,7 +833,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9332781788853781263
+  ParentId: 8478859386800843165
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -857,7 +856,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15250495283437533827
+  Id: 10850426423131420487
   Name: "Ivy 03"
   Transform {
     Location {
@@ -876,7 +875,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9332781788853781263
+  ParentId: 8478859386800843165
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -899,7 +898,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2282945285218814715
+  Id: 6566227490329753932
   Name: "Ivy 04"
   Transform {
     Location {
@@ -916,7 +915,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9332781788853781263
+  ParentId: 8478859386800843165
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -939,7 +938,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17757179045004369546
+  Id: 8262501856409884819
   Name: "Ivy 04"
   Transform {
     Location {
@@ -956,7 +955,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9332781788853781263
+  ParentId: 8478859386800843165
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
