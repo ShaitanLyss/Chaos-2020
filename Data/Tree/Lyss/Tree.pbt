@@ -1,6 +1,158 @@
 ﻿Name: "Lyss"
 RootId: 10490075164851024102
 Objects {
+  Id: 1057485290948826442
+  Name: "L_Satan"
+  Transform {
+    Location {
+      X: -8425
+      Y: -5370
+      Z: 130
+    }
+    Rotation {
+      Yaw: 79.9999619
+    }
+    Scale {
+      X: 0.6
+      Y: 0.6
+      Z: 0.6
+    }
+  }
+  ParentId: 10490075164851024102
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 435567188758708007
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 1
+            G: 0.211655676
+            B: 0.0400000215
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 28.3674469
+            Y: 4.53256416
+            Z: 100.399483
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -90
+            Yaw: -0.000122070313
+            Roll: 0.0001575309
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 1074819998168035239
+      value {
+        Overrides {
+          Name: "Color"
+          Color {
+            R: 0.929999948
+            G: 0.110860921
+            A: 1
+          }
+        }
+        Overrides {
+          Name: "OuterConeAngle"
+          Float: 45.8135719
+        }
+        Overrides {
+          Name: "AttenuationRadius"
+          Float: 2882.72974
+        }
+        Overrides {
+          Name: "Intensity"
+          Float: 72.2820663
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 46.4590149
+            Z: 101.343559
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.769230723
+            Y: 0.769230723
+            Z: 0.769230723
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 5329428467144942625
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 2.92333984
+            Y: -2.39868164
+            Z: 101.609535
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -90
+            Yaw: -15.5643005
+            Roll: 15.5644293
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17674401717322926120
+      value {
+        Overrides {
+          Name: "Name"
+          String: "L_Satan"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -5350
+            Y: -7055
+            Z: 130
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -40
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.6
+            Y: 0.6
+            Z: 0.6
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13159434547275832339
+    }
+  }
+}
+Objects {
   Id: 13712436488991585933
   Name: "L_Satan"
   Transform {
@@ -126,7 +278,7 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: 79.9999771
+            Yaw: 95
           }
         }
         Overrides {

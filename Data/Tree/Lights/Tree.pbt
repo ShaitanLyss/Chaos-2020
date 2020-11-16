@@ -1,13 +1,92 @@
 ﻿Name: "Lights"
 RootId: 4185518877054539828
 Objects {
+  Id: 466416992780460257
+  Name: "Point Light"
+  Transform {
+    Location {
+      X: -5150
+      Y: -16925
+      Z: -24.9996338
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4185518877054539828
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Light {
+    Intensity: 18.0125751
+    Color {
+      R: 0.590000033
+      G: 0.117218561
+      A: 1
+    }
+    VolumetricIntensity: 5
+    TeamSettings {
+    }
+    Light {
+      Temperature: 6500
+      LocalLight {
+        AttenuationRadius: 1741.30994
+        PointLight {
+          SourceRadius: 20
+          SoftSourceRadius: 20
+          FallOffExponent: 8
+          UseFallOffExponent: true
+        }
+      }
+      MaxDrawDistance: 5000
+      MaxDistanceFadeRange: 1000
+    }
+  }
+}
+Objects {
+  Id: 11596094748446955285
+  Name: "Floor"
+  Transform {
+    Location {
+      X: -6260
+      Y: -15840
+      Z: -510
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4185518877054539828
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Floor"
+  }
+}
+Objects {
   Id: 11118944309674231911
   Name: "Point Light"
   Transform {
     Location {
-      X: -4325
-      Y: -17095
-      Z: -230
+      X: -4730
+      Y: -17050
+      Z: -140
     }
     Rotation {
     }
@@ -55,159 +134,9 @@ Objects {
   Name: "Point Light"
   Transform {
     Location {
-      X: -5625
-      Y: -16680
-      Z: -24.9996338
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4185518877054539828
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Light {
-    Intensity: 18.0125751
-    Color {
-      R: 0.590000033
-      G: 0.117218561
-      A: 1
-    }
-    VolumetricIntensity: 5
-    TeamSettings {
-    }
-    Light {
-      Temperature: 6500
-      LocalLight {
-        AttenuationRadius: 1741.30994
-        PointLight {
-          SourceRadius: 20
-          SoftSourceRadius: 20
-          FallOffExponent: 8
-          UseFallOffExponent: true
-        }
-      }
-      MaxDrawDistance: 5000
-      MaxDistanceFadeRange: 1000
-    }
-  }
-}
-Objects {
-  Id: 3865563358362360520
-  Name: "Point Light"
-  Transform {
-    Location {
-      X: -6340
-      Y: -15885
-      Z: -24.9998169
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4185518877054539828
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Light {
-    Intensity: 18.0125751
-    Color {
-      R: 0.590000033
-      G: 0.117218561
-      A: 1
-    }
-    VolumetricIntensity: 5
-    TeamSettings {
-    }
-    Light {
-      Temperature: 6500
-      LocalLight {
-        AttenuationRadius: 1741.30994
-        PointLight {
-          SourceRadius: 20
-          SoftSourceRadius: 20
-          FallOffExponent: 8
-          UseFallOffExponent: true
-        }
-      }
-      MaxDrawDistance: 5000
-      MaxDistanceFadeRange: 1000
-    }
-  }
-}
-Objects {
-  Id: 7721397591948070210
-  Name: "Point Light"
-  Transform {
-    Location {
-      X: -6810
-      Y: -14805
-      Z: -24.9998779
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4185518877054539828
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Light {
-    Intensity: 18.0125751
-    Color {
-      R: 0.590000033
-      G: 0.117218561
-      A: 1
-    }
-    VolumetricIntensity: 5
-    TeamSettings {
-    }
-    Light {
-      Temperature: 6500
-      LocalLight {
-        AttenuationRadius: 1741.30994
-        PointLight {
-          SourceRadius: 20
-          SoftSourceRadius: 20
-          FallOffExponent: 8
-          UseFallOffExponent: true
-        }
-      }
-      MaxDrawDistance: 5000
-      MaxDistanceFadeRange: 1000
-    }
-  }
-}
-Objects {
-  Id: 4074661147702052067
-  Name: "Point Light"
-  Transform {
-    Location {
-      X: -8220
-      Y: -12760
-      Z: 400
+      X: -6215
+      Y: -16815
+      Z: -550.000061
     }
     Rotation {
     }
@@ -255,9 +184,9 @@ Objects {
   Name: "Point Light"
   Transform {
     Location {
-      X: -7535
-      Y: -13570
-      Z: 295
+      X: -7150
+      Y: -14150
+      Z: 150.000061
     }
     Rotation {
     }
@@ -307,7 +236,7 @@ Objects {
     Location {
       X: -8795
       Y: -11540
-      Z: 210
+      Z: 330
     }
     Rotation {
     }

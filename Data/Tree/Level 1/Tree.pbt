@@ -25,7 +25,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Floor"
+    FilePartitionName: "Floor_1"
   }
 }
 Objects {
