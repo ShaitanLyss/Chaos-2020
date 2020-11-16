@@ -623,53 +623,6 @@ Objects {
   }
 }
 Objects {
-  Id: 15053191429740159544
-  Name: "Plane Circle - One Sided"
-  Transform {
-    Location {
-      X: 95
-      Y: -2765
-      Z: 29.9980469
-    }
-    Rotation {
-    }
-    Scale {
-      X: 201.300018
-      Y: 201.300018
-      Z: 201.300018
-    }
-  }
-  ParentId: 15626847083614465232
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 11382730314402330054
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13729717230941363308
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
   Id: 7674266749493108790
   Name: "F_Branches_stack"
   Transform {

@@ -186,7 +186,7 @@ Objects {
       Z: 990
     }
     Rotation {
-      Yaw: 150.119141
+      Yaw: 160.119171
     }
     Scale {
       X: 1
