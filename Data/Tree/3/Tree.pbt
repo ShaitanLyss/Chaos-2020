@@ -171,53 +171,6 @@ Objects {
   }
 }
 Objects {
-  Id: 11418088808379727743
-  Name: "E_Tree_Oak"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11391093173361849580
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 6558617143835967745
-      value {
-        Overrides {
-          Name: "Name"
-          String: "E_Tree_Oak"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -4785
-            Y: 1945
-            Z: 25
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 6862726296736467026
-    }
-  }
-}
-Objects {
   Id: 9827201569472620439
   Name: "F_Bush_2"
   Transform {
