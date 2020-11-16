@@ -17,6 +17,7 @@ end
 
 function FireSpreadInCircle(dt) 
     local pathWay = arr_pathWays[index] 
+    fireWallModel:LookAtContinuous(pathWay)
     fireWallModel:Follow(pathWay, speed)
 
     if (pathWay:GetWorldPosition() == fireWallModel:GetWorldPosition()) then
@@ -29,7 +30,7 @@ end
   
   
 function Tick(dt)
-    Task.Wait(0.4)
+    Task.Wait(0.1)
     --FollowPlayer()
     if (#arr_pathWays ~= 0) then
         FireSpreadInCircle(dt) 
