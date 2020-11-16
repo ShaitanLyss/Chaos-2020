@@ -1,6 +1,34 @@
 ﻿Name: "Lyss"
 RootId: 10490075164851024102
 Objects {
+  Id: 15626847083614465232
+  Name: "For"
+  Transform {
+    Location {
+      X: -365
+      Y: 2655
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10490075164851024102
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "For"
+  }
+}
+Objects {
   Id: 4185518877054539828
   Name: "Lights"
   Transform {
