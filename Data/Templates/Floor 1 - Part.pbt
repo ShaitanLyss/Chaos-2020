@@ -36,20 +36,26 @@
         Name: "Fire Volume VFX"
         Transform {
           Location {
-            X: 1070
-            Y: 3685
-            Z: 1030
+            X: 1070.00012
+            Y: 3684.99976
+            Z: 870
           }
           Rotation {
-            Yaw: -30.0000095
+            Yaw: -30
           }
           Scale {
             X: 20.9
             Y: 4
-            Z: 4
+            Z: 2.10000014
           }
         }
         ParentId: 9004552838829926765
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Density"
+            Float: 0.5
+          }
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -72,20 +78,26 @@
         Name: "Fire Volume VFX"
         Transform {
           Location {
-            X: 1720
-            Y: 4815
-            Z: 1030
+            X: 1720.00061
+            Y: 4815.00049
+            Z: 870
           }
           Rotation {
-            Yaw: -30.0000095
+            Yaw: -30
           }
           Scale {
             X: 20.9
             Y: 4
-            Z: 4
+            Z: 2.10000014
           }
         }
         ParentId: 9004552838829926765
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Density"
+            Float: 0.5
+          }
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }

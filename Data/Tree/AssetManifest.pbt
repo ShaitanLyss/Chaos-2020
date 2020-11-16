@@ -1,13 +1,4 @@
 ﻿Assets {
-  Id: 18302154991031027573
-  Name: "Rock 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_rock_generic_001"
-  }
-}
-Assets {
   Id: 17925326465180611494
   Name: "Cube"
   PlatformAssetType: 1
@@ -89,30 +80,12 @@ Assets {
   }
 }
 Assets {
-  Id: 7600328839803009033
-  Name: "Cube - Polished"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_hq_test_001"
-  }
-}
-Assets {
   Id: 7275364821095865506
   Name: "Cone - Truncated"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cone_truncated_001"
-  }
-}
-Assets {
-  Id: 6511634421723404197
-  Name: "Tree Redwood Small"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_tree_redwood_005"
   }
 }
 Assets {
@@ -140,14 +113,5 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_liana-vine_end_001_uv"
-  }
-}
-Assets {
-  Id: 1555513005730936579
-  Name: "Tree Oak 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_tree_oak_001"
   }
 }

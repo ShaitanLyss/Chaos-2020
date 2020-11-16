@@ -15,19 +15,16 @@ Objects {
     }
   }
   ChildIds: 3841774984750933128
-  ChildIds: 4434011006133901618
   ChildIds: 17178724431697183245
   ChildIds: 15822499511466264029
   ChildIds: 11404857991553905137
   ChildIds: 16794870566995681664
-  ChildIds: 9195659622545013213
-  ChildIds: 12203816870592117184
   ChildIds: 4861888266353863378
   ChildIds: 3217359669344804486
   ChildIds: 10490075164851024102
-  ChildIds: 17215107426445451049
-  ChildIds: 9929188941974638389
-  ChildIds: 6342388802942584811
+  ChildIds: 4435943988130033809
+  ChildIds: 4185518877054539828
+  ChildIds: 4434011006133901618
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -40,93 +37,11 @@ Objects {
   }
 }
 Objects {
-  Id: 6342388802942584811
-  Name: "Rock 01"
+  Id: 4434011006133901618
+  Name: "Lighting"
   Transform {
     Location {
-      X: 2780
-      Y: 7410
-      Z: 440
-    }
-    Rotation {
-      Pitch: -35
-      Roll: -5
-    }
-    Scale {
-      X: 1.99999976
-      Y: 1.99999976
-      Z: 2.10000014
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 18302154991031027573
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 9929188941974638389
-  Name: "Tree Oak 01"
-  Transform {
-    Location {
-      X: 2800
-      Y: 7340
-      Z: 640
-    }
-    Rotation {
-      Roll: 35
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 1555513005730936579
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 17215107426445451049
-  Name: "Tree Redwood Small"
-  Transform {
-    Location {
-      X: 2020
-      Y: 8010
+      Z: 700
     }
     Rotation {
     }
@@ -143,19 +58,67 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  CoreMesh {
-    MeshAsset {
-      Id: 6511634421723404197
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Lighting"
+  }
+}
+Objects {
+  Id: 4185518877054539828
+  Name: "Lights"
+  Transform {
+    Location {
+      X: -170
+      Y: 8840
+      Z: 680
     }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
+    Rotation {
     }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
     }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Lights"
+  }
+}
+Objects {
+  Id: 4435943988130033809
+  Name: "NewFolder"
+  Transform {
+    Location {
+      X: 3010
+      Y: 7840
+      Z: -580
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "NewFolder"
   }
 }
 Objects {
@@ -238,86 +201,6 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Alaa"
-  }
-}
-Objects {
-  Id: 12203816870592117184
-  Name: "Size for lyss"
-  Transform {
-    Location {
-      X: 941.594238
-      Y: 9881.55176
-      Z: 350
-    }
-    Rotation {
-      Yaw: 84.5
-    }
-    Scale {
-      X: 1
-      Y: 26
-      Z: 3.8656044
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 7600328839803009033
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 9195659622545013213
-  Name: "Block to verify alinement "
-  Transform {
-    Location {
-      X: 1400
-      Y: 6650
-      Z: 2650
-    }
-    Rotation {
-      Yaw: -15
-    }
-    Scale {
-      X: 1
-      Y: 60.2500038
-      Z: 7.75
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 7600328839803009033
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
   }
 }
 Objects {
@@ -972,33 +855,6 @@ Objects {
     VoxelSize: 100
     OctreeDepth: 5
     GeneratorID: "DEPRECATED"
-  }
-}
-Objects {
-  Id: 4434011006133901618
-  Name: "Lighting"
-  Transform {
-    Location {
-      Z: 700
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Lighting"
   }
 }
 Objects {

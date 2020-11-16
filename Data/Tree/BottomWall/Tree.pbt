@@ -148,15 +148,6 @@ Objects {
         }
       }
     }
-    ParameterOverrideMap {
-      key: 3511335812106484098
-      value {
-        Overrides {
-          Name: "bp:Density"
-          Float: 1.24339581
-        }
-      }
-    }
     TemplateAsset {
       Id: 6241468626065726186
     }

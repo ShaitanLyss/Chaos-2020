@@ -16,6 +16,8 @@
           }
         }
         ParentId: 6339063528643310247
+        ChildIds: 1932118485738406925
+        ChildIds: 2008065106272296226
         ChildIds: 3511335812106484098
         ChildIds: 6501508010533959706
         ChildIds: 9215944930008113058
@@ -33,6 +35,78 @@
         }
         Folder {
           IsFilePartition: true
+        }
+      }
+      Objects {
+        Id: 1932118485738406925
+        Name: "Fire Volume VFX"
+        Transform {
+          Location {
+            X: 4894.78955
+            Y: -1382.94
+            Z: -150
+          }
+          Rotation {
+            Yaw: -30.0000095
+          }
+          Scale {
+            X: 20.9
+            Y: 4
+            Z: 3.2
+          }
+        }
+        ParentId: 586102269327232757
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 6474768715633236406
+          }
+          TeamSettings {
+          }
+          Vfx {
+            AutoPlay: true
+          }
+        }
+      }
+      Objects {
+        Id: 2008065106272296226
+        Name: "Fire Volume VFX"
+        Transform {
+          Location {
+            X: 5390.85059
+            Y: 93.2850189
+            Z: -150
+          }
+          Rotation {
+            Yaw: -30.0000095
+          }
+          Scale {
+            X: 20.9
+            Y: 4
+            Z: 3.2
+          }
+        }
+        ParentId: 586102269327232757
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 6474768715633236406
+          }
+          TeamSettings {
+          }
+          Vfx {
+            AutoPlay: true
+          }
         }
       }
       Objects {
@@ -62,6 +136,10 @@
               B: 0.75
               A: 0.292000026
             }
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 1.24339581
           }
         }
         Collidable_v2 {
@@ -1165,6 +1243,15 @@
             }
           }
         }
+      }
+    }
+    Assets {
+      Id: 6474768715633236406
+      Name: "Fire Volume VFX"
+      PlatformAssetType: 8
+      PrimaryAsset {
+        AssetType: "VfxBlueprintAssetRef"
+        AssetId: "fxbp_fire_volume_vfx"
       }
     }
     Assets {
