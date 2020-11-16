@@ -18,7 +18,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "bp:Volumetric Fog"
-      Bool: true
+      Bool: false
     }
     Overrides {
       Name: "bp:Fog Density"
@@ -27,9 +27,8 @@ Objects {
     Overrides {
       Name: "bp:color"
       Color {
-        R: 0.240486041
-        G: 0.343244016
-        B: 0.538000047
+        R: 0.120000005
+        G: 0.0762914
         A: 1
       }
     }
