@@ -89,6 +89,14 @@ Objects {
     }
   }
   ParentId: 10151941972853278791
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:K_Platform"
+      ObjectReference {
+        SelfId: 10151941972853278791
+      }
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
