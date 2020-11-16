@@ -5,11 +5,12 @@ Objects {
   Name: "Stuff"
   Transform {
     Location {
-      X: 4380
-      Y: 6690
-      Z: 1020
+      X: 5240
+      Y: 5830
+      Z: 1019.99976
     }
     Rotation {
+      Yaw: -10
     }
     Scale {
       X: 1
