@@ -230,7 +230,7 @@ Objects {
       Y: -100
     }
     Rotation {
-      Pitch: -50.3374519
+      Pitch: -50.3374634
       Roll: 22.2945652
     }
     Scale {
