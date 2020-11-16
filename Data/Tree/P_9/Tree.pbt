@@ -1,24 +1,24 @@
-﻿Name: "P_7"
-RootId: 10402200151551395358
+﻿Name: "P_9"
+RootId: 10575847683683674536
 Objects {
-  Id: 1736692278060324103
+  Id: 2844123327245984178
   Name: "Trigger"
   Transform {
     Location {
-      X: -4070
-      Y: 8270
+      X: -6470
+      Y: 7290
       Z: 200
     }
     Rotation {
-      Yaw: 22.4999695
+      Yaw: 37.9999619
     }
     Scale {
-      X: 6.80000067
-      Y: 13.2
+      X: 5.70000029
+      Y: 7
       Z: 1
     }
   }
-  ParentId: 10402200151551395358
+  ParentId: 10575847683683674536
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -35,14 +35,14 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 1736692278060324103
-    SubobjectId: 17414211677451845985
+    SelfId: 2844123327245984178
+    SubobjectId: 14900746736446158292
     InstanceId: 8649466991581744429
     TemplateId: 17080666560096579051
   }
 }
 Objects {
-  Id: 16557351161081440058
+  Id: 14840854787427948497
   Name: "PlatformCheckPoint"
   Transform {
     Location {
@@ -55,12 +55,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10402200151551395358
+  ParentId: 10575847683683674536
   UnregisteredParameters {
     Overrides {
       Name: "cs:Platform"
       ObjectReference {
-        SelfId: 10402200151551395358
+        SelfId: 10575847683683674536
       }
     }
   }
@@ -83,16 +83,16 @@ Objects {
   }
 }
 Objects {
-  Id: 3586497484466344180
+  Id: 9328835357138385741
   Name: "PlatformModel"
   Transform {
     Location {
-      X: -4080
-      Y: 8270
+      X: -6470
+      Y: 7290
       Z: 150
     }
     Rotation {
-      Yaw: 22.5
+      Yaw: 38
     }
     Scale {
       X: 1
@@ -100,8 +100,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10402200151551395358
-  ChildIds: 15556206406788742525
+  ParentId: 10575847683683674536
+  ChildIds: 14202789625843169559
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -119,7 +119,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15556206406788742525
+  Id: 14202789625843169559
   Name: "_PS_Rectangle_wide"
   Transform {
     Scale {
@@ -128,7 +128,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3586497484466344180
+  ParentId: 9328835357138385741
   TemplateInstance {
     ParameterOverrideMap {
       key: 1825230877436865430
@@ -136,14 +136,19 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 8.26377869
-            Y: 14.2900934
+            X: 6.9
+            Y: 7.79999924
             Z: 1
           }
         }
         Overrides {
           Name: "Position"
           Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
           }
         }
       }
