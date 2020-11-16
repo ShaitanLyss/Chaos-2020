@@ -16,6 +16,23 @@
           }
         }
         ParentId: 4781671109827199097
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 13856451128293877050
+            }
+          }
+          Overrides {
+            Name: "ma:Nature_Leaves:color"
+            Color {
+              R: 0.0684985444
+              G: 0.104
+              B: 0.00974993221
+              A: 1
+            }
+          }
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
