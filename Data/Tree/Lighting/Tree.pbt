@@ -18,15 +18,24 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "bp:Volumetric Fog"
-      Bool: false
+      Bool: true
+    }
+    Overrides {
+      Name: "bp:Fog Density"
+      Float: 0.831789136
     }
     Overrides {
       Name: "bp:color"
       Color {
-        R: 0.470000029
-        G: 0.168079481
+        R: 0.240486041
+        G: 0.343244016
+        B: 0.538000047
         A: 1
       }
+    }
+    Overrides {
+      Name: "bp:Light Absorption Amount"
+      Float: 10
     }
   }
   Collidable_v2 {
@@ -299,9 +308,9 @@ Objects {
     Overrides {
       Name: "bp:Haze Color"
       Color {
-        R: 0.590618849
-        G: 0.590618849
-        B: 0.701101899
+        R: 0.309166372
+        G: 0.309166372
+        B: 0.367
         A: 1
       }
     }
@@ -378,6 +387,15 @@ Objects {
     Overrides {
       Name: "bp:High Cloud Noise Scale"
       Float: 0.2
+    }
+    Overrides {
+      Name: "bp:Overall Tint"
+      Color {
+        R: 0.734
+        G: 0.734
+        B: 0.734
+        A: 1
+      }
     }
   }
   Collidable_v2 {

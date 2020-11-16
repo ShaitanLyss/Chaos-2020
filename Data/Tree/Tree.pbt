@@ -25,6 +25,8 @@ Objects {
   ChildIds: 4435943988130033809
   ChildIds: 4185518877054539828
   ChildIds: 4434011006133901618
+  ChildIds: 16822725139485920883
+  ChildIds: 17374216160728892875
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -34,6 +36,76 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 17374216160728892875
+  Name: "Planetary Ring"
+  Transform {
+    Location {
+      X: 6980
+      Y: 3540
+      Z: 1480
+    }
+    Rotation {
+      Pitch: -30
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Ring Appearance"
+      Enum {
+        Value: "mc:eplanetaryrings:3"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 16122861514950347918
+    }
+    TeamSettings {
+    }
+  }
+}
+Objects {
+  Id: 16822725139485920883
+  Name: "Star Dome"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 12344193518355455075
+    }
+    TeamSettings {
+    }
   }
 }
 Objects {
@@ -832,6 +904,7 @@ Objects {
     Location {
       X: -350
       Y: -50
+      Z: -4380
     }
     Rotation {
     }
@@ -850,9 +923,9 @@ Objects {
   }
   Terrain {
     Material {
-      Id: 17876715809223891970
+      Id: 15204099897425095608
     }
-    VoxelSize: 100
+    VoxelSize: 500
     OctreeDepth: 5
     GeneratorID: "DEPRECATED"
   }

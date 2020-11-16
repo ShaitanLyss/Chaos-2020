@@ -8,21 +8,21 @@
   }
 }
 Assets {
-  Id: 17876715809223891970
-  Name: "Forest Floor 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "forest-floor_001"
-  }
-}
-Assets {
   Id: 17737960441981515646
   Name: "Cube - Chamfered Small Polished"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_cube_hq_003"
+  }
+}
+Assets {
+  Id: 16122861514950347918
+  Name: "Planetary Ring"
+  PlatformAssetType: 6
+  PrimaryAsset {
+    AssetType: "BlueprintAssetRef"
+    AssetId: "CORESKY_PlanetaryRing"
   }
 }
 Assets {
@@ -41,6 +41,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_liana-vine_001_uv"
+  }
+}
+Assets {
+  Id: 12344193518355455075
+  Name: "Star Dome"
+  PlatformAssetType: 6
+  PrimaryAsset {
+    AssetType: "BlueprintAssetRef"
+    AssetId: "CORESKY_StarDome"
   }
 }
 Assets {
