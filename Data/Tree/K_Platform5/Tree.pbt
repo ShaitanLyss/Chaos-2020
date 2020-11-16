@@ -5,12 +5,12 @@ Objects {
   Name: "Trigger4"
   Transform {
     Location {
-      X: -8600
-      Y: -14960
+      X: -6430.15625
+      Y: -16148.7227
       Z: 350
     }
     Rotation {
-      Yaw: -36.9999695
+      Yaw: -22.4473877
     }
     Scale {
       X: 0.6
@@ -40,17 +40,17 @@ Objects {
   Name: "Trigger3"
   Transform {
     Location {
-      X: -8730
-      Y: -15130
-      Z: 120
+      X: -6530.59424
+      Y: -16377.8418
+      Z: 131.813354
     }
     Rotation {
-      Yaw: -36.9999695
+      Yaw: -22
     }
     Scale {
-      X: 0.75
-      Y: 6.75
-      Z: 1.25
+      X: 0.531382322
+      Y: 6.75000954
+      Z: 1.50695813
     }
   }
   ParentId: 12283715986860843677
@@ -75,16 +75,16 @@ Objects {
   Name: "Trigger2"
   Transform {
     Location {
-      X: -8740
-      Y: -15150
-      Z: 740
+      X: -6533.73633
+      Y: -16382.5313
+      Z: 730.000061
     }
     Rotation {
-      Yaw: -36.9999695
+      Yaw: -22
     }
     Scale {
-      X: 1
-      Y: 6.75
+      X: 0.600942135
+      Y: 6.75001335
       Z: 3.75
     }
   }
@@ -110,16 +110,16 @@ Objects {
   Name: "Trigger1"
   Transform {
     Location {
-      X: -9220
-      Y: -15800
+      X: -6834.93799
+      Y: -17108.0762
       Z: 390
     }
     Rotation {
-      Yaw: -36.9999695
+      Yaw: -22
     }
     Scale {
-      X: 1.5
-      Y: 11
+      X: 0.634055257
+      Y: 10.9999847
       Z: 6.75
     }
   }
@@ -180,11 +180,12 @@ Objects {
   Name: "PlatformModel"
   Transform {
     Location {
-      X: -8830
-      Y: -15265
+      X: -6580
+      Y: -16500
       Z: 50
     }
     Rotation {
+      Yaw: 14.3024492
     }
     Scale {
       X: 1
@@ -292,8 +293,8 @@ Objects {
   Name: "K.5-3"
   Transform {
     Location {
-      X: 83.5087891
-      Y: 110.664063
+      X: 83.5089111
+      Y: 110.6642
       Z: 0.000610351563
     }
     Rotation {
@@ -302,7 +303,7 @@ Objects {
     Scale {
       X: 0.5
       Y: 6.75
-      Z: 1.33909297
+      Z: 1.56601822
     }
   }
   ParentId: 8409269553759366096
