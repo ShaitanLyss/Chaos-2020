@@ -1,23 +1,23 @@
 ﻿Assets {
-  Id: 5437390543263377148
-  Name: "F_Wild_Bush"
+  Id: 7286100313829558772
+  Name: "F_Wild_Bush_2"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 17320432266554423745
+      RootId: 12773884042022073230
       Objects {
-        Id: 17320432266554423745
-        Name: "F_Wild_Bush"
+        Id: 12773884042022073230
+        Name: "F_Wild_Bush_2"
         Transform {
           Scale {
-            X: 1.4
-            Y: 1.4
-            Z: 1.4
+            X: 1
+            Y: 1
+            Z: 1
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 11451050256024917560
-        ChildIds: 31767873027108217
+        ChildIds: 11512921419345146565
+        ChildIds: 15799332111584963408
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -29,18 +29,24 @@
         }
       }
       Objects {
-        Id: 11451050256024917560
+        Id: 11512921419345146565
         Name: "F_Flower_Wild_2"
         Transform {
           Location {
+            X: 10
+            Y: 10
+            Z: -10
+          }
+          Rotation {
+            Yaw: 135
           }
           Scale {
-            X: 1.6
-            Y: 1.6
-            Z: 1.6
+            X: 1.80000007
+            Y: 1.80000007
+            Z: 1.80000007
           }
         }
-        ParentId: 17320432266554423745
+        ParentId: 12773884042022073230
         UnregisteredParameters {
           Overrides {
             Name: "ma:Nature_Leaves:color"
@@ -80,11 +86,11 @@
         }
       }
       Objects {
-        Id: 31767873027108217
+        Id: 15799332111584963408
         Name: "F_Bush_1"
         Transform {
           Location {
-            Z: 75.0000916
+            Z: 30
           }
           Rotation {
           }
@@ -94,7 +100,7 @@
             Z: 0.5
           }
         }
-        ParentId: 17320432266554423745
+        ParentId: 12773884042022073230
         UnregisteredParameters {
           Overrides {
             Name: "ma:Nature_Leaves:color"

@@ -21,7 +21,6 @@ Objects {
   ChildIds: 4861888266353863378
   ChildIds: 10490075164851024102
   ChildIds: 4434011006133901618
-  ChildIds: 7191000007107922009
   ChildIds: 9321966516087236899
   ChildIds: 17503036414563174262
   ChildIds: 14696390392128977292
@@ -32,6 +31,17 @@ Objects {
   ChildIds: 194160055420890345
   ChildIds: 1241148615274324242
   ChildIds: 10402200151551395358
+  ChildIds: 9996370634077605424
+  ChildIds: 9916363801138061306
+  ChildIds: 5629891748219112339
+  ChildIds: 5022777143265942898
+  ChildIds: 3371724440819050949
+  ChildIds: 16670985076352916654
+  ChildIds: 17217945603847716234
+  ChildIds: 11869708745887108138
+  ChildIds: 9549886400794992825
+  ChildIds: 7674266749493108790
+  ChildIds: 15053191429740159544
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -41,6 +51,449 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 15053191429740159544
+  Name: "Plane Circle - One Sided"
+  Transform {
+    Location {
+      X: -270
+      Y: -110
+      Z: 29.9980469
+    }
+    Rotation {
+    }
+    Scale {
+      X: 201.300018
+      Y: 201.300018
+      Z: 201.300018
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 11382730314402330054
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13729717230941363308
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 7674266749493108790
+  Name: "F_Branches_stack"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 10570402801110353219
+      value {
+        Overrides {
+          Name: "Name"
+          String: "F_Branches_stack"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 11541376240695696508
+    }
+  }
+}
+Objects {
+  Id: 9549886400794992825
+  Name: "F_Fern_4"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 5874517661221398924
+      value {
+        Overrides {
+          Name: "Name"
+          String: "F_Fern_4"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1065
+            Y: 8115
+            Z: 30
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 18229426741649529381
+    }
+  }
+}
+Objects {
+  Id: 11869708745887108138
+  Name: "F_Wild_Bush_2"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 12773884042022073230
+      value {
+        Overrides {
+          Name: "Name"
+          String: "F_Wild_Bush_2"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1400
+            Y: 9205
+            Z: 70.0001526
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 7286100313829558772
+    }
+  }
+}
+Objects {
+  Id: 17217945603847716234
+  Name: "F_Fern_4"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 5874517661221398924
+      value {
+        Overrides {
+          Name: "Name"
+          String: "F_Fern_4"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1435
+            Y: 9195
+            Z: 49.9997711
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.5
+            Y: 0.5
+            Z: 0.5
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -135
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 18229426741649529381
+    }
+  }
+}
+Objects {
+  Id: 16670985076352916654
+  Name: "F_Bush_1"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 5210268259426317718
+      value {
+        Overrides {
+          Name: "Name"
+          String: "F_Bush_1"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1440
+            Y: 9270
+            Z: 30.0000305
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.8
+            Y: 0.8
+            Z: 0.8
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 6182679819428014993
+    }
+  }
+}
+Objects {
+  Id: 3371724440819050949
+  Name: "F_Fern_4"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 5874517661221398924
+      value {
+        Overrides {
+          Name: "Name"
+          String: "F_Fern_4"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1340
+            Y: 9335
+            Z: 25
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -65
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.8
+            Y: 0.8
+            Z: 0.8
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 18229426741649529381
+    }
+  }
+}
+Objects {
+  Id: 5022777143265942898
+  Name: "F_Fern_4"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 5874517661221398924
+      value {
+        Overrides {
+          Name: "Name"
+          String: "F_Fern_4"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1205
+            Y: 9585
+            Z: 25
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 18229426741649529381
+    }
+  }
+}
+Objects {
+  Id: 5629891748219112339
+  Name: "F_Wild_Bush"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 17320432266554423745
+      value {
+        Overrides {
+          Name: "Name"
+          String: "F_Wild_Bush"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1295
+            Y: 9315
+            Z: 30.000061
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1.1
+            Y: 1.1
+            Z: 1.1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5437390543263377148
+    }
+  }
+}
+Objects {
+  Id: 9916363801138061306
+  Name: "F_Wild_Bush"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 17320432266554423745
+      value {
+        Overrides {
+          Name: "Name"
+          String: "F_Wild_Bush"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1235
+            Y: 9430
+            Z: 24.999939
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -75
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5437390543263377148
+    }
+  }
+}
+Objects {
+  Id: 9996370634077605424
+  Name: "F_Wild_Bush"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 17320432266554423745
+      value {
+        Overrides {
+          Name: "Name"
+          String: "F_Wild_Bush"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1185
+            Y: 9580
+            Z: 25
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 45
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1.2
+            Y: 1.2
+            Z: 1.2
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5437390543263377148
+    }
   }
 }
 Objects {
@@ -323,44 +776,6 @@ Objects {
   ParentId: 4781671109827199097
   TemplateInstance {
     ParameterOverrideMap {
-      key: 31767873027108217
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            Z: 75.0000916
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.5
-            Y: 0.5
-            Z: 0.5
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 11451050256024917560
-      value {
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1.6
-            Y: 1.6
-            Z: 1.6
-          }
-        }
-        Overrides {
-          Name: "ma:Nature_Leaves:id"
-          AssetReference {
-            Id: 3915072953041394971
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
       key: 17320432266554423745
       value {
         Overrides {
@@ -422,248 +837,6 @@ Objects {
     InstanceId: 14431663957882783969
     TemplateId: 7317441386107963647
     WasRoot: true
-  }
-}
-Objects {
-  Id: 7191000007107922009
-  Name: "Gym"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  ChildIds: 4542149253841207279
-  ChildIds: 2619412930790050
-  ChildIds: 9295679936483250126
-  ChildIds: 8059249968096773147
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 8059249968096773147
-  Name: "_PS_Rectangle_wide"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 7191000007107922009
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 11667518170341861543
-      value {
-        Overrides {
-          Name: "Name"
-          String: "_PS_Rectangle_wide"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 490
-            Y: 10600
-            Z: 5
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 17594147940704495209
-    }
-  }
-}
-Objects {
-  Id: 9295679936483250126
-  Name: "_PS_Rectangle_small"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 7191000007107922009
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 10953068183107250475
-      value {
-        Overrides {
-          Name: "Name"
-          String: "_PS_Rectangle_small"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 725
-            Y: 10845
-            Z: -5
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 12159032773331541081
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 620
-            Y: -680
-            Z: 310
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 18160197662068348531
-    }
-  }
-}
-Objects {
-  Id: 2619412930790050
-  Name: "_P_Rectangle+Circle"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 7191000007107922009
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 15366785812141456811
-      value {
-        Overrides {
-          Name: "Name"
-          String: "_P_Rectangle+Circle"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 1285
-            Y: 10555
-            Z: -5
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 1181993706902254897
-    }
-  }
-}
-Objects {
-  Id: 4542149253841207279
-  Name: "_P_KillCylinder"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 7191000007107922009
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 8881477080085901474
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 765
-            Y: 415
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 14666212901670409171
-      value {
-        Overrides {
-          Name: "Name"
-          String: "_P_KillCylinder"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 1090
-            Y: 10400
-            Z: 10
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 6965630994047288269
-    }
   }
 }
 Objects {
@@ -852,10 +1025,255 @@ Objects {
   }
   Terrain {
     Material {
-      Id: 15204099897425095608
+      Id: 2317594266195220419
     }
     VoxelSize: 500
     OctreeDepth: 5
     GeneratorID: "DEPRECATED"
+    Foliage {
+      Asset {
+        Id: 16069933497025116501
+      }
+      DistanceBetweenInstances: 1000
+      MaterialChannel: 1
+      SpawnDistance: 20000
+      CullDistance {
+        Min: 10000
+        Max: 20000
+      }
+      ReceivesDecals: true
+      GroundSlopeAngle {
+        Max: 90
+      }
+      Scaling {
+        ScaleX {
+          Min: 1
+          Max: 1
+        }
+        ScaleY {
+          Min: 1
+          Max: 1
+        }
+        ScaleZ {
+          Min: 1
+          Max: 1
+        }
+      }
+      RotationAlignment: AlignToWorldUp
+      RandomYaw: true
+      RandomPitchAngle: 6
+      Materials {
+        key: "Nature_Branch"
+        value {
+          Id: 841534158063459245
+        }
+      }
+      LocalPositionOffset {
+      }
+      LocalRotationOffset {
+      }
+      GlobalPositionOffset {
+      }
+      Height {
+        Min: -102400
+        Max: 102400
+      }
+    }
+    Foliage {
+      Asset {
+        Id: 11251881958373893300
+      }
+      DistanceBetweenInstances: 300
+      MaterialChannel: 1
+      SpawnDistance: 32000
+      CullDistance {
+        Min: 10000
+        Max: 20000
+      }
+      ReceivesDecals: true
+      GroundSlopeAngle {
+        Max: 90
+      }
+      Scaling {
+        ScaleX {
+          Min: 1
+          Max: 1
+        }
+        ScaleY {
+          Min: 1
+          Max: 1
+        }
+        ScaleZ {
+          Min: 1
+          Max: 1
+        }
+      }
+      RotationAlignment: AlignToWorldUp
+      RandomYaw: true
+      RandomPitchAngle: 6
+      Materials {
+        key: "Nature_Branch"
+        value {
+          Id: 841534158063459245
+        }
+      }
+      LocalPositionOffset {
+      }
+      LocalRotationOffset {
+      }
+      GlobalPositionOffset {
+      }
+      Height {
+        Min: -102400
+        Max: 102400
+      }
+    }
+    Foliage {
+      Asset {
+        Id: 4914153094322237468
+      }
+      DistanceBetweenInstances: 1000
+      MaterialChannel: 1
+      SpawnDistance: 32000
+      CullDistance {
+        Min: 10000
+        Max: 20000
+      }
+      ReceivesDecals: true
+      GroundSlopeAngle {
+        Max: 90
+      }
+      Scaling {
+        ScaleX {
+          Min: 1
+          Max: 1
+        }
+        ScaleY {
+          Min: 1
+          Max: 1
+        }
+        ScaleZ {
+          Min: 1
+          Max: 1
+        }
+      }
+      RotationAlignment: AlignToWorldUp
+      RandomYaw: true
+      RandomPitchAngle: 6
+      Materials {
+        key: "Shared_BaseMaterial"
+        value {
+          Id: 841534158063459245
+        }
+      }
+      LocalPositionOffset {
+      }
+      LocalRotationOffset {
+      }
+      GlobalPositionOffset {
+      }
+      Height {
+        Min: -102400
+        Max: 102400
+      }
+    }
+    Foliage {
+      Asset {
+        Id: 4146806597461420985
+      }
+      DistanceBetweenInstances: 500
+      MaterialChannel: 1
+      SpawnDistance: 32000
+      CullDistance {
+        Min: 10000
+        Max: 20000
+      }
+      ReceivesDecals: true
+      GroundSlopeAngle {
+        Max: 90
+      }
+      Scaling {
+        ScaleX {
+          Min: 1
+          Max: 1
+        }
+        ScaleY {
+          Min: 1
+          Max: 1
+        }
+        ScaleZ {
+          Min: 1
+          Max: 1
+        }
+      }
+      RotationAlignment: AlignToWorldUp
+      RandomYaw: true
+      RandomPitchAngle: 6
+      Materials {
+        key: "Nature_Leaves"
+        value {
+          Id: 841534158063459245
+        }
+      }
+      LocalPositionOffset {
+      }
+      LocalRotationOffset {
+      }
+      GlobalPositionOffset {
+      }
+      Height {
+        Min: -102400
+        Max: 102400
+      }
+    }
+    Foliage {
+      Asset {
+        Id: 5267638473891791996
+      }
+      DistanceBetweenInstances: 700
+      MaterialChannel: 1
+      SpawnDistance: 32000
+      CullDistance {
+        Min: 10000
+        Max: 20000
+      }
+      ReceivesDecals: true
+      GroundSlopeAngle {
+        Max: 90
+      }
+      Scaling {
+        ScaleX {
+          Min: 1
+          Max: 1
+        }
+        ScaleY {
+          Min: 1
+          Max: 1
+        }
+        ScaleZ {
+          Min: 1
+          Max: 1
+        }
+      }
+      RotationAlignment: AlignToWorldUp
+      RandomYaw: true
+      RandomPitchAngle: 6
+      Materials {
+        key: "Nature_Leaves"
+        value {
+          Id: 841534158063459245
+        }
+      }
+      LocalPositionOffset {
+      }
+      LocalRotationOffset {
+      }
+      GlobalPositionOffset {
+      }
+      Height {
+        Min: -102400
+        Max: 102400
+      }
+    }
   }
 }

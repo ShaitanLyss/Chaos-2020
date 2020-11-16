@@ -157,6 +157,11 @@ Objects {
             Z: 1
           }
         }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
       }
     }
     TemplateAsset {

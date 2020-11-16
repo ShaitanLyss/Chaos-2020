@@ -26,6 +26,12 @@
               A: 1
             }
           }
+          Overrides {
+            Name: "ma:Nature_Leaves:id"
+            AssetReference {
+              Id: 3915072953041394971
+            }
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"

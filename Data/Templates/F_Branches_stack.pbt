@@ -1,23 +1,24 @@
 ﻿Assets {
-  Id: 5437390543263377148
-  Name: "F_Wild_Bush"
+  Id: 11541376240695696508
+  Name: "F_Branches_stack"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 17320432266554423745
+      RootId: 10570402801110353219
       Objects {
-        Id: 17320432266554423745
-        Name: "F_Wild_Bush"
+        Id: 10570402801110353219
+        Name: "F_Branches_stack"
         Transform {
           Scale {
-            X: 1.4
-            Y: 1.4
-            Z: 1.4
+            X: 1
+            Y: 1
+            Z: 1
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 11451050256024917560
-        ChildIds: 31767873027108217
+        ChildIds: 6186161009702175628
+        ChildIds: 9344813575195835293
+        ChildIds: 5414992368434112151
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -25,87 +26,27 @@
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Folder {
-          IsGroup: true
+          IsFilePartition: true
         }
       }
       Objects {
-        Id: 11451050256024917560
-        Name: "F_Flower_Wild_2"
+        Id: 6186161009702175628
+        Name: "F_Branches_medium"
         Transform {
           Location {
-          }
-          Scale {
-            X: 1.6
-            Y: 1.6
-            Z: 1.6
-          }
-        }
-        ParentId: 17320432266554423745
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Nature_Leaves:color"
-            Color {
-              R: 0.063
-              G: 0.063
-              B: 0.063
-              A: 1
-            }
-          }
-          Overrides {
-            Name: "ma:Nature_Leaves:id"
-            AssetReference {
-              Id: 3915072953041394971
-            }
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 2880675532590769765
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 31767873027108217
-        Name: "F_Bush_1"
-        Transform {
-          Location {
-            Z: 75.0000916
+            X: 1185
+            Y: 8785
+            Z: 30
           }
           Rotation {
           }
           Scale {
-            X: 0.5
-            Y: 0.5
-            Z: 0.5
+            X: 1
+            Y: 1
+            Z: 1
           }
         }
-        ParentId: 17320432266554423745
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Nature_Leaves:color"
-            Color {
-              R: 0.0856231451
-              G: 0.13000001
-              B: 0.0121874157
-              A: 1
-            }
-          }
-        }
+        ParentId: 10570402801110353219
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -114,7 +55,85 @@
         }
         CoreMesh {
           MeshAsset {
-            Id: 12597148293892683219
+            Id: 16069933497025116501
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 9344813575195835293
+        Name: "F_Branches_small"
+        Transform {
+          Location {
+            X: 1200
+            Y: 8660
+            Z: 30
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 10570402801110353219
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 11251881958373893300
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 5414992368434112151
+        Name: "F_Branches_small"
+        Transform {
+          Location {
+            X: 1300
+            Y: 8905
+            Z: 25
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 10570402801110353219
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 11251881958373893300
           }
           Teams {
             IsTeamCollisionEnabled: true
@@ -129,21 +148,21 @@
       }
     }
     Assets {
-      Id: 2880675532590769765
-      Name: "Flower Wild Lily 02"
+      Id: 16069933497025116501
+      Name: "Branches Cluster Medium"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_foliage_gen_flower_wild_lily_002_ref"
+        AssetId: "sm_gen_branches_medium_001"
       }
     }
     Assets {
-      Id: 12597148293892683219
-      Name: "Bush 01"
+      Id: 11251881958373893300
+      Name: "Branches Cluster Small"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_bush_generic_001"
+        AssetId: "sm_gen_branches_small_001"
       }
     }
     PrimaryAssetId {
