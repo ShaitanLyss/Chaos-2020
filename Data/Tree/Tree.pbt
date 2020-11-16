@@ -23,8 +23,6 @@ Objects {
   ChildIds: 4434011006133901618
   ChildIds: 7191000007107922009
   ChildIds: 9321966516087236899
-  ChildIds: 17503036414563174262
-  ChildIds: 14696390392128977292
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -34,125 +32,6 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
-  }
-}
-Objects {
-  Id: 14696390392128977292
-  Name: "F_Fern_4"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 5874517661221398924
-      value {
-        Overrides {
-          Name: "Name"
-          String: "F_Fern_4"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -1210
-            Y: 9755
-            Z: 25
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.8
-            Y: 0.8
-            Z: 0.8
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 18229426741649529381
-    }
-  }
-}
-Objects {
-  Id: 17503036414563174262
-  Name: "F_Wild_Bush"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 31767873027108217
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            Z: 75.0000916
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.5
-            Y: 0.5
-            Z: 0.5
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 11451050256024917560
-      value {
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1.6
-            Y: 1.6
-            Z: 1.6
-          }
-        }
-        Overrides {
-          Name: "ma:Nature_Leaves:id"
-          AssetReference {
-            Id: 3915072953041394971
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 17320432266554423745
-      value {
-        Overrides {
-          Name: "Name"
-          String: "F_Wild_Bush"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -1225
-            Y: 9735
-            Z: 6.10351563e-05
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 5437390543263377148
-    }
   }
 }
 Objects {
