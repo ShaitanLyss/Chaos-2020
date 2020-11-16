@@ -1,47 +1,6 @@
 ﻿Name: "Platform15"
 RootId: 10518219549148380132
 Objects {
-  Id: 13673181415959139759
-  Name: "Trigger"
-  Transform {
-    Location {
-      X: -10700
-      Y: -4000
-      Z: 700
-    }
-    Rotation {
-      Yaw: 53.0000725
-    }
-    Scale {
-      X: 5.5
-      Y: 5.75
-      Z: 0.75
-    }
-  }
-  ParentId: 10518219549148380132
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Trigger {
-    TeamSettings {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    TriggerShape_v2 {
-      Value: "mc:etriggershape:box"
-    }
-  }
-  InstanceHistory {
-    SelfId: 13673181415959139759
-    SubobjectId: 6085114203272544713
-    InstanceId: 8649466991581744429
-    TemplateId: 17080666560096579051
-  }
-}
-Objects {
   Id: 12730206902873950050
   Name: "PlatformCheckPoint"
   Transform {
