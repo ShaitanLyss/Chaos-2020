@@ -5,8 +5,8 @@ Objects {
   Name: "Trigger"
   Transform {
     Location {
-      X: -4070
-      Y: 8270
+      X: -4030
+      Y: 8290
       Z: 200
     }
     Rotation {
@@ -87,8 +87,8 @@ Objects {
   Name: "PlatformModel"
   Transform {
     Location {
-      X: -4080
-      Y: 8270
+      X: -4040
+      Y: 8290
       Z: 150
     }
     Rotation {

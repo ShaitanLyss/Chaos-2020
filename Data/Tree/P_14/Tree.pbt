@@ -1,20 +1,20 @@
 ﻿Name: "P_14"
 RootId: 92116721446977045
 Objects {
-  Id: 9356312280316378670
+  Id: 1254556913546059177
   Name: "Trigger"
   Transform {
     Location {
-      X: -7480
-      Y: 4440
-      Z: 600
+      X: -9310
+      Y: 3220
+      Z: 800
     }
     Rotation {
-      Yaw: 60
+      Yaw: 64
     }
     Scale {
-      X: 6.5
-      Y: 6.79999971
+      X: 5.5
+      Y: 6.20000029
       Z: 0.800000072
     }
   }
@@ -35,8 +35,8 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 719184722305538254
-    SubobjectId: 16161523078124391592
+    SelfId: 1254556913546059177
+    SubobjectId: 17932025232229747151
     InstanceId: 8649466991581744429
     TemplateId: 17080666560096579051
   }

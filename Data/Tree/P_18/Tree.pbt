@@ -1,24 +1,24 @@
-﻿Name: "P_8"
-RootId: 5201731107246359497
+﻿Name: "P_18"
+RootId: 2269621066976956319
 Objects {
-  Id: 14628273976938979242
+  Id: 6532599780290265075
   Name: "Trigger"
   Transform {
     Location {
-      X: -5010
-      Y: 7320
-      Z: 180
+      X: -7480
+      Y: 4440
+      Z: 600
     }
     Rotation {
-      Yaw: 30
+      Yaw: 60
     }
     Scale {
-      X: 6.20000076
-      Y: 7.3
-      Z: 1
+      X: 6.5
+      Y: 6.79999971
+      Z: 0.800000072
     }
   }
-  ParentId: 5201731107246359497
+  ParentId: 2269621066976956319
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -35,14 +35,14 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 14628273976938979242
-    SubobjectId: 2499599501782731724
+    SelfId: 719184722305538254
+    SubobjectId: 16161523078124391592
     InstanceId: 8649466991581744429
     TemplateId: 17080666560096579051
   }
 }
 Objects {
-  Id: 12336481852823127619
+  Id: 6371767527514406033
   Name: "PlatformCheckPoint"
   Transform {
     Location {
@@ -55,12 +55,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5201731107246359497
+  ParentId: 2269621066976956319
   UnregisteredParameters {
     Overrides {
       Name: "cs:Platform"
       ObjectReference {
-        SelfId: 5201731107246359497
+        SelfId: 2269621066976956319
       }
     }
   }
@@ -76,23 +76,22 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 1043118055966545080
+    SelfId: 12498570627671523480
     SubobjectId: 15925019654078393750
-    InstanceId: 2511452984235847512
+    InstanceId: 13549903075169459907
     TemplateId: 14125914624941304983
   }
 }
 Objects {
-  Id: 3233058389497546225
+  Id: 12013178931832474336
   Name: "PlatformModel"
   Transform {
     Location {
-      X: -5030
-      Y: 7310
-      Z: 150
+      X: -11570
+      Y: -12050
     }
     Rotation {
-      Yaw: 30
+      Yaw: 122
     }
     Scale {
       X: 1
@@ -100,8 +99,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5201731107246359497
-  ChildIds: 2195378906134917587
+  ParentId: 2269621066976956319
+  ChildIds: 2200314000855798281
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -112,15 +111,15 @@ Objects {
     IsGroup: true
   }
   InstanceHistory {
-    SelfId: 10745493386277887622
+    SelfId: 3897189097981577894
     SubobjectId: 5073100564011509672
-    InstanceId: 2511452984235847512
+    InstanceId: 13549903075169459907
     TemplateId: 14125914624941304983
   }
 }
 Objects {
-  Id: 2195378906134917587
-  Name: "_PS_Rectangle_wide"
+  Id: 2200314000855798281
+  Name: "_PS_Rectangle_small"
   Transform {
     Scale {
       X: 1
@@ -128,37 +127,19 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3233058389497546225
+  ParentId: 12013178931832474336
   TemplateInstance {
     ParameterOverrideMap {
-      key: 1825230877436865430
+      key: 10953068183107250475
       value {
         Overrides {
-          Name: "Scale"
-          Vector {
-            X: 6.9
-            Y: 7.79999924
-            Z: 1
-          }
+          Name: "Name"
+          String: "_PS_Rectangle_small"
         }
         Overrides {
           Name: "Position"
           Vector {
           }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 11667518170341861543
-      value {
-        Overrides {
-          Name: "Name"
-          String: "_PS_Rectangle_wide"
         }
         Overrides {
           Name: "Rotation"
@@ -175,8 +156,28 @@ Objects {
         }
       }
     }
+    ParameterOverrideMap {
+      key: 12159032773331541081
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -128.261749
+            Y: 21.187912
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 4.4
+            Y: 6.70000029
+            Z: 0.7
+          }
+        }
+      }
+    }
     TemplateAsset {
-      Id: 17594147940704495209
+      Id: 18160197662068348531
     }
   }
 }
