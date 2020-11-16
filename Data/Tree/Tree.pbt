@@ -25,6 +25,9 @@ Objects {
   ChildIds: 4861888266353863378
   ChildIds: 3217359669344804486
   ChildIds: 10490075164851024102
+  ChildIds: 17215107426445451049
+  ChildIds: 9929188941974638389
+  ChildIds: 6342388802942584811
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -34,6 +37,125 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 6342388802942584811
+  Name: "Rock 01"
+  Transform {
+    Location {
+      X: 2780
+      Y: 7410
+      Z: 440
+    }
+    Rotation {
+      Pitch: -35
+      Roll: -5
+    }
+    Scale {
+      X: 1.99999976
+      Y: 1.99999976
+      Z: 2.10000014
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 18302154991031027573
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 9929188941974638389
+  Name: "Tree Oak 01"
+  Transform {
+    Location {
+      X: 2800
+      Y: 7340
+      Z: 640
+    }
+    Rotation {
+      Roll: 35
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 1555513005730936579
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 17215107426445451049
+  Name: "Tree Redwood Small"
+  Transform {
+    Location {
+      X: 2020
+      Y: 8010
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6511634421723404197
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
   }
 }
 Objects {
@@ -203,8 +325,9 @@ Objects {
   Name: "Template/test"
   Transform {
     Location {
-      X: 2100
-      Y: 9100
+      X: 3290
+      Y: 8110
+      Z: 0.00048828125
     }
     Rotation {
     }
