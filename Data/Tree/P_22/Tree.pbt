@@ -1,24 +1,24 @@
-﻿Name: "P_17"
-RootId: 342242080179627697
+﻿Name: "P_22"
+RootId: 3635771471139975716
 Objects {
-  Id: 9362984007845881531
+  Id: 14492041730961349152
   Name: "Trigger"
   Transform {
     Location {
-      X: -12333.918
-      Y: -9910.78516
-      Z: 409.400024
+      X: -6470
+      Y: 7290
+      Z: 200
     }
     Rotation {
-      Yaw: 97.5
+      Yaw: 37.9999619
     }
     Scale {
-      X: 6.91289473
-      Y: 11.2999563
-      Z: 0.75
+      X: 5.70000029
+      Y: 7
+      Z: 1
     }
   }
-  ParentId: 342242080179627697
+  ParentId: 3635771471139975716
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -34,9 +34,15 @@ Objects {
       Value: "mc:etriggershape:box"
     }
   }
+  InstanceHistory {
+    SelfId: 2844123327245984178
+    SubobjectId: 14900746736446158292
+    InstanceId: 8649466991581744429
+    TemplateId: 17080666560096579051
+  }
 }
 Objects {
-  Id: 6079618597098752169
+  Id: 15716609612737364723
   Name: "PlatformCheckPoint"
   Transform {
     Location {
@@ -49,12 +55,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 342242080179627697
+  ParentId: 3635771471139975716
   UnregisteredParameters {
     Overrides {
       Name: "cs:Platform"
       ObjectReference {
-        SelfId: 342242080179627697
+        SelfId: 3635771471139975716
       }
     }
   }
@@ -70,23 +76,23 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 12498570627671523480
+    SelfId: 1043118055966545080
     SubobjectId: 15925019654078393750
-    InstanceId: 13549903075169459907
+    InstanceId: 2511452984235847512
     TemplateId: 14125914624941304983
   }
 }
 Objects {
-  Id: 14665235844378657742
+  Id: 3714278044586262073
   Name: "PlatformModel"
   Transform {
     Location {
-      X: -12350
-      Y: -9880
-      Z: 409.4
+      X: -6460
+      Y: -6980
+      Z: 150
     }
     Rotation {
-      Yaw: 97.5
+      Yaw: 142
     }
     Scale {
       X: 1
@@ -94,8 +100,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 342242080179627697
-  ChildIds: 17628850820430146957
+  ParentId: 3635771471139975716
+  ChildIds: 7979963046388617253
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -106,15 +112,15 @@ Objects {
     IsGroup: true
   }
   InstanceHistory {
-    SelfId: 3897189097981577894
+    SelfId: 10745493386277887622
     SubobjectId: 5073100564011509672
-    InstanceId: 13549903075169459907
+    InstanceId: 2511452984235847512
     TemplateId: 14125914624941304983
   }
 }
 Objects {
-  Id: 17628850820430146957
-  Name: "_PS_Rectangle_small"
+  Id: 7979963046388617253
+  Name: "_PS_Rectangle_wide"
   Transform {
     Scale {
       X: 1
@@ -122,19 +128,39 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14665235844378657742
+  ParentId: 3714278044586262073
   TemplateInstance {
     ParameterOverrideMap {
-      key: 10953068183107250475
+      key: 1825230877436865430
       value {
         Overrides {
-          Name: "Name"
-          String: "_PS_Rectangle_small"
+          Name: "Scale"
+          Vector {
+            X: 6.9
+            Y: 7.79999924
+            Z: 1
+          }
         }
         Overrides {
           Name: "Position"
           Vector {
+            X: -48.2667847
+            Y: 13.0505867
           }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 11667518170341861543
+      value {
+        Overrides {
+          Name: "Name"
+          String: "_PS_Rectangle_wide"
         }
         Overrides {
           Name: "Rotation"
@@ -151,28 +177,8 @@ Objects {
         }
       }
     }
-    ParameterOverrideMap {
-      key: 12159032773331541081
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -29.7433472
-            Y: 3.91578674
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 7.6
-            Y: 12.6
-            Z: 0.7
-          }
-        }
-      }
-    }
     TemplateAsset {
-      Id: 18160197662068348531
+      Id: 17594147940704495209
     }
   }
 }

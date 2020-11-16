@@ -1,6 +1,271 @@
 ﻿Name: "3"
 RootId: 11391093173361849580
 Objects {
+  Id: 17067958879892925912
+  Name: "F_Bush_2"
+  Transform {
+    Location {
+      X: -5305
+      Y: 6585
+      Z: 1845
+    }
+    Rotation {
+      Pitch: 90
+      Yaw: -14.0362635
+      Roll: 25.9637299
+    }
+    Scale {
+      X: 2.20000029
+      Y: 2.20000029
+      Z: 2.20000029
+    }
+  }
+  ParentId: 11391093173361849580
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 3714139153103840236
+      value {
+        Overrides {
+          Name: "Name"
+          String: "F_Bush_2"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3000
+            Y: 1830
+            Z: 1465
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 29.9999924
+            Yaw: 50.0000038
+            Roll: 89.9999924
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1.30000007
+            Y: 1.30000007
+            Z: 1.30000007
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 9693994835228808634
+    }
+  }
+}
+Objects {
+  Id: 3436610455735229966
+  Name: "F_Bush_2"
+  Transform {
+    Location {
+      X: -5685
+      Y: 6130
+      Z: 1705
+    }
+    Rotation {
+      Pitch: 90
+      Yaw: -14.0362635
+      Roll: 25.9637299
+    }
+    Scale {
+      X: 1.49999988
+      Y: 1.49999988
+      Z: 1.49999988
+    }
+  }
+  ParentId: 11391093173361849580
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 3714139153103840236
+      value {
+        Overrides {
+          Name: "Name"
+          String: "F_Bush_2"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2730
+            Y: 2150
+            Z: 1890
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 90
+            Yaw: -14.0362549
+            Roll: 25.9637299
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 2.20000029
+            Y: 2.20000029
+            Z: 2.20000029
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 9693994835228808634
+    }
+  }
+}
+Objects {
+  Id: 3330968010676810454
+  Name: "F_Bush_2"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11391093173361849580
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 3714139153103840236
+      value {
+        Overrides {
+          Name: "Name"
+          String: "F_Bush_2"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3110
+            Y: 1695
+            Z: 1750
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 90
+            Yaw: -14.0362549
+            Roll: 25.9637299
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1.49999988
+            Y: 1.49999988
+            Z: 1.49999988
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 9693994835228808634
+    }
+  }
+}
+Objects {
+  Id: 11418088808379727743
+  Name: "E_Tree_Oak"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11391093173361849580
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6558617143835967745
+      value {
+        Overrides {
+          Name: "Name"
+          String: "E_Tree_Oak"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -4785
+            Y: 1945
+            Z: 25
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 6862726296736467026
+    }
+  }
+}
+Objects {
+  Id: 9827201569472620439
+  Name: "F_Bush_2"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11391093173361849580
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 3714139153103840236
+      value {
+        Overrides {
+          Name: "Name"
+          String: "F_Bush_2"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 2045
+            Y: 5375
+            Z: 1045
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Roll: -125
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 9693994835228808634
+    }
+  }
+}
+Objects {
   Id: 10001727400889022643
   Name: "E_Tree_Oak"
   Transform {
@@ -277,7 +542,7 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -100.000023
+            Yaw: -100.000031
           }
         }
         Overrides {
@@ -339,7 +604,7 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -89.9999847
+            Yaw: -90
           }
         }
         Overrides {

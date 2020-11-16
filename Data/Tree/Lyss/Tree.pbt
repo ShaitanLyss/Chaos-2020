@@ -1,6 +1,63 @@
 ﻿Name: "Lyss"
 RootId: 10490075164851024102
 Objects {
+  Id: 6988420349952236443
+  Name: "WallBushes"
+  Transform {
+    Location {
+      X: -1155
+      Y: 5315
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10490075164851024102
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "WallBushes"
+  }
+}
+Objects {
+  Id: 17296923639081984831
+  Name: "4"
+  Transform {
+    Location {
+      X: -3375
+      Y: 1420
+      Z: -90
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10490075164851024102
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "4"
+  }
+}
+Objects {
   Id: 11391093173361849580
   Name: "3"
   Transform {
@@ -193,7 +250,7 @@ Objects {
       Z: 2650
     }
     Rotation {
-      Yaw: -15.00002
+      Yaw: -15.0000305
     }
     Scale {
       X: 1

@@ -1,21 +1,21 @@
 ﻿Name: "P_18_1"
 RootId: 8144708541376433093
 Objects {
-  Id: 3350641160152613182
+  Id: 10973923655902909515
   Name: "Trigger"
   Transform {
     Location {
-      X: -7480
-      Y: 4440
-      Z: 600
+      X: -12000
+      Y: -11110
+      Z: 204.799988
     }
     Rotation {
-      Yaw: 60
+      Yaw: 112
     }
     Scale {
-      X: 6.5
-      Y: 6.79999971
-      Z: 0.800000072
+      X: 4.99999952
+      Y: 9.1
+      Z: 0.8
     }
   }
   ParentId: 8144708541376433093
@@ -33,12 +33,6 @@ Objects {
     TriggerShape_v2 {
       Value: "mc:etriggershape:box"
     }
-  }
-  InstanceHistory {
-    SelfId: 719184722305538254
-    SubobjectId: 16161523078124391592
-    InstanceId: 8649466991581744429
-    TemplateId: 17080666560096579051
   }
 }
 Objects {

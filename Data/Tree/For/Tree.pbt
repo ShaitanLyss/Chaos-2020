@@ -607,14 +607,6 @@ Objects {
           Rotator {
           }
         }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
       }
     }
     TemplateAsset {
@@ -669,9 +661,16 @@ Objects {
   }
 }
 Objects {
-  Id: 9549886400794992825
+  Id: 15365817976344554137
   Name: "F_Fern_4"
   Transform {
+    Location {
+      X: 1430
+      Y: 5460
+      Z: 30
+    }
+    Rotation {
+    }
     Scale {
       X: 1
       Y: 1
@@ -679,46 +678,43 @@ Objects {
     }
   }
   ParentId: 15626847083614465232
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 5874517661221398924
-      value {
-        Overrides {
-          Name: "Name"
-          String: "F_Fern_4"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 1430
-            Y: 5460
-            Z: 30
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 4146806597461420985
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
       }
     }
-    TemplateAsset {
-      Id: 18229426741649529381
-    }
+  }
+  InstanceHistory {
+    SelfId: 15365817976344554137
+    SubobjectId: 5874517661221398924
+    InstanceId: 9549886400794992825
+    TemplateId: 18229426741649529381
+    WasRoot: true
   }
 }
 Objects {
-  Id: 11869708745887108138
-  Name: "F_Wild_Bush_2"
+  Id: 6229680682659667320
+  Name: "F_WildBush_Stack"
   Transform {
+    Location {
+      X: -870
+      Y: 6775
+      Z: 24.999939
+    }
     Scale {
       X: 1
       Y: 1
@@ -726,466 +722,14 @@ Objects {
     }
   }
   ParentId: 15626847083614465232
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 12773884042022073230
-      value {
-        Overrides {
-          Name: "Name"
-          String: "F_Wild_Bush_2"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -1035
-            Y: 6550
-            Z: 70.0001526
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 7286100313829558772
-    }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
-}
-Objects {
-  Id: 17217945603847716234
-  Name: "F_Fern_4"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  ParentId: 15626847083614465232
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 5874517661221398924
-      value {
-        Overrides {
-          Name: "Name"
-          String: "F_Fern_4"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -1070
-            Y: 6540
-            Z: 49.9997711
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.5
-            Y: 0.5
-            Z: 0.5
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -135
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 18229426741649529381
-    }
-  }
-}
-Objects {
-  Id: 16670985076352916654
-  Name: "F_Bush_1"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 15626847083614465232
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 5210268259426317718
-      value {
-        Overrides {
-          Name: "Name"
-          String: "F_Bush_1"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -1075
-            Y: 6615
-            Z: 30.0000305
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.8
-            Y: 0.8
-            Z: 0.8
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 6182679819428014993
-    }
-  }
-}
-Objects {
-  Id: 3371724440819050949
-  Name: "F_Fern_4"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 15626847083614465232
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 5874517661221398924
-      value {
-        Overrides {
-          Name: "Name"
-          String: "F_Fern_4"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -975
-            Y: 6680
-            Z: 25
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -65.0000229
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.8
-            Y: 0.8
-            Z: 0.8
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 18229426741649529381
-    }
-  }
-}
-Objects {
-  Id: 5022777143265942898
-  Name: "F_Fern_4"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 15626847083614465232
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 5874517661221398924
-      value {
-        Overrides {
-          Name: "Name"
-          String: "F_Fern_4"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -840
-            Y: 6930
-            Z: 25
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 18229426741649529381
-    }
-  }
-}
-Objects {
-  Id: 5629891748219112339
-  Name: "F_Wild_Bush"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 15626847083614465232
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 17320432266554423745
-      value {
-        Overrides {
-          Name: "Name"
-          String: "F_Wild_Bush"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -930
-            Y: 6660
-            Z: 30.000061
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1.1
-            Y: 1.1
-            Z: 1.1
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 5437390543263377148
-    }
-  }
-}
-Objects {
-  Id: 9916363801138061306
-  Name: "F_Wild_Bush"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 15626847083614465232
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 17320432266554423745
-      value {
-        Overrides {
-          Name: "Name"
-          String: "F_Wild_Bush"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -870
-            Y: 6775
-            Z: 24.999939
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -74.9999695
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1.4
-            Y: 1.4
-            Z: 1.4
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 5437390543263377148
-    }
-  }
-}
-Objects {
-  Id: 9996370634077605424
-  Name: "F_Wild_Bush"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 15626847083614465232
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 17320432266554423745
-      value {
-        Overrides {
-          Name: "Name"
-          String: "F_Wild_Bush"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -820
-            Y: 6925
-            Z: 25
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 44.9999962
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1.2
-            Y: 1.2
-            Z: 1.2
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 5437390543263377148
-    }
-  }
-}
-Objects {
-  Id: 14696390392128977292
-  Name: "F_Fern_4"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 15626847083614465232
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 5874517661221398924
-      value {
-        Overrides {
-          Name: "Name"
-          String: "F_Fern_4"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -845
-            Y: 7100
-            Z: 25
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.8
-            Y: 0.8
-            Z: 0.8
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 18229426741649529381
-    }
-  }
-}
-Objects {
-  Id: 17503036414563174262
-  Name: "F_Wild_Bush"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 15626847083614465232
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 17320432266554423745
-      value {
-        Overrides {
-          Name: "Name"
-          String: "F_Wild_Bush"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -860
-            Y: 7080
-            Z: 6.10351563e-05
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1.4
-            Y: 1.4
-            Z: 1.4
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 5437390543263377148
-    }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "F_WildBush_Stack"
   }
 }

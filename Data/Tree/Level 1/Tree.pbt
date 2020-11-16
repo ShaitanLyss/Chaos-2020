@@ -1,32 +1,6 @@
 ﻿Name: "Level 1"
 RootId: 1695293941534654941
 Objects {
-  Id: 16941134488221664811
-  Name: "Decoration"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 1695293941534654941
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Decoration"
-  }
-}
-Objects {
   Id: 16093149801066646306
   Name: "Floor"
   Transform {

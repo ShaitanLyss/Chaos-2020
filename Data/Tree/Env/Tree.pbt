@@ -265,7 +265,7 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -44.9999962
+            Yaw: -45
           }
         }
         Overrides {
@@ -342,7 +342,7 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -105.000038
+            Yaw: -105.000031
           }
         }
         Overrides {
@@ -390,7 +390,7 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -30.0000057
+            Yaw: -30
           }
         }
         Overrides {
@@ -526,8 +526,8 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -35.0000038
-            Roll: -94.9999924
+            Yaw: -35
+            Roll: -95
           }
         }
         Overrides {
@@ -605,9 +605,9 @@ Objects {
       Z: 1020
     }
     Rotation {
-      Pitch: -34.9999962
+      Pitch: -35
       Yaw: 1.30283141e-07
-      Roll: -5.00000191
+      Roll: -5
     }
     Scale {
       X: 1.99999976

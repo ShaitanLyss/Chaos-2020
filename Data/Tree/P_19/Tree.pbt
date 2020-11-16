@@ -1,7 +1,41 @@
 ﻿Name: "P_19"
-RootId: 17435788497206745176
+RootId: 2269621066976956319
 Objects {
-  Id: 10162059192343106876
+  Id: 3322741858804489566
+  Name: "Trigger"
+  Transform {
+    Location {
+      X: -11520
+      Y: -12170
+    }
+    Rotation {
+      Yaw: 122
+    }
+    Scale {
+      X: 3.7
+      Y: 6
+      Z: 0.8
+    }
+  }
+  ParentId: 2269621066976956319
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 6371767527514406033
   Name: "PlatformCheckPoint"
   Transform {
     Location {
@@ -14,12 +48,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17435788497206745176
+  ParentId: 2269621066976956319
   UnregisteredParameters {
     Overrides {
       Name: "cs:Platform"
       ObjectReference {
-        SelfId: 17435788497206745176
+        SelfId: 2269621066976956319
       }
     }
   }
@@ -35,23 +69,22 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 10162059192343106876
+    SelfId: 12498570627671523480
     SubobjectId: 15925019654078393750
-    InstanceId: 15595535232513076222
+    InstanceId: 13549903075169459907
     TemplateId: 14125914624941304983
   }
 }
 Objects {
-  Id: 1612479893504990978
+  Id: 12013178931832474336
   Name: "PlatformModel"
   Transform {
     Location {
-      X: -10910
-      Y: -12850
+      X: -11570
+      Y: -12050
     }
     Rotation {
-      Yaw: -135.648483
-      Roll: -179.999954
+      Yaw: 122
     }
     Scale {
       X: 1
@@ -59,8 +92,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17435788497206745176
-  ChildIds: 16529463844459322145
+  ParentId: 2269621066976956319
+  ChildIds: 2200314000855798281
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -71,57 +104,73 @@ Objects {
     IsGroup: true
   }
   InstanceHistory {
-    SelfId: 1612479893504990978
+    SelfId: 3897189097981577894
     SubobjectId: 5073100564011509672
-    InstanceId: 15595535232513076222
+    InstanceId: 13549903075169459907
     TemplateId: 14125914624941304983
   }
 }
 Objects {
-  Id: 16529463844459322145
-  Name: "P_19"
+  Id: 2200314000855798281
+  Name: "_PS_Rectangle_small"
   Transform {
-    Location {
-    }
-    Rotation {
-    }
     Scale {
-      X: 5.75
-      Y: 5.75
-      Z: 5.75
+      X: 1
+      Y: 1
+      Z: 1
     }
   }
-  ParentId: 1612479893504990978
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 16646680597962164372
+  ParentId: 12013178931832474336
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 10953068183107250475
+      value {
+        Overrides {
+          Name: "Name"
+          String: "_PS_Rectangle_small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
       }
     }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:smart"
-      Bool: false
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 2855683524292237074
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
+    ParameterOverrideMap {
+      key: 12159032773331541081
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -128.261749
+            Y: 21.187912
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 4.4
+            Y: 6.70000029
+            Z: 0.7
+          }
+        }
       }
+    }
+    TemplateAsset {
+      Id: 18160197662068348531
     }
   }
 }
