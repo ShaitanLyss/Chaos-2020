@@ -128,8 +128,8 @@ Objects {
   Settings {
     IsDefault: true
     PlayerMovementSettings {
-      WalkSpeed: 720
-      MaxAcceleration: 1500
+      WalkSpeed: 1000
+      MaxAcceleration: 2000
       WalkableFloorAngle: 63
       JumpMaxCount: 1
       JumpVelocity: 900
