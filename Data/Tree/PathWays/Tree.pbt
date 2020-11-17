@@ -2,7 +2,7 @@
 RootId: 3815900182090651153
 Objects {
   Id: 17662610992756322243
-  Name: "Trigger"
+  Name: "Trigger_1"
   Transform {
     Location {
       X: 9320
@@ -410,7 +410,7 @@ Objects {
 }
 Objects {
   Id: 17675051250409456176
-  Name: "Trigger"
+  Name: "Trigger_0.5"
   Transform {
     Location {
       X: 210

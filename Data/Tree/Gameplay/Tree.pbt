@@ -84,11 +84,11 @@ Objects {
   Camera {
     UseAsDefault: true
     AttachToLocalPlayer: true
-    InitialDistance: 280
+    InitialDistance: 300
     MinDistance: 300
     MaxDistance: 600
     PositionOffset {
-      Z: -20
+      Z: -10
     }
     RotationOffset {
     }
@@ -181,9 +181,9 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: 1860
-      Y: 5800
-      Z: 340
+      X: -5860
+      Y: -11040
+      Z: 340.000488
     }
     Rotation {
       Yaw: -129.880417

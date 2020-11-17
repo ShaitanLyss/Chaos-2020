@@ -94,11 +94,11 @@ Objects {
     }
     Overrides {
       Name: "cs:ToEmptyBar"
-      Int: 4
+      Int: 30
     }
     Overrides {
       Name: "cs:MaxFillBar"
-      Float: 0.98
+      Float: 0.95
     }
   }
   Collidable_v2 {
@@ -135,9 +135,9 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 1300
-    Height: 45
-    UIY: 10
+    Width: 1150
+    Height: 38
+    UIY: -55
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -145,25 +145,26 @@ Objects {
     }
     StatBar {
       Color {
-        R: 0.70600009
+        R: 0.852254093
+        G: 0.866000056
         A: 1
       }
       BackgroundColor {
-        R: 0.5
-        G: 0.5
-        B: 0.5
+        R: 1
+        G: 1
+        B: 1
         A: 1
       }
     }
     AnchorLayout {
       SelfAnchor {
         Anchor {
-          Value: "mc:euianchor:topcenter"
+          Value: "mc:euianchor:bottomcenter"
         }
       }
       TargetAnchor {
         Anchor {
-          Value: "mc:euianchor:topcenter"
+          Value: "mc:euianchor:bottomcenter"
         }
       }
     }
