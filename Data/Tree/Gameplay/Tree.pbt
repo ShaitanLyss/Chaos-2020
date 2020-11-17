@@ -84,11 +84,11 @@ Objects {
   Camera {
     UseAsDefault: true
     AttachToLocalPlayer: true
-    InitialDistance: 300
+    InitialDistance: 280
     MinDistance: 300
     MaxDistance: 600
     PositionOffset {
-      Z: -10
+      Z: -20
     }
     RotationOffset {
     }

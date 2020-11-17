@@ -4,14 +4,14 @@ local FireWallCount = 1
 
 function OnDPlayerChanged(pNumber)
     playerCount = pNumber
-    print(pNumber)
+   -- print(pNumber)
     DistanceCalc()
 end
 
 
 function OnDFireWallChanged(pNumber)
     FireWallCount = pNumber 
-    print(pNumber)
+  --  print(pNumber)
     DistanceCalc()
 end
 

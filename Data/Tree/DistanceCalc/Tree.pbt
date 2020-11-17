@@ -85,6 +85,22 @@ Objects {
     }
   }
   ParentId: 11655607203755098703
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:FireWallBar"
+      ObjectReference {
+        SelfId: 15232005140999888162
+      }
+    }
+    Overrides {
+      Name: "cs:ToEmptyBar"
+      Int: 4
+    }
+    Overrides {
+      Name: "cs:MaxFillBar"
+      Float: 0.98
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -119,9 +135,9 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 960
-    Height: 31
-    UIY: 31.3331337
+    Width: 1300
+    Height: 45
+    UIY: 10
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -133,9 +149,9 @@ Objects {
         A: 1
       }
       BackgroundColor {
-        R: 1
-        G: 0.618000209
-        B: 0.618000031
+        R: 0.5
+        G: 0.5
+        B: 0.5
         A: 1
       }
     }
