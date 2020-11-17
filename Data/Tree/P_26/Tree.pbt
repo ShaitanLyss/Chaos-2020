@@ -22,11 +22,14 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
+            X: -5158.67773
+            Y: -17792.2227
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
+            Yaw: 173.5
           }
         }
         Overrides {
@@ -50,7 +53,8 @@ Objects {
         Overrides {
           Name: "cs:IntervalDelayRange"
           Vector2 {
-            Y: 1
+            X: 2
+            Y: 2
           }
         }
         Overrides {
@@ -62,9 +66,17 @@ Objects {
         Overrides {
           Name: "cs:MoveTo"
           Vector {
-            Y: 114.714066
-            Z: 100
+            X: -5076.17578
+            Y: -17029.3496
           }
+        }
+        Overrides {
+          Name: "cs:LocalSpace"
+          Bool: true
+        }
+        Overrides {
+          Name: "cs:Duration"
+          Float: 0.5
         }
       }
     }
@@ -119,8 +131,8 @@ Objects {
   Name: "PlatformModel"
   Transform {
     Location {
-      X: -5092.40137
-      Y: -17889.9375
+      X: -5158.67773
+      Y: -17792.2227
     }
     Rotation {
       Yaw: 173.5
@@ -154,6 +166,8 @@ Objects {
   Id: 26157580643446735
   Name: "_PS_Rectangle_wide"
   Transform {
+    Location {
+    }
     Rotation {
     }
     Scale {

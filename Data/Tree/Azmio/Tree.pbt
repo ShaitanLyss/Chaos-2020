@@ -67,7 +67,9 @@ Objects {
   Name: "Cube"
   Transform {
     Location {
-      X: 1034.67688
+      X: 617.451416
+      Y: 110.266602
+      Z: -6.10351563e-05
     }
     Rotation {
     }
@@ -146,7 +148,7 @@ Objects {
         Overrides {
           Name: "cs:MoveTo"
           Vector {
-            X: 178.803268
+            X: 532.516
           }
         }
         Overrides {

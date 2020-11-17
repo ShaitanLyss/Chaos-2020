@@ -39,8 +39,6 @@ Objects {
   Name: "Mesh"
   Transform {
     Location {
-      X: 19.2072029
-      Y: 40.386673
     }
     Rotation {
     }
@@ -62,7 +60,7 @@ Objects {
     }
     Overrides {
       Name: "ma:Shared_BaseMaterial:smart"
-      Bool: true
+      Bool: false
     }
   }
   WantsNetworking: true
