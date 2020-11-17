@@ -22,7 +22,7 @@ function FireSpreadInCircle(dt)
 
     if (pathWay:GetWorldPosition() == fireWallModel:GetWorldPosition()) then
        -- print("index") print(index) print(reach) 
-        pathWay:Destroy()
+        --pathWay:Destroy()
         index = index + 1 
     end    
     --print("next index")  print(index)
@@ -32,7 +32,7 @@ end
 function Tick(dt)
     Task.Wait(0.1)
     --FollowPlayer()
-    if (#arr_pathWays ~= 0) then
+    if (#arr_pathWays >= index) then
         FireSpreadInCircle(dt) 
     end
 end

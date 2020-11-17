@@ -1,6 +1,6 @@
 ﻿local savePlatformPosition
 
-
+-- For Respawn the player
 function OnCheckPointChanged(platformPosition)
     print("New State = ")
     print(platformPosition)
