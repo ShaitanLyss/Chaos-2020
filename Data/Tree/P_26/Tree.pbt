@@ -47,14 +47,13 @@ Objects {
         Overrides {
           Name: "cs:StartDelayRange"
           Vector2 {
-            Y: 1
           }
         }
         Overrides {
           Name: "cs:IntervalDelayRange"
           Vector2 {
-            X: 2
-            Y: 2
+            X: 1
+            Y: 1
           }
         }
         Overrides {
@@ -66,8 +65,8 @@ Objects {
         Overrides {
           Name: "cs:MoveTo"
           Vector {
-            X: -5076.17578
-            Y: -17029.3496
+            X: -3654.88965
+            Y: -17792.2227
           }
         }
         Overrides {
@@ -76,7 +75,7 @@ Objects {
         }
         Overrides {
           Name: "cs:Duration"
-          Float: 0.5
+          Float: 1.3
         }
       }
     }

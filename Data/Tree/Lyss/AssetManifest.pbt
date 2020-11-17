@@ -26,15 +26,6 @@ Assets {
   }
 }
 Assets {
-  Id: 7600328839803009033
-  Name: "Cube - Polished"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_hq_test_001"
-  }
-}
-Assets {
   Id: 4286823887220239396
   Name: "Fantasy Castle Stairs Spiral Trim 01 - 4m"
   PlatformAssetType: 1

@@ -5,14 +5,14 @@ Objects {
   Name: "Cube"
   Transform {
     Location {
-      Z: -74.3609619
+      Z: -112.588867
     }
     Rotation {
     }
     Scale {
       X: 1.6
-      Y: 18.1
-      Z: 15.3
+      Y: 16.7
+      Z: 13.3
     }
   }
   ParentId: 8768866053368028503

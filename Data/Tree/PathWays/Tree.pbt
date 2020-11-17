@@ -1,15 +1,16 @@
 ﻿Name: "PathWays"
 RootId: 3815900182090651153
 Objects {
-  Id: 2368067670718948966
-  Name: "Ball"
+  Id: 9613562309577228185
+  Name: "Trigger"
   Transform {
     Location {
-      X: -570
-      Y: 9040
-      Z: 200
+      X: -3230
+      Y: 2285
+      Z: 1730
     }
     Rotation {
+      Yaw: 119.9
     }
     Scale {
       X: 1
@@ -25,29 +26,24 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  CoreMesh {
-    MeshAsset {
-      Id: 15942125528727175174
-    }
-    Teams {
+  Trigger {
+    TeamSettings {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
     }
   }
 }
 Objects {
-  Id: 8058114209672830473
-  Name: "Ball"
+  Id: 10687962231870138505
+  Name: "Trigger"
   Transform {
     Location {
-      X: -570
-      Y: 9040
-      Z: 200
+      X: -4030
+      Y: 4265
+      Z: 1730
     }
     Rotation {
     }
@@ -65,29 +61,24 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  CoreMesh {
-    MeshAsset {
-      Id: 15942125528727175174
-    }
-    Teams {
+  Trigger {
+    TeamSettings {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
     }
   }
 }
 Objects {
-  Id: 9769505205397916946
-  Name: "Ball"
+  Id: 9239712692342250212
+  Name: "Trigger"
   Transform {
     Location {
-      X: -570
-      Y: 9040
-      Z: 200
+      X: -4325
+      Y: 6620
+      Z: 1730
     }
     Rotation {
     }
@@ -105,29 +96,24 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  CoreMesh {
-    MeshAsset {
-      Id: 15942125528727175174
-    }
-    Teams {
+  Trigger {
+    TeamSettings {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
     }
   }
 }
 Objects {
-  Id: 13440907358209029641
-  Name: "Ball"
+  Id: 10336117671469304115
+  Name: "Trigger"
   Transform {
     Location {
-      X: -570
-      Y: 9040
-      Z: 200
+      X: -4025
+      Y: 8970
+      Z: 1730
     }
     Rotation {
     }
@@ -145,29 +131,24 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  CoreMesh {
-    MeshAsset {
-      Id: 15942125528727175174
-    }
-    Teams {
+  Trigger {
+    TeamSettings {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
     }
   }
 }
 Objects {
-  Id: 5849811484341181093
-  Name: "Ball"
+  Id: 3580143263031756242
+  Name: "Trigger"
   Transform {
     Location {
-      X: -570
-      Y: 9040
-      Z: 200
+      X: -3135
+      Y: 11180
+      Z: 1730
     }
     Rotation {
     }
@@ -185,29 +166,24 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  CoreMesh {
-    MeshAsset {
-      Id: 15942125528727175174
-    }
-    Teams {
+  Trigger {
+    TeamSettings {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
     }
   }
 }
 Objects {
-  Id: 15730456743341798496
-  Name: "Ball"
+  Id: 12805716705192051869
+  Name: "Trigger"
   Transform {
     Location {
-      X: -570
-      Y: 9040
-      Z: 200
+      X: -1665
+      Y: 13045
+      Z: 1730
     }
     Rotation {
     }
@@ -225,29 +201,24 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  CoreMesh {
-    MeshAsset {
-      Id: 15942125528727175174
-    }
-    Teams {
+  Trigger {
+    TeamSettings {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
     }
   }
 }
 Objects {
-  Id: 18211690748318428177
-  Name: "Ball"
+  Id: 1152732184037158906
+  Name: "Trigger"
   Transform {
     Location {
-      X: -570
-      Y: 9040
-      Z: 200
+      X: 210
+      Y: 14500
+      Z: 1730
     }
     Rotation {
     }
@@ -265,29 +236,24 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  CoreMesh {
-    MeshAsset {
-      Id: 15942125528727175174
-    }
-    Teams {
+  Trigger {
+    TeamSettings {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
     }
   }
 }
 Objects {
-  Id: 13241558500428761170
-  Name: "Ball"
+  Id: 14848300261624328662
+  Name: "Trigger"
   Transform {
     Location {
-      X: 2170.31885
-      Y: 15520.2451
-      Z: 1738.50281
+      X: 2410
+      Y: 15395
+      Z: 1740
     }
     Rotation {
     }
@@ -305,29 +271,24 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  CoreMesh {
-    MeshAsset {
-      Id: 15942125528727175174
-    }
-    Teams {
+  Trigger {
+    TeamSettings {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
     }
   }
 }
 Objects {
-  Id: 7416352930442960636
-  Name: "Ball"
+  Id: 7563004522980484365
+  Name: "Trigger"
   Transform {
     Location {
-      X: 4826.77148
-      Y: 15724.8994
-      Z: 1705.79126
+      X: 4741.38086
+      Y: 15740
+      Z: 1740
     }
     Rotation {
     }
@@ -345,29 +306,24 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  CoreMesh {
-    MeshAsset {
-      Id: 15942125528727175174
-    }
-    Teams {
+  Trigger {
+    TeamSettings {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
     }
   }
 }
 Objects {
-  Id: 15946571637575803582
-  Name: "Ball"
+  Id: 16411292242103597754
+  Name: "Trigger"
   Transform {
     Location {
-      X: 7257.95361
-      Y: 15441.3291
-      Z: 1587.58984
+      X: 7114.10498
+      Y: 15470.958
+      Z: 1740
     }
     Rotation {
     }
@@ -385,18 +341,13 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  CoreMesh {
-    MeshAsset {
-      Id: 15942125528727175174
-    }
-    Teams {
+  Trigger {
+    TeamSettings {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
     }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
     }
   }
 }

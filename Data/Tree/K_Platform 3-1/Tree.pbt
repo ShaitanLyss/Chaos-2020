@@ -5,14 +5,14 @@ Objects {
   Name: "Trigger"
   Transform {
     Location {
-      X: -10120
-      Y: -13530
+      X: -10076.4492
+      Y: -13549.8242
       Z: 530
     }
     Rotation {
-      Pitch: -18.1302452
-      Yaw: 17.8829403
-      Roll: 5.5521946
+      Pitch: -17.0558777
+      Yaw: 17.7735443
+      Roll: 5.91471052
     }
     Scale {
       X: 0.900000036

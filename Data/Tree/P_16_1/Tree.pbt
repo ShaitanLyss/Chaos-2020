@@ -5,16 +5,16 @@ Objects {
   Name: "Trigger"
   Transform {
     Location {
-      X: -12340
-      Y: -7500
+      X: -12425
+      Y: -7490
       Z: 614
     }
     Rotation {
       Yaw: 82.5
     }
     Scale {
-      X: 5
-      Y: 14.000001
+      X: 4.70000029
+      Y: 13.6
       Z: 1
     }
   }
