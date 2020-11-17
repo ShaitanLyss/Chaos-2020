@@ -130,6 +130,7 @@ Objects {
     PlayerMovementSettings {
       WalkSpeed: 1000
       MaxAcceleration: 2000
+      BrakingDecelerationFalling: 0.01
       WalkableFloorAngle: 63
       JumpMaxCount: 1
       JumpVelocity: 900
@@ -138,7 +139,7 @@ Objects {
       MaxSwimSpeed: 420
       Buoyancy: 1
       TouchForceFactor: 1
-      BrakingDecelerationFlying: 600
+      BrakingDecelerationFlying: 0.1
       MaxFlightSpeed: 600
       MovementControlMode {
         Value: "mc:emovementcontrolmode:lookrelative"
