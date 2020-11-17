@@ -2,7 +2,7 @@
 RootId: 8768866053368028503
 Objects {
   Id: 4442114770646351124
-  Name: "Cube"
+  Name: "FireWallMesh"
   Transform {
     Location {
       Z: -112.588867

@@ -1,6 +1,32 @@
 ﻿Name: "Alaa"
 RootId: 4861888266353863378
 Objects {
+  Id: 14438878387009082927
+  Name: "DistanceCalc"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4861888266353863378
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "DistanceCalc"
+  }
+}
+Objects {
   Id: 4341330598450183387
   Name: "GameSettings"
   Transform {
