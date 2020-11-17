@@ -972,8 +972,6 @@ Objects {
   ParentId: 15132337380296437093
   ChildIds: 3615593700081137218
   ChildIds: 4272095002223274044
-  ChildIds: 10138396456865280457
-  ChildIds: 15783873932176257918
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -982,80 +980,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-}
-Objects {
-  Id: 15783873932176257918
-  Name: "Trigger2"
-  Transform {
-    Location {
-      X: -10570
-      Y: -13990
-      Z: 360
-    }
-    Rotation {
-      Pitch: 51.9515038
-      Yaw: 7.32109594
-      Roll: -27.0352478
-    }
-    Scale {
-      X: 0.900000036
-      Y: 0.900000036
-      Z: 21.7000027
-    }
-  }
-  ParentId: 10063704378255673666
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Trigger {
-    TeamSettings {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    TriggerShape_v2 {
-      Value: "mc:etriggershape:box"
-    }
-  }
-}
-Objects {
-  Id: 10138396456865280457
-  Name: "Trigger1"
-  Transform {
-    Location {
-      X: -10120
-      Y: -13530
-      Z: 530
-    }
-    Rotation {
-      Pitch: -18.130249
-      Yaw: 17.8829308
-      Roll: 5.55219126
-    }
-    Scale {
-      X: 0.900000036
-      Y: 0.8
-      Z: 12.8999987
-    }
-  }
-  ParentId: 10063704378255673666
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Trigger {
-    TeamSettings {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    TriggerShape_v2 {
-      Value: "mc:etriggershape:box"
-    }
   }
 }
 Objects {
