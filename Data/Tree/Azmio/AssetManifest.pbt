@@ -17,6 +17,15 @@ Assets {
   }
 }
 Assets {
+  Id: 15942125528727175174
+  Name: "Ball"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_sphere_001"
+  }
+}
+Assets {
   Id: 15603252222108994809
   Name: "Bark Redwood 01"
   PlatformAssetType: 2

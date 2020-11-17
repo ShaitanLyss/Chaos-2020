@@ -1,6 +1,113 @@
 ﻿Name: "Azmio"
 RootId: 11404857991553905137
 Objects {
+  Id: 3183392496515930136
+  Name: "Split level here"
+  Transform {
+    Location {
+      X: -3250
+      Y: -8655
+      Z: -540
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11404857991553905137
+  ChildIds: 9477236022454353111
+  ChildIds: 1736909358825254122
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 1736909358825254122
+  Name: "Split level landmark"
+  Transform {
+    Location {
+      X: -3955
+      Y: -8205
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.69999993
+      Y: 1.69999993
+      Z: 1.69999993
+    }
+  }
+  ParentId: 3183392496515930136
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 15942125528727175174
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 9477236022454353111
+  Name: "Split level Landmark"
+  Transform {
+    Location {
+      X: 3960
+      Y: 8205
+      Z: 190
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.89999986
+      Y: 1.89999986
+      Z: 1.89999986
+    }
+  }
+  ParentId: 3183392496515930136
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 15942125528727175174
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
   Id: 8808217312595727819
   Name: "Pathway allignement blocks"
   Transform {
