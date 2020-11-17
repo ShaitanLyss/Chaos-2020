@@ -119,9 +119,9 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Control {
-    Width: 1300
-    Height: 45
-    UIY: 10
+    Width: 960
+    Height: 31
+    UIY: 31.3331337
     RenderTransformPivot {
       Anchor {
         Value: "mc:euianchor:middlecenter"
@@ -133,9 +133,9 @@ Objects {
         A: 1
       }
       BackgroundColor {
-        R: 0.5
-        G: 0.5
-        B: 0.5
+        R: 1
+        G: 0.618000209
+        B: 0.618000031
         A: 1
       }
     }
