@@ -1,7 +1,7 @@
-﻿Name: "P_Platform_1"
-RootId: 15342037351681002232
+﻿Name: "_PS_Rectangle_wide_3"
+RootId: 26157580643446735
 Objects {
-  Id: 10084886492898759065
+  Id: 6989069950514818741
   Name: "P_PlatformBehavior"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15342037351681002232
+  ParentId: 26157580643446735
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -35,7 +35,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11688979788516308203
+  Id: 13322547146146786558
   Name: "Mesh"
   Transform {
     Location {
@@ -48,9 +48,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15342037351681002232
-  ChildIds: 11977766015754709847
-  ChildIds: 9121252397043614633
+  ParentId: 26157580643446735
+  ChildIds: 16752187908442515300
+  ChildIds: 9048328686960536646
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -92,7 +92,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9121252397043614633
+  Id: 9048328686960536646
   Name: "2"
   Transform {
     Location {
@@ -105,7 +105,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11688979788516308203
+  ParentId: 13322547146146786558
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -115,7 +115,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "2"
+    FilePartitionName: "2_4"
   }
   InstanceHistory {
     SelfId: 9048328686960536646
@@ -125,7 +125,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11977766015754709847
+  Id: 16752187908442515300
   Name: "1"
   Transform {
     Location {
@@ -138,7 +138,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11688979788516308203
+  ParentId: 13322547146146786558
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -148,7 +148,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "1"
+    FilePartitionName: "1_4"
   }
   InstanceHistory {
     SelfId: 16752187908442515300

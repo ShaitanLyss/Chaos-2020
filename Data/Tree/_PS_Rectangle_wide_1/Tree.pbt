@@ -1,7 +1,7 @@
-﻿Name: "P_Platform_1"
-RootId: 15342037351681002232
+﻿Name: "_PS_Rectangle_wide_1"
+RootId: 993473271493663762
 Objects {
-  Id: 10084886492898759065
+  Id: 14568408802446291255
   Name: "P_PlatformBehavior"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15342037351681002232
+  ParentId: 993473271493663762
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -35,7 +35,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11688979788516308203
+  Id: 17388212328863144543
   Name: "Mesh"
   Transform {
     Location {
@@ -43,14 +43,14 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 6.9
-      Y: 7.20000029
+      X: 7.49999857
+      Y: 12.4000006
       Z: 1
     }
   }
-  ParentId: 15342037351681002232
-  ChildIds: 11977766015754709847
-  ChildIds: 9121252397043614633
+  ParentId: 993473271493663762
+  ChildIds: 10770186114791730552
+  ChildIds: 10472726771197106483
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -92,7 +92,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9121252397043614633
+  Id: 10472726771197106483
   Name: "2"
   Transform {
     Location {
@@ -105,7 +105,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11688979788516308203
+  ParentId: 17388212328863144543
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -115,7 +115,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "2"
+    FilePartitionName: "2_2"
   }
   InstanceHistory {
     SelfId: 9048328686960536646
@@ -125,7 +125,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11977766015754709847
+  Id: 10770186114791730552
   Name: "1"
   Transform {
     Location {
@@ -138,7 +138,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11688979788516308203
+  ParentId: 17388212328863144543
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -148,7 +148,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "1"
+    FilePartitionName: "1_2"
   }
   InstanceHistory {
     SelfId: 16752187908442515300

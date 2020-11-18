@@ -96,6 +96,16 @@ Objects {
       }
     }
     ParameterOverrideMap {
+      key: 3219980693138719328
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 5329428467144942625
       value {
         Overrides {
@@ -126,8 +136,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -5350
-            Y: -7055
+            X: -5440
+            Y: -7160
             Z: 130
           }
         }

@@ -1,7 +1,7 @@
-﻿Name: "P_26"
-RootId: 17350450742228133699
+﻿Name: "P_29"
+RootId: 2541596461066185512
 Objects {
-  Id: 11342590800058110969
+  Id: 11575738039447802635
   Name: "Object Mover"
   Transform {
     Scale {
@@ -10,7 +10,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17350450742228133699
+  ParentId: 2541596461066185512
   TemplateInstance {
     ParameterOverrideMap {
       key: 3142504813567088034
@@ -22,14 +22,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -5390
-            Y: -17835
+            X: -560
+            Y: -16860
+            Z: -0.000122070313
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: 173.5
+            Yaw: -157.55
           }
         }
         Overrides {
@@ -52,21 +53,21 @@ Objects {
         Overrides {
           Name: "cs:IntervalDelayRange"
           Vector2 {
-            X: 2
-            Y: 2
+            X: 0.9
+            Y: 0.9
           }
         }
         Overrides {
           Name: "cs:Object"
           ObjectReference {
-            SelfId: 13192629889614176555
+            SelfId: 11721143324793720992
           }
         }
         Overrides {
           Name: "cs:MoveTo"
           Vector {
-            X: -4000.66431
-            Y: -17835
+            X: -360
+            Y: -17430.8945
           }
         }
         Overrides {
@@ -75,7 +76,11 @@ Objects {
         }
         Overrides {
           Name: "cs:Duration"
-          Float: 1.1
+          Float: 1.25
+        }
+        Overrides {
+          Name: "cs:AutoStart"
+          Bool: true
         }
       }
     }
@@ -85,7 +90,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1059736634485542955
+  Id: 14862907534528997710
   Name: "PlatformCheckPoint"
   Transform {
     Location {
@@ -98,12 +103,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17350450742228133699
+  ParentId: 2541596461066185512
   UnregisteredParameters {
     Overrides {
       Name: "cs:Platform"
       ObjectReference {
-        SelfId: 17350450742228133699
+        SelfId: 2541596461066185512
       }
     }
   }
@@ -126,15 +131,16 @@ Objects {
   }
 }
 Objects {
-  Id: 13192629889614176555
+  Id: 11721143324793720992
   Name: "PlatformModel"
   Transform {
     Location {
-      X: -5380
-      Y: -17835
+      X: -590
+      Y: -16875
+      Z: -0.000122070313
     }
     Rotation {
-      Yaw: 173.5
+      Yaw: -157.5
     }
     Scale {
       X: 1
@@ -142,8 +148,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17350450742228133699
-  ChildIds: 26157580643446735
+  ParentId: 2541596461066185512
+  ChildIds: 993473271493663762
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -162,7 +168,7 @@ Objects {
   }
 }
 Objects {
-  Id: 26157580643446735
+  Id: 993473271493663762
   Name: "_PS_Rectangle_wide"
   Transform {
     Location {
@@ -175,7 +181,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13192629889614176555
+  ParentId: 11721143324793720992
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -185,7 +191,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "_PS_Rectangle_wide_3"
+    FilePartitionName: "_PS_Rectangle_wide_1"
   }
   InstanceHistory {
     SelfId: 26157580643446735

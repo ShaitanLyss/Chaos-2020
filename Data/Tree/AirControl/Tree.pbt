@@ -18,7 +18,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Speed"
-      Float: 600
+      Float: 0
     }
   }
   Collidable_v2 {

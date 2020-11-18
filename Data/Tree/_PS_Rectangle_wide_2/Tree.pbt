@@ -1,7 +1,7 @@
-﻿Name: "P_Platform_1"
-RootId: 15342037351681002232
+﻿Name: "_PS_Rectangle_wide_2"
+RootId: 5894977568072468787
 Objects {
-  Id: 10084886492898759065
+  Id: 1958985393708382528
   Name: "P_PlatformBehavior"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15342037351681002232
+  ParentId: 5894977568072468787
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -35,7 +35,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11688979788516308203
+  Id: 18162148584610878482
   Name: "Mesh"
   Transform {
     Location {
@@ -48,9 +48,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15342037351681002232
-  ChildIds: 11977766015754709847
-  ChildIds: 9121252397043614633
+  ParentId: 5894977568072468787
+  ChildIds: 7256408818166919354
+  ChildIds: 4510492498944088478
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -92,7 +92,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9121252397043614633
+  Id: 4510492498944088478
   Name: "2"
   Transform {
     Location {
@@ -105,7 +105,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11688979788516308203
+  ParentId: 18162148584610878482
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -115,7 +115,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "2"
+    FilePartitionName: "2_3"
   }
   InstanceHistory {
     SelfId: 9048328686960536646
@@ -125,7 +125,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11977766015754709847
+  Id: 7256408818166919354
   Name: "1"
   Transform {
     Location {
@@ -138,7 +138,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11688979788516308203
+  ParentId: 18162148584610878482
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -148,7 +148,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "1"
+    FilePartitionName: "1_3"
   }
   InstanceHistory {
     SelfId: 16752187908442515300
