@@ -55,8 +55,8 @@ Objects {
         Overrides {
           Name: "cs:IntervalDelayRange"
           Vector2 {
-            X: 2
-            Y: 2
+            X: 1.4
+            Y: 1.4
           }
         }
         Overrides {

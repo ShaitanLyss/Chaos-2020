@@ -1,7 +1,7 @@
-﻿Name: "K_Platform12"
-RootId: 2780257753523721496
+﻿Name: "K_Platform14-1"
+RootId: 6672995766959966624
 Objects {
-  Id: 15221063099581212880
+  Id: 5344507956494209209
   Name: "KPlatform"
   Transform {
     Location {
@@ -14,12 +14,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2780257753523721496
+  ParentId: 6672995766959966624
   UnregisteredParameters {
     Overrides {
       Name: "cs:K_Platform"
       ObjectReference {
-        SelfId: 2780257753523721496
+        SelfId: 6672995766959966624
       }
     }
   }
@@ -42,18 +42,18 @@ Objects {
   }
 }
 Objects {
-  Id: 12356884610455842206
+  Id: 11705914539590122113
   Name: "PlatformModel"
   Transform {
     Location {
-      X: 5165
-      Y: -9795
-      Z: 155
+      X: 6150
+      Y: -9035
+      Z: 70
     }
     Rotation {
-      Pitch: -90
-      Yaw: 7
-      Roll: -9.27298
+      Pitch: 49.4936295
+      Yaw: 10.8144245
+      Roll: 8.2638216
     }
     Scale {
       X: 1.1
@@ -61,8 +61,8 @@ Objects {
       Z: 1.1
     }
   }
-  ParentId: 2780257753523721496
-  ChildIds: 11900447590763273425
+  ParentId: 6672995766959966624
+  ChildIds: 16275881697649887765
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -80,7 +80,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11900447590763273425
+  Id: 16275881697649887765
   Name: "_P_KillCylinder"
   Transform {
     Scale {
@@ -89,7 +89,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12356884610455842206
+  ParentId: 11705914539590122113
   TemplateInstance {
     ParameterOverrideMap {
       key: 8881477080085901474
@@ -102,17 +102,17 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 1
-            Y: 1
-            Z: 16.9000015
+            X: 1.1
+            Y: 1.1
+            Z: 17
           }
         }
         Overrides {
           Name: "Position"
           Vector {
-            X: -9.090909
-            Y: -4.79744577
-            Z: -350.085144
+            X: -153.690826
+            Y: 5.14373589
+            Z: -418.531708
           }
         }
       }

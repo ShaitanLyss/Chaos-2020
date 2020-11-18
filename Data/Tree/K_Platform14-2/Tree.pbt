@@ -1,7 +1,7 @@
-﻿Name: "K_Platform12"
-RootId: 2780257753523721496
+﻿Name: "K_Platform14-2"
+RootId: 9649130558008585147
 Objects {
-  Id: 15221063099581212880
+  Id: 4172739007952981942
   Name: "KPlatform"
   Transform {
     Location {
@@ -14,12 +14,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2780257753523721496
+  ParentId: 9649130558008585147
   UnregisteredParameters {
     Overrides {
       Name: "cs:K_Platform"
       ObjectReference {
-        SelfId: 2780257753523721496
+        SelfId: 9649130558008585147
       }
     }
   }
@@ -42,27 +42,25 @@ Objects {
   }
 }
 Objects {
-  Id: 12356884610455842206
+  Id: 3537585136248527829
   Name: "PlatformModel"
   Transform {
     Location {
-      X: 5165
-      Y: -9795
-      Z: 155
+      X: 5735
+      Y: -8125
+      Z: 110
     }
     Rotation {
-      Pitch: -90
       Yaw: 7
-      Roll: -9.27298
     }
     Scale {
-      X: 1.1
-      Y: 1.1
-      Z: 1.1
+      X: 1.49999988
+      Y: 1.49999988
+      Z: 1.49999988
     }
   }
-  ParentId: 2780257753523721496
-  ChildIds: 11900447590763273425
+  ParentId: 9649130558008585147
+  ChildIds: 17706613459425519997
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -80,7 +78,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11900447590763273425
+  Id: 17706613459425519997
   Name: "_P_KillCylinder"
   Transform {
     Scale {
@@ -89,7 +87,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12356884610455842206
+  ParentId: 3537585136248527829
   TemplateInstance {
     ParameterOverrideMap {
       key: 8881477080085901474
@@ -102,17 +100,17 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 1
-            Y: 1
-            Z: 16.9000015
+            X: 1.1
+            Y: 1.1
+            Z: 5.5
           }
         }
         Overrides {
           Name: "Position"
           Vector {
-            X: -9.090909
-            Y: -4.79744577
-            Z: -350.085144
+            X: -8.27742481
+            Y: -12.7108183
+            Z: -53.3329468
           }
         }
       }
