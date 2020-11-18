@@ -1,23 +1,21 @@
 ﻿Name: "K_Platform11"
 RootId: 8830595630266575992
 Objects {
-  Id: 9057872674194384935
+  Id: 1086450821991215327
   Name: "Trigger"
   Transform {
     Location {
-      X: -12400
-      Y: -8060
-      Z: 701.702271
+      X: 4660
+      Y: -12665
+      Z: 305
     }
     Rotation {
-      Pitch: -90
-      Yaw: 2.3
-      Roll: -9.27298
+      Yaw: 40.1251411
     }
     Scale {
-      X: 1.9
-      Y: 1.70945716
-      Z: 16.2000103
+      X: 4.3
+      Y: 4.3
+      Z: 10.8
     }
   }
   ParentId: 8830595630266575992
@@ -269,7 +267,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "_P_KillCylinder_1"
+    FilePartitionName: "_P_KillCylinder_2"
   }
   InstanceHistory {
     SelfId: 12592455942390714704

@@ -1,42 +1,7 @@
-﻿Name: "K_Platform8"
-RootId: 15808083966072938853
+﻿Name: "K_Platform20"
+RootId: 7275864931193354318
 Objects {
-  Id: 12906381442414247670
-  Name: "Trigger"
-  Transform {
-    Location {
-      X: 3200
-      Y: -15855
-      Z: 285
-    }
-    Rotation {
-      Yaw: -141.399307
-    }
-    Scale {
-      X: 4.5
-      Y: 5.20000029
-      Z: 4.4
-    }
-  }
-  ParentId: 15808083966072938853
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Trigger {
-    TeamSettings {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    TriggerShape_v2 {
-      Value: "mc:etriggershape:box"
-    }
-  }
-}
-Objects {
-  Id: 2927767980405741046
+  Id: 1818804163260892481
   Name: "KPlatform"
   Transform {
     Location {
@@ -49,12 +14,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15808083966072938853
+  ParentId: 7275864931193354318
   UnregisteredParameters {
     Overrides {
       Name: "cs:K_Platform"
       ObjectReference {
-        SelfId: 15808083966072938853
+        SelfId: 7275864931193354318
       }
     }
   }
@@ -77,13 +42,13 @@ Objects {
   }
 }
 Objects {
-  Id: 18081671030614548318
+  Id: 628940094037553157
   Name: "PlatformModel"
   Transform {
     Location {
-      X: 3125
-      Y: -15790
-      Z: 50
+      X: 2845
+      Y: -2315
+      Z: 250
     }
     Rotation {
       Yaw: -173.818192
@@ -94,8 +59,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15808083966072938853
-  ChildIds: 1727458958484937136
+  ParentId: 7275864931193354318
+  ChildIds: 5450614666957430117
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -113,7 +78,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1727458958484937136
+  Id: 5450614666957430117
   Name: "Bush hazard"
   Transform {
     Scale {
@@ -122,7 +87,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18081671030614548318
+  ParentId: 628940094037553157
   TemplateInstance {
     ParameterOverrideMap {
       key: 2914837419902199197
@@ -134,17 +99,17 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 2
-            Y: 1.9
-            Z: 2.10000014
+            X: 0.3
+            Y: 0.3
+            Z: 0.3
           }
         }
         Overrides {
           Name: "Position"
           Vector {
-            X: 17.730032
-            Y: -22.0373783
-            Z: 0.000244140625
+            X: -37.613739
+            Y: 24.1910515
+            Z: 0.000122070313
           }
         }
         Overrides {

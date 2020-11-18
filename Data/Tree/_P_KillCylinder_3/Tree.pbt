@@ -1,24 +1,22 @@
-﻿Name: "_P_KillCylinder_1"
-RootId: 9319145352403858656
+﻿Name: "_P_KillCylinder_3"
+RootId: 12592455942390714704
 Objects {
-  Id: 3575229073143125905
+  Id: 2164227297839641121
   Name: "Mesh"
   Transform {
     Location {
-      X: -64.8337784
-      Y: -35.6981735
-      Z: 23.333334
     }
     Rotation {
+      Yaw: -35
     }
     Scale {
-      X: 1.1
-      Y: 1.1
-      Z: 4.5
+      X: 2
+      Y: 2.60000014
+      Z: 4.8
     }
   }
-  ParentId: 9319145352403858656
-  ChildIds: 5641013319878518575
+  ParentId: 12592455942390714704
+  ChildIds: 7052009327043543711
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -35,20 +33,7 @@ Objects {
         Id: 9787085779403850679
       }
     }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:smart"
-      Bool: false
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:utile"
-      Float: 0.163558602
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:vtile"
-      Float: 2.05550051
-    }
   }
-  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -70,14 +55,14 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 3575229073143125905
+    SelfId: 2164227297839641121
     SubobjectId: 8881477080085901474
-    InstanceId: 7499451274498972607
+    InstanceId: 16403308874897668379
     TemplateId: 6965630994047288269
   }
 }
 Objects {
-  Id: 5641013319878518575
+  Id: 7052009327043543711
   Name: "Fire Volume VFX"
   Transform {
     Location {
@@ -96,8 +81,7 @@ Objects {
       Z: 0.0999999866
     }
   }
-  ParentId: 3575229073143125905
-  WantsNetworking: true
+  ParentId: 2164227297839641121
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -115,9 +99,9 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 5641013319878518575
+    SelfId: 7052009327043543711
     SubobjectId: 330025034838458396
-    InstanceId: 7499451274498972607
+    InstanceId: 16403308874897668379
     TemplateId: 6965630994047288269
   }
 }

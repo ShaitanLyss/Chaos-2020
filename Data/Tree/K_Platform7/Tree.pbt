@@ -1,6 +1,43 @@
 ﻿Name: "K_Platform7"
 RootId: 11922885262986308278
 Objects {
+  Id: 10370997198722822973
+  Name: "Trigger"
+  Transform {
+    Location {
+      X: 1370
+      Y: -16450
+      Z: 105
+    }
+    Rotation {
+      Pitch: -90
+      Yaw: -49
+      Roll: -9.27298
+    }
+    Scale {
+      X: 1.7
+      Y: 1.2
+      Z: 19.6
+    }
+  }
+  ParentId: 11922885262986308278
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
   Id: 2650160394603226244
   Name: "KPlatform"
   Transform {

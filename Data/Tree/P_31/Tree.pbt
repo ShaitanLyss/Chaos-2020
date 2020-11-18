@@ -146,6 +146,7 @@ Objects {
   }
   ParentId: 11839862508090452173
   ChildIds: 15342037351681002232
+  ChildIds: 8548046817795881744
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -161,6 +162,40 @@ Objects {
     SubobjectId: 5073100564011509672
     InstanceId: 2511452984235847512
     TemplateId: 14125914624941304983
+  }
+}
+Objects {
+  Id: 8548046817795881744
+  Name: "Trigger"
+  Transform {
+    Location {
+      Z: 30.0003662
+    }
+    Rotation {
+      Yaw: -179.529724
+    }
+    Scale {
+      X: 6.1
+      Y: 6.4
+      Z: 1
+    }
+  }
+  ParentId: 2425897798800181237
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
   }
 }
 Objects {
