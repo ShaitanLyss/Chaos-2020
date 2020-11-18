@@ -67,8 +67,8 @@ function OnBindingReleased(player, bindingReleased)
 end
 
 function OnPlayerJoined(player)
-    player.bindingPressedEvent:Connect(OnBindingPressed)
-    player.bindingReleasedEvent:Connect(OnBindingReleased)
+   -- player.bindingPressedEvent:Connect(OnBindingPressed)
+    --player.bindingReleasedEvent:Connect(OnBindingReleased)
 end
 
 Game.playerJoinedEvent:Connect(OnPlayerJoined)

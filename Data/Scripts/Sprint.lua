@@ -7,7 +7,7 @@ local sprintingAcceleration = 2500
 local baseJump = 900
 local sprintingJump = 1050
 --local isSprinting = false
-local isNearGround = false
+local isNearGround = true
 --[[
 function OnBindingPressed(player, bindingPressed)
     if player.isGrounded and (bindingPressed == shiftKeyBinding) and (isSprinting == false) then
@@ -41,6 +41,7 @@ function OnBindingReleased(player, bindingReleased)
         player.jumpVelocity	 = baseJump
         print("Sprint Off")
         isNearGround = false
+        print()
     end
 end
 
@@ -52,12 +53,19 @@ function OnPlayerDied(player, damage)
     player.jumpVelocity	 = baseJump
 end
 
-
+--local p  --testing
 function OnPlayerJoined(player)
     player.bindingPressedEvent:Connect(OnBindingPressed)
     player.bindingReleasedEvent:Connect(OnBindingReleased)
     player.diedEvent:Connect(OnPlayerDied)
+    --p = player --testing
 end
+
+--[[testing
+function Tick()
+    print(p.maxWalkSpeed)
+end
+]]--
 
 
 function OnPlayerNearGround(platformPosition)
