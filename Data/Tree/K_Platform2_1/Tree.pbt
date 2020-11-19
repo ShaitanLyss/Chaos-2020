@@ -1,7 +1,7 @@
 ﻿Name: "K_Platform2_1"
-RootId: 1963766059455626840
+RootId: 4726800569726232831
 Objects {
-  Id: 7862104852941348706
+  Id: 1212415812569994324
   Name: "Trigger"
   Transform {
     Location {
@@ -20,7 +20,7 @@ Objects {
       Z: 16.2000103
     }
   }
-  ParentId: 1963766059455626840
+  ParentId: 4726800569726232831
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -38,7 +38,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12437809944080992273
+  Id: 16631319352960446043
   Name: "KPlatform"
   Transform {
     Location {
@@ -51,12 +51,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1963766059455626840
+  ParentId: 4726800569726232831
   UnregisteredParameters {
     Overrides {
       Name: "cs:K_Platform"
       ObjectReference {
-        SelfId: 1963766059455626840
+        SelfId: 4726800569726232831
       }
     }
   }
@@ -79,15 +79,18 @@ Objects {
   }
 }
 Objects {
-  Id: 12210360063305328409
+  Id: 15592511388012751116
   Name: "PlatformModel"
   Transform {
     Location {
-      X: -7539.15186
-      Y: -428.161133
-      Z: -6.40048218
+      X: -13090
+      Y: -7980
+      Z: 680
     }
     Rotation {
+      Pitch: -90
+      Yaw: 2.3
+      Roll: -9.27298
     }
     Scale {
       X: 1.1
@@ -95,8 +98,8 @@ Objects {
       Z: 1.1
     }
   }
-  ParentId: 1963766059455626840
-  ChildIds: 4949643255569738848
+  ParentId: 4726800569726232831
+  ChildIds: 979004338441296364
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -114,7 +117,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4949643255569738848
+  Id: 979004338441296364
   Name: "_P_KillCylinder"
   Transform {
     Scale {
@@ -123,7 +126,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12210360063305328409
+  ParentId: 15592511388012751116
   TemplateInstance {
     ParameterOverrideMap {
       key: 8881477080085901474
@@ -136,16 +139,16 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 1.7996434
-            Y: 1.7996434
-            Z: 9.25383091
+            X: 2
+            Y: 2
+            Z: 13.5
           }
         }
         Overrides {
           Name: "Position"
           Vector {
-            X: -18.181818
-            Y: -5.21883869
+            X: -18.1818237
+            Y: -5.2186451
             Z: -111.751068
           }
         }

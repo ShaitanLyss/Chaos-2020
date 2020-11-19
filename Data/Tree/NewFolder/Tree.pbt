@@ -41,6 +41,12 @@ Objects {
             Z: 6.20980024
           }
         }
+        Overrides {
+          Name: "Collidable"
+          Enum {
+            Value: "mc:ecollisionsetting:forceoff"
+          }
+        }
       }
     }
     TemplateAsset {

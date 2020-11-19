@@ -130,7 +130,7 @@ Objects {
       WalkSpeed: 1000
       MaxAcceleration: 2000
       BrakingDecelerationFalling: 0.01
-      WalkableFloorAngle: 63
+      WalkableFloorAngle: 20
       JumpMaxCount: 1
       JumpVelocity: 900
       GroundFriction: 8
@@ -181,9 +181,9 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: -3915.23267
-      Y: 6227.01
-      Z: 1063.32629
+      X: -8717.07
+      Y: 2288.00537
+      Z: 271.881561
     }
     Rotation {
       Yaw: -21.0398254

@@ -1,44 +1,7 @@
 ﻿Name: "K_Platform2"
-RootId: 4726800569726232831
+RootId: 13387779529603292870
 Objects {
-  Id: 1212415812569994324
-  Name: "Trigger"
-  Transform {
-    Location {
-      X: -12485.8945
-      Y: -8060.60059
-      Z: 697.536804
-    }
-    Rotation {
-      Pitch: -90
-      Yaw: 2.3
-      Roll: -9.27298
-    }
-    Scale {
-      X: 2.32483888
-      Y: 1.70945716
-      Z: 16.2000103
-    }
-  }
-  ParentId: 4726800569726232831
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Trigger {
-    TeamSettings {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    TriggerShape_v2 {
-      Value: "mc:etriggershape:capsule"
-    }
-  }
-}
-Objects {
-  Id: 16631319352960446043
+  Id: 3050518640381494756
   Name: "KPlatform"
   Transform {
     Location {
@@ -51,12 +14,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4726800569726232831
+  ParentId: 13387779529603292870
   UnregisteredParameters {
     Overrides {
       Name: "cs:K_Platform"
       ObjectReference {
-        SelfId: 4726800569726232831
+        SelfId: 13387779529603292870
       }
     }
   }
@@ -72,34 +35,31 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 15478015494772436055
+    SelfId: 2927767980405741046
     SubobjectId: 13276555526046159268
-    InstanceId: 9465508632573721086
+    InstanceId: 18042480391068993951
     TemplateId: 4296020210974480709
   }
 }
 Objects {
-  Id: 15592511388012751116
+  Id: 17569395568148446789
   Name: "PlatformModel"
   Transform {
     Location {
-      X: -13090
-      Y: -7980
-      Z: 680
+      X: -10584.9951
+      Y: -2089.28564
     }
     Rotation {
-      Pitch: -90
-      Yaw: 2.3
-      Roll: -9.27298
+      Yaw: -173.818192
     }
     Scale {
-      X: 1.1
-      Y: 1.1
-      Z: 1.1
+      X: 1
+      Y: 1
+      Z: 1
     }
   }
-  ParentId: 4726800569726232831
-  ChildIds: 979004338441296364
+  ParentId: 13387779529603292870
+  ChildIds: 5305130441598605675
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -110,15 +70,15 @@ Objects {
     IsGroup: true
   }
   InstanceHistory {
-    SelfId: 324945685516363519
+    SelfId: 18081671030614548318
     SubobjectId: 7669992590307203852
-    InstanceId: 9465508632573721086
+    InstanceId: 18042480391068993951
     TemplateId: 4296020210974480709
   }
 }
 Objects {
-  Id: 979004338441296364
-  Name: "_P_KillCylinder"
+  Id: 5305130441598605675
+  Name: "Bush hazard"
   Transform {
     Scale {
       X: 1
@@ -126,63 +86,39 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15592511388012751116
+  ParentId: 17569395568148446789
   TemplateInstance {
     ParameterOverrideMap {
-      key: 8881477080085901474
-      value {
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 2
-            Y: 2
-            Z: 13.5
-          }
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -18.1818237
-            Y: -5.2186451
-            Z: -111.751068
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 14666212901670409171
+      key: 2914837419902199197
       value {
         Overrides {
           Name: "Name"
-          String: "_P_KillCylinder"
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
+          String: "Bush hazard"
         }
         Overrides {
           Name: "Scale"
           Vector {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 0.6
+            Y: 0.6
+            Z: 0.3
           }
         }
         Overrides {
           Name: "Position"
           Vector {
+            Z: 0.000122070313
+          }
+        }
+        Overrides {
+          Name: "Collidable"
+          Enum {
+            Value: "mc:ecollisionsetting:forceoff"
           }
         }
       }
     }
     TemplateAsset {
-      Id: 6965630994047288269
+      Id: 6130468399187983281
     }
   }
 }

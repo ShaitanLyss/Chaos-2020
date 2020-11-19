@@ -8,6 +8,15 @@
   }
 }
 Assets {
+  Id: 17550683169673905473
+  Name: "Coral Branches Big"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_coral_branch_big_01"
+  }
+}
+Assets {
   Id: 14452616722762075696
   Name: "Fantasy Castle Pillar 01 Base"
   PlatformAssetType: 1
@@ -17,12 +26,48 @@ Assets {
   }
 }
 Assets {
+  Id: 12597148293892683219
+  Name: "Bush 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_bush_generic_001"
+  }
+}
+Assets {
+  Id: 10395029414285890416
+  Name: "Prism - 3-Sided Polished"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prism_hq_001"
+  }
+}
+Assets {
   Id: 7822473577673662489
   Name: "Fantasy Castle Pillar 01 Mid"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_fan_cas_pillar_001_mid"
+  }
+}
+Assets {
+  Id: 6101413117148053853
+  Name: "Prism - 3-Sided"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prism_001"
+  }
+}
+Assets {
+  Id: 4468925806625743398
+  Name: "Prism - 3-Sided Convex"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prism_triangle_convex_001"
   }
 }
 Assets {
