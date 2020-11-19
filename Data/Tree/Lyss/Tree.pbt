@@ -1,6 +1,54 @@
 ﻿Name: "Lyss"
 RootId: 10490075164851024102
 Objects {
+  Id: 15005139173416426687
+  Name: "E_CoralTree"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10490075164851024102
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8687253725619963964
+      value {
+        Overrides {
+          Name: "Name"
+          String: "E_CoralTree"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -772.343506
+            Y: -244.612305
+            Z: 10646.3262
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 58.3458595
+            Y: 58.3458595
+            Z: 58.3458595
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -81.962883
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 6696416903554057062
+    }
+  }
+}
+Objects {
   Id: 13332657579885910712
   Name: "NewFolder"
   Transform {
