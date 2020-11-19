@@ -1036,14 +1036,14 @@
         Name: "Cylinder - Polished"
         Transform {
           Location {
-            X: 42.220459
-            Y: 4.5324707
-            Z: 101.609528
+            X: 2.92333984
+            Y: -2.39868164
+            Z: 101.609535
           }
           Rotation {
             Pitch: -90
-            Yaw: -3.05175781e-05
-            Roll: 4.78113179e-05
+            Yaw: -15.5643005
+            Roll: 15.5644293
           }
           Scale {
             X: 0.565525591
@@ -1148,28 +1148,27 @@
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Light {
-          Intensity: 200
+          Intensity: 75.9693756
           Color {
-            R: 1
-            G: 0.676291466
-            B: 0.0600000024
+            R: 0.929999948
+            G: 0.1705
             A: 1
           }
           CastShadows: true
-          VolumetricIntensity: 5
+          VolumetricIntensity: 1.66509855
           TeamSettings {
           }
           Light {
             Temperature: 6500
             LocalLight {
-              AttenuationRadius: 2678.36621
+              AttenuationRadius: 6000
               SpotLight {
                 SourceRadius: 20
                 SoftSourceRadius: 20
                 FallOffExponent: 8
                 UseFallOffExponent: true
-                InnerConeAngle: 30
-                OuterConeAngle: 80
+                InnerConeAngle: 13.3783131
+                OuterConeAngle: 34.7973289
                 Profile {
                   Value: "mc:espotlightprofile:brightspotsoftinterior"
                 }
@@ -1178,6 +1177,7 @@
             MaxDrawDistance: 5000
             MaxDistanceFadeRange: 1000
           }
+          CastVolumetricShadows: true
         }
       }
       Objects {
@@ -1212,8 +1212,8 @@
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               R: 1
-              G: 0.954569578
-              B: 0.0199999809
+              G: 0.211655676
+              B: 0.0400000215
               A: 1
             }
           }

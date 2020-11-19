@@ -1,6 +1,129 @@
 ﻿Name: "Lyss"
 RootId: 10490075164851024102
 Objects {
+  Id: 16220404123570435592
+  Name: "Fire Volume VFX"
+  Transform {
+    Location {
+      X: -8791.30078
+      Y: 3226.73608
+      Z: 55.9338379
+    }
+    Rotation {
+      Yaw: 12.5694933
+    }
+    Scale {
+      X: 4.55226469
+      Y: 4.55226469
+      Z: 4.55226469
+    }
+  }
+  ParentId: 10490075164851024102
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Particle Scale Multiplier"
+      Float: 0.664634049
+    }
+    Overrides {
+      Name: "bp:Density"
+      Float: 2.90345407
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 6474768715633236406
+    }
+    TeamSettings {
+    }
+    Vfx {
+      AutoPlay: true
+    }
+  }
+}
+Objects {
+  Id: 8339741888061282869
+  Name: "Fire Volume VFX"
+  Transform {
+    Location {
+      X: -9072.08301
+      Y: 3817.84302
+      Z: 291.725189
+    }
+    Rotation {
+      Pitch: -24.0211391
+      Yaw: 22.3131809
+      Roll: 4.67362582e-07
+    }
+    Scale {
+      X: 3.65295219
+      Y: 3.65295815
+      Z: 4.5576148
+    }
+  }
+  ParentId: 10490075164851024102
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Particle Scale Multiplier"
+      Float: 0.664634049
+    }
+    Overrides {
+      Name: "bp:Density"
+      Float: 2.90345407
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 6474768715633236406
+    }
+    TeamSettings {
+    }
+    Vfx {
+      AutoPlay: true
+    }
+  }
+}
+Objects {
+  Id: 10910845249869573806
+  Name: "Burn"
+  Transform {
+    Location {
+      X: -2209.50098
+      Y: -6798.28662
+      Z: -75.1699524
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10490075164851024102
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Burn"
+  }
+}
+Objects {
   Id: 15005139173416426687
   Name: "E_CoralTree"
   Transform {
@@ -147,7 +270,7 @@ Objects {
         }
         Overrides {
           Name: "Intensity"
-          Float: 72.2820663
+          Float: 23.4717884
         }
         Overrides {
           Name: "Position"
@@ -168,6 +291,10 @@ Objects {
             Y: 0.769230723
             Z: 0.769230723
           }
+        }
+        Overrides {
+          Name: "CastVolumetricShadows"
+          Bool: true
         }
       }
     }
@@ -210,7 +337,7 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: 95
+            Yaw: 148.983444
           }
         }
         Overrides {
@@ -258,174 +385,6 @@ Objects {
   }
 }
 Objects {
-  Id: 1057485290948826442
-  Name: "L_Satan"
-  Transform {
-    Location {
-      X: -8425
-      Y: -5370
-      Z: 130
-    }
-    Rotation {
-      Yaw: 79.9999619
-    }
-    Scale {
-      X: 0.6
-      Y: 0.6
-      Z: 0.6
-    }
-  }
-  ParentId: 10490075164851024102
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 435567188758708007
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 1
-            G: 0.211655676
-            B: 0.0400000215
-            A: 1
-          }
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 28.3674469
-            Y: 4.53256416
-            Z: 100.399483
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Pitch: -90
-            Yaw: -0.000122070313
-            Roll: 0.0001575309
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 1074819998168035239
-      value {
-        Overrides {
-          Name: "Color"
-          Color {
-            R: 0.929999948
-            G: 0.110860921
-            A: 1
-          }
-        }
-        Overrides {
-          Name: "OuterConeAngle"
-          Float: 45.8135719
-        }
-        Overrides {
-          Name: "AttenuationRadius"
-          Float: 2882.72974
-        }
-        Overrides {
-          Name: "Intensity"
-          Float: 72.2820663
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 46.4590149
-            Z: 101.343559
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.769230723
-            Y: 0.769230723
-            Z: 0.769230723
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 3219980693138719328
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 5329428467144942625
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 2.92333984
-            Y: -2.39868164
-            Z: 101.609535
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Pitch: -90
-            Yaw: -15.5643005
-            Roll: 15.5644293
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 17674401717322926120
-      value {
-        Overrides {
-          Name: "Name"
-          String: "L_Satan"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -5440
-            Y: -7160
-            Z: 130
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -40
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.6
-            Y: 0.6
-            Z: 0.6
-          }
-        }
-        Overrides {
-          Name: "Visible"
-          Enum {
-            Value: "mc:evisibilitysetting:forceoff"
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 13159434547275832339
-    }
-  }
-}
-Objects {
   Id: 13712436488991585933
   Name: "L_Satan"
   Transform {
@@ -437,102 +396,6 @@ Objects {
   }
   ParentId: 10490075164851024102
   TemplateInstance {
-    ParameterOverrideMap {
-      key: 435567188758708007
-      value {
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:color"
-          Color {
-            R: 1
-            G: 0.211655676
-            B: 0.0400000215
-            A: 1
-          }
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 28.3674469
-            Y: 4.53256416
-            Z: 100.399483
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Pitch: -90
-            Yaw: -0.000122070313
-            Roll: 0.0001575309
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 1074819998168035239
-      value {
-        Overrides {
-          Name: "Color"
-          Color {
-            R: 0.929999948
-            G: 0.1705
-            A: 1
-          }
-        }
-        Overrides {
-          Name: "OuterConeAngle"
-          Float: 45.8135719
-        }
-        Overrides {
-          Name: "AttenuationRadius"
-          Float: 6000
-        }
-        Overrides {
-          Name: "Intensity"
-          Float: 72.2820663
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 46.4590149
-            Z: 101.343559
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.769230723
-            Y: 0.769230723
-            Z: 0.769230723
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 5329428467144942625
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 2.92333984
-            Y: -2.39868164
-            Z: 101.609535
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Pitch: -90
-            Yaw: -15.5643005
-            Roll: 15.5644293
-          }
-        }
-      }
-    }
     ParameterOverrideMap {
       key: 17674401717322926120
       value {
@@ -552,14 +415,6 @@ Objects {
           Name: "Rotation"
           Rotator {
             Yaw: 95
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.6
-            Y: 0.6
-            Z: 0.6
           }
         }
       }

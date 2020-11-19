@@ -93,7 +93,7 @@ Objects {
     }
     Overrides {
       Name: "bp:Fog Density"
-      Float: 0.831789136
+      Float: 0.247275382
     }
     Overrides {
       Name: "bp:color"
@@ -106,6 +106,14 @@ Objects {
     Overrides {
       Name: "bp:Light Absorption Amount"
       Float: 10
+    }
+    Overrides {
+      Name: "bp:Albedo"
+      Color {
+        R: 0.117647067
+        G: 0.0745098069
+        A: 1
+      }
     }
   }
   Collidable_v2 {

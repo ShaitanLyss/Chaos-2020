@@ -26,6 +26,15 @@ Assets {
   }
 }
 Assets {
+  Id: 6474768715633236406
+  Name: "Fire Volume VFX"
+  PlatformAssetType: 8
+  PrimaryAsset {
+    AssetType: "VfxBlueprintAssetRef"
+    AssetId: "fxbp_fire_volume_vfx"
+  }
+}
+Assets {
   Id: 4286823887220239396
   Name: "Fantasy Castle Stairs Spiral Trim 01 - 4m"
   PlatformAssetType: 1
