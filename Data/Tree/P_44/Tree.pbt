@@ -1,20 +1,20 @@
 ﻿Name: "P_44"
 RootId: 11553482059987481128
 Objects {
-  Id: 18325869564497373147
+  Id: 164083965885326470
   Name: "Trigger"
   Transform {
     Location {
-      X: -7391.49414
-      Y: -16642.8047
-      Z: 25.0488586
+      X: 5148.14258
+      Y: -5856.16895
+      Z: 0.000183105469
     }
     Rotation {
-      Yaw: 157
+      Yaw: -160.535782
     }
     Scale {
-      X: 10.7581673
-      Y: 13.7651167
+      X: 2.95414519
+      Y: 29.1882248
       Z: 1
     }
   }
@@ -81,8 +81,8 @@ Objects {
   Name: "PlatformModel"
   Transform {
     Location {
-      X: 5080
-      Y: -5950
+      X: 5403.52344
+      Y: -6411.75928
       Z: 6.10351563e-05
     }
     Rotation {
@@ -188,8 +188,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -102.339645
-            Y: -168.676
+            X: 0.00219726563
+            Y: -755.191895
           }
         }
       }

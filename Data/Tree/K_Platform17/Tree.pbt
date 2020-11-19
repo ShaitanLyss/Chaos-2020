@@ -77,6 +77,8 @@ Objects {
         Overrides {
           Name: "cs:IntervalDelayRange"
           Vector2 {
+            X: 0.5
+            Y: 0.5
           }
         }
         Overrides {
@@ -153,6 +155,7 @@ Objects {
   }
   ParentId: 2754179678867869168
   ChildIds: 16660464359365187699
+  ChildIds: 3215555203220573094
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -168,6 +171,41 @@ Objects {
     SubobjectId: 7669992590307203852
     InstanceId: 9465508632573721086
     TemplateId: 4296020210974480709
+  }
+}
+Objects {
+  Id: 3215555203220573094
+  Name: "Trigger"
+  Transform {
+    Location {
+      X: -0.00372314453
+      Y: 0.000223795578
+      Z: 230.3405
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.09008932
+      Y: 1.08472979
+      Z: 4.7284193
+    }
+  }
+  ParentId: 10692554836364908498
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
   }
 }
 Objects {

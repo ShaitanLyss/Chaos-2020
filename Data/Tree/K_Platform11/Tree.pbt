@@ -5,16 +5,16 @@ Objects {
   Name: "Trigger"
   Transform {
     Location {
-      X: 4660
-      Y: -12665
-      Z: 305
+      X: 4629.2
+      Y: -12675.6504
+      Z: 341.617676
     }
     Rotation {
       Yaw: 40.1251411
     }
     Scale {
-      X: 4.3
-      Y: 4.3
+      X: 5.60056734
+      Y: 4.74259663
       Z: 10.8
     }
   }
@@ -31,7 +31,7 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     TriggerShape_v2 {
-      Value: "mc:etriggershape:box"
+      Value: "mc:etriggershape:capsule"
     }
   }
 }

@@ -1,6 +1,41 @@
 ﻿Name: "P_46"
 RootId: 4735364223168004961
 Objects {
+  Id: 18312838078604558409
+  Name: "Trigger"
+  Transform {
+    Location {
+      X: 4275
+      Y: -2485
+      Z: 150
+    }
+    Rotation {
+      Yaw: -142.5
+    }
+    Scale {
+      X: 5.42686844
+      Y: 5.80955553
+      Z: 1
+    }
+  }
+  ParentId: 4735364223168004961
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
   Id: 6008134719780880511
   Name: "PlatformCheckPoint"
   Transform {
@@ -46,8 +81,8 @@ Objects {
   Name: "PlatformModel"
   Transform {
     Location {
-      X: 4275
-      Y: -2485
+      X: 4134.39063
+      Y: -2592.89307
       Z: 150
     }
     Rotation {
@@ -103,6 +138,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
+            X: -193.270477
+            Y: -0.000101725251
           }
         }
         Overrides {

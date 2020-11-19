@@ -87,8 +87,8 @@ Objects {
   Name: "PlatformModel"
   Transform {
     Location {
-      X: -9390
-      Y: 3040
+      X: -9324.54199
+      Y: 3174.21
       Z: 764
     }
     Rotation {
@@ -163,8 +163,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 214.607986
-            Y: -6.58889771
+            X: 55.9619446
+            Y: -6.58883095
           }
         }
         Overrides {

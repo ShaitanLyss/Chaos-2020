@@ -218,6 +218,32 @@ Objects {
   }
 }
 Objects {
+  Id: 7885339278262600429
+  Name: "Level 1 - Circle 2"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11404857991553905137
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Level 1 - Circle 2"
+  }
+}
+Objects {
   Id: 15132337380296437093
   Name: "Level 1 - Circle 1"
   Transform {
@@ -686,6 +712,7 @@ Objects {
   Name: "P_44"
   Transform {
     Location {
+      X: -10.1672134
     }
     Rotation {
     }
@@ -782,7 +809,7 @@ Objects {
 }
 Objects {
   Id: 9649130558008585147
-  Name: "K_Platform14-2"
+  Name: "K_Platform14"
   Transform {
     Location {
     }
@@ -803,7 +830,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "K_Platform14-2"
+    FilePartitionName: "K_Platform14"
   }
   InstanceHistory {
     SelfId: 2669764855542356164
@@ -815,7 +842,7 @@ Objects {
 }
 Objects {
   Id: 6672995766959966624
-  Name: "K_Platform14-1"
+  Name: "K_Platform13-2"
   Transform {
     Location {
     }
@@ -836,7 +863,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "K_Platform14-1"
+    FilePartitionName: "K_Platform13-2"
   }
   InstanceHistory {
     SelfId: 2669764855542356164
@@ -848,7 +875,7 @@ Objects {
 }
 Objects {
   Id: 5612622879102940256
-  Name: "K_Platform13"
+  Name: "K_Platform13-1"
   Transform {
     Location {
     }
@@ -869,7 +896,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "K_Platform13"
+    FilePartitionName: "K_Platform13-1"
   }
   InstanceHistory {
     SelfId: 2669764855542356164

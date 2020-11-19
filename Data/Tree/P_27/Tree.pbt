@@ -48,8 +48,8 @@ Objects {
         Overrides {
           Name: "cs:StartDelayRange"
           Vector2 {
-            X: 3.1
-            Y: 3.1
+            X: 2.5
+            Y: 2.5
           }
         }
         Overrides {
