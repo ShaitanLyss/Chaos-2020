@@ -73,8 +73,8 @@ Objects {
   Name: "Split level Landmark"
   Transform {
     Location {
-      X: 3960
-      Y: 8205
+      X: 3711.56348
+      Y: 8463.79785
       Z: 190
     }
     Rotation {
@@ -306,13 +306,13 @@ Objects {
   ChildIds: 14100941720371667987
   ChildIds: 1526286448186673194
   ChildIds: 16990563399086519095
-  ChildIds: 9487732937464844548
-  ChildIds: 8524452544948064128
+  ChildIds: 7671568231755535532
+  ChildIds: 5345448162633655392
   ChildIds: 11968799081562588323
   ChildIds: 16426970035134897014
   ChildIds: 8830595630266575992
-  ChildIds: 16924543540626557645
-  ChildIds: 9644280194216282627
+  ChildIds: 9846275148789510344
+  ChildIds: 5242440255567315440
   ChildIds: 10133483941789345808
   ChildIds: 17819459812045987190
   ChildIds: 2780257753523721496
@@ -346,7 +346,7 @@ Objects {
 }
 Objects {
   Id: 14728179360042073076
-  Name: "P_50"
+  Name: "P_46"
   Transform {
     Location {
     }
@@ -367,7 +367,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "P_50"
+    FilePartitionName: "P_46"
   }
   InstanceHistory {
     SelfId: 8252663680390240732
@@ -379,7 +379,7 @@ Objects {
 }
 Objects {
   Id: 13016667515502400269
-  Name: "P_49"
+  Name: "P_45"
   Transform {
     Location {
     }
@@ -400,7 +400,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "P_49"
+    FilePartitionName: "P_45"
   }
   InstanceHistory {
     SelfId: 8252663680390240732
@@ -412,7 +412,7 @@ Objects {
 }
 Objects {
   Id: 5885252426404930572
-  Name: "P_48"
+  Name: "P_44"
   Transform {
     Location {
     }
@@ -433,7 +433,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "P_48"
+    FilePartitionName: "P_44"
   }
   InstanceHistory {
     SelfId: 8252663680390240732
@@ -478,7 +478,7 @@ Objects {
 }
 Objects {
   Id: 14884023921814192296
-  Name: "P_47"
+  Name: "P_43"
   Transform {
     Location {
     }
@@ -499,7 +499,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "P_47"
+    FilePartitionName: "P_43"
   }
   InstanceHistory {
     SelfId: 8252663680390240732
@@ -544,7 +544,7 @@ Objects {
 }
 Objects {
   Id: 4735364223168004961
-  Name: "P_46"
+  Name: "P_42"
   Transform {
     Location {
     }
@@ -565,7 +565,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "P_46"
+    FilePartitionName: "P_42"
   }
   InstanceHistory {
     SelfId: 8252663680390240732
@@ -610,7 +610,7 @@ Objects {
 }
 Objects {
   Id: 8132803346326421629
-  Name: "P_45"
+  Name: "P_41"
   Transform {
     Location {
     }
@@ -631,7 +631,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "P_45"
+    FilePartitionName: "P_41"
   }
   InstanceHistory {
     SelfId: 8252663680390240732
@@ -709,7 +709,7 @@ Objects {
 }
 Objects {
   Id: 11553482059987481128
-  Name: "P_44"
+  Name: "P_40"
   Transform {
     Location {
       X: -10.1672134
@@ -731,7 +731,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "P_44"
+    FilePartitionName: "P_40"
   }
   InstanceHistory {
     SelfId: 15099840020560547324
@@ -908,7 +908,7 @@ Objects {
 }
 Objects {
   Id: 10874314743500957860
-  Name: "P_43"
+  Name: "P_39"
   Transform {
     Location {
     }
@@ -929,7 +929,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "P_43"
+    FilePartitionName: "P_39"
   }
   InstanceHistory {
     SelfId: 15099840020560547324
@@ -974,7 +974,7 @@ Objects {
 }
 Objects {
   Id: 17819459812045987190
-  Name: "P_42"
+  Name: "P_38"
   Transform {
     Location {
     }
@@ -995,7 +995,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "P_42"
+    FilePartitionName: "P_38"
   }
   InstanceHistory {
     SelfId: 15099840020560547324
@@ -1007,7 +1007,7 @@ Objects {
 }
 Objects {
   Id: 10133483941789345808
-  Name: "P_41"
+  Name: "P_37"
   Transform {
     Location {
     }
@@ -1028,7 +1028,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "P_41"
+    FilePartitionName: "P_37"
   }
   InstanceHistory {
     SelfId: 15099840020560547324
@@ -1039,20 +1039,21 @@ Objects {
   }
 }
 Objects {
-  Id: 9644280194216282627
-  Name: "P_40"
+  Id: 5242440255567315440
+  Name: "Rock Prop4"
   Transform {
     Location {
-      X: 5655
-      Y: -10950
-      Z: 35
+      X: 4980
+      Y: -11225
+      Z: 410
     }
     Rotation {
+      Yaw: 11.7345076
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 3.99999976
+      Y: 1.68000019
+      Z: 5.04000044
     }
   }
   ParentId: 15132337380296437093
@@ -1062,33 +1063,37 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "P_40"
-  }
-  InstanceHistory {
-    SelfId: 9644280194216282627
-    SubobjectId: 11673249680736116978
-    InstanceId: 9236648575942322945
-    TemplateId: 14125914624941304983
-    WasRoot: true
+  CoreMesh {
+    MeshAsset {
+      Id: 3312561467368259269
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
   }
 }
 Objects {
-  Id: 16924543540626557645
-  Name: "P_39"
+  Id: 9846275148789510344
+  Name: "Rock Prop3"
   Transform {
     Location {
-      X: 5410
-      Y: -11285
-      Z: -140
+      X: 5655
+      Y: -11835
+      Z: 430.000244
     }
     Rotation {
+      Yaw: -99.0462723
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 2.3
+      Y: 2.3
+      Z: 5.1
     }
   }
   ParentId: 15132337380296437093
@@ -1098,16 +1103,19 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "P_39"
-  }
-  InstanceHistory {
-    SelfId: 16924543540626557645
-    SubobjectId: 11673249680736116978
-    InstanceId: 12545456532069791762
-    TemplateId: 14125914624941304983
-    WasRoot: true
+  CoreMesh {
+    MeshAsset {
+      Id: 3312561467368259269
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
   }
 }
 Objects {
@@ -1145,78 +1153,9 @@ Objects {
 }
 Objects {
   Id: 16426970035134897014
-  Name: "P_38"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 15132337380296437093
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "P_38"
-  }
-  InstanceHistory {
-    SelfId: 15099840020560547324
-    SubobjectId: 11673249680736116978
-    InstanceId: 13549903075169459907
-    TemplateId: 14125914624941304983
-    WasRoot: true
-  }
-}
-Objects {
-  Id: 11968799081562588323
-  Name: "P_37"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 15132337380296437093
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "P_37"
-  }
-  InstanceHistory {
-    SelfId: 15099840020560547324
-    SubobjectId: 11673249680736116978
-    InstanceId: 13549903075169459907
-    TemplateId: 14125914624941304983
-    WasRoot: true
-  }
-}
-Objects {
-  Id: 8524452544948064128
   Name: "P_36"
   Transform {
     Location {
-      X: 5185
-      Y: -10900
-      Z: -135
     }
     Rotation {
     }
@@ -1238,21 +1177,18 @@ Objects {
     FilePartitionName: "P_36"
   }
   InstanceHistory {
-    SelfId: 8524452544948064128
+    SelfId: 15099840020560547324
     SubobjectId: 11673249680736116978
-    InstanceId: 7276180318262085328
+    InstanceId: 13549903075169459907
     TemplateId: 14125914624941304983
     WasRoot: true
   }
 }
 Objects {
-  Id: 9487732937464844548
+  Id: 11968799081562588323
   Name: "P_35"
   Transform {
     Location {
-      X: 5385
-      Y: -11085
-      Z: -135
     }
     Rotation {
     }
@@ -1274,11 +1210,91 @@ Objects {
     FilePartitionName: "P_35"
   }
   InstanceHistory {
-    SelfId: 9487732937464844548
+    SelfId: 15099840020560547324
     SubobjectId: 11673249680736116978
-    InstanceId: 1723315109374493802
+    InstanceId: 13549903075169459907
     TemplateId: 14125914624941304983
     WasRoot: true
+  }
+}
+Objects {
+  Id: 5345448162633655392
+  Name: "Rock Prop2"
+  Transform {
+    Location {
+      X: 4130
+      Y: -12810
+      Z: 425
+    }
+    Rotation {
+      Yaw: -1.36603767e-05
+    }
+    Scale {
+      X: 2.64
+      Y: 1.84
+      Z: 4.96000051
+    }
+  }
+  ParentId: 15132337380296437093
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3312561467368259269
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 7671568231755535532
+  Name: "Rock Prop1"
+  Transform {
+    Location {
+      X: 4855
+      Y: -13625
+      Z: 430
+    }
+    Rotation {
+      Yaw: -1.36603767e-05
+    }
+    Scale {
+      X: 2.3
+      Y: 2.3
+      Z: 5.1
+    }
+  }
+  ParentId: 15132337380296437093
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 3312561467368259269
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
   }
 }
 Objects {
@@ -2321,7 +2337,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "K_Platform2_1"
+    FilePartitionName: "K_Platform2"
   }
   InstanceHistory {
     SelfId: 2669764855542356164

@@ -1,7 +1,42 @@
 ﻿Name: "P_36"
-RootId: 8524452544948064128
+RootId: 16426970035134897014
 Objects {
-  Id: 770766241652458212
+  Id: 1035599343121210436
+  Name: "Trigger"
+  Transform {
+    Location {
+      X: 4472.1792
+      Y: -12030.2598
+      Z: 6.10351563e-05
+    }
+    Rotation {
+      Yaw: 156
+    }
+    Scale {
+      X: 3.33027
+      Y: 14.5777216
+      Z: 1
+    }
+  }
+  ParentId: 16426970035134897014
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
+  Id: 7406498762733043826
   Name: "PlatformCheckPoint"
   Transform {
     Location {
@@ -14,12 +49,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8524452544948064128
+  ParentId: 16426970035134897014
   UnregisteredParameters {
     Overrides {
       Name: "cs:Platform"
       ObjectReference {
-        SelfId: 8524452544948064128
+        SelfId: 16426970035134897014
       }
     }
   }
@@ -35,22 +70,23 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 770766241652458212
+    SelfId: 12498570627671523480
     SubobjectId: 15925019654078393750
-    InstanceId: 7276180318262085328
+    InstanceId: 13549903075169459907
     TemplateId: 14125914624941304983
   }
 }
 Objects {
-  Id: 10508024680014104794
+  Id: 13403687971749514574
   Name: "PlatformModel"
   Transform {
     Location {
-      X: -1055
-      Y: -1910
-      Z: 560
+      X: 4475
+      Y: -12090
+      Z: 6.10351563e-05
     }
     Rotation {
+      Yaw: 156
     }
     Scale {
       X: 1
@@ -58,8 +94,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8524452544948064128
-  ChildIds: 5345448162633655392
+  ParentId: 16426970035134897014
+  ChildIds: 7362958419547672290
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -70,46 +106,78 @@ Objects {
     IsGroup: true
   }
   InstanceHistory {
-    SelfId: 10508024680014104794
+    SelfId: 3897189097981577894
     SubobjectId: 5073100564011509672
-    InstanceId: 7276180318262085328
+    InstanceId: 13549903075169459907
     TemplateId: 14125914624941304983
   }
 }
 Objects {
-  Id: 5345448162633655392
-  Name: "Rock Hexagonal"
+  Id: 7362958419547672290
+  Name: "_PS_Rectangle_small"
   Transform {
-    Location {
-    }
-    Rotation {
-      Yaw: -1.36603776e-05
-    }
     Scale {
-      X: 2.64
-      Y: 1.84
-      Z: 4.96000051
+      X: 1
+      Y: 1
+      Z: 1
     }
   }
-  ParentId: 10508024680014104794
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3312561467368259269
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
+  ParentId: 13403687971749514574
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 10953068183107250475
+      value {
+        Overrides {
+          Name: "Name"
+          String: "_PS_Rectangle_small"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
       }
+    }
+    ParameterOverrideMap {
+      key: 12159032773331541081
+      value {
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 4
+            Y: 17.8000011
+            Z: 0.7
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 28.9074364
+            Y: 45.709507
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 18160197662068348531
     }
   }
 }

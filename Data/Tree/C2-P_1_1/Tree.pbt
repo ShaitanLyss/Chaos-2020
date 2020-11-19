@@ -1,7 +1,7 @@
-﻿Name: "C2-P_1"
-RootId: 15209319213920988709
+﻿Name: "C2-P_1_1"
+RootId: 13701130548332483844
 Objects {
-  Id: 7401451935962064359
+  Id: 123163755029986049
   Name: "PlatformCheckPoint"
   Transform {
     Location {
@@ -14,12 +14,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15209319213920988709
+  ParentId: 13701130548332483844
   UnregisteredParameters {
     Overrides {
       Name: "cs:Platform"
       ObjectReference {
-        SelfId: 15209319213920988709
+        SelfId: 13701130548332483844
       }
     }
   }
@@ -42,13 +42,13 @@ Objects {
   }
 }
 Objects {
-  Id: 760115696498240858
+  Id: 529297027544824685
   Name: "PlatformModel"
   Transform {
     Location {
-      X: -9226.32324
-      Y: -578.941895
-      Z: -849.999756
+      X: -8404.99805
+      Y: 191.029297
+      Z: -849.999939
     }
     Rotation {
     }
@@ -58,8 +58,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15209319213920988709
-  ChildIds: 14355575200226751539
+  ParentId: 13701130548332483844
+  ChildIds: 13267760542499600
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -77,7 +77,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14355575200226751539
+  Id: 13267760542499600
   Name: "_P_Circle_platform"
   Transform {
     Scale {
@@ -86,7 +86,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 760115696498240858
+  ParentId: 529297027544824685
   TemplateInstance {
     ParameterOverrideMap {
       key: 9158560559571464872

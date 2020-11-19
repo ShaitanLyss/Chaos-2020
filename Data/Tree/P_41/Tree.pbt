@@ -1,24 +1,24 @@
 ﻿Name: "P_41"
-RootId: 10133483941789345808
+RootId: 8132803346326421629
 Objects {
-  Id: 14108780215355017884
+  Id: 6830776582142462495
   Name: "Trigger"
   Transform {
     Location {
-      X: 4813.97412
-      Y: -10962.3301
-      Z: 0.000305175781
+      X: 3980
+      Y: -3975
+      Z: 154.24115
     }
     Rotation {
-      Yaw: 170
+      Yaw: -142.5
     }
     Scale {
-      X: 2.66331267
-      Y: 7.33130455
+      X: 6.16450644
+      Y: 6.55094385
       Z: 1
     }
   }
-  ParentId: 10133483941789345808
+  ParentId: 8132803346326421629
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -36,7 +36,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12391036092130792059
+  Id: 11642955925885268511
   Name: "PlatformCheckPoint"
   Transform {
     Location {
@@ -49,12 +49,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10133483941789345808
+  ParentId: 8132803346326421629
   UnregisteredParameters {
     Overrides {
       Name: "cs:Platform"
       ObjectReference {
-        SelfId: 10133483941789345808
+        SelfId: 8132803346326421629
       }
     }
   }
@@ -70,23 +70,23 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 12498570627671523480
+    SelfId: 1043118055966545080
     SubobjectId: 15925019654078393750
-    InstanceId: 13549903075169459907
+    InstanceId: 2511452984235847512
     TemplateId: 14125914624941304983
   }
 }
 Objects {
-  Id: 14151187668809799994
+  Id: 14995811161871266345
   Name: "PlatformModel"
   Transform {
     Location {
-      X: 4955
-      Y: -9965
-      Z: 0.000183105469
+      X: 4171.89355
+      Y: -3827.75537
+      Z: 100
     }
     Rotation {
-      Yaw: 170
+      Yaw: -142.5
     }
     Scale {
       X: 1
@@ -94,8 +94,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10133483941789345808
-  ChildIds: 13862559036243851413
+  ParentId: 8132803346326421629
+  ChildIds: 16091127913297740372
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -106,15 +106,15 @@ Objects {
     IsGroup: true
   }
   InstanceHistory {
-    SelfId: 3897189097981577894
+    SelfId: 10745493386277887622
     SubobjectId: 5073100564011509672
-    InstanceId: 13549903075169459907
+    InstanceId: 2511452984235847512
     TemplateId: 14125914624941304983
   }
 }
 Objects {
-  Id: 13862559036243851413
-  Name: "_PS_Rectangle_small"
+  Id: 16091127913297740372
+  Name: "_PS_Rectangle_wide"
   Transform {
     Scale {
       X: 1
@@ -122,19 +122,39 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14151187668809799994
+  ParentId: 14995811161871266345
   TemplateInstance {
     ParameterOverrideMap {
-      key: 10953068183107250475
+      key: 1825230877436865430
       value {
         Overrides {
-          Name: "Name"
-          String: "_PS_Rectangle_small"
+          Name: "Scale"
+          Vector {
+            X: 7
+            Y: 7.3
+            Z: 1
+          }
         }
         Overrides {
           Name: "Position"
           Vector {
+            X: 249.493713
+            Y: 0.000213623047
           }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 11667518170341861543
+      value {
+        Overrides {
+          Name: "Name"
+          String: "_PS_Rectangle_wide"
         }
         Overrides {
           Name: "Rotation"
@@ -151,37 +171,8 @@ Objects {
         }
       }
     }
-    ParameterOverrideMap {
-      key: 12159032773331541081
-      value {
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 3.7
-            Y: 8.3
-            Z: 0.7
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -39.8305359
-            Y: 1003.32312
-          }
-        }
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:smart"
-          Bool: true
-        }
-      }
-    }
     TemplateAsset {
-      Id: 18160197662068348531
+      Id: 17594147940704495209
     }
   }
 }
