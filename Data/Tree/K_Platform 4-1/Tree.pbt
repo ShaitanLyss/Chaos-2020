@@ -5,9 +5,9 @@ Objects {
   Name: "Trigger"
   Transform {
     Location {
-      X: -8221.81641
-      Y: -16404.7656
-      Z: 408.697327
+      X: -8221.10352
+      Y: -16395.248
+      Z: 402.634338
     }
     Rotation {
       Pitch: -33.2499695
@@ -15,9 +15,9 @@ Objects {
       Roll: 0.0459603779
     }
     Scale {
-      X: 0.723129809
-      Y: 0.893286586
-      Z: 11.3224936
+      X: 0.723137856
+      Y: 1.04865587
+      Z: 11.3224964
     }
   }
   ParentId: 16923995447755290041
@@ -33,7 +33,7 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     TriggerShape_v2 {
-      Value: "mc:etriggershape:box"
+      Value: "mc:etriggershape:capsule"
     }
   }
 }
