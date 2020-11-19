@@ -10,7 +10,6 @@ end
 
 function updateFire()
 	for i, fire in ipairs(fireVolumes) do
-		print("lol")
 		if isFloorFireOn then		
 			fire:Play()
 		else
