@@ -3351,8 +3351,9 @@ Objects {
   Name: "NPC Dialog Group"
   Transform {
     Location {
-      X: -1375.81592
+      X: -1375.729
       Y: -58.5885086
+      Z: 21.5726318
     }
     Rotation {
     }

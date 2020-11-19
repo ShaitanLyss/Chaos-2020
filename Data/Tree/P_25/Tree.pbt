@@ -5,16 +5,16 @@ Objects {
   Name: "Trigger"
   Transform {
     Location {
-      X: -5970
-      Y: -16735
+      X: -5953.86865
+      Y: -16696.0547
       Z: 40
     }
     Rotation {
       Yaw: 157.5
     }
     Scale {
-      X: 6.20000076
-      Y: 6.3
+      X: 6.20000553
+      Y: 5.40231419
       Z: 1
     }
   }
@@ -81,8 +81,8 @@ Objects {
   Name: "PlatformModel"
   Transform {
     Location {
-      X: -5948.64063
-      Y: -16702.3516
+      X: -5931.79297
+      Y: -16661.6797
     }
     Rotation {
       Yaw: 157.5
@@ -129,16 +129,16 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 6.9
-            Y: 7.20000029
+            X: 6.90000391
+            Y: 6.35127497
             Z: 1
           }
         }
         Overrides {
           Name: "Position"
           Vector {
-            X: 19.2072029
-            Y: 40.386673
+            X: 19.2072716
+            Y: 40.3864517
           }
         }
         Overrides {

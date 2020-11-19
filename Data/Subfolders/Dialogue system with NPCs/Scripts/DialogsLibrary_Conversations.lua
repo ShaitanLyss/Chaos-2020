@@ -22,20 +22,20 @@ function Dialogs.RegisterDialogue()
     id = "GenericConversation1"
     API.RegisterDialogueId(id)
     API.AddText(id, "Hello!", WAVE_ANIMATION)
-    API.AddText(id, "How are you?")
+    API.AddText(id, "How are you little child?")
 
-    API.AddOption(id, "Fine.", "GenericConversation2")
-    API.AddOption(id, "Great!", "GenericConversation3")
+    API.AddOption(id, "I want candy", "GenericConversation2")
+    API.AddOption(id, "I want your hotspot", "GenericConversation3")
 
     id = "GenericConversation2"
     API.RegisterDialogueId(id)
-    API.AddText(id, "Good. Glad to hear that!", YES_ANIMATION)
-    API.AddText(id, "Have fun!", LAUGH_ANIMATION)
+    API.AddText(id, "I got DRUGS", YES_ANIMATION)
+    API.AddText(id, "Don't worry She is pretty nice my friend molly", LAUGH_ANIMATION)
 
     id = "GenericConversation3"
     API.RegisterDialogueId(id)
-    API.AddText(id, "Nice! Me too!", YES_ANIMATION)
-    API.AddText(id, "Look around to find something cool!")
+    API.AddText(id, "I want your platforming skills", YES_ANIMATION)
+    API.AddText(id, "But if you got some D I don't mind ;)")
 
    
 end

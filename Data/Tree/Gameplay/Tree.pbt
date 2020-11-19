@@ -1,4 +1,4 @@
-Name: "Gameplay"
+﻿Name: "Gameplay"
 RootId: 3841774984750933128
 Objects {
   Id: 14713340454944924967
@@ -130,7 +130,7 @@ Objects {
       WalkSpeed: 1000
       MaxAcceleration: 2000
       BrakingDecelerationFalling: 0.01
-      WalkableFloorAngle: 20
+      WalkableFloorAngle: 45
       JumpMaxCount: 1
       JumpVelocity: 900
       GroundFriction: 8
@@ -181,9 +181,9 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: -8717.07
-      Y: 2288.00537
-      Z: 271.881561
+      X: 5396.8667
+      Y: 3901.54395
+      Z: 1186.68604
     }
     Rotation {
       Yaw: 165.182678
