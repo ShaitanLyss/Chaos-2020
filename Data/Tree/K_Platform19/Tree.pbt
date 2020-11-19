@@ -1,7 +1,7 @@
-﻿Name: "K_Platform14"
-RootId: 11148811751255977362
+﻿Name: "K_Platform19"
+RootId: 4095663833022621680
 Objects {
-  Id: 9383269287657360836
+  Id: 18359016545324254894
   Name: "KPlatform"
   Transform {
     Location {
@@ -14,12 +14,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11148811751255977362
+  ParentId: 4095663833022621680
   UnregisteredParameters {
     Overrides {
       Name: "cs:K_Platform"
       ObjectReference {
-        SelfId: 11148811751255977362
+        SelfId: 4095663833022621680
       }
     }
   }
@@ -42,16 +42,16 @@ Objects {
   }
 }
 Objects {
-  Id: 3165606146477349252
+  Id: 13340725833382444526
   Name: "PlatformModel"
   Transform {
     Location {
-      X: 5755
-      Y: -11435
-      Z: 50.0002441
+      X: 4220
+      Y: -2440
+      Z: 200
     }
     Rotation {
-      Yaw: 87.1355591
+      Yaw: -173.818192
     }
     Scale {
       X: 1
@@ -59,8 +59,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11148811751255977362
-  ChildIds: 9846275148789510344
+  ParentId: 4095663833022621680
+  ChildIds: 7401379792289709907
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -78,42 +78,50 @@ Objects {
   }
 }
 Objects {
-  Id: 9846275148789510344
-  Name: "Rock Hexagonal"
+  Id: 7401379792289709907
+  Name: "Bush hazard"
   Transform {
-    Location {
-      X: -404.497528
-      Y: 79.8858337
-      Z: 380
-    }
-    Rotation {
-      Yaw: 173.818176
-    }
     Scale {
-      X: 2.3
-      Y: 2.3
-      Z: 5.1
+      X: 1
+      Y: 1
+      Z: 1
     }
   }
-  ParentId: 3165606146477349252
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 3312561467368259269
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
+  ParentId: 13340725833382444526
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 2914837419902199197
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Bush hazard"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.4
+            Y: 0.4
+            Z: 0.4
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -50.9112549
+            Y: 40.7190781
+            Z: 0.000122070313
+          }
+        }
+        Overrides {
+          Name: "Collidable"
+          Enum {
+            Value: "mc:ecollisionsetting:forceoff"
+          }
+        }
       }
+    }
+    TemplateAsset {
+      Id: 6130468399187983281
     }
   }
 }

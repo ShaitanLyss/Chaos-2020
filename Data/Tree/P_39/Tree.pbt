@@ -1,8 +1,8 @@
-﻿Name: "K_Platform15"
-RootId: 2247289154499972400
+﻿Name: "P_39"
+RootId: 16924543540626557645
 Objects {
-  Id: 12067833194405831583
-  Name: "KPlatform"
+  Id: 10817278049824704425
+  Name: "PlatformCheckPoint"
   Transform {
     Location {
     }
@@ -14,12 +14,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2247289154499972400
+  ParentId: 16924543540626557645
   UnregisteredParameters {
     Overrides {
-      Name: "cs:K_Platform"
+      Name: "cs:Platform"
       ObjectReference {
-        SelfId: 2247289154499972400
+        SelfId: 16924543540626557645
       }
     }
   }
@@ -31,36 +31,36 @@ Objects {
   }
   Script {
     ScriptAsset {
-      Id: 520047518029508837
+      Id: 10184727586948426952
     }
   }
   InstanceHistory {
-    SelfId: 2927767980405741046
-    SubobjectId: 13276555526046159268
-    InstanceId: 18042480391068993951
-    TemplateId: 4296020210974480709
+    SelfId: 10817278049824704425
+    SubobjectId: 15925019654078393750
+    InstanceId: 12545456532069791762
+    TemplateId: 14125914624941304983
   }
 }
 Objects {
-  Id: 9722551157288789921
+  Id: 970805025945619863
   Name: "PlatformModel"
   Transform {
     Location {
-      X: 4750
-      Y: -11395
-      Z: 50
+      X: 245
+      Y: -550
+      Z: 570.000244
     }
     Rotation {
-      Yaw: -119.200043
+      Yaw: -99.0462646
     }
     Scale {
-      X: 0.8
-      Y: 0.8
-      Z: 0.8
+      X: 1
+      Y: 1
+      Z: 1
     }
   }
-  ParentId: 2247289154499972400
-  ChildIds: 5242440255567315440
+  ParentId: 16924543540626557645
+  ChildIds: 9846275148789510344
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -71,31 +71,27 @@ Objects {
     IsGroup: true
   }
   InstanceHistory {
-    SelfId: 18081671030614548318
-    SubobjectId: 7669992590307203852
-    InstanceId: 18042480391068993951
-    TemplateId: 4296020210974480709
+    SelfId: 970805025945619863
+    SubobjectId: 5073100564011509672
+    InstanceId: 12545456532069791762
+    TemplateId: 14125914624941304983
   }
 }
 Objects {
-  Id: 5242440255567315440
+  Id: 9846275148789510344
   Name: "Rock Hexagonal"
   Transform {
     Location {
-      X: -325.755676
-      Y: 147.294678
-      Z: 450
     }
     Rotation {
-      Yaw: 130.934525
     }
     Scale {
-      X: 4.99999952
-      Y: 2.10000014
-      Z: 6.3
+      X: 2.3
+      Y: 2.3
+      Z: 5.1
     }
   }
-  ParentId: 9722551157288789921
+  ParentId: 970805025945619863
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
