@@ -17,15 +17,6 @@ Assets {
   }
 }
 Assets {
-  Id: 13379203971815039509
-  Name: "Basic Sparks"
-  PlatformAssetType: 8
-  PrimaryAsset {
-    AssetType: "VfxBlueprintAssetRef"
-    AssetId: "fxbp_basic_sparks"
-  }
-}
-Assets {
   Id: 12997311671803737017
   Name: "Text 01: T"
   PlatformAssetType: 1
@@ -41,15 +32,6 @@ Assets {
   PrimaryAsset {
     AssetType: "VfxBlueprintAssetRef"
     AssetId: "fxbp_Electrical_Arc_Volume"
-  }
-}
-Assets {
-  Id: 4606466836615111308
-  Name: "Large Dirt Impact VFX"
-  PlatformAssetType: 8
-  PrimaryAsset {
-    AssetType: "VfxBlueprintAssetRef"
-    AssetId: "fxbp_mil_dirt_impact_large"
   }
 }
 Assets {

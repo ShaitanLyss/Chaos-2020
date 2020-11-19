@@ -3084,8 +3084,8 @@ Objects {
   Name: "Char 2"
   Transform {
     Location {
-      X: -209.999847
-      Y: 159.999985
+      X: -1585.81055
+      Y: 101.411453
     }
     Rotation {
       Yaw: 6.83018516e-06
@@ -3351,6 +3351,8 @@ Objects {
   Name: "NPC Dialog Group"
   Transform {
     Location {
+      X: -1375.81592
+      Y: -58.5885086
     }
     Rotation {
     }

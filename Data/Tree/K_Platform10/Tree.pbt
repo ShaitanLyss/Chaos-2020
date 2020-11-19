@@ -151,7 +151,7 @@ Objects {
     Location {
       X: 55
       Y: -90
-      Z: 5
+      Z: -55
     }
     Rotation {
       Pitch: 90

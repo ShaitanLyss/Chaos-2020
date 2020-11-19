@@ -147,7 +147,7 @@ Objects {
       Z: 507.258423
     }
     Rotation {
-      Yaw: -29.77
+      Yaw: -29.769989
     }
     Scale {
       X: 1
@@ -240,10 +240,10 @@ Objects {
   ChildIds: 4856151291872807726
   ChildIds: 16422676777990520312
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   Folder {
     IsGroup: true

@@ -6,7 +6,7 @@ Objects {
   Transform {
     Location {
       X: 3730
-      Y: 660
+      Y: 660.000183
     }
     Rotation {
     }
@@ -56,55 +56,13 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -400
+            X: -399.999817
             Y: 2915
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 9820805587709911492
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 1720.00061
-            Y: 4815.00049
-            Z: 870
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 20.9
-            Y: 4
-            Z: 2.10000014
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 9926771754585888902
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 1070.00012
-            Y: 3684.99976
-            Z: 870
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 20.9
-            Y: 4
-            Z: 2.10000014
           }
         }
       }

@@ -16,8 +16,7 @@
           }
         }
         ParentId: 16093149801066646306
-        ChildIds: 9926771754585888902
-        ChildIds: 9820805587709911492
+        ChildIds: 9611282239829609528
         ChildIds: 12596117751129060553
         ChildIds: 2698138650553305259
         ChildIds: 16598060066119469468
@@ -32,16 +31,81 @@
         }
       }
       Objects {
+        Id: 9611282239829609528
+        Name: "Fire"
+        Transform {
+          Location {
+            X: -3285
+            Y: -3480
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 9004552838829926765
+        ChildIds: 8151229816479528646
+        ChildIds: 9926771754585888902
+        ChildIds: 9820805587709911492
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        NetworkContext {
+        }
+      }
+      Objects {
+        Id: 8151229816479528646
+        Name: "E_ControlFloorFire"
+        Transform {
+          Location {
+            X: 0.210955
+            Y: 2.02599
+          }
+          Rotation {
+            Yaw: -3.4150944e-06
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 9611282239829609528
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:isFireOn"
+            Bool: false
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 472496742980669028
+          }
+        }
+      }
+      Objects {
         Id: 9926771754585888902
         Name: "Fire Volume VFX"
         Transform {
           Location {
-            X: 1070.00012
-            Y: 3684.99976
+            X: 4355
+            Y: 7164.99902
             Z: 870
           }
           Rotation {
-            Yaw: -30
+            Yaw: -30.0000095
           }
           Scale {
             X: 20.9
@@ -49,7 +113,7 @@
             Z: 2.10000014
           }
         }
-        ParentId: 9004552838829926765
+        ParentId: 9611282239829609528
         UnregisteredParameters {
           Overrides {
             Name: "bp:Density"
@@ -69,7 +133,6 @@
           TeamSettings {
           }
           Vfx {
-            AutoPlay: true
           }
         }
       }
@@ -78,12 +141,12 @@
         Name: "Fire Volume VFX"
         Transform {
           Location {
-            X: 1720.00061
-            Y: 4815.00049
+            X: 5005.00146
+            Y: 8295
             Z: 870
           }
           Rotation {
-            Yaw: -30
+            Yaw: -30.0000095
           }
           Scale {
             X: 20.9
@@ -91,7 +154,7 @@
             Z: 2.10000014
           }
         }
-        ParentId: 9004552838829926765
+        ParentId: 9611282239829609528
         UnregisteredParameters {
           Overrides {
             Name: "bp:Density"
@@ -111,7 +174,6 @@
           TeamSettings {
           }
           Vfx {
-            AutoPlay: true
           }
         }
       }

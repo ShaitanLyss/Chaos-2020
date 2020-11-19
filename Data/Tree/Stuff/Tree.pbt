@@ -1,79 +1,6 @@
 ﻿Name: "Stuff"
 RootId: 12364884316927117307
 Objects {
-  Id: 5623332809464138769
-  Name: "Large Dirt Impact VFX"
-  Transform {
-    Location {
-      X: -620
-      Y: 2040
-      Z: -6.10351563e-05
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 12364884316927117307
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 4606466836615111308
-    }
-    TeamSettings {
-    }
-    Vfx {
-      AutoPlay: true
-    }
-  }
-}
-Objects {
-  Id: 9395978448770372881
-  Name: "Large Dirt Impact VFX"
-  Transform {
-    Location {
-      X: -720
-      Y: 900
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 12364884316927117307
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 4606466836615111308
-    }
-    TeamSettings {
-    }
-    Vfx {
-      AutoPlay: true
-    }
-  }
-}
-Objects {
   Id: 10427389964893209578
   Name: "Electrical Arc Volume"
   Transform {
@@ -165,10 +92,10 @@ Objects {
   ChildIds: 5549044365203087192
   ChildIds: 17113006109570206450
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   Folder {
     IsGroup: true
@@ -399,41 +326,6 @@ Objects {
       Volume: 1
       Falloff: 3600
       Radius: 40000
-    }
-  }
-}
-Objects {
-  Id: 7697297276587361932
-  Name: "Basic Sparks"
-  Transform {
-    Location {
-      X: -730
-      Y: 940
-      Z: 10
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 12364884316927117307
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 13379203971815039509
-    }
-    TeamSettings {
-    }
-    Vfx {
-      AutoPlay: true
     }
   }
 }

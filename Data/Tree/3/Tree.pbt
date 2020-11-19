@@ -1,6 +1,244 @@
 ﻿Name: "3"
 RootId: 11391093173361849580
 Objects {
+  Id: 2897257990397859939
+  Name: "E_Tree_Oak"
+  Transform {
+    Location {
+      X: -6096.79736
+      Y: 5088.77
+      Z: 1210.88
+    }
+    Rotation {
+      Pitch: -0.251863211
+      Yaw: -134.567276
+      Roll: -54.8023834
+    }
+    Scale {
+      X: 0.7
+      Y: 0.7
+      Z: 0.7
+    }
+  }
+  ParentId: 11391093173361849580
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6558617143835967745
+      value {
+        Overrides {
+          Name: "Name"
+          String: "E_Tree_Oak"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -5594.38965
+            Y: -1958.49023
+            Z: 1746.82617
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -0.251861572
+            Yaw: -134.567261
+            Roll: -54.8023682
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.7
+            Y: 0.7
+            Z: 0.7
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 6862726296736467026
+    }
+  }
+}
+Objects {
+  Id: 3021659715835745391
+  Name: "E_Tree_Oak"
+  Transform {
+    Location {
+      X: -7845
+      Y: 6580
+      Z: 770
+    }
+    Rotation {
+      Pitch: -88.1146622
+      Yaw: -53.9591026
+      Roll: 25.8493328
+    }
+    Scale {
+      X: 0.208752111
+      Y: 0.208752111
+      Z: 0.208752111
+    }
+  }
+  ParentId: 11391093173361849580
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6558617143835967745
+      value {
+        Overrides {
+          Name: "Name"
+          String: "E_Tree_Oak"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -5470
+            Y: 1935
+            Z: 1040
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -55.5691223
+            Yaw: -33.4222412
+            Roll: -1.49765015
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.3
+            Y: 0.3
+            Z: 0.3
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 6862726296736467026
+    }
+  }
+}
+Objects {
+  Id: 18094177434772247209
+  Name: "E_Tree_Oak"
+  Transform {
+    Location {
+      X: -3945
+      Y: 6755
+      Z: 910
+    }
+    Rotation {
+      Yaw: 30.0000134
+      Roll: 50.0000381
+    }
+    Scale {
+      X: 0.7
+      Y: 0.7
+      Z: 0.7
+    }
+  }
+  ParentId: 11391093173361849580
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6558617143835967745
+      value {
+        Overrides {
+          Name: "Name"
+          String: "E_Tree_Oak"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -3521.79736
+            Y: 653.77
+            Z: 1255.88
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -0.251861572
+            Yaw: -134.567291
+            Roll: -54.8024
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.7
+            Y: 0.7
+            Z: 0.7
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 6862726296736467026
+    }
+  }
+}
+Objects {
+  Id: 11652395183888603772
+  Name: "E_Tree_Oak"
+  Transform {
+    Location {
+      X: -3945
+      Y: 6755
+      Z: 910
+    }
+    Rotation {
+      Yaw: 30.0000134
+      Roll: 50.0000381
+    }
+    Scale {
+      X: 0.7
+      Y: 0.7
+      Z: 0.7
+    }
+  }
+  ParentId: 11391093173361849580
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6558617143835967745
+      value {
+        Overrides {
+          Name: "Name"
+          String: "E_Tree_Oak"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -5076.08545
+            Y: 2458.66113
+            Z: 978.385681
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: -91.8850403
+            Yaw: 126.040558
+            Roll: -154.150299
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.208752111
+            Y: 0.208752111
+            Z: 0.208752111
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 6862726296736467026
+    }
+  }
+}
+Objects {
   Id: 17067958879892925912
   Name: "F_Bush_2"
   Transform {
@@ -424,8 +662,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -3485
-            Y: 2155
+            X: -3500
+            Y: 2175
             Z: -0.000366210938
           }
         }
