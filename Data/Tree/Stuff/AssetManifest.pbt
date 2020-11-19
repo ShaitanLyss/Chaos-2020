@@ -52,12 +52,3 @@ Assets {
     AssetId: "fxma_plasmafield_doublesided"
   }
 }
-Assets {
-  Id: 1073397923636358416
-  Name: "\"Apocalypse Metal\" Music Construction Kit (Sections) 01"
-  PlatformAssetType: 10
-  PrimaryAsset {
-    AssetType: "AudioBlueprintAssetRef"
-    AssetId: "abp_apocalypse_metal_sections_kit_ref"
-  }
-}

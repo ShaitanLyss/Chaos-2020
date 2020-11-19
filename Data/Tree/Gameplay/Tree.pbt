@@ -1,4 +1,4 @@
-﻿Name: "Gameplay"
+Name: "Gameplay"
 RootId: 3841774984750933128
 Objects {
   Id: 14713340454944924967
@@ -186,7 +186,7 @@ Objects {
       Z: 271.881561
     }
     Rotation {
-      Yaw: -21.0398254
+      Yaw: 165.182678
     }
     Scale {
       X: 1

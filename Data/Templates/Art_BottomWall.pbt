@@ -16,6 +16,7 @@
           }
         }
         ParentId: 6339063528643310247
+        ChildIds: 15042122090869444913
         ChildIds: 1932118485738406925
         ChildIds: 2008065106272296226
         ChildIds: 3511335812106484098
@@ -35,6 +36,203 @@
         }
         Folder {
           IsFilePartition: true
+        }
+      }
+      Objects {
+        Id: 15042122090869444913
+        Name: "Audio"
+        Transform {
+          Location {
+            X: 1061.52222
+            Y: 264.082092
+            Z: 200.000061
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 586102269327232757
+        ChildIds: 5742089949130162873
+        ChildIds: 14878771176500118705
+        ChildIds: 3095051993427441292
+        ChildIds: 2111238744181681508
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Folder {
+          IsFilePartition: true
+        }
+      }
+      Objects {
+        Id: 5742089949130162873
+        Name: "A_FireFlame_loop"
+        Transform {
+          Location {
+            X: -374.213318
+            Y: 818.357361
+          }
+          Rotation {
+            Yaw: 5.94815683
+          }
+          Scale {
+            X: 0.721128225
+            Y: 0.721128225
+            Z: 0.721128225
+          }
+        }
+        ParentId: 15042122090869444913
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 3697271826593255962
+          }
+          TeamSettings {
+          }
+          AudioBP {
+            AutoPlay: true
+            Repeat: true
+            Volume: 1
+            Falloff: 3000
+            Radius: 400
+            EnableOcclusion: true
+            IsSpatializationEnabled: true
+            IsAttenuationEnabled: true
+          }
+        }
+      }
+      Objects {
+        Id: 14878771176500118705
+        Name: "Fire Breath Whoosh 01 SFX"
+        Transform {
+          Location {
+            X: -3142.11499
+            Y: -790.241
+          }
+          Rotation {
+            Yaw: 5.94815588
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 15042122090869444913
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        AudioInstance {
+          AudioAsset {
+            Id: 12809010247404516716
+          }
+          AutoPlay: true
+          Repeat: true
+          Volume: 1
+          Falloff: 3000
+          Radius: 400
+          EnableOcclusion: true
+          StartTime: 10
+          IsSpatializationEnabled: true
+          IsAttenuationEnabled: true
+        }
+      }
+      Objects {
+        Id: 3095051993427441292
+        Name: "Fire and Flame Burning Loop Set 01 SFX"
+        Transform {
+          Location {
+            X: -223.982025
+            Y: -623.554382
+          }
+          Rotation {
+            Yaw: 5.94815588
+          }
+          Scale {
+            X: 0.721128225
+            Y: 0.721128225
+            Z: 0.721128225
+          }
+        }
+        ParentId: 15042122090869444913
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 3697271826593255962
+          }
+          TeamSettings {
+          }
+          AudioBP {
+            AutoPlay: true
+            Repeat: true
+            Volume: 1
+            Falloff: 3000
+            Radius: 400
+            EnableOcclusion: true
+            IsSpatializationEnabled: true
+            IsAttenuationEnabled: true
+          }
+        }
+      }
+      Objects {
+        Id: 2111238744181681508
+        Name: "Fire and Flame Burning Loop Set 01 SFX"
+        Transform {
+          Location {
+            X: 947.605896
+            Y: 115.41301
+          }
+          Rotation {
+            Yaw: 5.94815588
+          }
+          Scale {
+            X: 0.721128225
+            Y: 0.721128225
+            Z: 0.721128225
+          }
+        }
+        ParentId: 15042122090869444913
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 3697271826593255962
+          }
+          TeamSettings {
+          }
+          AudioBP {
+            AutoPlay: true
+            Repeat: true
+            Volume: 1
+            Falloff: 3000
+            Radius: 400
+            EnableOcclusion: true
+            IsSpatializationEnabled: true
+            IsAttenuationEnabled: true
+          }
         }
       }
       Objects {
@@ -1243,6 +1441,24 @@
             }
           }
         }
+      }
+    }
+    Assets {
+      Id: 3697271826593255962
+      Name: "Fire and Flame Burning Loop Set 01 SFX"
+      PlatformAssetType: 10
+      PrimaryAsset {
+        AssetType: "AudioBlueprintAssetRef"
+        AssetId: "sfxabp_nature_fireloops_ref"
+      }
+    }
+    Assets {
+      Id: 12809010247404516716
+      Name: "Fire Breath Whoosh 01 SFX"
+      PlatformAssetType: 7
+      PrimaryAsset {
+        AssetType: "AudioAssetRef"
+        AssetId: "sfx_fire_breath_whoosh_01_Cue_ref"
       }
     }
     Assets {
