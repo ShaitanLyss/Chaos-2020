@@ -2223,23 +2223,33 @@ Objects {
   }
 }
 Objects {
-  Id: 1566437984714941598
+  Id: 14141983816188098905
   Name: "PassageBoiseux"
   Transform {
     Location {
-      X: 1149.08984
-      Y: 2768.42896
-      Z: 600
+      X: 1018.84961
+      Y: 2588.07202
+      Z: 917.137634
     }
     Rotation {
+      Pitch: 25.2082043
+      Yaw: -95.6804504
+      Roll: -41.531311
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 0.652201
+      Y: 0.652201
+      Z: 0.652201
     }
   }
   ParentId: 13332657579885910712
+  ChildIds: 8585005476374120046
+  ChildIds: 1304654307460761852
+  ChildIds: 6789166030213292538
+  ChildIds: 13546138870960087614
+  ChildIds: 3729191604887218643
+  ChildIds: 5187974702526732907
+  ChildIds: 9364214220669435920
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2247,8 +2257,304 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Folder {
-    IsFilePartition: true
-    FilePartitionName: "PassageBoiseux"
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 9364214220669435920
+  Name: "Rock 03"
+  Transform {
+    Location {
+      X: -124.608261
+      Y: -248.780716
+      Z: -57.023941
+    }
+    Rotation {
+      Pitch: 26.1271038
+      Yaw: -142.371384
+      Roll: -16.2932549
+    }
+    Scale {
+      X: 1.53326964
+      Y: 1.53326964
+      Z: 1.53326964
+    }
+  }
+  ParentId: 14141983816188098905
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 8334934760074776514
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 5187974702526732907
+  Name: "Bush 01"
+  Transform {
+    Location {
+      X: 142.677429
+      Y: 71.6848373
+      Z: 238.112823
+    }
+    Rotation {
+      Pitch: -22.4465141
+      Yaw: 80.9306412
+      Roll: -8.15127659
+    }
+    Scale {
+      X: 1.53326964
+      Y: 1.53326964
+      Z: 1.53326964
+    }
+  }
+  ParentId: 14141983816188098905
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12597148293892683219
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 3729191604887218643
+  Name: "Bush 01"
+  Transform {
+    Location {
+      X: 106.250038
+      Y: 149.179581
+      Z: 350.847717
+    }
+    Rotation {
+      Pitch: -54.7481842
+      Yaw: 58.4325523
+      Roll: 74.11203
+    }
+    Scale {
+      X: 1.53326964
+      Y: 1.53326964
+      Z: 1.53326964
+    }
+  }
+  ParentId: 14141983816188098905
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12597148293892683219
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 13546138870960087614
+  Name: "Bush 01"
+  Transform {
+    Location {
+      X: -139.581955
+      Y: 206.27092
+      Z: 181.912979
+    }
+    Rotation {
+      Pitch: -38.9185791
+      Yaw: 96.6095276
+      Roll: -13.5817432
+    }
+    Scale {
+      X: 1.53326964
+      Y: 1.53326964
+      Z: 1.53326964
+    }
+  }
+  ParentId: 14141983816188098905
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12597148293892683219
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 6789166030213292538
+  Name: "Rock 01"
+  Transform {
+    Location {
+      X: -269.855377
+      Y: 93.629982
+      Z: 60.3521843
+    }
+    Rotation {
+      Pitch: -30.487421
+      Yaw: -165.050949
+      Roll: -68.5842514
+    }
+    Scale {
+      X: 0.547195137
+      Y: 0.547195137
+      Z: 0.547195137
+    }
+  }
+  ParentId: 14141983816188098905
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 18302154991031027573
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 1304654307460761852
+  Name: "Rock 03"
+  Transform {
+    Location {
+      X: -240.115036
+      Y: -358.810028
+      Z: -249.143082
+    }
+    Rotation {
+      Pitch: -19.6594219
+      Yaw: -16.1725121
+      Roll: 27.0634136
+    }
+    Scale {
+      X: 2.45323157
+      Y: 2.45323157
+      Z: 2.45323157
+    }
+  }
+  ParentId: 14141983816188098905
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 8334934760074776514
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 8585005476374120046
+  Name: "E_Tree_Oak"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14141983816188098905
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceon"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 6558617143835967745
+      value {
+        Overrides {
+          Name: "Name"
+          String: "E_Tree_Oak"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 6.83018879e-06
+            Yaw: 6.83018879e-06
+            Roll: 1.02452823e-05
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 6862726296736467026
+    }
   }
 }
 Objects {
