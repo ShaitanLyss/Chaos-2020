@@ -229,7 +229,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "_P_KillCylinder_3"
+    FilePartitionName: "_P_KillCylinder_6"
   }
   InstanceHistory {
     SelfId: 9319145352403858656

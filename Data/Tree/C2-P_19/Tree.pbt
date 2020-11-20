@@ -1,6 +1,40 @@
 ﻿Name: "C2-P_19"
 RootId: 8251285451985812949
 Objects {
+  Id: 9285010479996764696
+  Name: "Trigger"
+  Transform {
+    Location {
+      X: -13606.9316
+      Y: -5284.35693
+      Z: -339.55896
+    }
+    Rotation {
+    }
+    Scale {
+      X: 3.7
+      Y: 3.7
+      Z: 3.7
+    }
+  }
+  ParentId: 8251285451985812949
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:capsule"
+    }
+  }
+}
+Objects {
   Id: 642978959658375466
   Name: "PlatformCheckPoint"
   Transform {

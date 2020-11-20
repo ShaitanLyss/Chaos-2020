@@ -155,7 +155,6 @@ Objects {
   }
   ParentId: 10000288082371941622
   ChildIds: 14355713590522281063
-  ChildIds: 6172806882696247840
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -171,41 +170,6 @@ Objects {
     SubobjectId: 7669992590307203852
     InstanceId: 9465508632573721086
     TemplateId: 4296020210974480709
-  }
-}
-Objects {
-  Id: 6172806882696247840
-  Name: "Trigger"
-  Transform {
-    Location {
-      X: -0.00372314453
-      Y: 0.000223795578
-      Z: 230.3405
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.09008932
-      Y: 1.08472979
-      Z: 4.7284193
-    }
-  }
-  ParentId: 10537362707862723474
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Trigger {
-    TeamSettings {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    TriggerShape_v2 {
-      Value: "mc:etriggershape:box"
-    }
   }
 }
 Objects {
@@ -235,7 +199,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "_P_KillCylinder"
+    FilePartitionName: "_P_KillCylinder_4"
   }
   InstanceHistory {
     SelfId: 9319145352403858656

@@ -569,10 +569,10 @@ Objects {
   ChildIds: 13016667515502400269
   ChildIds: 14728179360042073076
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceon"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   Folder {
     IsGroup: true
@@ -2049,7 +2049,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "K_Platform5"
+    FilePartitionName: "K_Platform5_1"
   }
   InstanceHistory {
     SelfId: 12283715986860843677

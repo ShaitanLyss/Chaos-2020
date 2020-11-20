@@ -1,22 +1,21 @@
 ﻿Name: "_P_KillCylinder_5"
-RootId: 12592455942390714704
+RootId: 16660464359365187699
 Objects {
-  Id: 2164227297839641121
+  Id: 882844625498178818
   Name: "Mesh"
   Transform {
     Location {
     }
     Rotation {
-      Yaw: -35
     }
     Scale {
-      X: 2
-      Y: 2.60000014
-      Z: 4.8
+      X: 1.1
+      Y: 1.1
+      Z: 4.5
     }
   }
-  ParentId: 12592455942390714704
-  ChildIds: 7052009327043543711
+  ParentId: 16660464359365187699
+  ChildIds: 17553278853654848012
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -33,7 +32,20 @@ Objects {
         Id: 9787085779403850679
       }
     }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 0.163558602
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 2.05550051
+    }
   }
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -55,14 +67,14 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 2164227297839641121
+    SelfId: 3575229073143125905
     SubobjectId: 8881477080085901474
-    InstanceId: 16403308874897668379
+    InstanceId: 7499451274498972607
     TemplateId: 6965630994047288269
   }
 }
 Objects {
-  Id: 7052009327043543711
+  Id: 17553278853654848012
   Name: "Fire Volume VFX"
   Transform {
     Location {
@@ -81,7 +93,8 @@ Objects {
       Z: 0.0999999866
     }
   }
-  ParentId: 2164227297839641121
+  ParentId: 882844625498178818
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -99,9 +112,9 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 7052009327043543711
+    SelfId: 5641013319878518575
     SubobjectId: 330025034838458396
-    InstanceId: 16403308874897668379
+    InstanceId: 7499451274498972607
     TemplateId: 6965630994047288269
   }
 }

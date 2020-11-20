@@ -188,6 +188,12 @@ Objects {
             Z: 1.84578943
           }
         }
+        Overrides {
+          Name: "Collidable"
+          Enum {
+            Value: "mc:ecollisionsetting:forceoff"
+          }
+        }
       }
     }
     TemplateAsset {
@@ -733,53 +739,12 @@ Objects {
   }
 }
 Objects {
-  Id: 9904747283758955947
-  Name: "Kelp Tile 02"
-  Transform {
-    Location {
-      X: -1285.91016
-      Y: -1501.57104
-      Z: 1429.99976
-    }
-    Rotation {
-      Yaw: 89.9999466
-      Roll: -179.999954
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 13332657579885910712
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13720182219669173804
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
   Id: 9265097611466875725
   Name: "Kelp Tile 02"
   Transform {
     Location {
-      X: -1285.91016
-      Y: -1501.57104
+      X: -1317.54395
+      Y: -1538.77
       Z: 2089.99951
     }
     Rotation {
@@ -819,8 +784,8 @@ Objects {
   Name: "Kelp Tile 02"
   Transform {
     Location {
-      X: -1285.91016
-      Y: -1501.57104
+      X: -1317.54395
+      Y: -1538.77026
       Z: 1709.99976
     }
     Rotation {
@@ -860,7 +825,7 @@ Objects {
   Name: "Kelp Tile 02"
   Transform {
     Location {
-      X: -1650.91016
+      X: -1650.91
       Y: -1461.57104
       Z: 1829.99976
     }
@@ -1065,8 +1030,8 @@ Objects {
   Name: "Kelp Tile 02"
   Transform {
     Location {
-      X: -610.910156
-      Y: -811.571411
+      X: -619.862305
+      Y: -800.040039
       Z: 1590
     }
     Rotation {
@@ -1106,8 +1071,8 @@ Objects {
   Name: "Kelp Tile 02"
   Transform {
     Location {
-      X: -610.910156
-      Y: -811.571411
+      X: -619.862305
+      Y: -800.04
       Z: 1840
     }
     Rotation {
@@ -1147,8 +1112,8 @@ Objects {
   Name: "Kelp Tile 02"
   Transform {
     Location {
-      X: -960.910156
-      Y: -791.571045
+      X: -947.966797
+      Y: -802.828796
       Z: 1430
     }
     Rotation {
@@ -1188,8 +1153,8 @@ Objects {
   Name: "Kelp Tile 02"
   Transform {
     Location {
-      X: -960.910156
-      Y: -791.571045
+      X: -947.966797
+      Y: -802.829
       Z: 1710
     }
     Rotation {
@@ -1229,8 +1194,8 @@ Objects {
   Name: "Kelp Tile 02"
   Transform {
     Location {
-      X: -960.910156
-      Y: -791.571045
+      X: -947.966797
+      Y: -802.829
       Z: 2090
     }
     Rotation {

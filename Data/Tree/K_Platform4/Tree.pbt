@@ -1,7 +1,7 @@
 ﻿Name: "K_Platform4"
-RootId: 8932475481786736382
+RootId: 7465847513584692356
 Objects {
-  Id: 15304949678700770216
+  Id: 3630862924783072306
   Name: "Object Mover"
   Transform {
     Scale {
@@ -10,7 +10,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8932475481786736382
+  ParentId: 7465847513584692356
   TemplateInstance {
     ParameterOverrideMap {
       key: 3142504813567088034
@@ -44,7 +44,7 @@ Objects {
         Overrides {
           Name: "cs:Object"
           ObjectReference {
-            SelfId: 13319684460404202624
+            SelfId: 12696591147874006210
           }
         }
         Overrides {
@@ -91,7 +91,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15935854669152504571
+  Id: 10803912782801326194
   Name: "KPlatform"
   Transform {
     Location {
@@ -104,12 +104,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8932475481786736382
+  ParentId: 7465847513584692356
   UnregisteredParameters {
     Overrides {
       Name: "cs:K_Platform"
       ObjectReference {
-        SelfId: 8932475481786736382
+        SelfId: 7465847513584692356
       }
     }
   }
@@ -132,13 +132,13 @@ Objects {
   }
 }
 Objects {
-  Id: 13319684460404202624
+  Id: 12696591147874006210
   Name: "PlatformModel"
   Transform {
     Location {
-      X: -11021.1484
-      Y: -3221.38721
-      Z: -141.532318
+      X: -12901.6641
+      Y: -10043.5186
+      Z: 145.000122
     }
     Rotation {
       Yaw: -131.296158
@@ -149,10 +149,9 @@ Objects {
       Z: 1.49999988
     }
   }
-  ParentId: 8932475481786736382
-  ChildIds: 13104839815982924480
-  ChildIds: 10204042939911890114
-  WantsNetworking: true
+  ParentId: 7465847513584692356
+  ChildIds: 11034516369536792788
+  ChildIds: 4550882942556317112
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -170,7 +169,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10204042939911890114
+  Id: 4550882942556317112
   Name: "Trigger"
   Transform {
     Location {
@@ -187,8 +186,7 @@ Objects {
       Z: 4.66234684
     }
   }
-  ParentId: 13319684460404202624
-  WantsNetworking: true
+  ParentId: 12696591147874006210
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -206,7 +204,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13104839815982924480
+  Id: 11034516369536792788
   Name: "_P_KillCylinder"
   Transform {
     Location {
@@ -219,8 +217,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13319684460404202624
-  WantsNetworking: true
+  ParentId: 12696591147874006210
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
