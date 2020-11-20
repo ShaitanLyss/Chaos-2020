@@ -35,7 +35,7 @@ end
 
 
 function OnBindingReleased(player, bindingReleased)
-    if  (bindingReleased == shiftKeyBinding) and (player.isGrounded or isNearGround) then
+    if  bindingReleased == shiftKeyBinding then
         player.maxWalkSpeed = baseSpeed
         player.maxAcceleration = baseAcceleration
         player.jumpVelocity	 = baseJump
@@ -65,7 +65,7 @@ end
 function Tick()
     print(p.maxWalkSpeed)
 end
-]]--
+--]]
 
 
 function OnPlayerNearGround(platformPosition)
