@@ -1,6 +1,39 @@
 ﻿Name: "FireWallModel"
 RootId: 8768866053368028503
 Objects {
+  Id: 17907164309556308835
+  Name: "Trigger"
+  Transform {
+    Location {
+      Z: -112.588867
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.6
+      Y: 19.6000061
+      Z: 17.9044495
+    }
+  }
+  ParentId: 8768866053368028503
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
   Id: 4442114770646351124
   Name: "FireWallMesh"
   Transform {
