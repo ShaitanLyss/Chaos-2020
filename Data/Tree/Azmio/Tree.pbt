@@ -254,6 +254,8 @@ Objects {
   ParentId: 11404857991553905137
   ChildIds: 9477236022454353111
   ChildIds: 1736909358825254122
+  ChildIds: 394316624396281155
+  ChildIds: 239571614762983227
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -262,6 +264,84 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 239571614762983227
+  Name: "Split level"
+  Transform {
+    Location {
+      X: 8180
+      Y: -1900
+      Z: 60
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.99999988
+      Y: 1.99999988
+      Z: 1.99999988
+    }
+  }
+  ParentId: 3183392496515930136
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 15942125528727175174
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 394316624396281155
+  Name: "Split level"
+  Transform {
+    Location {
+      X: -9685
+      Y: 3040
+      Z: 529.999939
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.4
+      Y: 1.4
+      Z: 1.4
+    }
+  }
+  ParentId: 3183392496515930136
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 15942125528727175174
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
   }
 }
 Objects {
@@ -282,10 +362,10 @@ Objects {
   }
   ParentId: 3183392496515930136
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
+    Value: "mc:ecollisionsetting:forceon"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
+    Value: "mc:evisibilitysetting:forceon"
   }
   CoreMesh {
     MeshAsset {
@@ -321,10 +401,10 @@ Objects {
   }
   ParentId: 3183392496515930136
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
+    Value: "mc:ecollisionsetting:forceon"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
+    Value: "mc:evisibilitysetting:forceon"
   }
   CoreMesh {
     MeshAsset {
@@ -569,10 +649,10 @@ Objects {
   ChildIds: 13016667515502400269
   ChildIds: 14728179360042073076
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
+    Value: "mc:ecollisionsetting:forceon"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
+    Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
     IsGroup: true
