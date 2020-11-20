@@ -1,5 +1,6 @@
 ﻿local k_platform = script:GetCustomProperty("K_Platform"):WaitForObject()
-local k_platformTrigger = k_platform:FindChildByName("Trigger")
+local platformModel = k_platform:FindChildByName("PlatformModel")
+local k_platformTrigger = platformModel:FindChildByName("Trigger")
 
 
 function OnBeginOverlap(trigger, other)
