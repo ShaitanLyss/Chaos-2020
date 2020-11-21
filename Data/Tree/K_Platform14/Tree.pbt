@@ -5,8 +5,8 @@ Objects {
   Name: "Trigger"
   Transform {
     Location {
-      X: 5725.56934
-      Y: -8145.71533
+      X: 5725
+      Y: -8145
       Z: 433.296082
     }
     Rotation {
