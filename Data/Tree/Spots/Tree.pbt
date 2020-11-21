@@ -75,10 +75,6 @@ Objects {
     StaticMesh {
       Physics {
         IsEnabled: true
-        OverrideMass: true
-        Mass: 1e-06
-        LinearDamping: 0.0001
-        AngularDamping: 1e-05
       }
     }
   }
@@ -122,10 +118,6 @@ Objects {
     StaticMesh {
       Physics {
         IsEnabled: true
-        OverrideMass: true
-        Mass: 1e-06
-        LinearDamping: 0.0001
-        AngularDamping: 1e-05
       }
     }
   }
@@ -169,10 +161,6 @@ Objects {
     StaticMesh {
       Physics {
         IsEnabled: true
-        OverrideMass: true
-        Mass: 1e-06
-        LinearDamping: 0.0001
-        AngularDamping: 1e-05
       }
     }
   }
@@ -216,10 +204,6 @@ Objects {
     StaticMesh {
       Physics {
         IsEnabled: true
-        OverrideMass: true
-        Mass: 1e-06
-        LinearDamping: 0.0001
-        AngularDamping: 1e-05
       }
     }
   }
@@ -262,10 +246,6 @@ Objects {
     StaticMesh {
       Physics {
         IsEnabled: true
-        OverrideMass: true
-        Mass: 1e-06
-        LinearDamping: 0.0001
-        AngularDamping: 1e-05
       }
     }
   }
@@ -309,10 +289,6 @@ Objects {
     StaticMesh {
       Physics {
         IsEnabled: true
-        OverrideMass: true
-        Mass: 1e-06
-        LinearDamping: 0.0001
-        AngularDamping: 1e-05
       }
     }
   }
@@ -356,10 +332,6 @@ Objects {
     StaticMesh {
       Physics {
         IsEnabled: true
-        OverrideMass: true
-        Mass: 1e-06
-        LinearDamping: 0.0001
-        AngularDamping: 1e-05
       }
     }
   }
@@ -403,10 +375,6 @@ Objects {
     StaticMesh {
       Physics {
         IsEnabled: true
-        OverrideMass: true
-        Mass: 1e-06
-        LinearDamping: 0.0001
-        AngularDamping: 1e-05
       }
     }
   }
@@ -450,10 +418,6 @@ Objects {
     StaticMesh {
       Physics {
         IsEnabled: true
-        OverrideMass: true
-        Mass: 1e-06
-        LinearDamping: 1e-05
-        AngularDamping: 1e-05
       }
     }
   }
