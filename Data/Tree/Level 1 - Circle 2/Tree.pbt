@@ -2,7 +2,7 @@
 RootId: 7885339278262600429
 Objects {
   Id: 7465847513584692356
-  Name: "K_Platform4"
+  Name: "K_Platform8"
   Transform {
     Location {
       X: 1808.16016
@@ -38,7 +38,7 @@ Objects {
 }
 Objects {
   Id: 14040578932660427781
-  Name: "K_Platform4"
+  Name: "K_Platform7"
   Transform {
     Location {
       X: 1808.16016
@@ -74,7 +74,7 @@ Objects {
 }
 Objects {
   Id: 18388149044005963685
-  Name: "K_Platform4"
+  Name: "K_Platform6"
   Transform {
     Location {
       X: 2381.49609
@@ -110,7 +110,7 @@ Objects {
 }
 Objects {
   Id: 11348040040171170812
-  Name: "C2-P_21"
+  Name: "C2-P_29"
   Transform {
     Location {
       X: 2441.49609

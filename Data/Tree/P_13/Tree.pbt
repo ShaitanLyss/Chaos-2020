@@ -1,47 +1,6 @@
 ﻿Name: "P_13"
 RootId: 8189255701690544495
 Objects {
-  Id: 13673181415959139759
-  Name: "Trigger"
-  Transform {
-    Location {
-      X: -7800
-      Y: 3670
-      Z: 780
-    }
-    Rotation {
-      Yaw: 64
-    }
-    Scale {
-      X: 7.5
-      Y: 7.9
-      Z: 0.8
-    }
-  }
-  ParentId: 8189255701690544495
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Trigger {
-    TeamSettings {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    TriggerShape_v2 {
-      Value: "mc:etriggershape:box"
-    }
-  }
-  InstanceHistory {
-    SelfId: 13673181415959139759
-    SubobjectId: 6085114203272544713
-    InstanceId: 8649466991581744429
-    TemplateId: 17080666560096579051
-  }
-}
-Objects {
   Id: 11208625441344279595
   Name: "PlatformCheckPoint"
   Transform {
@@ -103,6 +62,7 @@ Objects {
   ParentId: 8189255701690544495
   ChildIds: 6503018265752225764
   ChildIds: 9974704925654049060
+  ChildIds: 13673181415959139759
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -117,6 +77,46 @@ Objects {
     SubobjectId: 5073100564011509672
     InstanceId: 13549903075169459907
     TemplateId: 14125914624941304983
+  }
+}
+Objects {
+  Id: 13673181415959139759
+  Name: "Trigger"
+  Transform {
+    Location {
+      X: -67.0787811
+      Y: 0.661552429
+      Z: 16
+    }
+    Rotation {
+    }
+    Scale {
+      X: 7.5
+      Y: 7.9
+      Z: 0.8
+    }
+  }
+  ParentId: 13714174497529513863
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+  InstanceHistory {
+    SelfId: 13673181415959139759
+    SubobjectId: 6085114203272544713
+    InstanceId: 8649466991581744429
+    TemplateId: 17080666560096579051
   }
 }
 Objects {

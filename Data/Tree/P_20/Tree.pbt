@@ -1,42 +1,6 @@
 ﻿Name: "P_20"
 RootId: 17435788497206745176
 Objects {
-  Id: 12379288926604669053
-  Name: "Trigger"
-  Transform {
-    Location {
-      X: -10930
-      Y: -12870
-      Z: 70
-    }
-    Rotation {
-      Yaw: -138.684265
-      Roll: -179.999954
-    }
-    Scale {
-      X: 4.89999962
-      Y: 16.8000011
-      Z: 1.2
-    }
-  }
-  ParentId: 17435788497206745176
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Trigger {
-    TeamSettings {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    TriggerShape_v2 {
-      Value: "mc:etriggershape:box"
-    }
-  }
-}
-Objects {
   Id: 10162059192343106876
   Name: "PlatformCheckPoint"
   Transform {
@@ -97,6 +61,7 @@ Objects {
   }
   ParentId: 17435788497206745176
   ChildIds: 16529463844459322145
+  ChildIds: 12379288926604669053
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -111,6 +76,43 @@ Objects {
     SubobjectId: 5073100564011509672
     InstanceId: 15595535232513076222
     TemplateId: 14125914624941304983
+  }
+}
+Objects {
+  Id: 12379288926604669053
+  Name: "Trigger"
+  Transform {
+    Location {
+      X: 28.2824459
+      Y: -0.320074081
+      Z: -69.9999771
+    }
+    Rotation {
+      Pitch: 6.83018879e-06
+      Yaw: 3.03577304
+      Roll: 5.75103343e-08
+    }
+    Scale {
+      X: 4.89999962
+      Y: 16.8000011
+      Z: 1.2
+    }
+  }
+  ParentId: 1612479893504990978
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
   }
 }
 Objects {

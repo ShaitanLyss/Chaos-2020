@@ -1,43 +1,6 @@
 ﻿Name: "K_Platform13-2"
 RootId: 6672995766959966624
 Objects {
-  Id: 96045909989041160
-  Name: "Trigger"
-  Transform {
-    Location {
-      X: 5577.55273
-      Y: -9049.78906
-      Z: 330.691498
-    }
-    Rotation {
-      Pitch: 49.4936295
-      Yaw: 10.8144245
-      Roll: 8.2638216
-    }
-    Scale {
-      X: 1.0000062
-      Y: 1.23523819
-      Z: 15.6046181
-    }
-  }
-  ParentId: 6672995766959966624
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Trigger {
-    TeamSettings {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    TriggerShape_v2 {
-      Value: "mc:etriggershape:capsule"
-    }
-  }
-}
-Objects {
   Id: 5344507956494209209
   Name: "KPlatform"
   Transform {
@@ -100,6 +63,7 @@ Objects {
   }
   ParentId: 6672995766959966624
   ChildIds: 16275881697649887765
+  ChildIds: 96045909989041160
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -114,6 +78,40 @@ Objects {
     SubobjectId: 7669992590307203852
     InstanceId: 9465508632573721086
     TemplateId: 4296020210974480709
+  }
+}
+Objects {
+  Id: 96045909989041160
+  Name: "Trigger"
+  Transform {
+    Location {
+      X: -153.463074
+      Y: 5.29779577
+      Z: 550.990112
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.909096539
+      Y: 1.12294376
+      Z: 14.1860161
+    }
+  }
+  ParentId: 11705914539590122113
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:capsule"
+    }
   }
 }
 Objects {

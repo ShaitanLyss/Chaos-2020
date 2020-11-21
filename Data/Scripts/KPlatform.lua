@@ -10,4 +10,13 @@ function OnBeginOverlap(trigger, other)
 end
 
 
+--[[
+function Tick()
+    --print(xx)
+    print(k_platform.name)
+  --  local pNumber = string.sub(platform.name, 6)
+   -- print(pNumber)
+end
+]]--
+
 k_platformTrigger.beginOverlapEvent:Connect(OnBeginOverlap)
