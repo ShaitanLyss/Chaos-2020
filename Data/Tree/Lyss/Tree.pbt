@@ -1,6 +1,122 @@
 ﻿Name: "Lyss"
 RootId: 10490075164851024102
 Objects {
+  Id: 14063419333428706642
+  Name: "E_BurningTree_Oak"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10490075164851024102
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 5372418376305921479
+      value {
+        Overrides {
+          Name: "cs:nearDensity"
+          Float: 6.342
+        }
+        Overrides {
+          Name: "cs:farDensity"
+          Float: 2
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 10807362143353798128
+      value {
+        Overrides {
+          Name: "Name"
+          String: "E_BurningTree_Oak"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1282.06665
+            Y: -10193.1045
+            Z: 184.579987
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 176.740417
+            Roll: -39.9495049
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 4396061058153971384
+    }
+  }
+}
+Objects {
+  Id: 15649086605896345628
+  Name: "E_BurningTree_Oak"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10490075164851024102
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 10807362143353798128
+      value {
+        Overrides {
+          Name: "Name"
+          String: "E_BurningTree_Oak"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1.88778687
+            Y: -8181.21729
+            Z: 184.580231
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Roll: -39.950489
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 4396061058153971384
+    }
+  }
+}
+Objects {
   Id: 16220404123570435592
   Name: "Fire Volume VFX"
   Transform {
@@ -196,7 +312,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "NewFolder"
+    FilePartitionName: "NewFolder_2"
   }
 }
 Objects {
@@ -1546,7 +1662,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "NewFolder_1"
+    FilePartitionName: "NewFolder_3"
   }
 }
 Objects {

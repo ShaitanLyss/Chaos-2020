@@ -15,7 +15,7 @@
             Z: 1
           }
         }
-        ParentId: 324945685516363519
+        ParentId: 422853361184552794
         ChildIds: 8881477080085901474
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -32,20 +32,20 @@
         Name: "Mesh"
         Transform {
           Location {
-            X: 6.93581296e-06
-            Y: -5.70494
-            Z: -115.727119
+            X: 95.4545441
+            Y: -37.3308334
+            Z: 51.736412
           }
           Rotation {
           }
           Scale {
-            X: 2
-            Y: 2
-            Z: 13.5
+            X: 1.6
+            Y: 1.6
+            Z: 17
           }
         }
         ParentId: 14666212901670409171
-        ChildIds: 330025034838458396
+        ChildIds: 15997575694623963520
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:color"
@@ -85,26 +85,101 @@
         }
       }
       Objects {
+        Id: 15997575694623963520
+        Name: "FX_OptiFire"
+        Transform {
+          Location {
+            X: -2.01742
+            Y: -1.48939657
+            Z: 50.4106636
+          }
+          Rotation {
+            Pitch: 88.7835541
+            Yaw: 87.4129105
+            Roll: 130.513947
+          }
+          Scale {
+            X: 0.568181753
+            Y: 0.568181753
+            Z: 0.053475935
+          }
+        }
+        ParentId: 8881477080085901474
+        ChildIds: 4392278056409421585
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        NetworkContext {
+        }
+      }
+      Objects {
+        Id: 4392278056409421585
+        Name: "FX_OptiFire"
+        Transform {
+          Location {
+          }
+          Rotation {
+            Yaw: 1.36603776e-05
+          }
+          Scale {
+            X: 0.5
+            Y: 0.526315808
+            Z: 0.476190448
+          }
+        }
+        ParentId: 15997575694623963520
+        ChildIds: 330025034838458396
+        UnregisteredParameters {
+          Overrides {
+            Name: "cs:nearDensity"
+            Int: 10
+          }
+          Overrides {
+            Name: "cs:farDensity"
+            Int: 3
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Script {
+          ScriptAsset {
+            Id: 4020526502442220911
+          }
+        }
+      }
+      Objects {
         Id: 330025034838458396
         Name: "Fire Volume VFX"
         Transform {
           Location {
-            X: -34.0911026
-            Y: 23.4814243
-            Z: 52.9742126
+            X: -0.000819549372
+            Y: 0.000368871173
+            Z: 0.000380394777
           }
           Rotation {
-            Pitch: 88.0048141
-            Yaw: 89.9284592
-            Roll: 87.9552231
+            Yaw: -2.04905609e-05
+            Roll: -1.70754652e-06
           }
           Scale {
-            X: 6.8
-            Y: 0.900000036
-            Z: 0.0999999866
+            X: 38.8699493
+            Y: 4.68159771
+            Z: 4.37435389
           }
         }
-        ParentId: 8881477080085901474
+        ParentId: 4392278056409421585
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:Density"
+            Float: 10
+          }
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }

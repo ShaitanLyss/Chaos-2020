@@ -509,7 +509,7 @@ Objects {
     Location {
       X: 2030.5022
       Y: -2234.36328
-      Z: 310.261719
+      Z: 300.074249
     }
     Rotation {
       Pitch: 5.7033782
@@ -2301,7 +2301,7 @@ Objects {
     Location {
       X: 2118.64746
       Y: -2088.38721
-      Z: 340.351471
+      Z: 298.053345
     }
     Rotation {
       Pitch: -13.6360779
@@ -2342,7 +2342,7 @@ Objects {
     Location {
       X: 2116.35669
       Y: -2153.66016
-      Z: 340.351471
+      Z: 298.053345
     }
     Rotation {
       Pitch: -6.19760132
@@ -2357,7 +2357,7 @@ Objects {
   }
   ParentId: 7234109698507287551
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"

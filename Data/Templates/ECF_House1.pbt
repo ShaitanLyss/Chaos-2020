@@ -893,7 +893,8 @@
         Transform {
           Location {
             X: -748.999695
-            Y: 550.499939
+            Y: 550.499756
+            Z: 38.4072266
           }
           Rotation {
           }
@@ -930,8 +931,9 @@
         Name: "Fantasy Castle Wall Foundation 01 - Pillar 01"
         Transform {
           Location {
-            X: -739.000061
-            Y: -714.499878
+            X: -739.000122
+            Y: -714.499939
+            Z: 38.4072266
           }
           Rotation {
             Yaw: -179.999954
@@ -969,8 +971,9 @@
         Name: "Fantasy Castle Wall Foundation 01 - Pillar 01"
         Transform {
           Location {
-            X: 141.000061
-            Y: 535.5
+            X: 141
+            Y: 535.500122
+            Z: 38.4072266
           }
           Rotation {
           }
@@ -1007,8 +1010,9 @@
         Name: "Fantasy Castle Wall Foundation 01 - Pillar 01"
         Transform {
           Location {
-            X: 140.999863
-            Y: -694.499939
+            X: 140.999908
+            Y: -694.499756
+            Z: 38.4072266
           }
           Rotation {
             Yaw: -179.999954

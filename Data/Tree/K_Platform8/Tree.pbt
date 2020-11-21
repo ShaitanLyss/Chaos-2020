@@ -123,6 +123,12 @@ Objects {
     }
   }
   ParentId: 18081671030614548318
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 2914837419902199197
@@ -130,14 +136,6 @@ Objects {
         Overrides {
           Name: "Name"
           String: "Bush hazard"
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 2
-            Y: 1.9
-            Z: 2.10000014
-          }
         }
         Overrides {
           Name: "Position"
@@ -148,9 +146,8 @@ Objects {
           }
         }
         Overrides {
-          Name: "Collidable"
-          Enum {
-            Value: "mc:ecollisionsetting:forceoff"
+          Name: "Rotation"
+          Rotator {
           }
         }
       }

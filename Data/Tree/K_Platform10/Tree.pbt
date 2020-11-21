@@ -132,6 +132,7 @@ Objects {
   ParentId: 16582308009053101296
   ChildIds: 16958397333880667658
   ChildIds: 41789420388625977
+  ChildIds: 15139424427110024761
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -140,6 +141,252 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 15139424427110024761
+  Name: "fx"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11393629739767000262
+  ChildIds: 12326166400386840676
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+}
+Objects {
+  Id: 12326166400386840676
+  Name: "FX_OptiFx"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15139424427110024761
+  ChildIds: 16560520229012576315
+  ChildIds: 12041898653356156826
+  ChildIds: 8643436852473531195
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:nearDensity"
+      Float: 10
+    }
+    Overrides {
+      Name: "cs:farDensity"
+      Float: 3
+    }
+    Overrides {
+      Name: "cs:threshold"
+      Float: 2250
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4020526502442220911
+    }
+  }
+}
+Objects {
+  Id: 8643436852473531195
+  Name: "Fire Volume VFX"
+  Transform {
+    Location {
+      X: -1476.22266
+      Y: -730.398926
+      Z: 471.936707
+    }
+    Rotation {
+      Yaw: 53.7402878
+    }
+    Scale {
+      X: 13.0108595
+      Y: 11.785244
+      Z: 1.04612756
+    }
+  }
+  ParentId: 12326166400386840676
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Volume Type"
+      Enum {
+        Value: "mc:evfxvolumetype:2"
+      }
+    }
+    Overrides {
+      Name: "bp:Density"
+      Float: 3
+    }
+    Overrides {
+      Name: "bp:Gravity"
+      Float: -2
+    }
+    Overrides {
+      Name: "bp:Wind Speed"
+      Vector {
+        X: 50
+        Z: -400
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 6474768715633236406
+    }
+    TeamSettings {
+    }
+    Vfx {
+      AutoPlay: true
+    }
+  }
+}
+Objects {
+  Id: 12041898653356156826
+  Name: "Fire Volume VFX"
+  Transform {
+    Location {
+      X: -823.84668
+      Y: -1619.70703
+      Z: 471.936707
+    }
+    Rotation {
+      Yaw: 3.41509349e-06
+    }
+    Scale {
+      X: 13.0108595
+      Y: 11.785244
+      Z: 1.04612756
+    }
+  }
+  ParentId: 12326166400386840676
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Volume Type"
+      Enum {
+        Value: "mc:evfxvolumetype:2"
+      }
+    }
+    Overrides {
+      Name: "bp:Density"
+      Float: 3
+    }
+    Overrides {
+      Name: "bp:Gravity"
+      Float: -2
+    }
+    Overrides {
+      Name: "bp:Wind Speed"
+      Vector {
+        X: 50
+        Z: -400
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 6474768715633236406
+    }
+    TeamSettings {
+    }
+    Vfx {
+      AutoPlay: true
+    }
+  }
+}
+Objects {
+  Id: 16560520229012576315
+  Name: "Fire Volume VFX"
+  Transform {
+    Location {
+      X: -43.8964844
+      Y: 107.800781
+      Z: 455.021729
+    }
+    Rotation {
+      Yaw: 3.41509394e-06
+    }
+    Scale {
+      X: 15
+      Y: 15
+      Z: 0.837769389
+    }
+  }
+  ParentId: 12326166400386840676
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Volume Type"
+      Enum {
+        Value: "mc:evfxvolumetype:2"
+      }
+    }
+    Overrides {
+      Name: "bp:Density"
+      Float: 10
+    }
+    Overrides {
+      Name: "bp:Wind Speed"
+      Vector {
+        X: 50
+        Z: -400
+      }
+    }
+    Overrides {
+      Name: "bp:Gravity"
+      Float: -2
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 6474768715633236406
+    }
+    TeamSettings {
+    }
+    Vfx {
+      AutoPlay: true
+    }
   }
 }
 Objects {

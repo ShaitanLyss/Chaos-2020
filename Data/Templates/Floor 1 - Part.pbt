@@ -133,6 +133,7 @@
           TeamSettings {
           }
           Vfx {
+            AutoPlay: true
           }
         }
       }
@@ -174,6 +175,7 @@
           TeamSettings {
           }
           Vfx {
+            AutoPlay: true
           }
         }
       }

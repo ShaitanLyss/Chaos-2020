@@ -17,7 +17,7 @@ end
 
 
 function DistanceCalc()
-    local platformsSeparation = playerCount - FireWallCount
+	local platformsSeparation = playerCount - FireWallCount
     Events.BroadcastToAllPlayers("E_PlatformsSeparationChanged", platformsSeparation)
 end
 
