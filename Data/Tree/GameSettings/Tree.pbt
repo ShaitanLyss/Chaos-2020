@@ -1,6 +1,32 @@
 ﻿Name: "GameSettings"
 RootId: 4341330598450183387
 Objects {
+  Id: 5086193610103370450
+  Name: "Timer"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4341330598450183387
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Timer"
+  }
+}
+Objects {
   Id: 16327924517214807479
   Name: "AirControl"
   Transform {

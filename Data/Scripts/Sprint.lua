@@ -53,19 +53,19 @@ function OnPlayerDied(player, damage)
     player.jumpVelocity	 = baseJump
 end
 
-local p  --testing
+--local p  --testing
 function OnPlayerJoined(player)
     player.bindingPressedEvent:Connect(OnBindingPressed)
     player.bindingReleasedEvent:Connect(OnBindingReleased)
     player.diedEvent:Connect(OnPlayerDied)
-    p = player --testing
+    --p = player --testing
 end
 
---testing
+--[[testing
 function Tick()
     print(p.maxWalkSpeed)
 end
---
+--]]
 
 
 function OnPlayerNearGround(platformPosition)
