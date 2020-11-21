@@ -14,7 +14,7 @@ local C2Q4 = level1Circle2:FindChildByName("Q4")
 
 function OnDPlayerChanged(pNumber)
     --player passed C1Q2 
-    if(pNumber >= 25) then  
+    if(tonumber(pNumber) >= 25) then  
         C1Q1.visibility = Visibility.FORCE_OFF
         C1Q1.collision = Collision.FORCE_OFF
 
@@ -23,7 +23,7 @@ function OnDPlayerChanged(pNumber)
     end
 
      --player passed C1Q3 
-    if(pNumber >= 39) then  
+    if(tonumber(pNumber) >= 39) then  
         C1Q2.visibility = Visibility.FORCE_OFF
         C1Q2.collision = Collision.FORCE_OFF
 
@@ -32,7 +32,7 @@ function OnDPlayerChanged(pNumber)
     end
 
      --player passed C1Q4 
-    if(pNumber >= 47) then  
+    if(tonumber(pNumber) >= 47) then  
         C1Q3.visibility = Visibility.FORCE_OFF
         C1Q3.collision = Collision.FORCE_OFF
 
@@ -41,7 +41,7 @@ function OnDPlayerChanged(pNumber)
     end
 
     --player passed C2Q1 
-    if(pNumber >= 68) then  
+    if(tonumber(pNumber) >= 68) then  
         C1Q4.visibility = Visibility.FORCE_OFF
         C1Q4.collision = Collision.FORCE_OFF
 
@@ -51,4 +51,4 @@ function OnDPlayerChanged(pNumber)
 end
 
 
-Events.Connect("E_DPlayerChanged", OnDPlayerChanged)
+--Events.Connect("E_DPlayerChanged", OnDPlayerChanged)
