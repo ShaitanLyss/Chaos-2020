@@ -1,13 +1,14 @@
 ﻿local fireWall = script.parent
 local fireWallModel = fireWall:FindChildByName("FireWallModel")
 local trigger = fireWallModel:FindChildByName("Trigger")
-local spawnPlace = fireWall:FindChildByName("SpawnPlace")
+local spawnPlace = script:GetCustomProperty("Lvl1_SpawnPoint"):WaitForObject()
 
 
 -- Kills a player when they enter the trigger
 function OnBeginOverlap(trigger, other)
     if other:IsA("Player") then
-        Events.Broadcast("E_BigDie", other)
+        --Events.Broadcast("E_BigDie", other)
+        OnBigDie()
     end
 end
 
@@ -22,4 +23,4 @@ end
 
 -- Connect trigger overlap event
 trigger.beginOverlapEvent:Connect(OnBeginOverlap)
-Events.Connect("E_BigDie", OnBigDie)
+--Events.Connect("E_BigDie", OnBigDie)

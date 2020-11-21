@@ -96,8 +96,13 @@ Objects {
         SelfId: 8768866053368028503
       }
     }
+    Overrides {
+      Name: "cs:Lvl1_SpawnPoint"
+      ObjectReference {
+        SelfId: 12771252215691349085
+      }
+    }
   }
-  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -128,7 +133,6 @@ Objects {
     }
   }
   ParentId: 13683379292976511251
-  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
