@@ -1,6 +1,58 @@
 ﻿Name: "GameSettings"
 RootId: 4341330598450183387
 Objects {
+  Id: 17985057012011105827
+  Name: "SpawnPoints"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4341330598450183387
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "SpawnPoints"
+  }
+}
+Objects {
+  Id: 8379238470408066240
+  Name: "StartGame"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4341330598450183387
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "StartGame"
+  }
+}
+Objects {
   Id: 5086193610103370450
   Name: "Timer"
   Transform {

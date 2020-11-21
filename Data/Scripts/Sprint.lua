@@ -40,8 +40,7 @@ function OnBindingReleased(player, bindingReleased)
         player.maxAcceleration = baseAcceleration
         player.jumpVelocity	 = baseJump
         print("Sprint Off")
-        isNearGround = false
-        print()
+       -- isNearGround = false
     end
 end
 
