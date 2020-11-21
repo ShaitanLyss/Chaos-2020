@@ -18,24 +18,30 @@ local TALK_ANIMATION = "unarmed_use"
 function Dialogs.RegisterDialogue()
     local id = "" --Unique Id for each dialog
 
-    -- Generic Conversations
+    -- Intro Conversations
     id = "GenericConversation1"
     API.RegisterDialogueId(id)
-    API.AddText(id, "Hello!", WAVE_ANIMATION)
-    API.AddText(id, "How are you little child?")
+    API.AddText(id, "Are you lost?")
 
-    API.AddOption(id, "I want candy", "GenericConversation2")
-    API.AddOption(id, "I want your hotspot", "GenericConversation3")
+    API.AddOption(id, "No", "IntroConvo3")
+    API.AddOption(id, "Yes", "IntroConvo2")
 
-    id = "GenericConversation2"
+    id = "IntroConvo2"
     API.RegisterDialogueId(id)
-    API.AddText(id, "I got DRUGS", YES_ANIMATION)
-    API.AddText(id, "Don't worry She is pretty nice my friend molly", LAUGH_ANIMATION)
+    API.AddText(id, "I see...", YES_ANIMATION)
+    API.AddText(id, "Well, if you\'re looking for answers, ".. 
+    "know that you will not find them down here.")
+    API.AddText(id, "Find the first challenge. "..
+    "Live through that, and you may find the path to the top "..
+    "to be closer than before.")
 
-    id = "GenericConversation3"
+    id = "IntroConvo3"
     API.RegisterDialogueId(id)
-    API.AddText(id, "I want your platforming skills", YES_ANIMATION)
-    API.AddText(id, "But if you got some D I don't mind ;)")
+    API.AddText(id, "I see..", YES_ANIMATION)
+    API.AddText(id, "Well, I suppose you already know what to do then.")
+    API.AddText(id, "That, or you just want to skip my dialogue.")
+    API.AddText(id, "Whichever way it is, "..
+    "I wish you good luck in your journey.")
 
    
 end

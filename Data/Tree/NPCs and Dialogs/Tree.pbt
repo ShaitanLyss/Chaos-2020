@@ -3417,7 +3417,6 @@ Objects {
     AnimatedMesh {
       AnimationStance: "unarmed_idle_relaxed"
       AnimationStancePlaybackRate: 1
-      AnimationStanceShouldLoop: true
       AnimationPlaybackRateMultiplier: 1
       PlayOnStartAnimation {
         PlaybackRate: 1
@@ -3433,7 +3432,7 @@ Objects {
 }
 Objects {
   Id: 13623094878770274126
-  Name: "NPC Dialog Trigger"
+  Name: "Deity"
   Transform {
     Location {
     }
@@ -3451,7 +3450,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
-      String: "Greeter"
+      String: "???"
     }
     Overrides {
       Name: "cs:StartDialogId"
