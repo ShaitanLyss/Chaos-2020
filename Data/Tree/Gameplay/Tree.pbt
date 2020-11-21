@@ -1,6 +1,38 @@
 ﻿Name: "Gameplay"
 RootId: 3841774984750933128
 Objects {
+  Id: 10305666313895817157
+  Name: "Spawn Point"
+  Transform {
+    Location {
+      X: -6008.38477
+      Y: -10752.9473
+      Z: 300.754517
+    }
+    Rotation {
+      Yaw: 10.4502878
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3841774984750933128
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  PlayerSpawnPoint {
+    TeamInt: 1
+    PlayerScaleMultiplier: 1
+  }
+}
+Objects {
   Id: 14713340454944924967
   Name: "Third Person Camera Settings"
   Transform {
@@ -174,38 +206,6 @@ Objects {
       CanMoveDown: true
       IsMountEnabled: true
     }
-  }
-}
-Objects {
-  Id: 16813558807825262224
-  Name: "Spawn Point"
-  Transform {
-    Location {
-      X: 1866.41064
-      Y: 5543.57422
-      Z: 329.940887
-    }
-    Rotation {
-      Yaw: 151.558517
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 3841774984750933128
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  PlayerSpawnPoint {
-    TeamInt: 1
-    PlayerScaleMultiplier: 1
   }
 }
 Objects {

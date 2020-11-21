@@ -53,15 +53,6 @@ Assets {
   }
 }
 Assets {
-  Id: 8765746271166835070
-  Name: "Tree Redwood Bare Big"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_tree_redwood_003"
-  }
-}
-Assets {
   Id: 6474768715633236406
   Name: "Fire Volume VFX"
   PlatformAssetType: 8

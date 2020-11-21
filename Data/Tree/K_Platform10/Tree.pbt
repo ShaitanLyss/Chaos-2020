@@ -186,6 +186,7 @@ Objects {
   ChildIds: 16560520229012576315
   ChildIds: 12041898653356156826
   ChildIds: 8643436852473531195
+  ChildIds: 16656831172620008773
   UnregisteredParameters {
     Overrides {
       Name: "cs:nearDensity"
@@ -209,6 +210,65 @@ Objects {
   Script {
     ScriptAsset {
       Id: 4020526502442220911
+    }
+  }
+}
+Objects {
+  Id: 16656831172620008773
+  Name: "Fire Volume VFX"
+  Transform {
+    Location {
+      X: 655.493164
+      Y: 1475.86182
+      Z: 455.021729
+    }
+    Rotation {
+      Yaw: 3.41509349e-06
+    }
+    Scale {
+      X: 15
+      Y: 15
+      Z: 0.837769389
+    }
+  }
+  ParentId: 12326166400386840676
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Volume Type"
+      Enum {
+        Value: "mc:evfxvolumetype:2"
+      }
+    }
+    Overrides {
+      Name: "bp:Density"
+      Float: 10
+    }
+    Overrides {
+      Name: "bp:Wind Speed"
+      Vector {
+        X: 50
+        Z: -400
+      }
+    }
+    Overrides {
+      Name: "bp:Gravity"
+      Float: -2
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 6474768715633236406
+    }
+    TeamSettings {
+    }
+    Vfx {
+      AutoPlay: true
     }
   }
 }

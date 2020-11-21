@@ -8,12 +8,39 @@
   }
 }
 Assets {
+  Id: 17663353483073332670
+  Name: "Tree Oak Bare 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_tree_oak_002"
+  }
+}
+Assets {
+  Id: 16871773527048538261
+  Name: "Invisible"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_invisible_001"
+  }
+}
+Assets {
   Id: 14452616722762075696
   Name: "Fantasy Castle Pillar 01 Base"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ts_fan_cas_pillar_001_base"
+  }
+}
+Assets {
+  Id: 12749903271711089047
+  Name: "Tree Redwood Bare Small"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_tree_redwood_006"
   }
 }
 Assets {

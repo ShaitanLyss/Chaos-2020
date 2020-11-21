@@ -21,9 +21,6 @@
       Overrides {
         Name: "color_accent"
         Color {
-          R: 0.0310000014
-          G: 0.0310000014
-          B: 0.0310000014
           A: 1
         }
       }

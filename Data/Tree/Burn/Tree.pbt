@@ -27,7 +27,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "NewFolder"
+    FilePartitionName: "NewFolder_1"
   }
 }
 Objects {
@@ -56,7 +56,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "NewFolder_1"
+    FilePartitionName: "NewFolder_2"
   }
 }
 Objects {
@@ -85,7 +85,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Light {
-    Intensity: 50.9320602
+    Intensity: 10
     Color {
       R: 0.919999957
       G: 0.127947
@@ -136,7 +136,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Light {
-    Intensity: 50.9320602
+    Intensity: 10
     Color {
       R: 0.919999957
       G: 0.127947
@@ -187,7 +187,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Light {
-    Intensity: 50.9320602
+    Intensity: 10
     Color {
       R: 0.919999957
       G: 0.127947
@@ -237,7 +237,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Light {
-    Intensity: 50.9320602
+    Intensity: 10
     Color {
       R: 0.919999957
       G: 0.127947
@@ -287,7 +287,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Light {
-    Intensity: 50.9320602
+    Intensity: 10
     Color {
       R: 0.919999957
       G: 0.127947
@@ -337,7 +337,7 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Light {
-    Intensity: 50.9320602
+    Intensity: 10
     Color {
       R: 0.919999957
       G: 0.127947
@@ -397,46 +397,6 @@ Objects {
   CoreMesh {
     MeshAsset {
       Id: 9826100189993420230
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 12210072751544107655
-  Name: "Tree Redwood Bare Big"
-  Transform {
-    Location {
-      X: 388.75647
-      Y: -1573.05713
-      Z: 105.997528
-    }
-    Rotation {
-      Yaw: -56.3692741
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10910845249869573806
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 8765746271166835070
     }
     Teams {
       IsTeamCollisionEnabled: true
