@@ -61,6 +61,15 @@ Objects {
         }
       }
     }
+    ParameterOverrideMap {
+      key: 16180970171577782523
+      value {
+        Overrides {
+          Name: "bp:Size"
+          Float: 100
+        }
+      }
+    }
     TemplateAsset {
       Id: 11108699866060967321
     }
