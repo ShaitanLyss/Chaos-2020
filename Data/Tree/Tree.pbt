@@ -25,7 +25,6 @@ Objects {
   ChildIds: 7135527698524595111
   ChildIds: 6467585024135654832
   ChildIds: 11088783293967872893
-  ChildIds: 9801956715696389214
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -35,45 +34,6 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
-  }
-}
-Objects {
-  Id: 9801956715696389214
-  Name: "Baseball Bat"
-  Transform {
-    Location {
-      X: -320
-      Y: 60
-      Z: 1500
-    }
-    Rotation {
-    }
-    Scale {
-      X: 10.7999935
-      Y: 7.1
-      Z: 1.9
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 10529518571605519477
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
   }
 }
 Objects {

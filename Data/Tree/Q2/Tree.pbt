@@ -85,42 +85,6 @@ Objects {
   }
 }
 Objects {
-  Id: 10970810323981009376
-  Name: "K_Platform18"
-  Transform {
-    Location {
-      X: -600
-      Y: 150
-      Z: -850
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 13403407918364663893
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "K_Platform18"
-  }
-  InstanceHistory {
-    SelfId: 2669764855542356164
-    SubobjectId: 5476325483713963319
-    InstanceId: 9465508632573721086
-    TemplateId: 4296020210974480709
-    WasRoot: true
-  }
-}
-Objects {
   Id: 1895355346331335426
   Name: "K_Platform17"
   Transform {
