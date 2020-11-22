@@ -23,8 +23,6 @@ Objects {
   ChildIds: 4434011006133901618
   ChildIds: 9321966516087236899
   ChildIds: 7135527698524595111
-  ChildIds: 6467585024135654832
-  ChildIds: 11088783293967872893
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -34,127 +32,6 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
-  }
-}
-Objects {
-  Id: 11088783293967872893
-  Name: "Object Mover"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 3142504813567088034
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Object Mover"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 7485
-            Z: 2470
-          }
-        }
-        Overrides {
-          Name: "cs:Object"
-          ObjectReference {
-            SelfId: 6467585024135654832
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 36.9999695
-          }
-        }
-        Overrides {
-          Name: "cs:MoveTo"
-          Vector {
-            X: 5869.51611
-            Y: 2342.8
-            Z: 2470
-          }
-        }
-        Overrides {
-          Name: "cs:StartDelayRange"
-          Vector2 {
-            X: 3
-            Y: 3
-          }
-        }
-        Overrides {
-          Name: "cs:IntervalDelayRange"
-          Vector2 {
-          }
-        }
-        Overrides {
-          Name: "cs:Duration"
-          Float: 5.9
-        }
-        Overrides {
-          Name: "cs:BounceOnRepeat"
-          Bool: true
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 9951297657303948718
-    }
-  }
-}
-Objects {
-  Id: 6467585024135654832
-  Name: "Cube - Polished"
-  Transform {
-    Location {
-      X: 7485
-      Z: 2470
-    }
-    Rotation {
-      Yaw: 13.1226845
-    }
-    Scale {
-      X: 21.0533543
-      Y: 13.076972
-      Z: 0.5
-    }
-  }
-  ParentId: 4781671109827199097
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 8960293663979334663
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
   }
 }
 Objects {
