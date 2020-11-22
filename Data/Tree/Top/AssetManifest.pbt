@@ -8,6 +8,15 @@
   }
 }
 Assets {
+  Id: 10863862208740259149
+  Name: "Bricks Mismatched Stone 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_brick_stone_mismatch_001"
+  }
+}
+Assets {
   Id: 9543099500142514010
   Name: "Bricks Red 01"
   PlatformAssetType: 2

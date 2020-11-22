@@ -17,6 +17,15 @@ Assets {
   }
 }
 Assets {
+  Id: 10529518571605519477
+  Name: "Baseball Bat"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_weap_modern_bat_001"
+  }
+}
+Assets {
   Id: 8960293663979334663
   Name: "Cube - Polished"
   PlatformAssetType: 1

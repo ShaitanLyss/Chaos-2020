@@ -1,18 +1,46 @@
 ﻿Name: "Level 2"
 RootId: 8473058261175908689
 Objects {
-  Id: 8507668073580413423
-  Name: "Floor 4"
+  Id: 7325224074645116302
+  Name: "Border"
   Transform {
     Location {
-      Z: 2400
+      X: -383.333344
+      Y: -47.9166679
     }
     Rotation {
     }
     Scale {
-      X: 149.536438
-      Y: 149.536438
-      Z: 1.11753941
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8473058261175908689
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Border_1"
+  }
+}
+Objects {
+  Id: 6413319447771045798
+  Name: "Plane Circle - One Sided"
+  Transform {
+    Location {
+      Z: 2420.23486
+    }
+    Rotation {
+    }
+    Scale {
+      X: 166.248367
+      Y: 166.248367
+      Z: 1.24243379
     }
   }
   ParentId: 8473058261175908689
@@ -20,7 +48,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 10863862208740259149
+        Id: 3587825122861898865
       }
     }
   }
@@ -32,7 +60,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 5607670291468911387
+      Id: 13729717230941363308
     }
     Teams {
       IsTeamCollisionEnabled: true

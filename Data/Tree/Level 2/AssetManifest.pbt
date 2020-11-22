@@ -1,4 +1,13 @@
 ﻿Assets {
+  Id: 13729717230941363308
+  Name: "Plane Circle - One Sided"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_plane_circle_001"
+  }
+}
+Assets {
   Id: 10863862208740259149
   Name: "Bricks Mismatched Stone 01"
   PlatformAssetType: 2
@@ -17,11 +26,11 @@ Assets {
   }
 }
 Assets {
-  Id: 5607670291468911387
-  Name: "Plane Ring - One Sided"
-  PlatformAssetType: 1
+  Id: 3587825122861898865
+  Name: "Bricks Stone Block 01"
+  PlatformAssetType: 2
   PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_plane_ring_001"
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_bricks_stone_block_001"
   }
 }
