@@ -5,8 +5,8 @@ local platformTrigger = platformModel:FindChildByName("Trigger")
 
 function OnBeginOverlap(trigger, other)
     if other:IsA("Player")  and not other.isDead then
-        local platformPosition = platformModel:GetWorldPosition()
-        Events.Broadcast("E_CheckPointChanged", platformPosition)
+        --local platformPosition = platformModel:GetWorldPosition()
+        Events.Broadcast("E_CheckPointChanged", platformModel)
         local pNumber = string.sub(platform.name, 6)
         Events.Broadcast("E_DPlayerChanged", pNumber)
     elseif other.name == "FireWallMesh" then

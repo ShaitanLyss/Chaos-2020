@@ -1,4 +1,4 @@
-﻿local savePlatformPosition
+﻿local savePlatformModel
 
 local baseSpeed = 1000 
 local baseAcceleration = 2000
@@ -6,10 +6,10 @@ local baseJump = 900
 
 
 -- For Respawn the player
-function OnCheckPointChanged(platformPosition)
+function OnCheckPointChanged(platformModel)
    -- print("New State = ")
    -- print(platformPosition)
-    savePlatformPosition = platformPosition
+    savePlatformModel = platformModel
 end
 
 
@@ -18,8 +18,8 @@ function OnSmallDie(player)
     local playerRotation = player:GetWorldRotation()
     player:Die()
     Task.Wait(3)
-    print(savePlatformPosition + Vector3.UP * 300)
-    player:Respawn({position = savePlatformPosition + Vector3.UP * 300, rotation = playerRotation})
+   -- print(savePlatformModel:GetWorldPosition() + Vector3.UP * 50)
+    player:Respawn({position = savePlatformModel:GetWorldPosition() + Vector3.UP * 100, rotation = playerRotation})
     print("done")
 end
 

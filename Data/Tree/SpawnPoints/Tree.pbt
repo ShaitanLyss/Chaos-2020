@@ -41,9 +41,9 @@ Objects {
   Name: "Lvl1_SpawnPoint"
   Transform {
     Location {
-      X: 6740
-      Y: 6600
-      Z: 1270
+      X: -2990
+      Y: -8360
+      Z: 260
     }
     Rotation {
     }
