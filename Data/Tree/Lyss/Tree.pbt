@@ -2997,6 +2997,17 @@ Objects {
         }
       }
     }
+    ParameterOverrideMap {
+      key: 9096020075309208678
+      value {
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 11651876825730333230
+          }
+        }
+      }
+    }
     TemplateAsset {
       Id: 6696416903554057062
     }
