@@ -1,7 +1,7 @@
 ﻿Name: "_PS_Rectangle_wide_3"
-RootId: 26157580643446735
+RootId: 5894977568072468787
 Objects {
-  Id: 6989069950514818741
+  Id: 1958985393708382528
   Name: "P_PlatformBehavior"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 26157580643446735
+  ParentId: 5894977568072468787
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -35,7 +35,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13322547146146786558
+  Id: 18162148584610878482
   Name: "Mesh"
   Transform {
     Location {
@@ -48,9 +48,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 26157580643446735
-  ChildIds: 16752187908442515300
-  ChildIds: 9048328686960536646
+  ParentId: 5894977568072468787
+  ChildIds: 7256408818166919354
+  ChildIds: 4510492498944088478
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -92,7 +92,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9048328686960536646
+  Id: 4510492498944088478
   Name: "2"
   Transform {
     Location {
@@ -105,7 +105,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13322547146146786558
+  ParentId: 18162148584610878482
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -125,7 +125,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16752187908442515300
+  Id: 7256408818166919354
   Name: "1"
   Transform {
     Location {
@@ -138,7 +138,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13322547146146786558
+  ParentId: 18162148584610878482
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"

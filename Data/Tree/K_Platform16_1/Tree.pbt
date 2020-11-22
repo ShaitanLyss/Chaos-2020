@@ -1,7 +1,7 @@
-﻿Name: "K_Platform4_2"
-RootId: 18388149044005963685
+﻿Name: "K_Platform16_1"
+RootId: 8873989080882593521
 Objects {
-  Id: 3274526093919851070
+  Id: 10187550217175840392
   Name: "Object Mover"
   Transform {
     Scale {
@@ -10,7 +10,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18388149044005963685
+  ParentId: 8873989080882593521
   TemplateInstance {
     ParameterOverrideMap {
       key: 3142504813567088034
@@ -22,15 +22,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -11021
-            Y: -3221.38721
-            Z: -141.532318
+            X: 5855
+            Y: -5850
+            Z: 35
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -131.296158
+            Yaw: 7
           }
         }
         Overrides {
@@ -44,15 +44,15 @@ Objects {
         Overrides {
           Name: "cs:Object"
           ObjectReference {
-            SelfId: 9927972250082592026
+            SelfId: 7824445962634949956
           }
         }
         Overrides {
           Name: "cs:MoveTo"
           Vector {
-            X: -10910
-            Y: -3650
-            Z: -141.532
+            X: 4880
+            Y: -6240
+            Z: 35
           }
         }
         Overrides {
@@ -75,13 +75,13 @@ Objects {
         Overrides {
           Name: "cs:IntervalDelayRange"
           Vector2 {
-            X: 1.1
-            Y: 1.1
+            X: 0.5
+            Y: 0.5
           }
         }
         Overrides {
           Name: "cs:Duration"
-          Float: 0.65
+          Float: 1.3
         }
       }
     }
@@ -91,7 +91,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12168192182146555413
+  Id: 1503352427206709310
   Name: "KPlatform"
   Transform {
     Location {
@@ -104,12 +104,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18388149044005963685
+  ParentId: 8873989080882593521
   UnregisteredParameters {
     Overrides {
       Name: "cs:K_Platform"
       ObjectReference {
-        SelfId: 18388149044005963685
+        SelfId: 8873989080882593521
       }
     }
   }
@@ -132,16 +132,16 @@ Objects {
   }
 }
 Objects {
-  Id: 9927972250082592026
+  Id: 7824445962634949956
   Name: "PlatformModel"
   Transform {
     Location {
-      X: -12956.6641
-      Y: -9623.51855
-      Z: 145.000122
+      X: 5855
+      Y: -5850
+      Z: 35
     }
     Rotation {
-      Yaw: -131.296158
+      Yaw: 7
     }
     Scale {
       X: 1.49999988
@@ -149,9 +149,10 @@ Objects {
       Z: 1.49999988
     }
   }
-  ParentId: 18388149044005963685
-  ChildIds: 8141045852989790784
-  ChildIds: 2728694086240924429
+  ParentId: 8873989080882593521
+  ChildIds: 9319145352403858656
+  ChildIds: 7398116643021910870
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -169,22 +170,25 @@ Objects {
   }
 }
 Objects {
-  Id: 2728694086240924429
+  Id: 7398116643021910870
   Name: "Trigger"
   Transform {
     Location {
-      X: -0.00024456653
-      Y: -0.000214827916
+      X: -65.7392578
+      Y: -37.490181
+      Z: 229.381836
     }
     Rotation {
+      Yaw: 7
     }
     Scale {
-      X: 0.666666746
-      Y: 0.666666746
-      Z: 0.666666746
+      X: 1.1152606
+      Y: 1.0850873
+      Z: 4.66234684
     }
   }
-  ParentId: 9927972250082592026
+  ParentId: 7824445962634949956
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -202,12 +206,10 @@ Objects {
   }
 }
 Objects {
-  Id: 8141045852989790784
+  Id: 9319145352403858656
   Name: "_P_KillCylinder"
   Transform {
     Location {
-      X: -28.0888481
-      Y: -69.0403671
     }
     Rotation {
     }
@@ -217,7 +219,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9927972250082592026
+  ParentId: 7824445962634949956
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -226,7 +229,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "_P_KillCylinder_2"
+    FilePartitionName: "_P_KillCylinder_7"
   }
   InstanceHistory {
     SelfId: 9319145352403858656

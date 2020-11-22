@@ -1,7 +1,97 @@
 ﻿Name: "K_Platform14"
-RootId: 9649130558008585147
+RootId: 14040578932660427781
 Objects {
-  Id: 4172739007952981942
+  Id: 844995465814543400
+  Name: "Object Mover"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14040578932660427781
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 3142504813567088034
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Object Mover"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -11021
+            Y: -3221.38721
+            Z: -141.532318
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -131.296158
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        Overrides {
+          Name: "cs:Object"
+          ObjectReference {
+            SelfId: 975073183524264832
+          }
+        }
+        Overrides {
+          Name: "cs:MoveTo"
+          Vector {
+            X: -10910
+            Y: -3650
+            Z: -141.532
+          }
+        }
+        Overrides {
+          Name: "cs:LocalSpace"
+          Bool: true
+        }
+        Overrides {
+          Name: "cs:AutoStart"
+          Bool: true
+        }
+        Overrides {
+          Name: "cs:BounceOnRepeat"
+          Bool: true
+        }
+        Overrides {
+          Name: "cs:StartDelayRange"
+          Vector2 {
+          }
+        }
+        Overrides {
+          Name: "cs:IntervalDelayRange"
+          Vector2 {
+            X: 1.1
+            Y: 1.1
+          }
+        }
+        Overrides {
+          Name: "cs:Duration"
+          Float: 0.65
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 9951297657303948718
+    }
+  }
+}
+Objects {
+  Id: 12110377850306834834
   Name: "KPlatform"
   Transform {
     Location {
@@ -14,12 +104,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9649130558008585147
+  ParentId: 14040578932660427781
   UnregisteredParameters {
     Overrides {
       Name: "cs:K_Platform"
       ObjectReference {
-        SelfId: 9649130558008585147
+        SelfId: 14040578932660427781
       }
     }
   }
@@ -42,16 +132,16 @@ Objects {
   }
 }
 Objects {
-  Id: 3537585136248527829
+  Id: 975073183524264832
   Name: "PlatformModel"
   Transform {
     Location {
-      X: 5735
-      Y: -8125
-      Z: 110
+      X: -12789.8516
+      Y: -9810.81445
+      Z: -207.886505
     }
     Rotation {
-      Yaw: 7
+      Yaw: -131.296158
     }
     Scale {
       X: 1.49999988
@@ -59,9 +149,8 @@ Objects {
       Z: 1.49999988
     }
   }
-  ParentId: 9649130558008585147
-  ChildIds: 17706613459425519997
-  ChildIds: 15657551062036989285
+  ParentId: 14040578932660427781
+  ChildIds: 17220672323791741711
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -79,133 +168,35 @@ Objects {
   }
 }
 Objects {
-  Id: 15657551062036989285
-  Name: "Trigger"
+  Id: 17220672323791741711
+  Name: "_P_KillCylinder"
   Transform {
     Location {
-      X: -8.24189949
-      Y: -12.4214878
-      Z: 215.530731
     }
     Rotation {
     }
-    Scale {
-      X: 0.792387962
-      Y: 1.12603307
-      Z: 5.57884693
-    }
-  }
-  ParentId: 3537585136248527829
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Trigger {
-    TeamSettings {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    TriggerShape_v2 {
-      Value: "mc:etriggershape:capsule"
-    }
-  }
-}
-Objects {
-  Id: 17706613459425519997
-  Name: "_P_KillCylinder"
-  Transform {
     Scale {
       X: 1
       Y: 1
       Z: 1
     }
   }
-  ParentId: 3537585136248527829
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 330025034838458396
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -0.000772805652
-            Y: 0.000311751588
-            Z: 0.000537458749
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -3.05175781e-05
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 17.8684387
-            Y: 4.68160343
-            Z: 4.37435293
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 8881477080085901474
-      value {
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1.1
-            Y: 1.1
-            Z: 5.5
-          }
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -8.27742481
-            Y: -12.7108183
-            Z: -53.3329468
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 14666212901670409171
-      value {
-        Overrides {
-          Name: "Name"
-          String: "_P_KillCylinder"
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 6965630994047288269
-    }
+  ParentId: 975073183524264832
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "_P_KillCylinder_2"
+  }
+  InstanceHistory {
+    SelfId: 9319145352403858656
+    SubobjectId: 14666212901670409171
+    InstanceId: 7499451274498972607
+    TemplateId: 6965630994047288269
+    WasRoot: true
   }
 }

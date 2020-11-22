@@ -38,7 +38,7 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -12.2164192
+            Yaw: -12.2164307
           }
         }
         Overrides {
@@ -94,7 +94,7 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -12.2164192
+            Yaw: -12.2164307
           }
         }
         Overrides {
@@ -150,7 +150,7 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -29.2984638
+            Yaw: -29.2984619
           }
         }
         Overrides {

@@ -1,7 +1,7 @@
 ﻿Name: "2_3"
-RootId: 4510492498944088478
+RootId: 8039130121691690738
 Objects {
-  Id: 5844664522386330892
+  Id: 4376349199844133594
   Name: "Basic Sparks"
   Transform {
     Location {
@@ -15,7 +15,7 @@ Objects {
       Z: 8.99999619
     }
   }
-  ParentId: 4510492498944088478
+  ParentId: 8039130121691690738
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -41,7 +41,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16453196549240671996
+  Id: 10009352552036923808
   Name: "Fire Volume VFX"
   Transform {
     Location {
@@ -55,7 +55,7 @@ Objects {
       Z: 10.7999992
     }
   }
-  ParentId: 4510492498944088478
+  ParentId: 8039130121691690738
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"

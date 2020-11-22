@@ -1,7 +1,7 @@
 ﻿Name: "K_Platform11"
-RootId: 8830595630266575992
+RootId: 15497553889884947036
 Objects {
-  Id: 15225337437333060125
+  Id: 12441355828764146996
   Name: "KPlatform"
   Transform {
     Location {
@@ -14,12 +14,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8830595630266575992
+  ParentId: 15497553889884947036
   UnregisteredParameters {
     Overrides {
       Name: "cs:K_Platform"
       ObjectReference {
-        SelfId: 8830595630266575992
+        SelfId: 15497553889884947036
       }
     }
   }
@@ -35,34 +35,33 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 15478015494772436055
+    SelfId: 2927767980405741046
     SubobjectId: 13276555526046159268
-    InstanceId: 9465508632573721086
+    InstanceId: 18042480391068993951
     TemplateId: 4296020210974480709
   }
 }
 Objects {
-  Id: 2527126493877296402
+  Id: 17442623255763760569
   Name: "PlatformModel"
   Transform {
     Location {
-      X: 4635
-      Y: -12665
-      Z: -160
+      X: -12705
+      Y: -10485
+      Z: 1240.98621
     }
     Rotation {
-      Yaw: 26.4165192
+      Yaw: -173.818192
     }
     Scale {
-      X: 2.10000014
-      Y: 2.10000014
-      Z: 2.10000014
+      X: 1
+      Y: 1
+      Z: 1
     }
   }
-  ParentId: 8830595630266575992
-  ChildIds: 4722107410587217623
-  ChildIds: 12328370361841684394
-  ChildIds: 1086450821991215327
+  ParentId: 15497553889884947036
+  ChildIds: 5991089571363456803
+  ChildIds: 1522935050709866226
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -73,31 +72,30 @@ Objects {
     IsGroup: true
   }
   InstanceHistory {
-    SelfId: 324945685516363519
+    SelfId: 18081671030614548318
     SubobjectId: 7669992590307203852
-    InstanceId: 9465508632573721086
+    InstanceId: 18042480391068993951
     TemplateId: 4296020210974480709
   }
 }
 Objects {
-  Id: 1086450821991215327
+  Id: 1522935050709866226
   Name: "Trigger"
   Transform {
     Location {
-      X: -4.72976112
-      Y: -3.31334257
-      Z: 238.86554
+      X: -53.2278671
+      Y: -119.965805
+      Z: 15
     }
     Rotation {
-      Yaw: 13.7086439
     }
     Scale {
-      X: 2.66693664
-      Y: 2.25837922
-      Z: 5.14285707
+      X: 1.22286272
+      Y: 1.22286272
+      Z: 1.22286272
     }
   }
-  ParentId: 2527126493877296402
+  ParentId: 17442623255763760569
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -115,166 +113,59 @@ Objects {
   }
 }
 Objects {
-  Id: 12328370361841684394
-  Name: "Decorations"
+  Id: 5991089571363456803
+  Name: "Bush hazard"
   Transform {
-    Location {
-      X: 26.1904755
-      Y: -42.8571396
-      Z: 247.619034
-    }
-    Rotation {
-    }
-    Scale {
-      X: 0.476190448
-      Y: 0.476190448
-      Z: 0.476190448
-    }
-  }
-  ParentId: 2527126493877296402
-  ChildIds: 10246970180533174152
-  ChildIds: 318673418989064465
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 318673418989064465
-  Name: "Ivy 05"
-  Transform {
-    Location {
-      X: 136.883911
-      Y: 251.494736
-      Z: -15
-    }
-    Rotation {
-      Pitch: 84.999733
-      Yaw: 63.5831032
-      Roll: -126.036057
-    }
-    Scale {
-      X: 2.5
-      Y: 2.9
-      Z: 3.60000014
-    }
-  }
-  ParentId: 12328370361841684394
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 875692328123217241
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 10246970180533174152
-  Name: "Cylinder"
-  Transform {
-    Location {
-      X: -60
-      Y: 90
-    }
-    Rotation {
-      Yaw: -35
-    }
-    Scale {
-      X: 4.5
-      Y: 5.8
-      Z: 9.8
-    }
-  }
-  ParentId: 12328370361841684394
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 13812905202961015832
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:smart"
-      Bool: false
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        R: 0.0290158726
-        G: 0.914000034
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 2069256678876204768
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 4722107410587217623
-  Name: "_P_KillCylinder"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
     Scale {
       X: 1
       Y: 1
       Z: 1
     }
   }
-  ParentId: 2527126493877296402
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "_P_KillCylinder_7"
-  }
-  InstanceHistory {
-    SelfId: 12592455942390714704
-    SubobjectId: 14666212901670409171
-    InstanceId: 16403308874897668379
-    TemplateId: 6965630994047288269
-    WasRoot: true
+  ParentId: 17442623255763760569
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 2914837419902199197
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Bush hazard"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.5
+            Y: 0.5
+            Z: 0.3
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -48.7953529
+            Y: -125.475159
+            Z: 0.000122070313
+          }
+        }
+        Overrides {
+          Name: "Collidable"
+          Enum {
+            Value: "mc:ecollisionsetting:forceoff"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 6574986305754630243
+      value {
+        Overrides {
+          Name: "bp:Emissive Boost"
+          Float: 8
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 6130468399187983281
+    }
   }
 }

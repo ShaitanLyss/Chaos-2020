@@ -2232,7 +2232,7 @@ Objects {
     }
   }
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -2288,7 +2288,7 @@ Objects {
     }
   }
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -2321,8 +2321,8 @@ Objects {
     Location {
     }
     Rotation {
-      Pitch: -4.59863615
-      Yaw: -1.67972267
+      Pitch: -4.59863281
+      Yaw: -1.67971802
       Roll: 2.09213352
     }
     Scale {
@@ -2536,7 +2536,7 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-            Roll: -39.9504433
+            Roll: -39.9504395
           }
         }
         Overrides {
@@ -2736,6 +2736,17 @@ Objects {
       }
     }
     ParameterOverrideMap {
+      key: 7471392528572990626
+      value {
+        Overrides {
+          Name: "Collidable"
+          Enum {
+            Value: "mc:ecollisionsetting:forceoff"
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 10807362143353798128
       value {
         Overrides {
@@ -2754,7 +2765,7 @@ Objects {
           Name: "Rotation"
           Rotator {
             Yaw: 176.740417
-            Roll: -39.9495049
+            Roll: -39.9494934
           }
         }
         Overrides {
@@ -2802,7 +2813,7 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-            Roll: -39.950489
+            Roll: -39.9505
           }
         }
         Overrides {

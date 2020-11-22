@@ -48,8 +48,8 @@ Objects {
         Overrides {
           Name: "cs:StartDelayRange"
           Vector2 {
-            X: 2.5
-            Y: 2.5
+            X: 2.7
+            Y: 2.7
           }
         }
         Overrides {
@@ -226,7 +226,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "_PS_Rectangle_wide_2"
+    FilePartitionName: "_PS_Rectangle_wide_3"
   }
   InstanceHistory {
     SelfId: 26157580643446735

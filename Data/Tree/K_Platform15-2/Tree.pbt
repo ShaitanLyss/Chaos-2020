@@ -48,7 +48,7 @@ Objects {
     Location {
       X: 5880
       Y: -7590
-      Z: 700
+      Z: 710
     }
     Rotation {
       Pitch: 44.3410034
@@ -91,7 +91,6 @@ Objects {
     }
     Rotation {
       Pitch: 6.83018879e-06
-      Yaw: -5.58290935e-07
       Roll: 1.80023576e-07
     }
     Scale {

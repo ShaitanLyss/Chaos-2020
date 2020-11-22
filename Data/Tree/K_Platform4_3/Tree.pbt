@@ -174,16 +174,16 @@ Objects {
   Name: "Trigger"
   Transform {
     Location {
-      X: 0.00024456653
-      Y: 0.000214827916
-      Z: 2.03450527e-05
+      X: -64.9656372
+      Y: -35.711319
+      Z: 201.372406
     }
     Rotation {
     }
     Scale {
-      X: 0.666666746
-      Y: 0.666666746
-      Z: 0.666666746
+      X: 0.714736462
+      Y: 0.714736462
+      Z: 3.46348405
     }
   }
   ParentId: 13319684460404202624
@@ -200,7 +200,7 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     TriggerShape_v2 {
-      Value: "mc:etriggershape:box"
+      Value: "mc:etriggershape:capsule"
     }
   }
 }
@@ -228,7 +228,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "_P_KillCylinder_3"
+    FilePartitionName: "_P_KillCylinder_4"
   }
   InstanceHistory {
     SelfId: 9319145352403858656

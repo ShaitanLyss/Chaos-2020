@@ -1,7 +1,7 @@
 ﻿Name: "K_Platform16"
-RootId: 8873989080882593521
+RootId: 4114500355052886421
 Objects {
-  Id: 10187550217175840392
+  Id: 706500201237691510
   Name: "Object Mover"
   Transform {
     Scale {
@@ -10,7 +10,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8873989080882593521
+  ParentId: 4114500355052886421
   TemplateInstance {
     ParameterOverrideMap {
       key: 3142504813567088034
@@ -22,15 +22,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 5855
-            Y: -5850
-            Z: 35
+            X: -11021
+            Y: -3221.38721
+            Z: -141.532318
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: 7
+            Yaw: -131.296158
           }
         }
         Overrides {
@@ -44,15 +44,15 @@ Objects {
         Overrides {
           Name: "cs:Object"
           ObjectReference {
-            SelfId: 7824445962634949956
+            SelfId: 4519420126706098325
           }
         }
         Overrides {
           Name: "cs:MoveTo"
           Vector {
-            X: 4880
-            Y: -6240
-            Z: 35
+            X: -10910
+            Y: -3650
+            Z: -141.532
           }
         }
         Overrides {
@@ -75,13 +75,13 @@ Objects {
         Overrides {
           Name: "cs:IntervalDelayRange"
           Vector2 {
-            X: 0.5
-            Y: 0.5
+            X: 1.1
+            Y: 1.1
           }
         }
         Overrides {
           Name: "cs:Duration"
-          Float: 1.3
+          Float: 0.65
         }
       }
     }
@@ -91,7 +91,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1503352427206709310
+  Id: 12262139352953968628
   Name: "KPlatform"
   Transform {
     Location {
@@ -104,12 +104,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8873989080882593521
+  ParentId: 4114500355052886421
   UnregisteredParameters {
     Overrides {
       Name: "cs:K_Platform"
       ObjectReference {
-        SelfId: 8873989080882593521
+        SelfId: 4114500355052886421
       }
     }
   }
@@ -132,16 +132,16 @@ Objects {
   }
 }
 Objects {
-  Id: 7824445962634949956
+  Id: 4519420126706098325
   Name: "PlatformModel"
   Transform {
     Location {
-      X: 5855
-      Y: -5850
-      Z: 35
+      X: -12901.6641
+      Y: -10043.5186
+      Z: 145.000122
     }
     Rotation {
-      Yaw: 7
+      Yaw: -131.296158
     }
     Scale {
       X: 1.49999988
@@ -149,10 +149,8 @@ Objects {
       Z: 1.49999988
     }
   }
-  ParentId: 8873989080882593521
-  ChildIds: 9319145352403858656
-  ChildIds: 7398116643021910870
-  WantsNetworking: true
+  ParentId: 4114500355052886421
+  ChildIds: 7884571561563343349
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -170,43 +168,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7398116643021910870
-  Name: "Trigger"
-  Transform {
-    Location {
-      X: -65.7392578
-      Y: -37.490181
-      Z: 229.381836
-    }
-    Rotation {
-      Yaw: 7
-    }
-    Scale {
-      X: 1.1152606
-      Y: 1.0850873
-      Z: 4.66234684
-    }
-  }
-  ParentId: 7824445962634949956
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Trigger {
-    TeamSettings {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    TriggerShape_v2 {
-      Value: "mc:etriggershape:box"
-    }
-  }
-}
-Objects {
-  Id: 9319145352403858656
+  Id: 7884571561563343349
   Name: "_P_KillCylinder"
   Transform {
     Location {
@@ -219,8 +181,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7824445962634949956
-  WantsNetworking: true
+  ParentId: 4519420126706098325
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -229,7 +190,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "_P_KillCylinder_6"
+    FilePartitionName: "_P_KillCylinder_1"
   }
   InstanceHistory {
     SelfId: 9319145352403858656

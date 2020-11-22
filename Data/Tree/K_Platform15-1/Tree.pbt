@@ -48,7 +48,7 @@ Objects {
     Location {
       X: 5100
       Y: -7640
-      Z: 875
+      Z: 890
     }
     Rotation {
       Pitch: -49.4935913

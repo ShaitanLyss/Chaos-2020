@@ -17,7 +17,7 @@ end
 function OnSmallDie(player)
     local playerRotation = player:GetWorldRotation()
     player:Die()
-    Task.Wait(3)
+    Task.Wait(3.5)
    -- print(savePlatformModel:GetWorldPosition() + Vector3.UP * 50)
     player:Respawn({position = savePlatformModel:GetWorldPosition() + Vector3.UP * 100, rotation = playerRotation})
     print("done")

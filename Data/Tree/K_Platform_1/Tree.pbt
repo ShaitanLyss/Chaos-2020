@@ -1,4 +1,4 @@
-﻿Name: "K_Platform"
+﻿Name: "K_Platform_1"
 RootId: 2669764855542356164
 Objects {
   Id: 15478015494772436055
@@ -85,7 +85,7 @@ Objects {
   Name: "Trigger"
   Transform {
     Location {
-      X: -6.20744181
+      X: -22.7987385
       Y: -4.07472086
       Z: 556.597412
     }

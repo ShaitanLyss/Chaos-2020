@@ -578,7 +578,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "K_Platform"
+    FilePartitionName: "K_Platform_1"
   }
   InstanceHistory {
     SelfId: 2669764855542356164

@@ -1,4 +1,4 @@
-﻿Name: "C2-P_28"
+﻿Name: "C2-P_75"
 RootId: 9020591112214077728
 Objects {
   Id: 4751360466735253174
@@ -140,7 +140,7 @@ Objects {
           Vector {
             X: 4.5
             Y: 4.5
-            Z: 0.4
+            Z: 0.3
           }
         }
         Overrides {

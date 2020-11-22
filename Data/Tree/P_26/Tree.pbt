@@ -221,7 +221,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "_PS_Rectangle_wide_3"
+    FilePartitionName: "_PS_Rectangle_wide_4"
   }
   InstanceHistory {
     SelfId: 26157580643446735

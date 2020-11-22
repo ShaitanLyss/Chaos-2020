@@ -1,24 +1,23 @@
 ﻿Name: "_P_KillCylinder_1"
-RootId: 11034516369536792788
+RootId: 7884571561563343349
 Objects {
-  Id: 1327277281437886249
+  Id: 6586931155273768850
   Name: "Mesh"
   Transform {
     Location {
-      X: -64.8340149
-      Y: -35.698391
-      Z: 23.333334
+      X: -421.453217
+      Y: -609.96405
+      Z: 107.71566
     }
     Rotation {
     }
     Scale {
       X: 0.7
       Y: 0.7
-      Z: 5.70000029
+      Z: 6.36407709
     }
   }
-  ParentId: 11034516369536792788
-  ChildIds: 909968097197509524
+  ParentId: 7884571561563343349
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -71,50 +70,6 @@ Objects {
   InstanceHistory {
     SelfId: 3575229073143125905
     SubobjectId: 8881477080085901474
-    InstanceId: 7499451274498972607
-    TemplateId: 6965630994047288269
-  }
-}
-Objects {
-  Id: 909968097197509524
-  Name: "Fire Volume VFX"
-  Transform {
-    Location {
-      X: -34.0911026
-      Y: 23.4814243
-      Z: 52.9742126
-    }
-    Rotation {
-      Pitch: 88.0048141
-      Yaw: 89.9284592
-      Roll: 87.9552231
-    }
-    Scale {
-      X: 6.8
-      Y: 0.900000036
-      Z: 0.0999999866
-    }
-  }
-  ParentId: 1327277281437886249
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 6474768715633236406
-    }
-    TeamSettings {
-    }
-    Vfx {
-      AutoPlay: true
-    }
-  }
-  InstanceHistory {
-    SelfId: 5641013319878518575
-    SubobjectId: 330025034838458396
     InstanceId: 7499451274498972607
     TemplateId: 6965630994047288269
   }

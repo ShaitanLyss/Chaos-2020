@@ -1,7 +1,7 @@
 ﻿Name: "K_Platform18"
-RootId: 7255383558650228776
+RootId: 10970810323981009376
 Objects {
-  Id: 74602108954386806
+  Id: 200990984820929909
   Name: "KPlatform"
   Transform {
     Location {
@@ -14,12 +14,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7255383558650228776
+  ParentId: 10970810323981009376
   UnregisteredParameters {
     Overrides {
       Name: "cs:K_Platform"
       ObjectReference {
-        SelfId: 7255383558650228776
+        SelfId: 10970810323981009376
       }
     }
   }
@@ -35,33 +35,35 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 2927767980405741046
+    SelfId: 15478015494772436055
     SubobjectId: 13276555526046159268
-    InstanceId: 18042480391068993951
+    InstanceId: 9465508632573721086
     TemplateId: 4296020210974480709
   }
 }
 Objects {
-  Id: 18308896437004073056
+  Id: 11495827699350684912
   Name: "PlatformModel"
   Transform {
     Location {
-      X: 3955
-      Y: -3965
-      Z: 150
+      X: -9484.63574
+      Y: -15031.0293
+      Z: 55.8180847
     }
     Rotation {
-      Yaw: -173.818192
+      Pitch: -90
+      Yaw: 38.5
+      Roll: -9.27298
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 1.1
+      Y: 1.1
+      Z: 1.1
     }
   }
-  ParentId: 7255383558650228776
-  ChildIds: 12988295225991776009
-  ChildIds: 15171289301312101237
+  ParentId: 10970810323981009376
+  ChildIds: 9040206069549604262
+  ChildIds: 1297400079749052961
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -72,30 +74,30 @@ Objects {
     IsGroup: true
   }
   InstanceHistory {
-    SelfId: 18081671030614548318
+    SelfId: 324945685516363519
     SubobjectId: 7669992590307203852
-    InstanceId: 18042480391068993951
+    InstanceId: 9465508632573721086
     TemplateId: 4296020210974480709
   }
 }
 Objects {
-  Id: 15171289301312101237
+  Id: 1297400079749052961
   Name: "Trigger"
   Transform {
     Location {
-      X: -19.1414814
-      Y: 25.7018871
-      Z: 43.2296143
+      X: -10.4910555
+      Y: -595.006531
+      Z: 68.5987
     }
     Rotation {
     }
     Scale {
-      X: 1.22408259
-      Y: 1.22408259
-      Z: 1.2242012
+      X: 0.853608787
+      Y: 0.853598833
+      Z: 7.16602
     }
   }
-  ParentId: 18308896437004073056
+  ParentId: 11495827699350684912
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -113,8 +115,8 @@ Objects {
   }
 }
 Objects {
-  Id: 12988295225991776009
-  Name: "Bush hazard"
+  Id: 9040206069549604262
+  Name: "_P_KillCylinder"
   Transform {
     Scale {
       X: 1
@@ -122,41 +124,89 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 18308896437004073056
+  ParentId: 11495827699350684912
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
-      key: 2914837419902199197
+      key: 330025034838458396
       value {
         Overrides {
-          Name: "Name"
-          String: "Bush hazard"
+          Name: "Position"
+          Vector {
+            X: -53.225
+            Y: -21.2222099
+            Z: -82.8284073
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 86.126564
+            Yaw: 31.2268448
+            Roll: 32.4430504
+          }
         }
         Overrides {
           Name: "Scale"
           Vector {
-            X: 0.5
-            Y: 0.5
-            Z: 0.5
+            X: 3.44260049
+            Y: 3.41504049
+            Z: 40.8884163
+          }
+        }
+        Overrides {
+          Name: "bp:Emissive Boost"
+          Float: 1
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 8881477080085901474
+      value {
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.723276436
+            Y: 0.723278
+            Z: 7.06858921
           }
         }
         Overrides {
           Name: "Position"
           Vector {
-            X: -12.7591038
-            Y: 21.4989605
-            Z: 0.000183105469
+            X: -17.5354557
+            Y: -595.125122
+            Z: -265.838867
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 14666212901670409171
+      value {
+        Overrides {
+          Name: "Name"
+          String: "_P_KillCylinder"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
           }
         }
         Overrides {
-          Name: "Collidable"
-          Enum {
-            Value: "mc:ecollisionsetting:forceoff"
+          Name: "Rotation"
+          Rotator {
           }
         }
       }
     }
     TemplateAsset {
-      Id: 6130468399187983281
+      Id: 6965630994047288269
     }
   }
 }

@@ -254,7 +254,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "K_Platform18"
+    FilePartitionName: "K_Platform18_1"
   }
   InstanceHistory {
     SelfId: 15808083966072938853
@@ -320,7 +320,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "K_Platform17"
+    FilePartitionName: "K_Platform17_1"
   }
   InstanceHistory {
     SelfId: 2669764855542356164
@@ -353,7 +353,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "K_Platform16"
+    FilePartitionName: "K_Platform16_1"
   }
   InstanceHistory {
     SelfId: 2669764855542356164
@@ -486,7 +486,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "K_Platform14"
+    FilePartitionName: "K_Platform14_1"
   }
   InstanceHistory {
     SelfId: 2669764855542356164
@@ -618,7 +618,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "K_Platform12"
+    FilePartitionName: "K_Platform12_1"
   }
   InstanceHistory {
     SelfId: 2669764855542356164

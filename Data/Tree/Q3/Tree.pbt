@@ -116,7 +116,7 @@ Objects {
       Z: 430.000244
     }
     Rotation {
-      Yaw: -99.0462799
+      Yaw: -99.0462646
     }
     Scale {
       X: 2.3
@@ -169,7 +169,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "K_Platform11"
+    FilePartitionName: "K_Platform11_1"
   }
   InstanceHistory {
     SelfId: 2669764855542356164
@@ -255,7 +255,6 @@ Objects {
       Z: 425
     }
     Rotation {
-      Yaw: -1.36603758e-05
     }
     Scale {
       X: 2.64
@@ -414,7 +413,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "K_Platform10"
+    FilePartitionName: "K_Platform10_2"
   }
   InstanceHistory {
     SelfId: 2669764855542356164
@@ -447,7 +446,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "K_Platform9"
+    FilePartitionName: "K_Platform9_1"
   }
   InstanceHistory {
     SelfId: 15808083966072938853
@@ -480,7 +479,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "K_Platform8"
+    FilePartitionName: "K_Platform8_1"
   }
   InstanceHistory {
     SelfId: 15808083966072938853
@@ -579,7 +578,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "K_Platform7"
+    FilePartitionName: "K_Platform7_1"
   }
   InstanceHistory {
     SelfId: 2669764855542356164
@@ -645,7 +644,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "K_Platform6"
+    FilePartitionName: "K_Platform6_1"
   }
   InstanceHistory {
     SelfId: 2669764855542356164
