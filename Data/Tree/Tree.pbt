@@ -25,6 +25,7 @@ Objects {
   ChildIds: 7135527698524595111
   ChildIds: 6467585024135654832
   ChildIds: 11088783293967872893
+  ChildIds: 13267335084819025263
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -34,6 +35,77 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 13267335084819025263
+  Name: "Player Launcher"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 5149418238936693457
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            Z: 6.10351563e-05
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 7475782904616284279
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Player Launcher"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2340
+            Y: -8030
+            Z: 4180
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -67.5001526
+          }
+        }
+        Overrides {
+          Name: "cs:LaunchSpeed"
+          Float: 9000
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 11612194129470769528
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            Z: 80
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16924625768116884873
+    }
   }
 }
 Objects {
