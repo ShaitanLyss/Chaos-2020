@@ -1,325 +1,6 @@
 ﻿Name: "Azmio"
 RootId: 11404857991553905137
 Objects {
-  Id: 13736249812600814928
-  Name: "LYSS -Templates for level 2"
-  Transform {
-    Location {
-      X: 558.866211
-      Y: -2535.98389
-      Z: 1500.22827
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11404857991553905137
-  ChildIds: 12396513054922962562
-  ChildIds: 14703555627197040400
-  ChildIds: 13920816516073191513
-  ChildIds: 4994108315065256899
-  ChildIds: 18214713057156404275
-  ChildIds: 14644824522989566184
-  ChildIds: 6291821840967089121
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 6291821840967089121
-  Name: "NPC Guy"
-  Transform {
-    Location {
-      X: -358.935059
-      Y: 340.562
-      Z: 108.86792
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1.38143551
-    }
-  }
-  ParentId: 13736249812600814928
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 2287544251754705893
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 14644824522989566184
-  Name: "Cage for NPC Guy"
-  Transform {
-    Location {
-      X: -605.05835
-      Y: 306.472168
-      Z: 218.373535
-    }
-    Rotation {
-    }
-    Scale {
-      X: 2.76384854
-      Y: 2.76384854
-      Z: 2.76384854
-    }
-  }
-  ParentId: 13736249812600814928
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 8601238900320339820
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12905923173550510229
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 18214713057156404275
-  Name: "Thing that kills you"
-  Transform {
-    Location {
-      X: -98.0449219
-      Y: 527.615723
-    }
-    Rotation {
-      Pitch: 90
-      Yaw: 180
-      Roll: -150.287521
-    }
-    Scale {
-      X: 1.48377979
-      Y: 1.48377979
-      Z: 10.8228474
-    }
-  }
-  ParentId: 13736249812600814928
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12905923173550510229
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 4994108315065256899
-  Name: "Thing that kills you"
-  Transform {
-    Location {
-      X: 634.149902
-      Y: -22.6674805
-      Z: 169.068359
-    }
-    Rotation {
-    }
-    Scale {
-      X: 2.79428649
-      Y: 2.79428649
-      Z: 2.79428649
-    }
-  }
-  ParentId: 13736249812600814928
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 9299265961697968177
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 13920816516073191513
-  Name: "Square platform"
-  Transform {
-    Location {
-      X: 494.446777
-      Y: -554.634277
-      Z: 225.98584
-    }
-    Rotation {
-    }
-    Scale {
-      X: 4.37404346
-      Y: 4.20532322
-      Z: 1
-    }
-  }
-  ParentId: 13736249812600814928
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 8960293663979334663
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 14703555627197040400
-  Name: "Wall"
-  Transform {
-    Location {
-      X: -44.9584961
-      Y: -603.62793
-      Z: 560.921631
-    }
-    Rotation {
-      Yaw: 32.8517723
-    }
-    Scale {
-      X: 0.433935463
-      Y: 9.03052139
-      Z: 7.44684839
-    }
-  }
-  ParentId: 13736249812600814928
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 8960293663979334663
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 12396513054922962562
-  Name: "Circular platform"
-  Transform {
-    Location {
-      X: -21.6015625
-      Y: 6.27734375
-      Z: 132.290283
-    }
-    Rotation {
-    }
-    Scale {
-      X: 5.74391651
-      Y: 5.744
-      Z: 1
-    }
-  }
-  ParentId: 13736249812600814928
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12905923173550510229
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
   Id: 8394110554381358202
   Name: "Level 2 town delimitations"
   Transform {
@@ -361,8 +42,8 @@ Objects {
       Yaw: -116.483459
     }
     Scale {
-      X: 1.00000072
-      Y: 20.5187321
+      X: 1.00000167
+      Y: 21.2550297
       Z: 1
     }
   }
@@ -959,6 +640,32 @@ Objects {
   }
 }
 Objects {
+  Id: 5239628783255204261
+  Name: "Level 2 - Circle"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11404857991553905137
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Level 2 - Circle"
+  }
+}
+Objects {
   Id: 7885339278262600429
   Name: "Level 1 - Circle 2"
   Transform {
@@ -1007,10 +714,10 @@ Objects {
   ChildIds: 11050968851567843142
   ChildIds: 10527608616754204667
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceon"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   Folder {
     IsGroup: true
