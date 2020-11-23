@@ -333,14 +333,6 @@ Objects {
             Yaw: -52
           }
         }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.4
-            Y: 19.3000011
-            Z: 2
-          }
-        }
       }
     }
     TemplateAsset {
@@ -509,6 +501,10 @@ Objects {
             Yaw: 7.00001431
           }
         }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:smart"
+          Bool: false
+        }
       }
     }
     TemplateAsset {
@@ -520,21 +516,19 @@ Objects {
   Id: 15622339724071451248
   Name: "_Level.2.Square Platform"
   Transform {
-    Location {
-      X: -7165
-      Y: -100
-      Z: 2684
-    }
-    Rotation {
-      Yaw: -1.72628772
-    }
     Scale {
-      X: 5.2
-      Y: 4.99999952
-      Z: 0.900000095
+      X: 1
+      Y: 1
+      Z: 1
     }
   }
   ParentId: 5239628783255204261
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 6298524651291009104
@@ -549,14 +543,6 @@ Objects {
             X: -11460
             Y: -9220
             Z: 1684
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 5.2
-            Y: 4.99999952
-            Z: 0.6
           }
         }
         Overrides {
@@ -661,14 +647,6 @@ Objects {
             Yaw: -97
           }
         }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.4
-            Y: 18.9
-            Z: 2
-          }
-        }
       }
     }
     TemplateAsset {
@@ -680,22 +658,19 @@ Objects {
   Id: 15896673922049465549
   Name: "_Level.2.Killer Tube"
   Transform {
-    Location {
-      X: -4435
-      Y: 5830
-      Z: 2610
-    }
-    Rotation {
-      Pitch: 90
-      Roll: 52.9999275
-    }
     Scale {
-      X: 1.5
-      Y: 1.5
-      Z: 18.1
+      X: 1
+      Y: 1
+      Z: 1
     }
   }
   ParentId: 5239628783255204261
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 12264167317587531338
@@ -718,14 +693,6 @@ Objects {
             Pitch: 90
             Yaw: 31
             Roll: 52.9998894
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1.5
-            Y: 1.5
-            Z: 18.6999989
           }
         }
       }
@@ -1529,14 +1496,6 @@ Objects {
           Name: "Rotation"
           Rotator {
             Yaw: -7
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.433940023
-            Y: 13.5
-            Z: 6.5
           }
         }
       }

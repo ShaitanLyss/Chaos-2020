@@ -29,6 +29,35 @@ Objects {
   }
 }
 Objects {
+  Id: 13151447250743459469
+  Name: "Town"
+  Transform {
+    Location {
+      X: 2226.41211
+      Y: 590.007568
+      Z: -574.995117
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8473058261175908689
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Town"
+  }
+}
+Objects {
   Id: 6413319447771045798
   Name: "Plane Circle - One Sided"
   Transform {

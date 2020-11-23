@@ -7,15 +7,31 @@
       RootId: 5594672932005031246
       Objects {
         Id: 5594672932005031246
-        Name: "_Level.2.Wall"
+        Name: "_Level.2.Wal"
         Transform {
           Scale {
-            X: 0.433935463
-            Y: 9.03052139
-            Z: 7.44684839
+            X: 0.433940023
+            Y: 13.5
+            Z: 6.5
           }
         }
         ParentId: 13736249812600814928
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 15082714160791594269
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              G: 1
+              B: 0.300001144
+              A: 1
+            }
+          }
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }

@@ -41,9 +41,9 @@ Objects {
   Name: "Lvl1_SpawnPoint"
   Transform {
     Location {
-      X: -7835
-      Y: -4115
-      Z: 190
+      X: 6233.35205
+      Y: 3364.7876
+      Z: 3013.25439
     }
     Rotation {
     }
@@ -55,10 +55,10 @@ Objects {
   }
   ParentId: 17985057012011105827
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
