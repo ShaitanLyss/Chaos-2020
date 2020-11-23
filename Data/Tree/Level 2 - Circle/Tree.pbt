@@ -1,6 +1,53 @@
 ﻿Name: "Level 2 - Circle"
 RootId: 5239628783255204261
 Objects {
+  Id: 17707710412591417857
+  Name: "Player Launcher"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5239628783255204261
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 7475782904616284279
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Player Launcher"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -5895
+            Y: -16445
+            Z: 3180
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16924625768116884873
+    }
+  }
+}
+Objects {
   Id: 17967862110434506785
   Name: "_Level.2.Square Platform"
   Transform {
@@ -57,242 +104,6 @@ Objects {
   }
 }
 Objects {
-  Id: 17001507597961648659
-  Name: "_Level.2.Square Platform"
-  Transform {
-    Location {
-      X: -4920
-      Y: -16050
-      Z: 3170
-    }
-    Rotation {
-      Yaw: 23.4845142
-    }
-    Scale {
-      X: 7.29999971
-      Y: 5.8
-      Z: 0.6
-    }
-  }
-  ParentId: 5239628783255204261
-  ChildIds: 6385843787161607772
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 8960293663979334663
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 17001507597961648659
-    SubobjectId: 6298524651291009104
-    InstanceId: 13809789369979611097
-    TemplateId: 9776049024329587152
-    WasRoot: true
-  }
-}
-Objects {
-  Id: 6385843787161607772
-  Name: "Object Mover"
-  Transform {
-    Location {
-      X: -4919.99902
-      Y: -16049.999
-      Z: 3170
-    }
-    Rotation {
-      Yaw: 23.4845142
-    }
-    Scale {
-      X: 0.172413781
-      Y: 0.172413781
-      Z: 1.66666663
-    }
-  }
-  ParentId: 17001507597961648659
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Object"
-      ObjectReference {
-        SelfId: 17001507597961648659
-      }
-    }
-    Overrides {
-      Name: "cs:MoveTo"
-      Vector {
-        X: -4805.43213
-        Y: -15970
-        Z: 3170
-      }
-    }
-    Overrides {
-      Name: "cs:LocalSpace"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:Reverse"
-      Bool: false
-    }
-    Overrides {
-      Name: "cs:Duration"
-      Float: 10
-    }
-    Overrides {
-      Name: "cs:AutoStart"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:StartDelayRange"
-      Vector2 {
-      }
-    }
-    Overrides {
-      Name: "cs:RepeatCount"
-      Int: -1
-    }
-    Overrides {
-      Name: "cs:IntervalDelayRange"
-      Vector2 {
-        X: 0.5
-        Y: 0.5
-      }
-    }
-    Overrides {
-      Name: "cs:BounceOnRepeat"
-      Bool: false
-    }
-    Overrides {
-      Name: "cs:StartEventName"
-      String: ""
-    }
-    Overrides {
-      Name: "cs:StopEventName"
-      String: ""
-    }
-    Overrides {
-      Name: "cs:ResetEventName"
-      String: ""
-    }
-    Overrides {
-      Name: "cs:OnStartedEventName"
-      String: ""
-    }
-    Overrides {
-      Name: "cs:OnStoppedEventName"
-      String: ""
-    }
-    Overrides {
-      Name: "cs:OnResetEventName"
-      String: ""
-    }
-    Overrides {
-      Name: "cs:OnCompletedEventName"
-      String: ""
-    }
-    Overrides {
-      Name: "cs:Duration:tooltip"
-      String: "Time in seconds for the object to perform the action."
-    }
-    Overrides {
-      Name: "cs:StartDelayRange:tooltip"
-      String: "Random delay range for the object to take action at the start of the game."
-    }
-    Overrides {
-      Name: "cs:LocalSpace:tooltip"
-      String: "Whether MoveTo is in local space"
-    }
-    Overrides {
-      Name: "cs:Reverse:tooltip"
-      String: "If true, the object will start from MoveTo position and move towards the initial position."
-    }
-    Overrides {
-      Name: "cs:MoveTo:tooltip"
-      String: "Target location for the object to move."
-    }
-    Overrides {
-      Name: "cs:Object:tooltip"
-      String: "Object to transform"
-    }
-    Overrides {
-      Name: "cs:AutoStart:tooltip"
-      String: "If true, the specified object will start the action automatically."
-    }
-    Overrides {
-      Name: "cs:RepeatCount:tooltip"
-      String: "Number of times the object is moved. If set to -1, the action will keep repeating indefinitely."
-    }
-    Overrides {
-      Name: "cs:BounceOnRepeat:tooltip"
-      String: "Whether to reverse alternating repeats, so that the object transforms smoothly."
-    }
-    Overrides {
-      Name: "cs:StartEventName:tooltip"
-      String: "Specify the event that will trigger this action to start"
-    }
-    Overrides {
-      Name: "cs:StopEventName:tooltip"
-      String: "Specify the event that will trigger this action to stop"
-    }
-    Overrides {
-      Name: "cs:ResetEventName:tooltip"
-      String: "This event will trigger this action to reset"
-    }
-    Overrides {
-      Name: "cs:OnStartedEventName:tooltip"
-      String: "Event that will be broadcasted when the action starts"
-    }
-    Overrides {
-      Name: "cs:OnStoppedEventName:tooltip"
-      String: "Event that will be broadcasted when the action stops"
-    }
-    Overrides {
-      Name: "cs:OnResetEventName:tooltip"
-      String: "Event that will be broadcasted when the action is reset"
-    }
-    Overrides {
-      Name: "cs:OnCompletedEventName:tooltip"
-      String: "Event that will be broadcasted when the action is completed"
-    }
-    Overrides {
-      Name: "cs:IntervalDelayRange:tooltip"
-      String: "Random delay time between each action repeat."
-    }
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 6126478455621128065
-    }
-  }
-  InstanceHistory {
-    SelfId: 6385843787161607772
-    SubobjectId: 3142504813567088034
-    InstanceId: 5870455301756647533
-    TemplateId: 9951297657303948718
-    WasRoot: true
-  }
-}
-Objects {
   Id: 12845846372707095261
   Name: "_Level.2.Wall"
   Transform {
@@ -317,14 +128,14 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "_Level.2.Wal"
+          String: "Wall 5"
         }
         Overrides {
           Name: "Position"
           Vector {
-            X: -9470
-            Y: -12800
-            Z: 1635
+            X: -9660
+            Y: -12645
+            Z: 1705
           }
         }
         Overrides {
@@ -337,8 +148,8 @@ Objects {
           Name: "Scale"
           Vector {
             X: 0.4
-            Y: 13.5
-            Z: 2.8
+            Y: 16.4
+            Z: 3.19999981
           }
         }
       }
@@ -373,14 +184,14 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "_Level.2.Square Platform"
+          String: "P_6"
         }
         Overrides {
           Name: "Position"
           Vector {
             X: -9540
             Y: -11335
-            Z: 1980
+            Z: 2000
           }
         }
         Overrides {
@@ -429,14 +240,14 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "_Level.2.Square Platform"
+          String: "P_5"
         }
         Overrides {
           Name: "Position"
           Vector {
             X: -9875
             Y: -10540
-            Z: 1800
+            Z: 1830
           }
         }
         Overrides {
@@ -485,14 +296,14 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "_Level.2.Square Platform"
+          String: "P_4"
         }
         Overrides {
           Name: "Position"
           Vector {
             X: -10610
             Y: -9875
-            Z: 1684
+            Z: 1715
           }
         }
         Overrides {
@@ -543,20 +354,28 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "_Level.2.Square Platform"
+          String: "P_3"
         }
         Overrides {
           Name: "Position"
           Vector {
             X: -11460
             Y: -9220
-            Z: 1684
+            Z: 1715
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
             Yaw: 7
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 5
+            Y: 4.99999952
+            Z: 0.6
           }
         }
       }
@@ -583,28 +402,28 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "_Level.2.Square Platform"
+          String: "P_2"
         }
         Overrides {
           Name: "Position"
           Vector {
-            X: -10765
-            Y: -8350
-            Z: 1684
+            X: -10760
+            Y: -8290
+            Z: 1715
           }
         }
         Overrides {
           Name: "Scale"
           Vector {
-            X: 5.8
-            Y: 5.8
+            X: 5
+            Y: 5
             Z: 0.6
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -1.72629452
+            Yaw: -7
           }
         }
       }
@@ -639,7 +458,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "_Level.2.Wal"
+          String: "Wall 5"
         }
         Overrides {
           Name: "Position"
@@ -659,14 +478,54 @@ Objects {
           Name: "Scale"
           Vector {
             X: 0.4
-            Y: 13.5
-            Z: 3.2
+            Y: 16.4
+            Z: 2.10000014
           }
         }
       }
     }
     TemplateAsset {
       Id: 7813499516720574108
+    }
+  }
+}
+Objects {
+  Id: 10606438107094584671
+  Name: "P_1"
+  Transform {
+    Location {
+      X: -10695
+      Y: -7755
+      Z: 1530
+    }
+    Rotation {
+      Yaw: 172.999985
+    }
+    Scale {
+      X: 5
+      Y: 5
+      Z: 2.10000014
+    }
+  }
+  ParentId: 5239628783255204261
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 10422763289844695788
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
     }
   }
 }
@@ -693,7 +552,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "_Level.2.Killer Tube"
+          String: "C_6"
         }
         Overrides {
           Name: "Position"
@@ -743,7 +602,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "_Level.2.Killer Square"
+          String: "C_5"
         }
         Overrides {
           Name: "Position"
@@ -776,7 +635,7 @@ Objects {
 }
 Objects {
   Id: 7380938509197971977
-  Name: "Corona spreader"
+  Name: "CS_3"
   Transform {
     Location {
       X: -9520
@@ -972,7 +831,7 @@ Objects {
 }
 Objects {
   Id: 15116536616183063129
-  Name: "Corona spreader"
+  Name: "CS_2"
   Transform {
     Location {
       X: -9440
@@ -1190,7 +1049,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "_Level.2.Killer Tube"
+          String: "C_4"
         }
         Overrides {
           Name: "Position"
@@ -1238,7 +1097,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "_Level.2.Killer Square"
+          String: "C_3"
         }
         Overrides {
           Name: "Position"
@@ -1286,7 +1145,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "_Level.2.Killer Square"
+          String: "C_2"
         }
         Overrides {
           Name: "Position"
@@ -1344,7 +1203,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "_Level.2.Killer Square"
+          String: "C_1"
         }
         Overrides {
           Name: "Position"
@@ -1387,7 +1246,7 @@ Objects {
 }
 Objects {
   Id: 2124726521921849759
-  Name: "Corona spreader"
+  Name: "CS_1"
   Transform {
     Location {
       X: -4825
@@ -1612,7 +1471,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "_Level.2.Wall"
+          String: "Wall 4"
         }
         Overrides {
           Name: "Position"
@@ -1660,7 +1519,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "_Level.2.Wall"
+          String: "Wall 3"
         }
         Overrides {
           Name: "Position"
@@ -1716,7 +1575,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "_Level.2.Wall"
+          String: "Wall 2"
         }
         Overrides {
           Name: "Position"
@@ -1764,7 +1623,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "_Level.2.Wal"
+          String: "Wall 1"
         }
         Overrides {
           Name: "Position"

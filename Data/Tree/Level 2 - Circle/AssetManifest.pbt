@@ -1,9 +1,9 @@
 ﻿Assets {
-  Id: 8960293663979334663
-  Name: "Cube - Polished"
+  Id: 10422763289844695788
+  Name: "Wedge - Polished"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_hq_test_001"
+    AssetId: "sm_wedge_hq_001"
   }
 }
