@@ -946,8 +946,8 @@ Objects {
           Name: "Position"
           Vector {
             X: 2195
-            Y: 3485
-            Z: 1435
+            Y: 3393.89648
+            Z: 1350.95715
           }
         }
         Overrides {
@@ -961,7 +961,7 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-            Roll: 44.9999924
+            Roll: 49.7299919
           }
         }
       }

@@ -1,50 +1,49 @@
 ﻿Assets {
-  Id: 17487441168680876738
-  Name: "_Level.2.Killer Square"
+  Id: 5874369901957612822
+  Name: "C2F_CovidAura"
   PlatformAssetType: 5
   TemplateAsset {
     ObjectBlock {
-      RootId: 7082543403439824712
+      RootId: 2885527514888761191
       Objects {
-        Id: 7082543403439824712
-        Name: "_Level.2.Killer Square"
+        Id: 2885527514888761191
+        Name: "C2F_CovidAura"
         Transform {
           Scale {
-            X: 2.79428649
-            Y: 2.79428649
-            Z: 2.79428649
+            X: 17
+            Y: 17
+            Z: 17
           }
         }
-        ParentId: 5239628783255204261
-        ChildIds: 16385106882331836486
-        ChildIds: 7931119662846091311
-        ChildIds: 16850390261659397647
+        ParentId: 2124726521921849759
+        ChildIds: 10839140643213756187
+        ChildIds: 12563932676167616161
+        ChildIds: 17447185131959105246
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 16548715189811476968
+              Id: 4204202561462665421
             }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:smart"
-            Bool: false
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         CoreMesh {
           MeshAsset {
-            Id: 9299265961697968177
+            Id: 17490292586336626480
           }
           Teams {
             IsTeamCollisionEnabled: true
             IsEnemyCollisionEnabled: true
           }
+          DisableDistanceFieldLighting: true
+          DisableCastShadows: true
+          DisableReceiveDecals: true
           EnableCameraCollision: true
           StaticMesh {
             Physics {
@@ -53,35 +52,29 @@
         }
       }
       Objects {
-        Id: 16385106882331836486
+        Id: 10839140643213756187
         Name: "Bubble Stream VFX"
         Transform {
           Location {
-            Z: 55.2753143
+            Z: -3.62545967
           }
           Rotation {
+            Yaw: 1.02452832e-05
           }
           Scale {
-            X: 1
-            Y: 1
-            Z: 0.382700235
+            X: 0.969043493
+            Y: 0.969043493
+            Z: 0.969043493
           }
         }
-        ParentId: 7082543403439824712
+        ParentId: 2885527514888761191
         UnregisteredParameters {
-          Overrides {
-            Name: "bp:Density"
-            Float: 2
-          }
-          Overrides {
-            Name: "bp:Particle Scale Multiplier"
-            Float: 3
-          }
           Overrides {
             Name: "bp:color"
             Color {
-              G: 0.570000052
-              B: 0.0490729846
+              R: 0.263999939
+              G: 1.1
+              B: 0.375466734
               A: 1
             }
           }
@@ -92,7 +85,7 @@
           }
           Overrides {
             Name: "bp:Gravity"
-            Float: 0.5
+            Float: 0.2
           }
           Overrides {
             Name: "bp:Curl Speed"
@@ -105,21 +98,43 @@
           Overrides {
             Name: "bp:Curl Offset"
             Vector {
-              X: 1000
-              Y: 1000
-              Z: 1000
+              X: 1
+              Y: 1
+              Z: 1
             }
           }
           Overrides {
             Name: "bp:Curl Variance"
             Float: 10
           }
+          Overrides {
+            Name: "bp:Volume Type"
+            Enum {
+              Value: "mc:evfxvolumetype:1"
+            }
+          }
+          Overrides {
+            Name: "bp:Particle Scale Multiplier"
+            Float: 3
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 30
+          }
+          Overrides {
+            Name: "bp:Life"
+            Float: 5
+          }
+          Overrides {
+            Name: "bp:Sort Priority Adjustment"
+            Int: -1
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
-          Value: "mc:evisibilitysetting:forceon"
+          Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Blueprint {
           BlueprintAsset {
@@ -133,62 +148,55 @@
         }
       }
       Objects {
-        Id: 7931119662846091311
-        Name: "Waterfall Top Volume VFX"
+        Id: 12563932676167616161
+        Name: "Smoke Volume VFX"
         Transform {
           Location {
-            Z: -51.2385826
+            X: -0.275897801
+            Y: -1.07010686
+            Z: -17.0961475
           }
           Rotation {
-            Yaw: -76.4300842
+            Yaw: -2.03086162
           }
           Scale {
-            X: 1
-            Y: 1
-            Z: 0.565402687
+            X: 0.23519744
+            Y: 0.207171336
+            Z: 0.0780098
           }
         }
-        ParentId: 7082543403439824712
+        ParentId: 2885527514888761191
         UnregisteredParameters {
+          Overrides {
+            Name: "bp:Gravity"
+            Float: 0.1
+          }
           Overrides {
             Name: "bp:color"
             Color {
-              R: 0.50908047
-              G: 0.115559995
-              B: 0.54
+              R: 0.288846821
+              G: 0.744
+              B: 0.137129411
               A: 1
             }
           }
           Overrides {
-            Name: "bp:Density"
-            Float: 2.63760281
-          }
-          Overrides {
-            Name: "bp:Gravity"
-            Float: -1
-          }
-          Overrides {
-            Name: "bp:Enable Waterfall"
-            Bool: true
-          }
-          Overrides {
-            Name: "bp:Enable Mist"
-            Bool: true
-          }
-          Overrides {
-            Name: "bp:Enable Roiling Top"
-            Bool: false
-          }
-          Overrides {
-            Name: "bp:Enable Distortion"
-            Bool: false
-          }
-          Overrides {
-            Name: "bp:Velocity Min"
-            Vector {
-              X: -20
-              Y: -20
+            Name: "bp:Volume Type"
+            Enum {
+              Value: "mc:evfxvolumetype:0"
             }
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 3
+          }
+          Overrides {
+            Name: "bp:Sort Priority Adjustment"
+            Int: 1
+          }
+          Overrides {
+            Name: "bp:Particle Scale Multiplier"
+            Float: 0.5
           }
         }
         Collidable_v2 {
@@ -199,7 +207,7 @@
         }
         Blueprint {
           BlueprintAsset {
-            Id: 5997554305842876539
+            Id: 12798866680768775920
           }
           TeamSettings {
           }
@@ -209,36 +217,51 @@
         }
       }
       Objects {
-        Id: 16850390261659397647
-        Name: "Waterfall Base Volume VFX"
+        Id: 17447185131959105246
+        Name: "Smoke Volume VFX"
         Transform {
           Location {
-            Z: -104.046181
+            X: -0.275897801
+            Y: -1.07010686
+            Z: -17.0961475
           }
           Rotation {
-            Pitch: 6.83018879e-06
-            Yaw: -75.8504944
-            Roll: 3.00215646e-07
+            Yaw: -53.5206528
           }
           Scale {
-            X: 1.57507968
-            Y: 1.32168531
-            Z: 0.357873
+            X: 0.23519744
+            Y: 0.207171336
+            Z: 0.0780098
           }
         }
-        ParentId: 7082543403439824712
+        ParentId: 2885527514888761191
         UnregisteredParameters {
           Overrides {
-            Name: "bp:Density"
-            Float: 5
+            Name: "bp:Gravity"
+            Float: 0.1
           }
           Overrides {
             Name: "bp:color"
             Color {
-              R: 0.41200003
-              B: 0.392900109
+              R: 0.288846821
+              G: 0.744
+              B: 0.137129411
               A: 1
             }
+          }
+          Overrides {
+            Name: "bp:Volume Type"
+            Enum {
+              Value: "mc:evfxvolumetype:0"
+            }
+          }
+          Overrides {
+            Name: "bp:Density"
+            Float: 3
+          }
+          Overrides {
+            Name: "bp:Particle Scale Multiplier"
+            Float: 0.5
           }
         }
         Collidable_v2 {
@@ -249,7 +272,7 @@
         }
         Blueprint {
           BlueprintAsset {
-            Id: 8648602793807090059
+            Id: 12798866680768775920
           }
           TeamSettings {
           }
@@ -260,12 +283,12 @@
       }
     }
     Assets {
-      Id: 9299265961697968177
-      Name: "Cube - Chamfered Large"
+      Id: 17490292586336626480
+      Name: "Sphere"
       PlatformAssetType: 1
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
-        AssetId: "sm_cube_chamfer"
+        AssetId: "sm_sphere_002"
       }
     }
     Assets {
@@ -278,21 +301,12 @@
       }
     }
     Assets {
-      Id: 5997554305842876539
-      Name: "Waterfall Top Volume VFX"
+      Id: 12798866680768775920
+      Name: "Smoke Volume VFX"
       PlatformAssetType: 8
       PrimaryAsset {
         AssetType: "VfxBlueprintAssetRef"
-        AssetId: "fxbp_waterfall_top"
-      }
-    }
-    Assets {
-      Id: 8648602793807090059
-      Name: "Waterfall Base Volume VFX"
-      PlatformAssetType: 8
-      PrimaryAsset {
-        AssetType: "VfxBlueprintAssetRef"
-        AssetId: "fxbp_waterfall_base_volume"
+        AssetId: "fxbp_smoke_volume_vfx"
       }
     }
     PrimaryAssetId {

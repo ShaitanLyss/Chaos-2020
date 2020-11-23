@@ -16,11 +16,11 @@
           }
         }
         ParentId: 4781671109827199097
-        ChildIds: 8768135237325925539
-        ChildIds: 5637922765994959926
-        ChildIds: 16180970171577782523
-        ChildIds: 14977169413056414029
-        ChildIds: 4586248533900355589
+        ChildIds: 5051652494308641957
+        ChildIds: 8180880280188978224
+        ChildIds: 16085702302891766013
+        ChildIds: 17324265425047707979
+        ChildIds: 4537792572377091
         UnregisteredParameters {
         }
         Collidable_v2 {
@@ -34,13 +34,13 @@
         }
       }
       Objects {
-        Id: 8768135237325925539
+        Id: 5051652494308641957
         Name: "Environment Fog Default VFX"
         Transform {
           Location {
-            X: -706.855103
-            Y: -4824.10742
-            Z: -281.147766
+            X: -812.73877
+            Y: -6298.021
+            Z: 387.763184
           }
           Rotation {
           }
@@ -83,13 +83,13 @@
         }
       }
       Objects {
-        Id: 5637922765994959926
+        Id: 8180880280188978224
         Name: "Sky Dome"
         Transform {
           Location {
-            X: -200
-            Y: -300
-            Z: 100
+            X: -305.883789
+            Y: -1773.91345
+            Z: 768.910889
           }
           Rotation {
             Yaw: 70.7263489
@@ -236,17 +236,18 @@
         }
       }
       Objects {
-        Id: 16180970171577782523
+        Id: 16085702302891766013
         Name: "Sun Light"
         Transform {
           Location {
-            X: -50
-            Z: 300
+            X: -155.883789
+            Y: -1473.91345
+            Z: 968.910889
           }
           Rotation {
             Pitch: -36.9108849
-            Yaw: 4.26431608
-            Roll: 5.98035
+            Yaw: 4.26431751
+            Roll: 5.98035431
           }
           Scale {
             X: 1
@@ -327,12 +328,13 @@
         }
       }
       Objects {
-        Id: 14977169413056414029
+        Id: 17324265425047707979
         Name: "Skylight"
         Transform {
           Location {
-            X: 250
-            Y: 300
+            X: 144.116211
+            Y: -1173.91345
+            Z: 668.910889
           }
           Rotation {
           }
@@ -354,10 +356,6 @@
               Value: "mc:eambientcubemapssmall:5"
             }
           }
-          Overrides {
-            Name: "bp:Intensity"
-            Float: 1.18343663
-          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -372,10 +370,13 @@
         }
       }
       Objects {
-        Id: 4586248533900355589
+        Id: 4537792572377091
         Name: "Star Dome"
         Transform {
           Location {
+            X: -105.883789
+            Y: -1473.91345
+            Z: 668.910889
           }
           Rotation {
           }

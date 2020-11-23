@@ -30,8 +30,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -4570
-            Y: -16225
+            X: -6105
+            Y: -16345
             Z: 3150
           }
         }
@@ -54,6 +54,242 @@ Objects {
     TemplateAsset {
       Id: 9776049024329587152
     }
+  }
+}
+Objects {
+  Id: 17001507597961648659
+  Name: "_Level.2.Square Platform"
+  Transform {
+    Location {
+      X: -4920
+      Y: -16050
+      Z: 3170
+    }
+    Rotation {
+      Yaw: 23.4845142
+    }
+    Scale {
+      X: 7.29999971
+      Y: 5.8
+      Z: 0.6
+    }
+  }
+  ParentId: 5239628783255204261
+  ChildIds: 6385843787161607772
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 8960293663979334663
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 17001507597961648659
+    SubobjectId: 6298524651291009104
+    InstanceId: 13809789369979611097
+    TemplateId: 9776049024329587152
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 6385843787161607772
+  Name: "Object Mover"
+  Transform {
+    Location {
+      X: -4919.99902
+      Y: -16049.999
+      Z: 3170
+    }
+    Rotation {
+      Yaw: 23.4845142
+    }
+    Scale {
+      X: 0.172413781
+      Y: 0.172413781
+      Z: 1.66666663
+    }
+  }
+  ParentId: 17001507597961648659
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Object"
+      ObjectReference {
+        SelfId: 17001507597961648659
+      }
+    }
+    Overrides {
+      Name: "cs:MoveTo"
+      Vector {
+        X: -4805.43213
+        Y: -15970
+        Z: 3170
+      }
+    }
+    Overrides {
+      Name: "cs:LocalSpace"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Reverse"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:Duration"
+      Float: 10
+    }
+    Overrides {
+      Name: "cs:AutoStart"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:StartDelayRange"
+      Vector2 {
+      }
+    }
+    Overrides {
+      Name: "cs:RepeatCount"
+      Int: -1
+    }
+    Overrides {
+      Name: "cs:IntervalDelayRange"
+      Vector2 {
+        X: 0.5
+        Y: 0.5
+      }
+    }
+    Overrides {
+      Name: "cs:BounceOnRepeat"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:StartEventName"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:StopEventName"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:ResetEventName"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:OnStartedEventName"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:OnStoppedEventName"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:OnResetEventName"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:OnCompletedEventName"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Duration:tooltip"
+      String: "Time in seconds for the object to perform the action."
+    }
+    Overrides {
+      Name: "cs:StartDelayRange:tooltip"
+      String: "Random delay range for the object to take action at the start of the game."
+    }
+    Overrides {
+      Name: "cs:LocalSpace:tooltip"
+      String: "Whether MoveTo is in local space"
+    }
+    Overrides {
+      Name: "cs:Reverse:tooltip"
+      String: "If true, the object will start from MoveTo position and move towards the initial position."
+    }
+    Overrides {
+      Name: "cs:MoveTo:tooltip"
+      String: "Target location for the object to move."
+    }
+    Overrides {
+      Name: "cs:Object:tooltip"
+      String: "Object to transform"
+    }
+    Overrides {
+      Name: "cs:AutoStart:tooltip"
+      String: "If true, the specified object will start the action automatically."
+    }
+    Overrides {
+      Name: "cs:RepeatCount:tooltip"
+      String: "Number of times the object is moved. If set to -1, the action will keep repeating indefinitely."
+    }
+    Overrides {
+      Name: "cs:BounceOnRepeat:tooltip"
+      String: "Whether to reverse alternating repeats, so that the object transforms smoothly."
+    }
+    Overrides {
+      Name: "cs:StartEventName:tooltip"
+      String: "Specify the event that will trigger this action to start"
+    }
+    Overrides {
+      Name: "cs:StopEventName:tooltip"
+      String: "Specify the event that will trigger this action to stop"
+    }
+    Overrides {
+      Name: "cs:ResetEventName:tooltip"
+      String: "This event will trigger this action to reset"
+    }
+    Overrides {
+      Name: "cs:OnStartedEventName:tooltip"
+      String: "Event that will be broadcasted when the action starts"
+    }
+    Overrides {
+      Name: "cs:OnStoppedEventName:tooltip"
+      String: "Event that will be broadcasted when the action stops"
+    }
+    Overrides {
+      Name: "cs:OnResetEventName:tooltip"
+      String: "Event that will be broadcasted when the action is reset"
+    }
+    Overrides {
+      Name: "cs:OnCompletedEventName:tooltip"
+      String: "Event that will be broadcasted when the action is completed"
+    }
+    Overrides {
+      Name: "cs:IntervalDelayRange:tooltip"
+      String: "Random delay time between each action repeat."
+    }
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 6126478455621128065
+    }
+  }
+  InstanceHistory {
+    SelfId: 6385843787161607772
+    SubobjectId: 3142504813567088034
+    InstanceId: 5870455301756647533
+    TemplateId: 9951297657303948718
+    WasRoot: true
   }
 }
 Objects {
@@ -81,13 +317,13 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "Wall 6"
+          String: "_Level.2.Wal"
         }
         Overrides {
           Name: "Position"
           Vector {
-            X: -9450
-            Y: -12825
+            X: -9470
+            Y: -12800
             Z: 1635
           }
         }
@@ -95,6 +331,14 @@ Objects {
           Name: "Rotation"
           Rotator {
             Yaw: -52
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.4
+            Y: 13.5
+            Z: 2.8
           }
         }
       }
@@ -129,7 +373,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "P_5"
+          String: "_Level.2.Square Platform"
         }
         Overrides {
           Name: "Position"
@@ -185,7 +429,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "P_4"
+          String: "_Level.2.Square Platform"
         }
         Overrides {
           Name: "Position"
@@ -241,7 +485,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "P_3"
+          String: "_Level.2.Square Platform"
         }
         Overrides {
           Name: "Position"
@@ -299,7 +543,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "P_2"
+          String: "_Level.2.Square Platform"
         }
         Overrides {
           Name: "Position"
@@ -339,7 +583,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "P_1"
+          String: "_Level.2.Square Platform"
         }
         Overrides {
           Name: "Position"
@@ -395,7 +639,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "Wall 5"
+          String: "_Level.2.Wal"
         }
         Overrides {
           Name: "Position"
@@ -411,50 +655,18 @@ Objects {
             Yaw: -97
           }
         }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.4
+            Y: 13.5
+            Z: 3.2
+          }
+        }
       }
     }
     TemplateAsset {
       Id: 7813499516720574108
-    }
-  }
-}
-Objects {
-  Id: 11055838683405620205
-  Name: "Ledge 1"
-  Transform {
-    Location {
-      X: -10740
-      Y: -7735
-      Z: 1525
-    }
-    Rotation {
-      Yaw: 173
-    }
-    Scale {
-      X: 4.1
-      Y: 5.39999962
-      Z: 2.10000014
-    }
-  }
-  ParentId: 5239628783255204261
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 10999043035515102191
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
     }
   }
 }
@@ -481,7 +693,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "C_6"
+          String: "_Level.2.Killer Tube"
         }
         Overrides {
           Name: "Position"
@@ -531,7 +743,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "C_5"
+          String: "_Level.2.Killer Square"
         }
         Overrides {
           Name: "Position"
@@ -563,8 +775,8 @@ Objects {
   }
 }
 Objects {
-  Id: 17541257212256233543
-  Name: "CS_3"
+  Id: 7380938509197971977
+  Name: "Corona spreader"
   Transform {
     Location {
       X: -9520
@@ -572,6 +784,7 @@ Objects {
       Z: 1715.00024
     }
     Rotation {
+      Yaw: 66.9222488
     }
     Scale {
       X: 1
@@ -580,9 +793,10 @@ Objects {
     }
   }
   ParentId: 5239628783255204261
-  ChildIds: 6410778081315525472
-  ChildIds: 13537367459435593730
-  ChildIds: 13766237874422148904
+  ChildIds: 14846307424683202816
+  ChildIds: 16715440210815903769
+  ChildIds: 15412997564194723547
+  ChildIds: 9433983237104286170
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -594,7 +808,82 @@ Objects {
   }
 }
 Objects {
-  Id: 13766237874422148904
+  Id: 9433983237104286170
+  Name: "_Level.2.Corona Spreader"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7380938509197971977
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 9946664624890403534
+      value {
+        Overrides {
+          Name: "Name"
+          String: "_Level.2.Corona Spreader"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1.85213506
+            Y: 1.85213506
+            Z: 1.85213506
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Z: -75.8481445
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 14484837179691354976
+    }
+  }
+}
+Objects {
+  Id: 15412997564194723547
+  Name: "C2F_CovidAura"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7380938509197971977
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 2885527514888761191
+      value {
+        Overrides {
+          Name: "Name"
+          String: "C2F_CovidAura"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 17
+            Y: 17
+            Z: 17
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5874369901957612822
+    }
+  }
+}
+Objects {
+  Id: 16715440210815903769
   Name: "Trigger"
   Transform {
     Location {
@@ -608,7 +897,7 @@ Objects {
       Z: 17
     }
   }
-  ParentId: 17541257212256233543
+  ParentId: 7380938509197971977
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -626,7 +915,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13537367459435593730
+  Id: 14846307424683202816
   Name: "_Level.2.NPC Cage"
   Transform {
     Scale {
@@ -635,7 +924,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17541257212256233543
+  ParentId: 7380938509197971977
   TemplateInstance {
     ParameterOverrideMap {
       key: 3691403211646615168
@@ -668,6 +957,12 @@ Objects {
           Rotator {
           }
         }
+        Overrides {
+          Name: "Visible"
+          Enum {
+            Value: "mc:evisibilitysetting:forceoff"
+          }
+        }
       }
     }
     TemplateAsset {
@@ -676,58 +971,8 @@ Objects {
   }
 }
 Objects {
-  Id: 6410778081315525472
-  Name: "_Level.2.Corona Spreader"
-  Transform {
-    Location {
-    }
-    Rotation {
-      Yaw: 62.6012688
-    }
-    Scale {
-      X: 1.30000007
-      Y: 1.30000007
-      Z: 1.30000007
-    }
-  }
-  ParentId: 17541257212256233543
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 18184239439133469957
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    AnimatedMesh {
-      AnimationStance: "zombie_unarmed_idle_relaxed"
-      AnimationStancePlaybackRate: 1
-      AnimationStanceShouldLoop: true
-      AnimationPlaybackRateMultiplier: 1
-      PlayOnStartAnimation {
-        PlaybackRate: 1
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 405714921752685473
-    SubobjectId: 9946664624890403534
-    InstanceId: 10209011023028471124
-    TemplateId: 14484837179691354976
-    WasRoot: true
-  }
-}
-Objects {
   Id: 15116536616183063129
-  Name: "CS_2"
+  Name: "Corona spreader"
   Transform {
     Location {
       X: -9440
@@ -743,9 +988,10 @@ Objects {
     }
   }
   ParentId: 5239628783255204261
-  ChildIds: 2801756024504541095
   ChildIds: 1440853793755140272
   ChildIds: 8013939726645663763
+  ChildIds: 9920454568003201203
+  ChildIds: 751971659749516355
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -754,6 +1000,83 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 751971659749516355
+  Name: "_Level.2.Corona Spreader"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15116536616183063129
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 9946664624890403534
+      value {
+        Overrides {
+          Name: "Name"
+          String: "_Level.2.Corona Spreader"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1.85213506
+            Y: 1.85213506
+            Z: 1.85213506
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Z: -75.8481445
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 14484837179691354976
+    }
+  }
+}
+Objects {
+  Id: 9920454568003201203
+  Name: "C2F_CovidAura"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15116536616183063129
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 2885527514888761191
+      value {
+        Overrides {
+          Name: "Name"
+          String: "C2F_CovidAura"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5874369901957612822
+    }
   }
 }
 Objects {
@@ -831,6 +1154,12 @@ Objects {
           Rotator {
           }
         }
+        Overrides {
+          Name: "Visible"
+          Enum {
+            Value: "mc:evisibilitysetting:forceoff"
+          }
+        }
       }
     }
     TemplateAsset {
@@ -839,57 +1168,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2801756024504541095
-  Name: "_Level.2.Corona Spreader"
-  Transform {
-    Location {
-    }
-    Rotation {
-      Yaw: 62.6012688
-    }
-    Scale {
-      X: 1.30000007
-      Y: 1.30000007
-      Z: 1.30000007
-    }
-  }
-  ParentId: 15116536616183063129
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 18184239439133469957
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    AnimatedMesh {
-      AnimationStance: "zombie_unarmed_idle_relaxed"
-      AnimationStancePlaybackRate: 1
-      AnimationStanceShouldLoop: true
-      AnimationPlaybackRateMultiplier: 1
-      PlayOnStartAnimation {
-        PlaybackRate: 1
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 405714921752685473
-    SubobjectId: 9946664624890403534
-    InstanceId: 10209011023028471124
-    TemplateId: 14484837179691354976
-    WasRoot: true
-  }
-}
-Objects {
-  Id: 1879268657794897296
+  Id: 2753218615666579807
   Name: "_Level.2.Killer Tube"
   Transform {
     Scale {
@@ -899,13 +1178,19 @@ Objects {
     }
   }
   ParentId: 5239628783255204261
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 12264167317587531338
       value {
         Overrides {
           Name: "Name"
-          String: "C_4"
+          String: "_Level.2.Killer Tube"
         }
         Overrides {
           Name: "Position"
@@ -923,14 +1208,6 @@ Objects {
             Roll: 142.999969
           }
         }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1.5
-            Y: 1.5
-            Z: 18.1
-          }
-        }
       }
     }
     TemplateAsset {
@@ -942,28 +1219,26 @@ Objects {
   Id: 4856573510109709874
   Name: "_Level.2.Killer Square"
   Transform {
-    Location {
-      X: -3040
-      Y: 6070
-      Z: 2725
-    }
-    Rotation {
-      Yaw: 22.9999104
-    }
     Scale {
-      X: 2.79428649
-      Y: 2.79428649
-      Z: 2.79428649
+      X: 1
+      Y: 1
+      Z: 1
     }
   }
   ParentId: 5239628783255204261
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 7082543403439824712
       value {
         Overrides {
           Name: "Name"
-          String: "C_3"
+          String: "_Level.2.Killer Square"
         }
         Overrides {
           Name: "Position"
@@ -977,14 +1252,6 @@ Objects {
           Name: "Rotation"
           Rotator {
             Yaw: 22.9998932
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 2.79428649
-            Y: 2.79428649
-            Z: 2.79428649
           }
         }
       }
@@ -1019,7 +1286,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "C_2"
+          String: "_Level.2.Killer Square"
         }
         Overrides {
           Name: "Position"
@@ -1042,6 +1309,16 @@ Objects {
             Y: 3.5
             Z: 3.5
           }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 16548715189811476968
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:smart"
+          Bool: false
         }
       }
     }
@@ -1067,7 +1344,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "C_1"
+          String: "_Level.2.Killer Square"
         }
         Overrides {
           Name: "Position"
@@ -1091,6 +1368,16 @@ Objects {
             Z: 2.79428649
           }
         }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 16548715189811476968
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:smart"
+          Bool: false
+        }
       }
     }
     TemplateAsset {
@@ -1100,7 +1387,7 @@ Objects {
 }
 Objects {
   Id: 2124726521921849759
-  Name: "CS_1"
+  Name: "Corona spreader"
   Transform {
     Location {
       X: -4825
@@ -1116,8 +1403,9 @@ Objects {
     }
   }
   ParentId: 5239628783255204261
-  ChildIds: 405714921752685473
+  ChildIds: 6982495709976642228
   ChildIds: 12481877152209422797
+  ChildIds: 6196826460384959890
   ChildIds: 10453760068023427229
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -1158,6 +1446,43 @@ Objects {
     }
     TriggerShape_v2 {
       Value: "mc:etriggershape:capsule"
+    }
+  }
+}
+Objects {
+  Id: 6196826460384959890
+  Name: "C2F_CovidAura"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2124726521921849759
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 2885527514888761191
+      value {
+        Overrides {
+          Name: "Name"
+          String: "C2F_CovidAura"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 62.6012955
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5874369901957612822
     }
   }
 }
@@ -1204,6 +1529,12 @@ Objects {
           Rotator {
           }
         }
+        Overrides {
+          Name: "Visible"
+          Enum {
+            Value: "mc:evisibilitysetting:forceoff"
+          }
+        }
       }
     }
     TemplateAsset {
@@ -1212,18 +1543,13 @@ Objects {
   }
 }
 Objects {
-  Id: 405714921752685473
+  Id: 6982495709976642228
   Name: "_Level.2.Corona Spreader"
   Transform {
-    Location {
-    }
-    Rotation {
-      Yaw: 62.6012688
-    }
     Scale {
-      X: 1.30000007
-      Y: 1.30000007
-      Z: 1.30000007
+      X: 1
+      Y: 1
+      Z: 1
     }
   }
   ParentId: 2124726521921849759
@@ -1234,31 +1560,31 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  CoreMesh {
-    MeshAsset {
-      Id: 18184239439133469957
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    AnimatedMesh {
-      AnimationStance: "zombie_unarmed_idle_relaxed"
-      AnimationStancePlaybackRate: 1
-      AnimationStanceShouldLoop: true
-      AnimationPlaybackRateMultiplier: 1
-      PlayOnStartAnimation {
-        PlaybackRate: 1
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 9946664624890403534
+      value {
+        Overrides {
+          Name: "Name"
+          String: "_Level.2.Corona Spreader"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Z: -112.884277
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 19.3222961
+          }
+        }
       }
     }
-  }
-  InstanceHistory {
-    SelfId: 405714921752685473
-    SubobjectId: 9946664624890403534
-    InstanceId: 10209011023028471124
-    TemplateId: 14484837179691354976
-    WasRoot: true
+    TemplateAsset {
+      Id: 14484837179691354976
+    }
   }
 }
 Objects {
@@ -1286,7 +1612,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "Wall 4"
+          String: "_Level.2.Wall"
         }
         Overrides {
           Name: "Position"
@@ -1334,7 +1660,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "Wall 3"
+          String: "_Level.2.Wall"
         }
         Overrides {
           Name: "Position"
@@ -1355,54 +1681,6 @@ Objects {
           Vector {
             X: 0.433940023
             Y: 12
-            Z: 6.5
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 7813499516720574108
-    }
-  }
-}
-Objects {
-  Id: 13533015378603682331
-  Name: "_Level.2.Wall"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 5239628783255204261
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 5594672932005031246
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Wall 2"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -615
-            Y: -1505
-            Z: 1853
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -22.5
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.433940023
-            Y: 10
             Z: 6.5
           }
         }
@@ -1438,7 +1716,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "Wall 1"
+          String: "_Level.2.Wall"
         }
         Overrides {
           Name: "Position"
@@ -1459,6 +1737,54 @@ Objects {
           Vector {
             X: 0.433940023
             Y: 7.5
+            Z: 6.5
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 7813499516720574108
+    }
+  }
+}
+Objects {
+  Id: 13533015378603682331
+  Name: "_Level.2.Wall"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5239628783255204261
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 5594672932005031246
+      value {
+        Overrides {
+          Name: "Name"
+          String: "_Level.2.Wal"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -615
+            Y: -1505
+            Z: 1853
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -22.5
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.433940023
+            Y: 10
             Z: 6.5
           }
         }
