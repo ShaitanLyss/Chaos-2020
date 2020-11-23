@@ -23,7 +23,7 @@ Objects {
   ChildIds: 4434011006133901618
   ChildIds: 9321966516087236899
   ChildIds: 7135527698524595111
-  ChildIds: 17831653342857306742
+  ChildIds: 4062154892360378009
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -36,8 +36,8 @@ Objects {
   }
 }
 Objects {
-  Id: 17831653342857306742
-  Name: "S_3"
+  Id: 4062154892360378009
+  Name: "S_2"
   Transform {
     Scale {
       X: 1
@@ -48,29 +48,24 @@ Objects {
   ParentId: 4781671109827199097
   TemplateInstance {
     ParameterOverrideMap {
-      key: 13664821734768608629
+      key: 5935379882917571387
       value {
         Overrides {
           Name: "Name"
-          String: "S_3"
+          String: "S_2"
         }
         Overrides {
           Name: "Position"
           Vector {
-            X: 5815.45703
-            Y: 1306.73962
-            Z: 2848.31836
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
+            X: 6216.58936
+            Y: 1518.82837
+            Z: 3164.33203
           }
         }
       }
     }
     TemplateAsset {
-      Id: 11108699866060967321
+      Id: 8905796207810385488
     }
   }
 }

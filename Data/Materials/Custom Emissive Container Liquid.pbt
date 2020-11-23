@@ -61,6 +61,22 @@
         Name: "top edge foam distance"
         Float: -3
       }
+      Overrides {
+        Name: "color"
+        Color {
+          G: 15
+          B: 0.52056
+          A: 1
+        }
+      }
+      Overrides {
+        Name: "inner color"
+        Color {
+          G: 0.119792
+          B: 0.02921
+          A: 1
+        }
+      }
     }
     Assets {
       Id: 10819515487435190999

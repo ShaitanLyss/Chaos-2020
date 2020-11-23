@@ -122,7 +122,7 @@ Objects {
 }
 Objects {
   Id: 10921665243392132578
-  Name: "C2-P_80"
+  Name: "C1-P_80"
   Transform {
     Location {
     }
@@ -143,7 +143,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "C2-P_80_1"
+    FilePartitionName: "C1-P_80"
   }
   InstanceHistory {
     SelfId: 8252663680390240732
@@ -442,7 +442,7 @@ Objects {
 }
 Objects {
   Id: 12754848223143629643
-  Name: "C2-P_76"
+  Name: "C1-P_76"
   Transform {
     Location {
       X: -600
@@ -466,7 +466,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "C2-P_76"
+    FilePartitionName: "C1-P_76"
   }
   InstanceHistory {
     SelfId: 8252663680390240732
