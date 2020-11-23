@@ -7,7 +7,7 @@
       RootId: 2885527514888761191
       Objects {
         Id: 2885527514888761191
-        Name: "Sphere"
+        Name: "C2F_CovidAura"
         Transform {
           Scale {
             X: 17
@@ -28,7 +28,7 @@
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -56,15 +56,15 @@
         Name: "Bubble Stream VFX"
         Transform {
           Location {
-            Z: -2.6836226
+            Z: -3.62545967
           }
           Rotation {
             Yaw: 1.02452832e-05
           }
           Scale {
-            X: 0.889528215
-            Y: 0.889528215
-            Z: 0.889528453
+            X: 0.969043493
+            Y: 0.969043493
+            Z: 0.969043493
           }
         }
         ParentId: 2885527514888761191
@@ -98,9 +98,9 @@
           Overrides {
             Name: "bp:Curl Offset"
             Vector {
-              X: 1000
-              Y: 1000
-              Z: 1000
+              X: 1
+              Y: 1
+              Z: 1
             }
           }
           Overrides {
@@ -115,22 +115,26 @@
           }
           Overrides {
             Name: "bp:Particle Scale Multiplier"
-            Float: 15
+            Float: 3
           }
           Overrides {
             Name: "bp:Density"
-            Float: 10
+            Float: 30
           }
           Overrides {
             Name: "bp:Life"
             Float: 5
+          }
+          Overrides {
+            Name: "bp:Sort Priority Adjustment"
+            Int: -1
           }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
-          Value: "mc:evisibilitysetting:forceon"
+          Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Blueprint {
           BlueprintAsset {

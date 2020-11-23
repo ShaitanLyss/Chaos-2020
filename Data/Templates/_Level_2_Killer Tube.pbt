@@ -88,7 +88,7 @@
           }
           Overrides {
             Name: "bp:Particle Scale Multiplier"
-            Float: 10
+            Float: 4
           }
           Overrides {
             Name: "bp:color"
@@ -178,7 +178,7 @@
           }
           Overrides {
             Name: "bp:Density"
-            Float: 2.63760281
+            Float: 10
           }
           Overrides {
             Name: "bp:Gravity"
@@ -249,7 +249,7 @@
         UnregisteredParameters {
           Overrides {
             Name: "bp:Density"
-            Float: 5
+            Float: 10
           }
           Overrides {
             Name: "bp:color"

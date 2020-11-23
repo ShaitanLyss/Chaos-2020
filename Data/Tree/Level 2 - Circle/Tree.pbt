@@ -1047,11 +1047,13 @@ Objects {
           String: "C2F_CovidAura"
         }
         Overrides {
-          Name: "Scale"
+          Name: "Position"
           Vector {
-            X: 17
-            Y: 17
-            Z: 17
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
           }
         }
       }
@@ -1167,24 +1169,6 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   TemplateInstance {
-    ParameterOverrideMap {
-      key: 3644975245581601101
-      value {
-        Overrides {
-          Name: "bp:Density"
-          Float: 10
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 8194511329479976906
-      value {
-        Overrides {
-          Name: "bp:Density"
-          Float: 10
-        }
-      }
-    }
     ParameterOverrideMap {
       key: 12264167317587531338
       value {
@@ -1467,6 +1451,11 @@ Objects {
         Overrides {
           Name: "Name"
           String: "C2F_CovidAura"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
         }
         Overrides {
           Name: "Rotation"

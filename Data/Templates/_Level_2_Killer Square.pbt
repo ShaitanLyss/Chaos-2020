@@ -75,7 +75,7 @@
           }
           Overrides {
             Name: "bp:Particle Scale Multiplier"
-            Float: 5
+            Float: 3
           }
           Overrides {
             Name: "bp:color"
@@ -119,7 +119,7 @@
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
+          Value: "mc:evisibilitysetting:forceoff"
         }
         Blueprint {
           BlueprintAsset {
