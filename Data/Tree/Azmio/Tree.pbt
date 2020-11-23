@@ -714,10 +714,10 @@ Objects {
   ChildIds: 11050968851567843142
   ChildIds: 10527608616754204667
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
+    Value: "mc:ecollisionsetting:forceon"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
+    Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
     IsGroup: true
