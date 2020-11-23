@@ -1,4 +1,4 @@
-﻿Name: "X_X"
+﻿Name: "Ninja"
 RootId: 7135527698524595111
 Objects {
   Id: 528655794210732671

@@ -4,7 +4,16 @@ local INDICATOR_ASSET = script:GetCustomProperty("DialogIndicator")
 
 -- User exposed properties
 local NAME = ROOT:GetCustomProperty("Name")
-local START_DIALOGUE_ID = ROOT:GetCustomProperty("StartDialogId")
+
+-- Chosen Dialogue Id
+introDialogue = false
+if introDialogue == false 
+then
+	local CHOSEN_DIALOGUE_ID = ROOT:GetCustomProperty("StartDialogId")
+else
+	local CHOSEN_DIALOGUE_ID = ROOT:GetCustomProperty("MainDialogId")
+end
+
 local ANIMATED_MESH = ROOT:GetCustomProperty("AnimatedMesh")
 local DEFAULT_ANIMATION = ROOT:GetCustomProperty("DefaultLoopAnimation")
 local PLAY_ANIMATIONS = ROOT:GetCustomProperty("PlayDialogAnimations")
@@ -76,11 +85,11 @@ end
 function OnInteracted(whichTrigger, other)
     if other:IsA("Player") then
         if Object.IsValid(ANIMATED_MESH) and PLAY_ANIMATIONS then
-            Events.Broadcast("StartDialog", NAME, START_DIALOGUE_ID, ANIMATED_MESH.id)
+            Events.Broadcast("StartDialog", NAME, CHOSEN_DIALOGUE_ID, ANIMATED_MESH.id)
             NPCRotateToPlayer()
             NPCStopLoopAnimation()
         else
-            Events.Broadcast("StartDialog", NAME, START_DIALOGUE_ID)
+            Events.Broadcast("StartDialog", NAME, CHOSEN_DIALOGUE_ID)
         end
         TRIGGER.isInteractable = false
 	end

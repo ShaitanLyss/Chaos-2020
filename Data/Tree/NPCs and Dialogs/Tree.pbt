@@ -3063,7 +3063,6 @@ Objects {
   }
   ParentId: 9321966516087236899
   ChildIds: 374382339484151365
-  ChildIds: 14892815519036444509
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3080,15 +3079,15 @@ Objects {
   }
 }
 Objects {
-  Id: 14892815519036444509
-  Name: "Char 2"
+  Id: 374382339484151365
+  Name: "NPC Dialog Group"
   Transform {
     Location {
-      X: -1585.81055
-      Y: 101.411453
+      X: -1375.729
+      Y: -58.5885086
+      Z: 21.5726318
     }
     Rotation {
-      Yaw: 6.83018516e-06
     }
     Scale {
       X: 1
@@ -3097,8 +3096,52 @@ Objects {
     }
   }
   ParentId: 12073564432889531054
+  ChildIds: 13623094878770274126
+  ChildIds: 11789786066738017996
+  ChildIds: 14892815519036444509
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 374382339484151365
+    SubobjectId: 5357975278853717933
+    InstanceId: 14431663957882783969
+    TemplateId: 7317441386107963647
+  }
+}
+Objects {
+  Id: 14892815519036444509
+  Name: "Old Man"
+  Transform {
+    Location {
+      X: -210.080902
+      Y: 159.999985
+      Z: -21.5726318
+    }
+    Rotation {
+      Yaw: 6.83018243e-06
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 374382339484151365
   ChildIds: 338735229834281421
   ChildIds: 9713873335232249966
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:MainDialogueId"
+      String: "OldManDialogue"
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3347,42 +3390,6 @@ Objects {
   }
 }
 Objects {
-  Id: 374382339484151365
-  Name: "NPC Dialog Group"
-  Transform {
-    Location {
-      X: -1375.729
-      Y: -58.5885086
-      Z: 21.5726318
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 12073564432889531054
-  ChildIds: 13623094878770274126
-  ChildIds: 11789786066738017996
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 374382339484151365
-    SubobjectId: 5357975278853717933
-    InstanceId: 14431663957882783969
-    TemplateId: 7317441386107963647
-  }
-}
-Objects {
   Id: 11789786066738017996
   Name: "Fantasy Human Guy"
   Transform {
@@ -3454,7 +3461,7 @@ Objects {
     }
     Overrides {
       Name: "cs:StartDialogId"
-      String: "GenericConversation1"
+      String: "IntroConvo1"
     }
     Overrides {
       Name: "cs:AnimatedMesh"
@@ -3469,6 +3476,10 @@ Objects {
     Overrides {
       Name: "cs:PlayDialogAnimations"
       Bool: true
+    }
+    Overrides {
+      Name: "cs:MainDialogId"
+      String: "DeityDialogue"
     }
   }
   Collidable_v2 {
