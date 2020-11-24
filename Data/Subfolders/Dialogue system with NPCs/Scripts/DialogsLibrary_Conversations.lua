@@ -3,14 +3,17 @@
     API.AddText(string id, string text, string animation, table rewardTable = {string resource, string text})
     API.AddOption(string id, string text, string targetDialogId)
  ]]
- 
- -- Global Dialogue Variables
-lvOneInteracts = {0, 0}
-challengeComplete = false
 
--- Local Dialogue Constants
-local DEITY = 0
-local OLD_MAN = 1
+-- Placeholders
+local LEVEL_ONE, LEVEL_TWO = 1, 2
+local LEVEL_THREE, LEVEL_FOUR = 3, 4
+local repeatText = false
+local gamesComplete, gameLevel = 0, LEVEL_ONE
+
+-- Other Local Variables
+local LOCAL_PLAYER = Game.GetLocalPlayer()
+local challengeComplete = LOCAL_PLAYER:GetResource("passChallenge")
+local FALSE, TRUE = 0, 1
 
 -- API Variables
 local Dialogs = {}
@@ -28,10 +31,10 @@ function Dialogs.RegisterDialogue()
     local id = "" --Unique Id for each dialog
 
     -- Intro Conversations
-    if id == "IntroConvo1" and introDialogue == false
+    if (id == "IntroConvo1" and introSpoken == false)
     then
 		id = "IntroConvo1"
-	    API.RegisterDialogueId(id)
+	    API.RegisterDialogueId(id)                                                                                                                                                                            
 	    API.AddText(id, "Are you lost?")
 	
 	    API.AddOption(id, "No", "IntroConvo3")
@@ -47,7 +50,7 @@ function Dialogs.RegisterDialogue()
 	    "to be closer than before.")
 	
 	    id = "IntroConvo3"
-	    API.RegisterDialogueId(id)
+	    API.RegisterDialogueId(id)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
 	    API.AddText(id, "I see..", YES_ANIMATION)
 	    API.AddText(id, "Well, I suppose you already know what to do then.")
 	    API.AddText(id, "That, or you just want to skip my dialogue.")
@@ -55,17 +58,42 @@ function Dialogs.RegisterDialogue()
 	    "I wish you good luck in your journey.")
 	    
 	    -- Prevents intro dialouge from being used again.
-	    introDialogue = true
+	    introSpoken = true
    end
    
-   -- General Deity Dialogue - Before Challenge
-   if id == "DeityDialogue" and challengeComplete == false
+   -- Deity Dialogue
+   if (id == "DeityDialogue") 
    then
-   		id = "DeityDialogue"
-   		API.RegisterDialogueId(id)
-   		API.AddText(id, "Just... make sure you don't "..
-   		"stand still in there.")
-   		API.AddText(id, "Standing still will burn you.")
+   		-- Initial Game Dialogue
+   		if (gamesComplete == 0) 
+   		then
+   			-- Pre-Challenge
+	   		if (challengeComplete == FALSE) 
+	   		then
+		   		id = "DeityDialogue"
+		   		API.RegisterDialogueId(id)
+		   		API.AddText(id, "Just... make sure you don't "..
+		   		"stand still in there.")
+		   		API.AddText(id, "Standing still will burn you.")
+		   	
+		   	-- Post-Challenge / No Repeat
+		   	elseif (challengeComplete == TRUE and repeatText == false) 
+		   	then
+		   		id = "DeityDialogue"
+		   		API.RegisterDialogueId(id)
+		   		API.AddText(id, "Well done.", YES_ANIMATION)
+		   		API.AddText(id, "With the challenge complete, "..
+		   		"the path forward opens.")
+		   		API.AddText(id, "I wonder...\n"..
+		   		"How will you approach future challenges?")
+		   		API.AddText(id, "I expect great things from you.")
+		   	elseif (challengeComplete == TRUE and repeatText == true)
+		   	then
+		   		id = "DeityDialogue"
+		   		API.RegisterDialogueId(id)
+		   		API.AddText(id, "I excpect great things from you.", YES_ANIMATION)
+		   	end
+		end
    end
 end
 

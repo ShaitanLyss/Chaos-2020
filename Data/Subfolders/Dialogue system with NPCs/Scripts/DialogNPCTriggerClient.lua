@@ -6,14 +6,18 @@ local INDICATOR_ASSET = script:GetCustomProperty("DialogIndicator")
 local NAME = ROOT:GetCustomProperty("Name")
 
 -- Chosen Dialogue Id
-introDialogue = false
-if introDialogue == false 
+local LOCAL_PLAYER = Game.GetLocalPlayer()
+local introDialogue = LOCAL_PLAYER:GetResource("passChallenge")
+local FALSE = 0; TRUE = 1
+
+if introDialogue == FALSE
 then
 	local CHOSEN_DIALOGUE_ID = ROOT:GetCustomProperty("StartDialogId")
 else
 	local CHOSEN_DIALOGUE_ID = ROOT:GetCustomProperty("MainDialogId")
 end
 
+-- Other API Stuff
 local ANIMATED_MESH = ROOT:GetCustomProperty("AnimatedMesh")
 local DEFAULT_ANIMATION = ROOT:GetCustomProperty("DefaultLoopAnimation")
 local PLAY_ANIMATIONS = ROOT:GetCustomProperty("PlayDialogAnimations")
@@ -23,7 +27,6 @@ if ANIMATED_MESH ~= nil then
 end
 
 -- Constants
-local LOCAL_PLAYER = Game.GetLocalPlayer()
 local DEFAULT_ROTATION = Vector3.ZERO
 local ROTATE_SPEED = .5
 local INDICATOR_OFFSET = 150
