@@ -5,9 +5,9 @@ Objects {
   Name: "Spawn Point"
   Transform {
     Location {
-      X: -5492.70361
-      Y: -10782.0879
-      Z: 300.754486
+      X: -3445
+      Y: 5955
+      Z: 605
     }
     Rotation {
       Yaw: -21.1617432
@@ -123,7 +123,7 @@ Objects {
     }
     RotationOffset {
     }
-    FieldOfView: 98
+    FieldOfView: 97
     ViewWidth: 1200
     RotationMode {
       Value: "mc:erotationmode:lookangle"

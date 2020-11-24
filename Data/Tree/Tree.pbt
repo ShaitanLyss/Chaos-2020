@@ -14,6 +14,7 @@ Objects {
       Z: 1
     }
   }
+  ChildIds: 2019659306417366488
   ChildIds: 17178724431697183245
   ChildIds: 3841774984750933128
   ChildIds: 15822499511466264029
@@ -66,7 +67,7 @@ Objects {
 }
 Objects {
   Id: 7135527698524595111
-  Name: "X_X"
+  Name: "Ninja"
   Transform {
     Location {
       X: -6694.34375
@@ -90,7 +91,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "X_X"
+    FilePartitionName: "Ninja"
   }
 }
 Objects {
@@ -566,5 +567,52 @@ Objects {
         Max: 102400
       }
     }
+  }
+}
+Objects {
+  Id: 2019659306417366488
+  Name: "LevelTester"
+  Transform {
+    Location {
+      X: -350
+      Y: -50
+      Z: -4380
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:AlaaTest"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:AzmioTest"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:BrandonTest"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:LyssTest"
+      Bool: false
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "LevelTester"
   }
 }

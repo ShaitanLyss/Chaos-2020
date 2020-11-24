@@ -1,13 +1,10 @@
-﻿Name: "X_X"
-RootId: 7135527698524595111
+﻿Name: "ToChallenge"
+RootId: 12528274312024127322
 Objects {
-  Id: 528655794210732671
-  Name: "Sounds"
+  Id: 17803236201418827164
+  Name: "LVL2"
   Transform {
     Location {
-      X: 3807.85791
-      Y: -6309.54199
-      Z: 18.6748199
     }
     Rotation {
     }
@@ -17,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7135527698524595111
+  ParentId: 12528274312024127322
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -26,17 +23,14 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Sounds"
+    FilePartitionName: "LVL2"
   }
 }
 Objects {
-  Id: 5382273596480232325
-  Name: "Music"
+  Id: 16280255872572026047
+  Name: "LVL1"
   Transform {
     Location {
-      X: 7246.95166
-      Y: 1798.80591
-      Z: 218.67482
     }
     Rotation {
     }
@@ -46,7 +40,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7135527698524595111
+  ParentId: 12528274312024127322
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -55,6 +49,6 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Music"
+    FilePartitionName: "LVL1_2"
   }
 }

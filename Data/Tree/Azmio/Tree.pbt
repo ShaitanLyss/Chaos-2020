@@ -1,25 +1,23 @@
 ﻿Name: "Azmio"
 RootId: 11404857991553905137
 Objects {
-  Id: 8394110554381358202
-  Name: "Level 2 town delimitations"
+  Id: 3988317910669985612
+  Name: "Level 2 platform"
   Transform {
     Location {
-      X: 2094.19629
-      Y: -7971.14502
-      Z: 1485.08325
+      X: -3997.68823
+      Y: -8282.25586
+      Z: 85.2115479
     }
     Rotation {
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 0.777024806
+      Y: 0.777024806
+      Z: 0.777024806
     }
   }
   ParentId: 11404857991553905137
-  ChildIds: 271312305992467017
-  ChildIds: 13529086360536263038
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -27,85 +25,8 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 13529086360536263038
-  Name: "Cube"
-  Transform {
-    Location {
-      X: 214.981445
-      Y: -3768.49707
-    }
-    Rotation {
-      Yaw: -116.483459
-    }
-    Scale {
-      X: 1.00000167
-      Y: 21.2550297
-      Z: 1
-    }
-  }
-  ParentId: 8394110554381358202
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 17925326465180611494
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 271312305992467017
-  Name: "Cube"
-  Transform {
-    Location {
-      X: -214.981934
-      Y: 3768.49707
-    }
-    Rotation {
-      Yaw: -53.3858719
-    }
-    Scale {
-      X: 1.00001335
-      Y: 21.3182755
-      Z: 1
-    }
-  }
-  ParentId: 8394110554381358202
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 17925326465180611494
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
+    IsFilePartition: true
+    FilePartitionName: "Level 2 platform"
   }
 }
 Objects {
@@ -681,10 +602,10 @@ Objects {
   }
   ParentId: 11404857991553905137
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceon"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   Folder {
     IsFilePartition: true
@@ -714,10 +635,10 @@ Objects {
   ChildIds: 11050968851567843142
   ChildIds: 10527608616754204667
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
+    Value: "mc:ecollisionsetting:forceon"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
+    Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
     IsGroup: true

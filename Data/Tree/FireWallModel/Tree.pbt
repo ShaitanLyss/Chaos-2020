@@ -5,7 +5,6 @@ Objects {
   Name: "Trigger"
   Transform {
     Location {
-      Z: -112.588867
     }
     Rotation {
     }
@@ -38,14 +37,13 @@ Objects {
   Name: "FireWallMesh"
   Transform {
     Location {
-      Z: -112.588867
     }
     Rotation {
     }
     Scale {
       X: 1.6
-      Y: 19.6000061
-      Z: 17.9044495
+      Y: 19.6
+      Z: 18.6999989
     }
   }
   ParentId: 8768866053368028503

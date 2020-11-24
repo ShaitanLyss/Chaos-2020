@@ -2,7 +2,7 @@
 RootId: 4861888266353863378
 Objects {
   Id: 14438878387009082927
-  Name: "DistanceCalc"
+  Name: "DistanceCalc_Lvl1"
   Transform {
     Location {
     }
@@ -23,7 +23,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "DistanceCalc"
+    FilePartitionName: "DistanceCalc_Lvl1"
   }
 }
 Objects {
@@ -41,6 +41,8 @@ Objects {
     }
   }
   ParentId: 4861888266353863378
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
