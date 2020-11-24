@@ -211,6 +211,19 @@ Objects {
         }
       }
     }
+    ParameterOverrideMap {
+      key: 12920718486117430809
+      value {
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 2.5
+            Y: 4
+            Z: 2.3
+          }
+        }
+      }
+    }
     TemplateAsset {
       Id: 9309018929621835786
     }
@@ -477,6 +490,19 @@ Objects {
             X: 1
             Y: 1
             Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 14825168498543623687
+      value {
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 2.5
+            Y: 4
+            Z: 2.3
           }
         }
       }
