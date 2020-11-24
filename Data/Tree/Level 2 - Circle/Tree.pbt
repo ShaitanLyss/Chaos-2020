@@ -7014,3 +7014,43 @@ Objects {
     }
   }
 }
+Objects {
+  Id: 6537734785441884527
+  Name: "Moving platform"
+  Transform {
+    Location {
+      X: 1415
+      Y: -3690
+      Z: 1505
+    }
+    Rotation {
+      Yaw: -52.1008492
+    }
+    Scale {
+      X: 11.7
+      Y: 17.5
+      Z: 0.4
+    }
+  }
+  ParentId: 5239628783255204261
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 8960293663979334663
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}

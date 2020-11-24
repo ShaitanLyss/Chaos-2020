@@ -1,6 +1,35 @@
 ﻿Name: "Azmio"
 RootId: 11404857991553905137
 Objects {
+  Id: 6871022628804114410
+  Name: "Moving platform level 2"
+  Transform {
+    Location {
+      X: -8760
+      Y: -14920
+      Z: -2030
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11404857991553905137
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Moving platform level 2"
+  }
+}
+Objects {
   Id: 8394110554381358202
   Name: "Level 2 town delimitations"
   Transform {
