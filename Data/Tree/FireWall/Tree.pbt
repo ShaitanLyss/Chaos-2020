@@ -1,6 +1,32 @@
 ﻿Name: "FireWall"
 RootId: 13683379292976511251
 Objects {
+  Id: 2612195247013030081
+  Name: "FireWallSpeed"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13683379292976511251
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "FireWallSpeed"
+  }
+}
+Objects {
   Id: 14312825458142689432
   Name: "PathWay"
   Transform {
@@ -30,7 +56,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Speed"
-      Float: 498
+      Float: 667
     }
   }
   Collidable_v2 {
@@ -99,7 +125,7 @@ Objects {
     Overrides {
       Name: "cs:Lvl1_SpawnPoint"
       ObjectReference {
-        SelfId: 12771252215691349085
+        SelfId: 8383241828011968780
       }
     }
   }

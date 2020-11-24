@@ -24,12 +24,16 @@ function OnPlayerJoined(player)
 
         elseif player:GetResource("level") == 3 then 
             print("level 3") 
-        
+            player:Respawn({position = Lvl3_SpawnPoint:GetWorldPosition(), rotation = Rotation.New(0,0,0)})
+
         elseif player:GetResource("level") == 4 then 
             print("level 4") 
-        
+            player:Respawn({position = Lvl4_SpawnPoint:GetWorldPosition(), rotation = Rotation.New(0,0,0)})
+
         elseif player:GetResource("level") == 5 then 
             print("level 5")
+            player:Respawn({position = Lvl5_SpawnPoint:GetWorldPosition(), rotation = Rotation.New(0,0,0)})
+ 
         end 
     end
 

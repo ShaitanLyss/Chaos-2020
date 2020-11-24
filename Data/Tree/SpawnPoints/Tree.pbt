@@ -92,9 +92,9 @@ Objects {
   Name: "Alaa_SpawnPoint"
   Transform {
     Location {
-      X: -7260
-      Y: 15
-      Z: 2840
+      X: -2350
+      Y: 9130
+      Z: 1060
     }
     Rotation {
     }
@@ -208,9 +208,9 @@ Objects {
   Name: "Lvl1_SpawnPoint"
   Transform {
     Location {
-      X: -7260
-      Y: 15
-      Z: 2840
+      X: 6800
+      Y: 6790
+      Z: 1220
     }
     Rotation {
     }

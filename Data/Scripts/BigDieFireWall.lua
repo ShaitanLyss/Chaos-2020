@@ -8,7 +8,7 @@ local spawnPlace = script:GetCustomProperty("Lvl1_SpawnPoint"):WaitForObject()
 function OnBeginOverlap(trigger, other)
     if other:IsA("Player") then
         --Events.Broadcast("E_BigDie", other)
-        OnBigDie()
+        OnBigDie(other)
     end
 end
 
