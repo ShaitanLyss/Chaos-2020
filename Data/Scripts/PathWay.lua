@@ -62,10 +62,10 @@ function FireMoveInCircle(dt)
    -- print(isInRange)
     if isInRange then
         if fireWallDSpeed_1 then
-            print("is in range speed 1")
+           -- print("is in range speed 1")
             speed = rSpeed1
         elseif fireWallDSpeed_2 then
-            print("is in range speed 2")
+           -- print("is in range speed 2")
             speed = rSpeed2
         end
     else  --out of Range
@@ -108,7 +108,7 @@ function Tick(dt)
             FireMoveInCircle() 
         end
     end
-    print(speed)
+    --print(speed) --testing
 end
 
 

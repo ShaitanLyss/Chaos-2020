@@ -2,9 +2,12 @@
 RootId: 13683379292976511251
 Objects {
   Id: 2612195247013030081
-  Name: "FireWallSpeed"
+  Name: "FireWallReset"
   Transform {
     Location {
+      X: 9355.78809
+      Y: 14617.7451
+      Z: 1715
     }
     Rotation {
     }
@@ -23,7 +26,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "FireWallSpeed"
+    FilePartitionName: "FireWallReset"
   }
 }
 Objects {
@@ -187,7 +190,7 @@ Objects {
     Location {
       X: 9355.78809
       Y: 14617.7451
-      Z: 1827.58887
+      Z: 1715
     }
     Rotation {
     }

@@ -1,13 +1,10 @@
-﻿Name: "FireWallSpeed"
+﻿Name: "FireWallReset"
 RootId: 2612195247013030081
 Objects {
-  Id: 12399997103720485616
-  Name: "FireWallSpeed"
+  Id: 14084066025946777710
+  Name: "FireWallReset"
   Transform {
     Location {
-      X: 5160
-      Y: 6670
-      Z: 1030
     }
     Rotation {
     }
@@ -34,7 +31,7 @@ Objects {
   }
   Script {
     ScriptAsset {
-      Id: 9194748684365527184
+      Id: 5332638388079683979
     }
   }
 }
