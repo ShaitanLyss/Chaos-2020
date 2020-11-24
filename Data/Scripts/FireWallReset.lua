@@ -10,7 +10,7 @@ end
 
 
 function OnResourceChanged(player, resName, newResValue)
-    if (player:GetResource("Challenge") == 0) then
+    if (player:GetResource("challenge") == 0) then
         OnFireWallReset()
     end
 end

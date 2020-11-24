@@ -92,23 +92,35 @@ function FireMoveInCircle(dt)
     --print("next index")  print(index)
 end
   
+local toStart = false
+
+function OnPlayerJoined(player)
+    localPlayer = player
+    toStart = true
+
+end
+
+
+
 
 function Tick(dt)
     --Task.Wait(0.1)
     --FollowPlayer()
-   
-    --Challenge = 1 means start Challenge
-    if (localPlayer:GetResource("level") == 1) and (localPlayer:GetResource("Challenge") == 1) then
-        --number of pathWays ended restart for circle 2 
-        if(#arr_pathWays < index) then
-            index = 1
-        end
     
-        if (#arr_pathWays >= index) then
-            FireMoveInCircle() 
+    if toStart then -- wait till player join
+        --Challenge = 1 means start Challenge
+        if (localPlayer:GetResource("level") == 1) and (localPlayer:GetResource("challenge") == 1) then
+            --number of pathWays ended restart for circle 2 
+            if(#arr_pathWays < index) then
+                index = 1
+            end
+        
+            if (#arr_pathWays >= index) then
+                FireMoveInCircle() 
+            end
         end
-    end
-    --print(speed) --testing
+        --print(speed) --testing
+    end    
 end
 
 
@@ -125,9 +137,7 @@ function OnResourceChanged(player, resName, newResValue)
 end
 ]]--
 
-function OnPlayerJoined(player)
-    localPlayer = player
-end
+
 
 Game.playerJoinedEvent:Connect(OnPlayerJoined)
 Events.Connect("E_DInRange", OnCurrentDRange)

@@ -92,7 +92,7 @@ Objects {
   Name: "Lvl1_Challenge"
   Transform {
     Location {
-      X: -2350
+      X: -1650
       Y: 9130
       Z: 1060
     }

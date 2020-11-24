@@ -7,12 +7,14 @@ function OnPlayerJoined(player)
 
     player:SetResource("goThrough", data["goThrough"] or 1)
     player:SetResource("level", data["level"] or 1)
-    player:SetResource("Challenge", 0)
-    
+    player:SetResource("challenge", 0)
+    player:SetResource("passChallenge", data["passChallenge"] or 0)
+
     player:SetResource("timer", data["timer"] or 0)
+    player:SetResource("localTimer", 0)
    -- data[""] = resValue
    -- player
-    print()
+    
     if player:GetResource("goThrough") == 1 then
         print("gothrough 1") 
         if player:GetResource("level") == 1 then

@@ -1,6 +1,32 @@
 ﻿Name: "GameSettings"
 RootId: 4341330598450183387
 Objects {
+  Id: 17454529779984541930
+  Name: "PlayerReport"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4341330598450183387
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "PlayerReport"
+  }
+}
+Objects {
   Id: 8424844563706345866
   Name: "ChallengeSpawnPoints"
   Transform {
