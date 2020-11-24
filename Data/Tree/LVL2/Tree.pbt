@@ -40,9 +40,9 @@ Objects {
   Name: "Trigger"
   Transform {
     Location {
-      X: 6050
-      Y: 6110
-      Z: 1230
+      X: 5800
+      Y: 4060
+      Z: 2610
     }
     Rotation {
       Yaw: -130
@@ -62,7 +62,7 @@ Objects {
   }
   Trigger {
     Interactable: true
-    InteractionLabel: "press F to test "
+    InteractionLabel: "press F to go to the Challenge"
     TeamSettings {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
@@ -77,9 +77,9 @@ Objects {
   Name: "MeshModel"
   Transform {
     Location {
-      X: 6260
-      Y: 6230
-      Z: 1020
+      X: 6090
+      Y: 4140
+      Z: 2470
     }
     Rotation {
       Yaw: -130

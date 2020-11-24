@@ -1,7 +1,7 @@
-﻿Name: "Level 2 - Circle"
-RootId: 9336659437334903971
+﻿Name: "Level 2 - Circle_1"
+RootId: 5239628783255204261
 Objects {
-  Id: 11496142876568253490
+  Id: 17315922363621527349
   Name: "CS_Wasteland"
   Transform {
     Location {
@@ -17,27 +17,27 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9336659437334903971
-  ChildIds: 13962215885592624000
-  ChildIds: 6636474703083609003
-  ChildIds: 3308455158507428551
-  ChildIds: 7095886161851159406
-  ChildIds: 15057422529724774409
-  ChildIds: 3730998890447243255
-  ChildIds: 14002843098254857101
-  ChildIds: 14581454815748587110
-  ChildIds: 5529511858448026387
-  ChildIds: 8413057666576579721
-  ChildIds: 6660969361221198417
-  ChildIds: 4669401905093319552
-  ChildIds: 14892566418024184369
-  ChildIds: 12303662490816534985
-  ChildIds: 14320258185307206822
-  ChildIds: 2809524199391934811
-  ChildIds: 1318110664765544465
-  ChildIds: 12256412034335851978
-  ChildIds: 2478026422695214424
-  ChildIds: 16255564689600981209
+  ParentId: 5239628783255204261
+  ChildIds: 10986169767025861312
+  ChildIds: 12334528164498514046
+  ChildIds: 5641268950794102711
+  ChildIds: 15475537715485925963
+  ChildIds: 5530843972838747909
+  ChildIds: 3699851542711503124
+  ChildIds: 10567559954804810046
+  ChildIds: 6425960420144277592
+  ChildIds: 8574041140978134179
+  ChildIds: 1903124892902852730
+  ChildIds: 13696244672155362221
+  ChildIds: 7229933411462482593
+  ChildIds: 9457414723143355099
+  ChildIds: 16477675590704937015
+  ChildIds: 7188845237528500237
+  ChildIds: 14646493280036764690
+  ChildIds: 7009397050021875533
+  ChildIds: 16469740589305890866
+  ChildIds: 4681445175118661897
+  ChildIds: 6271534006186404593
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -49,7 +49,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16255564689600981209
+  Id: 6271534006186404593
   Name: "Ground level"
   Transform {
     Location {
@@ -65,7 +65,7 @@ Objects {
       Z: 0.2
     }
   }
-  ParentId: 11496142876568253490
+  ParentId: 17315922363621527349
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -88,7 +88,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2478026422695214424
+  Id: 4681445175118661897
   Name: "_Level.2.Killer Square"
   Transform {
     Location {
@@ -105,7 +105,7 @@ Objects {
       Z: 3.5
     }
   }
-  ParentId: 11496142876568253490
+  ParentId: 17315922363621527349
   TemplateInstance {
     ParameterOverrideMap {
       key: 7082543403439824712
@@ -160,7 +160,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12256412034335851978
+  Id: 16469740589305890866
   Name: "_Level.2.Killer Square"
   Transform {
     Location {
@@ -177,7 +177,7 @@ Objects {
       Z: 3.5
     }
   }
-  ParentId: 11496142876568253490
+  ParentId: 17315922363621527349
   TemplateInstance {
     ParameterOverrideMap {
       key: 7082543403439824712
@@ -232,7 +232,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1318110664765544465
+  Id: 7009397050021875533
   Name: "_Level.2.Killer Square"
   Transform {
     Location {
@@ -249,7 +249,7 @@ Objects {
       Z: 3.5
     }
   }
-  ParentId: 11496142876568253490
+  ParentId: 17315922363621527349
   TemplateInstance {
     ParameterOverrideMap {
       key: 7082543403439824712
@@ -304,7 +304,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2809524199391934811
+  Id: 14646493280036764690
   Name: "_Level.2.Killer Square"
   Transform {
     Location {
@@ -321,7 +321,7 @@ Objects {
       Z: 3.5
     }
   }
-  ParentId: 11496142876568253490
+  ParentId: 17315922363621527349
   TemplateInstance {
     ParameterOverrideMap {
       key: 7082543403439824712
@@ -376,7 +376,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14320258185307206822
+  Id: 7188845237528500237
   Name: "CS_18"
   Transform {
     Location {
@@ -392,11 +392,11 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11496142876568253490
-  ChildIds: 8799278437341042411
-  ChildIds: 17529818648971826998
-  ChildIds: 8765468540552960011
-  ChildIds: 8429758157134203600
+  ParentId: 17315922363621527349
+  ChildIds: 7827315771315857423
+  ChildIds: 14075232468254320807
+  ChildIds: 12012569927480323492
+  ChildIds: 1021125939283211468
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -408,7 +408,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8429758157134203600
+  Id: 1021125939283211468
   Name: "_Level.2.Corona Spreader"
   Transform {
     Scale {
@@ -417,7 +417,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14320258185307206822
+  ParentId: 7188845237528500237
   WantsNetworking: true
   TemplateInstance {
     ParameterOverrideMap {
@@ -449,7 +449,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8765468540552960011
+  Id: 12012569927480323492
   Name: "C2F_CovidAura"
   Transform {
     Scale {
@@ -458,7 +458,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14320258185307206822
+  ParentId: 7188845237528500237
   TemplateInstance {
     ParameterOverrideMap {
       key: 2885527514888761191
@@ -483,7 +483,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17529818648971826998
+  Id: 14075232468254320807
   Name: "Trigger"
   Transform {
     Location {
@@ -497,7 +497,7 @@ Objects {
       Z: 17
     }
   }
-  ParentId: 14320258185307206822
+  ParentId: 7188845237528500237
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -515,7 +515,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8799278437341042411
+  Id: 7827315771315857423
   Name: "_Level.2.NPC Cage"
   Transform {
     Scale {
@@ -524,7 +524,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14320258185307206822
+  ParentId: 7188845237528500237
   TemplateInstance {
     ParameterOverrideMap {
       key: 3691403211646615168
@@ -571,7 +571,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12303662490816534985
+  Id: 16477675590704937015
   Name: "CS_17"
   Transform {
     Location {
@@ -587,11 +587,11 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11496142876568253490
-  ChildIds: 7747464564820357798
-  ChildIds: 18297669453675398812
-  ChildIds: 13080720996826208159
-  ChildIds: 9867683953058802173
+  ParentId: 17315922363621527349
+  ChildIds: 16275166833915872585
+  ChildIds: 3179033095794173558
+  ChildIds: 14797001234431776268
+  ChildIds: 7821745512103575444
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -603,7 +603,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9867683953058802173
+  Id: 7821745512103575444
   Name: "_Level.2.Corona Spreader"
   Transform {
     Scale {
@@ -612,7 +612,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12303662490816534985
+  ParentId: 16477675590704937015
   WantsNetworking: true
   TemplateInstance {
     ParameterOverrideMap {
@@ -644,7 +644,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13080720996826208159
+  Id: 14797001234431776268
   Name: "C2F_CovidAura"
   Transform {
     Scale {
@@ -653,7 +653,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12303662490816534985
+  ParentId: 16477675590704937015
   TemplateInstance {
     ParameterOverrideMap {
       key: 2885527514888761191
@@ -678,7 +678,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18297669453675398812
+  Id: 3179033095794173558
   Name: "Trigger"
   Transform {
     Location {
@@ -692,7 +692,7 @@ Objects {
       Z: 17
     }
   }
-  ParentId: 12303662490816534985
+  ParentId: 16477675590704937015
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -710,7 +710,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7747464564820357798
+  Id: 16275166833915872585
   Name: "_Level.2.NPC Cage"
   Transform {
     Scale {
@@ -719,7 +719,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12303662490816534985
+  ParentId: 16477675590704937015
   TemplateInstance {
     ParameterOverrideMap {
       key: 3691403211646615168
@@ -766,7 +766,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14892566418024184369
+  Id: 9457414723143355099
   Name: "CS_16"
   Transform {
     Location {
@@ -782,11 +782,11 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11496142876568253490
-  ChildIds: 11428675123817114296
-  ChildIds: 8262766400411406859
-  ChildIds: 9616666563321405120
-  ChildIds: 1725768590356078818
+  ParentId: 17315922363621527349
+  ChildIds: 15819662024068007375
+  ChildIds: 7310342639647185749
+  ChildIds: 12794570563485719959
+  ChildIds: 1835421678363982056
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -798,7 +798,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1725768590356078818
+  Id: 1835421678363982056
   Name: "_Level.2.Corona Spreader"
   Transform {
     Scale {
@@ -807,7 +807,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14892566418024184369
+  ParentId: 9457414723143355099
   WantsNetworking: true
   TemplateInstance {
     ParameterOverrideMap {
@@ -839,7 +839,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9616666563321405120
+  Id: 12794570563485719959
   Name: "C2F_CovidAura"
   Transform {
     Scale {
@@ -848,7 +848,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14892566418024184369
+  ParentId: 9457414723143355099
   TemplateInstance {
     ParameterOverrideMap {
       key: 2885527514888761191
@@ -873,7 +873,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8262766400411406859
+  Id: 7310342639647185749
   Name: "Trigger"
   Transform {
     Location {
@@ -887,7 +887,7 @@ Objects {
       Z: 17
     }
   }
-  ParentId: 14892566418024184369
+  ParentId: 9457414723143355099
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -905,7 +905,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11428675123817114296
+  Id: 15819662024068007375
   Name: "_Level.2.NPC Cage"
   Transform {
     Scale {
@@ -914,7 +914,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14892566418024184369
+  ParentId: 9457414723143355099
   TemplateInstance {
     ParameterOverrideMap {
       key: 3691403211646615168
@@ -961,7 +961,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4669401905093319552
+  Id: 7229933411462482593
   Name: "CS_15"
   Transform {
     Location {
@@ -977,11 +977,11 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11496142876568253490
-  ChildIds: 661374829321118248
-  ChildIds: 16446618101609977438
-  ChildIds: 7807156706879097490
-  ChildIds: 15697790868597077993
+  ParentId: 17315922363621527349
+  ChildIds: 6438737408763522027
+  ChildIds: 8350004826357757562
+  ChildIds: 12094489825590853162
+  ChildIds: 10098482249379910723
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -993,7 +993,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15697790868597077993
+  Id: 10098482249379910723
   Name: "_Level.2.Corona Spreader"
   Transform {
     Scale {
@@ -1002,7 +1002,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4669401905093319552
+  ParentId: 7229933411462482593
   WantsNetworking: true
   TemplateInstance {
     ParameterOverrideMap {
@@ -1034,7 +1034,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7807156706879097490
+  Id: 12094489825590853162
   Name: "C2F_CovidAura"
   Transform {
     Scale {
@@ -1043,7 +1043,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4669401905093319552
+  ParentId: 7229933411462482593
   TemplateInstance {
     ParameterOverrideMap {
       key: 2885527514888761191
@@ -1068,7 +1068,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16446618101609977438
+  Id: 8350004826357757562
   Name: "Trigger"
   Transform {
     Location {
@@ -1082,7 +1082,7 @@ Objects {
       Z: 17
     }
   }
-  ParentId: 4669401905093319552
+  ParentId: 7229933411462482593
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1100,7 +1100,7 @@ Objects {
   }
 }
 Objects {
-  Id: 661374829321118248
+  Id: 6438737408763522027
   Name: "_Level.2.NPC Cage"
   Transform {
     Scale {
@@ -1109,7 +1109,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 4669401905093319552
+  ParentId: 7229933411462482593
   TemplateInstance {
     ParameterOverrideMap {
       key: 3691403211646615168
@@ -1156,7 +1156,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6660969361221198417
+  Id: 13696244672155362221
   Name: "CS_14"
   Transform {
     Location {
@@ -1172,11 +1172,11 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11496142876568253490
-  ChildIds: 15031450511625262461
-  ChildIds: 6087950687903454450
-  ChildIds: 7038745005458906333
-  ChildIds: 14539375067668886029
+  ParentId: 17315922363621527349
+  ChildIds: 2183869261469239978
+  ChildIds: 6890560676774765380
+  ChildIds: 12694180528248866219
+  ChildIds: 16347891289296457531
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1188,7 +1188,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14539375067668886029
+  Id: 16347891289296457531
   Name: "_Level.2.Corona Spreader"
   Transform {
     Scale {
@@ -1197,7 +1197,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6660969361221198417
+  ParentId: 13696244672155362221
   WantsNetworking: true
   TemplateInstance {
     ParameterOverrideMap {
@@ -1229,7 +1229,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7038745005458906333
+  Id: 12694180528248866219
   Name: "C2F_CovidAura"
   Transform {
     Scale {
@@ -1238,7 +1238,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6660969361221198417
+  ParentId: 13696244672155362221
   TemplateInstance {
     ParameterOverrideMap {
       key: 2885527514888761191
@@ -1268,7 +1268,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6087950687903454450
+  Id: 6890560676774765380
   Name: "Trigger"
   Transform {
     Location {
@@ -1282,7 +1282,7 @@ Objects {
       Z: 17
     }
   }
-  ParentId: 6660969361221198417
+  ParentId: 13696244672155362221
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1300,7 +1300,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15031450511625262461
+  Id: 2183869261469239978
   Name: "_Level.2.NPC Cage"
   Transform {
     Scale {
@@ -1309,7 +1309,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6660969361221198417
+  ParentId: 13696244672155362221
   TemplateInstance {
     ParameterOverrideMap {
       key: 3691403211646615168
@@ -1356,7 +1356,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8413057666576579721
+  Id: 1903124892902852730
   Name: "CS_13"
   Transform {
     Location {
@@ -1372,11 +1372,11 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11496142876568253490
-  ChildIds: 2255240483381191389
-  ChildIds: 5718962663712611018
-  ChildIds: 11079602210541332449
-  ChildIds: 12302491717209546219
+  ParentId: 17315922363621527349
+  ChildIds: 17927643208200028291
+  ChildIds: 13923228246168314078
+  ChildIds: 6247380640296722196
+  ChildIds: 10681541861307752934
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1388,7 +1388,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12302491717209546219
+  Id: 10681541861307752934
   Name: "_Level.2.Corona Spreader"
   Transform {
     Scale {
@@ -1397,7 +1397,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8413057666576579721
+  ParentId: 1903124892902852730
   WantsNetworking: true
   TemplateInstance {
     ParameterOverrideMap {
@@ -1429,7 +1429,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11079602210541332449
+  Id: 6247380640296722196
   Name: "C2F_CovidAura"
   Transform {
     Scale {
@@ -1438,7 +1438,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8413057666576579721
+  ParentId: 1903124892902852730
   TemplateInstance {
     ParameterOverrideMap {
       key: 2885527514888761191
@@ -1463,7 +1463,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5718962663712611018
+  Id: 13923228246168314078
   Name: "Trigger"
   Transform {
     Location {
@@ -1477,7 +1477,7 @@ Objects {
       Z: 17
     }
   }
-  ParentId: 8413057666576579721
+  ParentId: 1903124892902852730
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1495,7 +1495,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2255240483381191389
+  Id: 17927643208200028291
   Name: "_Level.2.NPC Cage"
   Transform {
     Scale {
@@ -1504,7 +1504,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8413057666576579721
+  ParentId: 1903124892902852730
   TemplateInstance {
     ParameterOverrideMap {
       key: 3691403211646615168
@@ -1551,7 +1551,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5529511858448026387
+  Id: 8574041140978134179
   Name: "CS_12"
   Transform {
     Location {
@@ -1567,11 +1567,11 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11496142876568253490
-  ChildIds: 15505006052215103587
-  ChildIds: 6753222572580047474
-  ChildIds: 5638396263732490855
-  ChildIds: 14074692276025108985
+  ParentId: 17315922363621527349
+  ChildIds: 1048578547144335432
+  ChildIds: 7098550318216478483
+  ChildIds: 16293576858631082651
+  ChildIds: 2136550511649447346
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1583,7 +1583,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14074692276025108985
+  Id: 2136550511649447346
   Name: "_Level.2.Corona Spreader"
   Transform {
     Scale {
@@ -1592,7 +1592,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5529511858448026387
+  ParentId: 8574041140978134179
   WantsNetworking: true
   TemplateInstance {
     ParameterOverrideMap {
@@ -1624,7 +1624,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5638396263732490855
+  Id: 16293576858631082651
   Name: "C2F_CovidAura"
   Transform {
     Scale {
@@ -1633,7 +1633,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5529511858448026387
+  ParentId: 8574041140978134179
   TemplateInstance {
     ParameterOverrideMap {
       key: 2885527514888761191
@@ -1658,7 +1658,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6753222572580047474
+  Id: 7098550318216478483
   Name: "Trigger"
   Transform {
     Location {
@@ -1672,7 +1672,7 @@ Objects {
       Z: 17
     }
   }
-  ParentId: 5529511858448026387
+  ParentId: 8574041140978134179
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1690,7 +1690,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15505006052215103587
+  Id: 1048578547144335432
   Name: "_Level.2.NPC Cage"
   Transform {
     Scale {
@@ -1699,7 +1699,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5529511858448026387
+  ParentId: 8574041140978134179
   TemplateInstance {
     ParameterOverrideMap {
       key: 3691403211646615168
@@ -1746,7 +1746,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14581454815748587110
+  Id: 6425960420144277592
   Name: "CS_11"
   Transform {
     Location {
@@ -1762,11 +1762,11 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11496142876568253490
-  ChildIds: 135367782099224942
-  ChildIds: 10725219794367648934
-  ChildIds: 11316087273841344086
-  ChildIds: 11887148510618075072
+  ParentId: 17315922363621527349
+  ChildIds: 11211304590855916123
+  ChildIds: 16502788751813468015
+  ChildIds: 2815701596728983411
+  ChildIds: 455597786072853301
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1778,7 +1778,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11887148510618075072
+  Id: 455597786072853301
   Name: "_Level.2.Corona Spreader"
   Transform {
     Scale {
@@ -1787,7 +1787,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14581454815748587110
+  ParentId: 6425960420144277592
   WantsNetworking: true
   TemplateInstance {
     ParameterOverrideMap {
@@ -1819,7 +1819,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11316087273841344086
+  Id: 2815701596728983411
   Name: "C2F_CovidAura"
   Transform {
     Scale {
@@ -1828,7 +1828,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14581454815748587110
+  ParentId: 6425960420144277592
   TemplateInstance {
     ParameterOverrideMap {
       key: 2885527514888761191
@@ -1853,7 +1853,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10725219794367648934
+  Id: 16502788751813468015
   Name: "Trigger"
   Transform {
     Location {
@@ -1867,7 +1867,7 @@ Objects {
       Z: 17
     }
   }
-  ParentId: 14581454815748587110
+  ParentId: 6425960420144277592
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1885,7 +1885,7 @@ Objects {
   }
 }
 Objects {
-  Id: 135367782099224942
+  Id: 11211304590855916123
   Name: "_Level.2.NPC Cage"
   Transform {
     Scale {
@@ -1894,7 +1894,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14581454815748587110
+  ParentId: 6425960420144277592
   TemplateInstance {
     ParameterOverrideMap {
       key: 3691403211646615168
@@ -1941,7 +1941,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14002843098254857101
+  Id: 10567559954804810046
   Name: "CS_10"
   Transform {
     Location {
@@ -1957,11 +1957,11 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11496142876568253490
-  ChildIds: 13258319748021680370
-  ChildIds: 11573735157584001645
-  ChildIds: 3180951912627054295
-  ChildIds: 10019828871624700667
+  ParentId: 17315922363621527349
+  ChildIds: 3195143156657733698
+  ChildIds: 13244599555570830845
+  ChildIds: 5509248212709670412
+  ChildIds: 3438509229516592639
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1973,7 +1973,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10019828871624700667
+  Id: 3438509229516592639
   Name: "_Level.2.Corona Spreader"
   Transform {
     Scale {
@@ -1982,7 +1982,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14002843098254857101
+  ParentId: 10567559954804810046
   WantsNetworking: true
   TemplateInstance {
     ParameterOverrideMap {
@@ -2014,7 +2014,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3180951912627054295
+  Id: 5509248212709670412
   Name: "C2F_CovidAura"
   Transform {
     Scale {
@@ -2023,7 +2023,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14002843098254857101
+  ParentId: 10567559954804810046
   TemplateInstance {
     ParameterOverrideMap {
       key: 2885527514888761191
@@ -2048,7 +2048,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11573735157584001645
+  Id: 13244599555570830845
   Name: "Trigger"
   Transform {
     Location {
@@ -2062,7 +2062,7 @@ Objects {
       Z: 17
     }
   }
-  ParentId: 14002843098254857101
+  ParentId: 10567559954804810046
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2080,7 +2080,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13258319748021680370
+  Id: 3195143156657733698
   Name: "_Level.2.NPC Cage"
   Transform {
     Scale {
@@ -2089,7 +2089,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14002843098254857101
+  ParentId: 10567559954804810046
   TemplateInstance {
     ParameterOverrideMap {
       key: 3691403211646615168
@@ -2136,7 +2136,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3730998890447243255
+  Id: 3699851542711503124
   Name: "CS_9"
   Transform {
     Location {
@@ -2152,11 +2152,11 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11496142876568253490
-  ChildIds: 16261297498337854830
-  ChildIds: 13550332544662377292
-  ChildIds: 14018345718395065083
-  ChildIds: 17326813126813002235
+  ParentId: 17315922363621527349
+  ChildIds: 10486345362179362120
+  ChildIds: 12385335578889788000
+  ChildIds: 13211406018101634781
+  ChildIds: 13987994076286324403
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2168,7 +2168,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17326813126813002235
+  Id: 13987994076286324403
   Name: "_Level.2.Corona Spreader"
   Transform {
     Scale {
@@ -2177,7 +2177,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3730998890447243255
+  ParentId: 3699851542711503124
   WantsNetworking: true
   TemplateInstance {
     ParameterOverrideMap {
@@ -2209,7 +2209,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14018345718395065083
+  Id: 13211406018101634781
   Name: "C2F_CovidAura"
   Transform {
     Scale {
@@ -2218,7 +2218,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3730998890447243255
+  ParentId: 3699851542711503124
   TemplateInstance {
     ParameterOverrideMap {
       key: 2885527514888761191
@@ -2243,7 +2243,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13550332544662377292
+  Id: 12385335578889788000
   Name: "Trigger"
   Transform {
     Location {
@@ -2257,7 +2257,7 @@ Objects {
       Z: 17
     }
   }
-  ParentId: 3730998890447243255
+  ParentId: 3699851542711503124
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2275,7 +2275,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16261297498337854830
+  Id: 10486345362179362120
   Name: "_Level.2.NPC Cage"
   Transform {
     Scale {
@@ -2284,7 +2284,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3730998890447243255
+  ParentId: 3699851542711503124
   TemplateInstance {
     ParameterOverrideMap {
       key: 3691403211646615168
@@ -2331,7 +2331,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15057422529724774409
+  Id: 5530843972838747909
   Name: "CS_8"
   Transform {
     Location {
@@ -2347,11 +2347,11 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11496142876568253490
-  ChildIds: 16677702110461063202
-  ChildIds: 14445438647752228954
-  ChildIds: 84635725584862810
-  ChildIds: 16734407965554990587
+  ParentId: 17315922363621527349
+  ChildIds: 5119402495166440067
+  ChildIds: 7703812310779205408
+  ChildIds: 4197897860089347262
+  ChildIds: 3942858083543607587
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2363,7 +2363,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16734407965554990587
+  Id: 3942858083543607587
   Name: "_Level.2.Corona Spreader"
   Transform {
     Scale {
@@ -2372,7 +2372,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15057422529724774409
+  ParentId: 5530843972838747909
   WantsNetworking: true
   TemplateInstance {
     ParameterOverrideMap {
@@ -2404,7 +2404,7 @@ Objects {
   }
 }
 Objects {
-  Id: 84635725584862810
+  Id: 4197897860089347262
   Name: "C2F_CovidAura"
   Transform {
     Scale {
@@ -2413,7 +2413,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15057422529724774409
+  ParentId: 5530843972838747909
   TemplateInstance {
     ParameterOverrideMap {
       key: 2885527514888761191
@@ -2438,7 +2438,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14445438647752228954
+  Id: 7703812310779205408
   Name: "Trigger"
   Transform {
     Location {
@@ -2452,7 +2452,7 @@ Objects {
       Z: 17
     }
   }
-  ParentId: 15057422529724774409
+  ParentId: 5530843972838747909
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2470,7 +2470,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16677702110461063202
+  Id: 5119402495166440067
   Name: "_Level.2.NPC Cage"
   Transform {
     Scale {
@@ -2479,7 +2479,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15057422529724774409
+  ParentId: 5530843972838747909
   TemplateInstance {
     ParameterOverrideMap {
       key: 3691403211646615168
@@ -2526,7 +2526,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7095886161851159406
+  Id: 15475537715485925963
   Name: "CS_7"
   Transform {
     Location {
@@ -2542,11 +2542,11 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11496142876568253490
-  ChildIds: 3578001303081109212
-  ChildIds: 16767490165488326418
-  ChildIds: 3167522185487139975
-  ChildIds: 2849260764313868921
+  ParentId: 17315922363621527349
+  ChildIds: 14533603766835790311
+  ChildIds: 13069246888209609596
+  ChildIds: 2960188597371442219
+  ChildIds: 10368515518404128737
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2558,7 +2558,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2849260764313868921
+  Id: 10368515518404128737
   Name: "_Level.2.Corona Spreader"
   Transform {
     Scale {
@@ -2567,7 +2567,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7095886161851159406
+  ParentId: 15475537715485925963
   WantsNetworking: true
   TemplateInstance {
     ParameterOverrideMap {
@@ -2599,7 +2599,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3167522185487139975
+  Id: 2960188597371442219
   Name: "C2F_CovidAura"
   Transform {
     Scale {
@@ -2608,7 +2608,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7095886161851159406
+  ParentId: 15475537715485925963
   TemplateInstance {
     ParameterOverrideMap {
       key: 2885527514888761191
@@ -2633,7 +2633,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16767490165488326418
+  Id: 13069246888209609596
   Name: "Trigger"
   Transform {
     Location {
@@ -2647,7 +2647,7 @@ Objects {
       Z: 17
     }
   }
-  ParentId: 7095886161851159406
+  ParentId: 15475537715485925963
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2665,7 +2665,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3578001303081109212
+  Id: 14533603766835790311
   Name: "_Level.2.NPC Cage"
   Transform {
     Scale {
@@ -2674,7 +2674,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7095886161851159406
+  ParentId: 15475537715485925963
   TemplateInstance {
     ParameterOverrideMap {
       key: 3691403211646615168
@@ -2721,7 +2721,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3308455158507428551
+  Id: 5641268950794102711
   Name: "CS_6"
   Transform {
     Location {
@@ -2737,11 +2737,11 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11496142876568253490
-  ChildIds: 9172183140537067005
-  ChildIds: 7464568066243745307
-  ChildIds: 2292226534924126098
-  ChildIds: 17375175897773835511
+  ParentId: 17315922363621527349
+  ChildIds: 7657037884304165396
+  ChildIds: 4957889600422204562
+  ChildIds: 4188045260063354427
+  ChildIds: 6569160260042274137
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2753,7 +2753,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17375175897773835511
+  Id: 6569160260042274137
   Name: "_Level.2.Corona Spreader"
   Transform {
     Scale {
@@ -2762,7 +2762,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3308455158507428551
+  ParentId: 5641268950794102711
   WantsNetworking: true
   TemplateInstance {
     ParameterOverrideMap {
@@ -2794,7 +2794,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2292226534924126098
+  Id: 4188045260063354427
   Name: "C2F_CovidAura"
   Transform {
     Scale {
@@ -2803,7 +2803,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3308455158507428551
+  ParentId: 5641268950794102711
   TemplateInstance {
     ParameterOverrideMap {
       key: 2885527514888761191
@@ -2828,7 +2828,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7464568066243745307
+  Id: 4957889600422204562
   Name: "Trigger"
   Transform {
     Location {
@@ -2842,7 +2842,7 @@ Objects {
       Z: 17
     }
   }
-  ParentId: 3308455158507428551
+  ParentId: 5641268950794102711
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2860,7 +2860,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9172183140537067005
+  Id: 7657037884304165396
   Name: "_Level.2.NPC Cage"
   Transform {
     Scale {
@@ -2869,7 +2869,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 3308455158507428551
+  ParentId: 5641268950794102711
   TemplateInstance {
     ParameterOverrideMap {
       key: 3691403211646615168
@@ -2916,7 +2916,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6636474703083609003
+  Id: 12334528164498514046
   Name: "CS_5"
   Transform {
     Location {
@@ -2932,11 +2932,11 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11496142876568253490
-  ChildIds: 607780332732587702
-  ChildIds: 6570351136329078365
-  ChildIds: 4380413578366584752
-  ChildIds: 6238484031012197414
+  ParentId: 17315922363621527349
+  ChildIds: 13021757293582276329
+  ChildIds: 5816498382366988335
+  ChildIds: 16855952631851197574
+  ChildIds: 13211257575592722740
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2948,7 +2948,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6238484031012197414
+  Id: 13211257575592722740
   Name: "_Level.2.Corona Spreader"
   Transform {
     Scale {
@@ -2957,7 +2957,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6636474703083609003
+  ParentId: 12334528164498514046
   WantsNetworking: true
   TemplateInstance {
     ParameterOverrideMap {
@@ -2989,7 +2989,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4380413578366584752
+  Id: 16855952631851197574
   Name: "C2F_CovidAura"
   Transform {
     Scale {
@@ -2998,7 +2998,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6636474703083609003
+  ParentId: 12334528164498514046
   TemplateInstance {
     ParameterOverrideMap {
       key: 2885527514888761191
@@ -3028,7 +3028,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6570351136329078365
+  Id: 5816498382366988335
   Name: "Trigger"
   Transform {
     Location {
@@ -3042,7 +3042,7 @@ Objects {
       Z: 17
     }
   }
-  ParentId: 6636474703083609003
+  ParentId: 12334528164498514046
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3060,7 +3060,7 @@ Objects {
   }
 }
 Objects {
-  Id: 607780332732587702
+  Id: 13021757293582276329
   Name: "_Level.2.NPC Cage"
   Transform {
     Scale {
@@ -3069,7 +3069,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6636474703083609003
+  ParentId: 12334528164498514046
   TemplateInstance {
     ParameterOverrideMap {
       key: 3691403211646615168
@@ -3116,7 +3116,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13962215885592624000
+  Id: 10986169767025861312
   Name: "CS_4"
   Transform {
     Location {
@@ -3132,11 +3132,11 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11496142876568253490
-  ChildIds: 17287789593762532717
-  ChildIds: 7128882648712019110
-  ChildIds: 7981628868299055419
-  ChildIds: 2010504856722621417
+  ParentId: 17315922363621527349
+  ChildIds: 5977742960281848743
+  ChildIds: 2308060614906350677
+  ChildIds: 11441590469498287909
+  ChildIds: 14322589504828872493
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3148,7 +3148,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2010504856722621417
+  Id: 14322589504828872493
   Name: "_Level.2.Corona Spreader"
   Transform {
     Scale {
@@ -3157,7 +3157,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13962215885592624000
+  ParentId: 10986169767025861312
   WantsNetworking: true
   TemplateInstance {
     ParameterOverrideMap {
@@ -3189,7 +3189,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7981628868299055419
+  Id: 11441590469498287909
   Name: "C2F_CovidAura"
   Transform {
     Scale {
@@ -3198,7 +3198,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13962215885592624000
+  ParentId: 10986169767025861312
   TemplateInstance {
     ParameterOverrideMap {
       key: 2885527514888761191
@@ -3223,7 +3223,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7128882648712019110
+  Id: 2308060614906350677
   Name: "Trigger"
   Transform {
     Location {
@@ -3237,7 +3237,7 @@ Objects {
       Z: 17
     }
   }
-  ParentId: 13962215885592624000
+  ParentId: 10986169767025861312
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3255,7 +3255,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17287789593762532717
+  Id: 5977742960281848743
   Name: "_Level.2.NPC Cage"
   Transform {
     Scale {
@@ -3264,7 +3264,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13962215885592624000
+  ParentId: 10986169767025861312
   TemplateInstance {
     ParameterOverrideMap {
       key: 3691403211646615168
@@ -3311,7 +3311,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4527031004907924364
+  Id: 8649590279419668664
   Name: "_Level.2.Wall"
   Transform {
     Location {
@@ -3328,7 +3328,7 @@ Objects {
       Z: 1.30000007
     }
   }
-  ParentId: 9336659437334903971
+  ParentId: 5239628783255204261
   TemplateInstance {
     ParameterOverrideMap {
       key: 5594672932005031246
@@ -3367,7 +3367,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13994565135766840116
+  Id: 643136935303920036
   Name: "_Level.2.Wall"
   Transform {
     Location {
@@ -3384,7 +3384,7 @@ Objects {
       Z: 3.19999981
     }
   }
-  ParentId: 9336659437334903971
+  ParentId: 5239628783255204261
   TemplateInstance {
     ParameterOverrideMap {
       key: 5594672932005031246
@@ -3423,7 +3423,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3775112408569451028
+  Id: 17707710412591417857
   Name: "Player Launcher"
   Transform {
     Scale {
@@ -3432,7 +3432,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9336659437334903971
+  ParentId: 5239628783255204261
   TemplateInstance {
     ParameterOverrideMap {
       key: 7475782904616284279
@@ -3476,7 +3476,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8527313736975689650
+  Id: 17967862110434506785
   Name: "_Level.2.Square Platform"
   Transform {
     Location {
@@ -3493,7 +3493,7 @@ Objects {
       Z: 0.6
     }
   }
-  ParentId: 9336659437334903971
+  ParentId: 5239628783255204261
   TemplateInstance {
     ParameterOverrideMap {
       key: 6298524651291009104
@@ -3532,7 +3532,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16125247930981499971
+  Id: 12997280411519313952
   Name: "_Level.2.Circular Platform"
   Transform {
     Location {
@@ -3548,7 +3548,7 @@ Objects {
       Z: 0.4
     }
   }
-  ParentId: 9336659437334903971
+  ParentId: 5239628783255204261
   TemplateInstance {
     ParameterOverrideMap {
       key: 8226220198750271134
@@ -3586,7 +3586,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5923574685545637449
+  Id: 17947124942790774627
   Name: "_Level.2.Circular Platform"
   Transform {
     Location {
@@ -3602,7 +3602,7 @@ Objects {
       Z: 0.4
     }
   }
-  ParentId: 9336659437334903971
+  ParentId: 5239628783255204261
   TemplateInstance {
     ParameterOverrideMap {
       key: 8226220198750271134
@@ -3640,7 +3640,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4571031776648635027
+  Id: 15943323221827449032
   Name: "_Level.2.Circular Platform"
   Transform {
     Location {
@@ -3656,7 +3656,7 @@ Objects {
       Z: 0.4
     }
   }
-  ParentId: 9336659437334903971
+  ParentId: 5239628783255204261
   TemplateInstance {
     ParameterOverrideMap {
       key: 8226220198750271134
@@ -3694,7 +3694,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13627395243874795374
+  Id: 3698630147298719167
   Name: "_Level.2.Circular Platform"
   Transform {
     Location {
@@ -3710,7 +3710,7 @@ Objects {
       Z: 0.4
     }
   }
-  ParentId: 9336659437334903971
+  ParentId: 5239628783255204261
   TemplateInstance {
     ParameterOverrideMap {
       key: 8226220198750271134
@@ -3748,7 +3748,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2799758323878637153
+  Id: 5546178723713848361
   Name: "_Level.2.Circular Platform"
   Transform {
     Location {
@@ -3764,7 +3764,7 @@ Objects {
       Z: 0.4
     }
   }
-  ParentId: 9336659437334903971
+  ParentId: 5239628783255204261
   TemplateInstance {
     ParameterOverrideMap {
       key: 8226220198750271134
@@ -3802,7 +3802,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5027399120898538218
+  Id: 2126883304969040461
   Name: "_Level.2.Circular Platform"
   Transform {
     Location {
@@ -3818,7 +3818,7 @@ Objects {
       Z: 0.4
     }
   }
-  ParentId: 9336659437334903971
+  ParentId: 5239628783255204261
   TemplateInstance {
     ParameterOverrideMap {
       key: 8226220198750271134
@@ -3856,7 +3856,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9461082894633611479
+  Id: 3846848029652026678
   Name: "_Level.2.Circular Platform"
   Transform {
     Location {
@@ -3872,7 +3872,7 @@ Objects {
       Z: 0.4
     }
   }
-  ParentId: 9336659437334903971
+  ParentId: 5239628783255204261
   TemplateInstance {
     ParameterOverrideMap {
       key: 8226220198750271134
@@ -3910,7 +3910,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10146246095741228590
+  Id: 13568397605397885445
   Name: "_Level.2.Circular Platform"
   Transform {
     Scale {
@@ -3919,7 +3919,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9336659437334903971
+  ParentId: 5239628783255204261
   TemplateInstance {
     ParameterOverrideMap {
       key: 8226220198750271134
@@ -3957,7 +3957,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1262624422255572681
+  Id: 8449064607637959261
   Name: "P_7"
   Transform {
     Location {
@@ -3974,7 +3974,7 @@ Objects {
       Z: 2.10000014
     }
   }
-  ParentId: 9336659437334903971
+  ParentId: 5239628783255204261
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3997,7 +3997,7 @@ Objects {
   }
 }
 Objects {
-  Id: 416071246683280209
+  Id: 5314193094586269704
   Name: "C_9"
   Transform {
     Location {
@@ -4014,11 +4014,11 @@ Objects {
       Z: 2.79428649
     }
   }
-  ParentId: 9336659437334903971
-  ChildIds: 3413213262589546635
-  ChildIds: 15602390660581665785
-  ChildIds: 5603433558023240017
-  ChildIds: 15200036687195541607
+  ParentId: 5239628783255204261
+  ChildIds: 3316364529175015652
+  ChildIds: 14453852342300548870
+  ChildIds: 5036447744654950255
+  ChildIds: 13991959943270363471
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -4061,7 +4061,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15200036687195541607
+  Id: 13991959943270363471
   Name: "Waterfall Base Volume VFX"
   Transform {
     Location {
@@ -4078,7 +4078,7 @@ Objects {
       Z: 0.357873
     }
   }
-  ParentId: 416071246683280209
+  ParentId: 5314193094586269704
   UnregisteredParameters {
     Overrides {
       Name: "bp:Density"
@@ -4118,7 +4118,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5603433558023240017
+  Id: 5036447744654950255
   Name: "Waterfall Top Volume VFX"
   Transform {
     Location {
@@ -4133,7 +4133,7 @@ Objects {
       Z: 0.565402687
     }
   }
-  ParentId: 416071246683280209
+  ParentId: 5314193094586269704
   UnregisteredParameters {
     Overrides {
       Name: "bp:color"
@@ -4201,7 +4201,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15602390660581665785
+  Id: 14453852342300548870
   Name: "Bubble Stream VFX"
   Transform {
     Location {
@@ -4215,7 +4215,7 @@ Objects {
       Z: 0.382700235
     }
   }
-  ParentId: 416071246683280209
+  ParentId: 5314193094586269704
   UnregisteredParameters {
     Overrides {
       Name: "bp:Density"
@@ -4288,7 +4288,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3413213262589546635
+  Id: 3316364529175015652
   Name: "Object Mover"
   Transform {
     Location {
@@ -4302,12 +4302,12 @@ Objects {
       Z: 0.357873082
     }
   }
-  ParentId: 416071246683280209
+  ParentId: 5314193094586269704
   UnregisteredParameters {
     Overrides {
       Name: "cs:Object"
       ObjectReference {
-        SelfId: 416071246683280209
+        SelfId: 5314193094586269704
       }
     }
     Overrides {
@@ -4470,7 +4470,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14621926590276775647
+  Id: 13741935166402878301
   Name: "C_8"
   Transform {
     Location {
@@ -4487,11 +4487,11 @@ Objects {
       Z: 2.79428649
     }
   }
-  ParentId: 9336659437334903971
-  ChildIds: 13081393146137741679
-  ChildIds: 7235713428738694286
-  ChildIds: 13043722719237036677
-  ChildIds: 14220026987406489390
+  ParentId: 5239628783255204261
+  ChildIds: 5647563289822361835
+  ChildIds: 4583680835630646355
+  ChildIds: 12893781292595536954
+  ChildIds: 3830181882228484634
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -4534,7 +4534,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14220026987406489390
+  Id: 3830181882228484634
   Name: "Waterfall Base Volume VFX"
   Transform {
     Location {
@@ -4551,7 +4551,7 @@ Objects {
       Z: 0.357873
     }
   }
-  ParentId: 14621926590276775647
+  ParentId: 13741935166402878301
   UnregisteredParameters {
     Overrides {
       Name: "bp:Density"
@@ -4591,7 +4591,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13043722719237036677
+  Id: 12893781292595536954
   Name: "Waterfall Top Volume VFX"
   Transform {
     Location {
@@ -4606,7 +4606,7 @@ Objects {
       Z: 0.565402687
     }
   }
-  ParentId: 14621926590276775647
+  ParentId: 13741935166402878301
   UnregisteredParameters {
     Overrides {
       Name: "bp:color"
@@ -4674,7 +4674,7 @@ Objects {
   }
 }
 Objects {
-  Id: 7235713428738694286
+  Id: 4583680835630646355
   Name: "Bubble Stream VFX"
   Transform {
     Location {
@@ -4688,7 +4688,7 @@ Objects {
       Z: 0.382700235
     }
   }
-  ParentId: 14621926590276775647
+  ParentId: 13741935166402878301
   UnregisteredParameters {
     Overrides {
       Name: "bp:Density"
@@ -4761,7 +4761,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13081393146137741679
+  Id: 5647563289822361835
   Name: "Object Mover"
   Transform {
     Location {
@@ -4775,12 +4775,12 @@ Objects {
       Z: 0.357873082
     }
   }
-  ParentId: 14621926590276775647
+  ParentId: 13741935166402878301
   UnregisteredParameters {
     Overrides {
       Name: "cs:Object"
       ObjectReference {
-        SelfId: 14621926590276775647
+        SelfId: 13741935166402878301
       }
     }
     Overrides {
@@ -4944,7 +4944,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2909154854541680291
+  Id: 14758536058028909964
   Name: "C_7"
   Transform {
     Location {
@@ -4961,11 +4961,11 @@ Objects {
       Z: 2.79428649
     }
   }
-  ParentId: 9336659437334903971
-  ChildIds: 8542295743317642640
-  ChildIds: 13207132628809762909
-  ChildIds: 16185355227355561865
-  ChildIds: 17496925335158756854
+  ParentId: 5239628783255204261
+  ChildIds: 2265765389399198712
+  ChildIds: 5618647420280306306
+  ChildIds: 13873930899865000683
+  ChildIds: 5134799844751348939
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -5008,7 +5008,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17496925335158756854
+  Id: 5134799844751348939
   Name: "Waterfall Base Volume VFX"
   Transform {
     Location {
@@ -5025,7 +5025,7 @@ Objects {
       Z: 0.357873
     }
   }
-  ParentId: 2909154854541680291
+  ParentId: 14758536058028909964
   UnregisteredParameters {
     Overrides {
       Name: "bp:Density"
@@ -5065,7 +5065,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16185355227355561865
+  Id: 13873930899865000683
   Name: "Waterfall Top Volume VFX"
   Transform {
     Location {
@@ -5080,7 +5080,7 @@ Objects {
       Z: 0.565402687
     }
   }
-  ParentId: 2909154854541680291
+  ParentId: 14758536058028909964
   UnregisteredParameters {
     Overrides {
       Name: "bp:color"
@@ -5148,7 +5148,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13207132628809762909
+  Id: 5618647420280306306
   Name: "Bubble Stream VFX"
   Transform {
     Location {
@@ -5162,7 +5162,7 @@ Objects {
       Z: 0.382700235
     }
   }
-  ParentId: 2909154854541680291
+  ParentId: 14758536058028909964
   UnregisteredParameters {
     Overrides {
       Name: "bp:Density"
@@ -5235,7 +5235,7 @@ Objects {
   }
 }
 Objects {
-  Id: 8542295743317642640
+  Id: 2265765389399198712
   Name: "Object Mover"
   Transform {
     Location {
@@ -5248,12 +5248,12 @@ Objects {
       Z: 0.357873082
     }
   }
-  ParentId: 2909154854541680291
+  ParentId: 14758536058028909964
   UnregisteredParameters {
     Overrides {
       Name: "cs:Object"
       ObjectReference {
-        SelfId: 2909154854541680291
+        SelfId: 14758536058028909964
       }
     }
     Overrides {
@@ -5417,7 +5417,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18192700442233468515
+  Id: 12845846372707095261
   Name: "_Level.2.Wall"
   Transform {
     Location {
@@ -5434,7 +5434,7 @@ Objects {
       Z: 2
     }
   }
-  ParentId: 9336659437334903971
+  ParentId: 5239628783255204261
   TemplateInstance {
     ParameterOverrideMap {
       key: 5594672932005031246
@@ -5473,7 +5473,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6004452273441678684
+  Id: 16751220161124613291
   Name: "_Level.2.Square Platform"
   Transform {
     Location {
@@ -5490,7 +5490,7 @@ Objects {
       Z: 0.6
     }
   }
-  ParentId: 9336659437334903971
+  ParentId: 5239628783255204261
   TemplateInstance {
     ParameterOverrideMap {
       key: 6298524651291009104
@@ -5529,7 +5529,7 @@ Objects {
   }
 }
 Objects {
-  Id: 13243655931131747317
+  Id: 1298197793150783378
   Name: "_Level.2.Square Platform"
   Transform {
     Location {
@@ -5546,7 +5546,7 @@ Objects {
       Z: 0.6
     }
   }
-  ParentId: 9336659437334903971
+  ParentId: 5239628783255204261
   TemplateInstance {
     ParameterOverrideMap {
       key: 6298524651291009104
@@ -5585,7 +5585,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16628057853955822921
+  Id: 102025036050180148
   Name: "_Level.2.Square Platform"
   Transform {
     Location {
@@ -5602,7 +5602,7 @@ Objects {
       Z: 0.6
     }
   }
-  ParentId: 9336659437334903971
+  ParentId: 5239628783255204261
   TemplateInstance {
     ParameterOverrideMap {
       key: 6298524651291009104
@@ -5645,7 +5645,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1586222948244193499
+  Id: 15622339724071451248
   Name: "_Level.2.Square Platform"
   Transform {
     Scale {
@@ -5654,7 +5654,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9336659437334903971
+  ParentId: 5239628783255204261
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5699,7 +5699,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5754687205087824946
+  Id: 16058372085502478737
   Name: "_Level.2.Square Platform"
   Transform {
     Scale {
@@ -5708,7 +5708,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9336659437334903971
+  ParentId: 5239628783255204261
   TemplateInstance {
     ParameterOverrideMap {
       key: 6298524651291009104
@@ -5747,7 +5747,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12518630430512161513
+  Id: 9484677649569988537
   Name: "_Level.2.Wall"
   Transform {
     Location {
@@ -5764,7 +5764,7 @@ Objects {
       Z: 6.5
     }
   }
-  ParentId: 9336659437334903971
+  ParentId: 5239628783255204261
   TemplateInstance {
     ParameterOverrideMap {
       key: 5594672932005031246
@@ -5803,7 +5803,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16204876137504960182
+  Id: 10606438107094584671
   Name: "P_1"
   Transform {
     Location {
@@ -5820,7 +5820,7 @@ Objects {
       Z: 2.10000014
     }
   }
-  ParentId: 9336659437334903971
+  ParentId: 5239628783255204261
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5843,7 +5843,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2750224051553598012
+  Id: 15896673922049465549
   Name: "_Level.2.Killer Tube"
   Transform {
     Scale {
@@ -5852,7 +5852,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9336659437334903971
+  ParentId: 5239628783255204261
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -5905,7 +5905,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3983619287630977032
+  Id: 12042638155323047178
   Name: "_Level.2.Killer Square"
   Transform {
     Location {
@@ -5922,7 +5922,7 @@ Objects {
       Z: 2.79428649
     }
   }
-  ParentId: 9336659437334903971
+  ParentId: 5239628783255204261
   TemplateInstance {
     ParameterOverrideMap {
       key: 7082543403439824712
@@ -5967,7 +5967,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10619639840958378523
+  Id: 7380938509197971977
   Name: "CS_3"
   Transform {
     Location {
@@ -5984,11 +5984,11 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9336659437334903971
-  ChildIds: 12159093997614550156
-  ChildIds: 1379231304174882718
-  ChildIds: 205395326695219294
-  ChildIds: 15340790159877837222
+  ParentId: 5239628783255204261
+  ChildIds: 14846307424683202816
+  ChildIds: 16715440210815903769
+  ChildIds: 15412997564194723547
+  ChildIds: 9433983237104286170
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6000,7 +6000,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15340790159877837222
+  Id: 9433983237104286170
   Name: "_Level.2.Corona Spreader"
   Transform {
     Scale {
@@ -6009,7 +6009,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10619639840958378523
+  ParentId: 7380938509197971977
   WantsNetworking: true
   TemplateInstance {
     ParameterOverrideMap {
@@ -6041,7 +6041,7 @@ Objects {
   }
 }
 Objects {
-  Id: 205395326695219294
+  Id: 15412997564194723547
   Name: "C2F_CovidAura"
   Transform {
     Scale {
@@ -6050,7 +6050,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10619639840958378523
+  ParentId: 7380938509197971977
   TemplateInstance {
     ParameterOverrideMap {
       key: 2885527514888761191
@@ -6075,7 +6075,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1379231304174882718
+  Id: 16715440210815903769
   Name: "Trigger"
   Transform {
     Location {
@@ -6089,7 +6089,7 @@ Objects {
       Z: 17
     }
   }
-  ParentId: 10619639840958378523
+  ParentId: 7380938509197971977
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6107,7 +6107,7 @@ Objects {
   }
 }
 Objects {
-  Id: 12159093997614550156
+  Id: 14846307424683202816
   Name: "_Level.2.NPC Cage"
   Transform {
     Scale {
@@ -6116,7 +6116,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10619639840958378523
+  ParentId: 7380938509197971977
   TemplateInstance {
     ParameterOverrideMap {
       key: 3691403211646615168
@@ -6163,7 +6163,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10220568052065416117
+  Id: 15116536616183063129
   Name: "CS_2"
   Transform {
     Location {
@@ -6179,11 +6179,11 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9336659437334903971
-  ChildIds: 4346823299013053572
-  ChildIds: 9859528543487387017
-  ChildIds: 11334875705018520036
-  ChildIds: 14880654223502750944
+  ParentId: 5239628783255204261
+  ChildIds: 1440853793755140272
+  ChildIds: 8013939726645663763
+  ChildIds: 9920454568003201203
+  ChildIds: 751971659749516355
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6195,7 +6195,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14880654223502750944
+  Id: 751971659749516355
   Name: "_Level.2.Corona Spreader"
   Transform {
     Scale {
@@ -6204,7 +6204,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10220568052065416117
+  ParentId: 15116536616183063129
   WantsNetworking: true
   TemplateInstance {
     ParameterOverrideMap {
@@ -6236,7 +6236,7 @@ Objects {
   }
 }
 Objects {
-  Id: 11334875705018520036
+  Id: 9920454568003201203
   Name: "C2F_CovidAura"
   Transform {
     Scale {
@@ -6245,7 +6245,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10220568052065416117
+  ParentId: 15116536616183063129
   TemplateInstance {
     ParameterOverrideMap {
       key: 2885527514888761191
@@ -6272,7 +6272,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9859528543487387017
+  Id: 8013939726645663763
   Name: "Trigger"
   Transform {
     Location {
@@ -6286,7 +6286,7 @@ Objects {
       Z: 17
     }
   }
-  ParentId: 10220568052065416117
+  ParentId: 15116536616183063129
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6304,7 +6304,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4346823299013053572
+  Id: 1440853793755140272
   Name: "_Level.2.NPC Cage"
   Transform {
     Scale {
@@ -6313,7 +6313,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10220568052065416117
+  ParentId: 15116536616183063129
   TemplateInstance {
     ParameterOverrideMap {
       key: 3691403211646615168
@@ -6360,7 +6360,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1199326477146710297
+  Id: 2753218615666579807
   Name: "_Level.2.Killer Tube"
   Transform {
     Scale {
@@ -6369,7 +6369,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9336659437334903971
+  ParentId: 5239628783255204261
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6422,7 +6422,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6609390058327058677
+  Id: 4856573510109709874
   Name: "_Level.2.Killer Square"
   Transform {
     Scale {
@@ -6431,7 +6431,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9336659437334903971
+  ParentId: 5239628783255204261
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6474,7 +6474,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2555946601802046725
+  Id: 16626640703866201746
   Name: "_Level.2.Killer Square"
   Transform {
     Location {
@@ -6491,7 +6491,7 @@ Objects {
       Z: 2.79428649
     }
   }
-  ParentId: 9336659437334903971
+  ParentId: 5239628783255204261
   TemplateInstance {
     ParameterOverrideMap {
       key: 7082543403439824712
@@ -6546,7 +6546,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14282750847114146477
+  Id: 3145199598301370979
   Name: "_Level.2.Killer Square"
   Transform {
     Scale {
@@ -6555,7 +6555,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9336659437334903971
+  ParentId: 5239628783255204261
   TemplateInstance {
     ParameterOverrideMap {
       key: 7082543403439824712
@@ -6610,7 +6610,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2375033124815383605
+  Id: 2124726521921849759
   Name: "CS_1"
   Transform {
     Location {
@@ -6626,11 +6626,11 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9336659437334903971
-  ChildIds: 5874081516610757896
-  ChildIds: 2883974517035315331
-  ChildIds: 10012448463004158661
-  ChildIds: 2163894163028632244
+  ParentId: 5239628783255204261
+  ChildIds: 6982495709976642228
+  ChildIds: 12481877152209422797
+  ChildIds: 6196826460384959890
+  ChildIds: 10453760068023427229
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6642,7 +6642,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2163894163028632244
+  Id: 10453760068023427229
   Name: "Trigger"
   Transform {
     Location {
@@ -6656,7 +6656,7 @@ Objects {
       Z: 17
     }
   }
-  ParentId: 2375033124815383605
+  ParentId: 2124726521921849759
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -6674,7 +6674,7 @@ Objects {
   }
 }
 Objects {
-  Id: 10012448463004158661
+  Id: 6196826460384959890
   Name: "C2F_CovidAura"
   Transform {
     Scale {
@@ -6683,7 +6683,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2375033124815383605
+  ParentId: 2124726521921849759
   TemplateInstance {
     ParameterOverrideMap {
       key: 2885527514888761191
@@ -6711,7 +6711,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2883974517035315331
+  Id: 12481877152209422797
   Name: "_Level.2.NPC Cage"
   Transform {
     Scale {
@@ -6720,7 +6720,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2375033124815383605
+  ParentId: 2124726521921849759
   TemplateInstance {
     ParameterOverrideMap {
       key: 3691403211646615168
@@ -6767,7 +6767,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5874081516610757896
+  Id: 6982495709976642228
   Name: "_Level.2.Corona Spreader"
   Transform {
     Scale {
@@ -6776,7 +6776,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2375033124815383605
+  ParentId: 2124726521921849759
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -6812,7 +6812,7 @@ Objects {
   }
 }
 Objects {
-  Id: 34707791465972719
+  Id: 558553935010759694
   Name: "_Level.2.Wall"
   Transform {
     Location {
@@ -6829,7 +6829,7 @@ Objects {
       Z: 6.5
     }
   }
-  ParentId: 9336659437334903971
+  ParentId: 5239628783255204261
   TemplateInstance {
     ParameterOverrideMap {
       key: 5594672932005031246
@@ -6860,7 +6860,7 @@ Objects {
   }
 }
 Objects {
-  Id: 18203552574033542161
+  Id: 4060952871233225945
   Name: "_Level.2.Wall"
   Transform {
     Location {
@@ -6877,7 +6877,7 @@ Objects {
       Z: 18.8219376
     }
   }
-  ParentId: 9336659437334903971
+  ParentId: 5239628783255204261
   TemplateInstance {
     ParameterOverrideMap {
       key: 5594672932005031246
@@ -6916,7 +6916,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9921783016662903823
+  Id: 6839340845449381551
   Name: "_Level.2.Wall"
   Transform {
     Location {
@@ -6933,7 +6933,7 @@ Objects {
       Z: 18.8219376
     }
   }
-  ParentId: 9336659437334903971
+  ParentId: 5239628783255204261
   TemplateInstance {
     ParameterOverrideMap {
       key: 5594672932005031246
@@ -6972,7 +6972,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14070811380769776543
+  Id: 13533015378603682331
   Name: "_Level.2.Wall"
   Transform {
     Scale {
@@ -6981,7 +6981,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 9336659437334903971
+  ParentId: 5239628783255204261
   TemplateInstance {
     ParameterOverrideMap {
       key: 5594672932005031246
@@ -7020,28 +7020,42 @@ Objects {
   }
 }
 Objects {
-  Id: 16862123304568830382
-  Name: "MovingPlatform"
+  Id: 6537734785441884527
+  Name: "Moving platform"
   Transform {
     Location {
+      X: 1415
+      Y: -3690
+      Z: 1505
     }
     Rotation {
+      Yaw: -52.1008492
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 11.7
+      Y: 17.5
+      Z: 0.4
     }
   }
-  ParentId: 9336659437334903971
+  ParentId: 5239628783255204261
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "MovingPlatform"
+  CoreMesh {
+    MeshAsset {
+      Id: 8960293663979334663
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
   }
 }
