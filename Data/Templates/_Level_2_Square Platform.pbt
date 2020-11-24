@@ -10,12 +10,33 @@
         Name: "_Level.2.Square Platform"
         Transform {
           Scale {
-            X: 4.37404346
-            Y: 4.20532322
-            Z: 1
+            X: 5.2
+            Y: 4.99999952
+            Z: 0.6
           }
         }
-        ParentId: 13736249812600814928
+        ParentId: 5239628783255204261
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 15082714160791594269
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:color"
+            Color {
+              R: 1
+              G: 0.0334985852
+              B: 0.855024695
+              A: 1
+            }
+          }
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }

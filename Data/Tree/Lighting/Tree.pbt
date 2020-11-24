@@ -15,7 +15,7 @@ Objects {
     }
   }
   ParentId: 4434011006133901618
-  ChildIds: 7914164138793779420
+  ChildIds: 4062154892360378009
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -26,8 +26,8 @@ Objects {
   }
 }
 Objects {
-  Id: 7914164138793779420
-  Name: "S_Level2"
+  Id: 4062154892360378009
+  Name: "S_2"
   Transform {
     Scale {
       X: 1
@@ -38,40 +38,37 @@ Objects {
   ParentId: 521624241559297895
   TemplateInstance {
     ParameterOverrideMap {
-      key: 13664821734768608629
+      key: 5935379882917571387
       value {
         Overrides {
           Name: "Name"
-          String: "S_Level2"
+          String: "S_2"
         }
         Overrides {
           Name: "Position"
           Vector {
-            Z: 2150.67358
+            X: 6216.58936
+            Y: 1518.82837
+            Z: 2464.33203
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
           }
         }
       }
     }
-    ParameterOverrideMap {
-      key: 14977169413056414029
-      value {
-        Overrides {
-          Name: "bp:Intensity"
-          Float: 2.13338447
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 16180970171577782523
-      value {
-        Overrides {
-          Name: "bp:Size"
-          Float: 100
-        }
-      }
-    }
     TemplateAsset {
-      Id: 11108699866060967321
+      Id: 8905796207810385488
     }
   }
 }

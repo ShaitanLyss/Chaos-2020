@@ -10,6 +10,10 @@
         Name: "gradient_worldspace"
         Bool: false
       }
+      Overrides {
+        Name: "roughness_multiplier"
+        Float: 1
+      }
     }
     Assets {
       Id: 9691585235102710834

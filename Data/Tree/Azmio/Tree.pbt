@@ -1,9 +1,16 @@
 ﻿Name: "Azmio"
 RootId: 11404857991553905137
 Objects {
-  Id: 11088783293967872893
-  Name: "Object Mover"
+  Id: 6871022628804114410
+  Name: "Moving platform level 2"
   Transform {
+    Location {
+      X: -8760
+      Y: -14920
+      Z: -2030
+    }
+    Rotation {
+    }
     Scale {
       X: 1
       Y: 1
@@ -11,116 +18,15 @@ Objects {
     }
   }
   ParentId: 11404857991553905137
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 3142504813567088034
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Object Mover"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 3885
-            Y: -8250
-            Z: 1470
-          }
-        }
-        Overrides {
-          Name: "cs:Object"
-          ObjectReference {
-            SelfId: 6467585024135654832
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 36.9999275
-          }
-        }
-        Overrides {
-          Name: "cs:MoveTo"
-          Vector {
-            X: 5869.51611
-            Y: 2342.8
-            Z: 2470
-          }
-        }
-        Overrides {
-          Name: "cs:StartDelayRange"
-          Vector2 {
-            X: 3
-            Y: 3
-          }
-        }
-        Overrides {
-          Name: "cs:IntervalDelayRange"
-          Vector2 {
-          }
-        }
-        Overrides {
-          Name: "cs:Duration"
-          Float: 5.9
-        }
-        Overrides {
-          Name: "cs:BounceOnRepeat"
-          Bool: true
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 9951297657303948718
-    }
-  }
-}
-Objects {
-  Id: 6467585024135654832
-  Name: "Cube - Polished"
-  Transform {
-    Location {
-      X: 3885
-      Y: -8250
-      Z: 1470
-    }
-    Rotation {
-      Yaw: 13.1227436
-    }
-    Scale {
-      X: 21.0533543
-      Y: 13.076972
-      Z: 0.5
-    }
-  }
-  ParentId: 11404857991553905137
-  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  CoreMesh {
-    MeshAsset {
-      Id: 8960293663979334663
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Moving platform level 2"
   }
 }
 Objects {
@@ -763,86 +669,6 @@ Objects {
   }
 }
 Objects {
-  Id: 13267335084819025263
-  Name: "Player Launcher"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11404857991553905137
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 5149418238936693457
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            Z: 6.10351563e-05
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 7475782904616284279
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Player Launcher"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -4260
-            Y: -16310
-            Z: 3200
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Pitch: 67.4999619
-            Yaw: -146.249954
-          }
-        }
-        Overrides {
-          Name: "cs:LaunchSpeed"
-          Float: 2800
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 11612194129470769528
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            Z: 80
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 16924625768116884873
-    }
-  }
-}
-Objects {
   Id: 5239628783255204261
   Name: "Level 2 - Circle"
   Transform {
@@ -884,10 +710,10 @@ Objects {
   }
   ParentId: 11404857991553905137
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceon"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   Folder {
     IsFilePartition: true
@@ -917,10 +743,10 @@ Objects {
   ChildIds: 11050968851567843142
   ChildIds: 10527608616754204667
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
+    Value: "mc:ecollisionsetting:forceon"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
+    Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
     IsGroup: true

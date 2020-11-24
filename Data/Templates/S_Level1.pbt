@@ -7,7 +7,7 @@
       RootId: 13112717259869648442
       Objects {
         Id: 13112717259869648442
-        Name: "Default Sky"
+        Name: "S_Level1"
         Transform {
           Scale {
             X: 1
@@ -28,7 +28,7 @@
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         Visible_v2 {
-          Value: "mc:evisibilitysetting:forceoff"
+          Value: "mc:evisibilitysetting:forceon"
         }
         Folder {
           IsGroup: true

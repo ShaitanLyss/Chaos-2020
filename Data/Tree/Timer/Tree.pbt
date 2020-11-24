@@ -17,6 +17,7 @@ Objects {
   ParentId: 5086193610103370450
   ChildIds: 1276226470528069087
   ChildIds: 5186125595046915089
+  ChildIds: 6177036976152243452
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -24,6 +25,41 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   NetworkContext {
+  }
+}
+Objects {
+  Id: 6177036976152243452
+  Name: "GlobalChallengesTimer"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12467340229096620150
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:OverallTimerUI"
+      ObjectReference {
+        SelfId: 7179218412473519211
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 6156864992375548647
+    }
   }
 }
 Objects {

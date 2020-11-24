@@ -44,15 +44,6 @@ Assets {
   }
 }
 Assets {
-  Id: 8960293663979334663
-  Name: "Cube - Polished"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_hq_test_001"
-  }
-}
-Assets {
   Id: 6101413117148053853
   Name: "Prism - 3-Sided"
   PlatformAssetType: 1

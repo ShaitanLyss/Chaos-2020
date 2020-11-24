@@ -602,6 +602,27 @@ Objects {
   ParentId: 17473192022205119104
   TemplateInstance {
     ParameterOverrideMap {
+      key: 5228139338937729816
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -6000.11865
+            Y: 1572.60156
+            Z: -1296.74097
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 8.54750538
+            Y: 8.54750538
+            Z: 8.56778622
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 16092095803221560891
       value {
         Overrides {
@@ -657,6 +678,27 @@ Objects {
   }
   ParentId: 17473192022205119104
   TemplateInstance {
+    ParameterOverrideMap {
+      key: 5228139338937729816
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -6000.30713
+            Y: 1572.68298
+            Z: -1325.52637
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 8.54750538
+            Y: 8.54750538
+            Z: 8.94597626
+          }
+        }
+      }
+    }
     ParameterOverrideMap {
       key: 16092095803221560891
       value {
@@ -714,6 +756,27 @@ Objects {
   ParentId: 17473192022205119104
   TemplateInstance {
     ParameterOverrideMap {
+      key: 5228139338937729816
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -5973.30225
+            Y: 1609.51221
+            Z: -1333.5686
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 8.54750538
+            Y: 8.54750538
+            Z: 8.92188549
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 16092095803221560891
       value {
         Overrides {
@@ -753,14 +816,6 @@ Objects {
   Id: 13191565358998572951
   Name: "C_level3_border"
   Transform {
-    Location {
-      X: -400
-      Y: -50
-      Z: 4279.87402
-    }
-    Rotation {
-      Yaw: -44.7639847
-    }
     Scale {
       X: 1
       Y: 1
@@ -768,7 +823,34 @@ Objects {
     }
   }
   ParentId: 17473192022205119104
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
   TemplateInstance {
+    ParameterOverrideMap {
+      key: 5228139338937729816
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -5989.27686
+            Y: 1618.20605
+            Z: -1304.41016
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 8.54750538
+            Y: 8.54750538
+            Z: 8.82339382
+          }
+        }
+      }
+    }
     ParameterOverrideMap {
       key: 16092095803221560891
       value {
@@ -788,14 +870,6 @@ Objects {
           Name: "Rotation"
           Rotator {
             Yaw: -164.744308
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
           }
         }
       }
@@ -825,6 +899,27 @@ Objects {
   }
   ParentId: 17473192022205119104
   TemplateInstance {
+    ParameterOverrideMap {
+      key: 5228139338937729816
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -6000.08789
+            Y: 1572.60498
+            Z: -1300.76636
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 8.54750538
+            Y: 8.54750538
+            Z: 8.64938354
+          }
+        }
+      }
+    }
     ParameterOverrideMap {
       key: 16092095803221560891
       value {

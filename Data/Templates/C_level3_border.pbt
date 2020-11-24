@@ -17,6 +17,8 @@
         }
         ParentId: 17473192022205119104
         ChildIds: 5228139338937729816
+        ChildIds: 10043673730580961180
+        ChildIds: 11771186965749886500
         ChildIds: 6200638741642677630
         ChildIds: 490672088621130191
         ChildIds: 12221090001078101946
@@ -25,8 +27,6 @@
         ChildIds: 1890696597156700649
         ChildIds: 17340614936787044894
         ChildIds: 128121485988244950
-        ChildIds: 10043673730580961180
-        ChildIds: 11771186965749886500
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -52,6 +52,110 @@
           Scale {
             X: 8.54750538
             Y: 8.54750538
+            Z: 11.2863321
+          }
+        }
+        ParentId: 16092095803221560891
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 9161915766274139333
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: true
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 4519163911553529386
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 10043673730580961180
+        Name: "Railing 01 Post Mainstreet"
+        Transform {
+          Location {
+            X: -6103.18604
+            Y: 520.626587
+            Z: -1686.3208
+          }
+          Rotation {
+            Yaw: 36.3341141
+          }
+          Scale {
+            X: 3.6977036
+            Y: 3.07729292
+            Z: 11.2863321
+          }
+        }
+        ParentId: 16092095803221560891
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 9161915766274139333
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: true
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 4519163911553529386
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 11771186965749886500
+        Name: "Railing 01 Post Mainstreet"
+        Transform {
+          Location {
+            X: -6026.05762
+            Y: 1057.57031
+            Z: -1686.3208
+          }
+          Rotation {
+            Yaw: 36.3341026
+          }
+          Scale {
+            X: 3.6977036
+            Y: 3.07729292
             Z: 11.2863321
           }
         }
@@ -395,110 +499,6 @@
         CoreMesh {
           MeshAsset {
             Id: 246239282813903875
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 10043673730580961180
-        Name: "Railing 01 Post Mainstreet"
-        Transform {
-          Location {
-            X: -6103.18604
-            Y: 520.626587
-            Z: -1686.3208
-          }
-          Rotation {
-            Yaw: 36.3341141
-          }
-          Scale {
-            X: 3.6977036
-            Y: 3.07729292
-            Z: 11.2863321
-          }
-        }
-        ParentId: 16092095803221560891
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 9161915766274139333
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:smart"
-            Bool: true
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 4519163911553529386
-          }
-          Teams {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          EnableCameraCollision: true
-          StaticMesh {
-            Physics {
-            }
-          }
-        }
-      }
-      Objects {
-        Id: 11771186965749886500
-        Name: "Railing 01 Post Mainstreet"
-        Transform {
-          Location {
-            X: -6026.05762
-            Y: 1057.57031
-            Z: -1686.3208
-          }
-          Rotation {
-            Yaw: 36.3341026
-          }
-          Scale {
-            X: 3.6977036
-            Y: 3.07729292
-            Z: 11.2863321
-          }
-        }
-        ParentId: 16092095803221560891
-        UnregisteredParameters {
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:id"
-            AssetReference {
-              Id: 9161915766274139333
-            }
-          }
-          Overrides {
-            Name: "ma:Shared_BaseMaterial:smart"
-            Bool: true
-          }
-        }
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        CoreMesh {
-          MeshAsset {
-            Id: 4519163911553529386
           }
           Teams {
             IsTeamCollisionEnabled: true
