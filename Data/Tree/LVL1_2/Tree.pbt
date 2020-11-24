@@ -1,8 +1,8 @@
-﻿Name: "LVL1_1"
-RootId: 10440080428785974310
+﻿Name: "LVL1_2"
+RootId: 16280255872572026047
 Objects {
-  Id: 751199327568074428
-  Name: "WonSendToTown"
+  Id: 939267807356848075
+  Name: "SendToChallenge"
   Transform {
     Location {
     }
@@ -14,12 +14,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10440080428785974310
+  ParentId: 16280255872572026047
   UnregisteredParameters {
     Overrides {
-      Name: "cs:SpawnPoints"
+      Name: "cs:ChallengeSpawnPoints"
       ObjectReference {
-        SelfId: 17985057012011105827
+        SelfId: 8424844563706345866
       }
     }
   }
@@ -31,29 +31,29 @@ Objects {
   }
   Script {
     ScriptAsset {
-      Id: 3767145034466936120
+      Id: 9766873926329396966
     }
   }
 }
 Objects {
-  Id: 5067691380296885661
+  Id: 4461021162341664042
   Name: "Trigger"
   Transform {
     Location {
-      X: -2490
-      Y: 9010
-      Z: 590
+      X: 6000
+      Y: 7330
+      Z: 1020
     }
     Rotation {
       Yaw: -130
     }
     Scale {
-      X: 3.70000029
-      Y: 3.9
-      Z: 1
+      X: 4.8
+      Y: 5.39999866
+      Z: 4.1
     }
   }
-  ParentId: 10440080428785974310
+  ParentId: 16280255872572026047
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -61,6 +61,8 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Trigger {
+    Interactable: true
+    InteractionLabel: "press F to go to the Challenge"
     TeamSettings {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
@@ -71,13 +73,13 @@ Objects {
   }
 }
 Objects {
-  Id: 995985991614013573
+  Id: 6740919466111322558
   Name: "MeshModel"
   Transform {
     Location {
-      X: -2490
-      Y: 9010
-      Z: 590
+      X: 6200
+      Y: 7410
+      Z: 1020
     }
     Rotation {
       Yaw: -130
@@ -88,7 +90,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10440080428785974310
+  ParentId: 16280255872572026047
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -97,6 +99,6 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "MeshModel"
+    FilePartitionName: "MeshModel_3"
   }
 }
