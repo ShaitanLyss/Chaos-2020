@@ -1,23 +1,22 @@
-﻿Name: "Moving platform level 2"
-RootId: 6871022628804114410
+﻿Name: "Level 2 platform"
+RootId: 3988317910669985612
 Objects {
-  Id: 10933547587544171202
+  Id: 12809843218776081039
   Name: "PathWays"
   Transform {
     Location {
-      X: 509.717773
-      Y: 1390.66748
-      Z: 5469.59375
+      X: -4775.2959
+      Y: -6765.95
     }
     Rotation {
     }
     Scale {
-      X: 0.794011831
-      Y: 0.794011831
-      Z: 0.794011831
+      X: 1
+      Y: 1
+      Z: 1
     }
   }
-  ParentId: 6871022628804114410
+  ParentId: 3988317910669985612
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

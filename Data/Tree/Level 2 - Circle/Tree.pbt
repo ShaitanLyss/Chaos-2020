@@ -112,7 +112,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "C_2"
+          String: "C_10"
         }
         Overrides {
           Name: "Position"
@@ -184,7 +184,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "C_2"
+          String: "C_9"
         }
         Overrides {
           Name: "Position"
@@ -256,7 +256,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "C_2"
+          String: "C_8"
         }
         Overrides {
           Name: "Position"
@@ -328,7 +328,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "C_2"
+          String: "C_7"
         }
         Overrides {
           Name: "Position"
@@ -377,7 +377,7 @@ Objects {
 }
 Objects {
   Id: 7188845237528500237
-  Name: "CS_3"
+  Name: "CS_18"
   Transform {
     Location {
       X: 70
@@ -572,11 +572,11 @@ Objects {
 }
 Objects {
   Id: 16477675590704937015
-  Name: "CS_3"
+  Name: "CS_17"
   Transform {
     Location {
-      X: 1325
-      Y: 375
+      X: 1155.64307
+      Y: 228.995605
     }
     Rotation {
       Yaw: 179.422318
@@ -767,7 +767,7 @@ Objects {
 }
 Objects {
   Id: 9457414723143355099
-  Name: "CS_3"
+  Name: "CS_16"
   Transform {
     Location {
       X: -340
@@ -962,11 +962,11 @@ Objects {
 }
 Objects {
   Id: 7229933411462482593
-  Name: "CS_3"
+  Name: "CS_15"
   Transform {
     Location {
-      X: 650
-      Y: -150
+      X: 338.799561
+      Y: -196.031738
     }
     Rotation {
       Yaw: 33.1723824
@@ -1157,14 +1157,14 @@ Objects {
 }
 Objects {
   Id: 13696244672155362221
-  Name: "CS_3"
+  Name: "CS_14"
   Transform {
     Location {
-      X: 1075
-      Y: 780
+      X: 303.178711
+      Y: 371.466797
     }
     Rotation {
-      Yaw: -23.0776482
+      Yaw: -23.0776367
     }
     Scale {
       X: 1
@@ -1253,6 +1253,11 @@ Objects {
             X: 17
             Y: 17
             Z: 17
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
           }
         }
       }
@@ -1352,11 +1357,11 @@ Objects {
 }
 Objects {
   Id: 1903124892902852730
-  Name: "CS_3"
+  Name: "CS_13"
   Transform {
     Location {
-      X: 2010
-      Y: -40
+      X: 961.113525
+      Y: -288.583496
     }
     Rotation {
       Yaw: 100.672119
@@ -1547,7 +1552,7 @@ Objects {
 }
 Objects {
   Id: 8574041140978134179
-  Name: "CS_3"
+  Name: "CS_12"
   Transform {
     Location {
       X: 670
@@ -1742,7 +1747,7 @@ Objects {
 }
 Objects {
   Id: 6425960420144277592
-  Name: "CS_3"
+  Name: "CS_11"
   Transform {
     Location {
       X: 10
@@ -1937,7 +1942,7 @@ Objects {
 }
 Objects {
   Id: 10567559954804810046
-  Name: "CS_3"
+  Name: "CS_10"
   Transform {
     Location {
       X: 315
@@ -2132,7 +2137,7 @@ Objects {
 }
 Objects {
   Id: 3699851542711503124
-  Name: "CS_3"
+  Name: "CS_9"
   Transform {
     Location {
       X: -605
@@ -2327,7 +2332,7 @@ Objects {
 }
 Objects {
   Id: 5530843972838747909
-  Name: "CS_3"
+  Name: "CS_8"
   Transform {
     Location {
       X: -815
@@ -2522,7 +2527,7 @@ Objects {
 }
 Objects {
   Id: 15475537715485925963
-  Name: "CS_3"
+  Name: "CS_7"
   Transform {
     Location {
       X: -1435
@@ -2717,7 +2722,7 @@ Objects {
 }
 Objects {
   Id: 5641268950794102711
-  Name: "CS_3"
+  Name: "CS_6"
   Transform {
     Location {
       X: -1050
@@ -2912,7 +2917,7 @@ Objects {
 }
 Objects {
   Id: 12334528164498514046
-  Name: "CS_3"
+  Name: "CS_5"
   Transform {
     Location {
       X: -1220
@@ -3112,7 +3117,7 @@ Objects {
 }
 Objects {
   Id: 10986169767025861312
-  Name: "CS_3"
+  Name: "CS_4"
   Transform {
     Location {
       X: -635
@@ -3335,15 +3340,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -415
-            Y: -14530
+            X: -890.611816
+            Y: -14742.6699
             Z: 1600.00024
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: 28
+            Yaw: 24
           }
         }
         Overrides {
