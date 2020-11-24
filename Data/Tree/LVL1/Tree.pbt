@@ -1,8 +1,8 @@
 ﻿Name: "LVL1"
-RootId: 10440080428785974310
+RootId: 16696998898158734249
 Objects {
-  Id: 751199327568074428
-  Name: "WonSendToTown"
+  Id: 18394232396722700257
+  Name: "ToNextLevel"
   Transform {
     Location {
     }
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10440080428785974310
+  ParentId: 16696998898158734249
   UnregisteredParameters {
     Overrides {
       Name: "cs:SpawnPoints"
@@ -31,29 +31,31 @@ Objects {
   }
   Script {
     ScriptAsset {
-      Id: 3767145034466936120
+      Id: 2640335180089642686
     }
   }
 }
 Objects {
-  Id: 5067691380296885661
+  Id: 8496829637903708863
   Name: "Trigger"
   Transform {
     Location {
-      X: -2490
-      Y: 9010
-      Z: 590
+      X: 7440
+      Y: 5570
+      Z: 1200
     }
     Rotation {
-      Yaw: -130
+      Pitch: 39.8170166
+      Yaw: -94.1826782
+      Roll: 83.4844589
     }
     Scale {
-      X: 3.70000029
-      Y: 3.9
+      X: 4.89999962
+      Y: 1.49999988
       Z: 1
     }
   }
-  ParentId: 10440080428785974310
+  ParentId: 16696998898158734249
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -61,6 +63,8 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Trigger {
+    Interactable: true
+    InteractionLabel: "Press F to go to next lvl"
     TeamSettings {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
@@ -71,16 +75,18 @@ Objects {
   }
 }
 Objects {
-  Id: 995985991614013573
+  Id: 414222280559370469
   Name: "MeshModel"
   Transform {
     Location {
-      X: -2490
-      Y: 9010
-      Z: 590
+      X: 7390
+      Y: 5730
+      Z: 1060
     }
     Rotation {
-      Yaw: -130
+      Pitch: 39.8170166
+      Yaw: -94.1826782
+      Roll: 83.4844589
     }
     Scale {
       X: 1
@@ -88,7 +94,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10440080428785974310
+  ParentId: 16696998898158734249
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

@@ -1,8 +1,8 @@
 ﻿Name: "MeshModel_1"
-RootId: 995985991614013573
+RootId: 414222280559370469
 Objects {
-  Id: 3018424829230448131
-  Name: "Chest Big Closed"
+  Id: 16079739296937363567
+  Name: "Craftsman Porch Fence Railing 01"
   Transform {
     Location {
     }
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 995985991614013573
+  ParentId: 414222280559370469
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -23,7 +23,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 6426890144183172932
+      Id: 11390981272720591546
     }
     Teams {
       IsTeamCollisionEnabled: true

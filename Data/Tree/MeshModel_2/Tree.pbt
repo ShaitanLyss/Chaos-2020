@@ -1,7 +1,7 @@
 ﻿Name: "MeshModel_2"
-RootId: 6740919466111322558
+RootId: 12706599702891608418
 Objects {
-  Id: 10509871892677534990
+  Id: 9079660762433373984
   Name: "Fantasy Castle Stairs 01 - 150cm"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6740919466111322558
+  ParentId: 12706599702891608418
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

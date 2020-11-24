@@ -23,6 +23,6 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "LVL1"
+    FilePartitionName: "LVL1_1"
   }
 }

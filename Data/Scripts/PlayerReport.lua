@@ -3,7 +3,7 @@
 function OnPlayerJoined(player)
     local data = Storage.GetPlayerData(player)
     if resetForTest then
-        
+        Task.Wait(3)
         data["passChallenge"] = 0
         data["level"] = 1
         data["timer"] = 0
