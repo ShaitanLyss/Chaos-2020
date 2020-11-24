@@ -5,7 +5,6 @@ Objects {
   Name: "Trigger"
   Transform {
     Location {
-      Z: -112.588867
     }
     Rotation {
     }
@@ -38,7 +37,6 @@ Objects {
   Name: "FireWallMesh"
   Transform {
     Location {
-      Z: -112.588867
     }
     Rotation {
     }
