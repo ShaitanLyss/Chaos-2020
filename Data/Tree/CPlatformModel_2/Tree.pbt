@@ -1,6 +1,37 @@
 ﻿Name: "CPlatformModel_2"
 RootId: 1438581351011511766
 Objects {
+  Id: 13535651799291524515
+  Name: "Trigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 2.50223899
+      Y: 2.50223899
+      Z: 2.50223899
+    }
+  }
+  ParentId: 1438581351011511766
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
   Id: 5314193094586269704
   Name: "C_9"
   Transform {

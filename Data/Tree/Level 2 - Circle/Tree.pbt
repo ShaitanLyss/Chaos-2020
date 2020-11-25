@@ -4791,7 +4791,7 @@ Objects {
 }
 Objects {
   Id: 9558182245450181987
-  Name: "C_LVL2"
+  Name: "C-9_LVL2"
   Transform {
     Scale {
       X: 1
@@ -4808,7 +4808,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "C_LVL2_2"
+    FilePartitionName: "C-9_LVL2"
   }
   InstanceHistory {
     SelfId: 9558182245450181987
@@ -4820,7 +4820,7 @@ Objects {
 }
 Objects {
   Id: 15011568182834846582
-  Name: "C_LVL2"
+  Name: "C-8_LVL2"
   Transform {
     Scale {
       X: 1
@@ -4837,7 +4837,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "C_LVL2_3"
+    FilePartitionName: "C-8_LVL2"
   }
   InstanceHistory {
     SelfId: 15011568182834846582
@@ -4849,7 +4849,7 @@ Objects {
 }
 Objects {
   Id: 13512507945184217816
-  Name: "C_LVL2"
+  Name: "C-7_LVL2"
   Transform {
     Scale {
       X: 1
@@ -4866,7 +4866,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "C_LVL2_4"
+    FilePartitionName: "C-7_LVL2"
   }
   InstanceHistory {
     SelfId: 13512507945184217816
@@ -5304,7 +5304,7 @@ Objects {
 }
 Objects {
   Id: 7162217236213746847
-  Name: "C_LVL2"
+  Name: "C-6_LVL2"
   Transform {
     Scale {
       X: 1
@@ -5321,7 +5321,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "C_LVL2_5"
+    FilePartitionName: "C-6_LVL2"
   }
   InstanceHistory {
     SelfId: 7162217236213746847
@@ -5333,7 +5333,7 @@ Objects {
 }
 Objects {
   Id: 2357544172775916923
-  Name: "C_LVL2"
+  Name: "C-5_LVL2"
   Transform {
     Location {
     }
@@ -5354,7 +5354,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "C_LVL2_6"
+    FilePartitionName: "C-5_LVL2"
   }
   InstanceHistory {
     SelfId: 2357544172775916923
@@ -5366,7 +5366,7 @@ Objects {
 }
 Objects {
   Id: 9824336181558444742
-  Name: "CS_LVL2"
+  Name: "CS-3_LVL2"
   Transform {
     Scale {
       X: 1
@@ -5383,7 +5383,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "CS_LVL2_1"
+    FilePartitionName: "CS-3_LVL2"
   }
   InstanceHistory {
     SelfId: 9824336181558444742

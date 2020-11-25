@@ -1,12 +1,16 @@
 ﻿Name: "C-2_LVL2"
 RootId: 16292346274656267660
 Objects {
-  Id: 14236841047034374453
+  Id: 12597092764784936266
   Name: "CoronaSquare"
   Transform {
     Location {
+      X: -6247.2666
+      Y: -1302.13818
+      Z: 1420.23486
     }
     Rotation {
+      Yaw: 1.36603776e-05
     }
     Scale {
       X: 1
@@ -22,6 +26,16 @@ Objects {
         SelfId: 16292346274656267660
       }
     }
+    Overrides {
+      Name: "cs:CPlatformModel"
+      ObjectReference {
+        SelfId: 8451471565777907001
+      }
+    }
+    Overrides {
+      Name: "cs:DecreaseSpeedPer"
+      Float: 0.4
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -35,9 +49,9 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 14236841047034374453
+    SelfId: 18067898532816862284
     SubobjectId: 13882845199832216792
-    InstanceId: 834113628570037671
+    InstanceId: 4748421921087412187
     TemplateId: 3915291774251592516
   }
 }
