@@ -1,10 +1,13 @@
-﻿Name: "C_LVL2_4"
-RootId: 13512507945184217816
+﻿Name: "C-9_LVL2"
+RootId: 9558182245450181987
 Objects {
-  Id: 11245333784267968097
+  Id: 16489801779132719861
   Name: "CoronaSquare"
   Transform {
     Location {
+      X: -6247.2666
+      Y: -1302.13818
+      Z: 1420.23486
     }
     Rotation {
     }
@@ -14,13 +17,23 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13512507945184217816
+  ParentId: 9558182245450181987
   UnregisteredParameters {
     Overrides {
       Name: "cs:CPlatform"
       ObjectReference {
-        SelfId: 13512507945184217816
+        SelfId: 9558182245450181987
       }
+    }
+    Overrides {
+      Name: "cs:CPlatformModel"
+      ObjectReference {
+        SelfId: 1438581351011511766
+      }
+    }
+    Overrides {
+      Name: "cs:DecreaseSpeedPer"
+      Float: 0.4
     }
   }
   Collidable_v2 {
@@ -35,23 +48,23 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 11245333784267968097
+    SelfId: 18067898532816862284
     SubobjectId: 13882845199832216792
-    InstanceId: 9818333967930537304
+    InstanceId: 4748421921087412187
     TemplateId: 3915291774251592516
   }
 }
 Objects {
-  Id: 3230682251122657901
+  Id: 1438581351011511766
   Name: "CPlatformModel"
   Transform {
     Location {
-      X: -8015
-      Y: -14270
+      X: -6955
+      Y: -15475
       Z: 1690
     }
     Rotation {
-      Yaw: 52.0000801
+      Yaw: 66.5000305
     }
     Scale {
       X: 1
@@ -59,7 +72,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13512507945184217816
+  ParentId: 9558182245450181987
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -68,12 +81,12 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "CPlatformModel_4"
+    FilePartitionName: "CPlatformModel_2"
   }
   InstanceHistory {
-    SelfId: 3230682251122657901
+    SelfId: 1438581351011511766
     SubobjectId: 8102825907411153108
-    InstanceId: 9818333967930537304
+    InstanceId: 10923512792283994918
     TemplateId: 3915291774251592516
   }
 }

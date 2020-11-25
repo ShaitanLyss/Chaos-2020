@@ -1,10 +1,13 @@
-﻿Name: "C_LVL2_5"
-RootId: 7162217236213746847
+﻿Name: "C-8_LVL2"
+RootId: 15011568182834846582
 Objects {
-  Id: 4966396974893352998
+  Id: 12428679526832707893
   Name: "CoronaSquare"
   Transform {
     Location {
+      X: -6247.2666
+      Y: -1302.13818
+      Z: 1420.23486
     }
     Rotation {
     }
@@ -14,13 +17,23 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7162217236213746847
+  ParentId: 15011568182834846582
   UnregisteredParameters {
     Overrides {
       Name: "cs:CPlatform"
       ObjectReference {
-        SelfId: 7162217236213746847
+        SelfId: 15011568182834846582
       }
+    }
+    Overrides {
+      Name: "cs:CPlatformModel"
+      ObjectReference {
+        SelfId: 5116212029843528643
+      }
+    }
+    Overrides {
+      Name: "cs:DecreaseSpeedPer"
+      Float: 0.4
     }
   }
   Collidable_v2 {
@@ -35,25 +48,23 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 4966396974893352998
+    SelfId: 18067898532816862284
     SubobjectId: 13882845199832216792
-    InstanceId: 15108377176271350171
+    InstanceId: 4748421921087412187
     TemplateId: 3915291774251592516
   }
 }
 Objects {
-  Id: 17597512768648989738
+  Id: 5116212029843528643
   Name: "CPlatformModel"
   Transform {
     Location {
-      X: -10710
-      Y: -5840
-      Z: 1610
+      X: -7345
+      Y: -14505
+      Z: 1690
     }
     Rotation {
-      Pitch: 90
-      Yaw: 31
-      Roll: 52.9998894
+      Yaw: 66.5
     }
     Scale {
       X: 1
@@ -61,7 +72,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7162217236213746847
+  ParentId: 15011568182834846582
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -70,12 +81,12 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "CPlatformModel_5"
+    FilePartitionName: "CPlatformModel_3"
   }
   InstanceHistory {
-    SelfId: 17597512768648989738
+    SelfId: 5116212029843528643
     SubobjectId: 8102825907411153108
-    InstanceId: 15108377176271350171
+    InstanceId: 9977068665712110208
     TemplateId: 3915291774251592516
   }
 }
