@@ -1,4 +1,4 @@
-﻿local resetForTest = true
+﻿local resetForTest = false
 
 function OnPlayerJoined(player)
     local data = Storage.GetPlayerData(player)

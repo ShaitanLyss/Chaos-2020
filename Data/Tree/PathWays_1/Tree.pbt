@@ -512,13 +512,13 @@ Objects {
   }
 }
 Objects {
-  Id: 2905247304924719961
+  Id: 11947201895878642606
   Name: "Trigger"
   Transform {
     Location {
-      X: -4030
+      X: -4030.00049
       Y: 4265
-      Z: 1730
+      Z: 1729.99988
     }
     Rotation {
     }
@@ -546,13 +546,13 @@ Objects {
   }
 }
 Objects {
-  Id: 844500223561357880
+  Id: 13318611895899306581
   Name: "Trigger"
   Transform {
     Location {
       X: -4325
-      Y: 6620
-      Z: 1730
+      Y: 6620.00049
+      Z: 1729.99988
     }
     Rotation {
     }
