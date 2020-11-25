@@ -559,7 +559,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:AlaaTest"
-      Bool: false
+      Bool: true
     }
     Overrides {
       Name: "cs:AzmioTest"
@@ -571,7 +571,7 @@ Objects {
     }
     Overrides {
       Name: "cs:LyssTest"
-      Bool: true
+      Bool: false
     }
   }
   Collidable_v2 {

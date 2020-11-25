@@ -1,4 +1,4 @@
-﻿Name: "C_LVL2_1"
+﻿Name: "C2_LVL2_1"
 RootId: 8997968852244748379
 Objects {
   Id: 6581542335215525090
@@ -21,6 +21,16 @@ Objects {
       ObjectReference {
         SelfId: 8997968852244748379
       }
+    }
+    Overrides {
+      Name: "cs:CPlatformModel"
+      ObjectReference {
+        SelfId: 16973107116725885166
+      }
+    }
+    Overrides {
+      Name: "cs:DecreaseSpeedPer"
+      Float: 0.3
     }
   }
   Collidable_v2 {
@@ -46,9 +56,9 @@ Objects {
   Name: "CPlatformModel"
   Transform {
     Location {
-      X: -3790
-      Y: 6940
-      Z: 2690
+      X: -2410
+      Y: 3690
+      Z: 4640
     }
     Rotation {
       Yaw: 22.9998779
@@ -68,7 +78,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "CPlatformModel_1"
+    FilePartitionName: "CPlatformModel"
   }
   InstanceHistory {
     SelfId: 16973107116725885166
