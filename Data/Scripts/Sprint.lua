@@ -1,13 +1,18 @@
 ﻿local shiftKeyBinding = "ability_extra_12"
 
+local thePlayer
 local baseSpeed = 1000 
 local sprintingSpeed = 2000
 local baseAcceleration = 2000
 local sprintingAcceleration = 2500
 local baseJump = 900
 local sprintingJump = 1050
+
+local normalBaseSpeed = 1000
+local normalSprintingSpeed = 2000
 --local isSprinting = false
 local isNearGround = true
+
 --[[
 function OnBindingPressed(player, bindingPressed)
     if player.isGrounded and (bindingPressed == shiftKeyBinding) and (isSprinting == false) then
@@ -52,8 +57,11 @@ function OnPlayerDied(player, damage)
     player.jumpVelocity	 = baseJump
 end
 
+
+
 --local p  --testing
 function OnPlayerJoined(player)
+    thePlayer = player
     player.bindingPressedEvent:Connect(OnBindingPressed)
     player.bindingReleasedEvent:Connect(OnBindingReleased)
     player.diedEvent:Connect(OnPlayerDied)
@@ -71,5 +79,30 @@ function OnPlayerNearGround(platformPosition)
     isNearGround = true
 end
 
+
+--1 for begin  (decrease the speed ) -- 2 for end (return the speed ) 
+function OnSpeedChanged(decreaseSpeedPer, beginEnd)
+    print(decreaseSpeedPer)
+    if(beginEnd == 1) then
+        baseSpeed = baseSpeed * (1 - decreaseSpeedPer)
+        sprintingSpeed = sprintingSpeed * (1 - decreaseSpeedPer)
+        thePlayer.maxWalkSpeed = thePlayer.maxWalkSpeed * (1- decreaseSpeedPer)
+
+        Task.Wait(1)
+        --print("speeed")
+        --print(thePlayer.maxWalkSpeed)
+    elseif(beginEnd == 2) then
+        baseSpeed = normalBaseSpeed
+        sprintingSpeed = normalSprintingSpeed
+        thePlayer.maxWalkSpeed = normalBaseSpeed
+        Task.Wait(1)
+        --print("return speeed")
+        --print(thePlayer.maxWalkSpeed)
+    end
+end
+
+
+
+Events.Connect("E_SpeedChanged", OnSpeedChanged)
 Events.Connect("E_CheckPointChanged", OnPlayerNearGround)
 Game.playerJoinedEvent:Connect(OnPlayerJoined)

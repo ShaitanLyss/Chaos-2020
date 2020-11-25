@@ -1,7 +1,7 @@
 ﻿Name: "CPlatformModel"
-RootId: 8145885756190461566
+RootId: 16973107116725885166
 Objects {
-  Id: 2796093322249591686
+  Id: 8142987992141565689
   Name: "_Level.2.Killer Square"
   Transform {
     Location {
@@ -18,7 +18,7 @@ Objects {
       Z: 2.79428649
     }
   }
-  ParentId: 8145885756190461566
+  ParentId: 16973107116725885166
   TemplateInstance {
     ParameterOverrideMap {
       key: 7082543403439824712
@@ -26,13 +26,6 @@ Objects {
         Overrides {
           Name: "Name"
           String: "C_1"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 813.292
-            Y: -144.243439
-          }
         }
         Overrides {
           Name: "Rotation"
@@ -68,6 +61,37 @@ Objects {
     }
     TemplateAsset {
       Id: 17487441168680876738
+    }
+  }
+}
+Objects {
+  Id: 88104916319819206
+  Name: "Trigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 2.69999981
+      Y: 2.69999981
+      Z: 2.69999981
+    }
+  }
+  ParentId: 16973107116725885166
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
     }
   }
 }

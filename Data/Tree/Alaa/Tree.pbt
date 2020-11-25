@@ -1,6 +1,41 @@
 ﻿Name: "Alaa"
 RootId: 4861888266353863378
 Objects {
+  Id: 593364632887678616
+  Name: "C2_LVL2"
+  Transform {
+    Location {
+      X: 1760
+      Z: 20
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4861888266353863378
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "C2_LVL2"
+  }
+  InstanceHistory {
+    SelfId: 8997968852244748379
+    SubobjectId: 16654495292939890785
+    InstanceId: 13477910542026773445
+    TemplateId: 3915291774251592516
+    WasRoot: true
+  }
+}
+Objects {
   Id: 13499469834330122794
   Name: "CS_LVL2"
   Transform {
@@ -30,39 +65,8 @@ Objects {
   }
 }
 Objects {
-  Id: 16598119703586508491
-  Name: "C_LVL2"
-  Transform {
-    Location {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4861888266353863378
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "C_LVL2"
-  }
-  InstanceHistory {
-    SelfId: 16598119703586508491
-    SubobjectId: 16654495292939890785
-    InstanceId: 14895513561185450708
-    TemplateId: 3915291774251592516
-    WasRoot: true
-  }
-}
-Objects {
   Id: 8997968852244748379
-  Name: "C_LVL2"
+  Name: "C2_LVL2"
   Transform {
     Location {
     }
@@ -83,7 +87,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "C_LVL2_1"
+    FilePartitionName: "C2_LVL2_1"
   }
   InstanceHistory {
     SelfId: 8997968852244748379
