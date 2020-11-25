@@ -1,10 +1,10 @@
 ﻿Assets {
-  Id: 17737960441981515646
-  Name: "Cube - Chamfered Small Polished"
-  PlatformAssetType: 1
+  Id: 18184239439133469957
+  Name: "Fantasy Human Gal 2"
+  PlatformAssetType: 17
   PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_hq_003"
+    AssetType: "AnimatedMeshAssetRef"
+    AssetId: "npc_human_gal_fantasy_001_ref"
   }
 }
 Assets {
@@ -26,21 +26,21 @@ Assets {
   }
 }
 Assets {
+  Id: 12798866680768775920
+  Name: "Smoke Volume VFX"
+  PlatformAssetType: 8
+  PrimaryAsset {
+    AssetType: "VfxBlueprintAssetRef"
+    AssetId: "fxbp_smoke_volume_vfx"
+  }
+}
+Assets {
   Id: 10422763289844695788
   Name: "Wedge - Polished"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_wedge_hq_001"
-  }
-}
-Assets {
-  Id: 9299265961697968177
-  Name: "Cube - Chamfered Large"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_chamfer"
   }
 }
 Assets {
@@ -62,15 +62,6 @@ Assets {
   }
 }
 Assets {
-  Id: 8648602793807090059
-  Name: "Waterfall Base Volume VFX"
-  PlatformAssetType: 8
-  PrimaryAsset {
-    AssetType: "VfxBlueprintAssetRef"
-    AssetId: "fxbp_waterfall_base_volume"
-  }
-}
-Assets {
   Id: 7559416490291028773
   Name: "Hill 05"
   PlatformAssetType: 1
@@ -80,12 +71,12 @@ Assets {
   }
 }
 Assets {
-  Id: 5997554305842876539
-  Name: "Waterfall Top Volume VFX"
-  PlatformAssetType: 8
+  Id: 6864860251215549199
+  Name: "Coral Spikes Small"
+  PlatformAssetType: 1
   PrimaryAsset {
-    AssetType: "VfxBlueprintAssetRef"
-    AssetId: "fxbp_waterfall_top"
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_coral_spike_small_01"
   }
 }
 Assets {
@@ -95,5 +86,14 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_hill_001"
+  }
+}
+Assets {
+  Id: 619763090220270650
+  Name: "Additive Soft Edge"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "fxma_additive_edgefade"
   }
 }
