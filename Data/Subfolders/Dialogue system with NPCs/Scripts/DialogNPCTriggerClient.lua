@@ -2,22 +2,10 @@
 local TRIGGER = script:GetCustomProperty("Trigger"):WaitForObject()
 local INDICATOR_ASSET = script:GetCustomProperty("DialogIndicator")
 
+
 -- User exposed properties
 local NAME = ROOT:GetCustomProperty("Name")
-
--- Chosen Dialogue Id
-local LOCAL_PLAYER = Game.GetLocalPlayer()
-local introDialogue = LOCAL_PLAYER:GetResource("passChallenge")
-local FALSE = 0; TRUE = 1
-
-if introDialogue == FALSE
-then
-	local CHOSEN_DIALOGUE_ID = ROOT:GetCustomProperty("StartDialogId")
-else
-	local CHOSEN_DIALOGUE_ID = ROOT:GetCustomProperty("MainDialogId")
-end
-
--- Other API Stuff
+local START_DIALOGUE_ID = ROOT:GetCustomProperty("StartDialogId")
 local ANIMATED_MESH = ROOT:GetCustomProperty("AnimatedMesh")
 local DEFAULT_ANIMATION = ROOT:GetCustomProperty("DefaultLoopAnimation")
 local PLAY_ANIMATIONS = ROOT:GetCustomProperty("PlayDialogAnimations")
@@ -27,9 +15,15 @@ if ANIMATED_MESH ~= nil then
 end
 
 -- Constants
+local LOCAL_PLAYER = Game.GetLocalPlayer()
 local DEFAULT_ROTATION = Vector3.ZERO
 local ROTATE_SPEED = .5
 local INDICATOR_OFFSET = 150
+
+-- MINE
+Behavior = require(ROOT:GetCustomProperty("Behavior"))
+local i = 0
+
 
 if Object.IsValid(ANIMATED_MESH) then
     DEFAULT_ROTATION = ANIMATED_MESH:GetWorldRotation()
@@ -86,17 +80,27 @@ function TriggerDialogIndicator(trigger)
 end
 
 function OnInteracted(whichTrigger, other)
+	updateId()
     if other:IsA("Player") then
         if Object.IsValid(ANIMATED_MESH) and PLAY_ANIMATIONS then
-            Events.Broadcast("StartDialog", NAME, CHOSEN_DIALOGUE_ID, ANIMATED_MESH.id)
+            Events.Broadcast("StartDialog", NAME, id, ANIMATED_MESH.id)
             NPCRotateToPlayer()
             NPCStopLoopAnimation()
         else
-            Events.Broadcast("StartDialog", NAME, CHOSEN_DIALOGUE_ID)
+            Events.Broadcast("StartDialog", NAME, id)
         end
+        Behavior.OnDialog()
         TRIGGER.isInteractable = false
 	end
 end
+
+function updateId()
+	i = Behavior.getI(i)
+	id = ROOT:GetCustomProperty(tostring(i))
+
+	print(tostring(i))
+end
+
 
 -- Initialize
 if NAME ~= "" then

@@ -51,7 +51,7 @@
       }
       Overrides {
         Name: "emissive_boost"
-        Float: 4
+        Float: 100
       }
       Overrides {
         Name: "roughness_multiplier"

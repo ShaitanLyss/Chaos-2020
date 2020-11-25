@@ -9,9 +9,9 @@
       Overrides {
         Name: "color_lights"
         Color {
-          R: 0.541
+          R: 0.368999958
           G: 1
-          B: 0.562278152
+          B: 0.398251653
           A: 1
         }
       }
@@ -26,7 +26,7 @@
       }
       Overrides {
         Name: "emissive_boost"
-        Float: 1
+        Float: 47.4974785
       }
     }
     Assets {

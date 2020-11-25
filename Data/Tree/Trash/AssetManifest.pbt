@@ -1,9 +1,9 @@
 ﻿Assets {
-  Id: 8960293663979334663
-  Name: "Cube - Polished"
+  Id: 3002747508710414839
+  Name: "Horn"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_hq_test_001"
+    AssetId: "sm_horn_001"
   }
 }

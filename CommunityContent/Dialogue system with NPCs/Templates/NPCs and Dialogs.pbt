@@ -1,5 +1,5 @@
 ﻿Assets {
-  Id: 16048500260332390407
+  Id: 9557138690699395011
   Name: "NPCs and Dialogs"
   PlatformAssetType: 5
   TemplateAsset {
@@ -191,7 +191,7 @@
           Overrides {
             Name: "cs:DialogIndicator"
             AssetReference {
-              Id: 7375501152154925838
+              Id: 9923614388377178761
             }
           }
         }
@@ -203,7 +203,7 @@
         }
         Script {
           ScriptAsset {
-            Id: 7957093538665087048
+            Id: 7007523001172946648
           }
         }
       }
@@ -365,7 +365,7 @@
         }
         Script {
           ScriptAsset {
-            Id: 2881946052433380875
+            Id: 17245030516823768842
           }
         }
       }
@@ -388,7 +388,7 @@
           Overrides {
             Name: "cs:Conversations"
             AssetReference {
-              Id: 3996317038680426936
+              Id: 9482368631113131996
             }
           }
         }
@@ -451,7 +451,7 @@
           Overrides {
             Name: "cs:APIDialogsLibrary"
             AssetReference {
-              Id: 1346838802617365091
+              Id: 1444967334315660549
             }
           }
           Overrides {
@@ -511,7 +511,7 @@
           Overrides {
             Name: "cs:Helper"
             AssetReference {
-              Id: 3119540184206596400
+              Id: 455293996658400832
             }
           }
         }
@@ -523,7 +523,7 @@
         }
         Script {
           ScriptAsset {
-            Id: 3246771611186398961
+            Id: 4775134125244860425
           }
         }
       }
@@ -682,7 +682,7 @@
           Overrides {
             Name: "cs:API"
             AssetReference {
-              Id: 1437917254974704627
+              Id: 4126129825116895762
             }
           }
           Overrides {
@@ -706,7 +706,7 @@
         }
         Script {
           ScriptAsset {
-            Id: 4014696891232933974
+            Id: 4409361482283581327
           }
         }
       }

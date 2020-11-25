@@ -1,6 +1,6 @@
 ﻿Assets {
-  Id: 4777996026529222431
-  Name: "MovingPlatform_LVL2"
+  Id: 9715349997604899967
+  Name: "B_Default"
   PlatformAssetType: 3
   TextAsset {
   }

@@ -22,9 +22,9 @@ Objects {
   ChildIds: 4861888266353863378
   ChildIds: 10490075164851024102
   ChildIds: 4434011006133901618
-  ChildIds: 9321966516087236899
   ChildIds: 7135527698524595111
   ChildIds: 1885809694613097882
+  ChildIds: 9979578846465070629
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -34,6 +34,42 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 9979578846465070629
+  Name: "NPCs and Dialogs"
+  Transform {
+    Location {
+      X: 8782.74219
+      Y: 2019.62854
+      Z: 1050
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "NPCs and Dialogs"
+  }
+  InstanceHistory {
+    SelfId: 9979578846465070629
+    SubobjectId: 14859362854836943051
+    InstanceId: 17347072940583786975
+    TemplateId: 7565816595777789613
+    WasRoot: true
   }
 }
 Objects {
@@ -92,43 +128,6 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Ninja"
-  }
-}
-Objects {
-  Id: 9321966516087236899
-  Name: "NPCs and Dialogs"
-  Transform {
-    Location {
-      X: 5270
-      Y: 6320
-      Z: 1030
-    }
-    Rotation {
-      Yaw: 180
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "NPCs and Dialogs"
-  }
-  InstanceHistory {
-    SelfId: 9321966516087236899
-    SubobjectId: 14859362854836943051
-    InstanceId: 14431663957882783969
-    TemplateId: 7317441386107963647
-    WasRoot: true
   }
 }
 Objects {
@@ -602,7 +601,7 @@ Objects {
     }
     Overrides {
       Name: "cs:LyssTest"
-      Bool: false
+      Bool: true
     }
   }
   Collidable_v2 {
