@@ -7,7 +7,7 @@
       RootId: 16654495292939890785
       Objects {
         Id: 16654495292939890785
-        Name: "C_1"
+        Name: "C_LVL2"
         Transform {
           Scale {
             X: 1
@@ -47,7 +47,6 @@
           }
         }
         ParentId: 16654495292939890785
-        ChildIds: 8989375664019265336
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -56,37 +55,6 @@
         }
         Folder {
           IsFilePartition: true
-        }
-      }
-      Objects {
-        Id: 8989375664019265336
-        Name: "Trigger"
-        Transform {
-          Location {
-          }
-          Rotation {
-          }
-          Scale {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        ParentId: 8102825907411153108
-        Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
-        }
-        Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
-        }
-        Trigger {
-          TeamSettings {
-            IsTeamCollisionEnabled: true
-            IsEnemyCollisionEnabled: true
-          }
-          TriggerShape_v2 {
-            Value: "mc:etriggershape:box"
-          }
         }
       }
       Objects {
