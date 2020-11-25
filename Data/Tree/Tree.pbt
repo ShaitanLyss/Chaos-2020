@@ -23,9 +23,7 @@ Objects {
   ChildIds: 10490075164851024102
   ChildIds: 4434011006133901618
   ChildIds: 7135527698524595111
-  ChildIds: 1885809694613097882
   ChildIds: 9979578846465070629
-  ChildIds: 10575355525361144260
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -35,33 +33,6 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
-  }
-}
-Objects {
-  Id: 10575355525361144260
-  Name: "MovingPlatform_LVL2"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 6916607365222059303
-    }
   }
 }
 Objects {
@@ -98,35 +69,6 @@ Objects {
     InstanceId: 17347072940583786975
     TemplateId: 7565816595777789613
     WasRoot: true
-  }
-}
-Objects {
-  Id: 1885809694613097882
-  Name: "Spawn Point"
-  Transform {
-    Location {
-      X: -2771.05
-      Y: -7289.87402
-      Z: 2552.39624
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  PlayerSpawnPoint {
-    TeamInt: 1
-    PlayerScaleMultiplier: 1
   }
 }
 Objects {

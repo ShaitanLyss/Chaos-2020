@@ -3062,7 +3062,7 @@ Objects {
     }
   }
   ParentId: 9979578846465070629
-  ChildIds: 1014088366831653187
+  ChildIds: 13127471346217984072
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3079,13 +3079,13 @@ Objects {
   }
 }
 Objects {
-  Id: 1014088366831653187
-  Name: "NPC Dialog Group"
+  Id: 13127471346217984072
+  Name: "Marcel"
   Transform {
     Location {
     }
     Rotation {
-      Yaw: 135.814041
+      Yaw: 105.814232
     }
     Scale {
       X: 1
@@ -3094,90 +3094,8 @@ Objects {
     }
   }
   ParentId: 12442667162174322088
-  ChildIds: 13127471346217984072
-  ChildIds: 12158991977492138442
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-  InstanceHistory {
-    SelfId: 1014088366831653187
-    SubobjectId: 5357975278853717933
-    InstanceId: 17347072940583786975
-    TemplateId: 7565816595777789613
-  }
-}
-Objects {
-  Id: 12158991977492138442
-  Name: "Fantasy Human Guy"
-  Transform {
-    Location {
-      Z: 104
-    }
-    Rotation {
-      Yaw: -127.529518
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 1014088366831653187
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 18039984299850060191
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    DisableReceiveDecals: true
-    AnimatedMesh {
-      AnimationStance: "unarmed_idle_relaxed"
-      AnimationStancePlaybackRate: 1
-      AnimationStanceShouldLoop: true
-      AnimationPlaybackRateMultiplier: 1
-      PlayOnStartAnimation {
-        PlaybackRate: 1
-      }
-    }
-  }
-  InstanceHistory {
-    SelfId: 12158991977492138442
-    SubobjectId: 17074539370557695780
-    InstanceId: 17347072940583786975
-    TemplateId: 7565816595777789613
-  }
-}
-Objects {
-  Id: 13127471346217984072
-  Name: "NPC Dialog Trigger"
-  Transform {
-    Location {
-    }
-    Rotation {
-      Yaw: -29.9998169
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 1014088366831653187
   ChildIds: 7897583968327889154
+  ChildIds: 12158991977492138442
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -3232,6 +3150,55 @@ Objects {
   InstanceHistory {
     SelfId: 13127471346217984072
     SubobjectId: 17467136924413857446
+    InstanceId: 17347072940583786975
+    TemplateId: 7565816595777789613
+  }
+}
+Objects {
+  Id: 12158991977492138442
+  Name: "Fantasy Human Guy"
+  Transform {
+    Location {
+      Z: 104
+    }
+    Rotation {
+      Yaw: -97.5297318
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13127471346217984072
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 18039984299850060191
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    DisableReceiveDecals: true
+    AnimatedMesh {
+      AnimationStance: "unarmed_idle_relaxed"
+      AnimationStancePlaybackRate: 1
+      AnimationStanceShouldLoop: true
+      AnimationPlaybackRateMultiplier: 1
+      PlayOnStartAnimation {
+        PlaybackRate: 1
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 12158991977492138442
+    SubobjectId: 17074539370557695780
     InstanceId: 17347072940583786975
     TemplateId: 7565816595777789613
   }

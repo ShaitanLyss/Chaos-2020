@@ -97,8 +97,6 @@ end
 function updateId()
 	i = Behavior.getI(i)
 	id = ROOT:GetCustomProperty(tostring(i))
-
-	print(tostring(i))
 end
 
 
