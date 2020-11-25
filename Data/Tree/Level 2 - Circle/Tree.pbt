@@ -38,6 +38,7 @@ Objects {
   ChildIds: 16469740589305890866
   ChildIds: 4681445175118661897
   ChildIds: 6271534006186404593
+  ChildIds: 18331171997107333973
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -46,6 +47,214 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 18331171997107333973
+  Name: "CS_16"
+  Transform {
+    Location {
+      X: -312.977783
+      Y: -300.90918
+    }
+    Rotation {
+      Yaw: -114.759659
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17315922363621527349
+  ChildIds: 1521454642878226246
+  ChildIds: 10966966972096628231
+  ChildIds: 8464855054481951161
+  ChildIds: 407207954892177800
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 407207954892177800
+  Name: "C2F_CovidAura1"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18331171997107333973
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 4580330098148208303
+      value {
+        Overrides {
+          Name: "Name"
+          String: "C2F_CovidAura1"
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -27.2427368
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 4.19096088
+            Y: 4.19096088
+            Z: 4.19096088
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Z: -268.496338
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3728979600918661467
+    }
+  }
+}
+Objects {
+  Id: 8464855054481951161
+  Name: "_Level.2.Corona Spreader"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18331171997107333973
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 9946664624890403534
+      value {
+        Overrides {
+          Name: "Name"
+          String: "_Level.2.Corona Spreader"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.914594948
+            Y: 0.914594948
+            Z: 0.914594948
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Z: -175.646973
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 14484837179691354976
+    }
+  }
+}
+Objects {
+  Id: 10966966972096628231
+  Name: "Trigger"
+  Transform {
+    Location {
+      Z: -199.0896
+    }
+    Rotation {
+      Yaw: 62.6012688
+    }
+    Scale {
+      X: 5.74365139
+      Y: 5.74365139
+      Z: 5.74365139
+    }
+  }
+  ParentId: 18331171997107333973
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:capsule"
+    }
+  }
+}
+Objects {
+  Id: 1521454642878226246
+  Name: "_Level.2.NPC Cage"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18331171997107333973
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 3691403211646615168
+      value {
+        Overrides {
+          Name: "Name"
+          String: "_Level.2.NPC Cage"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 3
+            Y: 3
+            Z: 2.9
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 140108169051315541
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Visible"
+          Enum {
+            Value: "mc:evisibilitysetting:forceoff"
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16858479965868598628
+    }
   }
 }
 Objects {
@@ -395,8 +604,8 @@ Objects {
   ParentId: 17315922363621527349
   ChildIds: 7827315771315857423
   ChildIds: 14075232468254320807
-  ChildIds: 12012569927480323492
   ChildIds: 1021125939283211468
+  ChildIds: 17991001601201703189
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -405,6 +614,52 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 17991001601201703189
+  Name: "C2F_CovidAura1"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7188845237528500237
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 4580330098148208303
+      value {
+        Overrides {
+          Name: "Name"
+          String: "C2F_CovidAura1"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 4.19096088
+            Y: 4.19096088
+            Z: 4.19096088
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Z: -268.496338
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -22.8910828
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3728979600918661467
+    }
   }
 }
 Objects {
@@ -430,15 +685,15 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 1.85213506
-            Y: 1.85213506
-            Z: 1.85213506
+            X: 0.914594948
+            Y: 0.914594948
+            Z: 0.914594948
           }
         }
         Overrides {
           Name: "Position"
           Vector {
-            Z: -75.8481445
+            Z: -175.646973
           }
         }
       }
@@ -449,52 +704,19 @@ Objects {
   }
 }
 Objects {
-  Id: 12012569927480323492
-  Name: "C2F_CovidAura"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 7188845237528500237
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 2885527514888761191
-      value {
-        Overrides {
-          Name: "Name"
-          String: "C2F_CovidAura"
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 17
-            Y: 17
-            Z: 17
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 5874369901957612822
-    }
-  }
-}
-Objects {
   Id: 14075232468254320807
   Name: "Trigger"
   Transform {
     Location {
+      Z: -223.861328
     }
     Rotation {
       Yaw: 62.6012688
     }
     Scale {
-      X: 17
-      Y: 17
-      Z: 17
+      X: 6.91617
+      Y: 6.91617
+      Z: 6.91617
     }
   }
   ParentId: 7188845237528500237
@@ -590,8 +812,8 @@ Objects {
   ParentId: 17315922363621527349
   ChildIds: 16275166833915872585
   ChildIds: 3179033095794173558
-  ChildIds: 14797001234431776268
   ChildIds: 7821745512103575444
+  ChildIds: 8543985921465384673
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -600,6 +822,54 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 8543985921465384673
+  Name: "C2F_CovidAura1"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16477675590704937015
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 4580330098148208303
+      value {
+        Overrides {
+          Name: "Name"
+          String: "C2F_CovidAura1"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -4.92290883e-06
+            Y: 0.00048825657
+            Z: -268.496338
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 4.19096088
+            Y: 4.19096088
+            Z: 4.19096088
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -39.9801941
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3728979600918661467
+    }
   }
 }
 Objects {
@@ -625,15 +895,15 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 1.85213506
-            Y: 1.85213506
-            Z: 1.85213506
+            X: 0.914594948
+            Y: 0.914594948
+            Z: 0.914594948
           }
         }
         Overrides {
           Name: "Position"
           Vector {
-            Z: -75.8481445
+            Z: -175.646973
           }
         }
       }
@@ -644,52 +914,19 @@ Objects {
   }
 }
 Objects {
-  Id: 14797001234431776268
-  Name: "C2F_CovidAura"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16477675590704937015
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 2885527514888761191
-      value {
-        Overrides {
-          Name: "Name"
-          String: "C2F_CovidAura"
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 17
-            Y: 17
-            Z: 17
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 5874369901957612822
-    }
-  }
-}
-Objects {
   Id: 3179033095794173558
   Name: "Trigger"
   Transform {
     Location {
+      Z: -223.861328
     }
     Rotation {
       Yaw: 62.6012688
     }
     Scale {
-      X: 17
-      Y: 17
-      Z: 17
+      X: 6.91617
+      Y: 6.91617
+      Z: 6.91617
     }
   }
   ParentId: 16477675590704937015
@@ -770,11 +1007,11 @@ Objects {
   Name: "CS_16"
   Transform {
     Location {
-      X: -340
-      Y: -585
+      X: -532.086914
+      Y: -795.194336
     }
     Rotation {
-      Yaw: -113.077431
+      Yaw: -114.759705
     }
     Scale {
       X: 1
@@ -785,8 +1022,8 @@ Objects {
   ParentId: 17315922363621527349
   ChildIds: 15819662024068007375
   ChildIds: 7310342639647185749
-  ChildIds: 12794570563485719959
   ChildIds: 1835421678363982056
+  ChildIds: 4769820282558869163
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -795,6 +1032,52 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 4769820282558869163
+  Name: "C2F_CovidAura1"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 9457414723143355099
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 4580330098148208303
+      value {
+        Overrides {
+          Name: "Name"
+          String: "C2F_CovidAura1"
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -27.2427368
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 4.19096088
+            Y: 4.19096088
+            Z: 4.19096088
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Z: -268.496338
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3728979600918661467
+    }
   }
 }
 Objects {
@@ -820,15 +1103,15 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 1.85213506
-            Y: 1.85213506
-            Z: 1.85213506
+            X: 0.914594948
+            Y: 0.914594948
+            Z: 0.914594948
           }
         }
         Overrides {
           Name: "Position"
           Vector {
-            Z: -75.8481445
+            Z: -175.646973
           }
         }
       }
@@ -839,52 +1122,19 @@ Objects {
   }
 }
 Objects {
-  Id: 12794570563485719959
-  Name: "C2F_CovidAura"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 9457414723143355099
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 2885527514888761191
-      value {
-        Overrides {
-          Name: "Name"
-          String: "C2F_CovidAura"
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 17
-            Y: 17
-            Z: 17
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 5874369901957612822
-    }
-  }
-}
-Objects {
   Id: 7310342639647185749
   Name: "Trigger"
   Transform {
     Location {
+      Z: -223.861328
     }
     Rotation {
       Yaw: 62.6012688
     }
     Scale {
-      X: 17
-      Y: 17
-      Z: 17
+      X: 6.91617
+      Y: 6.91617
+      Z: 6.91617
     }
   }
   ParentId: 9457414723143355099
@@ -980,8 +1230,8 @@ Objects {
   ParentId: 17315922363621527349
   ChildIds: 6438737408763522027
   ChildIds: 8350004826357757562
-  ChildIds: 12094489825590853162
   ChildIds: 10098482249379910723
+  ChildIds: 13129506786901189566
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -990,6 +1240,54 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 13129506786901189566
+  Name: "C2F_CovidAura1"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7229933411462482593
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 4580330098148208303
+      value {
+        Overrides {
+          Name: "Name"
+          String: "C2F_CovidAura1"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -0.000267167867
+            Y: -0.000408705149
+            Z: -268.496338
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 4.19096088
+            Y: 4.19096088
+            Z: 4.19096088
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -35.1625366
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3728979600918661467
+    }
   }
 }
 Objects {
@@ -1015,15 +1313,15 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 1.85213506
-            Y: 1.85213506
-            Z: 1.85213506
+            X: 0.914594948
+            Y: 0.914594948
+            Z: 0.914594948
           }
         }
         Overrides {
           Name: "Position"
           Vector {
-            Z: -75.8481445
+            Z: -175.646973
           }
         }
       }
@@ -1034,52 +1332,19 @@ Objects {
   }
 }
 Objects {
-  Id: 12094489825590853162
-  Name: "C2F_CovidAura"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 7229933411462482593
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 2885527514888761191
-      value {
-        Overrides {
-          Name: "Name"
-          String: "C2F_CovidAura"
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 17
-            Y: 17
-            Z: 17
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 5874369901957612822
-    }
-  }
-}
-Objects {
   Id: 8350004826357757562
   Name: "Trigger"
   Transform {
     Location {
+      Z: -223.861328
     }
     Rotation {
       Yaw: 62.6012688
     }
     Scale {
-      X: 17
-      Y: 17
-      Z: 17
+      X: 6.91617
+      Y: 6.91617
+      Z: 6.91617
     }
   }
   ParentId: 7229933411462482593
@@ -1175,8 +1440,8 @@ Objects {
   ParentId: 17315922363621527349
   ChildIds: 2183869261469239978
   ChildIds: 6890560676774765380
-  ChildIds: 12694180528248866219
   ChildIds: 16347891289296457531
+  ChildIds: 4934348342938646597
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1185,6 +1450,52 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 4934348342938646597
+  Name: "C2F_CovidAura1"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13696244672155362221
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 4580330098148208303
+      value {
+        Overrides {
+          Name: "Name"
+          String: "C2F_CovidAura1"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 4.19096088
+            Y: 4.19096088
+            Z: 4.19096088
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -49.1311035
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Z: -246.417969
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3728979600918661467
+    }
   }
 }
 Objects {
@@ -1210,15 +1521,15 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 1.85213506
-            Y: 1.85213506
-            Z: 1.85213506
+            X: 0.914594948
+            Y: 0.914594948
+            Z: 0.914594948
           }
         }
         Overrides {
           Name: "Position"
           Vector {
-            Z: -75.8481445
+            Z: -175.646973
           }
         }
       }
@@ -1229,57 +1540,19 @@ Objects {
   }
 }
 Objects {
-  Id: 12694180528248866219
-  Name: "C2F_CovidAura"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 13696244672155362221
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 2885527514888761191
-      value {
-        Overrides {
-          Name: "Name"
-          String: "C2F_CovidAura"
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 17
-            Y: 17
-            Z: 17
-          }
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 5874369901957612822
-    }
-  }
-}
-Objects {
   Id: 6890560676774765380
   Name: "Trigger"
   Transform {
     Location {
+      Z: -223.861328
     }
     Rotation {
       Yaw: 62.6012688
     }
     Scale {
-      X: 17
-      Y: 17
-      Z: 17
+      X: 6.91617
+      Y: 6.91617
+      Z: 6.91617
     }
   }
   ParentId: 13696244672155362221
@@ -1375,8 +1648,8 @@ Objects {
   ParentId: 17315922363621527349
   ChildIds: 17927643208200028291
   ChildIds: 13923228246168314078
-  ChildIds: 6247380640296722196
   ChildIds: 10681541861307752934
+  ChildIds: 3636823911129510330
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1385,6 +1658,54 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 3636823911129510330
+  Name: "C2F_CovidAura1"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1903124892902852730
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 4580330098148208303
+      value {
+        Overrides {
+          Name: "Name"
+          String: "C2F_CovidAura1"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 0.000479835493
+            Y: -9.04240878e-05
+            Z: -268.496338
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 4.19096088
+            Y: 4.19096088
+            Z: 4.19096088
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -33.2774048
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3728979600918661467
+    }
   }
 }
 Objects {
@@ -1410,15 +1731,15 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 1.85213506
-            Y: 1.85213506
-            Z: 1.85213506
+            X: 0.914594948
+            Y: 0.914594948
+            Z: 0.914594948
           }
         }
         Overrides {
           Name: "Position"
           Vector {
-            Z: -75.8481445
+            Z: -175.646973
           }
         }
       }
@@ -1429,52 +1750,19 @@ Objects {
   }
 }
 Objects {
-  Id: 6247380640296722196
-  Name: "C2F_CovidAura"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 1903124892902852730
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 2885527514888761191
-      value {
-        Overrides {
-          Name: "Name"
-          String: "C2F_CovidAura"
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 17
-            Y: 17
-            Z: 17
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 5874369901957612822
-    }
-  }
-}
-Objects {
   Id: 13923228246168314078
   Name: "Trigger"
   Transform {
     Location {
+      Z: -223.861328
     }
     Rotation {
       Yaw: 62.6012688
     }
     Scale {
-      X: 17
-      Y: 17
-      Z: 17
+      X: 6.91617
+      Y: 6.91617
+      Z: 6.91617
     }
   }
   ParentId: 1903124892902852730
@@ -1570,8 +1858,8 @@ Objects {
   ParentId: 17315922363621527349
   ChildIds: 1048578547144335432
   ChildIds: 7098550318216478483
-  ChildIds: 16293576858631082651
   ChildIds: 2136550511649447346
+  ChildIds: 5384535324698665690
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1580,6 +1868,52 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 5384535324698665690
+  Name: "C2F_CovidAura1"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8574041140978134179
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 4580330098148208303
+      value {
+        Overrides {
+          Name: "Name"
+          String: "C2F_CovidAura1"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 4.19096088
+            Y: 4.19096088
+            Z: 4.19096088
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Z: -268.496338
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -36.8800659
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3728979600918661467
+    }
   }
 }
 Objects {
@@ -1605,15 +1939,15 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 1.85213506
-            Y: 1.85213506
-            Z: 1.85213506
+            X: 0.914594948
+            Y: 0.914594948
+            Z: 0.914594948
           }
         }
         Overrides {
           Name: "Position"
           Vector {
-            Z: -75.8481445
+            Z: -175.646973
           }
         }
       }
@@ -1624,52 +1958,19 @@ Objects {
   }
 }
 Objects {
-  Id: 16293576858631082651
-  Name: "C2F_CovidAura"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8574041140978134179
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 2885527514888761191
-      value {
-        Overrides {
-          Name: "Name"
-          String: "C2F_CovidAura"
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 17
-            Y: 17
-            Z: 17
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 5874369901957612822
-    }
-  }
-}
-Objects {
   Id: 7098550318216478483
   Name: "Trigger"
   Transform {
     Location {
+      Z: -223.861328
     }
     Rotation {
       Yaw: 62.6012688
     }
     Scale {
-      X: 17
-      Y: 17
-      Z: 17
+      X: 6.91617
+      Y: 6.91617
+      Z: 6.91617
     }
   }
   ParentId: 8574041140978134179
@@ -1765,8 +2066,8 @@ Objects {
   ParentId: 17315922363621527349
   ChildIds: 11211304590855916123
   ChildIds: 16502788751813468015
-  ChildIds: 2815701596728983411
   ChildIds: 455597786072853301
+  ChildIds: 2948946579257162854
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1775,6 +2076,52 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 2948946579257162854
+  Name: "C2F_CovidAura1"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6425960420144277592
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 4580330098148208303
+      value {
+        Overrides {
+          Name: "Name"
+          String: "C2F_CovidAura1"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 4.19096088
+            Y: 4.19096088
+            Z: 4.19096088
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Z: -268.496338
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -40.3047485
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3728979600918661467
+    }
   }
 }
 Objects {
@@ -1800,15 +2147,15 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 1.85213506
-            Y: 1.85213506
-            Z: 1.85213506
+            X: 0.914594948
+            Y: 0.914594948
+            Z: 0.914594948
           }
         }
         Overrides {
           Name: "Position"
           Vector {
-            Z: -75.8481445
+            Z: -175.646973
           }
         }
       }
@@ -1819,52 +2166,19 @@ Objects {
   }
 }
 Objects {
-  Id: 2815701596728983411
-  Name: "C2F_CovidAura"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 6425960420144277592
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 2885527514888761191
-      value {
-        Overrides {
-          Name: "Name"
-          String: "C2F_CovidAura"
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 17
-            Y: 17
-            Z: 17
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 5874369901957612822
-    }
-  }
-}
-Objects {
   Id: 16502788751813468015
   Name: "Trigger"
   Transform {
     Location {
+      Z: -223.861328
     }
     Rotation {
       Yaw: 62.6012688
     }
     Scale {
-      X: 17
-      Y: 17
-      Z: 17
+      X: 6.91617
+      Y: 6.91617
+      Z: 6.91617
     }
   }
   ParentId: 6425960420144277592
@@ -1960,8 +2274,8 @@ Objects {
   ParentId: 17315922363621527349
   ChildIds: 3195143156657733698
   ChildIds: 13244599555570830845
-  ChildIds: 5509248212709670412
   ChildIds: 3438509229516592639
+  ChildIds: 17463843905821884385
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1970,6 +2284,52 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 17463843905821884385
+  Name: "C2F_CovidAura1"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10567559954804810046
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 4580330098148208303
+      value {
+        Overrides {
+          Name: "Name"
+          String: "C2F_CovidAura1"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 4.19096088
+            Y: 4.19096088
+            Z: 4.19096088
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Z: -268.496338
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -67.7332153
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3728979600918661467
+    }
   }
 }
 Objects {
@@ -1995,15 +2355,15 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 1.85213506
-            Y: 1.85213506
-            Z: 1.85213506
+            X: 0.914594948
+            Y: 0.914594948
+            Z: 0.914594948
           }
         }
         Overrides {
           Name: "Position"
           Vector {
-            Z: -75.8481445
+            Z: -175.646973
           }
         }
       }
@@ -2014,52 +2374,19 @@ Objects {
   }
 }
 Objects {
-  Id: 5509248212709670412
-  Name: "C2F_CovidAura"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10567559954804810046
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 2885527514888761191
-      value {
-        Overrides {
-          Name: "Name"
-          String: "C2F_CovidAura"
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 17
-            Y: 17
-            Z: 17
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 5874369901957612822
-    }
-  }
-}
-Objects {
   Id: 13244599555570830845
   Name: "Trigger"
   Transform {
     Location {
+      Z: -223.861328
     }
     Rotation {
       Yaw: 62.6012688
     }
     Scale {
-      X: 17
-      Y: 17
-      Z: 17
+      X: 6.91617
+      Y: 6.91617
+      Z: 6.91617
     }
   }
   ParentId: 10567559954804810046
@@ -2155,8 +2482,8 @@ Objects {
   ParentId: 17315922363621527349
   ChildIds: 10486345362179362120
   ChildIds: 12385335578889788000
-  ChildIds: 13211406018101634781
   ChildIds: 13987994076286324403
+  ChildIds: 9732930078852073957
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2165,6 +2492,52 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 9732930078852073957
+  Name: "C2F_CovidAura1"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3699851542711503124
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 4580330098148208303
+      value {
+        Overrides {
+          Name: "Name"
+          String: "C2F_CovidAura1"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 4.19096088
+            Y: 4.19096088
+            Z: 4.19096088
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Z: -268.496338
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -37.6749878
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3728979600918661467
+    }
   }
 }
 Objects {
@@ -2190,15 +2563,15 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 1.85213506
-            Y: 1.85213506
-            Z: 1.85213506
+            X: 0.914594948
+            Y: 0.914594948
+            Z: 0.914594948
           }
         }
         Overrides {
           Name: "Position"
           Vector {
-            Z: -75.8481445
+            Z: -175.646973
           }
         }
       }
@@ -2209,52 +2582,19 @@ Objects {
   }
 }
 Objects {
-  Id: 13211406018101634781
-  Name: "C2F_CovidAura"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 3699851542711503124
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 2885527514888761191
-      value {
-        Overrides {
-          Name: "Name"
-          String: "C2F_CovidAura"
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 17
-            Y: 17
-            Z: 17
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 5874369901957612822
-    }
-  }
-}
-Objects {
   Id: 12385335578889788000
   Name: "Trigger"
   Transform {
     Location {
+      Z: -223.861328
     }
     Rotation {
       Yaw: 62.6012688
     }
     Scale {
-      X: 17
-      Y: 17
-      Z: 17
+      X: 6.91617
+      Y: 6.91617
+      Z: 6.91617
     }
   }
   ParentId: 3699851542711503124
@@ -2350,8 +2690,8 @@ Objects {
   ParentId: 17315922363621527349
   ChildIds: 5119402495166440067
   ChildIds: 7703812310779205408
-  ChildIds: 4197897860089347262
   ChildIds: 3942858083543607587
+  ChildIds: 6692900174749073489
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2360,6 +2700,44 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 6692900174749073489
+  Name: "C2F_CovidAura1"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5530843972838747909
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 4580330098148208303
+      value {
+        Overrides {
+          Name: "Name"
+          String: "C2F_CovidAura1"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Z: -268.496338
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -35.4367676
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3728979600918661467
+    }
   }
 }
 Objects {
@@ -2385,15 +2763,15 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 1.85213506
-            Y: 1.85213506
-            Z: 1.85213506
+            X: 0.914594948
+            Y: 0.914594948
+            Z: 0.914594948
           }
         }
         Overrides {
           Name: "Position"
           Vector {
-            Z: -75.8481445
+            Z: -175.646973
           }
         }
       }
@@ -2404,52 +2782,19 @@ Objects {
   }
 }
 Objects {
-  Id: 4197897860089347262
-  Name: "C2F_CovidAura"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 5530843972838747909
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 2885527514888761191
-      value {
-        Overrides {
-          Name: "Name"
-          String: "C2F_CovidAura"
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 17
-            Y: 17
-            Z: 17
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 5874369901957612822
-    }
-  }
-}
-Objects {
   Id: 7703812310779205408
   Name: "Trigger"
   Transform {
     Location {
+      Z: -223.861328
     }
     Rotation {
       Yaw: 62.6012688
     }
     Scale {
-      X: 17
-      Y: 17
-      Z: 17
+      X: 6.91617
+      Y: 6.91617
+      Z: 6.91617
     }
   }
   ParentId: 5530843972838747909
@@ -2545,8 +2890,8 @@ Objects {
   ParentId: 17315922363621527349
   ChildIds: 14533603766835790311
   ChildIds: 13069246888209609596
-  ChildIds: 2960188597371442219
   ChildIds: 10368515518404128737
+  ChildIds: 8263713604038756005
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2555,6 +2900,58 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 8263713604038756005
+  Name: "C2F_CovidAura1"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15475537715485925963
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 4580330098148208303
+      value {
+        Overrides {
+          Name: "Name"
+          String: "C2F_CovidAura1"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Z: -268.496338
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -67.4020691
+          }
+        }
+        Overrides {
+          Name: "StaticMesh"
+          AssetReference {
+            Id: 14023144080669477239
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1.83539832
+            Y: 1.83539832
+            Z: 1.83539832
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3728979600918661467
+    }
   }
 }
 Objects {
@@ -2580,15 +2977,15 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 1.85213506
-            Y: 1.85213506
-            Z: 1.85213506
+            X: 0.914594948
+            Y: 0.914594948
+            Z: 0.914594948
           }
         }
         Overrides {
           Name: "Position"
           Vector {
-            Z: -75.8481445
+            Z: -175.646973
           }
         }
       }
@@ -2599,52 +2996,19 @@ Objects {
   }
 }
 Objects {
-  Id: 2960188597371442219
-  Name: "C2F_CovidAura"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 15475537715485925963
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 2885527514888761191
-      value {
-        Overrides {
-          Name: "Name"
-          String: "C2F_CovidAura"
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 17
-            Y: 17
-            Z: 17
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 5874369901957612822
-    }
-  }
-}
-Objects {
   Id: 13069246888209609596
   Name: "Trigger"
   Transform {
     Location {
+      Z: -223.861328
     }
     Rotation {
       Yaw: 62.6012688
     }
     Scale {
-      X: 17
-      Y: 17
-      Z: 17
+      X: 6.91617
+      Y: 6.91617
+      Z: 6.91617
     }
   }
   ParentId: 15475537715485925963
@@ -2740,8 +3104,8 @@ Objects {
   ParentId: 17315922363621527349
   ChildIds: 7657037884304165396
   ChildIds: 4957889600422204562
-  ChildIds: 4188045260063354427
   ChildIds: 6569160260042274137
+  ChildIds: 17137601613596853991
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -2750,6 +3114,44 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 17137601613596853991
+  Name: "C2F_CovidAura1"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5641268950794102711
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 4580330098148208303
+      value {
+        Overrides {
+          Name: "Name"
+          String: "C2F_CovidAura1"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Z: -268.496338
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -45.680603
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3728979600918661467
+    }
   }
 }
 Objects {
@@ -2775,15 +3177,15 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 1.85213506
-            Y: 1.85213506
-            Z: 1.85213506
+            X: 0.914594948
+            Y: 0.914594948
+            Z: 0.914594948
           }
         }
         Overrides {
           Name: "Position"
           Vector {
-            Z: -75.8481445
+            Z: -175.646973
           }
         }
       }
@@ -2794,52 +3196,19 @@ Objects {
   }
 }
 Objects {
-  Id: 4188045260063354427
-  Name: "C2F_CovidAura"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 5641268950794102711
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 2885527514888761191
-      value {
-        Overrides {
-          Name: "Name"
-          String: "C2F_CovidAura"
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 17
-            Y: 17
-            Z: 17
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 5874369901957612822
-    }
-  }
-}
-Objects {
   Id: 4957889600422204562
   Name: "Trigger"
   Transform {
     Location {
+      Z: -223.861328
     }
     Rotation {
       Yaw: 62.6012688
     }
     Scale {
-      X: 17
-      Y: 17
-      Z: 17
+      X: 6.91617
+      Y: 6.91617
+      Z: 6.91617
     }
   }
   ParentId: 5641268950794102711
@@ -2935,7 +3304,7 @@ Objects {
   ParentId: 17315922363621527349
   ChildIds: 13021757293582276329
   ChildIds: 5816498382366988335
-  ChildIds: 16855952631851197574
+  ChildIds: 13582076729796903689
   ChildIds: 13211257575592722740
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2970,15 +3339,15 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 1.85213506
-            Y: 1.85213506
-            Z: 1.85213506
+            X: 0.914594948
+            Y: 0.914594948
+            Z: 0.914594948
           }
         }
         Overrides {
           Name: "Position"
           Vector {
-            Z: -75.8481445
+            Z: -175.646973
           }
         }
       }
@@ -2989,8 +3358,8 @@ Objects {
   }
 }
 Objects {
-  Id: 16855952631851197574
-  Name: "C2F_CovidAura"
+  Id: 13582076729796903689
+  Name: "C2F_CovidAura1"
   Transform {
     Scale {
       X: 1
@@ -3001,29 +3370,42 @@ Objects {
   ParentId: 12334528164498514046
   TemplateInstance {
     ParameterOverrideMap {
-      key: 2885527514888761191
+      key: 4580330098148208303
       value {
         Overrides {
           Name: "Name"
-          String: "C2F_CovidAura"
+          String: "C2F_CovidAura1"
         }
         Overrides {
-          Name: "Scale"
+          Name: "Position"
           Vector {
-            X: 17
-            Y: 17
-            Z: 17
+            Z: -268.496338
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
+            Yaw: -34.6255798
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.9383834
+            Y: 0.9383834
+            Z: 0.9383834
+          }
+        }
+        Overrides {
+          Name: "StaticMesh"
+          AssetReference {
+            Id: 14023144080669477239
           }
         }
       }
     }
     TemplateAsset {
-      Id: 5874369901957612822
+      Id: 3728979600918661467
     }
   }
 }
@@ -3032,14 +3414,15 @@ Objects {
   Name: "Trigger"
   Transform {
     Location {
+      Z: -223.861328
     }
     Rotation {
       Yaw: 62.6012688
     }
     Scale {
-      X: 17
-      Y: 17
-      Z: 17
+      X: 6.91617
+      Y: 6.91617
+      Z: 6.91617
     }
   }
   ParentId: 12334528164498514046
@@ -3135,8 +3518,8 @@ Objects {
   ParentId: 17315922363621527349
   ChildIds: 5977742960281848743
   ChildIds: 2308060614906350677
-  ChildIds: 11441590469498287909
   ChildIds: 14322589504828872493
+  ChildIds: 14061942276130313682
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -3145,6 +3528,44 @@ Objects {
   }
   Folder {
     IsGroup: true
+  }
+}
+Objects {
+  Id: 14061942276130313682
+  Name: "C2F_CovidAura1"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10986169767025861312
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 4580330098148208303
+      value {
+        Overrides {
+          Name: "Name"
+          String: "C2F_CovidAura1"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Z: -288.720215
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -53.7438965
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3728979600918661467
+    }
   }
 }
 Objects {
@@ -3170,15 +3591,15 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 1.85213506
-            Y: 1.85213506
-            Z: 1.85213506
+            X: 0.914594948
+            Y: 0.914594948
+            Z: 0.914594948
           }
         }
         Overrides {
           Name: "Position"
           Vector {
-            Z: -75.8481445
+            Z: -175.646973
           }
         }
       }
@@ -3189,52 +3610,19 @@ Objects {
   }
 }
 Objects {
-  Id: 11441590469498287909
-  Name: "C2F_CovidAura"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10986169767025861312
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 2885527514888761191
-      value {
-        Overrides {
-          Name: "Name"
-          String: "C2F_CovidAura"
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 17
-            Y: 17
-            Z: 17
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 5874369901957612822
-    }
-  }
-}
-Objects {
   Id: 2308060614906350677
   Name: "Trigger"
   Transform {
     Location {
+      Z: -223.861328
     }
     Rotation {
       Yaw: 62.6012688
     }
     Scale {
-      X: 17
-      Y: 17
-      Z: 17
+      X: 6.91617
+      Y: 6.91617
+      Z: 6.91617
     }
   }
   ParentId: 10986169767025861312
