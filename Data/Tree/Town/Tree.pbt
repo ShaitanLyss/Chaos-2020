@@ -472,7 +472,7 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 0.751542807
+            X: 0.44204089
             Y: 5
             Z: 5
           }
@@ -528,7 +528,7 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 0.751542807
+            X: 0.448637575
             Y: 5
             Z: 5
           }
@@ -584,7 +584,7 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 0.751542807
+            X: 0.475058496
             Y: 5
             Z: 5
           }
@@ -640,7 +640,7 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 0.751542807
+            X: 0.450234264
             Y: 5
             Z: 5
           }
@@ -692,7 +692,7 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 0.751542807
+            X: 0.45343256
             Y: 5
             Z: 5
           }
