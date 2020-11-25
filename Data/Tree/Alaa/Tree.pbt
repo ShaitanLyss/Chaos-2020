@@ -27,13 +27,6 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "C2_LVL2"
   }
-  InstanceHistory {
-    SelfId: 8997968852244748379
-    SubobjectId: 16654495292939890785
-    InstanceId: 13477910542026773445
-    TemplateId: 3915291774251592516
-    WasRoot: true
-  }
 }
 Objects {
   Id: 13499469834330122794
@@ -65,13 +58,9 @@ Objects {
   }
 }
 Objects {
-  Id: 8997968852244748379
+  Id: 11772058835506480951
   Name: "C2_LVL2"
   Transform {
-    Location {
-    }
-    Rotation {
-    }
     Scale {
       X: 1
       Y: 1
@@ -85,16 +74,29 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "C2_LVL2_1"
-  }
-  InstanceHistory {
-    SelfId: 8997968852244748379
-    SubobjectId: 16654495292939890785
-    InstanceId: 13477910542026773445
-    TemplateId: 3915291774251592516
-    WasRoot: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16654495292939890785
+      value {
+        Overrides {
+          Name: "Name"
+          String: "C2_LVL2"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3915291774251592516
+    }
   }
 }
 Objects {

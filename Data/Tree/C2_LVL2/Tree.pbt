@@ -44,12 +44,6 @@ Objects {
       Id: 4548976448939812694
     }
   }
-  InstanceHistory {
-    SelfId: 6581542335215525090
-    SubobjectId: 13882845199832216792
-    InstanceId: 13477910542026773445
-    TemplateId: 3915291774251592516
-  }
 }
 Objects {
   Id: 12899308479996503787
@@ -79,11 +73,5 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "CPlatformModel_1"
-  }
-  InstanceHistory {
-    SelfId: 16973107116725885166
-    SubobjectId: 8102825907411153108
-    InstanceId: 13477910542026773445
-    TemplateId: 3915291774251592516
   }
 }
