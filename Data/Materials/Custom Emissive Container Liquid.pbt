@@ -7,17 +7,8 @@
     BaseMaterialId: 10819515487435190999
     ParameterOverrides {
       Overrides {
-        Name: "foam color"
-        Color {
-          R: 1
-          G: 1
-          B: 1
-          A: 1
-        }
-      }
-      Overrides {
         Name: "surface height"
-        Float: 0.901761055
+        Float: 0
       }
       Overrides {
         Name: "virtual plane orientation vector"
@@ -27,15 +18,15 @@
       }
       Overrides {
         Name: "scale"
-        Float: 3.5
+        Float: 9.4
       }
       Overrides {
         Name: "speed"
-        Float: 5
+        Float: 20
       }
       Overrides {
         Name: "wave scale multiplier"
-        Float: 0.988748
+        Float: 2
       }
       Overrides {
         Name: "wave height"
@@ -43,11 +34,7 @@
       }
       Overrides {
         Name: "bubbles"
-        Float: 10
-      }
-      Overrides {
-        Name: "edge power"
-        Float: 1.25940871
+        Float: 0.213083044
       }
       Overrides {
         Name: "edge width"
@@ -58,22 +45,55 @@
         Float: 20
       }
       Overrides {
-        Name: "top edge foam distance"
-        Float: -3
+        Name: "surface foam"
+        Float: 0.222782731
       }
       Overrides {
-        Name: "color"
+        Name: "surface displacement amount"
+        Float: 2
+      }
+      Overrides {
+        Name: "foam edge speed"
+        Float: 5
+      }
+      Overrides {
+        Name: "edge power"
+        Float: 1.5
+      }
+      Overrides {
+        Name: "top color"
         Color {
-          G: 15
-          B: 0.52056
+          R: 0.0299520027
+          G: 0.0360000022
+          B: 0.0311014559
           A: 1
         }
       }
       Overrides {
         Name: "inner color"
         Color {
-          G: 0.119792
-          B: 0.02921
+          R: 0.018756
+          G: 0.0360000022
+          B: 0.0229607671
+          A: 1
+        }
+      }
+      Overrides {
+        Name: "top edge foam"
+        Float: 0
+      }
+      Overrides {
+        Name: "foam color"
+        Color {
+          R: 0.243000016
+          G: 0.179839328
+          B: 0.134622008
+          A: 1
+        }
+      }
+      Overrides {
+        Name: "color"
+        Color {
           A: 1
         }
       }

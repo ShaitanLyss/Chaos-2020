@@ -233,13 +233,6 @@ Objects {
   Id: 5840337291297542222
   Name: "C_level2_border"
   Transform {
-    Location {
-      X: -400
-      Y: -50
-    }
-    Rotation {
-      Yaw: -75.2418213
-    }
     Scale {
       X: 1
       Y: 1
@@ -247,6 +240,12 @@ Objects {
     }
   }
   ParentId: 7325224074645116302
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 3721752853739363704
@@ -266,14 +265,6 @@ Objects {
           Name: "Rotation"
           Rotator {
             Yaw: 89.7757797
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
           }
         }
       }
@@ -332,22 +323,28 @@ Objects {
         }
       }
     }
+    ParameterOverrideMap {
+      key: 9279732646782768801
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 6575.81348
+            Y: 2817.06885
+            Z: 2420.97705
+          }
+        }
+      }
+    }
     TemplateAsset {
       Id: 9309018929621835786
     }
   }
 }
 Objects {
-  Id: 8346231626962420076
+  Id: 1774992452236103031
   Name: "C_level2_border"
   Transform {
-    Location {
-      X: -400
-      Y: -50
-    }
-    Rotation {
-      Yaw: -105.077141
-    }
     Scale {
       X: 1
       Y: 1
@@ -355,6 +352,12 @@ Objects {
     }
   }
   ParentId: 7325224074645116302
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 3721752853739363704
@@ -374,14 +377,6 @@ Objects {
           Name: "Rotation"
           Rotator {
             Yaw: 59.9414215
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
           }
         }
       }
@@ -436,6 +431,25 @@ Objects {
             X: 1
             Y: 1
             Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 9279732646782768801
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 6575.81299
+            Y: 2817.06836
+            Z: 2425.42554
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 22.7831478
           }
         }
       }
@@ -785,12 +799,6 @@ Objects {
   Id: 3653013329597324430
   Name: "C_level2_border"
   Transform {
-    Location {
-      X: -400
-      Y: -50
-    }
-    Rotation {
-    }
     Scale {
       X: 1
       Y: 1
@@ -798,6 +806,12 @@ Objects {
     }
   }
   ParentId: 7325224074645116302
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 3721752853739363704
@@ -819,12 +833,17 @@ Objects {
             Yaw: -75.2418213
           }
         }
+      }
+    }
+    ParameterOverrideMap {
+      key: 9279732646782768801
+      value {
         Overrides {
-          Name: "Scale"
+          Name: "Position"
           Vector {
-            X: 1
-            Y: 1
-            Z: 1
+            X: 6575.81641
+            Y: 2817.06885
+            Z: 2423.01367
           }
         }
       }

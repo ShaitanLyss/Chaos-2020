@@ -1092,17 +1092,14 @@ Objects {
           String: "_Level.2.Corona Spreader"
         }
         Overrides {
-          Name: "Scale"
+          Name: "Position"
           Vector {
-            X: 0.914594948
-            Y: 0.914594948
-            Z: 0.914594948
+            Z: -128.906494
           }
         }
         Overrides {
-          Name: "Position"
-          Vector {
-            Z: -175.646973
+          Name: "Rotation"
+          Rotator {
           }
         }
       }
@@ -1497,17 +1494,14 @@ Objects {
           String: "_Level.2.Corona Spreader"
         }
         Overrides {
-          Name: "Scale"
+          Name: "Position"
           Vector {
-            X: 0.914594948
-            Y: 0.914594948
-            Z: 0.914594948
+            Z: -128.906494
           }
         }
         Overrides {
-          Name: "Position"
-          Vector {
-            Z: -175.646973
+          Name: "Rotation"
+          Rotator {
           }
         }
       }
@@ -1616,17 +1610,14 @@ Objects {
           String: "_Level.2.Corona Spreader"
         }
         Overrides {
-          Name: "Scale"
+          Name: "Position"
           Vector {
-            X: 0.914594948
-            Y: 0.914594948
-            Z: 0.914594948
+            Z: -128.906494
           }
         }
         Overrides {
-          Name: "Position"
-          Vector {
-            Z: -175.646973
+          Name: "Rotation"
+          Rotator {
           }
         }
       }
@@ -1694,9 +1685,9 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 4.19096088
-            Y: 4.19096088
-            Z: 4.19096088
+            X: 5.37653255
+            Y: 5.37653255
+            Z: 5.37653255
           }
         }
         Overrides {
@@ -1733,22 +1724,15 @@ Objects {
           String: "_Level.2.Corona Spreader"
         }
         Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.914594948
-            Y: 0.914594948
-            Z: 0.914594948
-          }
-        }
-        Overrides {
           Name: "Position"
           Vector {
-            Z: -175.646973
+            Z: -128.906494
           }
         }
         Overrides {
-          Name: "AnimatedMeshStancePlaybackRate"
-          Float: 0.9
+          Name: "Rotation"
+          Rotator {
+          }
         }
       }
     }
@@ -1856,22 +1840,15 @@ Objects {
           String: "_Level.2.Corona Spreader"
         }
         Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.914594948
-            Y: 0.914594948
-            Z: 0.914594948
-          }
-        }
-        Overrides {
           Name: "Position"
           Vector {
-            Z: -175.646973
+            Z: -128.906494
           }
         }
         Overrides {
-          Name: "AnimatedMeshStancePlaybackRate"
-          Float: 0.91
+          Name: "Rotation"
+          Rotator {
+          }
         }
       }
     }
@@ -1932,9 +1909,9 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 4.19096088
-            Y: 4.19096088
-            Z: 4.19096088
+            X: 5.91653442
+            Y: 5.91653442
+            Z: 5.91653442
           }
         }
         Overrides {
@@ -1977,22 +1954,15 @@ Objects {
           String: "_Level.2.Corona Spreader"
         }
         Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.914594948
-            Y: 0.914594948
-            Z: 0.914594948
-          }
-        }
-        Overrides {
           Name: "Position"
           Vector {
-            Z: -175.646973
+            Z: -128.906494
           }
         }
         Overrides {
-          Name: "AnimatedMeshStancePlaybackRate"
-          Float: 1.06
+          Name: "Rotation"
+          Rotator {
+          }
         }
       }
     }
@@ -2061,9 +2031,9 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 4.19096088
-            Y: 4.19096088
-            Z: 4.19096088
+            X: 6.68281364
+            Y: 6.68281364
+            Z: 6.68281364
           }
         }
         Overrides {
@@ -2100,22 +2070,15 @@ Objects {
           String: "_Level.2.Corona Spreader"
         }
         Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.914594948
-            Y: 0.914594948
-            Z: 0.914594948
-          }
-        }
-        Overrides {
           Name: "Position"
           Vector {
-            Z: -175.646973
+            Z: -133.534668
           }
         }
         Overrides {
-          Name: "AnimatedMeshStancePlaybackRate"
-          Float: 0.99
+          Name: "Rotation"
+          Rotator {
+          }
         }
       }
     }
@@ -2176,9 +2139,9 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 4.19096088
-            Y: 4.19096088
-            Z: 4.19096088
+            X: 5.70242262
+            Y: 5.70242262
+            Z: 5.70242262
           }
         }
         Overrides {
@@ -2221,17 +2184,14 @@ Objects {
           String: "_Level.2.Corona Spreader"
         }
         Overrides {
-          Name: "Scale"
+          Name: "Position"
           Vector {
-            X: 0.914594948
-            Y: 0.914594948
-            Z: 0.914594948
+            Z: -134.499268
           }
         }
         Overrides {
-          Name: "Position"
-          Vector {
-            Z: -175.646973
+          Name: "Rotation"
+          Rotator {
           }
         }
       }
@@ -2338,22 +2298,15 @@ Objects {
           String: "_Level.2.Corona Spreader"
         }
         Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.914594948
-            Y: 0.914594948
-            Z: 0.914594948
-          }
-        }
-        Overrides {
           Name: "Position"
           Vector {
-            Z: -175.646973
+            Z: -128.906494
           }
         }
         Overrides {
-          Name: "AnimatedMeshStancePlaybackRate"
-          Float: 1.04
+          Name: "Rotation"
+          Rotator {
+          }
         }
       }
     }
@@ -2459,22 +2412,15 @@ Objects {
           String: "_Level.2.Corona Spreader"
         }
         Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.914594948
-            Y: 0.914594948
-            Z: 0.914594948
-          }
-        }
-        Overrides {
           Name: "Position"
           Vector {
-            Z: -175.646973
+            Z: -128.906494
           }
         }
         Overrides {
-          Name: "AnimatedMeshStancePlaybackRate"
-          Float: 0.97
+          Name: "Rotation"
+          Rotator {
+          }
         }
       }
     }
@@ -2832,7 +2778,7 @@ Objects {
   Name: "_Level.2.Corona Spreader"
   Transform {
     Location {
-      Z: -175.646973
+      Z: -128.906494
     }
     Scale {
       X: 0.914594948
@@ -3240,7 +3186,7 @@ Objects {
   Name: "_Level.2.Corona Spreader"
   Transform {
     Location {
-      Z: -175.646973
+      Z: -128.906494
     }
     Scale {
       X: 0.914594948
@@ -3402,22 +3348,15 @@ Objects {
           String: "_Level.2.Corona Spreader"
         }
         Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.914594948
-            Y: 0.914594948
-            Z: 0.914594948
-          }
-        }
-        Overrides {
           Name: "Position"
           Vector {
-            Z: -175.646973
+            Z: -128.906494
           }
         }
         Overrides {
-          Name: "AnimatedMeshStancePlaybackRate"
-          Float: 0.95
+          Name: "Rotation"
+          Rotator {
+          }
         }
       }
     }
@@ -3515,22 +3454,15 @@ Objects {
           String: "_Level.2.Corona Spreader"
         }
         Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.914594948
-            Y: 0.914594948
-            Z: 0.914594948
-          }
-        }
-        Overrides {
           Name: "Position"
           Vector {
-            Z: -175.646973
+            Z: -128.906494
           }
         }
         Overrides {
-          Name: "AnimatedMeshStancePlaybackRate"
-          Float: 1.1
+          Name: "Rotation"
+          Rotator {
+          }
         }
       }
     }
@@ -3574,7 +3506,7 @@ Objects {
   Name: "_Level.2.Corona Spreader"
   Transform {
     Location {
-      Z: -175.646973
+      Z: -128.906494
     }
     Scale {
       X: 0.914594948
@@ -4036,22 +3968,15 @@ Objects {
           String: "_Level.2.Corona Spreader"
         }
         Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.914594948
-            Y: 0.914594948
-            Z: 0.914594948
-          }
-        }
-        Overrides {
           Name: "Position"
           Vector {
-            Z: -175.646973
+            Z: -128.906494
           }
         }
         Overrides {
-          Name: "AnimatedMeshStancePlaybackRate"
-          Float: 1.02
+          Name: "Rotation"
+          Rotator {
+          }
         }
       }
     }
@@ -5608,6 +5533,20 @@ Objects {
             Yaw: -7
           }
         }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 15082714160791594269
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.616666794
+            B: 1
+            A: 1
+          }
+        }
       }
     }
     TemplateAsset {
@@ -5662,6 +5601,20 @@ Objects {
             X: 0.433940023
             Y: 12
             Z: 6.5
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 15082714160791594269
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.616666794
+            B: 1
+            A: 1
           }
         }
       }
@@ -5720,6 +5673,20 @@ Objects {
             Z: 6.5
           }
         }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 15082714160791594269
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.616666794
+            B: 1
+            A: 1
+          }
+        }
       }
     }
     TemplateAsset {
@@ -5766,6 +5733,20 @@ Objects {
             X: 0.433940023
             Y: 10
             Z: 6.5
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 15082714160791594269
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:color"
+          Color {
+            R: 0.616666794
+            B: 1
+            A: 1
           }
         }
       }

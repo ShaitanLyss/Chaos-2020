@@ -10,9 +10,9 @@
         Name: "_Level.2.Corona Spreader"
         Transform {
           Scale {
-            X: 1.85213506
-            Y: 1.85213506
-            Z: 1.85213506
+            X: 1.34454131
+            Y: 1.34454131
+            Z: 1.34454131
           }
         }
         ParentId: 2124726521921849759

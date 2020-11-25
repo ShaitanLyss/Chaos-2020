@@ -146,3 +146,50 @@ Objects {
     }
   }
 }
+Objects {
+  Id: 15532754770031471032
+  Name: "Death Pool"
+  Transform {
+    Location {
+      X: 4.01428223
+      Y: -12.3413086
+      Z: 2490.54639
+    }
+    Rotation {
+    }
+    Scale {
+      X: 165
+      Y: 165
+      Z: -0.449316353
+    }
+  }
+  ParentId: 8473058261175908689
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 8490820923030596934
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 15231126974442176829
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}

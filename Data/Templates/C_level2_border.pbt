@@ -7,7 +7,7 @@
       RootId: 3721752853739363704
       Objects {
         Id: 3721752853739363704
-        Name: "Group"
+        Name: "C_level2_border"
         Transform {
           Scale {
             X: 1
@@ -15,7 +15,7 @@
             Z: 1
           }
         }
-        ParentId: 8473058261175908689
+        ParentId: 7325224074645116302
         ChildIds: 12920718486117430809
         ChildIds: 14825168498543623687
         ChildIds: 813116903524096587
