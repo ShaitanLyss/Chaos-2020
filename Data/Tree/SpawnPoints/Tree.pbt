@@ -5,12 +5,12 @@ Objects {
   Name: "Lyss_SpawnPoint"
   Transform {
     Location {
-      X: 4702.7915
-      Y: 4534.77783
-      Z: 2783.83643
+      X: 8848.56445
+      Y: 2161.9978
+      Z: 1210.08606
     }
     Rotation {
-      Yaw: -79.9812927
+      Yaw: -79.9812622
     }
     Scale {
       X: 1
