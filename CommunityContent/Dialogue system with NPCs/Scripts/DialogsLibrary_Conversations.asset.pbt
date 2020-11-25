@@ -1,5 +1,5 @@
 ﻿Assets {
-  Id: 3996317038680426936
+  Id: 9482368631113131996
   Name: "DialogsLibrary_Conversations"
   PlatformAssetType: 3
   TextAsset {
@@ -7,7 +7,7 @@
       Overrides {
         Name: "cs:APIDialoguesLibrary"
         AssetReference {
-          Id: 1346838802617365091
+          Id: 1444967334315660549
         }
       }
     }

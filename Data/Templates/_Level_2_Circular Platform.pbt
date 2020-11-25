@@ -7,15 +7,27 @@
       RootId: 8226220198750271134
       Objects {
         Id: 8226220198750271134
-        Name: "Circular platform"
+        Name: "P_15"
         Transform {
           Scale {
-            X: 5.74391651
-            Y: 5.744
-            Z: 1
+            X: 4.82
+            Y: 4.82
+            Z: 0.4
           }
         }
         ParentId: 13736249812600814928
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 15082714160791594269
+            }
+          }
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:smart"
+            Bool: false
+          }
+        }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }

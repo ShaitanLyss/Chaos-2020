@@ -1,5 +1,5 @@
 ﻿Assets {
-  Id: 17040988936900815667
+  Id: 14633227846591800506
   Name: "DialogManagerServer"
   PlatformAssetType: 3
   TextAsset {

@@ -1,5 +1,5 @@
 ﻿Assets {
-  Id: 4772201879283541023
+  Id: 3883525792625657706
   Name: "Helper_DialogOptionPanel"
   PlatformAssetType: 5
   TemplateAsset {
@@ -86,7 +86,7 @@
         }
         Script {
           ScriptAsset {
-            Id: 7063995119393109132
+            Id: 3672588578811983587
           }
         }
       }

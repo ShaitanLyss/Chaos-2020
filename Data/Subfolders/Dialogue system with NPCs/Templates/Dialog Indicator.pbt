@@ -1,5 +1,5 @@
 ﻿Assets {
-  Id: 8079060616630118538
+  Id: 12362618696425433544
   Name: "Dialog Indicator"
   PlatformAssetType: 5
   TemplateAsset {
