@@ -576,14 +576,14 @@ Objects {
   }
   ParentId: 11404857991553905137
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
+    Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Level 2 - Circle_1"
+    FilePartitionName: "Level 2 - Circle"
   }
 }
 Objects {

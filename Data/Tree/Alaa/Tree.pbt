@@ -120,35 +120,6 @@ Objects {
   }
 }
 Objects {
-  Id: 9336659437334903971
-  Name: "Level 2 - Circle"
-  Transform {
-    Location {
-      X: 3600
-      Y: 8250
-      Z: 1000
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4861888266353863378
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Level 2 - Circle"
-  }
-}
-Objects {
   Id: 5064215164208677032
   Name: "Level 1 - Circle 1"
   Transform {
