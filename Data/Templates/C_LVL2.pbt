@@ -380,6 +380,10 @@
             Name: "cs:DecreaseSpeedPer"
             Float: 0.7
           }
+          Overrides {
+            Name: "cs:JumpSpeedPer"
+            Float: 0.3
+          }
         }
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"

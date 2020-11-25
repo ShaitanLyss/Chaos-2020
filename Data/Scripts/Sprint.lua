@@ -10,6 +10,8 @@ local sprintingJump = 1050
 
 local normalBaseSpeed = 1000
 local normalSprintingSpeed = 2000
+local normalBaseJump = 900
+local normalSprintingJump = 1050
 --local isSprinting = false
 local isNearGround = true
 
@@ -81,21 +83,29 @@ end
 
 
 --1 for begin  (decrease the speed ) -- 2 for end (return the speed ) 
-function OnSpeedChanged(decreaseSpeedPer, beginEnd)
+function OnSpeedChanged(decreaseSpeedPer, beginEnd, jumpSpeedPer)
     print(decreaseSpeedPer)
     if(beginEnd == 1) then
         baseSpeed = baseSpeed * (1 - decreaseSpeedPer)
         sprintingSpeed = sprintingSpeed * (1 - decreaseSpeedPer)
         thePlayer.maxWalkSpeed = thePlayer.maxWalkSpeed * (1- decreaseSpeedPer)
 
-        Task.Wait(1)
+        baseJump = baseJump * (1 - jumpSpeedPer)
+        sprintingJump = sprintingJump * (1 - jumpSpeedPer)
+        thePlayer.jumpVelocity	 =  thePlayer.jumpVelocity * (1 - jumpSpeedPer)
+
+        --Task.Wait(1)
         --print("speeed")
         --print(thePlayer.maxWalkSpeed)
     elseif(beginEnd == 2) then
         baseSpeed = normalBaseSpeed
         sprintingSpeed = normalSprintingSpeed
         thePlayer.maxWalkSpeed = normalBaseSpeed
-        Task.Wait(1)
+
+        baseJump = normalBaseJump
+        sprintingJump = normalSprintingJump
+        thePlayer.jumpVelocity	 =  normalBaseJump
+        --Task.Wait(1)
         --print("return speeed")
         --print(thePlayer.maxWalkSpeed)
     end
