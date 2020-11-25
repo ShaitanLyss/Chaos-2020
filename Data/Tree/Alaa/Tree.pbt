@@ -1,6 +1,32 @@
 ﻿Name: "Alaa"
 RootId: 4861888266353863378
 Objects {
+  Id: 12996514769552098833
+  Name: "MovingPlatform_LVL2"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4861888266353863378
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 3226715498800774037
+      value {
+        Overrides {
+          Name: "Name"
+          String: "MovingPlatform_LVL2"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16723762931607670614
+    }
+  }
+}
+Objects {
   Id: 14438878387009082927
   Name: "DistanceCalc_Lvl1"
   Transform {
