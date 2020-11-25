@@ -21,7 +21,7 @@ local ROTATE_SPEED = .5
 local INDICATOR_OFFSET = 150
 
 -- MINE
-Behavior = require(ROOT:GetCustomProperty("Behavior"))
+local Behavior = require(ROOT:GetCustomProperty("Behavior"))
 local i = 0
 
 
