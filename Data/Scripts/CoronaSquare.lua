@@ -8,6 +8,7 @@ local jumpSpeedPer = script:GetCustomProperty("JumpSpeedPer")
 function OnBeginOverlap(trigger, thePlayer)
     if thePlayer:IsA("Player")  and not thePlayer.isDead then
        Events.Broadcast("E_SpeedChanged", decreaseSpeedPer, 1, jumpSpeedPer)
+       Events.BroadcastToAllPlayers("E_StartTime", thePlayer)
     end
 end
 
@@ -15,6 +16,7 @@ end
 function OnEndOverlap(trigger, thePlayer)
     if thePlayer:IsA("Player")  and not thePlayer.isDead then
         Events.Broadcast("E_SpeedChanged", decreaseSpeedPer, 2, jumpSpeedPer)
+        Events.BroadcastToAllPlayers("E_StopTime", thePlayer)
     end
 end
 

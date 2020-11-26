@@ -1,8 +1,8 @@
-﻿Name: "DistanceCalc_Lvl1"
-RootId: 7149579895321862950
+﻿Name: "DistanceCalc_Lvl1_1"
+RootId: 14438878387009082927
 Objects {
-  Id: 18367807608576850172
-  Name: "BigDie_LVL2"
+  Id: 14954282344273573782
+  Name: "ClientContext  FW_Bar"
   Transform {
     Location {
     }
@@ -14,34 +14,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7149579895321862950
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "BigDie_LVL2"
-  }
-}
-Objects {
-  Id: 10758788117194149084
-  Name: "ClientContext  C_Bar"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 7149579895321862950
-  ChildIds: 8227458659002647045
+  ParentId: 14438878387009082927
+  ChildIds: 11655607203755098703
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -52,8 +26,8 @@ Objects {
   }
 }
 Objects {
-  Id: 8227458659002647045
-  Name: "CoronaContainer"
+  Id: 11655607203755098703
+  Name: "FireWallContainer"
   Transform {
     Location {
     }
@@ -65,9 +39,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10758788117194149084
-  ChildIds: 937535530957126629
-  ChildIds: 4669222827923480174
+  ParentId: 14954282344273573782
+  ChildIds: 15232005140999888162
+  ChildIds: 5357074728950565128
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -97,8 +71,8 @@ Objects {
   }
 }
 Objects {
-  Id: 4669222827923480174
-  Name: "CoronaController"
+  Id: 5357074728950565128
+  Name: "FireWallBarController"
   Transform {
     Location {
     }
@@ -110,17 +84,21 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8227458659002647045
+  ParentId: 11655607203755098703
   UnregisteredParameters {
     Overrides {
-      Name: "cs:CoronaBar"
+      Name: "cs:FireWallBar"
       ObjectReference {
-        SelfId: 937535530957126629
+        SelfId: 15232005140999888162
       }
     }
     Overrides {
-      Name: "cs:MintuesToFill"
-      Float: 0.1
+      Name: "cs:ToEmptyBar"
+      Int: 30
+    }
+    Overrides {
+      Name: "cs:MaxFillBar"
+      Float: 0.95
     }
   }
   Collidable_v2 {
@@ -131,13 +109,13 @@ Objects {
   }
   Script {
     ScriptAsset {
-      Id: 6294219696318805094
+      Id: 4336849169023581845
     }
   }
 }
 Objects {
-  Id: 937535530957126629
-  Name: "CoronaBar"
+  Id: 15232005140999888162
+  Name: "FireWallBar"
   Transform {
     Location {
     }
@@ -149,7 +127,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8227458659002647045
+  ParentId: 11655607203755098703
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -190,5 +168,31 @@ Objects {
         }
       }
     }
+  }
+}
+Objects {
+  Id: 3065976649205298401
+  Name: "D_PlayerFireWall"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14438878387009082927
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "D_PlayerFireWall"
   }
 }

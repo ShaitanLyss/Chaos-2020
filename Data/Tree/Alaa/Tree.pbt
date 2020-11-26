@@ -1,12 +1,10 @@
 ﻿Name: "Alaa"
 RootId: 4861888266353863378
 Objects {
-  Id: 593364632887678616
-  Name: "C2_LVL2"
+  Id: 7149579895321862950
+  Name: "CoronaBar_Lvl2"
   Transform {
     Location {
-      X: 1760
-      Z: 20
     }
     Rotation {
     }
@@ -25,7 +23,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "C2_LVL2"
+    FilePartitionName: "DistanceCalc_Lvl1"
   }
 }
 Objects {
@@ -122,7 +120,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "DistanceCalc_Lvl1"
+    FilePartitionName: "DistanceCalc_Lvl1_1"
   }
 }
 Objects {
