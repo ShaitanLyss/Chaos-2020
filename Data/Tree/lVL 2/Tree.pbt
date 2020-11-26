@@ -1,6 +1,77 @@
 ﻿Name: "lVL 2"
 RootId: 12127039351674411785
 Objects {
+  Id: 1026868322129171785
+  Name: "Bone Human Ribcage 01"
+  Transform {
+    Location {
+      X: -2707.74316
+      Y: 13228.4219
+      Z: 59.6672363
+    }
+    Rotation {
+      Pitch: 0.951329172
+      Yaw: 5.07100487
+      Roll: -0.0365295522
+    }
+    Scale {
+      X: 5.88015
+      Y: 11.426363
+      Z: 7.56941748
+    }
+  }
+  ParentId: 12127039351674411785
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 16548715189811476968
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.0739866644
+        G: 0.00309997867
+        B: 0.155
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 18.88727
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 64
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7562682327141705794
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
   Id: 10357783647278337511
   Name: "Hill 05"
   Transform {
