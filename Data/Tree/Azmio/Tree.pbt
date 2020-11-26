@@ -2,7 +2,7 @@
 RootId: 11404857991553905137
 Objects {
   Id: 3988317910669985612
-  Name: "Level 2 platform"
+  Name: "Level 2 Mov.platform"
   Transform {
     Location {
       X: -3997.68823
@@ -26,7 +26,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Level 2 platform"
+    FilePartitionName: "Level 2 Mov_platform"
   }
 }
 Objects {
@@ -558,6 +558,32 @@ Objects {
       Physics {
       }
     }
+  }
+}
+Objects {
+  Id: 3730128779952504670
+  Name: "Level 3 - Circle"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11404857991553905137
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Level 3 - Circle"
   }
 }
 Objects {

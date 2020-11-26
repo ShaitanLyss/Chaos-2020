@@ -58,6 +58,32 @@ Objects {
   }
 }
 Objects {
+  Id: 18274242002942582486
+  Name: "Invisible outer wall"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8473058261175908689
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceoff"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Invisible outer wall"
+  }
+}
+Objects {
   Id: 6413319447771045798
   Name: "Plane Circle - One Sided"
   Transform {

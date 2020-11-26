@@ -563,7 +563,7 @@ Objects {
     }
     Overrides {
       Name: "cs:AzmioTest"
-      Bool: false
+      Bool: true
     }
     Overrides {
       Name: "cs:BrandonTest"
@@ -571,7 +571,7 @@ Objects {
     }
     Overrides {
       Name: "cs:LyssTest"
-      Bool: true
+      Bool: false
     }
   }
   Collidable_v2 {

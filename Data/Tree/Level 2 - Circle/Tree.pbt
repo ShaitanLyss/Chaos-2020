@@ -4438,6 +4438,35 @@ Objects {
 }
 Objects {
   Id: 9558182245450181987
+  Name: "C-10_LVL2"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5239628783255204261
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "C-10_LVL2"
+  }
+  InstanceHistory {
+    SelfId: 9558182245450181987
+    SubobjectId: 16654495292939890785
+    InstanceId: 10923512792283994918
+    TemplateId: 3915291774251592516
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 15011568182834846582
   Name: "C-9_LVL2"
   Transform {
     Scale {
@@ -4458,15 +4487,15 @@ Objects {
     FilePartitionName: "C-9_LVL2"
   }
   InstanceHistory {
-    SelfId: 9558182245450181987
+    SelfId: 15011568182834846582
     SubobjectId: 16654495292939890785
-    InstanceId: 10923512792283994918
+    InstanceId: 9977068665712110208
     TemplateId: 3915291774251592516
     WasRoot: true
   }
 }
 Objects {
-  Id: 15011568182834846582
+  Id: 13512507945184217816
   Name: "C-8_LVL2"
   Transform {
     Scale {
@@ -4487,17 +4516,21 @@ Objects {
     FilePartitionName: "C-8_LVL2"
   }
   InstanceHistory {
-    SelfId: 15011568182834846582
+    SelfId: 13512507945184217816
     SubobjectId: 16654495292939890785
-    InstanceId: 9977068665712110208
+    InstanceId: 9818333967930537304
     TemplateId: 3915291774251592516
     WasRoot: true
   }
 }
 Objects {
-  Id: 13512507945184217816
+  Id: 7517284127220996867
   Name: "C-7_LVL2"
   Transform {
+    Location {
+    }
+    Rotation {
+    }
     Scale {
       X: 1
       Y: 1
@@ -4516,9 +4549,9 @@ Objects {
     FilePartitionName: "C-7_LVL2"
   }
   InstanceHistory {
-    SelfId: 13512507945184217816
+    SelfId: 7162217236213746847
     SubobjectId: 16654495292939890785
-    InstanceId: 9818333967930537304
+    InstanceId: 15108377176271350171
     TemplateId: 3915291774251592516
     WasRoot: true
   }
@@ -4819,16 +4852,16 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -10756.9297
-            Y: -8264.98242
+            X: -10754.6816
+            Y: -8246.66699
             Z: 1715
           }
         }
         Overrides {
           Name: "Scale"
           Vector {
-            X: 4.5
-            Y: 4.5
+            X: 4.50000381
+            Y: 4.91704845
             Z: 0.7
           }
         }
@@ -5249,7 +5282,7 @@ Objects {
           Name: "Position"
           Vector {
             X: -2740
-            Y: -1015
+            Y: -1065.13818
             Z: 1853
           }
         }
@@ -5271,6 +5304,14 @@ Objects {
             R: 0.616666794
             B: 1
             A: 1
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.400003791
+            Y: 13.87644
+            Z: 6.5
           }
         }
       }
@@ -5310,8 +5351,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -2005
-            Y: -1815
+            X: -2007.0592
+            Y: -1819.97168
             Z: 1853
           }
         }
@@ -5324,8 +5365,8 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 0.433940023
-            Y: 12
+            X: 0.433940381
+            Y: 10.9285908
             Z: 6.5
           }
         }
@@ -5380,8 +5421,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -164.459717
-            Y: -3043.11133
+            X: -131.902588
+            Y: -3001.93555
             Z: 1853
           }
         }
@@ -5394,8 +5435,8 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 0.433940023
-            Y: 7.5
+            X: 0.433938771
+            Y: 6.71921635
             Z: 6.5
           }
         }
@@ -5442,8 +5483,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -615
-            Y: -1505
+            X: -615.783203
+            Y: -1506.89063
             Z: 1853
           }
         }
@@ -5456,8 +5497,8 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 0.433940023
-            Y: 10
+            X: 0.43394348
+            Y: 9.58019447
             Z: 6.5
           }
         }
@@ -5483,21 +5524,20 @@ Objects {
   }
 }
 Objects {
-  Id: 6537734785441884527
-  Name: "Moving platform"
+  Id: 10086239993169646496
+  Name: "MovingPlatform_LVL2"
   Transform {
     Location {
-      X: 1654.39453
-      Y: -3997.52832
-      Z: 1505
+      X: 1252.39893
+      Y: -3372.21436
+      Z: 1490.54639
     }
     Rotation {
-      Yaw: -52.1011047
     }
     Scale {
-      X: 11.7
-      Y: 17.5
-      Z: 0.4
+      X: 1
+      Y: 1
+      Z: 1
     }
   }
   ParentId: 5239628783255204261
@@ -5507,18 +5547,15 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  CoreMesh {
-    MeshAsset {
-      Id: 8960293663979334663
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "MovingPlatform_LVL2"
+  }
+  InstanceHistory {
+    SelfId: 10086239993169646496
+    SubobjectId: 3226715498800774037
+    InstanceId: 15092521355897085299
+    TemplateId: 16723762931607670614
+    WasRoot: true
   }
 }

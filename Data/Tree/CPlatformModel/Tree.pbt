@@ -1,7 +1,7 @@
-﻿Name: "CPlatformModel_5"
-RootId: 8794839889342231738
+﻿Name: "CPlatformModel"
+RootId: 17597512768648989738
 Objects {
-  Id: 11817532685968080108
+  Id: 4182889012613158657
   Name: "Trigger"
   Transform {
     Location {
@@ -9,12 +9,12 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 1.30718374
-      Y: 1.30717528
-      Z: 18.6037598
+      X: 1.52948451
+      Y: 1.52947342
+      Z: 17.5261936
     }
   }
-  ParentId: 8794839889342231738
+  ParentId: 17597512768648989738
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -32,7 +32,7 @@ Objects {
   }
 }
 Objects {
-  Id: 2245316790009049937
+  Id: 15896673922049465549
   Name: "_Level.2.Killer Tube"
   Transform {
     Scale {
@@ -41,7 +41,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8794839889342231738
+  ParentId: 17597512768648989738
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -59,8 +59,6 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -0.000220659713
-            Z: 0.000104469858
           }
         }
         Overrides {
@@ -72,9 +70,9 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 1.2745713
-            Y: 1.27456224
-            Z: 17.7539139
+            X: 1.5
+            Y: 1.5
+            Z: 16.5
           }
         }
         Overrides {

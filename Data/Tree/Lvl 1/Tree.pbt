@@ -2992,7 +2992,7 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -81.962883
+            Yaw: -81.9628906
           }
         }
       }

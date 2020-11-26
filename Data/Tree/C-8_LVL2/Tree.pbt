@@ -1,7 +1,7 @@
 ﻿Name: "C-8_LVL2"
-RootId: 15011568182834846582
+RootId: 13512507945184217816
 Objects {
-  Id: 12428679526832707893
+  Id: 1235161424346666671
   Name: "CoronaSquare"
   Transform {
     Location {
@@ -17,18 +17,18 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15011568182834846582
+  ParentId: 13512507945184217816
   UnregisteredParameters {
     Overrides {
       Name: "cs:CPlatform"
       ObjectReference {
-        SelfId: 15011568182834846582
+        SelfId: 13512507945184217816
       }
     }
     Overrides {
       Name: "cs:CPlatformModel"
       ObjectReference {
-        SelfId: 5116212029843528643
+        SelfId: 3230682251122657901
       }
     }
     Overrides {
@@ -55,16 +55,16 @@ Objects {
   }
 }
 Objects {
-  Id: 5116212029843528643
+  Id: 3230682251122657901
   Name: "CPlatformModel"
   Transform {
     Location {
-      X: -7345
-      Y: -14505
+      X: -8015
+      Y: -14270
       Z: 1690
     }
     Rotation {
-      Yaw: 66.5
+      Yaw: 52.0000801
     }
     Scale {
       X: 1
@@ -72,7 +72,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15011568182834846582
+  ParentId: 13512507945184217816
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -81,12 +81,12 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "CPlatformModel_3"
+    FilePartitionName: "CPlatformModel_4"
   }
   InstanceHistory {
-    SelfId: 5116212029843528643
+    SelfId: 3230682251122657901
     SubobjectId: 8102825907411153108
-    InstanceId: 9977068665712110208
+    InstanceId: 9818333967930537304
     TemplateId: 3915291774251592516
   }
 }
