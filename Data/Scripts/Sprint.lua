@@ -12,7 +12,7 @@ local normalBaseSpeed = 1000
 local normalSprintingSpeed = 2000
 local normalBaseJump = 900
 local normalSprintingJump = 1050
---local isSprinting = false
+local isSprinting = false
 local isNearGround = true
 
 --[[
@@ -37,6 +37,7 @@ function OnBindingPressed(player, bindingPressed)
         player.jumpVelocity	 = sprintingJump
         print("Sprint on")
         isNearGround = false
+        isSprinting = true
     end
 end
 
@@ -48,6 +49,7 @@ function OnBindingReleased(player, bindingReleased)
         player.jumpVelocity	 = baseJump
         print("Sprint Off")
        -- isNearGround = false
+       isSprinting = false
     end
 end
 
@@ -98,13 +100,20 @@ function OnSpeedChanged(decreaseSpeedPer, beginEnd, jumpSpeedPer)
         --print("speeed")
         --print(thePlayer.maxWalkSpeed)
     elseif(beginEnd == 2) then
-        baseSpeed = normalBaseSpeed
         sprintingSpeed = normalSprintingSpeed
-        thePlayer.maxWalkSpeed = normalBaseSpeed
-
-        baseJump = normalBaseJump
         sprintingJump = normalSprintingJump
-        thePlayer.jumpVelocity	 =  normalBaseJump
+
+        baseSpeed = normalBaseSpeed
+        baseJump = normalBaseJump
+
+        if (isSprinting) then
+            thePlayer.maxWalkSpeed = normalSprintingSpeed
+            thePlayer.jumpVelocity	 =  normalSprintingJump
+        else 
+            thePlayer.maxWalkSpeed = normalBaseSpeed
+            thePlayer.jumpVelocity	 =  normalBaseJump
+        end
+       
         --Task.Wait(1)
         --print("return speeed")
         --print(thePlayer.maxWalkSpeed)

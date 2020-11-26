@@ -5,6 +5,8 @@ Objects {
   Name: "LVL1"
   Transform {
     Location {
+      X: -85.2941284
+      Y: 535.848145
     }
     Rotation {
     }

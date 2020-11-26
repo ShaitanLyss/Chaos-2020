@@ -1,7 +1,7 @@
-﻿Name: "C2-P_78"
-RootId: 11348040040171170812
+﻿Name: "C2-P_82"
+RootId: 13088615373440394531
 Objects {
-  Id: 16106081186033247223
+  Id: 506115376462532453
   Name: "PlatformCheckPoint"
   Transform {
     Location {
@@ -14,12 +14,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11348040040171170812
+  ParentId: 13088615373440394531
   UnregisteredParameters {
     Overrides {
       Name: "cs:Platform"
       ObjectReference {
-        SelfId: 11348040040171170812
+        SelfId: 13088615373440394531
       }
     }
   }
@@ -42,17 +42,15 @@ Objects {
   }
 }
 Objects {
-  Id: 17145407263358799429
+  Id: 7705394398035598077
   Name: "PlatformModel"
   Transform {
     Location {
-      X: -13829.5273
-      Y: -8833.98
-      Z: 663.51062
+      X: -10796.0117
+      Y: -15763.1602
+      Z: -850
     }
     Rotation {
-      Pitch: -90
-      Yaw: 117.639038
     }
     Scale {
       X: 1
@@ -60,8 +58,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11348040040171170812
-  ChildIds: 1372057394933095323
+  ParentId: 13088615373440394531
+  ChildIds: 5139363712539777457
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -79,7 +77,7 @@ Objects {
   }
 }
 Objects {
-  Id: 1372057394933095323
+  Id: 5139363712539777457
   Name: "_P_Circle_platform"
   Transform {
     Scale {
@@ -88,7 +86,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17145407263358799429
+  ParentId: 7705394398035598077
   TemplateInstance {
     ParameterOverrideMap {
       key: 9158560559571464872
@@ -100,28 +98,60 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-            Pitch: -11.2136841
           }
         }
         Overrides {
           Name: "Scale"
           Vector {
-            X: 4
-            Y: 4
-            Z: 0.351100594
+            X: 3.5
+            Y: 3.5
+            Z: 0.3
           }
         }
         Overrides {
           Name: "Position"
           Vector {
-            Y: -12.5927582
-            Z: 2.14576721e-05
+            Z: -0.000122070313
           }
         }
       }
     }
     TemplateAsset {
       Id: 18334579412935951086
+    }
+  }
+}
+Objects {
+  Id: 9513910084583893275
+  Name: "Trigger"
+  Transform {
+    Location {
+      X: -10796.0117
+      Y: -15763.1602
+      Z: -820.747375
+    }
+    Rotation {
+    }
+    Scale {
+      X: 3.16208124
+      Y: 3.16208124
+      Z: 3.16208124
+    }
+  }
+  ParentId: 13088615373440394531
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:sphere"
     }
   }
 }

@@ -46,8 +46,8 @@ Objects {
   Name: "PlatformModel"
   Transform {
     Location {
-      X: -12429.71
-      Y: -11562.3418
+      X: -12559.8633
+      Y: -11554.1191
       Z: 600
     }
     Rotation {
@@ -60,6 +60,7 @@ Objects {
   }
   ParentId: 11392361122983110221
   ChildIds: 879796841248068230
+  ChildIds: 13979096063320349455
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -74,6 +75,40 @@ Objects {
     SubobjectId: 5073100564011509672
     InstanceId: 5100835390174757607
     TemplateId: 14125914624941304983
+  }
+}
+Objects {
+  Id: 13979096063320349455
+  Name: "Trigger"
+  Transform {
+    Location {
+      X: -2.95507813
+      Y: 5.05957031
+      Z: 48.1955566
+    }
+    Rotation {
+    }
+    Scale {
+      X: 4.14561367
+      Y: 4.14561367
+      Z: 3.93157077
+    }
+  }
+  ParentId: 16380989349674270008
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:sphere"
+    }
   }
 }
 Objects {
@@ -111,9 +146,6 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -135
-            Y: 15
-            Z: -0.000122070313
           }
         }
       }
