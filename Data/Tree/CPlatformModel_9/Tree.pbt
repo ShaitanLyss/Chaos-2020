@@ -1,7 +1,7 @@
 ﻿Name: "CPlatformModel_9"
-RootId: 128826640576728930
+RootId: 13250733520815637966
 Objects {
-  Id: 10406924353312515579
+  Id: 17640937820455327172
   Name: "Trigger"
   Transform {
     Location {
@@ -9,12 +9,12 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 1.53738451
-      Y: 1.53739679
-      Z: 16.7605629
+      X: 2.67613196
+      Y: 2.67613196
+      Z: 2.67613196
     }
   }
-  ParentId: 128826640576728930
+  ParentId: 13250733520815637966
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -27,41 +27,48 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     TriggerShape_v2 {
-      Value: "mc:etriggershape:capsule"
+      Value: "mc:etriggershape:box"
     }
   }
 }
 Objects {
-  Id: 2753218615666579807
-  Name: "_Level.2.Killer Tube"
+  Id: 12042638155323047178
+  Name: "_Level.2.Killer Square"
   Transform {
+    Location {
+      X: -2985
+      Y: 7125
+      Z: 2690
+    }
+    Rotation {
+      Yaw: 22.9999428
+    }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 2.79428649
+      Y: 2.79428649
+      Z: 2.79428649
     }
   }
-  ParentId: 128826640576728930
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
+  ParentId: 13250733520815637966
   TemplateInstance {
     ParameterOverrideMap {
-      key: 12264167317587531338
+      key: 7082543403439824712
       value {
         Overrides {
           Name: "Name"
-          String: "C_4"
+          String: "C_5"
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
         }
         Overrides {
           Name: "Scale"
           Vector {
-            X: 1.5
-            Y: 1.5
-            Z: 16.1
+            X: 3
+            Y: 3
+            Z: 3
           }
         }
         Overrides {
@@ -73,7 +80,7 @@ Objects {
       }
     }
     TemplateAsset {
-      Id: 7301231792458772727
+      Id: 17487441168680876738
     }
   }
 }

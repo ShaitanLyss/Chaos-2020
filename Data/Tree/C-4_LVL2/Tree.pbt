@@ -82,7 +82,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "CPlatformModel_9"
+    FilePartitionName: "CPlatformModel_12"
   }
   InstanceHistory {
     SelfId: 128826640576728930

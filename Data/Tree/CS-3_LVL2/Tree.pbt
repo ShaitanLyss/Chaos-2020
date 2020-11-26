@@ -35,7 +35,7 @@ Objects {
 }
 Objects {
   Id: 16954065723892322912
-  Name: "CPlatfromModel"
+  Name: "CPlatformModel"
   Transform {
     Location {
       X: -9651.25586
@@ -60,7 +60,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "CPlatfromModel_1"
+    FilePartitionName: "CPlatformModel_10"
   }
   InstanceHistory {
     SelfId: 16954065723892322912

@@ -1,7 +1,7 @@
 ﻿Name: "CPlatformModel_6"
-RootId: 9050614485578438554
+RootId: 14566695796318876104
 Objects {
-  Id: 10167383536889610460
+  Id: 10245886582370563855
   Name: "Trigger"
   Transform {
     Location {
@@ -9,12 +9,12 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 0.429954469
-      Y: 16.3516083
-      Z: 2.13751483
+      X: 0.487475
+      Y: 16.3636436
+      Z: 3.13408637
     }
   }
-  ParentId: 9050614485578438554
+  ParentId: 14566695796318876104
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -32,57 +32,49 @@ Objects {
   }
 }
 Objects {
-  Id: 9484677649569988537
+  Id: 12845846372707095261
   Name: "_Level.2.Wall"
   Transform {
     Location {
-      X: 2985
-      Y: 6745
-      Z: 2853
+      X: -7560
+      Y: 280
+      Z: 2635
     }
     Rotation {
-      Yaw: -22.4999847
+      Yaw: -97.0000076
     }
     Scale {
-      X: 0.433940023
-      Y: 10
-      Z: 6.5
+      X: 0.4
+      Y: 18.9
+      Z: 2
     }
   }
-  ParentId: 9050614485578438554
+  ParentId: 14566695796318876104
   TemplateInstance {
     ParameterOverrideMap {
       key: 5594672932005031246
       value {
         Overrides {
           Name: "Name"
-          String: "Wall 5"
+          String: "Wall 6"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -6.83018879e-06
           }
         }
         Overrides {
           Name: "Scale"
           Vector {
-            X: 0.4
-            Y: 16.4
-            Z: 2.10000014
+            X: 0.40000391
+            Y: 16.6173782
+            Z: 3.19999981
           }
-        }
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:smart"
-          Bool: true
-        }
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:utile"
-          Float: 2.5277369
-        }
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:vtile"
-          Float: 0.811054
         }
         Overrides {
           Name: "Collidable"
