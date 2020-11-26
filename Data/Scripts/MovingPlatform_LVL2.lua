@@ -79,11 +79,22 @@ function RoundFn(num, numDecimalPlaces)
 end
 ]]--
 
+function OnStopMovingPlatform()
+    toStart = false
+    Task.Wait(2)
+    toStart = true
+end
+
+
+
+
+
+
 function OnPlayerJoined(player)
     localPlayer = player
     toStart = true
 end
 
 Game.playerJoinedEvent:Connect(OnPlayerJoined)
-
+Events:Connect("E_StopMovingPlatform_LVL2", OnStopMovingPlatform)
 
