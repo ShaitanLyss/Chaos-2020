@@ -32,6 +32,10 @@ Objects {
       Name: "cs:Speed"
       Float: 510
     }
+    Overrides {
+      Name: "cs:TurningSpeed"
+      Float: 0.1
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
