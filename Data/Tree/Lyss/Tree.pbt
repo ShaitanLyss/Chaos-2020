@@ -1,6 +1,35 @@
 ﻿Name: "Lyss"
 RootId: 10490075164851024102
 Objects {
+  Id: 12127039351674411785
+  Name: "lVL 2"
+  Transform {
+    Location {
+      X: 1484.56824
+      Y: -6956.89307
+      Z: 2415.18921
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10490075164851024102
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "lVL 2"
+  }
+}
+Objects {
   Id: 2954374912684220687
   Name: "Trash"
   Transform {

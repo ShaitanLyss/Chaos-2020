@@ -24,6 +24,7 @@ Objects {
   ChildIds: 4434011006133901618
   ChildIds: 7135527698524595111
   ChildIds: 9979578846465070629
+  ChildIds: 1026868322129171785
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -33,6 +34,77 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 1026868322129171785
+  Name: "Bone Human Ribcage 01"
+  Transform {
+    Location {
+      X: -1223.17493
+      Y: 6271.5293
+      Z: 2474.85645
+    }
+    Rotation {
+      Pitch: 0.951329172
+      Yaw: 5.07099962
+      Roll: -0.036529541
+    }
+    Scale {
+      X: 5.88015
+      Y: 11.426363
+      Z: 7.56941748
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 16548715189811476968
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.0739866644
+        G: 0.00309997867
+        B: 0.155
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:utile"
+      Float: 18.88727
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:vtile"
+      Float: 64
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7562682327141705794
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
   }
 }
 Objects {

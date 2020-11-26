@@ -17,6 +17,15 @@ Assets {
   }
 }
 Assets {
+  Id: 7562682327141705794
+  Name: "Bone Human Ribcage 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_bones_human_ribcage_01_ref"
+  }
+}
+Assets {
   Id: 5267638473891791996
   Name: "Fern 02"
   PlatformAssetType: 1

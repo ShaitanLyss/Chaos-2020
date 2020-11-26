@@ -266,7 +266,7 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-            Roll: -5.86688614
+            Roll: -5.86688232
           }
         }
         Overrides {
