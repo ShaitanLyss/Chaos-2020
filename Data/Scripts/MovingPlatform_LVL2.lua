@@ -1,6 +1,7 @@
 ﻿local pathWays = script:GetCustomProperty("PathWays"):WaitForObject()
 local movingPlatformModel = script:GetCustomProperty("MovingPlatformModel"):WaitForObject()
 local speed = script:GetCustomProperty("Speed")
+local turningSpeed = script:GetCustomProperty("TurningSpeed")
 
 local arr_pathWays = pathWays:GetChildren()
 --print("the number") print(#arr_pathWays)
@@ -17,7 +18,7 @@ for i,way in ipairs(arr_pathWays) do
 function FollowPath()
     local pathWay = arr_pathWays[index] 
 
-    movingPlatformModel:LookAtContinuous(pathWay)
+    movingPlatformModel:LookAtContinuous(pathWay, true, turningSpeed)
     movingPlatformModel:Follow(pathWay, speed)
 
     local pathWayPos = pathWay:GetWorldPosition()
@@ -79,11 +80,22 @@ function RoundFn(num, numDecimalPlaces)
 end
 ]]--
 
+function OnStopMovingPlatform()
+    toStart = false
+    Task.Wait(2)
+    toStart = true
+end
+
+
+
+
+
+
 function OnPlayerJoined(player)
     localPlayer = player
     toStart = true
 end
 
 Game.playerJoinedEvent:Connect(OnPlayerJoined)
-
+Events.Connect("E_StopMovingPlatform_LVL2", OnStopMovingPlatform)
 
