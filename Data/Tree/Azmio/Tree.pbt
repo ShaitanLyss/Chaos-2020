@@ -13,9 +13,9 @@ Objects {
       Yaw: -31.6450195
     }
     Scale {
-      X: 0.778859258
-      Y: 0.778859258
-      Z: 0.778859258
+      X: 0.785
+      Y: 0.785
+      Z: 0.785
     }
   }
   ParentId: 11404857991553905137
@@ -439,116 +439,6 @@ Objects {
   CoreMesh {
     MeshAsset {
       Id: 15942125528727175174
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 8808217312595727819
-  Name: "Pathway allignement blocks"
-  Transform {
-    Location {
-      X: -2666.96777
-      Y: -3897.86816
-      Z: -799.999878
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11404857991553905137
-  ChildIds: 15744466709668553097
-  ChildIds: 4574329386695643006
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 4574329386695643006
-  Name: "Big wall"
-  Transform {
-    Location {
-      X: -1288.90576
-      Y: -4392.35938
-      Z: 507.258423
-    }
-    Rotation {
-      Yaw: -29.769989
-    }
-    Scale {
-      X: 1
-      Y: 199.136536
-      Z: 15.7751951
-    }
-  }
-  ParentId: 8808217312595727819
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 17737960441981515646
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 15744466709668553097
-  Name: "Small wall"
-  Transform {
-    Location {
-      X: 3226.96777
-      Y: 3497.86816
-      Z: 507.258423
-    }
-    Rotation {
-      Yaw: -29.769989
-    }
-    Scale {
-      X: 1
-      Y: 16.7
-      Z: 13.3
-    }
-  }
-  ParentId: 8808217312595727819
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 17737960441981515646
     }
     Teams {
       IsTeamCollisionEnabled: true

@@ -1,6 +1,118 @@
 ﻿Name: "R3"
 RootId: 9043042303357930954
 Objects {
+  Id: 16698551718541455471
+  Name: "_Lvl.3_P-\"My mom says I\'m special\""
+  Transform {
+    Location {
+      X: 1918.81152
+      Y: 4387.91211
+      Z: 5865.56201
+    }
+    Rotation {
+      Yaw: 56.9525452
+    }
+    Scale {
+      X: 5.93781805
+      Y: 7.82777357
+      Z: 4.16285133
+    }
+  }
+  ParentId: 9043042303357930954
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 11118429040451682113
+      value {
+        Overrides {
+          Name: "Name"
+          String: "_Lvl.3_P-\"My mom says I\'m special\""
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -7422.85
+            Y: -3892.40283
+            Z: 4865.5625
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 3.47989917
+            Yaw: 143.878555
+            Roll: -19.1552124
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 3.69834137
+            Y: 6.01497698
+            Z: 2.65225267
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1636484222733149640
+    }
+  }
+}
+Objects {
+  Id: 13003118912805562272
+  Name: "_Lvl.3_P-THICK donut"
+  Transform {
+    Location {
+      X: 1496.62354
+      Y: 4820.44434
+      Z: 5256.55127
+    }
+    Rotation {
+    }
+    Scale {
+      X: 6
+      Y: 6
+      Z: 7.25088072
+    }
+  }
+  ParentId: 9043042303357930954
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 17548410677652229884
+      value {
+        Overrides {
+          Name: "Name"
+          String: "_Lvl.3_P-THICK donut"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -6885.08447
+            Y: -3312.81787
+            Z: 4642.66211
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 6
+            Y: 6
+            Z: 4
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1804222474581899853
+    }
+  }
+}
+Objects {
   Id: 14970920488462271730
   Name: "_Lvl.3_P-Square Tube"
   Transform {
@@ -32,8 +144,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -5962.54
-            Y: -3515.77979
+            X: -5939.6123
+            Y: -3475.09277
             Z: 4454.2959
           }
         }
@@ -48,9 +160,9 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-            Pitch: -29.3768616
-            Yaw: -42.9930115
-            Roll: 1.51256096
+            Pitch: -28.7614441
+            Yaw: -26.7209778
+            Roll: -6.43438721
           }
         }
       }
@@ -200,8 +312,8 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 10.1465302
-            Y: 10.1465302
+            X: 9
+            Y: 9
             Z: 6.87325811
           }
         }
@@ -242,9 +354,9 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 4
-            Y: 4
-            Z: 4
+            X: 5
+            Y: 5
+            Z: 5
           }
         }
         Overrides {
@@ -291,8 +403,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -829.141602
-            Y: -4202.69482
+            X: -969.628418
+            Y: -4067.44678
             Z: 3910.28174
           }
         }
@@ -305,8 +417,8 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 12.6969671
-            Y: 10.9305029
+            X: 13
+            Y: 12
             Z: 6.09651804
           }
         }
