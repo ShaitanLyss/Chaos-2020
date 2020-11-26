@@ -14,7 +14,7 @@ end
 
 function OnEndOverlap(trigger, thePlayer)
     if thePlayer:IsA("Player")  and not thePlayer.isDead then
-        Events.Broadcast("E_SpeedChanged", decreaseSpeedPer, 2)
+        Events.Broadcast("E_SpeedChanged", decreaseSpeedPer, 2, jumpSpeedPer)
     end
 end
 
