@@ -44,7 +44,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Duration"
-      Float: 1
+      Float: 0.9
     }
     Overrides {
       Name: "cs:AutoStart"

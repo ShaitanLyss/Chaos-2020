@@ -30,11 +30,35 @@ Objects {
     }
     Overrides {
       Name: "cs:Speed"
-      Float: 710
+      Float: 510
     }
     Overrides {
       Name: "cs:TurningSpeed"
-      Float: 0.1
+      Float: 0.2
+    }
+    Overrides {
+      Name: "cs:Speed2"
+      Float: 0
+    }
+    Overrides {
+      Name: "cs:Turning2"
+      Float: 0
+    }
+    Overrides {
+      Name: "cs:Speed3"
+      Float: 0
+    }
+    Overrides {
+      Name: "cs:Turning3"
+      Float: 0
+    }
+    Overrides {
+      Name: "cs:Speed4"
+      Float: 0
+    }
+    Overrides {
+      Name: "cs:Turning4"
+      Float: 0
     }
   }
   Collidable_v2 {
@@ -65,7 +89,7 @@ Objects {
       Z: 14.4536133
     }
     Rotation {
-      Yaw: -52.1011047
+      Yaw: -232.101
     }
     Scale {
       X: 1
