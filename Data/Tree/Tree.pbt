@@ -24,7 +24,6 @@ Objects {
   ChildIds: 4434011006133901618
   ChildIds: 7135527698524595111
   ChildIds: 9979578846465070629
-  ChildIds: 3482980207740410084
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -34,48 +33,6 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
-  }
-}
-Objects {
-  Id: 3482980207740410084
-  Name: "_Lvl.3_P-Full Ring"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 3292999503857166480
-      value {
-        Overrides {
-          Name: "Name"
-          String: "_Lvl.3_P-Full Ring"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -4808.60693
-            Y: 1481.66614
-            Z: 5096.09619
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 14.5826855
-            Y: 14.5826855
-            Z: 14.5826855
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 15026045848921342363
-    }
   }
 }
 Objects {

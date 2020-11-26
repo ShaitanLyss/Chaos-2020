@@ -30,7 +30,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Speed"
-      Float: 510
+      Float: 710
     }
   }
   Collidable_v2 {

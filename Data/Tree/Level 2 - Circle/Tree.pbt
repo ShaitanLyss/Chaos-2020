@@ -534,8 +534,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 2238.77246
-            Y: -10198.9941
+            X: 2219.44482
+            Y: -10209.2109
             Z: 1738.27661
           }
         }
@@ -3908,7 +3908,7 @@ Objects {
         }
         Overrides {
           Name: "cs:LaunchSpeed"
-          Float: 3325
+          Float: 3290
         }
       }
     }
