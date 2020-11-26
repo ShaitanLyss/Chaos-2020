@@ -5,16 +5,17 @@ Objects {
   Name: "Level 2 Mov.platform"
   Transform {
     Location {
-      X: -3997.68823
-      Y: -8282.25586
-      Z: 85.2115479
+      X: -3902.96533
+      Y: -8196.22754
+      Z: 156.703491
     }
     Rotation {
+      Yaw: -31.6450195
     }
     Scale {
-      X: 0.777024806
-      Y: 0.777024806
-      Z: 0.777024806
+      X: 0.778859258
+      Y: 0.778859258
+      Z: 0.778859258
     }
   }
   ParentId: 11404857991553905137
@@ -628,10 +629,10 @@ Objects {
   }
   ParentId: 11404857991553905137
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceon"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   Folder {
     IsFilePartition: true

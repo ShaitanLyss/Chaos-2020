@@ -30,7 +30,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Speed"
-      Float: 500
+      Float: 480
     }
   }
   Collidable_v2 {
@@ -56,8 +56,8 @@ Objects {
   Name: "MovingPlatformModel"
   Transform {
     Location {
-      X: 401.995605
-      Y: -625.313965
+      X: 432.283203
+      Y: -601.736816
       Z: 14.4536133
     }
     Rotation {

@@ -86,8 +86,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 2826.28027
-            Y: -4343.98584
+            X: 2847.7627
+            Y: -4393.83691
             Z: 1738.27686
           }
         }
@@ -142,8 +142,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 3342.4209
-            Y: -5405.78613
+            X: 3353.08936
+            Y: -5448.82422
             Z: 1738.27686
           }
         }
@@ -198,8 +198,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 3193.69336
-            Y: -6589.6543
+            X: 3202.34619
+            Y: -6624.30469
             Z: 1738.27686
           }
         }
@@ -675,7 +675,7 @@ Objects {
     Location {
       X: -2360
       Y: -15265
-      Z: 1690
+      Z: 1764.06836
     }
     Rotation {
     }
@@ -706,11 +706,6 @@ Objects {
   ChildIds: 16469740589305890866
   ChildIds: 4681445175118661897
   ChildIds: 18331171997107333973
-  ChildIds: 13476294474825149571
-  ChildIds: 5949945705883576982
-  ChildIds: 7578989672507725701
-  ChildIds: 10433440199013643923
-  ChildIds: 12603737676214956888
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -719,280 +714,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-}
-Objects {
-  Id: 12603737676214956888
-  Name: "Hill 02"
-  Transform {
-    Location {
-      X: 801.547363
-      Y: -301.216797
-      Z: -269.765625
-    }
-    Rotation {
-      Yaw: -24.83214
-    }
-    Scale {
-      X: 1.16826761
-      Y: 1.16826761
-      Z: 1.16826761
-    }
-  }
-  ParentId: 17315922363621527349
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 4204202561462665421
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        G: 1
-        A: 0.472000033
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 14023144080669477239
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 10433440199013643923
-  Name: "Hill 04"
-  Transform {
-    Location {
-      X: 815.725586
-      Y: 505.023438
-      Z: -269.764893
-    }
-    Rotation {
-      Yaw: 46.5103416
-    }
-    Scale {
-      X: 2.87392974
-      Y: 2.87392974
-      Z: 2.87392974
-    }
-  }
-  ParentId: 17315922363621527349
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 4204202561462665421
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        G: 1
-        A: 0.546
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 14655116653287160419
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 7578989672507725701
-  Name: "Hill 04"
-  Transform {
-    Location {
-      X: 290.759766
-      Y: -203.074219
-      Z: -269.764893
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.36799419
-      Y: 1.36799419
-      Z: 1.36799419
-    }
-  }
-  ParentId: 17315922363621527349
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 4204202561462665421
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        G: 1
-        A: 0.546
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 14655116653287160419
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 5949945705883576982
-  Name: "Hill 05"
-  Transform {
-    Location {
-      X: -75.3969727
-      Y: 511.380859
-      Z: -274.810791
-    }
-    Rotation {
-      Yaw: -16.7551556
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 0.867016613
-    }
-  }
-  ParentId: 17315922363621527349
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 4204202561462665421
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        G: 1
-        A: 0.467
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 7559416490291028773
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 13476294474825149571
-  Name: "Hill 01"
-  Transform {
-    Location {
-      X: -609.794189
-      Y: -221.578125
-      Z: -259.185303
-    }
-    Rotation {
-      Yaw: 39.9848824
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 17315922363621527349
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 4204202561462665421
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        G: 1
-        A: 0.389000028
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 1878561067824770111
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
   }
 }
 Objects {
@@ -1139,8 +860,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 840
-            Y: 280
+            X: 768.110107
+            Y: 402.607422
             Z: -95
           }
         }
@@ -1620,6 +1341,10 @@ Objects {
           Rotator {
           }
         }
+        Overrides {
+          Name: "AnimatedMeshStancePlaybackRate"
+          Float: 0.98
+        }
       }
     }
     TemplateAsset {
@@ -1733,6 +1458,10 @@ Objects {
           Name: "Rotation"
           Rotator {
           }
+        }
+        Overrides {
+          Name: "AnimatedMeshStancePlaybackRate"
+          Float: 0.96
         }
       }
     }
@@ -1850,6 +1579,10 @@ Objects {
           Rotator {
           }
         }
+        Overrides {
+          Name: "AnimatedMeshStancePlaybackRate"
+          Float: 1.1
+        }
       }
     }
     TemplateAsset {
@@ -1963,6 +1696,10 @@ Objects {
           Name: "Rotation"
           Rotator {
           }
+        }
+        Overrides {
+          Name: "AnimatedMeshStancePlaybackRate"
+          Float: 1.09
         }
       }
     }
@@ -2080,6 +1817,10 @@ Objects {
           Rotator {
           }
         }
+        Overrides {
+          Name: "AnimatedMeshStancePlaybackRate"
+          Float: 0.97
+        }
       }
     }
     TemplateAsset {
@@ -2193,6 +1934,10 @@ Objects {
           Name: "Rotation"
           Rotator {
           }
+        }
+        Overrides {
+          Name: "AnimatedMeshStancePlaybackRate"
+          Float: 1.05
         }
       }
     }
@@ -2308,6 +2053,10 @@ Objects {
           Rotator {
           }
         }
+        Overrides {
+          Name: "AnimatedMeshStancePlaybackRate"
+          Float: 1.04
+        }
       }
     }
     TemplateAsset {
@@ -2421,6 +2170,10 @@ Objects {
           Name: "Rotation"
           Rotator {
           }
+        }
+        Overrides {
+          Name: "AnimatedMeshStancePlaybackRate"
+          Float: 0.94
         }
       }
     }
@@ -3229,7 +2982,7 @@ Objects {
     EnableCameraCollision: true
     AnimatedMesh {
       AnimationStance: "zombie_unarmed_idle_relaxed"
-      AnimationStancePlaybackRate: 1
+      AnimationStancePlaybackRate: 0.93
       AnimationStanceShouldLoop: true
       AnimationPlaybackRateMultiplier: 1
       PlayOnStartAnimation {
@@ -3358,6 +3111,10 @@ Objects {
           Rotator {
           }
         }
+        Overrides {
+          Name: "AnimatedMeshStancePlaybackRate"
+          Float: 0.92
+        }
       }
     }
     TemplateAsset {
@@ -3464,6 +3221,10 @@ Objects {
           Rotator {
           }
         }
+        Overrides {
+          Name: "AnimatedMeshStancePlaybackRate"
+          Float: 1.02
+        }
       }
     }
     TemplateAsset {
@@ -3549,7 +3310,7 @@ Objects {
     EnableCameraCollision: true
     AnimatedMesh {
       AnimationStance: "zombie_unarmed_idle_relaxed"
-      AnimationStancePlaybackRate: 0.92
+      AnimationStancePlaybackRate: 0.91
       AnimationStanceShouldLoop: true
       AnimationPlaybackRateMultiplier: 1
       PlayOnStartAnimation {
@@ -3978,6 +3739,10 @@ Objects {
           Rotator {
           }
         }
+        Overrides {
+          Name: "AnimatedMeshStancePlaybackRate"
+          Float: 1.01
+        }
       }
     }
     TemplateAsset {
@@ -4141,7 +3906,7 @@ Objects {
         }
         Overrides {
           Name: "cs:LaunchSpeed"
-          Float: 3130
+          Float: 3200
         }
       }
     }
@@ -4865,8 +4630,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -9669.05273
-            Y: -12633.4092
+            X: -9746.86426
+            Y: -12533.8125
             Z: 1705
           }
         }
@@ -4874,14 +4639,6 @@ Objects {
           Name: "Rotation"
           Rotator {
             Yaw: -52
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.40000391
-            Y: 16.6173782
-            Z: 3.19999981
           }
         }
       }
@@ -4921,16 +4678,16 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -9540
-            Y: -11335
+            X: -9570.63281
+            Y: -11259.1738
             Z: 2000
           }
         }
         Overrides {
           Name: "Scale"
           Vector {
-            X: 4
-            Y: 4
+            X: 3
+            Y: 3
             Z: 0.4
           }
         }
@@ -4985,8 +4742,8 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 4
-            Y: 4
+            X: 3
+            Y: 3
             Z: 0.7
           }
         }
@@ -5033,8 +4790,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -10602.2051
-            Y: -9938.4834
+            X: -10595.2197
+            Y: -9995.38184
             Z: 1715
           }
         }
@@ -5214,6 +4971,18 @@ Objects {
             Z: 2.10000014
           }
         }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:smart"
+          Bool: true
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:utile"
+          Float: 2.5277369
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:vtile"
+          Float: 0.811054
+        }
       }
     }
     TemplateAsset {
@@ -5228,7 +4997,7 @@ Objects {
     Location {
       X: -10695
       Y: -7755
-      Z: 1530
+      Z: 1555.44775
     }
     Rotation {
       Yaw: 172.999985
@@ -5236,7 +5005,7 @@ Objects {
     Scale {
       X: 5
       Y: 5
-      Z: 2.10000014
+      Z: 1.90486836
     }
   }
   ParentId: 5239628783255204261

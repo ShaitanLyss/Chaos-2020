@@ -46,10 +46,10 @@ Objects {
     }
   }
   ParentId: 3230682251122657901
-  ChildIds: 2265765389399198712
   ChildIds: 5618647420280306306
   ChildIds: 13873930899865000683
   ChildIds: 5134799844751348939
+  ChildIds: 2265765389399198712
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -60,6 +60,14 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:smart"
       Bool: false
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        G: 1
+        B: 0.200000018
+        A: 1
+      }
     }
   }
   WantsNetworking: true
@@ -88,6 +96,191 @@ Objects {
     SubobjectId: 7082543403439824712
     InstanceId: 10649459254032524778
     TemplateId: 17487441168680876738
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 2265765389399198712
+  Name: "Object Mover"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Pitch: -8.87924543e-05
+      Yaw: 2.39056699e-05
+      Roll: -1.3444419e-05
+    }
+    Scale {
+      X: 0.357873052
+      Y: 0.357873052
+      Z: 0.357873082
+    }
+  }
+  ParentId: 14758536058028909964
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Object"
+      ObjectReference {
+        SelfId: 14758536058028909964
+      }
+    }
+    Overrides {
+      Name: "cs:MoveTo"
+      Vector {
+        X: -7530
+        Y: -13630
+        Z: 1690
+      }
+    }
+    Overrides {
+      Name: "cs:LocalSpace"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Reverse"
+      Bool: false
+    }
+    Overrides {
+      Name: "cs:Duration"
+      Float: 1
+    }
+    Overrides {
+      Name: "cs:AutoStart"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:StartDelayRange"
+      Vector2 {
+      }
+    }
+    Overrides {
+      Name: "cs:RepeatCount"
+      Int: -1
+    }
+    Overrides {
+      Name: "cs:IntervalDelayRange"
+      Vector2 {
+        Y: 0.3
+      }
+    }
+    Overrides {
+      Name: "cs:BounceOnRepeat"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:StartEventName"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:StopEventName"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:ResetEventName"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:OnStartedEventName"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:OnStoppedEventName"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:OnResetEventName"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:OnCompletedEventName"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Duration:tooltip"
+      String: "Time in seconds for the object to perform the action."
+    }
+    Overrides {
+      Name: "cs:StartDelayRange:tooltip"
+      String: "Random delay range for the object to take action at the start of the game."
+    }
+    Overrides {
+      Name: "cs:LocalSpace:tooltip"
+      String: "Whether MoveTo is in local space"
+    }
+    Overrides {
+      Name: "cs:Reverse:tooltip"
+      String: "If true, the object will start from MoveTo position and move towards the initial position."
+    }
+    Overrides {
+      Name: "cs:MoveTo:tooltip"
+      String: "Target location for the object to move."
+    }
+    Overrides {
+      Name: "cs:Object:tooltip"
+      String: "Object to transform"
+    }
+    Overrides {
+      Name: "cs:AutoStart:tooltip"
+      String: "If true, the specified object will start the action automatically."
+    }
+    Overrides {
+      Name: "cs:RepeatCount:tooltip"
+      String: "Number of times the object is moved. If set to -1, the action will keep repeating indefinitely."
+    }
+    Overrides {
+      Name: "cs:BounceOnRepeat:tooltip"
+      String: "Whether to reverse alternating repeats, so that the object transforms smoothly."
+    }
+    Overrides {
+      Name: "cs:StartEventName:tooltip"
+      String: "Specify the event that will trigger this action to start"
+    }
+    Overrides {
+      Name: "cs:StopEventName:tooltip"
+      String: "Specify the event that will trigger this action to stop"
+    }
+    Overrides {
+      Name: "cs:ResetEventName:tooltip"
+      String: "This event will trigger this action to reset"
+    }
+    Overrides {
+      Name: "cs:OnStartedEventName:tooltip"
+      String: "Event that will be broadcasted when the action starts"
+    }
+    Overrides {
+      Name: "cs:OnStoppedEventName:tooltip"
+      String: "Event that will be broadcasted when the action stops"
+    }
+    Overrides {
+      Name: "cs:OnResetEventName:tooltip"
+      String: "Event that will be broadcasted when the action is reset"
+    }
+    Overrides {
+      Name: "cs:OnCompletedEventName:tooltip"
+      String: "Event that will be broadcasted when the action is completed"
+    }
+    Overrides {
+      Name: "cs:IntervalDelayRange:tooltip"
+      String: "Random delay time between each action repeat."
+    }
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 6126478455621128065
+    }
+  }
+  InstanceHistory {
+    SelfId: 2265765389399198712
+    SubobjectId: 3142504813567088034
+    InstanceId: 10816694515309344487
+    TemplateId: 9951297657303948718
     WasRoot: true
   }
 }
@@ -316,187 +509,5 @@ Objects {
     SubobjectId: 16385106882331836486
     InstanceId: 10649459254032524778
     TemplateId: 17487441168680876738
-  }
-}
-Objects {
-  Id: 2265765389399198712
-  Name: "Object Mover"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 0.357873082
-      Y: 0.357873082
-      Z: 0.357873082
-    }
-  }
-  ParentId: 14758536058028909964
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Object"
-      ObjectReference {
-        SelfId: 14758536058028909964
-      }
-    }
-    Overrides {
-      Name: "cs:MoveTo"
-      Vector {
-        X: -7530
-        Y: -13630
-        Z: 1690
-      }
-    }
-    Overrides {
-      Name: "cs:LocalSpace"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:Reverse"
-      Bool: false
-    }
-    Overrides {
-      Name: "cs:Duration"
-      Float: 1
-    }
-    Overrides {
-      Name: "cs:AutoStart"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:StartDelayRange"
-      Vector2 {
-      }
-    }
-    Overrides {
-      Name: "cs:RepeatCount"
-      Int: -1
-    }
-    Overrides {
-      Name: "cs:IntervalDelayRange"
-      Vector2 {
-        Y: 0.3
-      }
-    }
-    Overrides {
-      Name: "cs:BounceOnRepeat"
-      Bool: true
-    }
-    Overrides {
-      Name: "cs:StartEventName"
-      String: ""
-    }
-    Overrides {
-      Name: "cs:StopEventName"
-      String: ""
-    }
-    Overrides {
-      Name: "cs:ResetEventName"
-      String: ""
-    }
-    Overrides {
-      Name: "cs:OnStartedEventName"
-      String: ""
-    }
-    Overrides {
-      Name: "cs:OnStoppedEventName"
-      String: ""
-    }
-    Overrides {
-      Name: "cs:OnResetEventName"
-      String: ""
-    }
-    Overrides {
-      Name: "cs:OnCompletedEventName"
-      String: ""
-    }
-    Overrides {
-      Name: "cs:Duration:tooltip"
-      String: "Time in seconds for the object to perform the action."
-    }
-    Overrides {
-      Name: "cs:StartDelayRange:tooltip"
-      String: "Random delay range for the object to take action at the start of the game."
-    }
-    Overrides {
-      Name: "cs:LocalSpace:tooltip"
-      String: "Whether MoveTo is in local space"
-    }
-    Overrides {
-      Name: "cs:Reverse:tooltip"
-      String: "If true, the object will start from MoveTo position and move towards the initial position."
-    }
-    Overrides {
-      Name: "cs:MoveTo:tooltip"
-      String: "Target location for the object to move."
-    }
-    Overrides {
-      Name: "cs:Object:tooltip"
-      String: "Object to transform"
-    }
-    Overrides {
-      Name: "cs:AutoStart:tooltip"
-      String: "If true, the specified object will start the action automatically."
-    }
-    Overrides {
-      Name: "cs:RepeatCount:tooltip"
-      String: "Number of times the object is moved. If set to -1, the action will keep repeating indefinitely."
-    }
-    Overrides {
-      Name: "cs:BounceOnRepeat:tooltip"
-      String: "Whether to reverse alternating repeats, so that the object transforms smoothly."
-    }
-    Overrides {
-      Name: "cs:StartEventName:tooltip"
-      String: "Specify the event that will trigger this action to start"
-    }
-    Overrides {
-      Name: "cs:StopEventName:tooltip"
-      String: "Specify the event that will trigger this action to stop"
-    }
-    Overrides {
-      Name: "cs:ResetEventName:tooltip"
-      String: "This event will trigger this action to reset"
-    }
-    Overrides {
-      Name: "cs:OnStartedEventName:tooltip"
-      String: "Event that will be broadcasted when the action starts"
-    }
-    Overrides {
-      Name: "cs:OnStoppedEventName:tooltip"
-      String: "Event that will be broadcasted when the action stops"
-    }
-    Overrides {
-      Name: "cs:OnResetEventName:tooltip"
-      String: "Event that will be broadcasted when the action is reset"
-    }
-    Overrides {
-      Name: "cs:OnCompletedEventName:tooltip"
-      String: "Event that will be broadcasted when the action is completed"
-    }
-    Overrides {
-      Name: "cs:IntervalDelayRange:tooltip"
-      String: "Random delay time between each action repeat."
-    }
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 6126478455621128065
-    }
-  }
-  InstanceHistory {
-    SelfId: 2265765389399198712
-    SubobjectId: 3142504813567088034
-    InstanceId: 10816694515309344487
-    TemplateId: 9951297657303948718
-    WasRoot: true
   }
 }

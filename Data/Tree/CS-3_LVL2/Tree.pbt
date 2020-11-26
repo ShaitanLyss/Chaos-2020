@@ -38,9 +38,9 @@ Objects {
   Name: "CPlatfromModel"
   Transform {
     Location {
-      X: -9520
-      Y: -5010
-      Z: 1715.00024
+      X: -9690.33594
+      Y: -5246.27832
+      Z: 1761.74634
     }
     Rotation {
       Yaw: 66.9222488
