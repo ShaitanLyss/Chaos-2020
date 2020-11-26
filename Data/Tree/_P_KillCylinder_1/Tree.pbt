@@ -5,9 +5,9 @@ Objects {
   Name: "Mesh"
   Transform {
     Location {
-      X: -421.453217
-      Y: -609.96405
-      Z: 107.71566
+      X: -421.485779
+      Y: -596.306396
+      Z: 107.715744
     }
     Rotation {
     }

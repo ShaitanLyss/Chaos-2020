@@ -2567,7 +2567,7 @@ Objects {
   }
   ParentId: 7234109698507287551
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -2608,7 +2608,7 @@ Objects {
   }
   ParentId: 7234109698507287551
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -3058,7 +3058,7 @@ Objects {
     Location {
       X: -462.632813
       Y: -992.665039
-      Z: 185.156097
+      Z: 143.38446
     }
     Rotation {
     }
