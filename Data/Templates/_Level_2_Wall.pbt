@@ -7,12 +7,12 @@
       RootId: 5594672932005031246
       Objects {
         Id: 5594672932005031246
-        Name: "Wall 6"
+        Name: "_Level.2.Wal"
         Transform {
           Scale {
-            X: 0.40000391
-            Y: 16.6173782
-            Z: 3.19999981
+            X: 0.433940023
+            Y: 13.5
+            Z: 6.5
           }
         }
         ParentId: 13736249812600814928
@@ -27,7 +27,7 @@
             Name: "ma:Shared_BaseMaterial:color"
             Color {
               G: 1
-              B: 0.200000018
+              B: 0.300001144
               A: 1
             }
           }

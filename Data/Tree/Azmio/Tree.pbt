@@ -602,10 +602,10 @@ Objects {
   }
   ParentId: 11404857991553905137
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
+    Value: "mc:ecollisionsetting:forceon"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
+    Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
     IsFilePartition: true

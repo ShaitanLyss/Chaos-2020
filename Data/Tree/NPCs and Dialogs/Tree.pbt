@@ -3111,7 +3111,7 @@ Objects {
     }
     Overrides {
       Name: "cs:3"
-      String: "DeitiyPreLvl1"
+      String: ""
     }
     Overrides {
       Name: "cs:4"
