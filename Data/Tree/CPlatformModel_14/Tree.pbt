@@ -1,7 +1,7 @@
-﻿Name: "CPlatformModel_8"
-RootId: 17597512768648989738
+﻿Name: "CPlatformModel_14"
+RootId: 8451471565777907001
 Objects {
-  Id: 4182889012613158657
+  Id: 16127087764130518527
   Name: "Trigger"
   Transform {
     Location {
@@ -9,12 +9,12 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 1.52948451
-      Y: 1.52947342
-      Z: 17.5261936
+      X: 3.14080667
+      Y: 3.14080667
+      Z: 3.14080667
     }
   }
-  ParentId: 17597512768648989738
+  ParentId: 8451471565777907001
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -27,53 +27,60 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     TriggerShape_v2 {
-      Value: "mc:etriggershape:capsule"
+      Value: "mc:etriggershape:box"
     }
   }
 }
 Objects {
-  Id: 15896673922049465549
-  Name: "_Level.2.Killer Tube"
+  Id: 16626640703866201746
+  Name: "_Level.2.Killer Square"
   Transform {
+    Location {
+      X: -2985
+      Y: 7125
+      Z: 2725
+    }
+    Rotation {
+      Yaw: 22.9999428
+    }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 2.79428649
+      Y: 2.79428649
+      Z: 2.79428649
     }
   }
-  ParentId: 17597512768648989738
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
+  ParentId: 8451471565777907001
   TemplateInstance {
     ParameterOverrideMap {
-      key: 12264167317587531338
+      key: 7082543403439824712
       value {
         Overrides {
           Name: "Name"
-          String: "C_6"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
+          String: "C_2"
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: 8.53773486e-07
+            Yaw: 4.78113216e-05
           }
         }
         Overrides {
           Name: "Scale"
           Vector {
-            X: 1.5
-            Y: 1.5
-            Z: 16.5
+            X: 3.5
+            Y: 3.5
+            Z: 3.5
           }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 16548715189811476968
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:smart"
+          Bool: false
         }
         Overrides {
           Name: "Collidable"
@@ -84,7 +91,7 @@ Objects {
       }
     }
     TemplateAsset {
-      Id: 7301231792458772727
+      Id: 17487441168680876738
     }
   }
 }

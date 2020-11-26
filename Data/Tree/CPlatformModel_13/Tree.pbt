@@ -1,7 +1,7 @@
-﻿Name: "CPlatformModel_8"
-RootId: 17597512768648989738
+﻿Name: "CPlatformModel_13"
+RootId: 14837378477550255154
 Objects {
-  Id: 4182889012613158657
+  Id: 17539120161814330702
   Name: "Trigger"
   Transform {
     Location {
@@ -9,12 +9,12 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 1.52948451
-      Y: 1.52947342
-      Z: 17.5261936
+      X: 2.68095708
+      Y: 2.68095708
+      Z: 2.68095708
     }
   }
-  ParentId: 17597512768648989738
+  ParentId: 14837378477550255154
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -27,13 +27,13 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     TriggerShape_v2 {
-      Value: "mc:etriggershape:capsule"
+      Value: "mc:etriggershape:box"
     }
   }
 }
 Objects {
-  Id: 15896673922049465549
-  Name: "_Level.2.Killer Tube"
+  Id: 4856573510109709874
+  Name: "_Level.2.Killer Square"
   Transform {
     Scale {
       X: 1
@@ -41,7 +41,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17597512768648989738
+  ParentId: 14837378477550255154
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -50,29 +50,16 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
-      key: 12264167317587531338
+      key: 7082543403439824712
       value {
         Overrides {
           Name: "Name"
-          String: "C_6"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
+          String: "C_3"
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: 8.53773486e-07
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1.5
-            Y: 1.5
-            Z: 16.5
+            Yaw: 1.53679248e-05
           }
         }
         Overrides {
@@ -81,10 +68,18 @@ Objects {
             Value: "mc:ecollisionsetting:forceoff"
           }
         }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 3
+            Y: 3
+            Z: 3
+          }
+        }
       }
     }
     TemplateAsset {
-      Id: 7301231792458772727
+      Id: 17487441168680876738
     }
   }
 }

@@ -1,6 +1,114 @@
 ﻿Name: "R3"
 RootId: 9043042303357930954
 Objects {
+  Id: 2692983359106795121
+  Name: "_Lvl.3_P-Circle"
+  Transform {
+    Location {
+      X: -4803.08
+      Y: 3914.46582
+      Z: 6003.78711
+    }
+    Rotation {
+    }
+    Scale {
+      X: 5
+      Y: 5
+      Z: 0.7
+    }
+  }
+  ParentId: 9043042303357930954
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 5661767512913827102
+      value {
+        Overrides {
+          Name: "Name"
+          String: "_Lvl.3_P-Circle"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -8495.23535
+            Y: -5062.27246
+            Z: 5003.78711
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 4
+            Y: 4
+            Z: 0.7
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3897760605103023706
+    }
+  }
+}
+Objects {
+  Id: 5243027172351267059
+  Name: "_Lvl.3_P-Circle"
+  Transform {
+    Location {
+      X: -1550.39746
+      Y: 5040.29639
+      Z: 5461.26025
+    }
+    Rotation {
+    }
+    Scale {
+      X: 6
+      Y: 6
+      Z: 1
+    }
+  }
+  ParentId: 9043042303357930954
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 5661767512913827102
+      value {
+        Overrides {
+          Name: "Name"
+          String: "_Lvl.3_P-Circle"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -8403.08
+            Y: -4335.53418
+            Z: 5003.78711
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 5
+            Y: 5
+            Z: 0.7
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 3897760605103023706
+    }
+  }
+}
+Objects {
   Id: 16698551718541455471
   Name: "_Lvl.3_P-\"My mom says I\'m special\""
   Transform {
@@ -30,8 +138,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -7422.85
-            Y: -3892.40283
+            X: -7768.38574
+            Y: -3701.10498
             Z: 4865.5625
           }
         }
@@ -39,7 +147,7 @@ Objects {
           Name: "Rotation"
           Rotator {
             Pitch: 3.47989917
-            Yaw: 143.878555
+            Yaw: 120.825027
             Roll: -19.1552124
           }
         }
@@ -87,8 +195,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -6885.08447
-            Y: -3312.81787
+            X: -6957.42188
+            Y: -3321.97021
             Z: 4642.66211
           }
         }
@@ -314,7 +422,7 @@ Objects {
           Vector {
             X: 9
             Y: 9
-            Z: 6.87325811
+            Z: 6.26820946
           }
         }
       }
@@ -417,8 +525,8 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 13
-            Y: 12
+            X: 14.6657715
+            Y: 12.0000086
             Z: 6.09651804
           }
         }
@@ -509,8 +617,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 399.321045
-            Y: -4989.3457
+            X: 421.717529
+            Y: -5002.49121
             Z: 3770.01025
           }
         }
