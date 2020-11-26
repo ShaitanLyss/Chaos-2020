@@ -15,6 +15,8 @@ Objects {
     }
   }
   ParentId: 13499469834330122794
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -35,9 +37,12 @@ Objects {
 }
 Objects {
   Id: 15584773636956650124
-  Name: "CPlatfromModel"
+  Name: "CPlatformModel"
   Transform {
     Location {
+      X: -3780
+      Y: 3210
+      Z: 4940
     }
     Rotation {
     }
@@ -56,7 +61,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "CPlatfromModel"
+    FilePartitionName: "CPlatformModel"
   }
   InstanceHistory {
     SelfId: 15584773636956650124

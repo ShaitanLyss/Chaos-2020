@@ -1,7 +1,7 @@
-﻿Name: "CPlatformModel_9"
-RootId: 128826640576728930
+﻿Name: "CPlatformModel_12"
+RootId: 14575980896338415888
 Objects {
-  Id: 10406924353312515579
+  Id: 184695083302242398
   Name: "Trigger"
   Transform {
     Location {
@@ -9,12 +9,12 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 1.53738451
-      Y: 1.53739679
-      Z: 16.7605629
+      X: 2.45935273
+      Y: 2.45935273
+      Z: 2.45935273
     }
   }
-  ParentId: 128826640576728930
+  ParentId: 14575980896338415888
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -27,13 +27,13 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     TriggerShape_v2 {
-      Value: "mc:etriggershape:capsule"
+      Value: "mc:etriggershape:box"
     }
   }
 }
 Objects {
-  Id: 2753218615666579807
-  Name: "_Level.2.Killer Tube"
+  Id: 3145199598301370979
+  Name: "_Level.2.Killer Square"
   Transform {
     Scale {
       X: 1
@@ -41,28 +41,38 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 128826640576728930
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
+  ParentId: 14575980896338415888
   TemplateInstance {
     ParameterOverrideMap {
-      key: 12264167317587531338
+      key: 7082543403439824712
       value {
         Overrides {
           Name: "Name"
-          String: "C_4"
+          String: "C_1"
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 6.48867936e-05
+          }
         }
         Overrides {
           Name: "Scale"
           Vector {
-            X: 1.5
-            Y: 1.5
-            Z: 16.1
+            X: 2.79428649
+            Y: 2.79428649
+            Z: 2.79428649
           }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 16548715189811476968
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:smart"
+          Bool: false
         }
         Overrides {
           Name: "Collidable"
@@ -73,7 +83,7 @@ Objects {
       }
     }
     TemplateAsset {
-      Id: 7301231792458772727
+      Id: 17487441168680876738
     }
   }
 }

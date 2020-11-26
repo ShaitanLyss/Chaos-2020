@@ -1,7 +1,7 @@
-﻿Name: "CPlatfromModel_1"
-RootId: 16954065723892322912
+﻿Name: "CPlatformModel_13"
+RootId: 8555594892839988862
 Objects {
-  Id: 9791649425778693658
+  Id: 12656627756705821146
   Name: "Trigger"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 17
     }
   }
-  ParentId: 16954065723892322912
+  ParentId: 8555594892839988862
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -32,8 +32,8 @@ Objects {
   }
 }
 Objects {
-  Id: 7380938509197971977
-  Name: "CS_3"
+  Id: 2124726521921849759
+  Name: "CS_1"
   Transform {
     Location {
     }
@@ -45,10 +45,10 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16954065723892322912
-  ChildIds: 14846307424683202816
-  ChildIds: 15412997564194723547
-  ChildIds: 9433983237104286170
+  ParentId: 8555594892839988862
+  ChildIds: 6982495709976642228
+  ChildIds: 12481877152209422797
+  ChildIds: 6196826460384959890
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -60,48 +60,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9433983237104286170
-  Name: "_Level.2.Corona Spreader"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 7380938509197971977
-  WantsNetworking: true
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 9946664624890403534
-      value {
-        Overrides {
-          Name: "Name"
-          String: "_Level.2.Corona Spreader"
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1.85213506
-            Y: 1.85213506
-            Z: 1.85213506
-          }
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            Z: -75.8481445
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 14484837179691354976
-    }
-  }
-}
-Objects {
-  Id: 15412997564194723547
+  Id: 6196826460384959890
   Name: "C2F_CovidAura"
   Transform {
     Scale {
@@ -110,7 +69,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7380938509197971977
+  ParentId: 2124726521921849759
   TemplateInstance {
     ParameterOverrideMap {
       key: 2885527514888761191
@@ -120,11 +79,14 @@ Objects {
           String: "C2F_CovidAura"
         }
         Overrides {
-          Name: "Scale"
+          Name: "Position"
           Vector {
-            X: 17
-            Y: 17
-            Z: 17
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 62.6012955
           }
         }
       }
@@ -135,7 +97,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14846307424683202816
+  Id: 12481877152209422797
   Name: "_Level.2.NPC Cage"
   Transform {
     Scale {
@@ -144,7 +106,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7380938509197971977
+  ParentId: 2124726521921849759
   TemplateInstance {
     ParameterOverrideMap {
       key: 3691403211646615168
@@ -187,6 +149,51 @@ Objects {
     }
     TemplateAsset {
       Id: 16858479965868598628
+    }
+  }
+}
+Objects {
+  Id: 6982495709976642228
+  Name: "_Level.2.Corona Spreader"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2124726521921849759
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 9946664624890403534
+      value {
+        Overrides {
+          Name: "Name"
+          String: "_Level.2.Corona Spreader"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Z: -112.884277
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 19.3222961
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 14484837179691354976
     }
   }
 }

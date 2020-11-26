@@ -1,7 +1,7 @@
-﻿Name: "CPlatformModel_10"
-RootId: 14837378477550255154
+﻿Name: "CPlatformModel_11"
+RootId: 8451471565777907001
 Objects {
-  Id: 17539120161814330702
+  Id: 16127087764130518527
   Name: "Trigger"
   Transform {
     Location {
@@ -9,12 +9,12 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 2.49877763
-      Y: 2.49877763
-      Z: 2.49877763
+      X: 3.14080667
+      Y: 3.14080667
+      Z: 3.14080667
     }
   }
-  ParentId: 14837378477550255154
+  ParentId: 8451471565777907001
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -32,48 +32,60 @@ Objects {
   }
 }
 Objects {
-  Id: 4856573510109709874
+  Id: 16626640703866201746
   Name: "_Level.2.Killer Square"
   Transform {
+    Location {
+      X: -2985
+      Y: 7125
+      Z: 2725
+    }
+    Rotation {
+      Yaw: 22.9999428
+    }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 2.79428649
+      Y: 2.79428649
+      Z: 2.79428649
     }
   }
-  ParentId: 14837378477550255154
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
+  ParentId: 8451471565777907001
   TemplateInstance {
     ParameterOverrideMap {
       key: 7082543403439824712
       value {
         Overrides {
           Name: "Name"
-          String: "C_3"
+          String: "C_2"
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: 1.53679248e-05
-          }
-        }
-        Overrides {
-          Name: "Collidable"
-          Enum {
-            Value: "mc:ecollisionsetting:forceoff"
+            Yaw: 4.78113216e-05
           }
         }
         Overrides {
           Name: "Scale"
           Vector {
-            X: 2.79428649
-            Y: 2.79428649
-            Z: 2.79428649
+            X: 3.5
+            Y: 3.5
+            Z: 3.5
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 16548715189811476968
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:smart"
+          Bool: false
+        }
+        Overrides {
+          Name: "Collidable"
+          Enum {
+            Value: "mc:ecollisionsetting:forceoff"
           }
         }
       }
