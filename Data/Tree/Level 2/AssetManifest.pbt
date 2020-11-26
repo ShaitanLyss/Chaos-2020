@@ -34,3 +34,12 @@ Assets {
     AssetId: "sm_pipe_003"
   }
 }
+Assets {
+  Id: 3587825122861898865
+  Name: "Bricks Stone Block 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_bricks_stone_block_001"
+  }
+}

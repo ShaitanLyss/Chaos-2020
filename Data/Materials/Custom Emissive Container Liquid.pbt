@@ -4,7 +4,7 @@
   PlatformAssetType: 13
   SerializationVersion: 68
   CustomMaterialAsset {
-    BaseMaterialId: 3862588501254185176
+    BaseMaterialId: 10819515487435190999
     ParameterOverrides {
       Overrides {
         Name: "surface height"
@@ -18,7 +18,7 @@
       }
       Overrides {
         Name: "scale"
-        Float: 9.19919872
+        Float: 9.4
       }
       Overrides {
         Name: "speed"
@@ -46,7 +46,7 @@
       }
       Overrides {
         Name: "surface foam"
-        Float: 0.116086103
+        Float: 0.222782731
       }
       Overrides {
         Name: "surface displacement amount"
@@ -63,6 +63,9 @@
       Overrides {
         Name: "top color"
         Color {
+          R: 0.0299520027
+          G: 0.0360000022
+          B: 0.0311014559
           A: 1
         }
       }
@@ -82,41 +85,26 @@
       Overrides {
         Name: "foam color"
         Color {
+          R: 0.243000016
+          G: 0.179839328
+          B: 0.134622008
           A: 1
         }
-      }
-      Overrides {
-        Name: "top edge foam distance"
-        Float: -3
       }
       Overrides {
         Name: "color"
         Color {
-          G: 0.108
-          B: 0.00374802877
           A: 1
         }
       }
-      Overrides {
-        Name: "fresnel power"
-        Float: 6
-      }
-      Overrides {
-        Name: "scanline speed"
-        Float: -0.2
-      }
-      Overrides {
-        Name: "scanlines"
-        Float: 2
-      }
     }
     Assets {
-      Id: 3862588501254185176
-      Name: "Basic Hologram"
+      Id: 10819515487435190999
+      Name: "Emissive Container Liquid"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "fxmi_basic_hologram"
+        AssetId: "fxmi_emissive_cutoff_liquid"
       }
     }
   }

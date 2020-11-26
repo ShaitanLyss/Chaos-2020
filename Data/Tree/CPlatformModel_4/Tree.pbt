@@ -61,14 +61,6 @@ Objects {
       Name: "ma:Shared_BaseMaterial:smart"
       Bool: false
     }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:color"
-      Color {
-        G: 1
-        B: 0.200000018
-        A: 1
-      }
-    }
   }
   WantsNetworking: true
   Collidable_v2 {

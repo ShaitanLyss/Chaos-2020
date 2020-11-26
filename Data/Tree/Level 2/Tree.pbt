@@ -103,12 +103,8 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 14662405927049408394
+        Id: 3587825122861898865
       }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:smart"
-      Bool: true
     }
   }
   Collidable_v2 {
@@ -198,7 +194,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 4697088280882620116
+        Id: 8490820923030596934
       }
     }
   }
