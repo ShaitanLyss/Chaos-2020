@@ -1,6 +1,182 @@
 ﻿Name: "R1"
 RootId: 460624279515593464
 Objects {
+  Id: 14486485866260138234
+  Name: "_Lvl.3_P-Diamond"
+  Transform {
+    Location {
+      X: -1846.61377
+      Y: 4416.43359
+      Z: 4857.26074
+    }
+    Rotation {
+      Yaw: 12.1556396
+    }
+    Scale {
+      X: 6
+      Y: 6
+      Z: 2.2
+    }
+  }
+  ParentId: 460624279515593464
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 11628828875050498024
+      value {
+        Overrides {
+          Name: "Name"
+          String: "_Lvl.3_P-Diamond"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -6106.15186
+            Y: -5022.26367
+            Z: 4473.479
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 19.5914516
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 4.5
+            Y: 4.5
+            Z: 3
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1671092820447506106
+    }
+  }
+}
+Objects {
+  Id: 6280177065284677788
+  Name: "_Lvl.3_P-Tri-Tube"
+  Transform {
+    Location {
+      X: -3184.55566
+      Y: 2279.18066
+      Z: 5473.479
+    }
+    Rotation {
+      Pitch: 56.040226
+      Yaw: -38.0497398
+      Roll: 89.9999771
+    }
+    Scale {
+      X: 1.9
+      Y: 1.9
+      Z: 6.39308453
+    }
+  }
+  ParentId: 460624279515593464
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 94470648033067604
+      value {
+        Overrides {
+          Name: "Name"
+          String: "_Lvl.3_P-Tri-Tube"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -7284.12402
+            Y: -6296.65625
+            Z: 4396.104
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 58.2011604
+            Yaw: -91.9302673
+            Roll: 64.632019
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1.90000105
+            Y: 1.89999843
+            Z: 5.0759
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 15405942426658761293
+    }
+  }
+}
+Objects {
+  Id: 8150897235084802231
+  Name: "_Lvl.3_P-Tri-Tube"
+  Transform {
+    Location {
+      X: -737.365723
+      Y: 4586.0957
+      Z: 5632.16797
+    }
+    Rotation {
+      Pitch: 38.7040176
+      Yaw: -127.536087
+      Roll: 31.6649628
+    }
+    Scale {
+      X: 1.91281319
+      Y: 1.91281736
+      Z: 18.7755737
+    }
+  }
+  ParentId: 460624279515593464
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 94470648033067604
+      value {
+        Overrides {
+          Name: "Name"
+          String: "_Lvl.3_P-Tri-Tube"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -6584.14551
+            Y: -5747.53369
+            Z: 4473.479
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 56.0402107
+            Yaw: -40.9789429
+            Roll: 90
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1.8
+            Y: 1.8
+            Z: 6.39308453
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 15405942426658761293
+    }
+  }
+}
+Objects {
   Id: 2137840350498329546
   Name: "_Lvl.3_P-Square"
   Transform {
@@ -30,23 +206,23 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -5842.96045
-            Y: -4224.2251
-            Z: 4297
+            X: -5762.4917
+            Y: -4277.1582
+            Z: 4473.47852
           }
         }
         Overrides {
           Name: "Scale"
           Vector {
-            X: 10.2057581
-            Y: 4.98064137
+            X: 3.05044723
+            Y: 4.48280334
             Z: 0.7
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -43.7678833
+            Yaw: -27.074646
           }
         }
       }
@@ -87,7 +263,7 @@ Objects {
           Vector {
             X: -5150.39746
             Y: -3209.70361
-            Z: 4297
+            Z: 4461.26025
           }
         }
         Overrides {
@@ -204,8 +380,8 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 5.5
-            Y: 5.5
+            X: 5
+            Y: 5
             Z: 1
           }
         }

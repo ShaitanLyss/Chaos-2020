@@ -32,7 +32,7 @@ Objects {
           Vector {
             X: -2327.92236
             Y: -15482.7207
-            Z: 1710
+            Z: 1705
           }
         }
         Overrides {
@@ -44,8 +44,8 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 2.2
-            Y: 2.2
+            X: 2.3
+            Y: 2.3
             Z: 0.15
           }
         }
@@ -86,8 +86,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 2847.7627
-            Y: -4393.83691
+            X: 2901.12354
+            Y: -4476.7959
             Z: 1738.27686
           }
         }
@@ -100,8 +100,8 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 2.5
-            Y: 2.5
+            X: 2.6
+            Y: 2.6
             Z: 0.1
           }
         }
@@ -142,8 +142,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 3353.08936
-            Y: -5448.82422
+            X: 3365.37
+            Y: -5512.1416
             Z: 1738.27686
           }
         }
@@ -156,8 +156,8 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 3
-            Y: 3
+            X: 3.1
+            Y: 3.1
             Z: 0.1
           }
         }
@@ -198,8 +198,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 3202.34619
-            Y: -6624.30469
+            X: 3219.82129
+            Y: -6656.74902
             Z: 1738.27686
           }
         }
@@ -212,8 +212,8 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 3.1
-            Y: 3.1
+            X: 3.2
+            Y: 3.2
             Z: 0.1
           }
         }
@@ -268,8 +268,8 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 3.5
-            Y: 3.5
+            X: 3.6
+            Y: 3.6
             Z: 0.1
           }
         }
@@ -324,8 +324,8 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 3.2
-            Y: 3.2
+            X: 3.3
+            Y: 3.3
             Z: 0.1
           }
         }
@@ -436,8 +436,8 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 3.6
-            Y: 3.6
+            X: 3.7
+            Y: 3.7
             Z: 0.1
           }
         }
@@ -492,8 +492,8 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 3.7
-            Y: 3.7
+            X: 3.8
+            Y: 3.8
             Z: 0.1
           }
         }
@@ -548,8 +548,8 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 3.7
-            Y: 3.7
+            X: 3.8
+            Y: 3.8
             Z: 0.1
           }
         }
@@ -675,7 +675,7 @@ Objects {
     Location {
       X: -2360
       Y: -15265
-      Z: 1764.06836
+      Z: 1714.37231
     }
     Rotation {
     }
@@ -860,8 +860,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 768.110107
-            Y: 402.607422
+            X: 732.13916
+            Y: 515.029785
             Z: -95
           }
         }
@@ -3005,6 +3005,7 @@ Objects {
     Location {
       X: -1435
       Y: -85
+      Z: 8.73730469
     }
     Rotation {
       Yaw: 179.422241
@@ -3239,6 +3240,7 @@ Objects {
     Location {
       X: -1220
       Y: -805
+      Z: 3.28710938
     }
     Rotation {
       Yaw: 55.3210335
@@ -3906,7 +3908,7 @@ Objects {
         }
         Overrides {
           Name: "cs:LaunchSpeed"
-          Float: 3200
+          Float: 3325
         }
       }
     }
@@ -4482,6 +4484,64 @@ Objects {
 }
 Objects {
   Id: 9558182245450181987
+  Name: "C-12_LVL2"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5239628783255204261
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "C-12_LVL2"
+  }
+  InstanceHistory {
+    SelfId: 9558182245450181987
+    SubobjectId: 16654495292939890785
+    InstanceId: 10923512792283994918
+    TemplateId: 3915291774251592516
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 15011568182834846582
+  Name: "C-11_LVL2"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5239628783255204261
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "C-11_LVL2"
+  }
+  InstanceHistory {
+    SelfId: 15011568182834846582
+    SubobjectId: 16654495292939890785
+    InstanceId: 9977068665712110208
+    TemplateId: 3915291774251592516
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 13512507945184217816
   Name: "C-10_LVL2"
   Transform {
     Scale {
@@ -4502,17 +4562,21 @@ Objects {
     FilePartitionName: "C-10_LVL2"
   }
   InstanceHistory {
-    SelfId: 9558182245450181987
+    SelfId: 13512507945184217816
     SubobjectId: 16654495292939890785
-    InstanceId: 10923512792283994918
+    InstanceId: 9818333967930537304
     TemplateId: 3915291774251592516
     WasRoot: true
   }
 }
 Objects {
-  Id: 15011568182834846582
+  Id: 7517284127220996867
   Name: "C-9_LVL2"
   Transform {
+    Location {
+    }
+    Rotation {
+    }
     Scale {
       X: 1
       Y: 1
@@ -4531,15 +4595,15 @@ Objects {
     FilePartitionName: "C-9_LVL2"
   }
   InstanceHistory {
-    SelfId: 15011568182834846582
+    SelfId: 7162217236213746847
     SubobjectId: 16654495292939890785
-    InstanceId: 9977068665712110208
+    InstanceId: 15108377176271350171
     TemplateId: 3915291774251592516
     WasRoot: true
   }
 }
 Objects {
-  Id: 13512507945184217816
+  Id: 6734269746332119421
   Name: "C-8_LVL2"
   Transform {
     Scale {
@@ -4557,95 +4621,14 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "C-8_LVL2"
+    FilePartitionName: "C2_LVL2_1"
   }
   InstanceHistory {
-    SelfId: 13512507945184217816
+    SelfId: 6734269746332119421
     SubobjectId: 16654495292939890785
-    InstanceId: 9818333967930537304
+    InstanceId: 6544224062675372445
     TemplateId: 3915291774251592516
     WasRoot: true
-  }
-}
-Objects {
-  Id: 7517284127220996867
-  Name: "C-7_LVL2"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 5239628783255204261
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "C-7_LVL2"
-  }
-  InstanceHistory {
-    SelfId: 7162217236213746847
-    SubobjectId: 16654495292939890785
-    InstanceId: 15108377176271350171
-    TemplateId: 3915291774251592516
-    WasRoot: true
-  }
-}
-Objects {
-  Id: 12845846372707095261
-  Name: "_Level.2.Wall"
-  Transform {
-    Location {
-      X: -7560
-      Y: 280
-      Z: 2635
-    }
-    Rotation {
-      Yaw: -97.0000076
-    }
-    Scale {
-      X: 0.4
-      Y: 18.9
-      Z: 2
-    }
-  }
-  ParentId: 5239628783255204261
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 5594672932005031246
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Wall 6"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -9746.86426
-            Y: -12533.8125
-            Z: 1705
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -52
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 7813499516720574108
-    }
   }
 }
 Objects {
@@ -4798,8 +4781,8 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 4.5
-            Y: 4.5
+            X: 4
+            Y: 4
             Z: 0.7
           }
         }
@@ -4862,8 +4845,8 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 4.5
-            Y: 4.5
+            X: 4
+            Y: 4
             Z: 0.7
           }
         }
@@ -4923,71 +4906,32 @@ Objects {
   }
 }
 Objects {
-  Id: 9484677649569988537
-  Name: "_Level.2.Wall"
+  Id: 16918229318048569135
+  Name: "C-7_LVL2"
   Transform {
-    Location {
-      X: 2985
-      Y: 6745
-      Z: 2853
-    }
-    Rotation {
-      Yaw: -22.4999847
-    }
     Scale {
-      X: 0.433940023
-      Y: 10
-      Z: 6.5
+      X: 1
+      Y: 1
+      Z: 1
     }
   }
   ParentId: 5239628783255204261
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 5594672932005031246
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Wall 5"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -11160
-            Y: -7970
-            Z: 1635
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -97
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.4
-            Y: 16.4
-            Z: 2.10000014
-          }
-        }
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:smart"
-          Bool: true
-        }
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:utile"
-          Float: 2.5277369
-        }
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:vtile"
-          Float: 0.811054
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 7813499516720574108
-    }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "C-7_LVL2"
+  }
+  InstanceHistory {
+    SelfId: 16918229318048569135
+    SubobjectId: 16654495292939890785
+    InstanceId: 6051333003008358615
+    TemplateId: 3915291774251592516
+    WasRoot: true
   }
 }
 Objects {
@@ -5325,8 +5269,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -2740
-            Y: -1065.13818
+            X: -2737.72607
+            Y: -1046.61963
             Z: 1853
           }
         }
@@ -5353,8 +5297,8 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 0.400003791
-            Y: 13.87644
+            X: 0.400003135
+            Y: 13.4003716
             Z: 6.5
           }
         }

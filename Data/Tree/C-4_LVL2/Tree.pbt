@@ -33,7 +33,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DecreaseSpeedPer"
-      Float: 0.4
+      Float: 0.45
     }
   }
   Collidable_v2 {
@@ -82,7 +82,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "CPlatformModel_7"
+    FilePartitionName: "CPlatformModel_9"
   }
   InstanceHistory {
     SelfId: 128826640576728930

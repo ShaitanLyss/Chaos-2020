@@ -1,7 +1,7 @@
 ﻿Name: "CPlatformModel_6"
-RootId: 13250733520815637966
+RootId: 9050614485578438554
 Objects {
-  Id: 17640937820455327172
+  Id: 10167383536889610460
   Name: "Trigger"
   Transform {
     Location {
@@ -9,12 +9,12 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 1.95485568
-      Y: 1.95485568
-      Z: 1.95485568
+      X: 0.429954469
+      Y: 16.3516083
+      Z: 2.13751483
     }
   }
-  ParentId: 13250733520815637966
+  ParentId: 9050614485578438554
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -32,44 +32,57 @@ Objects {
   }
 }
 Objects {
-  Id: 12042638155323047178
-  Name: "_Level.2.Killer Square"
+  Id: 9484677649569988537
+  Name: "_Level.2.Wall"
   Transform {
     Location {
-      X: -2985
-      Y: 7125
-      Z: 2690
+      X: 2985
+      Y: 6745
+      Z: 2853
     }
     Rotation {
-      Yaw: 22.9999428
+      Yaw: -22.4999847
     }
     Scale {
-      X: 2.79428649
-      Y: 2.79428649
-      Z: 2.79428649
+      X: 0.433940023
+      Y: 10
+      Z: 6.5
     }
   }
-  ParentId: 13250733520815637966
+  ParentId: 9050614485578438554
   TemplateInstance {
     ParameterOverrideMap {
-      key: 7082543403439824712
+      key: 5594672932005031246
       value {
         Overrides {
           Name: "Name"
-          String: "C_5"
+          String: "Wall 5"
         }
         Overrides {
           Name: "Rotation"
           Rotator {
+            Yaw: -6.83018879e-06
           }
         }
         Overrides {
           Name: "Scale"
           Vector {
-            X: 2.2
-            Y: 2.2
-            Z: 2.2
+            X: 0.4
+            Y: 16.4
+            Z: 2.10000014
           }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:smart"
+          Bool: true
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:utile"
+          Float: 2.5277369
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:vtile"
+          Float: 0.811054
         }
         Overrides {
           Name: "Collidable"
@@ -80,7 +93,7 @@ Objects {
       }
     }
     TemplateAsset {
-      Id: 17487441168680876738
+      Id: 7813499516720574108
     }
   }
 }

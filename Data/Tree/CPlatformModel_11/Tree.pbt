@@ -1,7 +1,7 @@
-﻿Name: "CPlatformModel_8"
-RootId: 13250733520815637966
+﻿Name: "CPlatformModel_11"
+RootId: 8451471565777907001
 Objects {
-  Id: 17640937820455327172
+  Id: 16127087764130518527
   Name: "Trigger"
   Transform {
     Location {
@@ -9,12 +9,12 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 2.67613196
-      Y: 2.67613196
-      Z: 2.67613196
+      X: 3.14080667
+      Y: 3.14080667
+      Z: 3.14080667
     }
   }
-  ParentId: 13250733520815637966
+  ParentId: 8451471565777907001
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -32,13 +32,13 @@ Objects {
   }
 }
 Objects {
-  Id: 12042638155323047178
+  Id: 16626640703866201746
   Name: "_Level.2.Killer Square"
   Transform {
     Location {
       X: -2985
       Y: 7125
-      Z: 2690
+      Z: 2725
     }
     Rotation {
       Yaw: 22.9999428
@@ -49,27 +49,38 @@ Objects {
       Z: 2.79428649
     }
   }
-  ParentId: 13250733520815637966
+  ParentId: 8451471565777907001
   TemplateInstance {
     ParameterOverrideMap {
       key: 7082543403439824712
       value {
         Overrides {
           Name: "Name"
-          String: "C_5"
+          String: "C_2"
         }
         Overrides {
           Name: "Rotation"
           Rotator {
+            Yaw: 4.78113216e-05
           }
         }
         Overrides {
           Name: "Scale"
           Vector {
-            X: 3
-            Y: 3
-            Z: 3
+            X: 3.5
+            Y: 3.5
+            Z: 3.5
           }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 16548715189811476968
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:smart"
+          Bool: false
         }
         Overrides {
           Name: "Collidable"

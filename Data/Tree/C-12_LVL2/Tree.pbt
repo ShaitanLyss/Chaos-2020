@@ -1,36 +1,36 @@
-﻿Name: "C-10_LVL2"
-RootId: 13512507945184217816
+﻿Name: "C-12_LVL2"
+RootId: 9558182245450181987
 Objects {
-  Id: 2265765389399198712
+  Id: 3316364529175015652
   Name: "Object Mover"
   Transform {
     Location {
-      X: -8015
-      Y: -14270
+      X: -6955
+      Y: -15475
       Z: 1690
     }
     Rotation {
-      Yaw: 104.000198
+      Yaw: -2.73207552e-05
     }
     Scale {
-      X: 0.999999762
-      Y: 0.999999762
-      Z: 0.999999821
+      X: 0.99999994
+      Y: 0.99999994
+      Z: 0.99999994
     }
   }
-  ParentId: 13512507945184217816
+  ParentId: 9558182245450181987
   UnregisteredParameters {
     Overrides {
       Name: "cs:Object"
       ObjectReference {
-        SelfId: 3230682251122657901
+        SelfId: 1438581351011511766
       }
     }
     Overrides {
       Name: "cs:MoveTo"
       Vector {
-        X: -7530
-        Y: -13630
+        X: -6430
+        Y: -14230
         Z: 1690
       }
     }
@@ -44,7 +44,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Duration"
-      Float: 1
+      Float: 1.3
     }
     Overrides {
       Name: "cs:AutoStart"
@@ -62,7 +62,6 @@ Objects {
     Overrides {
       Name: "cs:IntervalDelayRange"
       Vector2 {
-        Y: 0.3
       }
     }
     Overrides {
@@ -179,15 +178,15 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 2265765389399198712
+    SelfId: 3316364529175015652
     SubobjectId: 3142504813567088034
-    InstanceId: 10816694515309344487
+    InstanceId: 9705720392120433805
     TemplateId: 9951297657303948718
     WasRoot: true
   }
 }
 Objects {
-  Id: 1235161424346666671
+  Id: 16489801779132719861
   Name: "CoronaSquare"
   Transform {
     Location {
@@ -203,18 +202,18 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13512507945184217816
+  ParentId: 9558182245450181987
   UnregisteredParameters {
     Overrides {
       Name: "cs:CPlatform"
       ObjectReference {
-        SelfId: 13512507945184217816
+        SelfId: 9558182245450181987
       }
     }
     Overrides {
       Name: "cs:CPlatformModel"
       ObjectReference {
-        SelfId: 3230682251122657901
+        SelfId: 1438581351011511766
       }
     }
     Overrides {
@@ -241,16 +240,16 @@ Objects {
   }
 }
 Objects {
-  Id: 3230682251122657901
+  Id: 1438581351011511766
   Name: "CPlatformModel"
   Transform {
     Location {
-      X: -8015
-      Y: -14270
+      X: -6955
+      Y: -15475
       Z: 1690
     }
     Rotation {
-      Yaw: 52.0000801
+      Yaw: 66.5000305
     }
     Scale {
       X: 1
@@ -258,7 +257,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13512507945184217816
+  ParentId: 9558182245450181987
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -268,12 +267,12 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "CPlatformModel_4"
+    FilePartitionName: "CPlatformModel_2"
   }
   InstanceHistory {
-    SelfId: 3230682251122657901
+    SelfId: 1438581351011511766
     SubobjectId: 8102825907411153108
-    InstanceId: 9818333967930537304
+    InstanceId: 10923512792283994918
     TemplateId: 3915291774251592516
   }
 }

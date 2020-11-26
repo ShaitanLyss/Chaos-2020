@@ -1,7 +1,7 @@
 ﻿Name: "CPlatformModel_10"
-RootId: 14575980896338415888
+RootId: 14837378477550255154
 Objects {
-  Id: 184695083302242398
+  Id: 17539120161814330702
   Name: "Trigger"
   Transform {
     Location {
@@ -9,12 +9,12 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 2.45935273
-      Y: 2.45935273
-      Z: 2.45935273
+      X: 2.68095708
+      Y: 2.68095708
+      Z: 2.68095708
     }
   }
-  ParentId: 14575980896338415888
+  ParentId: 14837378477550255154
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -32,7 +32,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3145199598301370979
+  Id: 4856573510109709874
   Name: "_Level.2.Killer Square"
   Transform {
     Scale {
@@ -41,43 +41,39 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14575980896338415888
+  ParentId: 14837378477550255154
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 7082543403439824712
       value {
         Overrides {
           Name: "Name"
-          String: "C_1"
+          String: "C_3"
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: 6.48867936e-05
+            Yaw: 1.53679248e-05
           }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 2.79428649
-            Y: 2.79428649
-            Z: 2.79428649
-          }
-        }
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:id"
-          AssetReference {
-            Id: 16548715189811476968
-          }
-        }
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:smart"
-          Bool: false
         }
         Overrides {
           Name: "Collidable"
           Enum {
             Value: "mc:ecollisionsetting:forceoff"
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 3
+            Y: 3
+            Z: 3
           }
         }
       }
