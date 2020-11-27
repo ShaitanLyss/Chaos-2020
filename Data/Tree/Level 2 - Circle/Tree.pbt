@@ -1,637 +1,48 @@
 ﻿Name: "Level 2 - Circle"
 RootId: 5239628783255204261
 Objects {
-  Id: 14478098179101511479
-  Name: "_Level.2.Circular Platform"
+  Id: 9381559815308714482
+  Name: "Town platforms"
   Transform {
     Location {
-      X: -1310
-      Y: -6885
-      Z: 2720
     }
     Rotation {
-      Yaw: -46.1454277
     }
     Scale {
-      X: 5.8
-      Y: 5.8
-      Z: 0.4
+      X: 1
+      Y: 1
+      Z: 1
     }
   }
   ParentId: 5239628783255204261
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 8226220198750271134
-      value {
-        Overrides {
-          Name: "Name"
-          String: "P_8"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -2327.92236
-            Y: -15482.7207
-            Z: 1705
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -46.1454468
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 2.3
-            Y: 2.3
-            Z: 0.15
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 6683934464757253087
-    }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
-}
-Objects {
-  Id: 13855694135046290117
-  Name: "_Level.2.Circular Platform"
-  Transform {
-    Location {
-      X: 6968.92627
-      Y: 2584.56
-      Z: 2738.27686
-    }
-    Rotation {
-      Yaw: -175.46611
-    }
-    Scale {
-      X: 3.5
-      Y: 3.5
-      Z: 0.1
-    }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  ParentId: 5239628783255204261
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 8226220198750271134
-      value {
-        Overrides {
-          Name: "Name"
-          String: "P_27"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 2901.12354
-            Y: -4476.7959
-            Z: 1738.27686
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -17.2434387
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 2.6
-            Y: 2.6
-            Z: 0.1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 6683934464757253087
-    }
-  }
-}
-Objects {
-  Id: 15040765863129136617
-  Name: "_Level.2.Circular Platform"
-  Transform {
-    Location {
-      X: 6962.0293
-      Y: 1460.79297
-      Z: 2738.27686
-    }
-    Rotation {
-      Yaw: -175.46611
-    }
-    Scale {
-      X: 3.5
-      Y: 3.5
-      Z: 0.1
-    }
-  }
-  ParentId: 5239628783255204261
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 8226220198750271134
-      value {
-        Overrides {
-          Name: "Name"
-          String: "P_26"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 3365.37
-            Y: -5512.1416
-            Z: 1738.27686
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 119.708282
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 3.1
-            Y: 3.1
-            Z: 0.1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 6683934464757253087
-    }
-  }
-}
-Objects {
-  Id: 8499151083224977212
-  Name: "_Level.2.Circular Platform"
-  Transform {
-    Location {
-      X: 7445.80127
-      Y: 498.897461
-      Z: 2738.27661
-    }
-    Rotation {
-      Yaw: -175.46611
-    }
-    Scale {
-      X: 3.5
-      Y: 3.5
-      Z: 0.1
-    }
-  }
-  ParentId: 5239628783255204261
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 8226220198750271134
-      value {
-        Overrides {
-          Name: "Name"
-          String: "P_25"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 3219.82129
-            Y: -6656.74902
-            Z: 1738.27686
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -165.066681
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 3.2
-            Y: 3.2
-            Z: 0.1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 6683934464757253087
-    }
-  }
-}
-Objects {
-  Id: 18184187884425330241
-  Name: "_Level.2.Circular Platform"
-  Transform {
-    Location {
-      X: 6874.13232
-      Y: -62.7773438
-      Z: 2738.27661
-    }
-    Rotation {
-      Yaw: -175.46611
-    }
-    Scale {
-      X: 3.5
-      Y: 3.5
-      Z: 0.1
-    }
-  }
-  ParentId: 5239628783255204261
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 8226220198750271134
-      value {
-        Overrides {
-          Name: "Name"
-          String: "P_24"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 4068.54736
-            Y: -7469.16553
-            Z: 1738.27686
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -145.447449
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 3.6
-            Y: 3.6
-            Z: 0.1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 6683934464757253087
-    }
-  }
-}
-Objects {
-  Id: 390022540311552500
-  Name: "_Level.2.Circular Platform"
-  Transform {
-    Location {
-      X: 7277.26025
-      Y: -915.828125
-      Z: 2738.27661
-    }
-    Rotation {
-      Yaw: -175.46611
-    }
-    Scale {
-      X: 3.5
-      Y: 3.5
-      Z: 0.1
-    }
-  }
-  ParentId: 5239628783255204261
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 8226220198750271134
-      value {
-        Overrides {
-          Name: "Name"
-          String: "P_23"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 3298.16748
-            Y: -8346.4082
-            Z: 1738.27661
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 125.552994
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 3.3
-            Y: 3.3
-            Z: 0.1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 6683934464757253087
-    }
-  }
-}
-Objects {
-  Id: 7134533864840775232
-  Name: "_Level.2.Circular Platform"
-  Transform {
-    Location {
-      X: 7277.26025
-      Y: -915.828125
-      Z: 2738.27661
-    }
-    Rotation {
-      Yaw: -175.46611
-    }
-    Scale {
-      X: 3.5
-      Y: 3.5
-      Z: 0.1
-    }
-  }
-  ParentId: 5239628783255204261
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 8226220198750271134
-      value {
-        Overrides {
-          Name: "Name"
-          String: "P_22"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 3411.67334
-            Y: -9682.08105
-            Z: 1738.27661
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -123.682159
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 2.3
-            Y: 2.3
-            Z: 0.1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 6683934464757253087
-    }
-  }
-}
-Objects {
-  Id: 15314406551384723202
-  Name: "_Level.2.Circular Platform"
-  Transform {
-    Location {
-      X: 7013.04102
-      Y: -2141.80176
-      Z: 2738.27661
-    }
-    Rotation {
-      Yaw: -175.46611
-    }
-    Scale {
-      X: 4
-      Y: 4
-      Z: 0.1
-    }
-  }
-  ParentId: 5239628783255204261
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 8226220198750271134
-      value {
-        Overrides {
-          Name: "Name"
-          String: "P_21"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 3670.0498
-            Y: -9083.83887
-            Z: 1738.27637
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -63.7259521
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 3.7
-            Y: 3.7
-            Z: 0.1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 6683934464757253087
-    }
-  }
-}
-Objects {
-  Id: 18238873492393198207
-  Name: "_Level.2.Circular Platform"
-  Transform {
-    Location {
-      X: 5838.77246
-      Y: -1948.99414
-      Z: 2738.27661
-    }
-    Rotation {
-      Yaw: -175.46611
-    }
-    Scale {
-      X: 4
-      Y: 4
-      Z: 0.1
-    }
-  }
-  ParentId: 5239628783255204261
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 8226220198750271134
-      value {
-        Overrides {
-          Name: "Name"
-          String: "P_20"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 3456.28613
-            Y: -10274.0947
-            Z: 1738.27661
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 16.3289394
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 3.8
-            Y: 3.8
-            Z: 0.1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 6683934464757253087
-    }
-  }
-}
-Objects {
-  Id: 18311033177058889760
-  Name: "_Level.2.Circular Platform"
-  Transform {
-    Location {
-      X: 5284.49463
-      Y: -3092.1875
-      Z: 2738.27661
-    }
-    Rotation {
-      Yaw: -175.46611
-    }
-    Scale {
-      X: 5
-      Y: 5
-      Z: 0.1
-    }
-  }
-  ParentId: 5239628783255204261
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 8226220198750271134
-      value {
-        Overrides {
-          Name: "Name"
-          String: "P_19"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 2219.44482
-            Y: -10209.2109
-            Z: 1738.27661
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 152.658325
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 3.8
-            Y: 3.8
-            Z: 0.1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 6683934464757253087
-    }
-  }
-}
-Objects {
-  Id: 14293250643850709331
-  Name: "_Level.2.Circular Platform"
-  Transform {
-    Location {
-      X: -1330
-      Y: -7685
-      Z: 2920
-    }
-    Rotation {
-      Yaw: -175.46611
-    }
-    Scale {
-      X: 5.66
-      Y: 5.66
-      Z: 0.4
-    }
-  }
-  ParentId: 5239628783255204261
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 8226220198750271134
-      value {
-        Overrides {
-          Name: "Name"
-          String: "P_18"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 1668.39844
-            Y: -11359.4512
-            Z: 1747.88745
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -175.46611
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 4.5
-            Y: 4.5
-            Z: 0.1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 6683934464757253087
-    }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Town platforms"
   }
 }
 Objects {
   Id: 5840782647913645648
-  Name: "P_17"
+  Name: "P_18"
   Transform {
     Location {
-      X: 1545.12256
-      Y: -11852.3525
-      Z: 1538.4812
+      X: 1522.37256
+      Y: -11893.3945
+      Z: 1534.354
     }
     Rotation {
       Yaw: -29
     }
     Scale {
-      X: 5.00000191
-      Y: 5.28460026
-      Z: 2.10000014
+      X: 5.00000477
+      Y: 6.22260332
+      Z: 2.58738303
     }
   }
   ParentId: 5239628783255204261
@@ -665,6 +76,62 @@ Objects {
     StaticMesh {
       Physics {
       }
+    }
+  }
+}
+Objects {
+  Id: 14478098179101511479
+  Name: "_Level.2.Circular Platform"
+  Transform {
+    Location {
+      X: -1310
+      Y: -6885
+      Z: 2720
+    }
+    Rotation {
+      Yaw: -46.1454277
+    }
+    Scale {
+      X: 5.8
+      Y: 5.8
+      Z: 0.4
+    }
+  }
+  ParentId: 5239628783255204261
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8226220198750271134
+      value {
+        Overrides {
+          Name: "Name"
+          String: "P_17"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2327.92236
+            Y: -15482.7207
+            Z: 1705
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -46.1454468
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 2.4
+            Y: 2.4
+            Z: 0.15
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 6683934464757253087
     }
   }
 }
