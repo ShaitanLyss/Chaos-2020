@@ -15,6 +15,8 @@ Objects {
     }
   }
   ParentId: 13499469834330122794
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -38,6 +40,9 @@ Objects {
   Name: "CPlatformModel"
   Transform {
     Location {
+      X: -3780
+      Y: 3210
+      Z: 4940
     }
     Rotation {
     }

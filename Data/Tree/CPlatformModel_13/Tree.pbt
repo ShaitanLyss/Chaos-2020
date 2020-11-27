@@ -1,7 +1,7 @@
 ﻿Name: "CPlatformModel_13"
-RootId: 14837378477550255154
+RootId: 8555594892839988862
 Objects {
-  Id: 17539120161814330702
+  Id: 12656627756705821146
   Name: "Trigger"
   Transform {
     Location {
@@ -9,12 +9,12 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 2.68095708
-      Y: 2.68095708
-      Z: 2.68095708
+      X: 17
+      Y: 17
+      Z: 17
     }
   }
-  ParentId: 14837378477550255154
+  ParentId: 8555594892839988862
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -27,13 +27,41 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     TriggerShape_v2 {
-      Value: "mc:etriggershape:box"
+      Value: "mc:etriggershape:capsule"
     }
   }
 }
 Objects {
-  Id: 4856573510109709874
-  Name: "_Level.2.Killer Square"
+  Id: 2124726521921849759
+  Name: "CS_1"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8555594892839988862
+  ChildIds: 6982495709976642228
+  ChildIds: 12481877152209422797
+  ChildIds: 6196826460384959890
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 6196826460384959890
+  Name: "C2F_CovidAura"
   Transform {
     Scale {
       X: 1
@@ -41,7 +69,101 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14837378477550255154
+  ParentId: 2124726521921849759
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 2885527514888761191
+      value {
+        Overrides {
+          Name: "Name"
+          String: "C2F_CovidAura"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 62.6012955
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5874369901957612822
+    }
+  }
+}
+Objects {
+  Id: 12481877152209422797
+  Name: "_Level.2.NPC Cage"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2124726521921849759
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 3691403211646615168
+      value {
+        Overrides {
+          Name: "Name"
+          String: "_Level.2.NPC Cage"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 3
+            Y: 3
+            Z: 2.9
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 140108169051315541
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Visible"
+          Enum {
+            Value: "mc:evisibilitysetting:forceoff"
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16858479965868598628
+    }
+  }
+}
+Objects {
+  Id: 6982495709976642228
+  Name: "_Level.2.Corona Spreader"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2124726521921849759
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -50,36 +172,28 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
-      key: 7082543403439824712
+      key: 9946664624890403534
       value {
         Overrides {
           Name: "Name"
-          String: "C_3"
+          String: "_Level.2.Corona Spreader"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Z: -112.884277
+          }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: 1.53679248e-05
-          }
-        }
-        Overrides {
-          Name: "Collidable"
-          Enum {
-            Value: "mc:ecollisionsetting:forceoff"
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 3
-            Y: 3
-            Z: 3
+            Yaw: 19.3222961
           }
         }
       }
     }
     TemplateAsset {
-      Id: 17487441168680876738
+      Id: 14484837179691354976
     }
   }
 }

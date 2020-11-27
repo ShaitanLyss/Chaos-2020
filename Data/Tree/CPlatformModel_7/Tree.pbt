@@ -87,7 +87,7 @@ Objects {
         Overrides {
           Name: "Collidable"
           Enum {
-            Value: "mc:ecollisionsetting:forceoff"
+            Value: "mc:evisibilitysetting:forceoff"
           }
         }
       }
