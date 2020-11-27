@@ -7,6 +7,19 @@ function OnBeginOverlap(trigger, thePlayer)
     end
 end
 
+
+function OnEndOverlap(trigger, thePlayer)
+    
+end
+
+function Tick(dt)
+    if (thePlayer:GetResource("challenge") == 1) and thePlayer:IsA("Player")  and not thePlayer.isDead and 
+
+    then
+end
+
+
+
 KILL_TRIGGER.beginOverlapEvent:Connect(OnBeginOverlap)
---KILL_TRIGGER.endOverlapEvent:Connect(OnEndOverlap) 	
+KILL_TRIGGER.endOverlapEvent:Connect(OnEndOverlap) 	
 
