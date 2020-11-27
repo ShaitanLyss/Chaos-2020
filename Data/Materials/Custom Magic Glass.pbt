@@ -7,39 +7,34 @@
     BaseMaterialId: 3245678799295367209
     ParameterOverrides {
       Overrides {
-        Name: "color"
-        Color {
-          R: 1
-          G: 1
-          B: 5
-          A: 1
-        }
+        Name: "metallic"
+        Float: 0.438095
       }
       Overrides {
         Name: "color b"
         Color {
-          R: 1
-          B: 0.054199
+          R: 0.431000024
+          G: 0.103439987
+          B: 0.425540626
           A: 1
         }
       }
       Overrides {
-        Name: "color c"
+        Name: "color"
         Color {
+          R: 0.15699999
+          G: 0.785
+          B: 0.177933589
           A: 1
         }
       }
       Overrides {
         Name: "glass color"
         Color {
-          G: 0.186668
-          B: 0.328125
+          R: 0.328125
+          B: 0.322656184
           A: 1
         }
-      }
-      Overrides {
-        Name: "metallic"
-        Float: 0.438095
       }
     }
     Assets {

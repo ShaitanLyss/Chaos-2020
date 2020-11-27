@@ -93,14 +93,6 @@ Objects {
             Yaw: -150.17485
           }
         }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
       }
     }
     TemplateAsset {
@@ -166,13 +158,6 @@ Objects {
   Id: 8577255117675047865
   Name: "C_level2_border"
   Transform {
-    Location {
-      X: -400
-      Y: -50
-    }
-    Rotation {
-      Yaw: 29.9869633
-    }
     Scale {
       X: 1
       Y: 1
@@ -180,6 +165,12 @@ Objects {
     }
   }
   ParentId: 7325224074645116302
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 3721752853739363704
@@ -201,25 +192,15 @@ Objects {
             Yaw: 14.6679554
           }
         }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
       }
     }
     ParameterOverrideMap {
-      key: 12920718486117430809
+      key: 16538643495652325532
       value {
         Overrides {
-          Name: "Scale"
-          Vector {
-            X: 2.5
-            Y: 4
-            Z: 2.3
+          Name: "Collidable"
+          Enum {
+            Value: "mc:ecollisionsetting:forceon"
           }
         }
       }
@@ -1118,6 +1099,17 @@ Objects {
         }
       }
     }
+    ParameterOverrideMap {
+      key: 16538643495652325532
+      value {
+        Overrides {
+          Name: "Visible"
+          Enum {
+            Value: "mc:evisibilitysetting:forceoff"
+          }
+        }
+      }
+    }
     TemplateAsset {
       Id: 9309018929621835786
     }
@@ -1168,6 +1160,17 @@ Objects {
             X: 1
             Y: 1
             Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16538643495652325532
+      value {
+        Overrides {
+          Name: "Visible"
+          Enum {
+            Value: "mc:evisibilitysetting:forceoff"
           }
         }
       }
@@ -1226,6 +1229,17 @@ Objects {
         }
       }
     }
+    ParameterOverrideMap {
+      key: 16538643495652325532
+      value {
+        Overrides {
+          Name: "Visible"
+          Enum {
+            Value: "mc:evisibilitysetting:forceoff"
+          }
+        }
+      }
+    }
     TemplateAsset {
       Id: 9309018929621835786
     }
@@ -1279,6 +1293,31 @@ Objects {
         }
       }
     }
+    ParameterOverrideMap {
+      key: 16538643495652325532
+      value {
+        Overrides {
+          Name: "Visible"
+          Enum {
+            Value: "mc:evisibilitysetting:inheritfromparent"
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 7132.33936
+            Y: 4116.93066
+            Z: 2825.9458
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -14.6679688
+          }
+        }
+      }
+    }
     TemplateAsset {
       Id: 9309018929621835786
     }
@@ -1321,6 +1360,50 @@ Objects {
             X: 1
             Y: 1
             Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 6817093385641145636
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 7203.02197
+            Y: 4117.88379
+            Z: 3005.6106
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -14.6679688
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16538643495652325532
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 7165.83496
+            Y: 4093.69482
+            Z: 2833.83228
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -14.6679688
+          }
+        }
+        Overrides {
+          Name: "Visible"
+          Enum {
+            Value: "mc:evisibilitysetting:inheritfromparent"
           }
         }
       }
