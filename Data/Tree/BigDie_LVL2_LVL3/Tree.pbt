@@ -1,8 +1,8 @@
-﻿Name: "BigDie_LVL2"
+﻿Name: "BigDie_LVL2_LVL3"
 RootId: 18367807608576850172
 Objects {
   Id: 15870504157041260785
-  Name: "BigDie_LVL2"
+  Name: "BigDie_LVL2_LVL3"
   Transform {
     Location {
     }
@@ -20,6 +20,12 @@ Objects {
       Name: "cs:Lvl2_SpawnPoint"
       ObjectReference {
         SelfId: 7083436607650349697
+      }
+    }
+    Overrides {
+      Name: "cs:Lvl3_SpawnPoint"
+      ObjectReference {
+        SelfId: 678746475644461664
       }
     }
   }

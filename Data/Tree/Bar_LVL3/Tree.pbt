@@ -1,8 +1,8 @@
-﻿Name: "DistanceCalc_Lvl1"
-RootId: 7149579895321862950
+﻿Name: "Bar_LVL3"
+RootId: 125359251709067130
 Objects {
-  Id: 18367807608576850172
-  Name: "BigDie_LVL2_LVL3"
+  Id: 3597114681631707189
+  Name: "ClientContext  Q_Bar"
   Transform {
     Location {
     }
@@ -14,34 +14,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7149579895321862950
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "BigDie_LVL2_LVL3"
-  }
-}
-Objects {
-  Id: 10758788117194149084
-  Name: "ClientContext  C_Bar"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 7149579895321862950
-  ChildIds: 8227458659002647045
+  ParentId: 125359251709067130
+  ChildIds: 15405461409995118635
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -52,8 +26,8 @@ Objects {
   }
 }
 Objects {
-  Id: 8227458659002647045
-  Name: "CoronaContainer"
+  Id: 15405461409995118635
+  Name: "QContainer"
   Transform {
     Location {
     }
@@ -65,9 +39,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10758788117194149084
-  ChildIds: 937535530957126629
-  ChildIds: 4669222827923480174
+  ParentId: 3597114681631707189
+  ChildIds: 12547043639177128028
+  ChildIds: 17641137438949620623
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -97,8 +71,8 @@ Objects {
   }
 }
 Objects {
-  Id: 4669222827923480174
-  Name: "CoronaController"
+  Id: 17641137438949620623
+  Name: "QController"
   Transform {
     Location {
     }
@@ -110,20 +84,24 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8227458659002647045
+  ParentId: 15405461409995118635
   UnregisteredParameters {
     Overrides {
-      Name: "cs:CoronaBar"
+      Name: "cs:QBar"
       ObjectReference {
-        SelfId: 937535530957126629
+        SelfId: 12547043639177128028
       }
     }
     Overrides {
       Name: "cs:MintuesToFill"
-      Float: 0.1
+      Float: 1
     }
     Overrides {
       Name: "cs:IncAfterSmallDiePer"
+      Float: 0.1
+    }
+    Overrides {
+      Name: "cs:DecPerCollectPercentage"
       Float: 0.1
     }
   }
@@ -135,13 +113,13 @@ Objects {
   }
   Script {
     ScriptAsset {
-      Id: 6294219696318805094
+      Id: 2201306488724435558
     }
   }
 }
 Objects {
-  Id: 937535530957126629
-  Name: "CoronaBar"
+  Id: 12547043639177128028
+  Name: "QBar"
   Transform {
     Location {
     }
@@ -153,7 +131,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 8227458659002647045
+  ParentId: 15405461409995118635
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
