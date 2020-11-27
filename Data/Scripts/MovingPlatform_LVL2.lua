@@ -82,7 +82,7 @@ end
 
 function OnStopMovingPlatform()
     toStart = false
-    Task.Wait(2)
+    Task.Wait(3)
     toStart = true
 end
 
