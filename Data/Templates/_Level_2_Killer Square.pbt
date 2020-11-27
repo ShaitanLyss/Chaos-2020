@@ -7,12 +7,12 @@
       RootId: 7082543403439824712
       Objects {
         Id: 7082543403439824712
-        Name: "_Level.2.Killer Square"
+        Name: "C_1"
         Transform {
           Scale {
-            X: 2.79428649
-            Y: 2.79428649
-            Z: 2.79428649
+            X: 5
+            Y: 5
+            Z: 5
           }
         }
         ParentId: 5239628783255204261
@@ -32,7 +32,7 @@
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"

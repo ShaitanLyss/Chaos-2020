@@ -51,38 +51,68 @@ Objects {
           String: "C_1"
         }
         Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
           Name: "Rotation"
           Rotator {
             Yaw: 6.48867936e-05
           }
         }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 5
-            Y: 5
-            Z: 5
-          }
-        }
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:id"
-          AssetReference {
-            Id: 16548715189811476968
-          }
-        }
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:smart"
-          Bool: false
-        }
-        Overrides {
-          Name: "Collidable"
-          Enum {
-            Value: "mc:ecollisionsetting:forceoff"
-          }
-        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 7931119662846091311
+      value {
         Overrides {
           Name: "Position"
           Vector {
+            X: -0.036356952
+            Y: -2.49274492
+            Z: -45.8937492
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.731548667
+            Y: 0.999999166
+            Z: 0.462111682
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -90.8353271
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16850390261659397647
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 0.0379252918
+            Y: -2.84572816
+            Z: -63.6005363
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -89.2368774
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.900848329
+            Y: 1.20562577
+            Z: 0.0966767073
           }
         }
       }
