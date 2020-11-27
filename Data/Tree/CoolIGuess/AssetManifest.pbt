@@ -35,12 +35,12 @@ Assets {
   }
 }
 Assets {
-  Id: 4969955216524084125
-  Name: "Action Music Score Set 01"
+  Id: 5565734697193600695
+  Name: "\"Cyberpunk EDM Fusion\" Music Construction Kit (Sections) 01"
   PlatformAssetType: 10
   PrimaryAsset {
     AssetType: "AudioBlueprintAssetRef"
-    AssetId: "abp_ActionMusic_ref"
+    AssetId: "abp_cyberpunk_edm_fusion_sections_kit_ref"
   }
 }
 Assets {

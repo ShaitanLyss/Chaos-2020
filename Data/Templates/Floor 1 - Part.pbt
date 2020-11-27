@@ -133,7 +133,6 @@
           TeamSettings {
           }
           Vfx {
-            AutoPlay: true
           }
         }
       }
@@ -175,7 +174,6 @@
           TeamSettings {
           }
           Vfx {
-            AutoPlay: true
           }
         }
       }
@@ -186,35 +184,43 @@
           Location {
             X: 1540
             Y: 4315
-            Z: 1380
+            Z: 1876.90991
           }
           Rotation {
-            Yaw: -30.0000095
+            Yaw: -30
           }
           Scale {
-            X: 25.3000011
-            Y: 20.8000107
-            Z: 8.6
+            X: 25.3000183
+            Y: 27.5097466
+            Z: 13.8859234
           }
         }
         ParentId: 9004552838829926765
         UnregisteredParameters {
           Overrides {
             Name: "bp:Particle Scale Multiplier"
-            Float: 0.656867445
+            Float: 0.7
           }
           Overrides {
             Name: "bp:color"
             Color {
               R: 1
-              G: 0.792966902
+              G: 0.775416672
               B: 0.460999966
               A: 0.417
             }
           }
           Overrides {
             Name: "bp:Density"
-            Float: 1.13675427
+            Float: 5
+          }
+          Overrides {
+            Name: "bp:Curl Speed"
+            Vector {
+              X: 0.06
+              Y: 0.1
+              Z: 0.02
+            }
           }
         }
         Collidable_v2 {

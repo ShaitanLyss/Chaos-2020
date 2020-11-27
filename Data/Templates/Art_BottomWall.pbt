@@ -16,11 +16,8 @@
           }
         }
         ParentId: 6339063528643310247
-        ChildIds: 15042122090869444913
-        ChildIds: 1932118485738406925
-        ChildIds: 2008065106272296226
-        ChildIds: 3511335812106484098
-        ChildIds: 6501508010533959706
+        ChildIds: 7371302375707002639
+        ChildIds: 9108230783033945723
         ChildIds: 9215944930008113058
         ChildIds: 6839941721878020996
         ChildIds: 16419551359600766148
@@ -39,12 +36,12 @@
         }
       }
       Objects {
-        Id: 15042122090869444913
+        Id: 7371302375707002639
         Name: "Audio"
         Transform {
           Location {
-            X: 1061.52222
-            Y: 264.082092
+            X: 363.346191
+            Y: 144.07515
             Z: 200.000061
           }
           Rotation {
@@ -61,25 +58,24 @@
         ChildIds: 3095051993427441292
         ChildIds: 2111238744181681508
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
-        Folder {
-          IsFilePartition: true
+        NetworkContext {
         }
       }
       Objects {
         Id: 5742089949130162873
-        Name: "A_FireFlame_loop"
+        Name: "F_flames"
         Transform {
           Location {
-            X: -374.213318
-            Y: 818.357361
+            X: 323.962799
+            Y: 938.362061
           }
           Rotation {
-            Yaw: 5.94815683
+            Yaw: 5.94816065
           }
           Scale {
             X: 0.721128225
@@ -87,7 +83,7 @@
             Z: 0.721128225
           }
         }
-        ParentId: 15042122090869444913
+        ParentId: 7371302375707002639
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -101,7 +97,6 @@
           TeamSettings {
           }
           AudioBP {
-            AutoPlay: true
             Repeat: true
             Volume: 1
             Falloff: 3000
@@ -114,14 +109,14 @@
       }
       Objects {
         Id: 14878771176500118705
-        Name: "Fire Breath Whoosh 01 SFX"
+        Name: "F_breath"
         Transform {
           Location {
-            X: -3142.11499
-            Y: -790.241
+            X: -2443.93896
+            Y: -670.236145
           }
           Rotation {
-            Yaw: 5.94815588
+            Yaw: 5.94816
           }
           Scale {
             X: 1
@@ -129,7 +124,7 @@
             Z: 1
           }
         }
-        ParentId: 15042122090869444913
+        ParentId: 7371302375707002639
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -140,7 +135,6 @@
           AudioAsset {
             Id: 12809010247404516716
           }
-          AutoPlay: true
           Repeat: true
           Volume: 1
           Falloff: 3000
@@ -153,14 +147,14 @@
       }
       Objects {
         Id: 3095051993427441292
-        Name: "Fire and Flame Burning Loop Set 01 SFX"
+        Name: "F_flames"
         Transform {
           Location {
-            X: -223.982025
-            Y: -623.554382
+            X: 474.194092
+            Y: -503.549622
           }
           Rotation {
-            Yaw: 5.94815588
+            Yaw: 5.94816
           }
           Scale {
             X: 0.721128225
@@ -168,7 +162,7 @@
             Z: 0.721128225
           }
         }
-        ParentId: 15042122090869444913
+        ParentId: 7371302375707002639
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -182,7 +176,6 @@
           TeamSettings {
           }
           AudioBP {
-            AutoPlay: true
             Repeat: true
             Volume: 1
             Falloff: 3000
@@ -195,14 +188,14 @@
       }
       Objects {
         Id: 2111238744181681508
-        Name: "Fire and Flame Burning Loop Set 01 SFX"
+        Name: "F_flames"
         Transform {
           Location {
-            X: 947.605896
-            Y: 115.41301
+            X: 1645.78198
+            Y: 235.417755
           }
           Rotation {
-            Yaw: 5.94815588
+            Yaw: 5.94816
           }
           Scale {
             X: 0.721128225
@@ -210,7 +203,7 @@
             Z: 0.721128225
           }
         }
-        ParentId: 15042122090869444913
+        ParentId: 7371302375707002639
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -224,7 +217,6 @@
           TeamSettings {
           }
           AudioBP {
-            AutoPlay: true
             Repeat: true
             Volume: 1
             Falloff: 3000
@@ -236,16 +228,46 @@
         }
       }
       Objects {
+        Id: 9108230783033945723
+        Name: "Fx"
+        Transform {
+          Location {
+            X: 2943.91016
+            Y: -79.9137268
+            Z: -150
+          }
+          Rotation {
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 586102269327232757
+        ChildIds: 1932118485738406925
+        ChildIds: 2008065106272296226
+        ChildIds: 3511335812106484098
+        ChildIds: 6501508010533959706
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        NetworkContext {
+        }
+      }
+      Objects {
         Id: 1932118485738406925
         Name: "Fire Volume VFX"
         Transform {
           Location {
-            X: 4894.78955
-            Y: -1382.94
-            Z: -150
+            X: 1950.87903
+            Y: -1303.02673
           }
           Rotation {
-            Yaw: -30.0000095
+            Yaw: -30.0000134
           }
           Scale {
             X: 20.9
@@ -253,7 +275,7 @@
             Z: 3.2
           }
         }
-        ParentId: 586102269327232757
+        ParentId: 9108230783033945723
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -267,7 +289,6 @@
           TeamSettings {
           }
           Vfx {
-            AutoPlay: true
           }
         }
       }
@@ -276,12 +297,11 @@
         Name: "Fire Volume VFX"
         Transform {
           Location {
-            X: 5390.85059
-            Y: 93.2850189
-            Z: -150
+            X: 2446.94043
+            Y: 173.198273
           }
           Rotation {
-            Yaw: -30.0000095
+            Yaw: -30.0000134
           }
           Scale {
             X: 20.9
@@ -289,7 +309,7 @@
             Z: 3.2
           }
         }
-        ParentId: 586102269327232757
+        ParentId: 9108230783033945723
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -303,7 +323,6 @@
           TeamSettings {
           }
           Vfx {
-            AutoPlay: true
           }
         }
       }
@@ -312,9 +331,9 @@
         Name: "Wispy Fog Volume VFX"
         Transform {
           Location {
-            X: 700
-            Y: 450
-            Z: 550
+            X: -2243.91016
+            Y: 529.913
+            Z: 700
           }
           Rotation {
           }
@@ -324,7 +343,7 @@
             Z: 10.4000006
           }
         }
-        ParentId: 586102269327232757
+        ParentId: 9108230783033945723
         UnregisteredParameters {
           Overrides {
             Name: "bp:color"
@@ -362,9 +381,9 @@
         Name: "Blizzard Volume VFX"
         Transform {
           Location {
-            X: 790
-            Y: 520
-            Z: 960
+            X: -2153.91016
+            Y: 599.91333
+            Z: 1110
           }
           Rotation {
           }
@@ -374,7 +393,7 @@
             Z: 1
           }
         }
-        ParentId: 586102269327232757
+        ParentId: 9108230783033945723
         UnregisteredParameters {
           Overrides {
             Name: "bp:color"

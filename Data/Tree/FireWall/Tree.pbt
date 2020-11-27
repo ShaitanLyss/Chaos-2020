@@ -188,11 +188,12 @@ Objects {
   Name: "FireWallModel"
   Transform {
     Location {
-      X: 9355.78809
-      Y: 14617.7451
-      Z: 1715
+      X: 9448.17578
+      Y: 14486.5039
+      Z: 1103.2666
     }
     Rotation {
+      Yaw: -37.1485
     }
     Scale {
       X: 1

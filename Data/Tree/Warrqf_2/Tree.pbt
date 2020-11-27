@@ -5,8 +5,8 @@ Objects {
   Name: "Hill 05"
   Transform {
     Location {
-      X: 281.95166
-      Y: 2768.30615
+      X: 396.276611
+      Y: 2770.79053
       Z: 321.595703
     }
     Rotation {

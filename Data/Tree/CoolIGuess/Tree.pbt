@@ -1,13 +1,13 @@
-﻿Name: "Music"
+﻿Name: "CoolIGuess"
 RootId: 5382273596480232325
 Objects {
-  Id: 3853792088576620236
-  Name: "Action Music Score Set 01"
+  Id: 10998989973720099435
+  Name: "\"Cyberpunk EDM Fusion\" Music Construction Kit (Sections) 01"
   Transform {
     Location {
-      X: 100.318054
-      Y: 589.753906
-      Z: 3.05175781e-05
+      X: 5725.74268
+      Y: -13000.5488
+      Z: 2479.30566
     }
     Rotation {
     }
@@ -18,14 +18,6 @@ Objects {
     }
   }
   ParentId: 5382273596480232325
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Type"
-      Enum {
-        Value: "mc:emx_actionmusic:49"
-      }
-    }
-  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -34,13 +26,12 @@ Objects {
   }
   Blueprint {
     BlueprintAsset {
-      Id: 4969955216524084125
+      Id: 5565734697193600695
     }
     TeamSettings {
     }
     AudioBP {
-      AutoPlay: true
-      Volume: 1.68091309
+      Volume: 1
       Falloff: 3600
       Radius: 400
     }

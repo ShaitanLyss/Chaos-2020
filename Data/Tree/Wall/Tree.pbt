@@ -1,6 +1,69 @@
 ﻿Name: "Wall"
 RootId: 563698721152843274
 Objects {
+  Id: 2321536655641921777
+  Name: "Hill 02"
+  Transform {
+    Location {
+      X: -136.32666
+      Y: 6339.54297
+      Z: 104.152344
+    }
+    Rotation {
+      Pitch: 64.2856293
+      Yaw: 150.820908
+      Roll: -79.2393188
+    }
+    Scale {
+      X: 2.27252722
+      Y: 2.27252722
+      Z: 2.27252722
+    }
+  }
+  ParentId: 563698721152843274
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 13545248157084581066
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: true
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.0158099886
+        G: 0.17
+        B: 0.0229579117
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 14023144080669477239
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
   Id: 2945555324994538590
   Name: "Warrqf"
   Transform {

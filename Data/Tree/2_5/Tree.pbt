@@ -41,8 +41,8 @@ Objects {
   }
 }
 Objects {
-  Id: 10200508496898057982
-  Name: "Fire Volume VFX"
+  Id: 3973293673273436188
+  Name: "fx"
   Transform {
     Location {
       Z: 590
@@ -52,11 +52,36 @@ Objects {
     Scale {
       X: 1
       Y: 1
-      Z: 10.7999992
+      Z: 1
     }
   }
   ParentId: 9048328686960536646
+  ChildIds: 10200508496898057982
   WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+}
+Objects {
+  Id: 10200508496898057982
+  Name: "Fire Volume VFX"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 10.7999992
+    }
+  }
+  ParentId: 3973293673273436188
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

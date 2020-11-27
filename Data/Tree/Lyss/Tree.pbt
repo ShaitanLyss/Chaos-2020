@@ -1,6 +1,35 @@
 ﻿Name: "Lyss"
 RootId: 10490075164851024102
 Objects {
+  Id: 6183768124328555045
+  Name: "CirclePlatforms"
+  Transform {
+    Location {
+      X: -2088.90186
+      Y: -8729.54
+      Z: 3039.71729
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10490075164851024102
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "CirclePlatforms"
+  }
+}
+Objects {
   Id: 16836435371610574168
   Name: "Cube - Polished"
   Transform {
@@ -165,35 +194,6 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Source"
-  }
-}
-Objects {
-  Id: 17705264403625352315
-  Name: "NewFolder"
-  Transform {
-    Location {
-      X: -7848.32617
-      Y: -4963.11816
-      Z: 4166.46
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10490075164851024102
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "NewFolder"
   }
 }
 Objects {

@@ -73,8 +73,8 @@
           }
         }
         ParentId: 10953068183107250475
-        ChildIds: 14885541471165424867
-        ChildIds: 18235234963438637270
+        ChildIds: 10666731867226578251
+        ChildIds: 6161090636888481450
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -109,7 +109,7 @@
         }
       }
       Objects {
-        Id: 14885541471165424867
+        Id: 10666731867226578251
         Name: "1"
         Transform {
           Location {
@@ -129,13 +129,12 @@
         ChildIds: 12661532647050118192
         ChildIds: 5030084499760141093
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:forceoff"
         }
-        Folder {
-          IsFilePartition: true
+        NetworkContext {
         }
       }
       Objects {
@@ -152,7 +151,7 @@
             Z: 1.6
           }
         }
-        ParentId: 14885541471165424867
+        ParentId: 10666731867226578251
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -166,7 +165,6 @@
           TeamSettings {
           }
           Vfx {
-            AutoPlay: true
           }
         }
       }
@@ -175,7 +173,7 @@
         Name: "Basic Sparks"
         Transform {
           Location {
-            Z: 480
+            Z: 479.999969
           }
           Rotation {
           }
@@ -185,7 +183,7 @@
             Z: 8.99999619
           }
         }
-        ParentId: 14885541471165424867
+        ParentId: 10666731867226578251
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -199,38 +197,36 @@
           TeamSettings {
           }
           Vfx {
-            AutoPlay: true
           }
         }
       }
       Objects {
-        Id: 18235234963438637270
+        Id: 6161090636888481450
         Name: "2"
         Transform {
           Location {
             X: 1.81818318
             Y: 1.47279131
-            Z: 53.3330154
+            Z: 677.333
           }
           Rotation {
           }
           Scale {
             X: 1
             Y: 1
-            Z: 1.30000007
+            Z: 1
           }
         }
         ParentId: 12159032773331541081
         ChildIds: 1864464778962449078
         ChildIds: 5774892084483674063
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:forceoff"
         }
-        Folder {
-          IsFilePartition: true
+        NetworkContext {
         }
       }
       Objects {
@@ -238,17 +234,17 @@
         Name: "Fire Volume VFX"
         Transform {
           Location {
-            Z: 590
+            Z: 143.000015
           }
           Rotation {
           }
           Scale {
             X: 1
             Y: 1
-            Z: 10.7999992
+            Z: 14.04
           }
         }
-        ParentId: 18235234963438637270
+        ParentId: 6161090636888481450
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -262,7 +258,6 @@
           TeamSettings {
           }
           Vfx {
-            AutoPlay: true
           }
         }
       }
@@ -271,17 +266,16 @@
         Name: "Basic Sparks"
         Transform {
           Location {
-            Z: 480
           }
           Rotation {
           }
           Scale {
             X: 0.4
             Y: 0.2
-            Z: 8.99999619
+            Z: 11.6999969
           }
         }
-        ParentId: 18235234963438637270
+        ParentId: 6161090636888481450
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -295,7 +289,6 @@
           TeamSettings {
           }
           Vfx {
-            AutoPlay: true
           }
         }
       }

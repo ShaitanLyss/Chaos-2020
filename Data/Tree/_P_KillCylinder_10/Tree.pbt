@@ -167,7 +167,6 @@ Objects {
     TeamSettings {
     }
     Vfx {
-      AutoPlay: true
     }
   }
   InstanceHistory {
@@ -217,7 +216,6 @@ Objects {
     TeamSettings {
     }
     Vfx {
-      AutoPlay: true
     }
   }
   InstanceHistory {
@@ -267,7 +265,6 @@ Objects {
     TeamSettings {
     }
     Vfx {
-      AutoPlay: true
     }
   }
   InstanceHistory {
@@ -317,7 +314,6 @@ Objects {
     TeamSettings {
     }
     Vfx {
-      AutoPlay: true
     }
   }
   InstanceHistory {

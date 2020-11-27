@@ -297,6 +297,11 @@ Objects {
   }
   TemplateInstance {
     ParameterOverrideMap {
+      key: 2929578658742666903
+      value {
+      }
+    }
+    ParameterOverrideMap {
       key: 8122383360632710882
       value {
         Overrides {
@@ -325,6 +330,11 @@ Objects {
             Z: 1
           }
         }
+      }
+    }
+    ParameterOverrideMap {
+      key: 12741093035688621808
+      value {
       }
     }
     TemplateAsset {

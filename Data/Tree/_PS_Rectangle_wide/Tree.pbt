@@ -51,8 +51,7 @@ Objects {
     }
   }
   ParentId: 2712328764055476191
-  ChildIds: 902103382846748177
-  ChildIds: 18156819635931671740
+  ChildIds: 14438680950803687411
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -94,6 +93,33 @@ Objects {
   }
 }
 Objects {
+  Id: 14438680950803687411
+  Name: "fx"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13369598951954819282
+  ChildIds: 902103382846748177
+  ChildIds: 18156819635931671740
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+}
+Objects {
   Id: 18156819635931671740
   Name: "2"
   Transform {
@@ -107,8 +133,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13369598951954819282
-  WantsNetworking: true
+  ParentId: 14438680950803687411
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -140,8 +165,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13369598951954819282
-  WantsNetworking: true
+  ParentId: 14438680950803687411
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

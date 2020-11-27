@@ -15,7 +15,7 @@ Objects {
     }
   }
   ParentId: 16660464359365187699
-  ChildIds: 17553278853654848012
+  ChildIds: 10799801073416604709
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -74,8 +74,8 @@ Objects {
   }
 }
 Objects {
-  Id: 17553278853654848012
-  Name: "Fire Volume VFX"
+  Id: 10799801073416604709
+  Name: "fx"
   Transform {
     Location {
       X: -34.0911026
@@ -83,18 +83,46 @@ Objects {
       Z: 52.9742126
     }
     Rotation {
-      Pitch: 88.0048141
-      Yaw: 89.9284592
-      Roll: 87.9552231
     }
     Scale {
-      X: 6.8
-      Y: 0.900000036
-      Z: 0.0999999866
+      X: 1
+      Y: 1
+      Z: 1
     }
   }
   ParentId: 882844625498178818
+  ChildIds: 17553278853654848012
   WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+}
+Objects {
+  Id: 17553278853654848012
+  Name: "Fire Volume VFX"
+  Transform {
+    Location {
+      X: 6.61450755e-12
+      Y: 0.000136692208
+      Z: 1.38463893e-05
+    }
+    Rotation {
+      Pitch: 88.004425
+      Yaw: 89.9278
+      Roll: 87.9546585
+    }
+    Scale {
+      X: 6.80000067
+      Y: 0.900000036
+      Z: 0.0999999791
+    }
+  }
+  ParentId: 10799801073416604709
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -108,7 +136,6 @@ Objects {
     TeamSettings {
     }
     Vfx {
-      AutoPlay: true
     }
   }
   InstanceHistory {

@@ -3850,51 +3850,62 @@ Objects {
   }
 }
 Objects {
-  Id: 13568397605397885445
-  Name: "_Level.2.Circular Platform"
+  Id: 11756952122299225893
+  Name: "P_8"
   Transform {
+    Location {
+      X: -4910
+      Y: -15135
+      Z: 1720
+    }
+    Rotation {
+      Yaw: -46.1454163
+    }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 5.8
+      Y: 5.8
+      Z: 0.4
     }
   }
   ParentId: 5239628783255204261
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 8226220198750271134
-      value {
-        Overrides {
-          Name: "Name"
-          String: "P_8"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -4910
-            Y: -15135
-            Z: 1720
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -46.1454163
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 5.8
-            Y: 5.8
-            Z: 0.4
-          }
-        }
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 15082714160791594269
       }
     }
-    TemplateAsset {
-      Id: 6683934464757253087
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
     }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12905923173550510229
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 11756952122299225893
+    SubobjectId: 8226220198750271134
+    InstanceId: 13568397605397885445
+    TemplateId: 6683934464757253087
+    WasRoot: true
   }
 }
 Objects {

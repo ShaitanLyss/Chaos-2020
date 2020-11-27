@@ -22,7 +22,6 @@ Objects {
   ChildIds: 15634515690485245744
   ChildIds: 17533834081236574145
   ChildIds: 8713165278249165731
-  ChildIds: 13529641048763114132
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -38,42 +37,6 @@ Objects {
     InstanceId: 6031563484630275945
     TemplateId: 11934995597691856320
     WasRoot: true
-  }
-}
-Objects {
-  Id: 13529641048763114132
-  Name: "Joint"
-  Transform {
-    Location {
-      X: 2675
-      Y: 3450
-      Z: 1049.99976
-    }
-    Rotation {
-      Yaw: -40
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 2408386144015549029
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Joint"
-  }
-  InstanceHistory {
-    SelfId: 13529641048763114132
-    SubobjectId: 16598060066119469468
-    InstanceId: 6031563484630275945
-    TemplateId: 11934995597691856320
   }
 }
 Objects {
@@ -1023,7 +986,6 @@ Objects {
     TeamSettings {
     }
     Vfx {
-      AutoPlay: true
     }
   }
   InstanceHistory {
@@ -1071,7 +1033,6 @@ Objects {
     TeamSettings {
     }
     Vfx {
-      AutoPlay: true
     }
   }
   InstanceHistory {
@@ -1382,26 +1343,6 @@ Objects {
           Name: "Rotation"
           Rotator {
             Yaw: -20
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 10646180794705114750
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -0.000221252441
-            Y: 275.000275
           }
         }
       }

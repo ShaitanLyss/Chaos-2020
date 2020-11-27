@@ -8,11 +8,20 @@
   }
 }
 Assets {
-  Id: 12344109109850428340
-  Name: "Emissive Glow Transparent"
-  PlatformAssetType: 2
+  Id: 6474768715633236406
+  Name: "Fire Volume VFX"
+  PlatformAssetType: 8
   PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_basic_emissive_001"
+    AssetType: "VfxBlueprintAssetRef"
+    AssetId: "fxbp_fire_volume_vfx"
+  }
+}
+Assets {
+  Id: 3697271826593255962
+  Name: "Fire and Flame Burning Loop Set 01 SFX"
+  PlatformAssetType: 10
+  PrimaryAsset {
+    AssetType: "AudioBlueprintAssetRef"
+    AssetId: "sfxabp_nature_fireloops_ref"
   }
 }

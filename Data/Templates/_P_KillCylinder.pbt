@@ -193,7 +193,6 @@
           TeamSettings {
           }
           Vfx {
-            AutoPlay: true
           }
         }
       }

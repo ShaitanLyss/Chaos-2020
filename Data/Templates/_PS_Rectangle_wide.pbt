@@ -44,8 +44,8 @@
           }
         }
         ParentId: 11667518170341861543
-        ChildIds: 5317640646511861772
-        ChildIds: 15863270921210538798
+        ChildIds: 12419061757564699665
+        ChildIds: 4395433853734375360
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -80,7 +80,7 @@
         }
       }
       Objects {
-        Id: 5317640646511861772
+        Id: 12419061757564699665
         Name: "1"
         Transform {
           Location {
@@ -97,13 +97,12 @@
         ChildIds: 14240837770989479898
         ChildIds: 14344601646285960174
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:forceoff"
         }
-        Folder {
-          IsFilePartition: true
+        NetworkContext {
         }
       }
       Objects {
@@ -120,7 +119,7 @@
             Z: 1.6
           }
         }
-        ParentId: 5317640646511861772
+        ParentId: 12419061757564699665
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -134,7 +133,6 @@
           TeamSettings {
           }
           Vfx {
-            AutoPlay: true
           }
         }
       }
@@ -153,7 +151,7 @@
             Z: 8.99999619
           }
         }
-        ParentId: 5317640646511861772
+        ParentId: 12419061757564699665
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -167,15 +165,15 @@
           TeamSettings {
           }
           Vfx {
-            AutoPlay: true
           }
         }
       }
       Objects {
-        Id: 15863270921210538798
+        Id: 4395433853734375360
         Name: "2"
         Transform {
           Location {
+            Z: 480
           }
           Rotation {
           }
@@ -189,13 +187,12 @@
         ChildIds: 3186520718007181718
         ChildIds: 6449114232206631444
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceoff"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:forceoff"
         }
-        Folder {
-          IsFilePartition: true
+        NetworkContext {
         }
       }
       Objects {
@@ -203,7 +200,7 @@
         Name: "Fire Volume VFX"
         Transform {
           Location {
-            Z: 590
+            Z: 110
           }
           Rotation {
           }
@@ -213,7 +210,7 @@
             Z: 10.7999992
           }
         }
-        ParentId: 15863270921210538798
+        ParentId: 4395433853734375360
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -227,7 +224,6 @@
           TeamSettings {
           }
           Vfx {
-            AutoPlay: true
           }
         }
       }
@@ -236,7 +232,6 @@
         Name: "Basic Sparks"
         Transform {
           Location {
-            Z: 480
           }
           Rotation {
           }
@@ -246,7 +241,7 @@
             Z: 8.99999619
           }
         }
-        ParentId: 15863270921210538798
+        ParentId: 4395433853734375360
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -260,7 +255,6 @@
           TeamSettings {
           }
           Vfx {
-            AutoPlay: true
           }
         }
       }

@@ -149,6 +149,10 @@ Objects {
             Z: 4.37435293
           }
         }
+        Overrides {
+          Name: "AutoPlay"
+          Bool: false
+        }
       }
     }
     ParameterOverrideMap {

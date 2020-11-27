@@ -146,7 +146,7 @@ Objects {
 }
 Objects {
   Id: 15139424427110024761
-  Name: "fx"
+  Name: "Ceiling"
   Transform {
     Location {
     }
@@ -269,7 +269,6 @@ Objects {
     TeamSettings {
     }
     Vfx {
-      AutoPlay: true
     }
   }
 }
@@ -328,7 +327,6 @@ Objects {
     TeamSettings {
     }
     Vfx {
-      AutoPlay: true
     }
   }
 }
@@ -387,7 +385,6 @@ Objects {
     TeamSettings {
     }
     Vfx {
-      AutoPlay: true
     }
   }
 }
@@ -446,7 +443,6 @@ Objects {
     TeamSettings {
     }
     Vfx {
-      AutoPlay: true
     }
   }
 }

@@ -17,8 +17,7 @@
         }
         ParentId: 4781671109827199097
         ChildIds: 7471392528572990626
-        ChildIds: 14232730636634499062
-        ChildIds: 15014414565043414887
+        ChildIds: 362456086336599512
         ChildIds: 3853959700859073359
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
@@ -75,18 +74,15 @@
         }
       }
       Objects {
-        Id: 14232730636634499062
-        Name: "Point Light"
+        Id: 362456086336599512
+        Name: "lights"
         Transform {
           Location {
-            X: -18.7294312
-            Y: -502.422058
+            X: -16.0636597
+            Y: -387.700806
             Z: 443.651276
           }
           Rotation {
-            Pitch: 4.81493473
-            Yaw: 85.9453659
-            Roll: -18.4626274
           }
           Scale {
             X: 1
@@ -95,6 +91,37 @@
           }
         }
         ParentId: 10807362143353798128
+        ChildIds: 14232730636634499062
+        ChildIds: 15014414565043414887
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        NetworkContext {
+        }
+      }
+      Objects {
+        Id: 14232730636634499062
+        Name: "Point Light"
+        Transform {
+          Location {
+            X: -2.66601563
+            Y: -114.720703
+          }
+          Rotation {
+            Pitch: 4.81493473
+            Yaw: 85.9453583
+            Roll: -18.462635
+          }
+          Scale {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        ParentId: 362456086336599512
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
@@ -132,14 +159,14 @@
         Name: "Point Light"
         Transform {
           Location {
-            X: -13.3978882
-            Y: -272.979553
-            Z: 1213.06665
+            X: 2.66552734
+            Y: 114.72168
+            Z: 769.415405
           }
           Rotation {
             Pitch: 4.81493473
-            Yaw: 85.9453659
-            Roll: -18.462616
+            Yaw: 85.9453583
+            Roll: -18.4626217
           }
           Scale {
             X: 1
@@ -147,7 +174,7 @@
             Z: 1
           }
         }
-        ParentId: 10807362143353798128
+        ParentId: 362456086336599512
         Collidable_v2 {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }

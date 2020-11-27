@@ -1024,13 +1024,44 @@ Objects {
   }
 }
 Objects {
+  Id: 11462598156342655581
+  Name: "Fx"
+  Transform {
+    Location {
+      X: 2943.91016
+      Y: -79.9137268
+      Z: -150
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17195604941036812059
+  ChildIds: 18181327431226949091
+  ChildIds: 18257412491540178124
+  ChildIds: 15437084085877031020
+  ChildIds: 13598813036591972852
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+}
+Objects {
   Id: 13598813036591972852
   Name: "Blizzard Volume VFX"
   Transform {
     Location {
-      X: 790
-      Y: 520
-      Z: 960
+      X: -2153.91016
+      Y: 599.913208
+      Z: 1110
     }
     Rotation {
     }
@@ -1040,7 +1071,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17195604941036812059
+  ParentId: 11462598156342655581
   UnregisteredParameters {
     Overrides {
       Name: "bp:color"
@@ -1080,9 +1111,9 @@ Objects {
   Name: "Wispy Fog Volume VFX"
   Transform {
     Location {
-      X: 700
-      Y: 450
-      Z: 550
+      X: -2243.90967
+      Y: 529.913208
+      Z: 700
     }
     Rotation {
     }
@@ -1092,7 +1123,7 @@ Objects {
       Z: 10.4000006
     }
   }
-  ParentId: 17195604941036812059
+  ParentId: 11462598156342655581
   UnregisteredParameters {
     Overrides {
       Name: "bp:color"
@@ -1136,12 +1167,11 @@ Objects {
   Name: "Fire Volume VFX"
   Transform {
     Location {
-      X: 5390.85059
-      Y: 93.2850189
-      Z: -150
+      X: 2446.94019
+      Y: 173.198
     }
     Rotation {
-      Yaw: -30.0000095
+      Yaw: -30.0000057
     }
     Scale {
       X: 20.9
@@ -1149,7 +1179,7 @@ Objects {
       Z: 3.2
     }
   }
-  ParentId: 17195604941036812059
+  ParentId: 11462598156342655581
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1178,12 +1208,11 @@ Objects {
   Name: "Fire Volume VFX"
   Transform {
     Location {
-      X: 4894.78955
-      Y: -1382.94
-      Z: -150
+      X: 1950.87903
+      Y: -1303.02612
     }
     Rotation {
-      Yaw: -30.0000095
+      Yaw: -30.0000057
     }
     Scale {
       X: 20.9
@@ -1191,7 +1220,7 @@ Objects {
       Z: 3.2
     }
   }
-  ParentId: 17195604941036812059
+  ParentId: 11462598156342655581
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
