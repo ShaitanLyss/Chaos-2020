@@ -18,7 +18,7 @@ Objects {
   ChildIds: 5840606389545053398
   ChildIds: 15404662675862678984
   ChildIds: 7667153303607784936
-  ChildIds: 4556066864762917065
+  ChildIds: 165030018878814319
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -29,8 +29,8 @@ Objects {
   }
 }
 Objects {
-  Id: 4556066864762917065
-  Name: "L_Uniques_2"
+  Id: 165030018878814319
+  Name: "L_Uniques_3"
   Transform {
     Scale {
       X: 1
@@ -41,11 +41,11 @@ Objects {
   ParentId: 521624241559297895
   TemplateInstance {
     ParameterOverrideMap {
-      key: 3958228752583909499
+      key: 13942098468226329963
       value {
         Overrides {
           Name: "Name"
-          String: "L_Uniques_2"
+          String: "L_Uniques_3"
         }
         Overrides {
           Name: "Scale"
@@ -58,7 +58,7 @@ Objects {
       }
     }
     TemplateAsset {
-      Id: 9810613631189882924
+      Id: 15788209051781286163
     }
   }
 }
@@ -81,7 +81,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
+    Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
     IsGroup: true
@@ -185,6 +185,14 @@ Objects {
         Value: "mc:eambientcubemapssmall:5"
       }
     }
+    Overrides {
+      Name: "bp:Use Captured Sky"
+      Bool: false
+    }
+    Overrides {
+      Name: "bp:Intensity"
+      Float: 1.00822544
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -225,7 +233,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceon"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   Folder {
     IsGroup: true

@@ -75,6 +75,7 @@ Objects {
     StaticMesh {
       Physics {
         IsEnabled: true
+        OverrideMass: true
       }
     }
   }
@@ -118,6 +119,7 @@ Objects {
     StaticMesh {
       Physics {
         IsEnabled: true
+        OverrideMass: true
       }
     }
   }
@@ -161,6 +163,7 @@ Objects {
     StaticMesh {
       Physics {
         IsEnabled: true
+        OverrideMass: true
       }
     }
   }
@@ -204,6 +207,7 @@ Objects {
     StaticMesh {
       Physics {
         IsEnabled: true
+        OverrideMass: true
       }
     }
   }
@@ -246,6 +250,7 @@ Objects {
     StaticMesh {
       Physics {
         IsEnabled: true
+        OverrideMass: true
       }
     }
   }
@@ -289,6 +294,7 @@ Objects {
     StaticMesh {
       Physics {
         IsEnabled: true
+        OverrideMass: true
       }
     }
   }
@@ -332,6 +338,7 @@ Objects {
     StaticMesh {
       Physics {
         IsEnabled: true
+        OverrideMass: true
       }
     }
   }
@@ -375,6 +382,7 @@ Objects {
     StaticMesh {
       Physics {
         IsEnabled: true
+        OverrideMass: true
       }
     }
   }
@@ -418,6 +426,7 @@ Objects {
     StaticMesh {
       Physics {
         IsEnabled: true
+        OverrideMass: true
       }
     }
   }

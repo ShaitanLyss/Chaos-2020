@@ -571,7 +571,7 @@ Objects {
     }
     Overrides {
       Name: "cs:LyssTest"
-      Bool: false
+      Bool: true
     }
   }
   Collidable_v2 {

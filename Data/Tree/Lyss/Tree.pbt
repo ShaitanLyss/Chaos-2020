@@ -1,6 +1,34 @@
 ﻿Name: "Lyss"
 RootId: 10490075164851024102
 Objects {
+  Id: 18292893993279474414
+  Name: "Lvl3Env"
+  Transform {
+    Location {
+      X: 574.635742
+      Y: -1124.51782
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10490075164851024102
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Lvl3Env"
+  }
+}
+Objects {
   Id: 6183768124328555045
   Name: "CirclePlatforms"
   Transform {

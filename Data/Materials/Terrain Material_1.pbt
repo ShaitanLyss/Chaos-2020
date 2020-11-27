@@ -40,6 +40,18 @@
           A: 1
         }
       }
+      Overrides {
+        Name: "cmp:Material3"
+        AssetReference {
+          Id: 12571976374246124270
+        }
+      }
+      Overrides {
+        Name: "cmp:Material3_Sides"
+        AssetReference {
+          Id: 12571976374246124270
+        }
+      }
     }
     Assets {
       Id: 244727913191510216
@@ -66,6 +78,24 @@
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
         AssetId: "forest-floor_001"
+      }
+    }
+    Assets {
+      Id: 12571976374246124270
+      Name: "Sand 01"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_sand_001_uv"
+      }
+    }
+    Assets {
+      Id: 12571976374246124270
+      Name: "Sand 01"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "mi_sand_001_uv"
       }
     }
   }
