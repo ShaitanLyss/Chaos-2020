@@ -70,33 +70,29 @@ Objects {
     }
   }
   ParentId: 15116536616183063129
-  WantsNetworking: true
   TemplateInstance {
     ParameterOverrideMap {
-      key: 9946664624890403534
+      key: 12264167317587531338
       value {
         Overrides {
           Name: "Name"
-          String: "_Level.2.Corona Spreader"
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1.85213506
-            Y: 1.85213506
-            Z: 1.85213506
-          }
+          String: "C_6"
         }
         Overrides {
           Name: "Position"
           Vector {
-            Z: -75.8481445
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: 8.53773486e-07
           }
         }
       }
     }
     TemplateAsset {
-      Id: 14484837179691354976
+      Id: 5874369901957612822
     }
   }
 }
@@ -152,43 +148,23 @@ Objects {
       key: 3691403211646615168
       value {
         Overrides {
-          Name: "Name"
-          String: "_Level.2.NPC Cage"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
-        }
-        Overrides {
           Name: "Scale"
           Vector {
-            X: 3
-            Y: 3
-            Z: 2.9
+            X: 1.5
+            Y: 1.5
+            Z: 16.5
           }
         }
         Overrides {
-          Name: "ma:Shared_BaseMaterial:id"
-          AssetReference {
-            Id: 140108169051315541
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Visible"
+          Name: "Collidable"
           Enum {
-            Value: "mc:evisibilitysetting:forceoff"
+            Value: "mc:ecollisionsetting:forceoff"
           }
         }
       }
     }
     TemplateAsset {
-      Id: 16858479965868598628
+      Id: 7301231792458772727
     }
   }
 }

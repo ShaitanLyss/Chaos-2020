@@ -4,6 +4,7 @@ local music = script:GetCustomProperty("music"):WaitForObject().context
 local sound = script:GetCustomProperty("sound"):WaitForObject().context
 local fx = script:GetCustomProperty("fx"):WaitForObject().context
 local sky = script:GetCustomProperty("sky"):WaitForObject().context
+local loop = script:GetCustomProperty("loop")
 
 AudioSelector = {}
 
@@ -23,7 +24,7 @@ end
 
 AudioSelector.init()
 
-while true do
+while loop do
 	Task.Wait(2)
 	AudioSelector.next()
 end

@@ -17,7 +17,7 @@
         }
         ParentId: 7325224074645116302
         ChildIds: 16736907195123888521
-        ChildIds: 16538643495652325532
+        ChildIds: 12936704277042550009
         ChildIds: 6817093385641145636
         ChildIds: 6403948002962885470
         ChildIds: 12920718486117430809
@@ -90,16 +90,91 @@
         }
       }
       Objects {
-        Id: 16538643495652325532
-        Name: "Coral Branches Small"
+        Id: 12936704277042550009
+        Name: "Collision"
         Transform {
           Location {
-            X: 7080.94971
-            Y: 4167.9292
-            Z: 2582.81323
+            X: 7147.54736
+            Y: 4147.27588
+            Z: 2732.07959
           }
           Rotation {
-            Yaw: -14.6679754
+            Yaw: -14.6679688
+          }
+          Scale {
+            X: 3.91871214
+            Y: 3.91871214
+            Z: 3.91871214
+          }
+        }
+        ParentId: 3721752853739363704
+        ChildIds: 7326987744990550744
+        UnregisteredParameters {
+          Overrides {
+            Name: "ma:Shared_BaseMaterial:id"
+            AssetReference {
+              Id: 8601238900320339820
+            }
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:forceoff"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 2287544251754705893
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+            }
+          }
+        }
+      }
+      Objects {
+        Id: 7326987744990550744
+        Name: "ClientContext"
+        Transform {
+          Location {
+            X: -17.7754154
+            Y: 0.795334458
+            Z: -38.0906639
+          }
+          Rotation {
+            Yaw: 14.6679993
+          }
+          Scale {
+            X: 0.255185872
+            Y: 0.255185872
+            Z: 0.255185872
+          }
+        }
+        ParentId: 12936704277042550009
+        ChildIds: 16538643495652325532
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:forceoff"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        NetworkContext {
+        }
+      }
+      Objects {
+        Id: 16538643495652325532
+        Name: "Coral"
+        Transform {
+          Location {
+          }
+          Rotation {
+            Yaw: -14.6679907
           }
           Scale {
             X: 6.27342606
@@ -107,7 +182,7 @@
             Z: 6.27342606
           }
         }
-        ParentId: 3721752853739363704
+        ParentId: 7326987744990550744
         UnregisteredParameters {
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
@@ -129,7 +204,7 @@
           Value: "mc:ecollisionsetting:forceon"
         }
         Visible_v2 {
-          Value: "mc:evisibilitysetting:inheritfromparent"
+          Value: "mc:evisibilitysetting:forceon"
         }
         CoreMesh {
           MeshAsset {
@@ -418,6 +493,24 @@
       PrimaryAsset {
         AssetType: "VfxBlueprintAssetRef"
         AssetId: "fxbp_blizzard_volume"
+      }
+    }
+    Assets {
+      Id: 2287544251754705893
+      Name: "Capsule"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_capsule_001"
+      }
+    }
+    Assets {
+      Id: 8601238900320339820
+      Name: "Wireframe"
+      PlatformAssetType: 2
+      PrimaryAsset {
+        AssetType: "MaterialAssetRef"
+        AssetId: "wireframe_glow_001"
       }
     }
     Assets {

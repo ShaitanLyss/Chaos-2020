@@ -18,9 +18,7 @@ Objects {
   ChildIds: 5840606389545053398
   ChildIds: 15404662675862678984
   ChildIds: 7667153303607784936
-  ChildIds: 12261120924872288793
-  ChildIds: 2916882531174739370
-  ChildIds: 9093801434306903548
+  ChildIds: 4556066864762917065
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -31,19 +29,9 @@ Objects {
   }
 }
 Objects {
-  Id: 9093801434306903548
-  Name: "Sun Light"
+  Id: 4556066864762917065
+  Name: "L_Uniques_2"
   Transform {
-    Location {
-      X: 5924.73438
-      Y: 14693.666
-      Z: 2640.82764
-    }
-    Rotation {
-      Pitch: -18.2191734
-      Yaw: -148.17688
-      Roll: 84.0552444
-    }
     Scale {
       X: 1
       Y: 1
@@ -51,308 +39,27 @@ Objects {
     }
   }
   ParentId: 521624241559297895
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Use Temperature"
-      Bool: false
-    }
-    Overrides {
-      Name: "bp:Light Color"
-      Color {
-        R: 1
-        G: 0.956862807
-        B: 0.737254918
-        A: 1
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 3958228752583909499
+      value {
+        Overrides {
+          Name: "Name"
+          String: "L_Uniques_2"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
       }
     }
-    Overrides {
-      Name: "bp:Shape"
-      Enum {
-        Value: "mc:esundiscshapes:5"
-      }
+    TemplateAsset {
+      Id: 9810613631189882924
     }
-    Overrides {
-      Name: "bp:Size"
-      Float: 60
-    }
-    Overrides {
-      Name: "bp:Light Shaft Bloom"
-      Bool: true
-    }
-    Overrides {
-      Name: "bp:Cast Volumetric Shadows"
-      Bool: false
-    }
-    Overrides {
-      Name: "bp:Light Shaft Mask Darkness"
-      Float: 0.5
-    }
-    Overrides {
-      Name: "bp:Intensity"
-      Float: 1.11667216
-    }
-    Overrides {
-      Name: "bp:Sun Disc Color"
-      Color {
-        R: 1
-        G: 0.196078449
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "bp:Light Shaft Bloom Scale"
-      Float: 0.2
-    }
-    Overrides {
-      Name: "bp:Light Shaft Bloom Threshold"
-      Float: 0.05
-    }
-    Overrides {
-      Name: "bp:Light Shaft Occlusion"
-      Bool: true
-    }
-    Overrides {
-      Name: "bp:Light Shaft Bloom Tint"
-      Color {
-        R: 1
-        G: 1
-        B: 0.772549093
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 16910278292812118833
-    }
-  }
-  InstanceHistory {
-    SelfId: 9093801434306903548
-    SubobjectId: 11152063280297584400
-    InstanceId: 12329829853333797454
-    TemplateId: 5642498572428842119
-  }
-}
-Objects {
-  Id: 2916882531174739370
-  Name: "Sky Dome"
-  Transform {
-    Location {
-      X: 7124.73438
-      Y: 3593.6665
-      Z: -669.172363
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 521624241559297895
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Zenith Color"
-      Color {
-        R: 0.0235294141
-        G: 0.0627451
-        B: 0.211764723
-        A: 0.886274576
-      }
-    }
-    Overrides {
-      Name: "bp:Horizon Color"
-      Color {
-        R: 0.490196109
-        G: 0.482352972
-        B: 0.623529434
-        A: 0.898039281
-      }
-    }
-    Overrides {
-      Name: "bp:Haze Color"
-      Color {
-        R: 0.309803933
-        G: 0.309803933
-        B: 0.36470589
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "bp:Use Sun Color for Cloud Color"
-      Bool: false
-    }
-    Overrides {
-      Name: "bp:Cloud Ambient Brightness"
-      Float: 3
-    }
-    Overrides {
-      Name: "bp:Cloud Rim Brightness"
-      Float: 50
-    }
-    Overrides {
-      Name: "bp:Cloud Opacity"
-      Float: 0
-    }
-    Overrides {
-      Name: "bp:Cloud Ambient Color"
-      Color {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "bp:Cloud Color"
-      Color {
-        R: 1
-        G: 1
-        B: 1
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "bp:Cloud Shape"
-      Int: 4
-    }
-    Overrides {
-      Name: "bp:Cloud Lighting Brightness"
-      Float: 1
-    }
-    Overrides {
-      Name: "bp:Cloud Wisp Opacity"
-      Float: 0.4
-    }
-    Overrides {
-      Name: "bp:Cloud Speed"
-      Float: 1
-    }
-    Overrides {
-      Name: "bp:Brightness"
-      Float: 0.274076521
-    }
-    Overrides {
-      Name: "bp:Background Clouds"
-      Bool: true
-    }
-    Overrides {
-      Name: "bp:High Cloud Index"
-      Int: 2
-    }
-    Overrides {
-      Name: "bp:High Cloud Opacity"
-      Float: 0
-    }
-    Overrides {
-      Name: "bp:High Cloud Noise Amount"
-      Float: 0.1
-    }
-    Overrides {
-      Name: "bp:High Cloud Noise Scale"
-      Float: 0.2
-    }
-    Overrides {
-      Name: "bp:Overall Tint"
-      Color {
-        R: 0.733333349
-        G: 0.733333349
-        B: 0.733333349
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 7887238662729938253
-    }
-  }
-  InstanceHistory {
-    SelfId: 2916882531174739370
-    SubobjectId: 14739546537955309382
-    InstanceId: 12329829853333797454
-    TemplateId: 5642498572428842119
-  }
-}
-Objects {
-  Id: 12261120924872288793
-  Name: "Environment Fog Default VFX"
-  Transform {
-    Location {
-      X: 7124.73438
-      Y: 3593.6665
-      Z: -669.172363
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 521624241559297895
-  UnregisteredParameters {
-    Overrides {
-      Name: "bp:Volumetric Fog"
-      Bool: false
-    }
-    Overrides {
-      Name: "bp:Fog Density"
-      Float: 3.48822451
-    }
-    Overrides {
-      Name: "bp:color"
-      Color {
-        R: 0.117647067
-        G: 0.0745098069
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "bp:Light Absorption Amount"
-      Float: 10
-    }
-    Overrides {
-      Name: "bp:Albedo"
-      Color {
-        R: 0.117647067
-        G: 0.0745098069
-        A: 1
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 2224571462023946700
-    }
-    TeamSettings {
-    }
-  }
-  InstanceHistory {
-    SelfId: 12261120924872288793
-    SubobjectId: 5683537002134466805
-    InstanceId: 12329829853333797454
-    TemplateId: 5642498572428842119
   }
 }
 Objects {
@@ -374,7 +81,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
+    Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
     IsGroup: true
@@ -787,7 +494,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceon"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   Folder {
     IsGroup: true

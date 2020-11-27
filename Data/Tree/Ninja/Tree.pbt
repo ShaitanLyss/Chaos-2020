@@ -53,7 +53,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:FirstScene"
-      Int: 0
+      Int: 2
     }
     Overrides {
       Name: "cs:NumberOfScenes"
@@ -82,6 +82,10 @@ Objects {
       ObjectReference {
         SelfId: 16202712489828477249
       }
+    }
+    Overrides {
+      Name: "cs:loop"
+      Bool: true
     }
   }
   Collidable_v2 {
@@ -123,19 +127,28 @@ Objects {
     Overrides {
       Name: "cs:fog"
       ObjectReference {
-        SelfId: 12261120924872288793
+        SelfId: 17803014317571395751
+        SubObjectId: 5768570144505935371
+        InstanceId: 4556066864762917065
+        TemplateId: 9810613631189882924
       }
     }
     Overrides {
       Name: "cs:skydome"
       ObjectReference {
-        SelfId: 2916882531174739370
+        SelfId: 12000556361883188643
+        SubObjectId: 114167398191569679
+        InstanceId: 4556066864762917065
+        TemplateId: 9810613631189882924
       }
     }
     Overrides {
       Name: "cs:sun"
       ObjectReference {
-        SelfId: 9093801434306903548
+        SelfId: 13100519407700761927
+        SubObjectId: 1355992733162355691
+        InstanceId: 4556066864762917065
+        TemplateId: 9810613631189882924
       }
     }
   }
@@ -197,6 +210,18 @@ Objects {
       Name: "cs:bushes"
       ObjectReference {
         SelfId: 176513071878023055
+      }
+    }
+    Overrides {
+      Name: "cs:CoralPapa"
+      ObjectReference {
+        SelfId: 7325224074645116302
+      }
+    }
+    Overrides {
+      Name: "cs:WallWarts"
+      ObjectReference {
+        SelfId: 15234964849938955110
       }
     }
   }
@@ -397,9 +422,6 @@ Objects {
       Volume: 1
       Falloff: 3600
       Radius: 400
-      EnableOcclusion: true
-      IsSpatializationEnabled: true
-      IsAttenuationEnabled: true
     }
   }
 }

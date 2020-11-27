@@ -283,27 +283,6 @@ Objects {
             Yaw: 44.7782211
           }
         }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 9279732646782768801
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 6575.81348
-            Y: 2817.06885
-            Z: 2420.97705
-          }
-        }
       }
     }
     TemplateAsset {
@@ -1065,31 +1044,17 @@ Objects {
             Yaw: -59.7848473
           }
         }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
       }
     }
     ParameterOverrideMap {
-      key: 16538643495652325532
+      key: 12936704277042550009
       value {
         Overrides {
           Name: "Position"
           Vector {
-            X: 7146.10059
-            Y: 4118.79
-            Z: 2817.32837
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -14.6679688
+            X: 7174.79
+            Y: 4066.40576
+            Z: 2963.08936
           }
         }
       }
@@ -1138,31 +1103,17 @@ Objects {
             Yaw: -44.9937439
           }
         }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
       }
     }
     ParameterOverrideMap {
-      key: 16538643495652325532
+      key: 12936704277042550009
       value {
         Overrides {
           Name: "Position"
           Vector {
-            X: 7114.64258
-            Y: 4141.57
-            Z: 2808.74536
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -14.6679688
+            X: 7188.8916
+            Y: 4124.75488
+            Z: 2957.10303
           }
         }
       }
@@ -1211,31 +1162,23 @@ Objects {
             Yaw: -29.8291378
           }
         }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
       }
     }
     ParameterOverrideMap {
-      key: 16538643495652325532
+      key: 12936704277042550009
       value {
         Overrides {
-          Name: "Position"
-          Vector {
-            X: 7121.02783
-            Y: 4104.61865
-            Z: 2812.83081
+          Name: "Visible"
+          Enum {
+            Value: "mc:evisibilitysetting:forceoff"
           }
         }
         Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -14.6679688
+          Name: "Position"
+          Vector {
+            X: 7201.74756
+            Y: 4082.07837
+            Z: 2958.44604
           }
         }
       }
@@ -1294,26 +1237,43 @@ Objects {
       }
     }
     ParameterOverrideMap {
+      key: 12936704277042550009
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 7147.54785
+            Y: 4147.27588
+            Z: 2927.56665
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 16538643495652325532
       value {
         Overrides {
           Name: "Visible"
           Enum {
-            Value: "mc:evisibilitysetting:inheritfromparent"
-          }
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 7132.33936
-            Y: 4116.93066
-            Z: 2825.9458
+            Value: "mc:evisibilitysetting:forceon"
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -14.6679688
+            Yaw: -6.42163086
+          }
+        }
+        Overrides {
+          Name: "Name"
+          String: "Coral"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 36.4416084
+            Y: -57.7241859
+            Z: 33.0344238
           }
         }
       }
@@ -1354,31 +1314,17 @@ Objects {
           Rotator {
           }
         }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
       }
     }
     ParameterOverrideMap {
-      key: 6817093385641145636
+      key: 12936704277042550009
       value {
         Overrides {
           Name: "Position"
           Vector {
-            X: 7203.02197
-            Y: 4117.88379
-            Z: 3005.6106
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -14.6679688
+            X: 7222.03174
+            Y: 4069.2207
+            Z: 2953.15576
           }
         }
       }
@@ -1387,24 +1333,8 @@ Objects {
       key: 16538643495652325532
       value {
         Overrides {
-          Name: "Position"
-          Vector {
-            X: 7165.83496
-            Y: 4093.69482
-            Z: 2833.83228
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -14.6679688
-          }
-        }
-        Overrides {
-          Name: "Visible"
-          Enum {
-            Value: "mc:evisibilitysetting:inheritfromparent"
-          }
+          Name: "ma:Shared_BaseMaterial:smart"
+          Bool: true
         }
       }
     }
