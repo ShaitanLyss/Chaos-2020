@@ -1,24 +1,24 @@
 ﻿Name: "_P_KillCylinder_3"
-RootId: 8141045852989790784
+RootId: 17220672323791741711
 Objects {
-  Id: 17975171789640356569
+  Id: 11112454475775568691
   Name: "Mesh"
   Transform {
     Location {
-      X: 31.7605953
-      Y: -10.8692856
-      Z: -89.7914429
+      X: -390.485474
+      Y: -601.341064
+      Z: 10.8183594
     }
     Rotation {
     }
     Scale {
       X: 0.7
       Y: 0.7
-      Z: 10.0066442
+      Z: 10.007
     }
   }
-  ParentId: 8141045852989790784
-  ChildIds: 8105435272467499237
+  ParentId: 17220672323791741711
+  ChildIds: 1744875953972261647
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -76,13 +76,13 @@ Objects {
   }
 }
 Objects {
-  Id: 8105435272467499237
+  Id: 1744875953972261647
   Name: "fx"
   Transform {
     Location {
-      X: -15.5512972
-      Y: -14.3374424
-      Z: 69.4716873
+      X: -11.1931305
+      Y: -6.45750713
+      Z: 67.5240173
     }
     Rotation {
     }
@@ -92,8 +92,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17975171789640356569
-  ChildIds: 6028381352826724394
+  ParentId: 11112454475775568691
+  ChildIds: 8254555084224644421
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -104,13 +104,10 @@ Objects {
   }
 }
 Objects {
-  Id: 6028381352826724394
+  Id: 8254555084224644421
   Name: "Fire Volume VFX"
   Transform {
     Location {
-      X: -0.00061379408
-      Y: 0.000698761549
-      Z: -8.13261795e-06
     }
     Rotation {
       Pitch: 88.0052
@@ -118,12 +115,12 @@ Objects {
       Roll: 87.955925
     }
     Scale {
-      X: 8.56942463
-      Y: 0.899996877
-      Z: 0.0999958068
+      X: 9.29842949
+      Y: 0.899995923
+      Z: 0.099993512
     }
   }
-  ParentId: 8105435272467499237
+  ParentId: 1744875953972261647
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

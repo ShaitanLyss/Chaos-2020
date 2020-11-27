@@ -329,7 +329,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "_P_KillCylinder_5"
+    FilePartitionName: "_P_KillCylinder"
   }
   InstanceHistory {
     SelfId: 9319145352403858656

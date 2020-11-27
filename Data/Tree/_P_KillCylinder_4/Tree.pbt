@@ -1,24 +1,24 @@
 ﻿Name: "_P_KillCylinder_4"
-RootId: 13104839815982924480
+RootId: 8141045852989790784
 Objects {
-  Id: 5729019155619817098
+  Id: 17975171789640356569
   Name: "Mesh"
   Transform {
     Location {
-      X: -64.8337708
-      Y: -35.6981773
-      Z: 23.333334
+      X: 31.7605953
+      Y: -10.8692856
+      Z: -89.7914429
     }
     Rotation {
     }
     Scale {
       X: 0.7
       Y: 0.7
-      Z: 3.42364311
+      Z: 10.0066442
     }
   }
-  ParentId: 13104839815982924480
-  ChildIds: 7435052335642124506
+  ParentId: 8141045852989790784
+  ChildIds: 8105435272467499237
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -48,7 +48,6 @@ Objects {
       Float: 2.05550051
     }
   }
-  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -77,13 +76,13 @@ Objects {
   }
 }
 Objects {
-  Id: 7435052335642124506
+  Id: 8105435272467499237
   Name: "fx"
   Transform {
     Location {
-      X: -5.92406845
-      Y: -5.49339151
-      Z: 46.4773712
+      X: -15.5512972
+      Y: -14.3374424
+      Z: 69.4716873
     }
     Rotation {
     }
@@ -93,9 +92,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 5729019155619817098
-  ChildIds: 6262840681567355467
-  WantsNetworking: true
+  ParentId: 17975171789640356569
+  ChildIds: 6028381352826724394
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -106,10 +104,13 @@ Objects {
   }
 }
 Objects {
-  Id: 6262840681567355467
+  Id: 6028381352826724394
   Name: "Fire Volume VFX"
   Transform {
     Location {
+      X: -0.00061379408
+      Y: 0.000698761549
+      Z: -8.13261795e-06
     }
     Rotation {
       Pitch: 88.0052
@@ -117,12 +118,12 @@ Objects {
       Roll: 87.955925
     }
     Scale {
-      X: 5.02298832
-      Y: 0.900000393
-      Z: 0.0999970287
+      X: 8.56942463
+      Y: 0.899996877
+      Z: 0.0999958068
     }
   }
-  ParentId: 7435052335642124506
+  ParentId: 8105435272467499237
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
