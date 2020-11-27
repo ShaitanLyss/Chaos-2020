@@ -194,17 +194,6 @@ Objects {
         }
       }
     }
-    ParameterOverrideMap {
-      key: 16538643495652325532
-      value {
-        Overrides {
-          Name: "Collidable"
-          Enum {
-            Value: "mc:ecollisionsetting:forceon"
-          }
-        }
-      }
-    }
     TemplateAsset {
       Id: 9309018929621835786
     }
@@ -444,13 +433,6 @@ Objects {
   Id: 15767250348915125251
   Name: "C_level2_border"
   Transform {
-    Location {
-      X: -400
-      Y: -50
-    }
-    Rotation {
-      Yaw: -135.029602
-    }
     Scale {
       X: 1
       Y: 1
@@ -458,6 +440,12 @@ Objects {
     }
   }
   ParentId: 7325224074645116302
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 3721752853739363704
@@ -477,27 +465,6 @@ Objects {
           Name: "Rotation"
           Rotator {
             Yaw: 29.9869633
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 14825168498543623687
-      value {
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 2.5
-            Y: 4
-            Z: 2.3
           }
         }
       }
@@ -607,6 +574,15 @@ Objects {
             Y: 1
             Z: 1
           }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 16736907195123888521
+      value {
+        Overrides {
+          Name: "bp:Life"
+          Float: 15
         }
       }
     }
@@ -1103,9 +1079,17 @@ Objects {
       key: 16538643495652325532
       value {
         Overrides {
-          Name: "Visible"
-          Enum {
-            Value: "mc:evisibilitysetting:forceoff"
+          Name: "Position"
+          Vector {
+            X: 7146.10059
+            Y: 4118.79
+            Z: 2817.32837
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -14.6679688
           }
         }
       }
@@ -1168,9 +1152,17 @@ Objects {
       key: 16538643495652325532
       value {
         Overrides {
-          Name: "Visible"
-          Enum {
-            Value: "mc:evisibilitysetting:forceoff"
+          Name: "Position"
+          Vector {
+            X: 7114.64258
+            Y: 4141.57
+            Z: 2808.74536
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -14.6679688
           }
         }
       }
@@ -1233,9 +1225,17 @@ Objects {
       key: 16538643495652325532
       value {
         Overrides {
-          Name: "Visible"
-          Enum {
-            Value: "mc:evisibilitysetting:forceoff"
+          Name: "Position"
+          Vector {
+            X: 7121.02783
+            Y: 4104.61865
+            Z: 2812.83081
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -14.6679688
           }
         }
       }

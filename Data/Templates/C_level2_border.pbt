@@ -16,6 +16,7 @@
           }
         }
         ParentId: 7325224074645116302
+        ChildIds: 16736907195123888521
         ChildIds: 16538643495652325532
         ChildIds: 6817093385641145636
         ChildIds: 6403948002962885470
@@ -31,6 +32,61 @@
         }
         Folder {
           IsGroup: true
+        }
+      }
+      Objects {
+        Id: 16736907195123888521
+        Name: "Blizzard Volume VFX"
+        Transform {
+          Location {
+            X: 6571.67041
+            Y: 2745.63257
+            Z: 4202.68652
+          }
+          Rotation {
+            Yaw: 23.8301735
+          }
+          Scale {
+            X: 22.0415974
+            Y: 26.0488167
+            Z: 26.6451187
+          }
+        }
+        ParentId: 3721752853739363704
+        UnregisteredParameters {
+          Overrides {
+            Name: "bp:color"
+            Color {
+              R: 0.629138947
+              G: 1
+              B: 0.6
+              A: 1
+            }
+          }
+          Overrides {
+            Name: "bp:Life"
+            Float: 10
+          }
+          Overrides {
+            Name: "bp:Size"
+            Float: 1
+          }
+        }
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:inheritfromparent"
+        }
+        Blueprint {
+          BlueprintAsset {
+            Id: 7392455638299458893
+          }
+          TeamSettings {
+          }
+          Vfx {
+            AutoPlay: true
+          }
         }
       }
       Objects {
@@ -70,7 +126,7 @@
           }
         }
         Collidable_v2 {
-          Value: "mc:ecollisionsetting:inheritfromparent"
+          Value: "mc:ecollisionsetting:forceon"
         }
         Visible_v2 {
           Value: "mc:evisibilitysetting:inheritfromparent"
@@ -147,12 +203,12 @@
         Name: "Point Light"
         Transform {
           Location {
-            X: 5397.7915
-            Y: 2423.2019
+            X: 5599.41797
+            Y: 2374.87451
             Z: 3293.84985
           }
           Rotation {
-            Yaw: -14.6679754
+            Yaw: -14.6679688
           }
           Scale {
             X: 1
@@ -168,11 +224,11 @@
           Value: "mc:evisibilitysetting:inheritfromparent"
         }
         Light {
-          Intensity: 4.74592876
+          Intensity: 6.14761782
           Color {
-            R: 0.490902156
+            R: 0.367152095
             G: 0.99
-            B: 0.387089968
+            B: 0.237599954
             A: 1
           }
           VolumetricIntensity: 5
@@ -353,6 +409,15 @@
             }
           }
         }
+      }
+    }
+    Assets {
+      Id: 7392455638299458893
+      Name: "Blizzard Volume VFX"
+      PlatformAssetType: 8
+      PrimaryAsset {
+        AssetType: "VfxBlueprintAssetRef"
+        AssetId: "fxbp_blizzard_volume"
       }
     }
     Assets {
