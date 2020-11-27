@@ -47,6 +47,12 @@ Objects {
             Z: 0.7
           }
         }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 4209508232667492342
+          }
+        }
       }
     }
     TemplateAsset {
@@ -99,6 +105,12 @@ Objects {
             X: 5
             Y: 5
             Z: 0.7
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 4209508232667492342
           }
         }
       }
@@ -159,6 +171,12 @@ Objects {
             Z: 2.65225267
           }
         }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 4209508232667492342
+          }
+        }
       }
     }
     TemplateAsset {
@@ -211,6 +229,12 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 4209508232667492342
           }
         }
       }
@@ -273,6 +297,12 @@ Objects {
             Roll: -6.43438721
           }
         }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 4209508232667492342
+          }
+        }
       }
     }
     TemplateAsset {
@@ -330,6 +360,12 @@ Objects {
             Roll: 1.5125618
           }
         }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 4209508232667492342
+          }
+        }
       }
     }
     TemplateAsset {
@@ -376,6 +412,12 @@ Objects {
           Name: "Rotation"
           Rotator {
             Yaw: -5.08956909
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 4209508232667492342
           }
         }
       }
@@ -425,6 +467,12 @@ Objects {
             Z: 6.26820946
           }
         }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 4209508232667492342
+          }
+        }
       }
     }
     TemplateAsset {
@@ -470,6 +518,12 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 4209508232667492342
           }
         }
       }
@@ -530,6 +584,12 @@ Objects {
             Z: 6.09651804
           }
         }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 4209508232667492342
+          }
+        }
       }
     }
     TemplateAsset {
@@ -576,6 +636,12 @@ Objects {
           Name: "Rotation"
           Rotator {
             Yaw: -47.4327393
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 4209508232667492342
           }
         }
       }
@@ -636,6 +702,12 @@ Objects {
             X: 2
             Y: 2.00000119
             Z: 9.90129948
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 4209508232667492342
           }
         }
       }

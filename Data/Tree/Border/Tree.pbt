@@ -97,14 +97,6 @@ Objects {
             Yaw: 120.169441
           }
         }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
       }
     }
     TemplateAsset {
@@ -459,15 +451,15 @@ Objects {
   Name: "Fantasy Castle Stairs Spiral Trim 01 - 4m"
   Transform {
     Location {
-      X: -5611.50537
-      Y: -2362.40283
+      X: -5500.91064
+      Y: -2315.78564
     }
     Rotation {
       Yaw: 112.855225
     }
     Scale {
-      X: 2.15174961
-      Y: 3.99999833
+      X: 2.1517477
+      Y: 6.49088049
       Z: 2.3
     }
   }
@@ -504,15 +496,15 @@ Objects {
   Name: "Fantasy Castle Stairs Spiral Trim 01 - 4m"
   Transform {
     Location {
-      X: -5277.70264
-      Y: -3153.9624
+      X: -5167.10645
+      Y: -3107.34326
     }
     Rotation {
       Yaw: 112.855225
     }
     Scale {
-      X: 2.15174961
-      Y: 3.99999833
+      X: 2.1517477
+      Y: 6.49088049
       Z: 2.3
     }
   }

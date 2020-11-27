@@ -49,6 +49,12 @@ Objects {
             Yaw: -39.4607544
           }
         }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 9704002950564038913
+          }
+        }
       }
     }
     TemplateAsset {
@@ -103,6 +109,12 @@ Objects {
           Rotator {
           }
         }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 9704002950564038913
+          }
+        }
       }
     }
     TemplateAsset {
@@ -155,6 +167,12 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 9704002950564038913
           }
         }
       }
@@ -216,6 +234,12 @@ Objects {
             Z: 5
           }
         }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 9704002950564038913
+          }
+        }
       }
     }
     TemplateAsset {
@@ -272,6 +296,12 @@ Objects {
             X: 8
             Y: 12
             Z: 5
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 9704002950564038913
           }
         }
       }
@@ -334,6 +364,12 @@ Objects {
             Z: 18.7755737
           }
         }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 9704002950564038913
+          }
+        }
       }
     }
     TemplateAsset {
@@ -387,6 +423,12 @@ Objects {
             X: 6
             Y: 6
             Z: 2.2
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 9704002950564038913
           }
         }
       }
@@ -445,6 +487,12 @@ Objects {
             Yaw: -43.5036
           }
         }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 9704002950564038913
+          }
+        }
       }
     }
     TemplateAsset {
@@ -499,6 +547,12 @@ Objects {
             Z: 1
           }
         }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 9704002950564038913
+          }
+        }
       }
     }
     TemplateAsset {
@@ -546,6 +600,12 @@ Objects {
             X: 5.93781805
             Y: 7.82777357
             Z: 4.16285133
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 9704002950564038913
           }
         }
       }
@@ -606,6 +666,12 @@ Objects {
             X: 1.99999738
             Y: 2.00000262
             Z: 24.5827923
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 9704002950564038913
           }
         }
       }

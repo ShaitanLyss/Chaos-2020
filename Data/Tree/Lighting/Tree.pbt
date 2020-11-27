@@ -81,7 +81,7 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceon"
+    Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Folder {
     IsGroup: true
@@ -161,9 +161,9 @@ Objects {
   Name: "Skylight"
   Transform {
     Location {
-      X: 144.116211
-      Y: -1173.91345
-      Z: 668.910889
+      X: 4102.11816
+      Y: -857.756714
+      Z: 10985.4873
     }
     Rotation {
     }
@@ -188,10 +188,6 @@ Objects {
     Overrides {
       Name: "bp:Use Captured Sky"
       Bool: false
-    }
-    Overrides {
-      Name: "bp:Intensity"
-      Float: 1.00822544
     }
   }
   Collidable_v2 {
