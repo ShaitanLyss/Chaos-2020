@@ -126,16 +126,17 @@ Objects {
   Name: "Fire Volume VFX"
   Transform {
     Location {
-      X: -110.636078
-      Y: 3.00699339e-05
-      Z: 21.690485
+      X: 110.544914
+      Y: -0.355920672
+      Z: -1.45210803
     }
     Rotation {
+      Yaw: -1.12643433
     }
     Scale {
       X: 1.08810842
-      Y: 0.945411
-      Z: 0.531897485
+      Y: 0.945410967
+      Z: 0.924459457
     }
   }
   ParentId: 4442114770646351124
@@ -147,6 +148,30 @@ Objects {
     Overrides {
       Name: "bp:Density"
       Float: 10
+    }
+    Overrides {
+      Name: "bp:Inherit Velocity"
+      Vector {
+        X: 1
+        Y: 1
+        Z: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Initial Velocity Min"
+      Vector {
+        X: 1500
+        Y: -4
+        Z: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Initial Velocity Max"
+      Vector {
+        X: 4
+        Y: 4
+        Z: 4
+      }
     }
   }
   Collidable_v2 {
