@@ -1,6 +1,32 @@
 ﻿Name: "Alaa"
 RootId: 4861888266353863378
 Objects {
+  Id: 17272938285708902861
+  Name: "ShowHideTownPlatforms_LVL2"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4861888266353863378
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "ShowHideTownPlatforms_LVL2"
+  }
+}
+Objects {
   Id: 7149579895321862950
   Name: "CoronaBar_Lvl2"
   Transform {
