@@ -57,6 +57,7 @@ Objects {
   }
   ParentId: 17862175832962607765
   ChildIds: 9423306927599171666
+  ChildIds: 12489874793369621047
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -74,12 +75,83 @@ Objects {
   }
 }
 Objects {
+  Id: 12489874793369621047
+  Name: "fx"
+  Transform {
+    Location {
+      X: 318.770508
+      Y: -2147.82031
+      Z: 720.455688
+    }
+    Rotation {
+      Yaw: -131.296173
+    }
+    Scale {
+      X: 1.05
+      Y: 1.05
+      Z: 5.13546419
+    }
+  }
+  ParentId: 9784712672762926659
+  ChildIds: 4152354344597033045
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+}
+Objects {
+  Id: 4152354344597033045
+  Name: "Fire Volume VFX"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Pitch: 88.0052
+      Yaw: 89.9290695
+      Roll: 87.955925
+    }
+    Scale {
+      X: 5.02298832
+      Y: 0.900000393
+      Z: 0.0999970287
+    }
+  }
+  ParentId: 12489874793369621047
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 6474768715633236406
+    }
+    TeamSettings {
+    }
+    Vfx {
+      AutoPlay: true
+    }
+  }
+  InstanceHistory {
+    SelfId: 5641013319878518575
+    SubobjectId: 330025034838458396
+    InstanceId: 7499451274498972607
+    TemplateId: 6965630994047288269
+  }
+}
+Objects {
   Id: 9423306927599171666
   Name: "Trigger"
   Transform {
     Location {
-      X: 307.019531
-      Y: -2144.20825
+      X: 325.639648
+      Y: -2153.15503
       Z: 646.864868
     }
     Rotation {

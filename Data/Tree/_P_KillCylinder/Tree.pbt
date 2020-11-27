@@ -1,24 +1,21 @@
 ﻿Name: "_P_KillCylinder"
-RootId: 11034516369536792788
+RootId: 11320717112896151609
 Objects {
-  Id: 1327277281437886249
+  Id: 653181888397823007
   Name: "Mesh"
   Transform {
     Location {
-      X: -347.304535
-      Y: -742.47644
-      Z: 23.333334
     }
     Rotation {
     }
     Scale {
-      X: 0.7
-      Y: 0.7
-      Z: 10.007
+      X: 0.69963032
+      Y: 0.699628
+      Z: 3.97734427
     }
   }
-  ParentId: 11034516369536792788
-  ChildIds: 17092671658338369404
+  ParentId: 11320717112896151609
+  ChildIds: 10863618331876777640
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -48,6 +45,7 @@ Objects {
       Float: 2.05550051
     }
   }
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -76,13 +74,13 @@ Objects {
   }
 }
 Objects {
-  Id: 17092671658338369404
+  Id: 10863618331876777640
   Name: "fx"
   Transform {
     Location {
-      X: -33.3439
-      Y: 8.77481461
-      Z: 66.5619583
+      X: -33.5673752
+      Y: 8.28108788
+      Z: 53.0673218
     }
     Rotation {
     }
@@ -92,8 +90,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 1327277281437886249
-  ChildIds: 909968097197509524
+  ParentId: 653181888397823007
+  ChildIds: 13273003833167005839
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -104,25 +103,26 @@ Objects {
   }
 }
 Objects {
-  Id: 909968097197509524
+  Id: 13273003833167005839
   Name: "Fire Volume VFX"
   Transform {
     Location {
-      X: -0.000391864596
-      Y: -0.000963174854
+      X: -0.000295746344
+      Y: -5.04463969e-05
+      Z: 7.54489229e-05
     }
     Rotation {
-      Pitch: 88.0052
-      Yaw: 89.9290695
-      Roll: 87.955925
+      Pitch: 87.9999161
+      Yaw: 89.9232864
+      Roll: 87.9500732
     }
     Scale {
-      X: 9.65728092
-      Y: 0.89999336
-      Z: 0.0999954641
+      X: 5.83629513
+      Y: 0.899997234
+      Z: 0.100000106
     }
   }
-  ParentId: 17092671658338369404
+  ParentId: 10863618331876777640
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
