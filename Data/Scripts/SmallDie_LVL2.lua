@@ -10,6 +10,7 @@ function OnSmallDie(player)
     Task.Wait(2)
    -- print(savePlatformModel:GetWorldPosition() + Vector3.UP * 50)
     Events.Broadcast("E_StopMovingPlatform_LVL2")
+    Events.BroadcastToPlayer(player, "E_IncreaseTheCoronaBar")
     player:Respawn({position = MovingPlatformModel:GetWorldPosition() + Vector3.UP * 100, rotation = playerRotation})
 end
 
@@ -22,9 +23,7 @@ end
 
 
 for _,killZoneTrigger in ipairs(killZones) do
-    print(killZoneTrigger.name)
     killZoneTrigger.beginOverlapEvent:Connect(OnBeginOverlap)
-    print("loooped")
 end
 
 --cPlatformTrigger.beginOverlapEvent:Connect(OnBeginOverlap)

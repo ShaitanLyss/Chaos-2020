@@ -122,6 +122,10 @@ Objects {
       Name: "cs:MintuesToFill"
       Float: 0.1
     }
+    Overrides {
+      Name: "cs:IncAfterSmallDiePer"
+      Float: 0.1
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"

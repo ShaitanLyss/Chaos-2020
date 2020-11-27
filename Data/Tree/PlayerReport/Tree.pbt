@@ -15,6 +15,16 @@ Objects {
     }
   }
   ParentId: 17454529779984541930
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:ResetForTest"
+      Bool: true
+    }
+    Overrides {
+      Name: "cs:Level"
+      Int: 2
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

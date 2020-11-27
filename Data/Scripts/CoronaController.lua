@@ -1,5 +1,6 @@
 ﻿local coronaBar = script:GetCustomProperty("CoronaBar"):WaitForObject()
 local mintuesToFill = script:GetCustomProperty("MintuesToFill")
+local incAfterSmallDiePer = script:GetCustomProperty("IncAfterSmallDiePer")
 local isColliding = false
 
 local thePlayer = Game.GetLocalPlayer()
@@ -38,7 +39,10 @@ function OnBigDie(player)
     player:Respawn({position = spawnPlace:GetWorldPosition(), rotation = Rotation.New(0,0,0)})
 end
 
-
+function OnSmallDieIncreaseCoronaBar()
+    coronaBar.progress = coronaBar.progress + incAfterSmallDiePer
+end
 
 Events.Connect("E_StartTime", OnStartTime)
 Events.Connect("E_StopTime", OnStopTime)
+Events.Connect("E_IncreaseTheCoronaBar", OnSmallDieIncreaseCoronaBar)
