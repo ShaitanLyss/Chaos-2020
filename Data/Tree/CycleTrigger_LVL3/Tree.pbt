@@ -1,8 +1,8 @@
-﻿Name: "Collectable_LVL3"
-RootId: 752021379137038361
+﻿Name: "CycleTrigger_LVL3"
+RootId: 17431790725355804744
 Objects {
-  Id: 10276727702144556867
-  Name: "Collectable"
+  Id: 1135872283242934256
+  Name: "CycleTrigger_LVL3"
   Transform {
     Location {
     }
@@ -14,16 +14,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 752021379137038361
+  ParentId: 17431790725355804744
   UnregisteredParameters {
     Overrides {
-      Name: "cs:Collectable"
+      Name: "cs:CycleTrigger_LVL3"
       ObjectReference {
-        SelfId: 752021379137038361
+        SelfId: 17431790725355804744
       }
     }
   }
-  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -32,37 +31,41 @@ Objects {
   }
   Script {
     ScriptAsset {
-      Id: 7193649049675032821
+      Id: 1406088116793786901
     }
   }
 }
 Objects {
-  Id: 10616050272312764593
-  Name: "CollectableModel"
+  Id: 3820947439579413810
+  Name: "Trigger"
   Transform {
     Location {
-      X: 1700
-      Y: 4300
-      Z: 6140
+      X: -770
+      Y: 4940
+      Z: 5640
     }
     Rotation {
     }
     Scale {
-      X: 5
-      Y: 5
-      Z: 5
+      X: 1
+      Y: 29.8000011
+      Z: 22.3000011
     }
   }
-  ParentId: 752021379137038361
-  WantsNetworking: true
+  ParentId: 17431790725355804744
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "CollectableModel"
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
   }
 }

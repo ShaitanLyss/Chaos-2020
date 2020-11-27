@@ -1,8 +1,8 @@
 ﻿Name: "Alaa"
 RootId: 4861888266353863378
 Objects {
-  Id: 3278331549154887160
-  Name: "Collectable"
+  Id: 17431790725355804744
+  Name: "CycleTrigger_LVL3"
   Transform {
     Location {
     }
@@ -23,7 +23,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Collectable"
+    FilePartitionName: "CycleTrigger_LVL3"
   }
 }
 Objects {
@@ -53,7 +53,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9613937436726933003
+  Id: 752021379137038361
   Name: "Collectable_LVL3"
   Transform {
     Location {
@@ -67,6 +67,7 @@ Objects {
     }
   }
   ParentId: 4861888266353863378
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -76,6 +77,33 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Collectable_LVL3"
+  }
+}
+Objects {
+  Id: 8965436119360519965
+  Name: "Collectable_LVL3"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4861888266353863378
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 10146649453250517653
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Collectable_LVL3"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 2923063795454212422
+    }
   }
 }
 Objects {
