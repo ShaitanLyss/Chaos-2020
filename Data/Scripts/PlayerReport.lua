@@ -1,4 +1,6 @@
-﻿local resetForTest = true
+﻿local resetForTest = script:GetCustomProperty("ResetForTest")
+local level = script:GetCustomProperty("Level")
+
 
 function OnPlayerJoined(player)
     local data = Storage.GetPlayerData(player)
@@ -12,6 +14,11 @@ function OnPlayerJoined(player)
         player:SetResource("level", data["level"])
 
     end
+
+    data["level"] = level
+    player:SetResource("level", level)
+
+
 
     Task.Wait(5)
     print("report")

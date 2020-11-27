@@ -259,10 +259,4 @@ Objects {
     IsFilePartition: true
     FilePartitionName: "SmallDie"
   }
-  InstanceHistory {
-    SelfId: 3190100696361051313
-    SubobjectId: 14265097406962643159
-    InstanceId: 8649466991581744429
-    TemplateId: 17080666560096579051
-  }
 }

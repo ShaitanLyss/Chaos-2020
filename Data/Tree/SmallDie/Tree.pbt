@@ -22,6 +22,12 @@ Objects {
         SelfId: 15161684883843686515
       }
     }
+    Overrides {
+      Name: "cs:KillZonesLVL2_SmallDie"
+      ObjectReference {
+        SelfId: 4425021287441254351
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"

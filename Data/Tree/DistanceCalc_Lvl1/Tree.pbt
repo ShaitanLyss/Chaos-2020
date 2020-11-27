@@ -2,7 +2,7 @@
 RootId: 7149579895321862950
 Objects {
   Id: 18367807608576850172
-  Name: "BigDie_LVL2"
+  Name: "BigDie_LVL2_LVL3"
   Transform {
     Location {
     }
@@ -23,7 +23,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "BigDie_LVL2"
+    FilePartitionName: "BigDie_LVL2_LVL3"
   }
 }
 Objects {
@@ -120,6 +120,10 @@ Objects {
     }
     Overrides {
       Name: "cs:MintuesToFill"
+      Float: 0.1
+    }
+    Overrides {
+      Name: "cs:IncAfterSmallDiePer"
       Float: 0.1
     }
   }

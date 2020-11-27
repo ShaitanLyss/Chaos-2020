@@ -1,13 +1,13 @@
 ﻿Name: "Q2"
 RootId: 13403407918364663893
 Objects {
-  Id: 6187967733413439500
-  Name: "C2-P_85"
+  Id: 5409151918459052671
+  Name: "K_Platform19"
   Transform {
     Location {
-      X: 700.611328
-      Y: -51.53125
-      Z: -25.44104
+      X: -600
+      Y: 150
+      Z: -720
     }
     Rotation {
     }
@@ -26,13 +26,13 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "C2-P_85"
+    FilePartitionName: "K_Platform19_1"
   }
   InstanceHistory {
-    SelfId: 12746370414913924657
-    SubobjectId: 11673249680736116978
-    InstanceId: 5100835390174757607
-    TemplateId: 14125914624941304983
+    SelfId: 2669764855542356164
+    SubobjectId: 5476325483713963319
+    InstanceId: 9465508632573721086
+    TemplateId: 4296020210974480709
     WasRoot: true
   }
 }

@@ -1,7 +1,7 @@
 ﻿Name: "K_Platform20"
-RootId: 7275864931193354318
+RootId: 2286189650207751166
 Objects {
-  Id: 1818804163260892481
+  Id: 6163122522287027852
   Name: "KPlatform"
   Transform {
     Location {
@@ -14,12 +14,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7275864931193354318
+  ParentId: 2286189650207751166
   UnregisteredParameters {
     Overrides {
       Name: "cs:K_Platform"
       ObjectReference {
-        SelfId: 7275864931193354318
+        SelfId: 2286189650207751166
       }
     }
   }
@@ -42,16 +42,16 @@ Objects {
   }
 }
 Objects {
-  Id: 628940094037553157
+  Id: 8669699833037477066
   Name: "PlatformModel"
   Transform {
     Location {
-      X: 2845
-      Y: -2315
-      Z: 250
+      X: -3707.23096
+      Y: -17734.543
+      Z: -53.5764771
     }
     Rotation {
-      Yaw: -173.818192
+      Yaw: -133.062668
     }
     Scale {
       X: 1
@@ -59,9 +59,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7275864931193354318
-  ChildIds: 5450614666957430117
-  ChildIds: 12508388199251623438
+  ParentId: 2286189650207751166
+  ChildIds: 10444938076076347988
+  ChildIds: 120550874856436201
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -79,23 +79,24 @@ Objects {
   }
 }
 Objects {
-  Id: 12508388199251623438
+  Id: 120550874856436201
   Name: "Trigger"
   Transform {
     Location {
-      X: -40.2897797
-      Y: 26.4778633
-      Z: 22.8005981
+      X: -4.66845703
+      Y: -218.956818
+      Z: 62.890686
     }
     Rotation {
+      Yaw: 173.818176
     }
     Scale {
-      X: 0.840141177
-      Y: 0.840141177
-      Z: 0.840141177
+      X: 1.03488481
+      Y: 1.03488481
+      Z: 1.03488481
     }
   }
-  ParentId: 628940094037553157
+  ParentId: 8669699833037477066
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -108,12 +109,12 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     TriggerShape_v2 {
-      Value: "mc:etriggershape:capsule"
+      Value: "mc:etriggershape:sphere"
     }
   }
 }
 Objects {
-  Id: 5450614666957430117
+  Id: 10444938076076347988
   Name: "Bush hazard"
   Transform {
     Scale {
@@ -122,7 +123,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 628940094037553157
+  ParentId: 8669699833037477066
   TemplateInstance {
     ParameterOverrideMap {
       key: 2914837419902199197
@@ -134,17 +135,17 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 0.3
-            Y: 0.3
+            X: 0.5
+            Y: 0.5
             Z: 0.3
           }
         }
         Overrides {
           Name: "Position"
           Vector {
-            X: -37.613739
-            Y: 24.1910515
-            Z: 0.000122070313
+            X: -0.0740585327
+            Y: -215.922867
+            Z: 42.1738892
           }
         }
         Overrides {
@@ -152,6 +153,15 @@ Objects {
           Enum {
             Value: "mc:ecollisionsetting:forceoff"
           }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 6574986305754630243
+      value {
+        Overrides {
+          Name: "bp:Emissive Boost"
+          Float: 3
         }
       }
     }

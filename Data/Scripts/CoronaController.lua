@@ -1,5 +1,6 @@
 ﻿local coronaBar = script:GetCustomProperty("CoronaBar"):WaitForObject()
 local mintuesToFill = script:GetCustomProperty("MintuesToFill")
+local incAfterSmallDiePer = script:GetCustomProperty("IncAfterSmallDiePer")
 local isColliding = false
 
 local thePlayer = Game.GetLocalPlayer()
@@ -7,7 +8,7 @@ local thePlayer = Game.GetLocalPlayer()
 function Tick(dt)
     if (coronaBar.progress >= 1) then
         isColliding = false
-        Events.BroadcastToServer("E_BigDie_LVL2", thePlayer)
+        Events.BroadcastToServer("E_BigDie_LVL2__LVL3", thePlayer)
         Task.Wait(2)
         coronaBar.progress = 0
     end
@@ -29,16 +30,10 @@ function OnStopTime(player)
 end
 
 
-function OnBigDie(player)
-    player:Die()
-    Task.Wait(3)
-    --Events.Broadcast("E_FireWallReset")
-    player:SetResource("challenge", 0)
-    player:SetResource("localTimer", -1)  --  -1 reset the timer
-    player:Respawn({position = spawnPlace:GetWorldPosition(), rotation = Rotation.New(0,0,0)})
+function OnSmallDieIncreaseCoronaBar()
+    coronaBar.progress = coronaBar.progress + incAfterSmallDiePer
 end
-
-
 
 Events.Connect("E_StartTime", OnStartTime)
 Events.Connect("E_StopTime", OnStopTime)
+Events.Connect("E_IncreaseTheCoronaBar", OnSmallDieIncreaseCoronaBar)
