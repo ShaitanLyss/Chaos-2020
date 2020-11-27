@@ -1,38 +1,6 @@
 ﻿Name: "Gameplay"
 RootId: 3841774984750933128
 Objects {
-  Id: 10305666313895817157
-  Name: "Spawn Point"
-  Transform {
-    Location {
-      X: -3445
-      Y: 5955
-      Z: 605
-    }
-    Rotation {
-      Yaw: -21.1617432
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 3841774984750933128
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  PlayerSpawnPoint {
-    TeamInt: 1
-    PlayerScaleMultiplier: 1
-  }
-}
-Objects {
   Id: 14713340454944924967
   Name: "Third Person Camera Settings"
   Transform {
