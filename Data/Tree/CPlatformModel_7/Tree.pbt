@@ -1,7 +1,7 @@
 ﻿Name: "CPlatformModel_7"
-RootId: 16954065723892322912
+RootId: 9050614485578438554
 Objects {
-  Id: 9791649425778693658
+  Id: 10167383536889610460
   Name: "Trigger"
   Transform {
     Location {
@@ -9,12 +9,12 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 17
-      Y: 17
-      Z: 17
+      X: 0.429954469
+      Y: 16.3516083
+      Z: 2.13751483
     }
   }
-  ParentId: 16954065723892322912
+  ParentId: 9050614485578438554
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -27,158 +27,65 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     TriggerShape_v2 {
-      Value: "mc:etriggershape:capsule"
+      Value: "mc:etriggershape:box"
     }
   }
 }
 Objects {
-  Id: 7380938509197971977
-  Name: "CS_3"
+  Id: 9484677649569988537
+  Name: "_Level.2.Wall"
   Transform {
     Location {
+      X: 2985
+      Y: 6745
+      Z: 2853
     }
     Rotation {
+      Yaw: -22.4999847
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 0.433940023
+      Y: 10
+      Z: 6.5
     }
   }
-  ParentId: 16954065723892322912
-  ChildIds: 14846307424683202816
-  ChildIds: 15412997564194723547
-  ChildIds: 9433983237104286170
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 9433983237104286170
-  Name: "_Level.2.Corona Spreader"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 7380938509197971977
-  WantsNetworking: true
+  ParentId: 9050614485578438554
   TemplateInstance {
     ParameterOverrideMap {
-      key: 9946664624890403534
+      key: 5594672932005031246
       value {
         Overrides {
           Name: "Name"
-          String: "_Level.2.Corona Spreader"
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1.85213506
-            Y: 1.85213506
-            Z: 1.85213506
-          }
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            Z: -75.8481445
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 14484837179691354976
-    }
-  }
-}
-Objects {
-  Id: 15412997564194723547
-  Name: "C2F_CovidAura"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 7380938509197971977
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 2885527514888761191
-      value {
-        Overrides {
-          Name: "Name"
-          String: "C2F_CovidAura"
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 17
-            Y: 17
-            Z: 17
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 5874369901957612822
-    }
-  }
-}
-Objects {
-  Id: 14846307424683202816
-  Name: "_Level.2.NPC Cage"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 7380938509197971977
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 3691403211646615168
-      value {
-        Overrides {
-          Name: "Name"
-          String: "_Level.2.NPC Cage"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 3
-            Y: 3
-            Z: 2.9
-          }
-        }
-        Overrides {
-          Name: "ma:Shared_BaseMaterial:id"
-          AssetReference {
-            Id: 140108169051315541
-          }
+          String: "Wall 5"
         }
         Overrides {
           Name: "Rotation"
           Rotator {
+            Yaw: -6.83018879e-06
           }
         }
         Overrides {
-          Name: "Visible"
+          Name: "Scale"
+          Vector {
+            X: 0.4
+            Y: 16.4
+            Z: 2.10000014
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:smart"
+          Bool: true
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:utile"
+          Float: 2.5277369
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:vtile"
+          Float: 1.10144842
+        }
+        Overrides {
+          Name: "Collidable"
           Enum {
             Value: "mc:evisibilitysetting:forceoff"
           }
@@ -186,7 +93,7 @@ Objects {
       }
     }
     TemplateAsset {
-      Id: 16858479965868598628
+      Id: 7813499516720574108
     }
   }
 }

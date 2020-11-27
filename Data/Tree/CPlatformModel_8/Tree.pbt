@@ -1,7 +1,7 @@
 ﻿Name: "CPlatformModel_8"
-RootId: 15923836662217231107
+RootId: 17597512768648989738
 Objects {
-  Id: 13051448402500873188
+  Id: 4182889012613158657
   Name: "Trigger"
   Transform {
     Location {
@@ -9,12 +9,12 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 17
-      Y: 17
-      Z: 17
+      X: 1.52948451
+      Y: 1.52947342
+      Z: 17.5261936
     }
   }
-  ParentId: 15923836662217231107
+  ParentId: 17597512768648989738
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -32,8 +32,8 @@ Objects {
   }
 }
 Objects {
-  Id: 15116536616183063129
-  Name: "CS_2"
+  Id: 15896673922049465549
+  Name: "_Level.2.Killer Tube"
   Transform {
     Location {
     }
@@ -45,10 +45,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 15923836662217231107
-  ChildIds: 1440853793755140272
-  ChildIds: 9920454568003201203
-  ChildIds: 751971659749516355
+  ParentId: 17597512768648989738
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -73,51 +70,11 @@ Objects {
   WantsNetworking: true
   TemplateInstance {
     ParameterOverrideMap {
-      key: 9946664624890403534
+      key: 12264167317587531338
       value {
         Overrides {
           Name: "Name"
-          String: "_Level.2.Corona Spreader"
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1.85213506
-            Y: 1.85213506
-            Z: 1.85213506
-          }
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            Z: -75.8481445
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 14484837179691354976
-    }
-  }
-}
-Objects {
-  Id: 9920454568003201203
-  Name: "C2F_CovidAura"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 15116536616183063129
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 2885527514888761191
-      value {
-        Overrides {
-          Name: "Name"
-          String: "C2F_CovidAura"
+          String: "C_6"
         }
         Overrides {
           Name: "Position"
@@ -127,6 +84,7 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
+            Yaw: 8.53773486e-07
           }
         }
       }
@@ -152,43 +110,23 @@ Objects {
       key: 3691403211646615168
       value {
         Overrides {
-          Name: "Name"
-          String: "_Level.2.NPC Cage"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
-        }
-        Overrides {
           Name: "Scale"
           Vector {
-            X: 3
-            Y: 3
-            Z: 2.9
+            X: 1.5
+            Y: 1.5
+            Z: 16.5
           }
         }
         Overrides {
-          Name: "ma:Shared_BaseMaterial:id"
-          AssetReference {
-            Id: 140108169051315541
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Visible"
+          Name: "Collidable"
           Enum {
-            Value: "mc:evisibilitysetting:forceoff"
+            Value: "mc:ecollisionsetting:forceoff"
           }
         }
       }
     }
     TemplateAsset {
-      Id: 16858479965868598628
+      Id: 7301231792458772727
     }
   }
 }

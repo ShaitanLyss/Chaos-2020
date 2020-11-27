@@ -40,7 +40,7 @@ Objects {
     Location {
       X: -4825
       Y: -2010
-      Z: 1745.84985
+      Z: 1676.69
     }
     Rotation {
     }
@@ -59,7 +59,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "CPlatformModel_13"
+    FilePartitionName: "CPlatformModel_16"
   }
   InstanceHistory {
     SelfId: 8555594892839988862

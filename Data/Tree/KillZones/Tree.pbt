@@ -1,6 +1,108 @@
 ﻿Name: "KillZones"
 RootId: 3975415323901219461
 Objects {
+  Id: 12923939140733709101
+  Name: "KillZone Floor2"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3975415323901219461
+  ChildIds: 8026748736955811349
+  ChildIds: 12082346752640302257
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 11604288403672764928
+    SubobjectId: 5240215240491173478
+    InstanceId: 8649466991581744429
+    TemplateId: 17080666560096579051
+  }
+}
+Objects {
+  Id: 12082346752640302257
+  Name: "KillZone_LVL2"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12923939140733709101
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:KillTrigger"
+      ObjectReference {
+        SelfId: 8026748736955811349
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 10035887567046346585
+    }
+  }
+}
+Objects {
+  Id: 8026748736955811349
+  Name: "KillTrigger"
+  Transform {
+    Location {
+      Z: 2440
+    }
+    Rotation {
+    }
+    Scale {
+      X: 186.5
+      Y: 169.1
+      Z: 35
+    }
+  }
+  ParentId: 12923939140733709101
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
   Id: 11604288403672764928
   Name: "KillZone Floor1"
   Transform {

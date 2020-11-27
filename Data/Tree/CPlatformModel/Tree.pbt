@@ -5,6 +5,9 @@ Objects {
   Name: "CS_1"
   Transform {
     Location {
+      X: -1225
+      Y: 6240
+      Z: 2715
     }
     Rotation {
     }
@@ -171,8 +174,12 @@ Objects {
   Name: "Trigger"
   Transform {
     Location {
+      X: -1225
+      Y: 6240
+      Z: 2715
     }
     Rotation {
+      Yaw: 62.6012764
     }
     Scale {
       X: 17

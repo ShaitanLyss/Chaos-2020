@@ -33,7 +33,11 @@ Objects {
     }
     Overrides {
       Name: "cs:DecreaseSpeedPer"
-      Float: 0.4
+      Float: 0.45
+    }
+    Overrides {
+      Name: "cs:JumpSpeedPer"
+      Float: 0.3
     }
   }
   Collidable_v2 {
@@ -59,9 +63,9 @@ Objects {
   Name: "CPlatformModel"
   Transform {
     Location {
-      X: -6585
-      Y: -1125
-      Z: 1690
+      X: -6528.13428
+      Y: -1258.96777
+      Z: 1752.53735
     }
     Rotation {
       Yaw: 22.9999599
@@ -81,7 +85,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "CPlatformModel_12"
+    FilePartitionName: "CPlatformModel_15"
   }
   InstanceHistory {
     SelfId: 14575980896338415888

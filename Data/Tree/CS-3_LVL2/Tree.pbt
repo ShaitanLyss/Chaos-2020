@@ -38,9 +38,9 @@ Objects {
   Name: "CPlatformModel"
   Transform {
     Location {
-      X: -9690.33594
-      Y: -5246.27832
-      Z: 1761.74634
+      X: -9593.33594
+      Y: -5022.6167
+      Z: 1686.35425
     }
     Rotation {
       Yaw: 66.9222488
@@ -60,7 +60,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "CPlatformModel_7"
+    FilePartitionName: "CPlatformModel_10"
   }
   InstanceHistory {
     SelfId: 16954065723892322912

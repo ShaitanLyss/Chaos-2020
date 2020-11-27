@@ -1,6 +1,41 @@
 ﻿Name: "SmallDie"
 RootId: 3190100696361051313
 Objects {
+  Id: 4733108219619649910
+  Name: "SmallDie_LVL2"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3190100696361051313
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:MovingPlatformModel"
+      ObjectReference {
+        SelfId: 15161684883843686515
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 8339923929332038049
+    }
+  }
+}
+Objects {
   Id: 17613723419930849102
   Name: "SmallDie"
   Transform {

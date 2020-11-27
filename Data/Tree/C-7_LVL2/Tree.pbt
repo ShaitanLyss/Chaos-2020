@@ -1,13 +1,10 @@
 ﻿Name: "C-7_LVL2"
-RootId: 7517284127220996867
+RootId: 16918229318048569135
 Objects {
-  Id: 12841284309147149831
+  Id: 14790101486457508758
   Name: "CoronaSquare"
   Transform {
     Location {
-      X: -6247.2666
-      Y: -1302.13818
-      Z: 1420.23486
     }
     Rotation {
     }
@@ -17,23 +14,27 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7517284127220996867
+  ParentId: 16918229318048569135
   UnregisteredParameters {
     Overrides {
       Name: "cs:CPlatform"
       ObjectReference {
-        SelfId: 7517284127220996867
+        SelfId: 16918229318048569135
       }
     }
     Overrides {
       Name: "cs:CPlatformModel"
       ObjectReference {
-        SelfId: 8794839889342231738
+        SelfId: 9050614485578438554
       }
     }
     Overrides {
       Name: "cs:DecreaseSpeedPer"
-      Float: 0.4
+      Float: 0.7
+    }
+    Overrides {
+      Name: "cs:JumpSpeedPer"
+      Float: 0.3
     }
   }
   Collidable_v2 {
@@ -48,24 +49,23 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 18067898532816862284
+    SelfId: 14790101486457508758
     SubobjectId: 13882845199832216792
-    InstanceId: 4748421921087412187
+    InstanceId: 6051333003008358615
     TemplateId: 3915291774251592516
   }
 }
 Objects {
-  Id: 8794839889342231738
+  Id: 9050614485578438554
   Name: "CPlatformModel"
   Transform {
     Location {
-      X: -8967.44922
-      Y: -13460.8506
-      Z: 1765.34326
+      X: -11160
+      Y: -7970
+      Z: 1635
     }
     Rotation {
-      Pitch: 104.655258
-      Yaw: 50.1608734
+      Yaw: -97
     }
     Scale {
       X: 1
@@ -73,7 +73,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 7517284127220996867
+  ParentId: 16918229318048569135
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -82,12 +82,12 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "CPlatformModel_5"
+    FilePartitionName: "CPlatformModel_7"
   }
   InstanceHistory {
-    SelfId: 17597512768648989738
+    SelfId: 9050614485578438554
     SubobjectId: 8102825907411153108
-    InstanceId: 15108377176271350171
+    InstanceId: 6051333003008358615
     TemplateId: 3915291774251592516
   }
 }
