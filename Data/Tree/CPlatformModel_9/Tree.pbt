@@ -9,9 +9,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 2.67613196
-      Y: 2.67613196
-      Z: 2.67613196
+      X: 2.68614602
+      Y: 2.68614602
+      Z: 2.68614602
     }
   }
   ParentId: 13250733520815637966
@@ -27,7 +27,7 @@ Objects {
       IsEnemyCollisionEnabled: true
     }
     TriggerShape_v2 {
-      Value: "mc:etriggershape:capsule"
+      Value: "mc:etriggershape:box"
     }
   }
 }
@@ -76,6 +76,20 @@ Objects {
           Enum {
             Value: "mc:ecollisionsetting:forceoff"
           }
+        }
+        Overrides {
+          Name: "StaticMesh"
+          AssetReference {
+            Id: 9299265961697968177
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:utile"
+          Float: 1
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:vtile"
+          Float: 1
         }
       }
     }
