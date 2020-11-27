@@ -57,7 +57,6 @@ function Tick(dt)
     if toStart then -- wait till player join
         --Challenge = 1 means start Challenge
         --print("out")
-        print(localPlayer:GetVelocity())
 
         if (localPlayer:GetResource("level") == 2) and (localPlayer:GetResource("challenge") == 1) then
             FollowPath()

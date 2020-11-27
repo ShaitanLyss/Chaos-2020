@@ -4,16 +4,16 @@
   PlatformAssetType: 13
   SerializationVersion: 68
   CustomMaterialAsset {
-    BaseMaterialId: 5352907670766726664
+    BaseMaterialId: 9691585235102710834
     ParameterOverrides {
     }
     Assets {
-      Id: 5352907670766726664
-      Name: "Metal Iron Rusted 02"
+      Id: 9691585235102710834
+      Name: "Metal Iron 01"
       PlatformAssetType: 2
       PrimaryAsset {
         AssetType: "MaterialAssetRef"
-        AssetId: "mi_metal_iron_003"
+        AssetId: "mi_metal_iron_001"
       }
     }
   }

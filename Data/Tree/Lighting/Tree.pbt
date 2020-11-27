@@ -18,7 +18,7 @@ Objects {
   ChildIds: 5840606389545053398
   ChildIds: 15404662675862678984
   ChildIds: 7667153303607784936
-  ChildIds: 165030018878814319
+  ChildIds: 18439307647872976453
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -29,8 +29,8 @@ Objects {
   }
 }
 Objects {
-  Id: 165030018878814319
-  Name: "L_Uniques_3"
+  Id: 18439307647872976453
+  Name: "L_Uniques_2"
   Transform {
     Scale {
       X: 1
@@ -41,11 +41,24 @@ Objects {
   ParentId: 521624241559297895
   TemplateInstance {
     ParameterOverrideMap {
-      key: 13942098468226329963
+      key: 3958228752583909499
       value {
         Overrides {
           Name: "Name"
-          String: "L_Uniques_3"
+          String: "L_Uniques_2"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1773.8894
+            Y: 2041.60522
+            Z: 4978.40576
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
         }
         Overrides {
           Name: "Scale"
@@ -58,7 +71,7 @@ Objects {
       }
     }
     TemplateAsset {
-      Id: 15788209051781286163
+      Id: 9810613631189882924
     }
   }
 }
