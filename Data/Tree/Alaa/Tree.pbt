@@ -1,6 +1,32 @@
 ﻿Name: "Alaa"
 RootId: 4861888266353863378
 Objects {
+  Id: 3278331549154887160
+  Name: "Collectable"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4861888266353863378
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Collectable"
+  }
+}
+Objects {
   Id: 125359251709067130
   Name: "Bar_LVL3"
   Transform {
