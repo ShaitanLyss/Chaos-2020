@@ -53,7 +53,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:FirstScene"
-      Int: 4
+      Int: 5
     }
     Overrides {
       Name: "cs:NumberOfScenes"
@@ -127,28 +127,28 @@ Objects {
     Overrides {
       Name: "cs:fog"
       ObjectReference {
-        SelfId: 14955864695420240990
-        SubObjectId: 5404847165637790131
-        InstanceId: 165030018878814319
-        TemplateId: 15788209051781286163
+        SelfId: 9192644802692686487
+        SubObjectId: 5768570144505935371
+        InstanceId: 18439307647872976453
+        TemplateId: 9810613631189882924
       }
     }
     Overrides {
       Name: "cs:skydome"
       ObjectReference {
-        SelfId: 10648401100473337990
-        SubObjectId: 1678294604905825643
-        InstanceId: 165030018878814319
-        TemplateId: 15788209051781286163
+        SelfId: 3317284722807541651
+        SubObjectId: 114167398191569679
+        InstanceId: 18439307647872976453
+        TemplateId: 9810613631189882924
       }
     }
     Overrides {
       Name: "cs:sun"
       ObjectReference {
-        SelfId: 1493289326459450609
-        SubObjectId: 10391214824921315612
-        InstanceId: 165030018878814319
-        TemplateId: 15788209051781286163
+        SelfId: 4417383008554889079
+        SubObjectId: 1355992733162355691
+        InstanceId: 18439307647872976453
+        TemplateId: 9810613631189882924
       }
     }
   }

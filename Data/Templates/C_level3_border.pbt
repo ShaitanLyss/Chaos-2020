@@ -238,15 +238,15 @@
         Name: "Fantasy Castle Stairs Spiral Trim 01 - 4m"
         Transform {
           Location {
-            X: -5277.70264
-            Y: -3153.9624
+            X: -5119.08105
+            Y: -3082.01563
           }
           Rotation {
             Yaw: 112.855225
           }
           Scale {
-            X: 2.15174961
-            Y: 3.99999833
+            X: 2.15174913
+            Y: 7.74335384
             Z: 2.3
           }
         }
@@ -277,15 +277,15 @@
         Name: "Fantasy Castle Stairs Spiral Trim 01 - 4m"
         Transform {
           Location {
-            X: -5611.50537
-            Y: -2362.40283
+            X: -5452.88135
+            Y: -2290.45605
           }
           Rotation {
             Yaw: 112.855225
           }
           Scale {
-            X: 2.15174961
-            Y: 3.99999833
+            X: 2.15174913
+            Y: 7.74335384
             Z: 2.3
           }
         }
