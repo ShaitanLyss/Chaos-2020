@@ -85,7 +85,7 @@ Objects {
     }
     Overrides {
       Name: "cs:loop"
-      Bool: false
+      Bool: true
     }
   }
   Collidable_v2 {
