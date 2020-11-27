@@ -57,6 +57,12 @@ Objects {
         SelfId: 8026748736955811349
       }
     }
+    Overrides {
+      Name: "cs:Lvl2_SpawnPoint"
+      ObjectReference {
+        SelfId: 7083436607650349697
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
