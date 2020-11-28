@@ -41,15 +41,15 @@ Objects {
   Transform {
     Location {
       X: 881.870605
-      Y: 8464.70117
+      Y: 7924.15186
       Z: 238.221786
     }
     Rotation {
       Yaw: -130
     }
     Scale {
-      X: 18.5398769
-      Y: 14.9349728
+      X: 4.70000029
+      Y: 5.4
       Z: 1
     }
   }
@@ -76,7 +76,7 @@ Objects {
   Transform {
     Location {
       X: 881.870605
-      Y: 8464.70117
+      Y: 7924.15186
       Z: 238.221786
     }
     Rotation {
