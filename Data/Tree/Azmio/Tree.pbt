@@ -1,6 +1,32 @@
 ﻿Name: "Azmio"
 RootId: 11404857991553905137
 Objects {
+  Id: 14528963165088349492
+  Name: "UI"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11404857991553905137
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "UI"
+  }
+}
+Objects {
   Id: 3988317910669985612
   Name: "Level 2 Mov.platform"
   Transform {
