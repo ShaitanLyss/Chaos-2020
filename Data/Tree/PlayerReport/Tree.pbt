@@ -24,6 +24,10 @@ Objects {
       Name: "cs:Level"
       Int: 3
     }
+    Overrides {
+      Name: "cs:Challenge"
+      Int: 1
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"

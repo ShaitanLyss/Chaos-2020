@@ -6,7 +6,6 @@ local multiplayFactorEveryCycle = script:GetCustomProperty("MultiplayFactorEvery
 
 
 local thePlayer = Game.GetLocalPlayer()
-local isChallenging = false
 local cycleNumber = 0
 
 function Tick(dt)
@@ -15,7 +14,7 @@ function Tick(dt)
         Task.Wait(2)
         QBar.progress = 0
     end
-    if isChallenging then
+    if (thePlayer:GetResource("level") == 3) and (thePlayer:GetResource("challenge") == 1) then
         local percent = dt / (60 * mintuesToFill) 
         QBar.progress = QBar.progress + percent
     end 
