@@ -1,8 +1,8 @@
 ﻿Name: "LVL2"
-RootId: 11571895210170069056
+RootId: 17803236201418827164
 Objects {
-  Id: 1256864344661114877
-  Name: "ToNextLevel"
+  Id: 12108164005401215124
+  Name: "SendToChallenge"
   Transform {
     Location {
     }
@@ -14,12 +14,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11571895210170069056
+  ParentId: 17803236201418827164
   UnregisteredParameters {
     Overrides {
-      Name: "cs:SpawnPoints"
+      Name: "cs:ChallengeSpawnPoints"
       ObjectReference {
-        SelfId: 17985057012011105827
+        SelfId: 8424844563706345866
       }
     }
   }
@@ -31,31 +31,29 @@ Objects {
   }
   Script {
     ScriptAsset {
-      Id: 2640335180089642686
+      Id: 9766873926329396966
     }
   }
 }
 Objects {
-  Id: 827950915945406910
+  Id: 17549956805898813148
   Name: "Trigger"
   Transform {
     Location {
-      X: 5796.40576
-      Y: 1634.56396
-      Z: 3030.677
+      X: 6244.27295
+      Y: 1207.71423
+      Z: 3965.48291
     }
     Rotation {
-      Pitch: 76.4352493
-      Yaw: -166.7836
-      Roll: 89.5362091
+      Yaw: -145.584976
     }
     Scale {
-      X: 6.53723669
-      Y: 2.28312039
-      Z: 3.38568044
+      X: 5.70000029
+      Y: 3.8
+      Z: 3.60000014
     }
   }
-  ParentId: 11571895210170069056
+  ParentId: 17803236201418827164
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -64,7 +62,7 @@ Objects {
   }
   Trigger {
     Interactable: true
-    InteractionLabel: "Press F to go to next lvl"
+    InteractionLabel: "press F to test "
     TeamSettings {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
@@ -75,18 +73,16 @@ Objects {
   }
 }
 Objects {
-  Id: 5848364113783286595
+  Id: 12706599702891608418
   Name: "MeshModel"
   Transform {
     Location {
-      X: 5760.55957
-      Y: 1697.03198
-      Z: 2705.51514
+      X: 6478.79199
+      Y: 1266.88049
+      Z: 3755.48291
     }
     Rotation {
-      Pitch: 76.4352493
-      Yaw: -166.7836
-      Roll: 89.5362091
+      Yaw: -145.584976
     }
     Scale {
       X: 1
@@ -94,7 +90,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 11571895210170069056
+  ParentId: 17803236201418827164
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

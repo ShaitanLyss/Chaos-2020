@@ -151,9 +151,9 @@ Objects {
   Name: "Lvl3_SpawnPoint"
   Transform {
     Location {
-      X: 5128.55762
-      Y: 625.835266
-      Z: 4658.18701
+      X: 3600
+      Y: 2050
+      Z: 4710
     }
     Rotation {
     }
@@ -180,9 +180,9 @@ Objects {
   Name: "Lvl2_SpawnPoint"
   Transform {
     Location {
-      X: 7326.41699
-      Y: 1632.6062
-      Z: 2838.98071
+      X: 6553.83838
+      Y: 1157.88599
+      Z: 3906.31812
     }
     Rotation {
     }

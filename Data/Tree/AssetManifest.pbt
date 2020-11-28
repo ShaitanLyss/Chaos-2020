@@ -43,12 +43,3 @@ Assets {
     AssetId: "sm_fern_generic_004"
   }
 }
-Assets {
-  Id: 852186117848998722
-  Name: "Icon Lock"
-  PlatformAssetType: 9
-  PrimaryAsset {
-    AssetType: "PlatformBrushAssetRef"
-    AssetId: "Icon_Lock"
-  }
-}
