@@ -34,12 +34,11 @@ Objects {
   Name: "Lvl3_Challenge"
   Transform {
     Location {
-      X: 4058.02075
-      Y: 2047.97583
-      Z: 4684.52881
+      X: -7260
+      Y: 15
+      Z: 2840
     }
     Rotation {
-      Yaw: 131.996674
     }
     Scale {
       X: 1
@@ -90,46 +89,15 @@ Objects {
   }
 }
 Objects {
-  Id: 5413445190812988730
-  Name: "Lvl1_Challenge_Goes-Through-2"
-  Transform {
-    Location {
-      X: 3189.41675
-      Y: 8361.41211
-      Z: 323.264374
-    }
-    Rotation {
-      Yaw: 157.838776
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8424844563706345866
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  PlayerSpawnPoint {
-    TeamInt: 1
-    PlayerScaleMultiplier: 1
-  }
-}
-Objects {
   Id: 7334415895762910802
   Name: "Lvl1_Challenge"
   Transform {
     Location {
-      X: 929.797424
-      Y: 9081.3584
-      Z: 323.264374
+      X: -1650
+      Y: 9130
+      Z: 1060
     }
     Rotation {
-      Yaw: -23.6944275
     }
     Scale {
       X: 1

@@ -63,8 +63,8 @@ Objects {
   Name: "CPlatformModel"
   Transform {
     Location {
-      X: -7249.28662
-      Y: -1949.22363
+      X: -7235.75195
+      Y: -1981.11035
       Z: 1725
     }
     Rotation {

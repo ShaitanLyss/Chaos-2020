@@ -53,7 +53,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:FirstScene"
-      Int: 1
+      Int: 2
     }
     Overrides {
       Name: "cs:NumberOfScenes"
