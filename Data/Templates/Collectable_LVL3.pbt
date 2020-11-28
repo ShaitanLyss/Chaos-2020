@@ -7,7 +7,7 @@
       RootId: 10146649453250517653
       Objects {
         Id: 10146649453250517653
-        Name: "Collectable_LVL3"
+        Name: "Collectable_3"
         Transform {
           Scale {
             X: 1
@@ -15,7 +15,7 @@
             Z: 1
           }
         }
-        ParentId: 4861888266353863378
+        ParentId: 3730128779952504670
         ChildIds: 17764568532139589397
         ChildIds: 15854278726420967890
         WantsNetworking: true
@@ -35,9 +35,6 @@
         Name: "CollectableModel"
         Transform {
           Location {
-            X: 3260
-            Y: 3800
-            Z: 5100
           }
           Rotation {
           }
@@ -71,9 +68,9 @@
           Rotation {
           }
           Scale {
-            X: 1
+            X: 0.457492799
             Y: 1
-            Z: 1
+            Z: 2.40123034
           }
         }
         ParentId: 17764568532139589397
@@ -104,15 +101,15 @@
         Name: "Trigger"
         Transform {
           Location {
-            Y: 8
-            Z: 16
+            Y: 7.09482431
+            Z: 30.8004894
           }
           Rotation {
           }
           Scale {
-            X: 1.1
+            X: 0.594516635
             Y: 0.2
-            Z: 0.5
+            Z: 1.3641113
           }
         }
         ParentId: 17764568532139589397
@@ -154,6 +151,10 @@
             ObjectReference {
               SubObjectId: 10146649453250517653
             }
+          }
+          Overrides {
+            Name: "cs:TimeToAppearAgain"
+            Float: 20
           }
         }
         WantsNetworking: true
