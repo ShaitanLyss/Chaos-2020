@@ -1,7 +1,7 @@
-﻿Name: "LVL1_2"
-RootId: 16280255872572026047
+﻿Name: "LVL3_1"
+RootId: 12580660313025822189
 Objects {
-  Id: 939267807356848075
+  Id: 11201541484124827395
   Name: "SendToChallenge"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16280255872572026047
+  ParentId: 12580660313025822189
   UnregisteredParameters {
     Overrides {
       Name: "cs:ChallengeSpawnPoints"
@@ -36,24 +36,24 @@ Objects {
   }
 }
 Objects {
-  Id: 4461021162341664042
+  Id: 9266552280025501394
   Name: "Trigger"
   Transform {
     Location {
-      X: 4810.6416
-      Y: 8220.93555
-      Z: 1020
+      X: 4653.69189
+      Y: 1665.65198
+      Z: 4711.12061
     }
     Rotation {
-      Yaw: -125.756195
+      Yaw: -159.366928
     }
     Scale {
-      X: 4.8
-      Y: 5.39999866
-      Z: 4.1
+      X: 5.70000029
+      Y: 3.8
+      Z: 3.60000014
     }
   }
-  ParentId: 16280255872572026047
+  ParentId: 12580660313025822189
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -62,7 +62,7 @@ Objects {
   }
   Trigger {
     Interactable: true
-    InteractionLabel: "press F to go to the Challenge"
+    InteractionLabel: "press F to test "
     TeamSettings {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
@@ -73,16 +73,16 @@ Objects {
   }
 }
 Objects {
-  Id: 6740919466111322558
+  Id: 5470255537277669215
   Name: "MeshModel"
   Transform {
     Location {
-      X: 5004.17334
-      Y: 8315.5166
-      Z: 1020
+      X: 4895.5542
+      Y: 1667.24487
+      Z: 4501.12061
     }
     Rotation {
-      Yaw: -125.756195
+      Yaw: -159.366928
     }
     Scale {
       X: 1
@@ -90,7 +90,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 16280255872572026047
+  ParentId: 12580660313025822189
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -99,6 +99,6 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "MeshModel_6"
+    FilePartitionName: "MeshModel_4"
   }
 }

@@ -1,9 +1,9 @@
 ﻿Assets {
-  Id: 9842143421296066252
-  Name: "Fantasy Castle Stairs 01 - 150cm"
+  Id: 11390981272720591546
+  Name: "Craftsman Porch Fence Railing 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_ts_fan_cas_stairs_001_150cm"
+    AssetId: "sm_urb_sub_craftsman_porch_001_rail"
   }
 }

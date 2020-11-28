@@ -40,16 +40,16 @@ Objects {
   Name: "Trigger"
   Transform {
     Location {
-      X: -2490
-      Y: 9010
-      Z: 590
+      X: 5158.2666
+      Y: 6675.73486
+      Z: 146.131775
     }
     Rotation {
-      Yaw: -130
+      Yaw: -125.642517
     }
     Scale {
-      X: 3.70000029
-      Y: 3.9
+      X: 15.8252745
+      Y: 14.0215321
       Z: 1
     }
   }
@@ -75,12 +75,12 @@ Objects {
   Name: "MeshModel"
   Transform {
     Location {
-      X: -2490
-      Y: 9010
-      Z: 590
+      X: 5158.2666
+      Y: 6675.73486
+      Z: 146.131775
     }
     Rotation {
-      Yaw: -130
+      Yaw: -125.642517
     }
     Scale {
       X: 1
@@ -97,6 +97,6 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "MeshModel"
+    FilePartitionName: "MeshModel_7"
   }
 }

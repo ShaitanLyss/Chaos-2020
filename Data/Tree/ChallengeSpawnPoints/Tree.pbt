@@ -34,11 +34,12 @@ Objects {
   Name: "Lvl3_Challenge"
   Transform {
     Location {
-      X: -7260
-      Y: 15
-      Z: 2840
+      X: 4058.02075
+      Y: 2047.97583
+      Z: 4684.52881
     }
     Rotation {
+      Yaw: 131.996674
     }
     Scale {
       X: 1
@@ -93,11 +94,12 @@ Objects {
   Name: "Lvl1_Challenge"
   Transform {
     Location {
-      X: -1650
-      Y: 9130
-      Z: 1060
+      X: 929.797424
+      Y: 9081.3584
+      Z: 323.264374
     }
     Rotation {
+      Yaw: -23.6944275
     }
     Scale {
       X: 1

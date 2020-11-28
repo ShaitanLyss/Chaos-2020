@@ -1,20 +1,23 @@
 ﻿Name: "MeshModel_3"
-RootId: 6740919466111322558
+RootId: 414222280559370469
 Objects {
-  Id: 10509871892677534990
-  Name: "Fantasy Castle Stairs 01 - 150cm"
+  Id: 16079739296937363567
+  Name: "Craftsman Porch Fence Railing 01"
   Transform {
     Location {
+      X: 3.43322754e-05
+      Y: -72.2676697
+      Z: -7.82012939e-05
     }
     Rotation {
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 1.97608447
+      Y: 0.999999881
+      Z: 1.00000012
     }
   }
-  ParentId: 6740919466111322558
+  ParentId: 414222280559370469
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -23,7 +26,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 9842143421296066252
+      Id: 11390981272720591546
     }
     Teams {
       IsTeamCollisionEnabled: true

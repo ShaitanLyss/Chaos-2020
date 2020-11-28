@@ -1,20 +1,23 @@
 ﻿Name: "MeshModel_1"
-RootId: 414222280559370469
+RootId: 8873711985825271201
 Objects {
-  Id: 16079739296937363567
+  Id: 8716427454731693825
   Name: "Craftsman Porch Fence Railing 01"
   Transform {
     Location {
+      X: 3.43322754e-05
+      Y: -72.2676697
+      Z: -7.82012939e-05
     }
     Rotation {
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 1.97608447
+      Y: 0.999999881
+      Z: 1.00000012
     }
   }
-  ParentId: 414222280559370469
+  ParentId: 8873711985825271201
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
