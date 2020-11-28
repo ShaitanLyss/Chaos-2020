@@ -6,20 +6,24 @@ function OnPlayerJoined(player)
     local data = Storage.GetPlayerData(player)
     if resetForTest then
         Task.Wait(3)
-        data["passChallenge"] = 0
-        data["level"] = 1
+        data["level"] = level
+        player:SetResource("level", level)
+    
+        data["challenge"] = challenge
+        player:SetResource("challenge", challenge)
         data["timer"] = 0
+        data["passChallenge"] = 0
+        player:SetResource("passChallenge", 0)
         local resultCode,errorMessage = Storage.SetPlayerData(player, data)
-        player:SetResource("passChallenge", data["passChallenge"])
-        player:SetResource("level", data["level"])
+        --player:SetResource("passChallenge", data["passChallenge"])
+       
+
+
+       
 
     end
 
-    data["level"] = level
-    player:SetResource("level", level)
-
-    data["challenge"] = challenge
-    player:SetResource("challenge", challenge)
+   
 
     Task.Wait(5)
     print("report")
