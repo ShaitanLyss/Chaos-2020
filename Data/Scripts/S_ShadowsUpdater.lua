@@ -1,15 +1,10 @@
-﻿local shadow1 = script:GetCustomProperty("1"):WaitForObject()
+﻿local clone = script:GetCustomProperty("shadow")
+local clones = {}
 local recorder = script:GetCustomProperty("recorder"):WaitForObject().context
 local delay = script:GetCustomProperty("delay")
+local shadows = recorder.shadows
 
-local shadow = recorder.shadow
-local t0 = time()
-
-function fmod(x, m)
-	return x - ((x // m) * m)
-end
-
-function getIntervalle(t)
+function getIntervalle(t, shadow)
 	deb = 1
 	fin = #shadow + 1
 	
@@ -26,17 +21,21 @@ end
 	
 
 function Tick(dt)
-	local i = recorder.i
-	local shadow = recorder.shadow
-	t = time()
-	if t - t0 > delay then
-				t = t - delay
-				a, b = getIntervalle(t)
+	t0 = recorder.t0
+	for i, shadow in ipairs(shadows) do				
+		t = time() - t0 - delay
+		if #shadow >= 2 then
+			a, b = getIntervalle(t, shadow)
+			if shadow[b] then
 				ta, tb = shadow[a][1], shadow[b][1]
 				progress = (t - ta) / (tb - ta)
 				from = shadow[a][2]
 				to = shadow[b][2]
-
-				shadow1:SetWorldPosition(Vector3.Lerp(from, to, progress))
+				
+				-- spawn a new clone if needed
+				if not clones[i] then clones[i] = World.SpawnAsset(clone, {parent = script}) end
+				clones[i]:SetWorldPosition(Vector3.Lerp(from, to, progress))
+			end
+		end
 	end
 end

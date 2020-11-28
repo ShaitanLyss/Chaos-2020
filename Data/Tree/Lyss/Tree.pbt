@@ -1,10 +1,12 @@
 ﻿Name: "Lyss"
 RootId: 10490075164851024102
 Objects {
-  Id: 14078131919442175399
-  Name: "Shadow baby"
+  Id: 6275389237649165461
+  Name: "Shadows"
   Transform {
     Location {
+      X: 1792.96167
+      Y: 833.48645
     }
     Rotation {
     }
@@ -23,7 +25,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Shadow baby"
+    FilePartitionName: "Shadows"
   }
 }
 Objects {

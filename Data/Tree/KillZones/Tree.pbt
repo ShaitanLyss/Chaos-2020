@@ -1,6 +1,32 @@
 ﻿Name: "KillZones"
 RootId: 3975415323901219461
 Objects {
+  Id: 4625760003505956755
+  Name: "KillZone Floor3"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3975415323901219461
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "KillZone Floor3"
+  }
+}
+Objects {
   Id: 12923939140733709101
   Name: "KillZone Floor2"
   Transform {

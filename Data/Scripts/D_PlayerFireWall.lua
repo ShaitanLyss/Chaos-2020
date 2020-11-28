@@ -3,6 +3,8 @@ local playerCount = 1
 local FireWallCount = 1
 local inRangeNum = 3
 
+local player
+
 function OnDPlayerChanged(pNumber)
     playerCount = pNumber
    -- print(pNumber)
@@ -24,8 +26,11 @@ local start = true
 function DistanceCalc()
     local platformsSeparation = playerCount - FireWallCount
     Events.BroadcastToAllPlayers("E_PlatformsSeparationChanged", platformsSeparation)
-    
-    print(platformsSeparation)  --testing
+
+    if (player:GetResource("level") == 1) and (player:GetResource("passChallenge") == 1) then
+        Events.Broadcast("E_PlatformsSeparateChanged", platformsSeparation)
+    end
+    --print(platformsSeparation)  --testing
 
     if platformsSeparation <= inRangeNum then
         currentDInRange = true
@@ -49,7 +54,11 @@ function DistanceCalc()
 end
 
 
+function OnPlayerJoined(other)
+    player = other
+end
 
+Game.playerJoinedEvent:Connect(OnPlayerJoined)
 
 Events.Connect("E_DPlayerChanged", OnDPlayerChanged)
 Events.Connect("E_DFireWallChanged", OnDFireWallChanged)

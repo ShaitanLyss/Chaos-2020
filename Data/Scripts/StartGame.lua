@@ -1,6 +1,7 @@
 ﻿local spawnPlaces = script:GetCustomProperty("SpawnPoints"):WaitForObject()
 local Lvl1_SpawnPoint = spawnPlaces:FindChildByName("Lvl1_SpawnPoint")
 local Lvl2_SpawnPoint = spawnPlaces:FindChildByName("Lvl2_SpawnPoint")
+local Lvl3_SpawnPoint = spawnPlaces:FindChildByName("Lvl3_SpawnPoint")
 
 function OnPlayerJoined(player)
     local data = Storage.GetPlayerData(player)

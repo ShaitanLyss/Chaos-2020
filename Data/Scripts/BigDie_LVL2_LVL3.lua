@@ -12,6 +12,7 @@ function OnBigDie(player)
     player:Respawn({position = spawnPlace_2:GetWorldPosition(), rotation = Rotation.New(0,0,0)})
     elseif player:GetResource("level") == 3 then
         player:Respawn({position = spawnPlace_3:GetWorldPosition(), rotation = Rotation.New(0,0,0)})
+    end
 end
 
 

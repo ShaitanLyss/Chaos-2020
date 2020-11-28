@@ -1,6 +1,59 @@
 ﻿Name: "Alaa"
 RootId: 4861888266353863378
 Objects {
+  Id: 14649654810505852463
+  Name: "Rewards"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4861888266353863378
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Rewards"
+  }
+}
+Objects {
+  Id: 17431790725355804744
+  Name: "CycleTrigger_LVL3"
+  Transform {
+    Location {
+      Y: -1141.74268
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.594379783
+      Y: 0.594379783
+      Z: 0.594379783
+    }
+  }
+  ParentId: 4861888266353863378
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "CycleTrigger_LVL3"
+  }
+}
+Objects {
   Id: 125359251709067130
   Name: "Bar_LVL3"
   Transform {
@@ -24,32 +77,6 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Bar_LVL3"
-  }
-}
-Objects {
-  Id: 9613937436726933003
-  Name: "Collectable_LVL3"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4861888266353863378
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Collectable_LVL3"
   }
 }
 Objects {

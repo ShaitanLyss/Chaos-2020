@@ -34,6 +34,18 @@ function OnSmallDieIncreaseCoronaBar()
     coronaBar.progress = coronaBar.progress + incAfterSmallDiePer
 end
 
+
+function OnResourceChanged(player, resourceId, newValue)
+    if (player:GetResource("level") == 2) then
+        coronaBar.visibility = Visibility.FORCE_ON
+    else 
+        coronaBar.visibility = Visibility.FORCE_OFF
+    end
+end
+
+thePlayer.resourceChangedEvent:Connect(OnResourceChanged)
+
+
 Events.Connect("E_StartTime", OnStartTime)
 Events.Connect("E_StopTime", OnStopTime)
 Events.Connect("E_IncreaseTheCoronaBar", OnSmallDieIncreaseCoronaBar)

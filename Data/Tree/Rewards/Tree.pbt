@@ -1,8 +1,8 @@
-﻿Name: "PlayerReport"
-RootId: 17454529779984541930
+﻿Name: "Rewards"
+RootId: 14649654810505852463
 Objects {
-  Id: 92563099835730380
-  Name: "PlayerReport"
+  Id: 15166192869618832609
+  Name: "Reward_LVL1"
   Transform {
     Location {
     }
@@ -14,19 +14,15 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17454529779984541930
+  ParentId: 14649654810505852463
   UnregisteredParameters {
     Overrides {
-      Name: "cs:ResetForTest"
-      Bool: true
+      Name: "cs:SecondsToAdd"
+      Int: 20
     }
     Overrides {
-      Name: "cs:Level"
-      Int: 3
-    }
-    Overrides {
-      Name: "cs:Challenge"
-      Int: 1
+      Name: "cs:PlatformMultiplayer"
+      Int: 2
     }
   }
   Collidable_v2 {
@@ -37,7 +33,7 @@ Objects {
   }
   Script {
     ScriptAsset {
-      Id: 3084121829928417582
+      Id: 3891004839272696641
     }
   }
 }
