@@ -8,15 +8,6 @@
   }
 }
 Assets {
-  Id: 15942125528727175174
-  Name: "Ball"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_sphere_001"
-  }
-}
-Assets {
   Id: 11251881958373893300
   Name: "Branches Cluster Small"
   PlatformAssetType: 1
