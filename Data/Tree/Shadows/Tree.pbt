@@ -5,11 +5,12 @@ Objects {
   Name: "NewLap"
   Transform {
     Location {
-      X: 1795
-      Y: 835
-      Z: 4545
+      X: 2062.17749
+      Y: 944.049805
+      Z: 5359.5625
     }
     Rotation {
+      Yaw: -1.81817627
     }
     Scale {
       X: 1
@@ -35,17 +36,17 @@ Objects {
   Name: "NewLapWall"
   Transform {
     Location {
-      X: -2.03833
-      Y: -1.5135498
-      Z: 0.294921875
+      X: 217.47522
+      Y: 108.042793
+      Z: 510.762695
     }
     Rotation {
       Yaw: 26.5232334
     }
     Scale {
-      X: 15.1350412
-      Y: 1.00000525
-      Z: 10.7674437
+      X: 20.4034672
+      Y: 1.00000763
+      Z: 24.3417511
     }
   }
   ParentId: 6640850902340541576
@@ -83,17 +84,17 @@ Objects {
   Name: "NewLapTrigger"
   Transform {
     Location {
-      X: -2.03833
-      Y: -1.5135498
-      Z: 0.294921875
+      X: 217.47522
+      Y: 108.042793
+      Z: 510.762695
     }
     Rotation {
       Yaw: 26.5232334
     }
     Scale {
-      X: 15.1350412
-      Y: 1.00000525
-      Z: 10.7674437
+      X: 20.403
+      Y: 1.00000548
+      Z: 24.3417511
     }
   }
   ParentId: 6640850902340541576
@@ -139,7 +140,7 @@ Objects {
     }
     Overrides {
       Name: "cs:delay"
-      Float: 2
+      Float: 1.5
     }
     Overrides {
       Name: "cs:shadow"
@@ -180,7 +181,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:fps"
-      Float: 10
+      Float: 9
     }
     Overrides {
       Name: "cs:newLapTrigger"

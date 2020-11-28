@@ -8,7 +8,7 @@ local thePlayer = Game.GetLocalPlayer()
 function Tick(dt)
     if (coronaBar.progress >= 1) then
         isColliding = false
-        Events.BroadcastToServer("E_BigDie_LVL2__LVL3", thePlayer)
+        Events.BroadcastToServer("E_BigDie_LVL2_LVL3", thePlayer)
         Task.Wait(2)
         coronaBar.progress = 0
     end

@@ -22,7 +22,7 @@ Objects {
     }
     Overrides {
       Name: "cs:PlatformMultiplayer"
-      Int: 2
+      Int: 3
     }
   }
   Collidable_v2 {

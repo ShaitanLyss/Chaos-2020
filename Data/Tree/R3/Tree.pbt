@@ -1,50 +1,56 @@
 ﻿Name: "R3"
 RootId: 9043042303357930954
 Objects {
-  Id: 2692983359106795121
-  Name: "_Lvl.3_P-Circle"
+  Id: 9294364751686856314
+  Name: "_Lvl.3_P-Tri-Tube"
   Transform {
     Location {
-      X: -4803.08
-      Y: 3914.46582
-      Z: 6003.78711
+      X: 2375.06738
+      Y: 2701.66406
+      Z: 4920.92773
     }
     Rotation {
+      Pitch: 46.9232483
+      Yaw: -8.45868778
+      Roll: 32.3548851
     }
     Scale {
-      X: 5
-      Y: 5
-      Z: 0.7
+      X: 1.99999392
+      Y: 2.00000215
+      Z: 14.5608444
     }
   }
   ParentId: 9043042303357930954
   TemplateInstance {
     ParameterOverrideMap {
-      key: 5661767512913827102
+      key: 94470648033067604
       value {
         Overrides {
           Name: "Name"
-          String: "_Lvl.3_P-Circle"
+          String: "P_2"
         }
         Overrides {
           Name: "Position"
           Vector {
-            X: -8497.91602
-            Y: -4992.74072
-            Z: 4933.72412
+            X: -3567.52295
+            Y: -3438.43848
+            Z: 3985.28906
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
+            Pitch: 50.5656624
+            Yaw: 6.29645634
+            Roll: 49.2649384
           }
         }
         Overrides {
           Name: "Scale"
           Vector {
-            X: 4
-            Y: 4
-            Z: 0.7
+            X: 2
+            Y: 2
+            Z: 17.2957668
           }
         }
         Overrides {
@@ -56,7 +62,69 @@ Objects {
       }
     }
     TemplateAsset {
-      Id: 3897760605103023706
+      Id: 15405942426658761293
+    }
+  }
+}
+Objects {
+  Id: 7544228810648313101
+  Name: "_Lvl.3_P-Square"
+  Transform {
+    Location {
+      X: 288.996094
+      Y: 6190.78271
+      Z: 5297
+    }
+    Rotation {
+      Yaw: -41.1248817
+    }
+    Scale {
+      X: 5
+      Y: 5
+      Z: 1
+    }
+  }
+  ParentId: 9043042303357930954
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13650973947700584978
+      value {
+        Overrides {
+          Name: "Name"
+          String: "P_7"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1525.77881
+            Y: -2999.10498
+            Z: 4083.86914
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 3.5
+            Y: 3.5
+            Z: 1
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Yaw: -96.8879395
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 4209508232667492342
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1393127786038155612
     }
   }
 }
@@ -84,13 +152,13 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "_Lvl.3_P-Circle"
+          String: "P_35"
         }
         Overrides {
           Name: "Position"
           Vector {
-            X: -8389.05664
-            Y: -4244.90088
+            X: -8455.2666
+            Y: -4598.27051
             Z: 5003.78711
           }
         }
@@ -145,7 +213,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "_Lvl.3_P-\"My mom says I\'m special\""
+          String: "P_34"
         }
         Overrides {
           Name: "Position"
@@ -159,15 +227,15 @@ Objects {
           Name: "Rotation"
           Rotator {
             Pitch: 3.47989917
-            Yaw: 120.825027
+            Yaw: 123.707352
             Roll: -19.1552124
           }
         }
         Overrides {
           Name: "Scale"
           Vector {
-            X: 3.69834137
-            Y: 6.01497698
+            X: 4
+            Y: 6.5
             Z: 2.65225267
           }
         }
@@ -208,7 +276,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "_Lvl.3_P-THICK donut"
+          String: "P_33"
         }
         Overrides {
           Name: "Position"
@@ -271,7 +339,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "_Lvl.3_P-Square Tube"
+          String: "P_32"
         }
         Overrides {
           Name: "Position"
@@ -334,7 +402,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "_Lvl.3_P-Square Tube"
+          String: "P_31"
         }
         Overrides {
           Name: "Position"
@@ -390,7 +458,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "_Lvl.3_P-Square Tube"
+          String: "P_30"
         }
         Overrides {
           Name: "Position"
@@ -444,7 +512,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "_Lvl.3_P-Diamond"
+          String: "P_29"
         }
         Overrides {
           Name: "Position"
@@ -497,7 +565,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "_Lvl.3_P-Cone"
+          String: "P_28"
         }
         Overrides {
           Name: "Position"
@@ -560,7 +628,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "_Lvl.3_P-Ring Piece"
+          String: "P_27"
         }
         Overrides {
           Name: "Position"
@@ -614,7 +682,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "_Lvl.3_P-Square"
+          String: "P_26"
         }
         Overrides {
           Name: "Position"
@@ -678,7 +746,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "_Lvl.3_P-Tri-Tube"
+          String: "P_25"
         }
         Overrides {
           Name: "Position"

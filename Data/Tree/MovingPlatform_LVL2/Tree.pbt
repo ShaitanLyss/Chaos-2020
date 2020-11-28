@@ -30,19 +30,19 @@ Objects {
     }
     Overrides {
       Name: "cs:Speed"
-      Float: 510
+      Float: 520
     }
     Overrides {
       Name: "cs:TurningSpeed"
-      Float: 0.2
+      Float: 0.4
     }
     Overrides {
       Name: "cs:Speed2"
-      Float: 0
+      Float: 710
     }
     Overrides {
       Name: "cs:Turning2"
-      Float: 0
+      Float: 0.4
     }
     Overrides {
       Name: "cs:Speed3"

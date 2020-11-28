@@ -22,11 +22,11 @@ Objects {
     }
     Overrides {
       Name: "cs:Level"
-      Int: 3
+      Int: 1
     }
     Overrides {
       Name: "cs:Challenge"
-      Int: 1
+      Int: 0
     }
   }
   Collidable_v2 {

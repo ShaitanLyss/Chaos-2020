@@ -30,7 +30,7 @@ for i,way in ipairs(arr_pathWays) do
 end
 ]]--
 local localPlayer 
-
+local waitBeforeStart = true
 
 function OnDFireWallChanged(pNumber)
     --for inRange
@@ -59,6 +59,10 @@ function FireMoveInCircle(dt)
     local pathWay = arr_pathWays[index] 
     fireWallModel:LookAtContinuous(pathWay)
 
+    if (index == 1) and waitBeforeStart then
+        Task.Wait(2)
+        waitBeforeStart = false
+    end
    -- print(isInRange)
     if isInRange then
         if fireWallDSpeed_1 then
@@ -97,7 +101,7 @@ local toStart = false
 function OnPlayerJoined(player)
     localPlayer = player
     toStart = true
-
+    player.resourceChangedEvent:Connect(OnResourceChanged)
 end
 
 
@@ -131,11 +135,13 @@ function OnCurrentDRange(currentDInRange)
 end
 
 
---[[
-function OnResourceChanged(player, resName, newResValue)
 
+function OnResourceChanged(player, resName, newResValue)
+    if (player:GetResource("challenge") == 1) then
+        waitBeforeStart = true
+    end
 end
-]]--
+
 
 
 

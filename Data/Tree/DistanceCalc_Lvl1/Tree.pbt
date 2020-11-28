@@ -120,11 +120,11 @@ Objects {
     }
     Overrides {
       Name: "cs:MintuesToFill"
-      Float: 0.1
+      Float: 0.08
     }
     Overrides {
       Name: "cs:IncAfterSmallDiePer"
-      Float: 0.1
+      Float: 0.15
     }
   }
   Collidable_v2 {
@@ -171,8 +171,9 @@ Objects {
     }
     StatBar {
       Color {
-        R: 0.852254093
-        G: 0.866000056
+        R: 0.665387452
+        G: 0.0331047736
+        B: 0.0331047736
         A: 1
       }
       BackgroundColor {

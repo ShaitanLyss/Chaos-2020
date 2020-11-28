@@ -25,7 +25,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "_Lvl.3_P-Diamond"
+          String: "P_13"
         }
         Overrides {
           Name: "Position"
@@ -89,7 +89,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "_Lvl.3_P-Tri-Tube"
+          String: "P_12"
         }
         Overrides {
           Name: "Position"
@@ -110,8 +110,8 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 1.90000105
-            Y: 1.89999843
+            X: 2
+            Y: 2
             Z: 5.0759
           }
         }
@@ -149,7 +149,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "_Lvl.3_P-Tri-Tube"
+          String: "P_11"
         }
         Overrides {
           Name: "Position"
@@ -170,8 +170,8 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 1.8
-            Y: 1.8
+            X: 2
+            Y: 2
             Z: 6.39308453
           }
         }
@@ -213,7 +213,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "_Lvl.3_P-Square"
+          String: "P_10"
         }
         Overrides {
           Name: "Position"
@@ -274,7 +274,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "_Lvl.3_P-Circle"
+          String: "P_9"
         }
         Overrides {
           Name: "Position"
@@ -335,7 +335,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "_Lvl.3_P-\"My mom says I\'m special\""
+          String: "P_8"
         }
         Overrides {
           Name: "Position"
@@ -397,7 +397,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "_Lvl.3_P-Square"
+          String: "P_7"
         }
         Overrides {
           Name: "Position"
@@ -460,7 +460,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "_Lvl.3_P-Ring Piece"
+          String: "P_6"
         }
         Overrides {
           Name: "Position"
@@ -523,7 +523,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "_Lvl.3_P-Circle"
+          String: "P_5"
         }
         Overrides {
           Name: "Position"
@@ -576,7 +576,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "_Lvl.3_P-THICK donut"
+          String: "P_4"
         }
         Overrides {
           Name: "Position"
@@ -629,7 +629,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "_Lvl.3_P-Ring Piece"
+          String: "P_3"
         }
         Overrides {
           Name: "Position"
@@ -685,7 +685,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "_Lvl.3_P-Tri-Tube"
+          String: "P_2"
         }
         Overrides {
           Name: "Position"
