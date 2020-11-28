@@ -29,3 +29,16 @@ function Tick(dt)
         OverallTimerUI.text = timeString
     end
 end 
+
+
+function OnResourceChanged(player, resName, newResValue)
+    if (player:GetResource("localTimer") == -1) then  -- -1 reset the timer from this challenge only
+       -- print("Reset the timer")
+        timer = (player:GetResource("timer") / 100)
+    end
+    if (player:GetResource("timer") > timer) then 
+       -- print("Reward Case")
+        timer = (player:GetResource("timer") / 100)
+    end
+end
+player.resourceChangedEvent:Connect(OnResourceChanged)

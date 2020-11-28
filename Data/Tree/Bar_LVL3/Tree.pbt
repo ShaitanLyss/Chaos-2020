@@ -102,7 +102,11 @@ Objects {
     }
     Overrides {
       Name: "cs:DecPerCollectPercentage"
-      Float: 0.1
+      Float: 0.3
+    }
+    Overrides {
+      Name: "cs:MultiplayFactorEveryCycle"
+      Float: 0.8
     }
   }
   Collidable_v2 {

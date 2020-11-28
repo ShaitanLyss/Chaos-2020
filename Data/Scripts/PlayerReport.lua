@@ -1,6 +1,6 @@
 ﻿local resetForTest = script:GetCustomProperty("ResetForTest")
 local level = script:GetCustomProperty("Level")
-
+local challenge = script:GetCustomProperty("Challenge")
 
 function OnPlayerJoined(player)
     local data = Storage.GetPlayerData(player)
@@ -18,7 +18,8 @@ function OnPlayerJoined(player)
     data["level"] = level
     player:SetResource("level", level)
 
-
+    data["challenge"] = challenge
+    player:SetResource("challenge", challenge)
 
     Task.Wait(5)
     print("report")

@@ -2,9 +2,11 @@
 local mintuesToFill = script:GetCustomProperty("MintuesToFill")
 local incAfterSmallDiePer = script:GetCustomProperty("IncAfterSmallDiePer")
 local decPerCollectPercentage = script:GetCustomProperty("DecPerCollectPercentage") 
+local multiplayFactorEveryCycle = script:GetCustomProperty("MultiplayFactorEveryCycle") 
+
 
 local thePlayer = Game.GetLocalPlayer()
-local isChallenging = false
+local cycleNumber = 0
 
 function Tick(dt)
     if (QBar.progress >= 1) then
@@ -12,7 +14,7 @@ function Tick(dt)
         Task.Wait(2)
         QBar.progress = 0
     end
-    if isChallenging then
+    if (thePlayer:GetResource("level") == 3) and (thePlayer:GetResource("challenge") == 1) then
         local percent = dt / (60 * mintuesToFill) 
         QBar.progress = QBar.progress + percent
     end 
@@ -25,7 +27,7 @@ end
 
 
 function OnGetCollectable()
-    QBar.progress = QBar.progress - decPerCollectPercentage
+    QBar.progress = QBar.progress - decPerCollectPercentage * math.pow(multiplayFactorEveryCycle, cycleNumber)
 end
 
 
