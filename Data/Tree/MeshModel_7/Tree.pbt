@@ -1,8 +1,8 @@
 ﻿Name: "MeshModel_7"
-RootId: 6740919466111322558
+RootId: 995985991614013573
 Objects {
-  Id: 10509871892677534990
-  Name: "Fantasy Castle Stairs 01 - 150cm"
+  Id: 3018424829230448131
+  Name: "Chest Big Closed"
   Transform {
     Location {
     }
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6740919466111322558
+  ParentId: 995985991614013573
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -23,7 +23,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 9842143421296066252
+      Id: 6426890144183172932
     }
     Teams {
       IsTeamCollisionEnabled: true

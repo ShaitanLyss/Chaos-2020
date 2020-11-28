@@ -58,6 +58,13 @@ Objects {
             Z: 4
           }
         }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 7.66217709e-05
+            Y: 13.030447
+          }
+        }
       }
     }
     TemplateAsset {

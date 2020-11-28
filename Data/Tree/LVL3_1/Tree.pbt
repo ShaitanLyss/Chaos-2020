@@ -99,6 +99,6 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "MeshModel_5"
+    FilePartitionName: "MeshModel_4"
   }
 }

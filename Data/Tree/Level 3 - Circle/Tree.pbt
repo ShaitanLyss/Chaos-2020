@@ -1,13 +1,13 @@
 ﻿Name: "Level 3 - Circle"
 RootId: 3730128779952504670
 Objects {
-  Id: 6674273390739914579
+  Id: 11034310972014941198
   Name: "Collectable_LVL3"
   Transform {
     Location {
-      X: -1857.90088
-      Y: 4395.75049
-      Z: 5263.4082
+      X: -4983.29395
+      Y: 1200.40527
+      Z: 5390.68
     }
     Rotation {
     }
@@ -44,6 +44,11 @@ Objects {
           }
         }
         Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
           Name: "Scale"
           Vector {
             X: 0.594516635
@@ -53,70 +58,6 @@ Objects {
         }
       }
     }
-    ParameterOverrideMap {
-      key: 10146649453250517653
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Collectable_1"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -510
-            Y: -6260
-            Z: 3600
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 17764568532139589397
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 2923063795454212422
-    }
-  }
-}
-Objects {
-  Id: 11034310972014941198
-  Name: "Collectable_3"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 3730128779952504670
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  TemplateInstance {
     ParameterOverrideMap {
       key: 10146649453250517653
       value {
@@ -136,6 +77,24 @@ Objects {
           Name: "Rotation"
           Rotator {
             Yaw: 59.1798553
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 17764568532139589397
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
           }
         }
       }
