@@ -31,13 +31,14 @@ Objects {
   Name: "CycleTrigger_LVL3"
   Transform {
     Location {
+      Y: -1141.74268
     }
     Rotation {
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 0.594379783
+      Y: 0.594379783
+      Z: 0.594379783
     }
   }
   ParentId: 4861888266353863378
@@ -76,60 +77,6 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Bar_LVL3"
-  }
-}
-Objects {
-  Id: 752021379137038361
-  Name: "Collectable_LVL3"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4861888266353863378
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "Collectable_LVL3"
-  }
-}
-Objects {
-  Id: 8965436119360519965
-  Name: "Collectable_LVL3"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4861888266353863378
-  WantsNetworking: true
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 10146649453250517653
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Collectable_LVL3"
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 2923063795454212422
-    }
   }
 }
 Objects {

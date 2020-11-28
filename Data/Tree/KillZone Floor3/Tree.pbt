@@ -5,8 +5,8 @@ Objects {
   Name: "test"
   Transform {
     Location {
-      X: 4750
-      Y: 2140
+      X: 230
+      Y: 5
       Z: 4490
     }
     Rotation {
@@ -93,9 +93,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 165.2
-      Y: 186.500015
-      Z: 1
+      X: 56.0721664
+      Y: 63.3018074
+      Z: 0.339419901
     }
   }
   ParentId: 4625760003505956755
@@ -127,9 +127,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 165.2
-      Y: 186.500015
-      Z: 1
+      X: 56.0721664
+      Y: 63.3018074
+      Z: 0.339419901
     }
   }
   ParentId: 4625760003505956755

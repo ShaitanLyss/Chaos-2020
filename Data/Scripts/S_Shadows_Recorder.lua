@@ -23,11 +23,10 @@ end
 
 
 function OnEndOverlap(t, other)
-	print("Overlap")
 	if other:IsA("Player") then
 		nShadows = nShadows + 1
 		shadows[nShadows] = {}
-		print("Ombres" ..nShadows)
+		print("Ombres " ..nShadows)
 		i = 1
 		t0 = time()
 	end
