@@ -98,7 +98,7 @@ Objects {
     }
     Overrides {
       Name: "cs:IncAfterSmallDiePer"
-      Float: 0.1
+      Float: 0.2
     }
     Overrides {
       Name: "cs:DecPerCollectPercentage"

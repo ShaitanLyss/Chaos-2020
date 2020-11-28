@@ -35,6 +35,10 @@ Objects {
       Name: "cs:DecreaseSpeedPer"
       Float: 0.45
     }
+    Overrides {
+      Name: "cs:JumpSpeedPer"
+      Float: 0.3
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -59,8 +63,8 @@ Objects {
   Name: "CPlatformModel"
   Transform {
     Location {
-      X: -7215
-      Y: -2030
+      X: -7235.75195
+      Y: -1981.11035
       Z: 1725
     }
     Rotation {

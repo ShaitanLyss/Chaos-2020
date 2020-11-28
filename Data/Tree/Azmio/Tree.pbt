@@ -519,10 +519,10 @@ Objects {
   }
   ParentId: 11404857991553905137
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceon"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   Folder {
     IsFilePartition: true
@@ -552,10 +552,10 @@ Objects {
   ChildIds: 11050968851567843142
   ChildIds: 10527608616754204667
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
+    Value: "mc:ecollisionsetting:forceon"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
+    Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
     IsGroup: true

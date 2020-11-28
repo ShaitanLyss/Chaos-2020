@@ -30,7 +30,7 @@ Objects {
     }
     Overrides {
       Name: "cs:DecreaseSpeedPer"
-      Float: 0.7
+      Float: 0.45
     }
     Overrides {
       Name: "cs:JumpSpeedPer"

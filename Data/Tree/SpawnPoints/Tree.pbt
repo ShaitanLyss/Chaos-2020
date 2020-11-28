@@ -64,9 +64,9 @@ Objects {
   Name: "Azmio_SpawnPoint"
   Transform {
     Location {
-      X: -3514.82104
-      Y: 4898.11377
-      Z: 5840.97705
+      X: -4603.43652
+      Y: -3052.98315
+      Z: 5809.11133
     }
     Rotation {
     }
