@@ -119,12 +119,12 @@ Objects {
 }
 Objects {
   Id: 5963016983747608535
-  Name: "Lvl4_SpawnPoint"
+  Name: "Lobby_SpawnPoint"
   Transform {
     Location {
-      X: -7260
-      Y: 15
-      Z: 2840
+      X: 620.324463
+      Y: -195.127014
+      Z: 10330.5527
     }
     Rotation {
     }
@@ -151,9 +151,9 @@ Objects {
   Name: "Lvl3_SpawnPoint"
   Transform {
     Location {
-      X: 3600
-      Y: 2050
-      Z: 4710
+      X: 5083.45459
+      Y: 1066.73413
+      Z: 4661.354
     }
     Rotation {
     }
@@ -180,9 +180,9 @@ Objects {
   Name: "Lvl2_SpawnPoint"
   Transform {
     Location {
-      X: 6553.83838
-      Y: 1157.88599
-      Z: 3906.31812
+      X: 7350.43213
+      Y: 2238.87598
+      Z: 2821.08789
     }
     Rotation {
     }

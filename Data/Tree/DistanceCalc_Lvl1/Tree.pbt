@@ -120,11 +120,11 @@ Objects {
     }
     Overrides {
       Name: "cs:MintuesToFill"
-      Float: 0.1
+      Float: 0.07
     }
     Overrides {
       Name: "cs:IncAfterSmallDiePer"
-      Float: 0.1
+      Float: 0.15
     }
   }
   Collidable_v2 {

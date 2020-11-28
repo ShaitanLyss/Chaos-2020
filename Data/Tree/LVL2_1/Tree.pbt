@@ -1,8 +1,8 @@
-﻿Name: "LVL1_1"
-RootId: 10440080428785974310
+﻿Name: "LVL2_1"
+RootId: 17803236201418827164
 Objects {
-  Id: 751199327568074428
-  Name: "WonSendToTown"
+  Id: 12108164005401215124
+  Name: "SendToChallenge"
   Transform {
     Location {
     }
@@ -14,12 +14,12 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10440080428785974310
+  ParentId: 17803236201418827164
   UnregisteredParameters {
     Overrides {
-      Name: "cs:SpawnPoints"
+      Name: "cs:ChallengeSpawnPoints"
       ObjectReference {
-        SelfId: 17985057012011105827
+        SelfId: 8424844563706345866
       }
     }
   }
@@ -31,29 +31,29 @@ Objects {
   }
   Script {
     ScriptAsset {
-      Id: 3767145034466936120
+      Id: 9766873926329396966
     }
   }
 }
 Objects {
-  Id: 5067691380296885661
+  Id: 17549956805898813148
   Name: "Trigger"
   Transform {
     Location {
-      X: 5124.15234
-      Y: 6720.22
-      Z: 100.979614
+      X: 6486.6626
+      Y: 3650.4292
+      Z: 2869.6062
     }
     Rotation {
-      Yaw: -130
+      Yaw: -154.543793
     }
     Scale {
-      X: 18.5398769
-      Y: 14.9349728
-      Z: 1
+      X: 5.70000029
+      Y: 3.8
+      Z: 3.60000014
     }
   }
-  ParentId: 10440080428785974310
+  ParentId: 17803236201418827164
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -61,6 +61,8 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   Trigger {
+    Interactable: true
+    InteractionLabel: "press F to test "
     TeamSettings {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true
@@ -71,16 +73,16 @@ Objects {
   }
 }
 Objects {
-  Id: 995985991614013573
+  Id: 12706599702891608418
   Name: "MeshModel"
   Transform {
     Location {
-      X: 5124.15234
-      Y: 6720.22
-      Z: 100.979614
+      X: 6727.53467
+      Y: 3672.35352
+      Z: 2659.6062
     }
     Rotation {
-      Yaw: -130
+      Yaw: -154.543793
     }
     Scale {
       X: 1
@@ -88,7 +90,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10440080428785974310
+  ParentId: 17803236201418827164
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -97,6 +99,6 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "MeshModel_4"
+    FilePartitionName: "MeshModel_6"
   }
 }

@@ -26,7 +26,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Challenge"
-      Int: 1
+      Int: 0
     }
   }
   Collidable_v2 {

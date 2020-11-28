@@ -69,6 +69,12 @@ Objects {
             Yaw: 8.53773486e-07
           }
         }
+        Overrides {
+          Name: "Collidable"
+          Enum {
+            Value: "mc:ecollisionsetting:forceoff"
+          }
+        }
       }
     }
     TemplateAsset {
