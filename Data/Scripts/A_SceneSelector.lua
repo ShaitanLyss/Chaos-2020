@@ -28,3 +28,13 @@ while loop do
 	Task.Wait(2)
 	SceneSelector.next()
 end
+
+function Tick()
+	local player = Game.GetLocalPlayer()
+	--[[for k, v in pairs(player:GetResources()) do
+		print(k, v)
+	end
+	prit() ]]
+	Task.Wait(5)
+end
+local player = Game.GetLocalPlayer()
