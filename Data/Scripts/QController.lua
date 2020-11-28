@@ -27,7 +27,7 @@ end
 
 
 function OnGetCollectable()
-    QBar.progress = QBar.progress - decPerCollectPercentage * math.pow(multiplayFactorEveryCycle, cycleNumber)
+    QBar.progress = QBar.progress - decPerCollectPercentage * (multiplayFactorEveryCycle ^ cycleNumber)
 end
 
 
@@ -42,6 +42,11 @@ end
 thePlayer.resourceChangedEvent:Connect(OnResourceChanged)
 
 
+function OnCycleDone()
+    print("coll")
+    cycleNumber = cycleNumber + 1
+end
 
+Events.Connect("E_CycleDone", OnCycleDone)
 Events.Connect("E_GetCollectable", OnGetCollectable)
 Events.Connect("E_IncreaseTheQBar", OnSmallDieIncreaseQBar)

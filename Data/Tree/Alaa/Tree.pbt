@@ -1,6 +1,40 @@
 ﻿Name: "Alaa"
 RootId: 4861888266353863378
 Objects {
+  Id: 7842974098831027063
+  Name: "CycleTrigger_LVL3_NotUsed"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4861888266353863378
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13953422746214827484
+      value {
+        Overrides {
+          Name: "Name"
+          String: "CycleTrigger_LVL3_NotUsed"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.594379783
+            Y: 0.594379783
+            Z: 0.594379783
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 12287133661060776125
+    }
+  }
+}
+Objects {
   Id: 14649654810505852463
   Name: "Rewards"
   Transform {
@@ -24,33 +58,6 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Rewards"
-  }
-}
-Objects {
-  Id: 17431790725355804744
-  Name: "CycleTrigger_LVL3"
-  Transform {
-    Location {
-      Y: -1141.74268
-    }
-    Rotation {
-    }
-    Scale {
-      X: 0.594379783
-      Y: 0.594379783
-      Z: 0.594379783
-    }
-  }
-  ParentId: 4861888266353863378
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "CycleTrigger_LVL3"
   }
 }
 Objects {
