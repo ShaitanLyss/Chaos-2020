@@ -1,6 +1,53 @@
 ﻿Name: "Level 3 - Circle"
 RootId: 3730128779952504670
 Objects {
+  Id: 10875555140221518406
+  Name: "_Lvl.3_P-Full Ring"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3730128779952504670
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 3292999503857166480
+      value {
+        Overrides {
+          Name: "Name"
+          String: "_Lvl.3_P-Full Ring"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -2972.40112
+            Y: -13744.3457
+            Z: 3734.25146
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 7.16210079
+            Y: 7.16210079
+            Z: 3
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 15026045848921342363
+    }
+  }
+}
+Objects {
   Id: 17077955929528072255
   Name: "_Lvl.3_P-Circle"
   Transform {
