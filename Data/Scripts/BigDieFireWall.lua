@@ -17,11 +17,20 @@ function OnBigDie(player)
     player:Die()
     Task.Wait(3)
     --Events.Broadcast("E_FireWallReset")
-    player:SetResource("challenge", 0)
-    player:SetResource("localTimer", -1)  --  -1 reset the timer
+    CanGoToNextLVL(player)
+    --player:SetResource("localTimer", -1)  --  -1 reset the timer
     player:Respawn({position = spawnPlace:GetWorldPosition(), rotation = Rotation.New(0,0,0)})
 end
 
+
+function CanGoToNextLVL(player)
+    player:SetResource("challenge", 0)
+    player:SetResource("passChallenge", 1)
+    local data = Storage.GetPlayerData(player)
+    data["passChallenge"] = 1
+
+    local resultCode,errorMessage = Storage.SetPlayerData(player, data)
+end
 
 
 -- Connect trigger overlap event

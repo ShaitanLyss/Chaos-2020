@@ -1,20 +1,27 @@
 ﻿local spawnPlaces = script:GetCustomProperty("SpawnPoints"):WaitForObject()
 local Lvl1_SpawnPoint = spawnPlaces:FindChildByName("Lvl1_SpawnPoint")
 local Lvl2_SpawnPoint = spawnPlaces:FindChildByName("Lvl2_SpawnPoint")
+local Lvl3_SpawnPoint = spawnPlaces:FindChildByName("Lvl3_SpawnPoint")
+local Lobby_SpawnPoint = spawnPlaces:FindChildByName("Lobby_SpawnPoint")
 
 local lvlFinished = script.parent
 local lvlFinishedTrigger =  lvlFinished:FindChildByName("Trigger")
-
-
 
 local player 
 
 function  OnInteracted(theTrigger, other)
     player = other
-    if player:IsA("Player")  and not player.isDead then
-
+    local data = Storage.GetPlayerData(player)
+        if (player:GetResource("level") == 4) then 
+            data["passChallenge"] = 1
+            player:SetResource("passChallenge", 1)
+            local goThrough = player:GetResource("goThrough") + 1
+            data["goThrough"] = goThrough
+            local resultCode,errorMessage = Storage.SetPlayerData(player, data)
+            player:SetResource("goThrough", goThrough)
+        end
         --passChallenge set it to 1, lvl store them  
-        local data = Storage.GetPlayerData(player)
+
 
         if  data["passChallenge"] == 1 then
            
@@ -33,17 +40,13 @@ function  OnInteracted(theTrigger, other)
                 player:Respawn({position = Lvl3_SpawnPoint:GetWorldPosition(), rotation = Rotation.New(0,0,0)})
 
             elseif player:GetResource("level") == 4 then 
-                print("level 4") 
-                player:Respawn({position = Lvl4_SpawnPoint:GetWorldPosition(), rotation = Rotation.New(0,0,0)})
-
-            elseif player:GetResource("level") == 5 then 
-                print("level 5")
-                player:Respawn({position = Lvl5_SpawnPoint:GetWorldPosition(), rotation = Rotation.New(0,0,0)})
-    
+                print("lobby") 
+                player:Respawn({position = Lobby_SpawnPoint:GetWorldPosition(), rotation = Rotation.New(0,0,0)})
+                
             end 
         end
-    end
 end
+
 
 
 function SetForNewLevel(data)
@@ -56,7 +59,7 @@ function SetForNewLevel(data)
 
         --set new level
         local newLevel = player:GetResource("level") + 1
-        if (newLevel == 6) then
+        if (newLevel == 5) then
             newLevel = 1
         end
         data["level"] = newLevel
