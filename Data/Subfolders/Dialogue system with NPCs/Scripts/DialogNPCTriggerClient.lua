@@ -22,7 +22,6 @@ local INDICATOR_OFFSET = 150
 
 -- MINE
 local Behavior = ROOT:GetCustomProperty("Behavior"):WaitForObject().context.Behavior
-print(Behavior)
 local i = 0
 
 

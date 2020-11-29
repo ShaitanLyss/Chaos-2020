@@ -9,6 +9,8 @@ local loop = script:GetCustomProperty("loop")
 SceneSelector = {}
 
 function SceneSelector.next()
+	i = (i + 1) % n
+	print("Scene : " .. i)
 	music.next()
 	sound.next()
 	fx.next()
@@ -29,12 +31,4 @@ while loop do
 	SceneSelector.next()
 end
 
-function Tick()
-	local player = Game.GetLocalPlayer()
-	--[[for k, v in pairs(player:GetResources()) do
-		print(k, v)
-	end
-	prit() ]]
-	Task.Wait(5)
-end
-local player = Game.GetLocalPlayer()
+Events.Connect("toNextScene", SceneSelector.next)

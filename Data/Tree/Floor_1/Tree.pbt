@@ -326,9 +326,15 @@ Objects {
   }
 }
 Objects {
-  Id: 10246422494036909266
+  Id: 1392392713860805525
   Name: "Floor - Part"
   Transform {
+    Location {
+      X: -399.999817
+      Y: 2915
+    }
+    Rotation {
+    }
     Scale {
       X: 1
       Y: 1
@@ -336,36 +342,991 @@ Objects {
     }
   }
   ParentId: 16093149801066646306
+  ChildIds: 16917348227389462208
+  ChildIds: 13937016357057506865
+  ChildIds: 5392473535409672787
+  ChildIds: 9942957738560017252
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 9004552838829926765
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Floor - Part"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -399.999817
-            Y: 2915
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 1392392713860805525
+    SubobjectId: 9004552838829926765
+    InstanceId: 10246422494036909266
+    TemplateId: 11934995597691856320
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 9942957738560017252
+  Name: "Joint"
+  Transform {
+    Location {
+      X: 2675
+      Y: 3450
+      Z: 1049.99976
+    }
+    Rotation {
+      Yaw: -40
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1392392713860805525
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Joint"
+  }
+  InstanceHistory {
+    SelfId: 9942957738560017252
+    SubobjectId: 16598060066119469468
+    InstanceId: 10246422494036909266
+    TemplateId: 11934995597691856320
+  }
+}
+Objects {
+  Id: 5392473535409672787
+  Name: "Floor"
+  Transform {
+    Location {
+      X: 2150
+      Y: 3975
+      Z: 1000.00012
+    }
+    Rotation {
+      Yaw: -30.0000095
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1392392713860805525
+  ChildIds: 2036236320243126629
+  ChildIds: 7852799689386235676
+  ChildIds: 1883331085002217580
+  ChildIds: 4288794408870104138
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 5392473535409672787
+    SubobjectId: 2698138650553305259
+    InstanceId: 10246422494036909266
+    TemplateId: 11934995597691856320
+  }
+}
+Objects {
+  Id: 4288794408870104138
+  Name: "e"
+  Transform {
+    Location {
+      X: 530
+      Y: -60
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5392473535409672787
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "e"
+  }
+}
+Objects {
+  Id: 1883331085002217580
+  Name: "e"
+  Transform {
+    Location {
+      X: -250
+      Y: 500
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5392473535409672787
+  ChildIds: 16170499936984919517
+  ChildIds: 15746569402416106499
+  ChildIds: 6968119622622961435
+  ChildIds: 9301271576644794079
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 1883331085002217580
+    SubobjectId: 8468653469546349204
+    InstanceId: 10246422494036909266
+    TemplateId: 11934995597691856320
+  }
+}
+Objects {
+  Id: 9301271576644794079
+  Name: "Fantasy Castle Floor 01 4m"
+  Transform {
+    Location {
+      X: -100
+      Y: 400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1883331085002217580
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13468459522496306651
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
       }
     }
-    TemplateAsset {
-      Id: 11934995597691856320
+  }
+  InstanceHistory {
+    SelfId: 9301271576644794079
+    SubobjectId: 17199420585737399335
+    InstanceId: 10246422494036909266
+    TemplateId: 11934995597691856320
+  }
+}
+Objects {
+  Id: 6968119622622961435
+  Name: "Fantasy Castle Floor 01 4m"
+  Transform {
+    Location {
+      X: 300
+      Y: 400
     }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1883331085002217580
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13468459522496306651
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 6968119622622961435
+    SubobjectId: 1087592038123980259
+    InstanceId: 10246422494036909266
+    TemplateId: 11934995597691856320
+  }
+}
+Objects {
+  Id: 15746569402416106499
+  Name: "Fantasy Castle Floor 01 - 8m"
+  Transform {
+    Location {
+      X: -100
+      Z: 0.000122070313
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1883331085002217580
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2873598925796447064
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 15746569402416106499
+    SubobjectId: 13052365908796675835
+    InstanceId: 10246422494036909266
+    TemplateId: 11934995597691856320
+  }
+}
+Objects {
+  Id: 16170499936984919517
+  Name: "Fantasy Castle Floor 01 - 8m"
+  Transform {
+    Location {
+      X: -100
+      Y: -800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1883331085002217580
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2873598925796447064
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 16170499936984919517
+    SubobjectId: 10362066780226385701
+    InstanceId: 10246422494036909266
+    TemplateId: 11934995597691856320
+  }
+}
+Objects {
+  Id: 7852799689386235676
+  Name: "e"
+  Transform {
+    Location {
+      X: -450
+      Y: -700
+    }
+    Rotation {
+      Yaw: -179.999985
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5392473535409672787
+  ChildIds: 12497528236683310946
+  ChildIds: 6539550379102523648
+  ChildIds: 4498475138769035659
+  ChildIds: 9360409542567050234
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 7852799689386235676
+    SubobjectId: 242881451313892836
+    InstanceId: 10246422494036909266
+    TemplateId: 11934995597691856320
+  }
+}
+Objects {
+  Id: 9360409542567050234
+  Name: "Fantasy Castle Floor 01 4m"
+  Transform {
+    Location {
+      X: -100
+      Y: 400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7852799689386235676
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13468459522496306651
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9360409542567050234
+    SubobjectId: 17168432270857478402
+    InstanceId: 10246422494036909266
+    TemplateId: 11934995597691856320
+  }
+}
+Objects {
+  Id: 4498475138769035659
+  Name: "Fantasy Castle Floor 01 4m"
+  Transform {
+    Location {
+      X: 300
+      Y: 400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7852799689386235676
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13468459522496306651
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 4498475138769035659
+    SubobjectId: 5893408286001314675
+    InstanceId: 10246422494036909266
+    TemplateId: 11934995597691856320
+  }
+}
+Objects {
+  Id: 6539550379102523648
+  Name: "Fantasy Castle Floor 01 - 8m"
+  Transform {
+    Location {
+      X: -100
+      Z: 0.000122070313
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7852799689386235676
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2873598925796447064
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 6539550379102523648
+    SubobjectId: 3847616393644067832
+    InstanceId: 10246422494036909266
+    TemplateId: 11934995597691856320
+  }
+}
+Objects {
+  Id: 12497528236683310946
+  Name: "Fantasy Castle Floor 01 - 8m"
+  Transform {
+    Location {
+      X: -100
+      Y: -800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7852799689386235676
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2873598925796447064
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 12497528236683310946
+    SubobjectId: 14038986014012124570
+    InstanceId: 10246422494036909266
+    TemplateId: 11934995597691856320
+  }
+}
+Objects {
+  Id: 2036236320243126629
+  Name: "e"
+  Transform {
+    Location {
+      X: -1850
+      Y: 500
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5392473535409672787
+  ChildIds: 1394969977860123851
+  ChildIds: 11387023724544573690
+  ChildIds: 5428243162874404798
+  ChildIds: 16681180232652067363
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 2036236320243126629
+    SubobjectId: 8351493364866452381
+    InstanceId: 10246422494036909266
+    TemplateId: 11934995597691856320
+  }
+}
+Objects {
+  Id: 16681180232652067363
+  Name: "Fantasy Castle Floor 01 4m"
+  Transform {
+    Location {
+      X: -100
+      Y: 400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2036236320243126629
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13468459522496306651
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 16681180232652067363
+    SubobjectId: 9861521820896463067
+    InstanceId: 10246422494036909266
+    TemplateId: 11934995597691856320
+  }
+}
+Objects {
+  Id: 5428243162874404798
+  Name: "mmm"
+  Transform {
+    Location {
+      X: 300
+      Y: 400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2036236320243126629
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "mmm"
+  }
+}
+Objects {
+  Id: 11387023724544573690
+  Name: "Fantasy Castle Floor 01 - 8m"
+  Transform {
+    Location {
+      X: -100
+      Z: 0.000122070313
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2036236320243126629
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2873598925796447064
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 11387023724544573690
+    SubobjectId: 17411630213168519682
+    InstanceId: 10246422494036909266
+    TemplateId: 11934995597691856320
+  }
+}
+Objects {
+  Id: 1394969977860123851
+  Name: "Fantasy Castle Floor 01 - 8m"
+  Transform {
+    Location {
+      X: -100
+      Y: -800
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2036236320243126629
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2873598925796447064
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 1394969977860123851
+    SubobjectId: 9007112528020207155
+    InstanceId: 10246422494036909266
+    TemplateId: 11934995597691856320
+  }
+}
+Objects {
+  Id: 13937016357057506865
+  Name: "Dust Motes Volume VFX"
+  Transform {
+    Location {
+      X: 1540
+      Y: 4315
+      Z: 1876.90991
+    }
+    Rotation {
+      Yaw: -30
+    }
+    Scale {
+      X: 25.3000183
+      Y: 27.5097466
+      Z: 13.8859234
+    }
+  }
+  ParentId: 1392392713860805525
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Particle Scale Multiplier"
+      Float: 0.7
+    }
+    Overrides {
+      Name: "bp:color"
+      Color {
+        R: 1
+        G: 0.775416672
+        B: 0.460999966
+        A: 0.417
+      }
+    }
+    Overrides {
+      Name: "bp:Density"
+      Float: 5
+    }
+    Overrides {
+      Name: "bp:Curl Speed"
+      Vector {
+        X: 0.06
+        Y: 0.1
+        Z: 0.02
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 10934529727369033636
+    }
+    TeamSettings {
+    }
+    Vfx {
+      AutoPlay: true
+    }
+  }
+  InstanceHistory {
+    SelfId: 13937016357057506865
+    SubobjectId: 12596117751129060553
+    InstanceId: 10246422494036909266
+    TemplateId: 11934995597691856320
+  }
+}
+Objects {
+  Id: 16917348227389462208
+  Name: "Fire"
+  Transform {
+    Location {
+      X: -3285
+      Y: -3480
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1392392713860805525
+  ChildIds: 2214258665062870078
+  ChildIds: 16602140160205488766
+  ChildIds: 16712539859728497468
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+  InstanceHistory {
+    SelfId: 16917348227389462208
+    SubobjectId: 9611282239829609528
+    InstanceId: 10246422494036909266
+    TemplateId: 11934995597691856320
+  }
+}
+Objects {
+  Id: 16712539859728497468
+  Name: "Fire Volume VFX"
+  Transform {
+    Location {
+      X: 5005.00146
+      Y: 8295
+      Z: 870
+    }
+    Rotation {
+      Yaw: -30.0000095
+    }
+    Scale {
+      X: 20.9
+      Y: 4
+      Z: 2.10000014
+    }
+  }
+  ParentId: 16917348227389462208
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Density"
+      Float: 0.5
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 6474768715633236406
+    }
+    TeamSettings {
+    }
+    Vfx {
+    }
+  }
+  InstanceHistory {
+    SelfId: 16712539859728497468
+    SubobjectId: 9820805587709911492
+    InstanceId: 10246422494036909266
+    TemplateId: 11934995597691856320
+  }
+}
+Objects {
+  Id: 16602140160205488766
+  Name: "Fire Volume VFX"
+  Transform {
+    Location {
+      X: 4355
+      Y: 7164.99902
+      Z: 870
+    }
+    Rotation {
+      Yaw: -30.0000095
+    }
+    Scale {
+      X: 20.9
+      Y: 4
+      Z: 2.10000014
+    }
+  }
+  ParentId: 16917348227389462208
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Density"
+      Float: 0.5
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 6474768715633236406
+    }
+    TeamSettings {
+    }
+    Vfx {
+    }
+  }
+  InstanceHistory {
+    SelfId: 16602140160205488766
+    SubobjectId: 9926771754585888902
+    InstanceId: 10246422494036909266
+    TemplateId: 11934995597691856320
+  }
+}
+Objects {
+  Id: 2214258665062870078
+  Name: "E_ControlFloorFire"
+  Transform {
+    Location {
+      X: 0.210955
+      Y: 2.02599
+    }
+    Rotation {
+      Yaw: -3.4150944e-06
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16917348227389462208
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:isFireOn"
+      Bool: false
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 472496742980669028
+    }
+  }
+  InstanceHistory {
+    SelfId: 2214258665062870078
+    SubobjectId: 8151229816479528646
+    InstanceId: 10246422494036909266
+    TemplateId: 11934995597691856320
   }
 }

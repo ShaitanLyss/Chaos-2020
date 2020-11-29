@@ -5877,6 +5877,15 @@ Objects {
   ParentId: 12442667162174322088
   TemplateInstance {
     ParameterOverrideMap {
+      key: 1721075130689956382
+      value {
+        Overrides {
+          Name: "bp:Density"
+          Float: 0.7
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 5874788770236028590
       value {
         Overrides {
@@ -5886,15 +5895,15 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 266.356445
-            Y: -216.815552
-            Z: -9.30554199
+            X: -3602.47363
+            Y: 5835.02686
+            Z: -38.6778564
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -15.7921619
+            Yaw: 74.7000732
           }
         }
       }
@@ -5909,8 +5918,9 @@ Objects {
   Name: "IntroChild"
   Transform {
     Location {
-      X: 267.257813
-      Y: -169.62854
+      X: -2989.30664
+      Y: 5337.76611
+      Z: 0.000122070313
     }
     Rotation {
       Yaw: 105.814262

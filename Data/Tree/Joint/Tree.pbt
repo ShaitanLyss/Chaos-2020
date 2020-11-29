@@ -1,33 +1,22 @@
-﻿Name: "MeshModel_6"
-RootId: 6740919466111322558
+﻿Name: "Joint"
+RootId: 9942957738560017252
 Objects {
-  Id: 11373260093489860616
-  Name: "Cube"
+  Id: 15367841981841479634
+  Name: "Fantasy Castle Pillar 02 - Top"
   Transform {
     Location {
-      X: 191.044067
-      Y: 266.012512
-      Z: 1.63317871
+      X: 3.81469727e-05
+      Y: -825.000122
     }
     Rotation {
-      Yaw: 90
     }
     Scale {
-      X: 1.00000358
-      Y: 5.06438971
-      Z: 3.17848229
+      X: 3.25
+      Y: 3.25000024
+      Z: 1
     }
   }
-  ParentId: 6740919466111322558
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 5376261850634962279
-      }
-    }
-  }
-  WantsNetworking: true
+  ParentId: 9942957738560017252
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -36,7 +25,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 17925326465180611494
+      Id: 17685020206881689453
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -48,76 +37,30 @@ Objects {
       }
     }
   }
-}
-Objects {
-  Id: 2021029637920943474
-  Name: "Cube"
-  Transform {
-    Location {
-      X: -61.3899612
-      Y: 4.04442596
-      Z: 4.98699951
-    }
-    Rotation {
-      Yaw: 0.671800673
-    }
-    Scale {
-      X: 0.999998152
-      Y: 4.27377
-      Z: 2.6973691
-    }
-  }
-  ParentId: 6740919466111322558
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 5376261850634962279
-      }
-    }
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 17925326465180611494
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
+  InstanceHistory {
+    SelfId: 15367841981841479634
+    SubobjectId: 13466279719616744746
+    InstanceId: 10246422494036909266
+    TemplateId: 11934995597691856320
   }
 }
 Objects {
-  Id: 3327649085208184675
-  Name: "Fantasy Castle Stairs 01 - 150cm"
+  Id: 17833666145032538973
+  Name: "Fantasy Castle Pillar 02 - Top"
   Transform {
     Location {
       X: -8.39233398e-05
-      Y: 207.300507
-      Z: -148.228943
+      Y: -274.999878
     }
     Rotation {
-      Yaw: 6.83018879e-06
     }
     Scale {
-      X: 1.07450986
-      Y: 1.00000262
+      X: 3.25
+      Y: 3.25000024
       Z: 1
     }
   }
-  ParentId: 6740919466111322558
-  WantsNetworking: true
+  ParentId: 9942957738560017252
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -126,7 +69,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 9842143421296066252
+      Id: 17685020206881689453
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -137,24 +80,31 @@ Objects {
       Physics {
       }
     }
+  }
+  InstanceHistory {
+    SelfId: 17833666145032538973
+    SubobjectId: 11014032335122305445
+    InstanceId: 10246422494036909266
+    TemplateId: 11934995597691856320
   }
 }
 Objects {
-  Id: 10509871892677534990
-  Name: "Fantasy Castle Stairs 01 - 150cm"
+  Id: 18165983592403528838
+  Name: "Fantasy Castle Pillar 02 - Top"
   Transform {
     Location {
+      X: -0.000221252441
+      Y: 275.000275
     }
     Rotation {
     }
     Scale {
-      X: 1.07450986
-      Y: 1.00000262
+      X: 3.25
+      Y: 3.25000024
       Z: 1
     }
   }
-  ParentId: 6740919466111322558
-  WantsNetworking: true
+  ParentId: 9942957738560017252
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -163,7 +113,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 9842143421296066252
+      Id: 17685020206881689453
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -174,5 +124,55 @@ Objects {
       Physics {
       }
     }
+  }
+  InstanceHistory {
+    SelfId: 18165983592403528838
+    SubobjectId: 10646180794705114750
+    InstanceId: 10246422494036909266
+    TemplateId: 11934995597691856320
+  }
+}
+Objects {
+  Id: 16391253097892854784
+  Name: "Fantasy Castle Pillar 02 - Top"
+  Transform {
+    Location {
+      X: -0.00109100342
+      Y: 824.999878
+    }
+    Rotation {
+    }
+    Scale {
+      X: 3.25
+      Y: 3.25000024
+      Z: 1
+    }
+  }
+  ParentId: 9942957738560017252
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 17685020206881689453
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 16391253097892854784
+    SubobjectId: 10150323061117560568
+    InstanceId: 10246422494036909266
+    TemplateId: 11934995597691856320
   }
 }

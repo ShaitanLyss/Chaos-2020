@@ -40,20 +40,21 @@ Objects {
   Name: "Trigger"
   Transform {
     Location {
-      X: 6486.6626
-      Y: 3650.4292
+      X: 6573.74561
+      Y: 3698.57739
       Z: 2869.6062
     }
     Rotation {
       Yaw: -154.543793
     }
     Scale {
-      X: 5.70000029
-      Y: 3.8
+      X: 4.91811562
+      Y: 3.80000305
       Z: 3.60000014
     }
   }
   ParentId: 17803236201418827164
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

@@ -22,6 +22,18 @@ Objects {
         SelfId: 8424844563706345866
       }
     }
+    Overrides {
+      Name: "cs:challengeWay"
+      ObjectReference {
+        SelfId: 6740919466111322558
+      }
+    }
+    Overrides {
+      Name: "cs:closedWay"
+      ObjectReference {
+        SelfId: 5428243162874404798
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -40,20 +52,21 @@ Objects {
   Name: "Trigger"
   Transform {
     Location {
-      X: 4794.95508
-      Y: 8223.6416
-      Z: 1020
+      X: 5025.66406
+      Y: 8233.67676
+      Z: 957.345337
     }
     Rotation {
       Yaw: -125.063507
     }
     Scale {
-      X: 4.8
-      Y: 5.39999866
-      Z: 4.1
+      X: 4.80000305
+      Y: 2.89071655
+      Z: 3.33037353
     }
   }
   ParentId: 16280255872572026047
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -77,12 +90,12 @@ Objects {
   Name: "MeshModel"
   Transform {
     Location {
-      X: 4987.32959
-      Y: 8320.55273
-      Z: 1020
+      X: 4975.86
+      Y: 8013.33252
+      Z: 840.909
     }
     Rotation {
-      Yaw: -125.063507
+      Yaw: 53.1926308
     }
     Scale {
       X: 1

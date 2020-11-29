@@ -44,6 +44,7 @@ function  OnInteracted(theTrigger, other)
                 player:Respawn({position = Lobby_SpawnPoint:GetWorldPosition(), rotation = Rotation.New(0,0,0)})
                 
             end 
+            Events.BroadcastToAllPlayers("toNextScene")
         end
 end
 

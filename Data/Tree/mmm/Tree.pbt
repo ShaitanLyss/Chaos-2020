@@ -1,8 +1,8 @@
-﻿Name: "MeshModel_5"
-RootId: 12706599702891608418
+﻿Name: "mmm"
+RootId: 5428243162874404798
 Objects {
-  Id: 9079660762433373984
-  Name: "Fantasy Castle Stairs 01 - 150cm"
+  Id: 7732405037508221273
+  Name: "Fantasy Castle Floor 01 4m"
   Transform {
     Location {
     }
@@ -14,7 +14,8 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12706599702891608418
+  ParentId: 5428243162874404798
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -23,7 +24,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 9842143421296066252
+      Id: 13468459522496306651
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -34,5 +35,11 @@ Objects {
       Physics {
       }
     }
+  }
+  InstanceHistory {
+    SelfId: 7732405037508221273
+    SubobjectId: 354475657220899745
+    InstanceId: 10246422494036909266
+    TemplateId: 11934995597691856320
   }
 }

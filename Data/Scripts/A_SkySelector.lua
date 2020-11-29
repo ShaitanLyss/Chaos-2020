@@ -75,7 +75,7 @@ end
 function init(frst, nbr)
 	n = nbr
 	i = frst
-	local j = i // 2
+	local j = i // 3
 	for k = 0, 1, 2 do update(sky(k), false) end
 	for k = 0, 1, 2 do if j == k then update(sky(k), true) end end
 	setfog(j)
@@ -84,11 +84,11 @@ function init(frst, nbr)
 end
 
 function next()
-	local j = i // 2
-	update(sky(i // 2), false)
+	local j = i // 3
+	update(sky(i // 3), false)
 	i = (i + 1) % n
-	local j = i // 2
-	update(sky(i // 2), true)
+	local j = i // 3
+	update(sky(i // 3), true)
 	setfog(j)
 	setSkyDome(j)
 	setSun(j)

@@ -57,7 +57,7 @@ Objects {
     }
     Overrides {
       Name: "cs:NumberOfScenes"
-      Int: 6
+      Int: 9
     }
     Overrides {
       Name: "cs:music"
@@ -330,10 +330,13 @@ Objects {
   ParentId: 5014142082355729336
   ChildIds: 9221428135957764570
   ChildIds: 3853792088576620236
+  ChildIds: 3681883728908357665
   ChildIds: 16320406111251805118
   ChildIds: 16497151854188940295
+  ChildIds: 17023947644770955633
   ChildIds: 11428027702967744825
   ChildIds: 8584054673057563401
+  ChildIds: 3547791793890031606
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -344,45 +347,8 @@ Objects {
   }
 }
 Objects {
-  Id: 8584054673057563401
-  Name: "5"
-  Transform {
-    Location {
-      X: -2916.37744
-      Y: 3782.66357
-      Z: 5511.2627
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 15824668410498821631
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Blueprint {
-    BlueprintAsset {
-      Id: 1345837345842116077
-    }
-    TeamSettings {
-    }
-    AudioBP {
-      Volume: 1
-      Falloff: 3600
-      Radius: 400
-    }
-  }
-}
-Objects {
-  Id: 11428027702967744825
-  Name: "4"
+  Id: 3547791793890031606
+  Name: "8"
   Transform {
     Location {
       X: 5340.41406
@@ -426,8 +392,128 @@ Objects {
   }
 }
 Objects {
+  Id: 8584054673057563401
+  Name: "7"
+  Transform {
+    Location {
+      X: -2916.37744
+      Y: 3782.66357
+      Z: 5511.2627
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15824668410498821631
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 1345837345842116077
+    }
+    TeamSettings {
+    }
+    AudioBP {
+      Volume: 1
+      Falloff: 3600
+      Radius: 400
+    }
+  }
+}
+Objects {
+  Id: 11428027702967744825
+  Name: "6"
+  Transform {
+    Location {
+      X: 5340.41406
+      Y: 5381.57959
+      Z: 1050.00073
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15824668410498821631
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Type"
+      Enum {
+        Value: "mc:emx_worldmusic:43"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 15601145527868221215
+    }
+    TeamSettings {
+    }
+    AudioBP {
+      Volume: 1
+      Falloff: 3600
+      Radius: 400
+    }
+  }
+}
+Objects {
+  Id: 17023947644770955633
+  Name: "5"
+  Transform {
+    Location {
+      X: 5125.21191
+      Y: -6023.98389
+      Z: 2610.75537
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15824668410498821631
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 15981858275031176457
+    }
+    TeamSettings {
+    }
+    AudioBP {
+      Volume: 1
+      Falloff: 3600
+      Radius: 400
+      FadeInTime: 5
+    }
+  }
+}
+Objects {
   Id: 16497151854188940295
-  Name: "3"
+  Name: "4"
   Transform {
     Location {
       X: -9133.11914
@@ -464,7 +550,7 @@ Objects {
 }
 Objects {
   Id: 16320406111251805118
-  Name: "2"
+  Name: "3"
   Transform {
     Location {
       X: 5125.21191
@@ -497,6 +583,51 @@ Objects {
       Falloff: 3600
       Radius: 400
       FadeInTime: 5
+    }
+  }
+}
+Objects {
+  Id: 3681883728908357665
+  Name: "2"
+  Transform {
+    Location {
+      X: -2007.60083
+      Y: -4002.09521
+      Z: 1024.05164
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15824668410498821631
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Type"
+      Enum {
+        Value: "mc:emx_horrordarkmusic:30"
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 7241143440852519930
+    }
+    TeamSettings {
+    }
+    AudioBP {
+      Volume: 1
+      Falloff: 20
+      Radius: 20000
     }
   }
 }

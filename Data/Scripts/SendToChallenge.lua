@@ -8,16 +8,19 @@ local lvl5_Challenge = challengeSpawnPoints:FindChildByName("Lvl5_Challenge")
 local lvlChallenge = script.parent
 local lvlChallengeTrigger =  lvlChallenge:FindChildByName("Trigger")
 
-
-
 function OnInteracted(theTrigger, player)
     -- In this case there is no need to check the type with IsA("Player") because only
     -- players can trigger the interaction.
     if player:GetResource("goThrough") == 1 and player:GetResource("passChallenge") == 0  then
         if player:GetResource("level") == 1 then
-            print("level 1 Challenge") 
+            print("level 1 Challenge")
+            
+            local challengeWay = script:GetCustomProperty("challengeWay"):WaitForObject():GetChildren()
+			local closedWay = script:GetCustomProperty("closedWay"):WaitForObject():GetChildren()
+						
             player:Respawn({position = lvl1_Challenge:GetWorldPosition(), rotation = Rotation.New(0,0,0)})
-        
+            hide(challengeWay)
+            show(closedWay)
         elseif player:GetResource("level") == 2 then 
             print("level 2 Challenge") 
             player:Respawn({position = lvl2_Challenge:GetWorldPosition(), rotation = Rotation.New(0,0,0)})
@@ -34,11 +37,24 @@ function OnInteracted(theTrigger, player)
             print("level 5 Challenge")
             player:Respawn({position = lvl5_Challenge:GetWorldPosition(), rotation = Rotation.New(0,0,0)})
         end 
-
-        player:SetResource("challenge", 1)    
-    end
-
-    
+		theTrigger.isInteractable = false
+        player:SetResource("challenge", 1)  
+    end 
+    Events.BroadcastToAllPlayers("toNextScene")
 end
 
 lvlChallengeTrigger.interactedEvent:Connect(OnInteracted)
+
+function show(folder)
+	for i, v in ipairs(folder) do
+		v.collision = Collision.FORCE_ON
+		v.visibility = Visibility.FORCE_ON
+	end
+end
+
+function hide(folder)
+	for i, v in ipairs(folder) do
+		v.collision = Collision.FORCE_ON
+		v.visibility = Visibility.FORCE_ON
+	end
+end

@@ -7,24 +7,21 @@ local i = 0
 function init(frst, nbr)
 	n = nbr
 	i = frst
-	if i == 1 then
-		updateFires(true)
-	else
-		updateFires(false)
-	end
+	updateFires()
 end
 
 function next()
-	if i == 0 then
-		updateFires(true)
-	elseif i == 1 then
-		updateFires(false) 
+	if i == 1 then
+		updateFires()
+	elseif i == 3 then
+		updateFires() 
 	end
 	i = (i + 1) % n
 	
 end
 
-function updateFires(b)
+function updateFires()
+	local b = i == 1 or i == 2
 	for i, audio in ipairs(fires) do
 		if b then
 			audio:Play()

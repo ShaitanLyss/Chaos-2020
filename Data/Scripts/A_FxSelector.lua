@@ -14,20 +14,39 @@ local i = 0
 function init(frst, nbr)
 	n = nbr
 	i = frst
-	if i == 0 then updateLv_0(true) else updateLv_0(false) end
-	if i == 1 then updateFires(true) else updateFires(false) end
+	updateBushes()
+	updateFireWall()
+	updateFires()
 	updateLv_2()
 end
 
 function next()
-	if i == 0 then
-		updateLv_0(false)
-		updateFires(true)
-	elseif i == 1 then
-		updateFires(false) 
-	end
 	i = (i + 1) % n
-	updateLv_2()	
+	
+	-- level 1
+	if i == 0 then
+		updateFireWall()
+		updateBushes()
+	elseif i == 1 then
+		updateFireWall()
+		updateBushes()
+		updateFires()
+	elseif i == 2 then
+		updateFireWall()
+	-- level 2
+	elseif i == 3 then
+		updateLv_2()
+		updateFires()
+	elseif i == 4 then
+	elseif i == 5 then
+	-- level 3
+	elseif i == 6 then
+		updateLv_2()
+	elseif i == 7 then
+	elseif i == 8 then
+	end
+	
+	
 end
 
 function hide(o) 
@@ -35,15 +54,18 @@ function hide(o)
 function show(o)
 	o.visibility = Visibility.FORCE_ON end
 	
-function updateLv_0(b)
-	for i, bush in ipairs(bushes) do
-		if b then bush.visibility = Visibility.FORCE_ON else bush.visibility = Visibility.FORCE_OFF end
+function updateBushes()
+	for k, bush in ipairs(bushes) do
+		if i == 0 then show(bush) else hide(bush) end
 	end
+end
+function updateFireWall()
+	if i == 1 then show(firewall) else hide(firewall) end
 end
 
 function updateLv_2()
 	for k, coral in ipairs(coral_trees) do
-		if i <= 1 then 
+		if i <= 2 then 
 			hide(coral)
 			hide(wallWarts)
 		else 
@@ -53,7 +75,8 @@ function updateLv_2()
 	end
 end
 
-function updateFires(b)
+function updateFires()
+	b = i == 1 or i == 2
 	for i, audio in ipairs(fires1) do
 		if b then
 			audio:Play()
@@ -75,11 +98,6 @@ function updateFires(b)
 			light.visibility = Visibility.FORCE_OFF
 		end
 	end
-	if b then
-			firewall.visibility = Visibility.FORCE_ON
-		else
-			firewall.visibility = Visibility.FORCE_OFF
-		end
 end
 
 return SoundSelector

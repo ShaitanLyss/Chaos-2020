@@ -14,6 +14,7 @@ function OnBigDie(player)
     elseif player:GetResource("level") == 3 then
         player:Respawn({position = spawnPlace_3:GetWorldPosition(), rotation = Rotation.New(0,0,0)})
     end
+    Events.BroadcastToAllPlayers("toNextScene")
 end
 
 function CanGoToNextLVL(player)
