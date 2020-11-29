@@ -5918,8 +5918,8 @@ Objects {
   Name: "IntroChild"
   Transform {
     Location {
-      X: -2989.30664
-      Y: 5337.76611
+      X: -1551.68604
+      Y: 3961.18408
       Z: 0.000122070313
     }
     Rotation {
@@ -5998,7 +5998,7 @@ Objects {
   Name: "Fantasy Human Guy"
   Transform {
     Location {
-      Z: 80
+      Z: 58.520752
     }
     Rotation {
       Yaw: -52.5297852

@@ -2,6 +2,7 @@
 local fireWallModel = fireWall:FindChildByName("FireWallModel")
 local trigger = fireWallModel:FindChildByName("Trigger")
 local spawnPlace = script:GetCustomProperty("Lvl1_SpawnPoint"):WaitForObject()
+local challengeWay = script:GetCustomProperty("challengeWay"):WaitForObject()
 
 
 -- Kills a player when they enter the trigger

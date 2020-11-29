@@ -131,6 +131,11 @@ Objects {
         SelfId: 8383241828011968780
       }
     }
+    Overrides {
+      Name: "cs:challengeWay"
+      ObjectReference {
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"

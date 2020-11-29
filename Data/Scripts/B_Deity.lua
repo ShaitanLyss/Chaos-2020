@@ -21,7 +21,9 @@ Behavior = {}
 -- must return a number corresponding to one of the dialog ids set in NPC Dialog Trigger
 -- more dialog ids can be added by adding custom properties with the string type
 firstTime = true
+
 function Behavior.getI(i)
+	print(firstTime)
 	level = player:GetResource("level")
 	goThrough = player:GetResource("goThrough")
 	passChallenge = player:GetResource("passChallenge")
@@ -65,7 +67,7 @@ end
 -- return true to hide dialog indicator
 function Behavior.OnDialogEnd()
 	byebye = true
-	return true
+	return firstTime
 end
 
 

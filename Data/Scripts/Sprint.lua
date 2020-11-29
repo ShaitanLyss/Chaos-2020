@@ -35,7 +35,7 @@ function OnBindingPressed(player, bindingPressed)
         player.maxWalkSpeed = sprintingSpeed
         player.maxAcceleration = sprintingAcceleration
         player.jumpVelocity	 = sprintingJump
-        print("Sprint on")
+        -- print("Sprint on")
         isNearGround = false
         isSprinting = true
     end
@@ -47,7 +47,7 @@ function OnBindingReleased(player, bindingReleased)
         player.maxWalkSpeed = baseSpeed
         player.maxAcceleration = baseAcceleration
         player.jumpVelocity	 = baseJump
-        print("Sprint Off")
+       -- print("Sprint Off")
        -- isNearGround = false
        isSprinting = false
     end
@@ -86,7 +86,7 @@ end
 
 --1 for begin  (decrease the speed ) -- 2 for end (return the speed ) 
 function OnSpeedChanged(decreaseSpeedPer, beginEnd, jumpSpeedPer)
-    print(decreaseSpeedPer)
+    -- print(decreaseSpeedPer)
     if(beginEnd == 1) then
         baseSpeed = baseSpeed * (1 - decreaseSpeedPer)
         sprintingSpeed = sprintingSpeed * (1 - decreaseSpeedPer)

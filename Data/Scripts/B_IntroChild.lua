@@ -8,6 +8,7 @@
 local fx = script:GetCustomProperty("fx"):WaitForObject():GetChildren()
 local trigger = script:GetCustomProperty("trigger"):WaitForObject()
 
+local player = Game.GetLocalPlayer()
 local root = script.parent
 local pos = root:GetWorldPosition()
 local byebye = false
@@ -30,8 +31,12 @@ function Behavior.OnDialogEnd()
 	return true
 end
 
+-- to show and hide introChild
 function Tick()
-	if byebye then 
+	level = player:GetResource("level")
+	passChallenge = player:GetResource("passChallenge")
+
+	if byebye then
 		trigger.isInteractable = false		
 		fx[2]:Play()
 		Task.Wait(4)
@@ -41,6 +46,13 @@ function Tick()
 		fx[2]:Stop()
 		root:SetWorldPosition(Vector3.ZERO)
 		byebye = false
+	elseif level ~= 1 or (level == 1 and passChallenge == 1) then
+		fx[1]:Stop()
+		root:SetWorldPosition(Vector3.ZERO)
+	else
+		root:SetWorldPosition(pos)
+		fx[1]:Play()
 	end
 	Task.Wait(0.1)
+	
 end

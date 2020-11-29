@@ -508,6 +508,7 @@ Objects {
       Falloff: 3600
       Radius: 400
       FadeInTime: 5
+      FadeOutTime: 3
     }
   }
 }
@@ -583,6 +584,7 @@ Objects {
       Falloff: 3600
       Radius: 400
       FadeInTime: 5
+      FadeOutTime: 5
     }
   }
 }
@@ -674,7 +676,7 @@ Objects {
       Falloff: 3600
       Radius: 400
       FadeInTime: 4
-      FadeOutTime: 1
+      FadeOutTime: 2
     }
   }
 }

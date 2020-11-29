@@ -1,4 +1,4 @@
-local spawnPlaces = script:GetCustomProperty("SpawnPoints"):WaitForObject()
+﻿local spawnPlaces = script:GetCustomProperty("SpawnPoints"):WaitForObject()
 local Lvl1_SpawnPoint = spawnPlaces:FindChildByName("Lvl1_SpawnPoint")
 local Lvl2_SpawnPoint = spawnPlaces:FindChildByName("Lvl2_SpawnPoint")
 
@@ -27,7 +27,7 @@ function OnBeginOverlap(trigger, other)
         Events.Broadcast("E_Reward", player)
         --to reset the bar
         Events.BroadcastToAllPlayers("E_PlatformsSeparationChanged", 1000)
-
+		
         if player:GetResource("level") == 1 then
             print("level 1") 
             player:Respawn({position = Lvl1_SpawnPoint:GetWorldPosition(), rotation = Rotation.New(0,0,0)})
@@ -48,7 +48,8 @@ function OnBeginOverlap(trigger, other)
             print("level 5")
             player:Respawn({position = Lvl5_SpawnPoint:GetWorldPosition(), rotation = Rotation.New(0,0,0)})
  
-        end 
+        end
+        Events.BroadcastToAllPlayers("toNextScene")
     end
 end
 

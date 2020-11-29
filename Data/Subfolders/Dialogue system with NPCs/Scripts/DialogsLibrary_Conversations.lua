@@ -61,6 +61,7 @@ function Dialogs.RegisterDialogue()
 	API.RegisterDialogueId(id)
 	API.AddText(id, "Just... make sure you don\'t "..
 	"stand still in there.")
+	API.AddText(id, "...")
 	API.AddText(id, "Unless you're feeling cold.")
 	
 	-- Post-Challenge / No Repeat
