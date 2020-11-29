@@ -1,47 +1,6 @@
 ﻿Name: "LVL1_2"
 RootId: 16280255872572026047
 Objects {
-  Id: 18315385816003677805
-  Name: "SendToChallenge_Lyss"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 16280255872572026047
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:challengeWay"
-      ObjectReference {
-        SelfId: 6740919466111322558
-      }
-    }
-    Overrides {
-      Name: "cs:closedWay"
-      ObjectReference {
-        SelfId: 5428243162874404798
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 691671499662029651
-    }
-  }
-}
-Objects {
   Id: 939267807356848075
   Name: "SendToChallenge"
   Transform {
