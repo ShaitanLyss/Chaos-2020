@@ -6,7 +6,9 @@ local inRangeNum = 3
 local player
 
 function OnDPlayerChanged(pNumber)
-    playerCount = pNumber
+    if (pNumber ~= 9999) then  -- 9999 only to let it work 
+        playerCount = pNumber
+    end
    -- print(pNumber)
     DistanceCalc()
 end
@@ -24,6 +26,7 @@ local currentDInRange
 local start = true
 
 function DistanceCalc()
+    print("in distance calc")
     local platformsSeparation = playerCount - FireWallCount
     Events.BroadcastToAllPlayers("E_PlatformsSeparationChanged", platformsSeparation)
 
@@ -35,8 +38,11 @@ function DistanceCalc()
         end
     end
 
+    print("platformsSeparation") print(platformsSeparation)
 
+    print("level") print(player:GetResource("level"))    print("passChallenge") print(player:GetResource("passChallenge"))
     if (player:GetResource("level") == 1) and (player:GetResource("passChallenge") == 1) then
+        print("plat sep send")
         Events.Broadcast("E_PlatformsSeparateChanged", platformsSeparation)
     end
     --print(platformsSeparation)  --testing

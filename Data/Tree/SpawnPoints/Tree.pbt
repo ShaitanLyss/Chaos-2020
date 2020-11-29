@@ -93,11 +93,12 @@ Objects {
   Name: "Alaa_SpawnPoint"
   Transform {
     Location {
-      X: -2350
-      Y: 4750
-      Z: 5650
+      X: 2217.15063
+      Y: 8673.81543
+      Z: 319.574432
     }
     Rotation {
+      Yaw: 168.250122
     }
     Scale {
       X: 1
