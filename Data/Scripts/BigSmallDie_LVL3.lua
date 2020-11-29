@@ -29,7 +29,7 @@ function OnOverlapBigDie(trigger, thePlayer)
     if thePlayer:IsA("Player") and (thePlayer:GetResource("challenge") == 0) and (thePlayer:GetResource("level") == 3) then
         thePlayer:Die()
         Task.Wait(3)
-        thePlayer:Respawn({position = spawnPlace:GetWorldPosition(), rotation = Rotation.New(0,0,0)})
+        thePlayer:Respawn({position = spawnPlace:GetWorldPosition(), rotation = spawnPlace:GetWorldRotation()})
     end
 end
 

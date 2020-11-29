@@ -32,19 +32,19 @@ function  OnInteracted(theTrigger, other)
             
             if player:GetResource("level") == 1 then
                 print("level 1") 
-                player:Respawn({position = Lvl1_SpawnPoint:GetWorldPosition(), rotation = Rotation.New(0,0,0)})
+                player:Respawn({position = Lvl1_SpawnPoint:GetWorldPosition(), rotation = Lvl1_SpawnPoint:GetWorldRotation()})
             
             elseif player:GetResource("level") == 2 then 
                 print("level 2") 
-                player:Respawn({position = Lvl2_SpawnPoint:GetWorldPosition(), rotation = Rotation.New(0,0,0)})
+                player:Respawn({position = Lvl2_SpawnPoint:GetWorldPosition(), rotation = Lvl2_SpawnPoint:GetWorldRotation()})
 
             elseif player:GetResource("level") == 3 then 
                 print("level 3") 
-                player:Respawn({position = Lvl3_SpawnPoint:GetWorldPosition(), rotation = Rotation.New(0,0,0)})
+                player:Respawn({position = Lvl3_SpawnPoint:GetWorldPosition(), rotation = Lvl3_SpawnPoint:GetWorldRotation()})
 
             elseif player:GetResource("level") == 4 then 
                 print("lobby") 
-                player:Respawn({position = Lobby_SpawnPoint:GetWorldPosition(), rotation = Rotation.New(0,0,0)})
+                player:Respawn({position = Lobby_SpawnPoint:GetWorldPosition(), rotation = Lvl4_SpawnPoint:GetWorldRotation()})
                 
             end 
             Events.BroadcastToAllPlayers("toNextScene")

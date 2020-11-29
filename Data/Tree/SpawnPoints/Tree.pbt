@@ -147,6 +147,35 @@ Objects {
   }
 }
 Objects {
+  Id: 16484262403441448340
+  Name: "Lvl3_SpawnPoint_2"
+  Transform {
+    Location {
+      X: 4785.86475
+      Y: 1266.79443
+      Z: 4661.354
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17985057012011105827
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  PlayerSpawnPoint {
+    TeamInt: 1
+    PlayerScaleMultiplier: 1
+  }
+}
+Objects {
   Id: 678746475644461664
   Name: "Lvl3_SpawnPoint"
   Transform {
@@ -176,6 +205,36 @@ Objects {
   }
 }
 Objects {
+  Id: 8156861549064437669
+  Name: "Lvl2_SpawnPoint_2"
+  Transform {
+    Location {
+      X: 6588.22461
+      Y: 3673.27979
+      Z: 2821.08789
+    }
+    Rotation {
+      Yaw: -75.6150513
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17985057012011105827
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  PlayerSpawnPoint {
+    TeamInt: 1
+    PlayerScaleMultiplier: 1
+  }
+}
+Objects {
   Id: 7083436607650349697
   Name: "Lvl2_SpawnPoint"
   Transform {
@@ -185,6 +244,37 @@ Objects {
       Z: 2821.08789
     }
     Rotation {
+      Yaw: -177.357178
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17985057012011105827
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  PlayerSpawnPoint {
+    TeamInt: 1
+    PlayerScaleMultiplier: 1
+  }
+}
+Objects {
+  Id: 4543826363610502717
+  Name: "Lvl1_SpawnPoint_2"
+  Transform {
+    Location {
+      X: 4952.77637
+      Y: 8170.34
+      Z: 1140.75281
+    }
+    Rotation {
+      Yaw: -36.7096252
     }
     Scale {
       X: 1
@@ -209,12 +299,12 @@ Objects {
   Name: "Lvl1_SpawnPoint"
   Transform {
     Location {
-      X: 7835.23535
-      Y: 2616.19116
+      X: 7821.14844
+      Y: 2621.83228
       Z: 1169.98169
     }
     Rotation {
-      Yaw: 68.1757
+      Yaw: 59.846714
     }
     Scale {
       X: 1

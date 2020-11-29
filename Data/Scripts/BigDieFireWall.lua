@@ -20,7 +20,7 @@ function OnBigDie(player)
     --Events.Broadcast("E_FireWallReset")
     CanGoToNextLVL(player)
     --player:SetResource("localTimer", -1)  --  -1 reset the timer
-    player:Respawn({position = spawnPlace:GetWorldPosition(), rotation = Rotation.New(0,0,0)})
+    player:Respawn({position = spawnPlace:GetWorldPosition(), rotation = spawnPlace:GetWorldRotation()})
     Events.BroadcastToAllPlayers("toNextScene")
 end
 

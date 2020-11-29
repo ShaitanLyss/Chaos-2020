@@ -35,6 +35,15 @@ Assets {
   }
 }
 Assets {
+  Id: 5198230891739195077
+  Name: "Ambience Nature Wind 01 SFX"
+  PlatformAssetType: 7
+  PrimaryAsset {
+    AssetType: "AudioAssetRef"
+    AssetId: "sfx_ambience_nature_wind_01_Cue_ref"
+  }
+}
+Assets {
   Id: 4969955216524084125
   Name: "Action Music Score Set 01"
   PlatformAssetType: 10

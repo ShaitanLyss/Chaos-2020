@@ -128,7 +128,7 @@ Objects {
     Overrides {
       Name: "cs:Lvl1_SpawnPoint"
       ObjectReference {
-        SelfId: 8383241828011968780
+        SelfId: 4543826363610502717
       }
     }
     Overrides {

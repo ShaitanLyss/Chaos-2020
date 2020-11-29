@@ -65,7 +65,7 @@ Objects {
     Overrides {
       Name: "cs:Lvl3_SpawnPoint"
       ObjectReference {
-        SelfId: 678746475644461664
+        SelfId: 16484262403441448340
       }
     }
   }

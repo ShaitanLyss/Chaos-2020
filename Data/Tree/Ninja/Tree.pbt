@@ -19,6 +19,7 @@ Objects {
   }
   ParentId: 7135527698524595111
   ChildIds: 15824668410498821631
+  ChildIds: 13438435360705334924
   ChildIds: 15214051526148960540
   ChildIds: 9501723585416539066
   ChildIds: 10520898696161961484
@@ -341,6 +342,68 @@ Objects {
   }
 }
 Objects {
+  Id: 13438435360705334924
+  Name: "Sounds"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5014142082355729336
+  ChildIds: 13820784201439078347
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+}
+Objects {
+  Id: 13820784201439078347
+  Name: "Ambience Nature Wind 01 SFX"
+  Transform {
+    Location {
+      X: 4578.76
+      Y: 20095.1797
+      Z: 7325.76
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13438435360705334924
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  AudioInstance {
+    AudioAsset {
+      Id: 5198230891739195077
+    }
+    AutoPlay: true
+    Volume: 10
+    Falloff: 30000
+    Radius: 3000
+    EnableOcclusion: true
+    IsSpatializationEnabled: true
+    IsAttenuationEnabled: true
+  }
+}
+Objects {
   Id: 15824668410498821631
   Name: "Music"
   Transform {
@@ -609,7 +672,7 @@ Objects {
     TeamSettings {
     }
     AudioBP {
-      Volume: 1
+      Volume: 0.9
       Falloff: 3600
       Radius: 400
       FadeInTime: 2

@@ -247,6 +247,7 @@ function Dialogs.RegisterDialogue()
 	-- Post-Challenge / Repeat
 	id = "NPC2PostLv1_repeat"
 	API.RegisterDialogueId(id)
+	API.AddText(id, "...")
 	API.AddText(id, "I want my father back!", CRY_ANIMATION)
 	
 	

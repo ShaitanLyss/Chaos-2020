@@ -1,6 +1,6 @@
 ﻿local spawnPlaces = script:GetCustomProperty("SpawnPoints"):WaitForObject()
-local Lvl1_SpawnPoint = spawnPlaces:FindChildByName("Lvl1_SpawnPoint")
-local Lvl2_SpawnPoint = spawnPlaces:FindChildByName("Lvl2_SpawnPoint")
+local Lvl1_SpawnPoint = spawnPlaces:FindChildByName("Lvl1_SpawnPoint_2")
+local Lvl2_SpawnPoint = spawnPlaces:FindChildByName("Lvl2_SpawnPoint_2")
 
 local lvlChallenge = script.parent
 local winChallengeTrigger =  lvlChallenge:FindChildByName("Trigger")
@@ -30,11 +30,11 @@ function OnBeginOverlap(trigger, other)
 		
         if player:GetResource("level") == 1 then
             print("level 1") 
-            player:Respawn({position = Lvl1_SpawnPoint:GetWorldPosition(), rotation = Rotation.New(0,0,0)})
+            player:Respawn({position = Lvl1_SpawnPoint:GetWorldPosition(), rotation = Lvl1_SpawnPoint:GetWorldRotation()})
         
         elseif player:GetResource("level") == 2 then 
             print("level 2") 
-            player:Respawn({position = Lvl2_SpawnPoint:GetWorldPosition(), rotation = Rotation.New(0,0,0)})
+            player:Respawn({position = Lvl2_SpawnPoint:GetWorldPosition(), rotation = Lvl1_SpawnPoint:GetWorldRotation()})
 
         elseif player:GetResource("level") == 3 then 
             print("level 3") 

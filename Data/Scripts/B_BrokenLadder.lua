@@ -28,3 +28,11 @@ end
 function Behavior.OnDialogEnd()
 	return true
 end
+
+function OnHideLadder()
+	print("message reçu")
+	script.parent.visibility = Visibility.FORCE_OFF
+	trigger.isInteractable = false
+end
+
+Events.Connect("hideLadder", OnHideLadder)
