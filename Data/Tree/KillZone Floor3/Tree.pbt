@@ -86,15 +86,15 @@ Objects {
   Name: "TriggerSmallDie"
   Transform {
     Location {
-      X: 820
-      Y: -220
-      Z: 4490
+      X: -5120.56494
+      Y: -614.692383
+      Z: 4674.52441
     }
     Rotation {
     }
     Scale {
-      X: 56.0721664
-      Y: 63.3018074
+      X: 122.711143
+      Y: 135.903244
       Z: 0.339419901
     }
   }
