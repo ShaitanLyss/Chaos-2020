@@ -54,7 +54,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:FirstScene"
-      Int: 0
+      Int: 1
     }
     Overrides {
       Name: "cs:NumberOfScenes"
@@ -117,7 +117,7 @@ Objects {
     }
   }
   ParentId: 5014142082355729336
-  ChildIds: 12330481611816915025
+  ChildIds: 13497086169591971060
   UnregisteredParameters {
     Overrides {
       Name: "cs:0"
@@ -151,8 +151,8 @@ Objects {
   }
 }
 Objects {
-  Id: 12330481611816915025
-  Name: "S_Level1"
+  Id: 13497086169591971060
+  Name: "S_2"
   Transform {
     Scale {
       X: 1
@@ -163,21 +163,11 @@ Objects {
   ParentId: 16202712489828477249
   TemplateInstance {
     ParameterOverrideMap {
-      key: 13112717259869648442
+      key: 5935379882917571387
       value {
         Overrides {
           Name: "Name"
-          String: "S_Level1"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
+          String: "S_2"
         }
         Overrides {
           Name: "Scale"
@@ -190,7 +180,7 @@ Objects {
       }
     }
     TemplateAsset {
-      Id: 5642498572428842119
+      Id: 8905796207810385488
     }
   }
 }

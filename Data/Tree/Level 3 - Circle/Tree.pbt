@@ -124,6 +124,8 @@ Objects {
     }
   }
   ParentId: 3730128779952504670
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -555,9 +557,9 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 485.253906
-            Y: -8007.0332
-            Z: 5605.72705
+            X: 601.050781
+            Y: -8079.09277
+            Z: 5457.56836
           }
         }
         Overrides {
