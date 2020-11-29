@@ -14,15 +14,11 @@ function OnInteracted(theTrigger, player)
     if player:GetResource("goThrough") == 1 and player:GetResource("passChallenge") == 0  then
         if player:GetResource("level") == 1 then
             print("level 1 Challenge")
-            
-            local challengeWay = script:GetCustomProperty("challengeWay"):WaitForObject():GetChildren()
-			local closedWay = script:GetCustomProperty("closedWay"):WaitForObject():GetChildren()
-						
+
+            Events.Broadcast("SendToChallenge_Lyss")
+
             player:Respawn({position = lvl1_Challenge:GetWorldPosition(), rotation = lvl1_Challenge:GetWorldRotation()})
-            hide(challengeWay)
-            show(closedWay)
-            Events.BroadcastToAllPlayers("hideLadder")
-        elseif player:GetResource("level") == 2 then 
+         elseif player:GetResource("level") == 2 then 
             print("level 2 Challenge") 
             
             local townPlatforms = script:GetCustomProperty("townPlatforms"):WaitForObject()
@@ -50,17 +46,3 @@ function OnInteracted(theTrigger, player)
 end
 
 lvlChallengeTrigger.interactedEvent:Connect(OnInteracted)
-
-function show(folder)
-	for i, v in ipairs(folder) do
-		v.collision = Collision.FORCE_ON
-		v.visibility = Visibility.FORCE_ON
-	end
-end
-
-function hide(folder)
-	for i, v in ipairs(folder) do
-		v.collision = Collision.FORCE_OFF
-		v.visibility = Visibility.FORCE_OFF
-	end
-end
