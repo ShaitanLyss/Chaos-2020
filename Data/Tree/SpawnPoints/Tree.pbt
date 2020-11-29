@@ -95,7 +95,7 @@ Objects {
     Location {
       X: -2350
       Y: 4750
-      Z: 4620
+      Z: 5650
     }
     Rotation {
     }
