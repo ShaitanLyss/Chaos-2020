@@ -7,7 +7,7 @@
       RootId: 9004552838829926765
       Objects {
         Id: 9004552838829926765
-        Name: "Floor - Part"
+        Name: "Floor 1 - Part"
         Transform {
           Scale {
             X: 1
@@ -15,7 +15,8 @@
             Z: 1
           }
         }
-        ParentId: 16093149801066646306
+        ParentId: 10495101680115058112
+        ChildIds: 10030741814272874777
         ChildIds: 9611282239829609528
         ChildIds: 12596117751129060553
         ChildIds: 2698138650553305259
@@ -28,6 +29,46 @@
         }
         Folder {
           IsGroup: true
+        }
+      }
+      Objects {
+        Id: 10030741814272874777
+        Name: "Cube"
+        Transform {
+          Location {
+            X: 2220.36084
+            Y: 5234.11621
+            Z: 1453.71777
+          }
+          Rotation {
+            Yaw: -30.5918884
+          }
+          Scale {
+            X: 34.3825302
+            Y: 0.270013571
+            Z: 4.5586257
+          }
+        }
+        ParentId: 9004552838829926765
+        Collidable_v2 {
+          Value: "mc:ecollisionsetting:inheritfromparent"
+        }
+        Visible_v2 {
+          Value: "mc:evisibilitysetting:forceoff"
+        }
+        CoreMesh {
+          MeshAsset {
+            Id: 17925326465180611494
+          }
+          Teams {
+            IsTeamCollisionEnabled: true
+            IsEnemyCollisionEnabled: true
+          }
+          EnableCameraCollision: true
+          StaticMesh {
+            Physics {
+            }
+          }
         }
       }
       Objects {
@@ -1207,6 +1248,15 @@
             }
           }
         }
+      }
+    }
+    Assets {
+      Id: 17925326465180611494
+      Name: "Cube"
+      PlatformAssetType: 1
+      PrimaryAsset {
+        AssetType: "StaticMeshAssetRef"
+        AssetId: "sm_cube_002"
       }
     }
     Assets {

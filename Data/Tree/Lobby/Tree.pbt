@@ -1,6 +1,39 @@
 ﻿Name: "Lobby"
 RootId: 18192348592058206296
 Objects {
+  Id: 14040166676181401396
+  Name: "broken"
+  Transform {
+    Location {
+      X: 229.402283
+      Y: 210.984741
+      Z: 10191.6436
+    }
+    Rotation {
+      Pitch: 67.0171585
+      Yaw: -158.916443
+      Roll: 92.3373413
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18192348592058206296
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "broken"
+  }
+}
+Objects {
   Id: 11491331772741464232
   Name: "ToNextLevel"
   Transform {
@@ -21,6 +54,22 @@ Objects {
       ObjectReference {
         SelfId: 17985057012011105827
       }
+    }
+    Overrides {
+      Name: "cs:fixed"
+      ObjectReference {
+        SelfId: 610494782154160582
+      }
+    }
+    Overrides {
+      Name: "cs:broken"
+      ObjectReference {
+        SelfId: 14040166676181401396
+      }
+    }
+    Overrides {
+      Name: "cs:ladderLevel"
+      Int: 4
     }
   }
   Collidable_v2 {
@@ -56,6 +105,7 @@ Objects {
     }
   }
   ParentId: 18192348592058206296
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -76,7 +126,7 @@ Objects {
 }
 Objects {
   Id: 610494782154160582
-  Name: "MeshModel"
+  Name: "fixed"
   Transform {
     Location {
       X: 229.402283
@@ -95,6 +145,7 @@ Objects {
     }
   }
   ParentId: 18192348592058206296
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -103,6 +154,6 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "MeshModel_1"
+    FilePartitionName: "fixed"
   }
 }

@@ -10,7 +10,7 @@ SceneSelector = {}
 
 function SceneSelector.next()
 	i = (i + 1) % n
-	print("Scene : " .. i)
+	--print("Scene : " .. i)
 	music.next()
 	sound.next()
 	fx.next()
@@ -18,17 +18,21 @@ function SceneSelector.next()
 end
 
 function SceneSelector.init()
+	local player = Game.GetLocalPlayer()
+	level = player:GetResource("level")
+	challenge = player:GetResource("challenge")
+	passChallenge = player:GetResource("passChallenge")
+	i = level - 1 + challenge + 2 * passChallenge
 	music.init(i, n)
 	sound.init(i, n)
 	fx.init(i, n)
 	sky.init(i, n)
 end
 
-SceneSelector.init()
-
 while loop do
 	Task.Wait(2)
 	SceneSelector.next()
 end
 
+Events.Connect("initScenes", SceneSelector.init)
 Events.Connect("toNextScene", SceneSelector.next)

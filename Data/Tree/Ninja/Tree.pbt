@@ -105,8 +105,7 @@ Objects {
   Name: "A_SkySelector"
   Transform {
     Location {
-      X: -322.483398
-      Y: -314.975586
+      Z: 2105.35303
     }
     Rotation {
     }
@@ -117,38 +116,24 @@ Objects {
     }
   }
   ParentId: 5014142082355729336
+  ChildIds: 12330481611816915025
   UnregisteredParameters {
     Overrides {
-      Name: "cs:skies"
-      ObjectReference {
-        SelfId: 521624241559297895
+      Name: "cs:0"
+      AssetReference {
+        Id: 5642498572428842119
       }
     }
     Overrides {
-      Name: "cs:fog"
-      ObjectReference {
-        SelfId: 9192644802692686487
-        SubObjectId: 5768570144505935371
-        InstanceId: 18439307647872976453
-        TemplateId: 9810613631189882924
+      Name: "cs:1"
+      AssetReference {
+        Id: 8905796207810385488
       }
     }
     Overrides {
-      Name: "cs:skydome"
-      ObjectReference {
-        SelfId: 3317284722807541651
-        SubObjectId: 114167398191569679
-        InstanceId: 18439307647872976453
-        TemplateId: 9810613631189882924
-      }
-    }
-    Overrides {
-      Name: "cs:sun"
-      ObjectReference {
-        SelfId: 4417383008554889079
-        SubObjectId: 1355992733162355691
-        InstanceId: 18439307647872976453
-        TemplateId: 9810613631189882924
+      Name: "cs:2"
+      AssetReference {
+        Id: 11108699866060967321
       }
     }
   }
@@ -161,6 +146,50 @@ Objects {
   Script {
     ScriptAsset {
       Id: 11503237809497984388
+    }
+  }
+}
+Objects {
+  Id: 12330481611816915025
+  Name: "S_Level1"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16202712489828477249
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 13112717259869648442
+      value {
+        Overrides {
+          Name: "Name"
+          String: "S_Level1"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+          }
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5642498572428842119
     }
   }
 }
@@ -583,8 +612,8 @@ Objects {
       Volume: 1
       Falloff: 3600
       Radius: 400
-      FadeInTime: 5
-      FadeOutTime: 5
+      FadeInTime: 2
+      FadeOutTime: 2
     }
   }
 }
@@ -676,7 +705,7 @@ Objects {
       Falloff: 3600
       Radius: 400
       FadeInTime: 4
-      FadeOutTime: 2
+      FadeOutTime: 1.5
     }
   }
 }

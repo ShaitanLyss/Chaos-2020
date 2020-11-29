@@ -121,3 +121,9 @@ if INDICATOR_ASSET and Object.IsValid(ANIMATED_MESH) then
     indicatorInstance = World.SpawnAsset(INDICATOR_ASSET, {parent = ROOT, position = Vector3.UP * INDICATOR_OFFSET * 2})
     indicatorInstance:LookAtContinuous(LOCAL_PLAYER, true)
 end
+function showIndicator()
+	hide = false
+	TriggerDialogIndicator(true)
+end
+	
+Events.Connect("toNextScene", showIndicator)

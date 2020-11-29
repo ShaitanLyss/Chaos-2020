@@ -1,8 +1,8 @@
-﻿local skies = script:GetCustomProperty("skies"):WaitForObject():GetChildren()
+﻿--[[local skies = script:GetCustomProperty("skies"):WaitForObject():GetChildren()
 
 local fog = script:GetCustomProperty("fog"):WaitForObject()
 local skydome = script:GetCustomProperty("skydome"):WaitForObject()
-local sun = script:GetCustomProperty("sun"):WaitForObject()
+local sun = script:GetCustomProperty("sun"):WaitForObject()]]
 
 
 local fogs = {{col = Color.FromLinearHex("1E1300FF"), dens = 3.488, falloff = 0.2, opacity = 1},
@@ -76,22 +76,31 @@ function init(frst, nbr)
 	n = nbr
 	i = frst
 	local j = i // 3
+	script:GetChildren()[1]:Destroy()
+	World.SpawnAsset(script:GetCustomProperty(tostring(j)), {parent=script})
+	--[[
 	for k = 0, 1, 2 do update(sky(k), false) end
 	for k = 0, 1, 2 do if j == k then update(sky(k), true) end end
 	setfog(j)
 	setSkyDome(j)
-	setSun(j)
+	setSun(j)]]
 end
 
 function next()
-	local j = i // 3
-	update(sky(i // 3), false)
 	i = (i + 1) % n
-	local j = i // 3
+	
+	if i % 3 == 0 then
+		local j = i // 3
+		script:GetChildren()[1]:Destroy()
+		World.SpawnAsset(script:GetCustomProperty(tostring(j)), {parent=script})
+	end
+	-- update(sky(i // 3), false)
+	
+	--[[local j = i // 3
 	update(sky(i // 3), true)
 	setfog(j)
 	setSkyDome(j)
-	setSun(j)
+	setSun(j) ]]
 end
 
 

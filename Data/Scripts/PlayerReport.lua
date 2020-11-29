@@ -5,7 +5,6 @@ local challenge = script:GetCustomProperty("Challenge")
 function OnPlayerJoined(player)
     local data = Storage.GetPlayerData(player)
     if resetForTest then
-        Task.Wait(3)
         data["level"] = level
         player:SetResource("level", level)
     
@@ -22,16 +21,14 @@ function OnPlayerJoined(player)
        
 
     end
+    Events.BroadcastToAllPlayers("initScenes")
 
-   
-
-    Task.Wait(5)
     print("report")
-    print("lvl is ") print(player:GetResource("level"))
-    print("pass challenge is ") print(player:GetResource("passChallenge"))
-    print("challenge is ") print(player:GetResource("challenge"))
-    print("timer is ") print(player:GetResource("timer"))
-    print("local timer is ") print(player:GetResource("localTimer"))
+    print("lvl is " .. player:GetResource("level"))
+    print("pass challenge is " ..  player:GetResource("passChallenge"))
+    print("challenge is " .. player:GetResource("challenge"))
+    print("timer is " .. player:GetResource("timer"))
+    print("local timer is " .. player:GetResource("localTimer"))
 end
 
 

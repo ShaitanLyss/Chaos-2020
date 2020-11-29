@@ -127,7 +127,7 @@
           }
           Overrides {
             Name: "bp:Fog Density"
-            Float: 0.247275382
+            Float: 2.56411123
           }
           Overrides {
             Name: "bp:color"

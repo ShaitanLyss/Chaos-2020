@@ -23,7 +23,6 @@ Behavior = {}
 firstTime = true
 
 function Behavior.getI(i)
-	print(firstTime)
 	level = player:GetResource("level")
 	goThrough = player:GetResource("goThrough")
 	passChallenge = player:GetResource("passChallenge")
@@ -33,6 +32,7 @@ function Behavior.getI(i)
 				firstTime = true
 				return 1
 			elseif firstTime then
+				rpt = true
 				firstTime = false
 				return 2
 			else 
@@ -66,8 +66,14 @@ function Behavior.OnDialog()
 end
 -- return true to hide dialog indicator
 function Behavior.OnDialogEnd()
-	byebye = true
-	return firstTime
+	level = player:GetResource("level")
+	goThrough = player:GetResource("goThrough")
+	passChallenge = player:GetResource("passChallenge")
+
+	if level == 1 then
+		if passChallenge == 0 then return true 
+		else return false end
+	end
 end
 
 

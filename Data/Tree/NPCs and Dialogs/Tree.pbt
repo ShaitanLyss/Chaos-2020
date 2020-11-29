@@ -3064,6 +3064,7 @@ Objects {
   ParentId: 9979578846465070629
   ChildIds: 2086483169583747052
   ChildIds: 4927039458253437432
+  ChildIds: 7400540463490825264
   ChildIds: 16842061155451119447
   ChildIds: 13323824561795193947
   ChildIds: 4530593895269753547
@@ -5865,6 +5866,366 @@ Objects {
   }
 }
 Objects {
+  Id: 7400540463490825264
+  Name: "1_BrokenLadder"
+  Transform {
+    Location {
+      X: -3141.85205
+      Y: 3810.68311
+      Z: 24.7125244
+    }
+    Rotation {
+      Yaw: 105.814285
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 12442667162174322088
+  ChildIds: 6305025124379487884
+  ChildIds: 13959916268973170489
+  ChildIds: 8077678462430456839
+  ChildIds: 17005462680362514697
+  ChildIds: 5000037975929046042
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Name"
+      String: "Broken lader"
+    }
+    Overrides {
+      Name: "cs:1"
+      String: "Ladder"
+    }
+    Overrides {
+      Name: "cs:2"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:3"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:4"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Behavior"
+      ObjectReference {
+        SelfId: 13959916268973170489
+      }
+    }
+    Overrides {
+      Name: "cs:AnimatedMesh"
+      ObjectReference {
+        SelfId: 5000037975929046042
+      }
+    }
+    Overrides {
+      Name: "cs:DefaultLoopAnimation"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:PlayDialogAnimations"
+      Bool: true
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 13127471346217984072
+    SubobjectId: 17467136924413857446
+    InstanceId: 17347072940583786975
+    TemplateId: 7565816595777789613
+  }
+}
+Objects {
+  Id: 5000037975929046042
+  Name: "Skeleton Mob"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7400540463490825264
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceoff"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 13679205803425612813
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    AnimatedMesh {
+      AnimationStance: "unarmed_idle_relaxed"
+      AnimationStancePlaybackRate: 1
+      AnimationStanceShouldLoop: true
+      AnimationPlaybackRateMultiplier: 1
+      PlayOnStartAnimation {
+        PlaybackRate: 1
+      }
+    }
+  }
+}
+Objects {
+  Id: 17005462680362514697
+  Name: "fx"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7400540463490825264
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "fx_5"
+  }
+}
+Objects {
+  Id: 8077678462430456839
+  Name: "ClientContext"
+  Transform {
+    Location {
+      Z: 104
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7400540463490825264
+  ChildIds: 10018241525024621391
+  ChildIds: 16770054919969156326
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+  InstanceHistory {
+    SelfId: 7897583968327889154
+    SubobjectId: 3012981926852943852
+    InstanceId: 17347072940583786975
+    TemplateId: 7565816595777789613
+  }
+}
+Objects {
+  Id: 16770054919969156326
+  Name: "Trigger"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 2.30140853
+      Y: 1.89999568
+      Z: 2
+    }
+  }
+  ParentId: 8077678462430456839
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    Interactable: true
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+  InstanceHistory {
+    SelfId: 4269088485986191733
+    SubobjectId: 9184880900479379355
+    InstanceId: 17347072940583786975
+    TemplateId: 7565816595777789613
+  }
+}
+Objects {
+  Id: 10018241525024621391
+  Name: "DialogNPCTriggerClient"
+  Transform {
+    Location {
+      Z: 104
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8077678462430456839
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Root"
+      ObjectReference {
+        SelfId: 7400540463490825264
+      }
+    }
+    Overrides {
+      Name: "cs:Trigger"
+      ObjectReference {
+        SelfId: 16770054919969156326
+      }
+    }
+    Overrides {
+      Name: "cs:DialogIndicator"
+      AssetReference {
+        Id: 12362618696425433544
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 520210685784922352
+    }
+  }
+  InstanceHistory {
+    SelfId: 12590720120399710403
+    SubobjectId: 16929770842877126189
+    InstanceId: 17347072940583786975
+    TemplateId: 7565816595777789613
+  }
+}
+Objects {
+  Id: 13959916268973170489
+  Name: "B_BrokenLadder"
+  Transform {
+    Location {
+      X: -4146.60938
+      Y: 7414.10693
+      Z: -1074.71252
+    }
+    Rotation {
+      Yaw: -105.814308
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7400540463490825264
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:fx"
+      ObjectReference {
+        SelfId: 17005462680362514697
+      }
+    }
+    Overrides {
+      Name: "cs:trigger"
+      ObjectReference {
+        SelfId: 16770054919969156326
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 8542964050633229838
+    }
+  }
+}
+Objects {
+  Id: 6305025124379487884
+  Name: "B_IntroChild"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7400540463490825264
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:fx"
+      ObjectReference {
+        SelfId: 17005462680362514697
+      }
+    }
+    Overrides {
+      Name: "cs:trigger"
+      ObjectReference {
+        SelfId: 16770054919969156326
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 8542964050633229838
+    }
+  }
+}
+Objects {
   Id: 4927039458253437432
   Name: "Deity"
   Transform {
@@ -6098,7 +6459,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "fx_5"
+    FilePartitionName: "fx_6"
   }
 }
 Objects {

@@ -6,8 +6,11 @@ local Lobby_SpawnPoint = spawnPlaces:FindChildByName("Lobby_SpawnPoint")
 
 local lvlFinished = script.parent
 local lvlFinishedTrigger =  lvlFinished:FindChildByName("Trigger")
+local player = Game.FindNearestPlayer(lvlFinishedTrigger:GetWorldPosition())
 
-local player 
+local broken = script:GetCustomProperty("broken"):WaitForObject()
+local fixed = script:GetCustomProperty("fixed"):WaitForObject()
+local ladderLevel = script:GetCustomProperty("ladderLevel")
 
 function  OnInteracted(theTrigger, other)
     player = other
@@ -69,6 +72,30 @@ function SetForNewLevel(data)
         local resultCode,errorMessage = Storage.SetPlayerData(player, data)
 end
 
+function Tick()
+	level = player:GetResource("level")
+	passChallenge = player:GetResource("passChallenge")
+	
+	if level == ladderLevel and passChallenge == 1 then
+		hide(broken)
+		show(fixed)
+		lvlFinishedTrigger.isInteractable = true
+	else 
+		hide(fixed)
+		show(broken)
+		lvlFinishedTrigger.isInteractable = false
+	end
+	Task.Wait(0.5)
+end
 
+function show(o)
+	o.visibility = Visibility.FORCE_ON
+	o.collision = Collision.FORCE_ON
+end
+function hide(o)
+	o.visibility = Visibility.FORCE_OFF
+	o.collision = Collision.FORCE_OFF
+end
+	
 lvlFinishedTrigger.interactedEvent:Connect(OnInteracted)
 

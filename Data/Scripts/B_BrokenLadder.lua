@@ -11,7 +11,7 @@ local trigger = script:GetCustomProperty("trigger"):WaitForObject()
 local player = Game.GetLocalPlayer()
 local root = script.parent
 local pos = root:GetWorldPosition()
-local byebye = false
+
 Behavior = {}
 
 -- function to set which dialog to play
@@ -23,35 +23,8 @@ end
 
 -- function called when a conversation starts, useful to update variables
 function Behavior.OnDialog()
-	firstTime = false
 end
 -- return true to hide dialog indicator
 function Behavior.OnDialogEnd()
-	byebye = true
 	return true
-end
-
--- to show and hide introChild
-function Tick()
-	level = player:GetResource("level")
-	passChallenge = player:GetResource("passChallenge")
-
-	if byebye then
-		trigger.isInteractable = false		
-		fx[2]:Play()
-		Task.Wait(4)
-		fx[1]:Stop()
-		Task.Wait(1)
-		
-		fx[2]:Stop()
-		root:SetWorldPosition(Vector3.ZERO)
-	elseif level ~= 1 or (level == 1 and passChallenge == 1) then
-		fx[1]:Stop()
-		root:SetWorldPosition(Vector3.ZERO)
-	else
-		root:SetWorldPosition(pos)
-		fx[1]:Play()
-	end
-	Task.Wait(0.1)
-	
 end

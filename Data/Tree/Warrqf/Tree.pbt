@@ -1043,9 +1043,9 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
       Color {
-        R: 0.0158099886
-        G: 0.17
-        B: 0.0229579117
+        R: 0.0156862754
+        G: 0.168627456
+        B: 0.0196078438
         A: 1
       }
     }

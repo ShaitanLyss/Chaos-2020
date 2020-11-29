@@ -209,6 +209,10 @@ function Dialogs.RegisterDialogue()
 	"I\'m looking for all the way up there...")
 	API.AddText(id, "After I finish repairing this bench, of course.")
 	
+	id = "Ladder"
+	API.RegisterDialogueId(id)
+	API.AddText(id, "Ladder’s completely broken..")
+
 	
 	-- Lv. 1 - NPC #2
 	-- Pre-Challenge / Interaction 1

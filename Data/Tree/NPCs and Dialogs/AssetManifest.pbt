@@ -62,6 +62,15 @@ Assets {
   }
 }
 Assets {
+  Id: 13679205803425612813
+  Name: "Skeleton Mob"
+  PlatformAssetType: 17
+  PrimaryAsset {
+    AssetType: "AnimatedMeshAssetRef"
+    AssetId: "npc_human_guy_skelington_001_ref"
+  }
+}
+Assets {
   Id: 13206449335842547921
   Name: "UI Gradient Circular 001"
   PlatformAssetType: 9

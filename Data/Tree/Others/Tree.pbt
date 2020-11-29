@@ -1311,12 +1311,6 @@ Objects {
   Id: 16367544923089505405
   Name: "Floor 1 - Part"
   Transform {
-    Location {
-      X: 2800
-      Y: 3475
-    }
-    Rotation {
-    }
     Scale {
       X: 1
       Y: 1
@@ -1324,6 +1318,12 @@ Objects {
     }
   }
   ParentId: 10495101680115058112
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
   TemplateInstance {
     ParameterOverrideMap {
       key: 9004552838829926765

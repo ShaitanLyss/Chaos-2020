@@ -9,6 +9,7 @@ end
 
 function init(frst, nbr)
 	n = nbr
+	print(frst)
 	i = frst
 	getSong(i):Play()
 	
