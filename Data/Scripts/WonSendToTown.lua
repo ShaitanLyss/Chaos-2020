@@ -7,7 +7,7 @@ local winChallengeTrigger =  lvlChallenge:FindChildByName("Trigger")
 
 --local isTimerReached = false
 
-local player 
+local player = Game.FindNearestPlayer(Lvl1_SpawnPoint:GetWorldPosition())
 
 function OnBeginOverlap(trigger, other)
     player = other

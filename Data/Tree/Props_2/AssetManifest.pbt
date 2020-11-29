@@ -53,33 +53,6 @@ Assets {
   }
 }
 Assets {
-  Id: 4122864238686508655
-  Name: "Bottle 05"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_fantasy_bottle_005"
-  }
-}
-Assets {
-  Id: 2268354729097534617
-  Name: "Bottle 02"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_fantasy_bottle_002"
-  }
-}
-Assets {
-  Id: 1689826629567333118
-  Name: "Bottle 06"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_prop_fantasy_bottle_006"
-  }
-}
-Assets {
   Id: 963892081388960772
   Name: "Wooden Bucket"
   PlatformAssetType: 1

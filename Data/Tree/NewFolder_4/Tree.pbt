@@ -1,277 +1,15 @@
 ﻿Name: "NewFolder_4"
-RootId: 13332657579885910712
+RootId: 3411468468849005386
 Objects {
-  Id: 17497961514993989818
-  Name: "E_CoralTree"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 13332657579885910712
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 8687253725619963964
-      value {
-        Overrides {
-          Name: "Name"
-          String: "E_CoralTree"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -661.455078
-            Y: 1782.74536
-            Z: -329.159729
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -51.0766296
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 6.20980024
-            Y: 6.20980024
-            Z: 6.20980024
-          }
-        }
-        Overrides {
-          Name: "Collidable"
-          Enum {
-            Value: "mc:ecollisionsetting:forceoff"
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 17137707558768508020
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 94.741745
-            Y: -53.5292778
-            Z: 108.281494
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Pitch: 28.384201
-            Yaw: 30.9905205
-            Roll: -61.9009705
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 6696416903554057062
-    }
-  }
-}
-Objects {
-  Id: 11365894376967028934
-  Name: "F_Bush_2"
+  Id: 176513071878023055
+  Name: "Bushes0"
   Transform {
     Location {
-      X: -8198.89453
-      Y: 2509.95581
-      Z: 1620.8623
+      X: 1015.92474
+      Y: 1322.31384
+      Z: 1385.698
     }
     Rotation {
-      Pitch: 20.6882668
-      Yaw: 66.6004868
-      Roll: 91.7454529
-    }
-    Scale {
-      X: 1.84578943
-      Y: 1.84578943
-      Z: 1.84578943
-    }
-  }
-  ParentId: 13332657579885910712
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 3714139153103840236
-      value {
-        Overrides {
-          Name: "Name"
-          String: "F_Bush_2"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 124.993164
-            Y: 909.825928
-            Z: 1919.26843
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Pitch: 65.7304077
-            Yaw: -117.641258
-            Roll: -93.9753494
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1.38042188
-            Y: 1.38042188
-            Z: 1.38042188
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 9693994835228808634
-    }
-  }
-}
-Objects {
-  Id: 13630933906827451641
-  Name: "F_Bush_2"
-  Transform {
-    Location {
-      X: -7848.77051
-      Y: 3310.73584
-      Z: 1835.00281
-    }
-    Rotation {
-      Pitch: -21.5830269
-      Yaw: 65.3372955
-      Roll: 91.7561493
-    }
-    Scale {
-      X: 2.68485117
-      Y: 2.68485117
-      Z: 2.68485117
-    }
-  }
-  ParentId: 13332657579885910712
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 3714139153103840236
-      value {
-        Overrides {
-          Name: "Name"
-          String: "F_Bush_2"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 80.1953125
-            Y: 788.384766
-            Z: 1620.8623
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Pitch: 20.6882668
-            Yaw: 66.6004868
-            Roll: 91.7454529
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1.84578943
-            Y: 1.84578943
-            Z: 1.84578943
-          }
-        }
-        Overrides {
-          Name: "Collidable"
-          Enum {
-            Value: "mc:ecollisionsetting:forceoff"
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 9693994835228808634
-    }
-  }
-}
-Objects {
-  Id: 12814177238883061737
-  Name: "F_Bush_2"
-  Transform {
-    Location {
-      X: -6677.63672
-      Y: 7703.88525
-      Z: 1006.745
-    }
-    Rotation {
-      Pitch: -88.1231918
-      Yaw: -53.8261681
-      Roll: 0.000104276522
-    }
-    Scale {
-      X: 1.7229358
-      Y: 1.7229358
-      Z: 1.7229358
-    }
-  }
-  ParentId: 13332657579885910712
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 3714139153103840236
-      value {
-        Overrides {
-          Name: "Name"
-          String: "F_Bush_2"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 430.319336
-            Y: 1589.16479
-            Z: 1835.00281
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Pitch: -21.5830269
-            Yaw: 65.3372955
-            Roll: 91.7561493
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 2.68485117
-            Y: 2.68485117
-            Z: 2.68485117
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 9693994835228808634
-    }
-  }
-}
-Objects {
-  Id: 1898824771228521090
-  Name: "Group"
-  Transform {
-    Location {
-      X: -1610.91016
-      Y: -2341.57104
-      Z: 1320
-    }
-    Rotation {
-      Yaw: -89.9999924
     }
     Scale {
       X: 1
@@ -279,47 +17,87 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13332657579885910712
-  ChildIds: 7538053535706521510
-  ChildIds: 7401495324679070980
-  ChildIds: 1279535404244250557
+  ParentId: 3411468468849005386
+  ChildIds: 6286558993038589738
+  ChildIds: 12320607156095159997
+  ChildIds: 4675972613851590719
+  ChildIds: 3627162176064013523
+  ChildIds: 6808026984737839740
+  ChildIds: 7142785216480404219
+  ChildIds: 2849487724418250273
+  ChildIds: 12432527552638662691
+  ChildIds: 18192877101070733224
+  ChildIds: 925363320631547866
+  ChildIds: 8429420294749591393
+  ChildIds: 277297164380223984
+  ChildIds: 399369485387885978
+  ChildIds: 12881178710707228956
+  ChildIds: 6084305486948194826
+  ChildIds: 3064542293678114511
+  ChildIds: 3485261364614326101
+  ChildIds: 2485217548836211967
+  ChildIds: 3156606679839960982
+  ChildIds: 5689835722788445519
+  ChildIds: 18041200404640037101
+  ChildIds: 13045077802238918801
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  Folder {
-    IsGroup: true
+  NetworkContext {
   }
 }
 Objects {
-  Id: 1279535404244250557
-  Name: "Kelp Tile 02"
+  Id: 13045077802238918801
+  Name: "bush0"
   Transform {
     Location {
-      Z: -0.000366210938
+      X: 1402.12207
+      Y: -212.875977
     }
     Rotation {
-      Yaw: 1.36603658e-05
-      Roll: -179.999969
+      Pitch: -64.6769943
+      Yaw: -40.9842
+      Roll: 43.4284
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 1.01044357
+      Y: 1.01044357
+      Z: 1.01044357
     }
   }
-  ParentId: 1898824771228521090
+  ParentId: 176513071878023055
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:color"
+      Color {
+        R: 0.0684985444
+        G: 0.104
+        B: 0.00974993221
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.0408355445
+        G: 0.0620000027
+        B: 0.00581243355
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceon"
   }
   CoreMesh {
     MeshAsset {
-      Id: 13720182219669173804
+      Id: 9795079560195762947
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -333,32 +111,54 @@ Objects {
   }
 }
 Objects {
-  Id: 7401495324679070980
-  Name: "Kelp Tile 02"
+  Id: 18041200404640037101
+  Name: "bush0"
   Transform {
     Location {
-      Z: 229.999634
+      X: 1574.01465
+      Y: -57.6269531
     }
     Rotation {
-      Yaw: -179.999954
-      Roll: -179.999954
+      Pitch: -64.6769943
+      Yaw: -40.9841766
+      Roll: 43.4283867
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 1.01044357
+      Y: 1.01044357
+      Z: 1.01044357
     }
   }
-  ParentId: 1898824771228521090
+  ParentId: 176513071878023055
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:color"
+      Color {
+        R: 0.0684985444
+        G: 0.104
+        B: 0.00974993221
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.0408355445
+        G: 0.0620000027
+        B: 0.00581243355
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceon"
   }
   CoreMesh {
     MeshAsset {
-      Id: 13720182219669173804
+      Id: 9795079560195762947
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -372,32 +172,54 @@ Objects {
   }
 }
 Objects {
-  Id: 7538053535706521510
-  Name: "Kelp Tile 02"
+  Id: 5689835722788445519
+  Name: "bush0"
   Transform {
     Location {
-      Z: 609.999634
+      X: 1728.44043
+      Y: 143.773438
     }
     Rotation {
-      Yaw: -179.999954
-      Roll: -179.999954
+      Pitch: -64.6776733
+      Yaw: -40.9864578
+      Roll: 3.99230066e-06
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 1.01044357
+      Y: 1.01044357
+      Z: 1.01044357
     }
   }
-  ParentId: 1898824771228521090
+  ParentId: 176513071878023055
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:color"
+      Color {
+        R: 0.0684985444
+        G: 0.104
+        B: 0.00974993221
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.0408355445
+        G: 0.0620000027
+        B: 0.00581243355
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceon"
   }
   CoreMesh {
     MeshAsset {
-      Id: 13720182219669173804
+      Id: 9795079560195762947
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -411,34 +233,55 @@ Objects {
   }
 }
 Objects {
-  Id: 10759499341098105834
-  Name: "Kelp Tile 02"
+  Id: 3156606679839960982
+  Name: "bush0"
   Transform {
     Location {
-      X: -910.910156
-      Y: -2391.57104
-      Z: 1319.99976
+      X: -4736.92871
+      Y: 247.537109
+      Z: 750.095459
     }
     Rotation {
-      Yaw: 1.36603685e-05
-      Roll: -179.999985
+      Pitch: -72.0444
+      Yaw: -40.9861412
+      Roll: 5.53895234e-06
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 7.91870117
+      Y: 7.91870117
+      Z: 7.91870117
     }
   }
-  ParentId: 13332657579885910712
+  ParentId: 176513071878023055
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:color"
+      Color {
+        R: 0.0546671115
+        G: 0.0830000043
+        B: 0.00778119592
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.0408355445
+        G: 0.0620000027
+        B: 0.00581243355
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceon"
   }
   CoreMesh {
     MeshAsset {
-      Id: 13720182219669173804
+      Id: 9795079560195762947
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -452,34 +295,55 @@ Objects {
   }
 }
 Objects {
-  Id: 11364236513862353976
-  Name: "Kelp Tile 02"
+  Id: 2485217548836211967
+  Name: "bush0"
   Transform {
     Location {
-      X: -910.910156
-      Y: -2391.57104
-      Z: 1549.99976
+      X: -2957.01367
+      Y: -811.745117
+      Z: 652.36731
     }
     Rotation {
-      Yaw: -179.999954
-      Roll: -179.999954
+      Pitch: -72.0444
+      Yaw: -40.9861412
+      Roll: 5.53895234e-06
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 5.94218636
+      Y: 5.94218636
+      Z: 5.94218636
     }
   }
-  ParentId: 13332657579885910712
+  ParentId: 176513071878023055
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:color"
+      Color {
+        R: 0.0546671115
+        G: 0.0830000043
+        B: 0.00778119592
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.0408355445
+        G: 0.0620000027
+        B: 0.00581243355
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceon"
   }
   CoreMesh {
     MeshAsset {
-      Id: 13720182219669173804
+      Id: 9795079560195762947
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -493,34 +357,55 @@ Objects {
   }
 }
 Objects {
-  Id: 3229761243346501044
-  Name: "Kelp Tile 02"
+  Id: 3485261364614326101
+  Name: "bush0"
   Transform {
     Location {
-      X: -910.910156
-      Y: -2391.57104
-      Z: 1929.99976
+      X: -1457.33447
+      Y: -566.107422
+      Z: 652.36731
     }
     Rotation {
-      Yaw: -179.999969
-      Roll: -179.999969
+      Pitch: -72.0444
+      Yaw: -40.9861412
+      Roll: 5.53895234e-06
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 7.22888947
+      Y: 7.22888947
+      Z: 7.22888947
     }
   }
-  ParentId: 13332657579885910712
+  ParentId: 176513071878023055
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:color"
+      Color {
+        R: 0.0546671115
+        G: 0.0830000043
+        B: 0.00778119592
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.0408355445
+        G: 0.0620000027
+        B: 0.00581243355
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceon"
   }
   CoreMesh {
     MeshAsset {
-      Id: 13720182219669173804
+      Id: 9795079560195762947
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -534,34 +419,55 @@ Objects {
   }
 }
 Objects {
-  Id: 1320718913795212111
-  Name: "Kelp Tile 02"
+  Id: 3064542293678114511
+  Name: "bush0"
   Transform {
     Location {
-      X: -510.910156
-      Y: -2001.57104
-      Z: 1549.99976
+      X: -1442.24268
+      Y: 1221.63037
+      Z: 1043.37109
     }
     Rotation {
-      Yaw: -179.999954
-      Roll: -179.999954
+      Pitch: -72.0443192
+      Yaw: -40.9861717
+      Roll: -4.43460321
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 5.94218636
+      Y: 5.94218636
+      Z: 5.94218636
     }
   }
-  ParentId: 13332657579885910712
+  ParentId: 176513071878023055
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:color"
+      Color {
+        R: 0.0546671115
+        G: 0.0830000043
+        B: 0.00778119592
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.0408355445
+        G: 0.0620000027
+        B: 0.00581243355
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceon"
   }
   CoreMesh {
     MeshAsset {
-      Id: 13720182219669173804
+      Id: 9795079560195762947
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -575,34 +481,55 @@ Objects {
   }
 }
 Objects {
-  Id: 2735975693905993877
-  Name: "Kelp Tile 02"
+  Id: 6084305486948194826
+  Name: "bush0"
   Transform {
     Location {
-      X: -1120.91016
-      Y: -1961.57104
-      Z: 1709.99976
+      X: -2229.62305
+      Y: 784.112793
+      Z: 362.490967
     }
     Rotation {
-      Yaw: -179.999954
-      Roll: -179.999954
+      Pitch: -72.0444
+      Yaw: -40.9861412
+      Roll: 5.53895234e-06
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 5.94218636
+      Y: 5.94218636
+      Z: 5.94218636
     }
   }
-  ParentId: 13332657579885910712
+  ParentId: 176513071878023055
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:color"
+      Color {
+        R: 0.0546671115
+        G: 0.0830000043
+        B: 0.00778119592
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.0408355445
+        G: 0.0620000027
+        B: 0.00581243355
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceon"
   }
   CoreMesh {
     MeshAsset {
-      Id: 13720182219669173804
+      Id: 9795079560195762947
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -616,34 +543,54 @@ Objects {
   }
 }
 Objects {
-  Id: 10456070764416567228
-  Name: "Kelp Tile 02"
+  Id: 12881178710707228956
+  Name: "bush0"
   Transform {
     Location {
-      X: -1120.91016
-      Y: -1961.57104
-      Z: 2089.99951
+      X: -1071.4917
+      Y: 60
+      Z: 362.490967
     }
     Rotation {
-      Yaw: -179.999969
-      Roll: -179.999969
+      Pitch: -72.0444
+      Yaw: -40.9861488
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 5.94218636
+      Y: 5.94218636
+      Z: 5.94218636
     }
   }
-  ParentId: 13332657579885910712
+  ParentId: 176513071878023055
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:color"
+      Color {
+        R: 0.0546671115
+        G: 0.0830000043
+        B: 0.00778119592
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.0408355445
+        G: 0.0620000027
+        B: 0.00581243355
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceon"
   }
   CoreMesh {
     MeshAsset {
-      Id: 13720182219669173804
+      Id: 9795079560195762947
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -657,34 +604,55 @@ Objects {
   }
 }
 Objects {
-  Id: 3460361528935648923
-  Name: "Kelp Tile 02"
+  Id: 399369485387885978
+  Name: "bush0"
   Transform {
     Location {
-      X: -730.910156
-      Y: -1561.57104
-      Z: 1479.99976
+      X: 729.790527
+      Y: -242.881836
+      Z: 246.363281
     }
     Rotation {
-      Yaw: -179.999954
-      Roll: -179.999954
+      Pitch: 7.31176472
+      Yaw: -50.9428978
+      Roll: -0.663238585
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 1.31429708
+      Y: 1.31429708
+      Z: 1.31429708
     }
   }
-  ParentId: 13332657579885910712
+  ParentId: 176513071878023055
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:color"
+      Color {
+        R: 0.0684985444
+        G: 0.104
+        B: 0.00974993221
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.0408355445
+        G: 0.0620000027
+        B: 0.00581243355
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceon"
   }
   CoreMesh {
     MeshAsset {
-      Id: 13720182219669173804
+      Id: 9795079560195762947
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -698,34 +666,55 @@ Objects {
   }
 }
 Objects {
-  Id: 13149604331991952959
-  Name: "Kelp Tile 02"
+  Id: 277297164380223984
+  Name: "bush0"
   Transform {
     Location {
-      X: -730.910156
-      Y: -1561.57104
-      Z: 1859.99976
+      X: 510.896973
+      Y: -433.150391
+      Z: 107.310547
     }
     Rotation {
-      Yaw: -179.999969
-      Roll: -179.999969
+      Pitch: 7.31176472
+      Yaw: -50.9428291
+      Roll: -0.663238585
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 1.63691735
+      Y: 1.63691735
+      Z: 1.63691735
     }
   }
-  ParentId: 13332657579885910712
+  ParentId: 176513071878023055
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:color"
+      Color {
+        R: 0.0684985444
+        G: 0.104
+        B: 0.00974993221
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.0408355445
+        G: 0.0620000027
+        B: 0.00581243355
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceon"
   }
   CoreMesh {
     MeshAsset {
-      Id: 13720182219669173804
+      Id: 9795079560195762947
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -739,34 +728,55 @@ Objects {
   }
 }
 Objects {
-  Id: 9265097611466875725
-  Name: "Kelp Tile 02"
+  Id: 8429420294749591393
+  Name: "bush0"
   Transform {
     Location {
-      X: -1317.54395
-      Y: -1538.77
-      Z: 2089.99951
+      X: 143.979492
+      Y: -523.4375
+      Z: 52.7198486
     }
     Rotation {
-      Yaw: -179.999954
-      Roll: -179.999954
+      Pitch: 84.1038818
+      Yaw: 84.3241882
+      Roll: 175.098816
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 1.63691735
+      Y: 1.63691735
+      Z: 1.63691735
     }
   }
-  ParentId: 13332657579885910712
+  ParentId: 176513071878023055
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:color"
+      Color {
+        R: 0.0684985444
+        G: 0.104
+        B: 0.00974993221
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.0408355445
+        G: 0.0620000027
+        B: 0.00581243355
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceon"
   }
   CoreMesh {
     MeshAsset {
-      Id: 13720182219669173804
+      Id: 9795079560195762947
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -780,34 +790,55 @@ Objects {
   }
 }
 Objects {
-  Id: 5003834726415173727
-  Name: "Kelp Tile 02"
+  Id: 925363320631547866
+  Name: "bush0"
   Transform {
     Location {
-      X: -1317.54395
-      Y: -1538.77026
-      Z: 1709.99976
+      X: 296.339355
+      Y: -627.455078
+      Z: 107.310547
     }
     Rotation {
-      Yaw: -179.999954
-      Roll: -179.999954
+      Pitch: 7.31176472
+      Yaw: -50.9427757
+      Roll: -0.663238585
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 1.63691735
+      Y: 1.63691735
+      Z: 1.63691735
     }
   }
-  ParentId: 13332657579885910712
+  ParentId: 176513071878023055
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:color"
+      Color {
+        R: 0.0684985444
+        G: 0.104
+        B: 0.00974993221
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.0408355445
+        G: 0.0620000027
+        B: 0.00581243355
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceon"
   }
   CoreMesh {
     MeshAsset {
-      Id: 13720182219669173804
+      Id: 9795079560195762947
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -821,34 +852,55 @@ Objects {
   }
 }
 Objects {
-  Id: 262352105107466403
-  Name: "Kelp Tile 02"
+  Id: 18192877101070733224
+  Name: "bush0"
   Transform {
     Location {
-      X: -1650.91
-      Y: -1461.57104
-      Z: 1829.99976
+      X: 454.891113
+      Y: -295.258789
+      Z: 52.7198486
     }
     Rotation {
-      Yaw: -179.999954
-      Roll: -179.999954
+      Pitch: 84.1043091
+      Yaw: 84.3245239
+      Roll: 170.855103
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 1.63691735
+      Y: 1.63691735
+      Z: 1.63691735
     }
   }
-  ParentId: 13332657579885910712
+  ParentId: 176513071878023055
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:color"
+      Color {
+        R: 0.0684985444
+        G: 0.104
+        B: 0.00974993221
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.0408355445
+        G: 0.0620000027
+        B: 0.00581243355
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceon"
   }
   CoreMesh {
     MeshAsset {
-      Id: 13720182219669173804
+      Id: 9795079560195762947
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -862,34 +914,55 @@ Objects {
   }
 }
 Objects {
-  Id: 14724201382656390264
-  Name: "Kelp Tile 02"
+  Id: 12432527552638662691
+  Name: "bush0"
   Transform {
     Location {
-      X: -1550.91016
-      Y: -1191.57104
-      Z: 2030
+      X: 614.904297
+      Y: -387.804688
+      Z: 106.053101
     }
     Rotation {
-      Yaw: -179.999969
-      Roll: -179.999969
+      Pitch: 6.99354649
+      Yaw: -46.6838036
+      Roll: -0.363159
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 1.63691735
+      Y: 1.63691735
+      Z: 1.63691735
     }
   }
-  ParentId: 13332657579885910712
+  ParentId: 176513071878023055
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:color"
+      Color {
+        R: 0.0684985444
+        G: 0.104
+        B: 0.00974993221
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.0408355445
+        G: 0.0620000027
+        B: 0.00581243355
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceon"
   }
   CoreMesh {
     MeshAsset {
-      Id: 13720182219669173804
+      Id: 9795079560195762947
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -903,34 +976,55 @@ Objects {
   }
 }
 Objects {
-  Id: 2742362141239184607
-  Name: "Kelp Tile 02"
+  Id: 2849487724418250273
+  Name: "bush0"
   Transform {
     Location {
-      X: -1550.91016
-      Y: -1191.57104
-      Z: 1650
+      X: 749.662598
+      Y: -74.0293
+      Z: 52.7196045
     }
     Rotation {
-      Yaw: -179.999954
-      Roll: -179.999954
+      Pitch: 66.5159683
+      Yaw: -80.356
+      Roll: 3.18788409
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 1.63691735
+      Y: 1.63691735
+      Z: 1.63691735
     }
   }
-  ParentId: 13332657579885910712
+  ParentId: 176513071878023055
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:color"
+      Color {
+        R: 0.0684985444
+        G: 0.104
+        B: 0.00974993221
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.0408355445
+        G: 0.0620000027
+        B: 0.00581243355
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceon"
   }
   CoreMesh {
     MeshAsset {
-      Id: 13720182219669173804
+      Id: 9795079560195762947
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -944,34 +1038,55 @@ Objects {
   }
 }
 Objects {
-  Id: 5785985622910390148
-  Name: "Kelp Tile 02"
+  Id: 7142785216480404219
+  Name: "bush0"
   Transform {
     Location {
-      X: -1550.91016
-      Y: -1191.57104
-      Z: 1464.27612
+      X: 915.043945
+      Y: -157.246094
+      Z: 105.039551
     }
     Rotation {
-      Yaw: 89.9999466
-      Roll: -179.999969
+      Pitch: 6.73046827
+      Yaw: -43.3621559
+      Roll: -0.14578265
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 1.63691735
+      Y: 1.63691735
+      Z: 1.63691735
     }
   }
-  ParentId: 13332657579885910712
+  ParentId: 176513071878023055
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:color"
+      Color {
+        R: 0.0684985444
+        G: 0.104
+        B: 0.00974993221
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.0408355445
+        G: 0.0620000027
+        B: 0.00581243355
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceon"
   }
   CoreMesh {
     MeshAsset {
-      Id: 13720182219669173804
+      Id: 9795079560195762947
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -985,34 +1100,55 @@ Objects {
   }
 }
 Objects {
-  Id: 16592900032059123615
-  Name: "Kelp Tile 02"
+  Id: 6808026984737839740
+  Name: "bush0"
   Transform {
     Location {
-      X: -1660.91016
-      Y: -751.571106
-      Z: 1700
+      X: 1027.75684
+      Y: 85.6044922
+      Z: 52.7196045
     }
     Rotation {
-      Yaw: -179.999954
-      Roll: -179.999954
+      Pitch: 84.1047134
+      Yaw: 84.3250122
+      Roll: 165.170624
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 1.63691735
+      Y: 1.63691735
+      Z: 1.63691735
     }
   }
-  ParentId: 13332657579885910712
+  ParentId: 176513071878023055
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:color"
+      Color {
+        R: 0.0684985444
+        G: 0.104
+        B: 0.00974993221
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.0408355445
+        G: 0.0620000027
+        B: 0.00581243355
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceon"
   }
   CoreMesh {
     MeshAsset {
-      Id: 13720182219669173804
+      Id: 9795079560195762947
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -1026,34 +1162,55 @@ Objects {
   }
 }
 Objects {
-  Id: 15854921647377417226
-  Name: "Kelp Tile 02"
+  Id: 3627162176064013523
+  Name: "bush0"
   Transform {
     Location {
-      X: -619.862305
-      Y: -800.040039
-      Z: 1590
+      X: 1196.64355
+      Y: 9.24804688
+      Z: 104.298706
     }
     Rotation {
-      Yaw: -179.999954
-      Roll: -179.999954
+      Pitch: -12.0087214
+      Yaw: -69.4901505
+      Roll: -3.26864719
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 1.63691735
+      Y: 1.63691735
+      Z: 1.63691735
     }
   }
-  ParentId: 13332657579885910712
+  ParentId: 176513071878023055
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:color"
+      Color {
+        R: 0.0684985444
+        G: 0.104
+        B: 0.00974993221
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.0408355445
+        G: 0.0620000027
+        B: 0.00581243355
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceon"
   }
   CoreMesh {
     MeshAsset {
-      Id: 13720182219669173804
+      Id: 9795079560195762947
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -1067,34 +1224,55 @@ Objects {
   }
 }
 Objects {
-  Id: 17865456829129457690
-  Name: "Kelp Tile 02"
+  Id: 4675972613851590719
+  Name: "bush0"
   Transform {
     Location {
-      X: -619.862305
-      Y: -800.04
-      Z: 1840
+      X: 1343.96875
+      Y: 294.00293
+      Z: 52.7196045
     }
     Rotation {
-      Yaw: -179.999969
-      Roll: -179.999969
+      Pitch: 84.104744
+      Yaw: 84.3251114
+      Roll: 165.170746
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 1.63691735
+      Y: 1.63691735
+      Z: 1.63691735
     }
   }
-  ParentId: 13332657579885910712
+  ParentId: 176513071878023055
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:color"
+      Color {
+        R: 0.0684985444
+        G: 0.104
+        B: 0.00974993221
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.0408355445
+        G: 0.0620000027
+        B: 0.00581243355
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceon"
   }
   CoreMesh {
     MeshAsset {
-      Id: 13720182219669173804
+      Id: 9795079560195762947
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -1108,34 +1286,54 @@ Objects {
   }
 }
 Objects {
-  Id: 13344980248935671242
-  Name: "Kelp Tile 02"
+  Id: 12320607156095159997
+  Name: "bush0"
   Transform {
     Location {
-      X: -947.966797
-      Y: -802.828796
-      Z: 1430
+      X: 1512.85547
+      Y: 217.646484
+      Z: 104.298706
     }
     Rotation {
-      Yaw: 89.9999542
-      Roll: -179.999985
+      Pitch: 6.53462601
+      Yaw: -40.9862442
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 1.63691735
+      Y: 1.63691735
+      Z: 1.63691735
     }
   }
-  ParentId: 13332657579885910712
+  ParentId: 176513071878023055
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:color"
+      Color {
+        R: 0.0684985444
+        G: 0.104
+        B: 0.00974993221
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.0408355445
+        G: 0.0620000027
+        B: 0.00581243355
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceon"
   }
   CoreMesh {
     MeshAsset {
-      Id: 13720182219669173804
+      Id: 9795079560195762947
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -1149,34 +1347,54 @@ Objects {
   }
 }
 Objects {
-  Id: 17769465367303303420
-  Name: "Kelp Tile 02"
+  Id: 6286558993038589738
+  Name: "bush0"
   Transform {
     Location {
-      X: -947.966797
-      Y: -802.829
-      Z: 1710
+      X: -306.676025
+      Y: 1326.0708
+      Z: 362.490967
     }
     Rotation {
-      Yaw: -179.999969
-      Roll: -179.999969
+      Pitch: -72.0444183
+      Yaw: -40.9861488
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 5.94218636
+      Y: 5.94218636
+      Z: 5.94218636
     }
   }
-  ParentId: 13332657579885910712
+  ParentId: 176513071878023055
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Leaves:color"
+      Color {
+        R: 0.0546671115
+        G: 0.0830000043
+        B: 0.00778119592
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 0.0408355445
+        G: 0.0620000027
+        B: 0.00581243355
+        A: 1
+      }
+    }
+  }
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceon"
   }
   CoreMesh {
     MeshAsset {
-      Id: 13720182219669173804
+      Id: 9795079560195762947
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -1190,34 +1408,37 @@ Objects {
   }
 }
 Objects {
-  Id: 16861793780157812295
-  Name: "Kelp Tile 02"
+  Id: 10197643476180740648
+  Name: "Rock Flat 02"
   Transform {
     Location {
-      X: -947.966797
-      Y: -802.829
-      Z: 2090
+      X: -1382.60339
+      Y: -1622.65918
+      Z: -294.288696
     }
     Rotation {
-      Yaw: -179.999985
-      Roll: -179.999985
+      Pitch: -70.1311646
+      Yaw: -136.554321
+      Roll: 52.6982
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 3.28281069
+      Y: 4.57480526
+      Z: 3.28281617
     }
   }
-  ParentId: 13332657579885910712
+  ParentId: 3411468468849005386
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
-      Id: 13720182219669173804
+      Id: 3123803202796943699
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -1231,34 +1452,37 @@ Objects {
   }
 }
 Objects {
-  Id: 14748443148610143186
-  Name: "Kelp Tile 02"
+  Id: 6192286329060119118
+  Name: "Rock 02"
   Transform {
     Location {
-      X: -320.910156
-      Y: -51.5710449
-      Z: 1550
+      X: -1322.88916
+      Y: -775.990234
+      Z: 770.584961
     }
     Rotation {
-      Yaw: -179.999954
-      Roll: -179.999954
+      Pitch: -30.1196594
+      Yaw: -14.3147888
+      Roll: 113.496124
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 4.55618095
+      Y: 4.55618095
+      Z: 4.55618095
     }
   }
-  ParentId: 13332657579885910712
+  ParentId: 3411468468849005386
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
-      Id: 13720182219669173804
+      Id: 14389787683247718105
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -1272,64 +1496,37 @@ Objects {
   }
 }
 Objects {
-  Id: 771042763920522236
-  Name: "Group"
+  Id: 2717121019540207044
+  Name: "Rock 02"
   Transform {
     Location {
-      X: -1480.91016
-      Y: -371.571045
-      Z: 1270
+      X: -692.420166
+      Y: -1259.50391
+      Z: 606.859436
     }
     Rotation {
-      Yaw: 67.5000305
+      Pitch: -87.6134415
+      Yaw: 152.718048
+      Roll: -157.292511
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 2.49507666
+      Y: 3.71514535
+      Z: 3.71513748
     }
   }
-  ParentId: 13332657579885910712
-  ChildIds: 15024518675458588235
-  ChildIds: 2840649975530092617
-  ChildIds: 12935036737709108643
+  ParentId: 3411468468849005386
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 12935036737709108643
-  Name: "Kelp Tile 02"
-  Transform {
-    Location {
-      Z: 609.999878
-    }
-    Rotation {
-      Yaw: -179.999969
-      Roll: -179.999969
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 771042763920522236
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
-      Id: 13720182219669173804
+      Id: 14389787683247718105
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -1343,941 +1540,30 @@ Objects {
   }
 }
 Objects {
-  Id: 2840649975530092617
-  Name: "Kelp Tile 02"
-  Transform {
-    Location {
-      Z: 229.999878
-    }
-    Rotation {
-      Yaw: -179.999954
-      Roll: -179.999954
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 771042763920522236
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13720182219669173804
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 15024518675458588235
-  Name: "Kelp Tile 02"
-  Transform {
-    Location {
-      Z: -0.000122070313
-    }
-    Rotation {
-      Yaw: 1.36603685e-05
-      Roll: -179.999985
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 771042763920522236
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13720182219669173804
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 15983384073525574077
-  Name: "Kelp Tile 02"
-  Transform {
-    Location {
-      X: -720.910156
-      Y: -441.571045
-      Z: 1930
-    }
-    Rotation {
-      Yaw: -179.999985
-      Roll: -179.999985
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 13332657579885910712
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13720182219669173804
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 9130271391588423118
-  Name: "Kelp Tile 02"
-  Transform {
-    Location {
-      X: -720.910156
-      Y: -441.571045
-      Z: 1550
-    }
-    Rotation {
-      Yaw: -179.999969
-      Roll: -179.999969
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 13332657579885910712
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13720182219669173804
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 8433006465990925890
-  Name: "Kelp Tile 02"
-  Transform {
-    Location {
-      X: -720.910156
-      Y: -441.571045
-      Z: 1320
-    }
-    Rotation {
-      Pitch: -1.36603776e-05
-      Yaw: 1.3660373e-05
-      Roll: 180
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 13332657579885910712
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13720182219669173804
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 4812219769887010578
-  Name: "Group"
-  Transform {
-    Location {
-      X: -970.910156
-      Y: 38.4289551
-      Z: 1740
-    }
-    Rotation {
-      Yaw: -44.9999962
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 13332657579885910712
-  ChildIds: 15341679210691952659
-  ChildIds: 4835292135848683778
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 4835292135848683778
-  Name: "Kelp Tile 02"
-  Transform {
-    Location {
-    }
-    Rotation {
-      Yaw: -179.999969
-      Roll: -179.999969
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4812219769887010578
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13720182219669173804
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 15341679210691952659
-  Name: "Kelp Tile 02"
-  Transform {
-    Location {
-      Z: 380
-    }
-    Rotation {
-      Yaw: -179.999985
-      Roll: -179.999985
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4812219769887010578
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13720182219669173804
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 8460317050951007273
-  Name: "Kelp Tile 02"
-  Transform {
-    Location {
-      X: -1460.91016
-      Y: 488.428955
-      Z: 1830
-    }
-    Rotation {
-      Yaw: -179.999954
-      Roll: -179.999954
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 13332657579885910712
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13720182219669173804
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 2730247931300424773
-  Name: "Kelp Tile 02"
-  Transform {
-    Location {
-      X: -540.910156
-      Y: 388.428955
-      Z: 1480
-    }
-    Rotation {
-      Yaw: -179.999969
-      Roll: -179.999969
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 13332657579885910712
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13720182219669173804
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 9772016198600848454
-  Name: "Kelp Tile 02"
-  Transform {
-    Location {
-      X: -540.910156
-      Y: 388.428955
-      Z: 1860
-    }
-    Rotation {
-      Yaw: -179.999985
-      Roll: -179.999985
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 13332657579885910712
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13720182219669173804
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 3233892543276305266
-  Name: "Group"
-  Transform {
-    Location {
-      X: -1095.91016
-      Y: 448.428955
-      Z: 1430
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 13332657579885910712
-  ChildIds: 672089434958181775
-  ChildIds: 17053039790830793281
-  ChildIds: 838276358148661446
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 838276358148661446
-  Name: "Kelp Tile 02"
-  Transform {
-    Location {
-    }
-    Rotation {
-      Pitch: -1.36603776e-05
-      Yaw: 89.9999771
-      Roll: 180
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 3233892543276305266
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13720182219669173804
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 17053039790830793281
-  Name: "Kelp Tile 02"
-  Transform {
-    Location {
-      Z: 280
-    }
-    Rotation {
-      Yaw: -179.999985
-      Roll: -179.999985
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 3233892543276305266
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13720182219669173804
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 672089434958181775
-  Name: "Kelp Tile 02"
-  Transform {
-    Location {
-      Z: 660
-    }
-    Rotation {
-      Pitch: -1.36603776e-05
-      Yaw: 180
-      Roll: 180
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 3233892543276305266
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 13720182219669173804
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 18174014017458758924
-  Name: "F_Bush_2"
-  Transform {
-    Location {
-      X: -7400
-      Y: 6965
-      Z: 924.999939
-    }
-    Rotation {
-      Pitch: 55.4880371
-      Yaw: -137.505829
-      Roll: 86.7274323
-    }
-    Scale {
-      X: 1.4
-      Y: 1.4
-      Z: 1.4
-    }
-  }
-  ParentId: 13332657579885910712
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 3714139153103840236
-      value {
-        Overrides {
-          Name: "Name"
-          String: "F_Bush_2"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 989.089844
-            Y: 5018.42871
-            Z: 925
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Pitch: 55.4880371
-            Yaw: -137.505829
-            Roll: 86.7274323
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.7
-            Y: 0.7
-            Z: 0.7
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 9693994835228808634
-    }
-  }
-}
-Objects {
-  Id: 12423342636799826162
-  Name: "F_Bush_2"
-  Transform {
-    Location {
-      X: -7413.4834
-      Y: 7147.83545
-      Z: 563.198364
-    }
-    Rotation {
-      Pitch: -34.4476891
-      Yaw: -133.536469
-      Roll: 87.7522
-    }
-    Scale {
-      X: 1.7229358
-      Y: 1.7229358
-      Z: 1.7229358
-    }
-  }
-  ParentId: 13332657579885910712
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 3714139153103840236
-      value {
-        Overrides {
-          Name: "Name"
-          String: "F_Bush_2"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 879.089844
-            Y: 5243.42871
-            Z: 924.999939
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Pitch: 55.4880371
-            Yaw: -137.505829
-            Roll: 86.7274323
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1.4
-            Y: 1.4
-            Z: 1.4
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 9693994835228808634
-    }
-  }
-}
-Objects {
-  Id: 16250250453436766752
-  Name: "F_Bush_1"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 13332657579885910712
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 5210268259426317718
-      value {
-        Overrides {
-          Name: "Name"
-          String: "F_Bush_1"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -70.9101563
-            Y: 4173.42871
-            Z: 700
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Pitch: -88.2656097
-            Yaw: -99.9652786
-            Roll: 80.0396271
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1.2
-            Y: 1.2
-            Z: 1.2
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 6182679819428014993
-    }
-  }
-}
-Objects {
-  Id: 9522297480077720397
-  Name: "F_Bush_2"
-  Transform {
-    Location {
-      X: -7413.4834
-      Y: 7147.83545
-      Z: 563.198364
-    }
-    Rotation {
-      Pitch: -34.4476891
-      Yaw: -133.536469
-      Roll: 87.7522
-    }
-    Scale {
-      X: 1.7229358
-      Y: 1.7229358
-      Z: 1.7229358
-    }
-  }
-  ParentId: 13332657579885910712
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 3714139153103840236
-      value {
-        Overrides {
-          Name: "Name"
-          String: "F_Bush_2"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -140.910156
-            Y: 3948.42896
-            Z: 645
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Pitch: -7.763978
-            Yaw: -110.211937
-            Roll: 97.8771286
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1.7229358
-            Y: 1.7229358
-            Z: 1.7229358
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 9693994835228808634
-    }
-  }
-}
-Objects {
-  Id: 13707499758425620513
-  Name: "F_Bush_2"
-  Transform {
-    Location {
-      X: -7530
-      Y: 6530
-      Z: 1235
-    }
-    Rotation {
-      Pitch: -59.5309753
-      Yaw: 162.875717
-      Roll: -18.3609047
-    }
-    Scale {
-      X: 1.2
-      Y: 1.2
-      Z: 1.2
-    }
-  }
-  ParentId: 13332657579885910712
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 3714139153103840236
-      value {
-        Overrides {
-          Name: "Name"
-          String: "F_Bush_2"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 559.089844
-            Y: 4558.42871
-            Z: 1240
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Pitch: -59.5309753
-            Yaw: 162.875717
-            Roll: -18.3609047
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1.2
-            Y: 1.2
-            Z: 1.2
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 9693994835228808634
-    }
-  }
-}
-Objects {
-  Id: 14141983816188098905
-  Name: "PassageBoiseux"
-  Transform {
-    Location {
-      X: 1018.84961
-      Y: 2588.07202
-      Z: 917.137634
-    }
-    Rotation {
-      Pitch: 25.2082043
-      Yaw: -95.6804504
-      Roll: -41.531311
-    }
-    Scale {
-      X: 0.652201
-      Y: 0.652201
-      Z: 0.652201
-    }
-  }
-  ParentId: 13332657579885910712
-  ChildIds: 8585005476374120046
-  ChildIds: 1304654307460761852
-  ChildIds: 6789166030213292538
-  ChildIds: 13546138870960087614
-  ChildIds: 3729191604887218643
-  ChildIds: 5187974702526732907
-  ChildIds: 9364214220669435920
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsGroup: true
-  }
-}
-Objects {
-  Id: 9364214220669435920
+  Id: 3697062288620525640
   Name: "Rock 03"
   Transform {
     Location {
-      X: -124.608261
-      Y: -248.780716
-      Z: -57.023941
+      X: -2434.64844
+      Y: -813.014648
+      Z: 251.192017
     }
     Rotation {
-      Pitch: 26.1271038
-      Yaw: -142.371384
-      Roll: -16.2932549
     }
     Scale {
-      X: 1.53326964
-      Y: 1.53326964
-      Z: 1.53326964
+      X: 5.62474251
+      Y: 4.40941095
+      Z: 5.62474251
     }
   }
-  ParentId: 14141983816188098905
+  ParentId: 3411468468849005386
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -2295,35 +1581,37 @@ Objects {
   }
 }
 Objects {
-  Id: 5187974702526732907
-  Name: "Bush 01"
+  Id: 4116133214004706212
+  Name: "Rock Flat 01"
   Transform {
     Location {
-      X: 142.677429
-      Y: 71.6848373
-      Z: 238.112823
+      X: 510.160889
+      Y: -1175.13672
+      Z: 295.561096
     }
     Rotation {
-      Pitch: -22.4465141
-      Yaw: 80.9306412
-      Roll: -8.15127659
+      Pitch: -70.811676
+      Yaw: -138.433929
+      Roll: 37.4067307
     }
     Scale {
-      X: 1.53326964
-      Y: 1.53326964
-      Z: 1.53326964
+      X: 2.73634577
+      Y: 2.73634577
+      Z: 2.73634577
     }
   }
-  ParentId: 14141983816188098905
+  ParentId: 3411468468849005386
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
-      Id: 12597148293892683219
+      Id: 15934878990881336455
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -2337,35 +1625,37 @@ Objects {
   }
 }
 Objects {
-  Id: 3729191604887218643
-  Name: "Bush 01"
+  Id: 9467311709330725227
+  Name: "Rock 02"
   Transform {
     Location {
-      X: 106.250038
-      Y: 149.179581
-      Z: 350.847717
+      X: 1062.51685
+      Y: -728.260742
+      Z: 606.859314
     }
     Rotation {
-      Pitch: -54.7481842
-      Yaw: 58.4325523
-      Roll: 74.11203
+      Pitch: -87.6136856
+      Yaw: 152.718185
+      Roll: -157.292587
     }
     Scale {
-      X: 1.53326964
-      Y: 1.53326964
-      Z: 1.53326964
+      X: 2.49507666
+      Y: 3.71514535
+      Z: 3.71513748
     }
   }
-  ParentId: 14141983816188098905
+  ParentId: 3411468468849005386
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
-      Id: 12597148293892683219
+      Id: 14389787683247718105
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -2379,35 +1669,37 @@ Objects {
   }
 }
 Objects {
-  Id: 13546138870960087614
-  Name: "Bush 01"
+  Id: 8333814192882575756
+  Name: "Rock 02"
   Transform {
     Location {
-      X: -139.581955
-      Y: 206.27092
-      Z: 181.912979
+      X: 432.047852
+      Y: 24.6914063
+      Z: 764.449951
     }
     Rotation {
-      Pitch: -38.9185791
-      Yaw: 96.6095276
-      Roll: -13.5817432
+      Pitch: -31.5579834
+      Yaw: 15.3737936
+      Roll: 88.1430893
     }
     Scale {
-      X: 1.53326964
-      Y: 1.53326964
-      Z: 1.53326964
+      X: 5.01226377
+      Y: 5.01226377
+      Z: 5.01226377
     }
   }
-  ParentId: 14141983816188098905
+  ParentId: 3411468468849005386
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
-      Id: 12597148293892683219
+      Id: 14389787683247718105
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -2421,241 +1713,326 @@ Objects {
   }
 }
 Objects {
-  Id: 6789166030213292538
-  Name: "Rock 01"
+  Id: 5768761624261217391
+  Name: "Point Light"
   Transform {
     Location {
-      X: -269.855377
-      Y: 93.629982
-      Z: 60.3521843
+      X: -184.877197
+      Y: 382.361328
+      Z: 1405.15051
     }
     Rotation {
-      Pitch: -30.487421
-      Yaw: -165.050949
-      Roll: -68.5842514
+      Pitch: 44.6360474
+      Yaw: 68.3636322
+      Roll: -22.1204662
     }
-    Scale {
-      X: 0.547195137
-      Y: 0.547195137
-      Z: 0.547195137
-    }
-  }
-  ParentId: 14141983816188098905
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 18302154991031027573
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 1304654307460761852
-  Name: "Rock 03"
-  Transform {
-    Location {
-      X: -240.115036
-      Y: -358.810028
-      Z: -249.143082
-    }
-    Rotation {
-      Pitch: -19.6594219
-      Yaw: -16.1725121
-      Roll: 27.0634136
-    }
-    Scale {
-      X: 2.45323157
-      Y: 2.45323157
-      Z: 2.45323157
-    }
-  }
-  ParentId: 14141983816188098905
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 8334934760074776514
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
-  Id: 8585005476374120046
-  Name: "E_Tree_Oak"
-  Transform {
     Scale {
       X: 1
       Y: 1
       Z: 1
     }
   }
-  ParentId: 14141983816188098905
+  ParentId: 3411468468849005386
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceon"
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 6558617143835967745
-      value {
-        Overrides {
-          Name: "Name"
-          String: "E_Tree_Oak"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Pitch: 6.83018879e-06
-            Yaw: 6.83018879e-06
-            Roll: 1.02452823e-05
-          }
+  Light {
+    Intensity: 1.82915497
+    Color {
+      R: 0.910545051
+      G: 0.206079975
+      B: 0.919999957
+      A: 1
+    }
+    VolumetricIntensity: 5
+    TeamSettings {
+    }
+    Light {
+      Temperature: 6500
+      LocalLight {
+        AttenuationRadius: 1327.01733
+        PointLight {
+          SourceRadius: 20
+          SoftSourceRadius: 20
+          FallOffExponent: 8
+          UseFallOffExponent: true
         }
       }
-    }
-    TemplateAsset {
-      Id: 6862726296736467026
+      MaxDrawDistance: 5000
+      MaxDistanceFadeRange: 1000
     }
   }
 }
 Objects {
-  Id: 14402717257649903278
-  Name: "F_Bush_2"
+  Id: 3236603617337973848
+  Name: "Point Light"
   Transform {
     Location {
-      X: -6677.63672
-      Y: 7703.88525
-      Z: 1006.745
+      X: -753.406494
+      Y: 285.168945
+      Z: 1405.15051
     }
     Rotation {
-      Pitch: -88.1231918
-      Yaw: -53.8261681
-      Roll: 0.000104276522
+      Pitch: 44.6360855
+      Yaw: 68.3636627
+      Roll: -22.12043
     }
-    Scale {
-      X: 1.7229358
-      Y: 1.7229358
-      Z: 1.7229358
-    }
-  }
-  ParentId: 13332657579885910712
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 3714139153103840236
-      value {
-        Overrides {
-          Name: "Name"
-          String: "F_Bush_2"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 865.606445
-            Y: 5426.26465
-            Z: 563.198364
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Pitch: -34.4476891
-            Yaw: -133.536469
-            Roll: 87.7522
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1.7229358
-            Y: 1.7229358
-            Z: 1.7229358
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 9693994835228808634
-    }
-  }
-}
-Objects {
-  Id: 18153396690027843948
-  Name: "F_Bush_2"
-  Transform {
     Scale {
       X: 1
       Y: 1
       Z: 1
     }
   }
-  ParentId: 13332657579885910712
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 3714139153103840236
-      value {
-        Overrides {
-          Name: "Name"
-          String: "F_Bush_2"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 1601.45313
-            Y: 5982.31445
-            Z: 1006.745
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Pitch: -88.1231918
-            Yaw: -53.8261681
-            Roll: 0.000104276522
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1.7229358
-            Y: 1.7229358
-            Z: 1.7229358
-          }
+  ParentId: 3411468468849005386
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Light {
+    Intensity: 1.82915497
+    Color {
+      R: 0.910545051
+      G: 0.206079975
+      B: 0.919999957
+      A: 1
+    }
+    VolumetricIntensity: 5
+    TeamSettings {
+    }
+    Light {
+      Temperature: 6500
+      LocalLight {
+        AttenuationRadius: 1327.01733
+        PointLight {
+          SourceRadius: 20
+          SoftSourceRadius: 20
+          FallOffExponent: 8
+          UseFallOffExponent: true
         }
       }
+      MaxDrawDistance: 5000
+      MaxDistanceFadeRange: 1000
     }
-    TemplateAsset {
-      Id: 9693994835228808634
+  }
+}
+Objects {
+  Id: 3904826812096353221
+  Name: "Point Light"
+  Transform {
+    Location {
+      X: -1532.93298
+      Y: 48.4501953
+      Z: 1405.15051
+    }
+    Rotation {
+      Pitch: 44.6360092
+      Yaw: 68.3635406
+      Roll: -22.1202259
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3411468468849005386
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Light {
+    Intensity: 1.82915497
+    Color {
+      R: 0.910545051
+      G: 0.206079975
+      B: 0.919999957
+      A: 1
+    }
+    VolumetricIntensity: 5
+    TeamSettings {
+    }
+    Light {
+      Temperature: 6500
+      LocalLight {
+        AttenuationRadius: 1327.01733
+        PointLight {
+          SourceRadius: 20
+          SoftSourceRadius: 20
+          FallOffExponent: 8
+          UseFallOffExponent: true
+        }
+      }
+      MaxDrawDistance: 5000
+      MaxDistanceFadeRange: 1000
+    }
+  }
+}
+Objects {
+  Id: 9211549901076739476
+  Name: "Point Light"
+  Transform {
+    Location {
+      X: 2309.45435
+      Y: 1531.46484
+      Z: 1405.15051
+    }
+    Rotation {
+      Pitch: 44.6362343
+      Yaw: 84.3174
+      Roll: -22.1208954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3411468468849005386
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Light {
+    Intensity: 1.82915497
+    Color {
+      R: 0.910545051
+      G: 0.206079975
+      B: 0.919999957
+      A: 1
+    }
+    VolumetricIntensity: 5
+    TeamSettings {
+    }
+    Light {
+      Temperature: 6500
+      LocalLight {
+        AttenuationRadius: 1327.01733
+        PointLight {
+          SourceRadius: 20
+          SoftSourceRadius: 20
+          FallOffExponent: 8
+          UseFallOffExponent: true
+        }
+      }
+      MaxDrawDistance: 5000
+      MaxDistanceFadeRange: 1000
+    }
+  }
+}
+Objects {
+  Id: 10436963543159773293
+  Name: "Point Light"
+  Transform {
+    Location {
+      X: 1789.53491
+      Y: 1281.75391
+      Z: 1405.15051
+    }
+    Rotation {
+      Pitch: 44.6362457
+      Yaw: 84.317421
+      Roll: -22.1209011
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3411468468849005386
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Light {
+    Intensity: 1.82915497
+    Color {
+      R: 0.910545051
+      G: 0.206079975
+      B: 0.919999957
+      A: 1
+    }
+    VolumetricIntensity: 5
+    TeamSettings {
+    }
+    Light {
+      Temperature: 6500
+      LocalLight {
+        AttenuationRadius: 1327.01733
+        PointLight {
+          SourceRadius: 20
+          SoftSourceRadius: 20
+          FallOffExponent: 8
+          UseFallOffExponent: true
+        }
+      }
+      MaxDrawDistance: 5000
+      MaxDistanceFadeRange: 1000
+    }
+  }
+}
+Objects {
+  Id: 9728620335720574864
+  Name: "Point Light"
+  Transform {
+    Location {
+      X: 1105.09644
+      Y: 839.892578
+      Z: 1405.15051
+    }
+    Rotation {
+      Pitch: 44.6362534
+      Yaw: 84.3174362
+      Roll: -22.1209
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3411468468849005386
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Light {
+    Intensity: 1.82915497
+    Color {
+      R: 0.910545051
+      G: 0.206079975
+      B: 0.919999957
+      A: 1
+    }
+    VolumetricIntensity: 5
+    TeamSettings {
+    }
+    Light {
+      Temperature: 6500
+      LocalLight {
+        AttenuationRadius: 1327.01733
+        PointLight {
+          SourceRadius: 20
+          SoftSourceRadius: 20
+          FallOffExponent: 8
+          UseFallOffExponent: true
+        }
+      }
+      MaxDrawDistance: 5000
+      MaxDistanceFadeRange: 1000
     }
   }
 }

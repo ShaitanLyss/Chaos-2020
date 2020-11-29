@@ -19,13 +19,25 @@ Objects {
     Overrides {
       Name: "cs:Lvl2_SpawnPoint"
       ObjectReference {
-        SelfId: 7083436607650349697
+        SelfId: 8156861549064437669
       }
     }
     Overrides {
       Name: "cs:Lvl3_SpawnPoint"
       ObjectReference {
-        SelfId: 678746475644461664
+        SelfId: 16484262403441448340
+      }
+    }
+    Overrides {
+      Name: "cs:townPlatforms"
+      ObjectReference {
+        SelfId: 9381559815308714482
+      }
+    }
+    Overrides {
+      Name: "cs:floorWarts"
+      ObjectReference {
+        SelfId: 9321819753426735430
       }
     }
   }

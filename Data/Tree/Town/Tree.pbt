@@ -60,6 +60,35 @@ Objects {
   }
 }
 Objects {
+  Id: 13673430794774363132
+  Name: "OldManHouse"
+  Transform {
+    Location {
+      X: 4469.55029
+      Y: 197.509888
+      Z: 3687.78296
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13151447250743459469
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "OldManHouse"
+  }
+}
+Objects {
   Id: 8950460528238144847
   Name: "House"
   Transform {
@@ -878,13 +907,13 @@ Objects {
           Vector {
             X: 3810.12598
             Y: -2125.9707
-            Z: 3423.00342
+            Z: 3407.75293
           }
         }
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -14.5343819
+            Yaw: -14.5343933
           }
         }
         Overrides {
@@ -934,7 +963,7 @@ Objects {
           Vector {
             X: 3982.05713
             Y: -551.133911
-            Z: 3423.00342
+            Z: 3407.75293
           }
         }
         Overrides {
@@ -982,7 +1011,7 @@ Objects {
           Vector {
             X: 3747.72949
             Y: 1076.32874
-            Z: 3418.2583
+            Z: 3403.00781
           }
         }
         Overrides {

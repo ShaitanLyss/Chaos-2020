@@ -34,3 +34,12 @@ Assets {
     AssetId: "UI_Fantasy_Frame_003"
   }
 }
+Assets {
+  Id: 3352209651643918290
+  Name: "Frame Hex 006 Wedge"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "FrameHex_006Wedge"
+  }
+}

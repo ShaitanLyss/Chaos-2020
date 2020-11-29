@@ -1,6 +1,66 @@
 ﻿Name: "Foliage"
 RootId: 13777634358201709332
 Objects {
+  Id: 16976596553855558608
+  Name: "NewFolder"
+  Transform {
+    Location {
+      X: -7148.36133
+      Y: -10632.1777
+      Z: 0.00048828125
+    }
+    Rotation {
+      Yaw: -3.46105957
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13777634358201709332
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "NewFolder"
+  }
+}
+Objects {
+  Id: 10618002590035291180
+  Name: "NewFolder"
+  Transform {
+    Location {
+      X: -7982.39355
+      Y: -11261.0908
+      Z: 0.00048828125
+    }
+    Rotation {
+      Yaw: 170.612549
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13777634358201709332
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "NewFolder_1"
+  }
+}
+Objects {
   Id: 9950206569969201178
   Name: "Coral Spikes Small"
   Transform {
@@ -143,6 +203,36 @@ Objects {
   }
 }
 Objects {
+  Id: 15765550189943799001
+  Name: "NewFolder"
+  Transform {
+    Location {
+      X: -9374.83691
+      Y: -6265.69
+      Z: 0.00048828125
+    }
+    Rotation {
+      Yaw: 141.642822
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13777634358201709332
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "NewFolder_2"
+  }
+}
+Objects {
   Id: 443112355967983181
   Name: "Coral Spikes Small"
   Transform {
@@ -238,7 +328,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "NewFolder"
+    FilePartitionName: "NewFolder_3"
   }
 }
 Objects {

@@ -1,6 +1,46 @@
 ﻿Name: "Props"
 RootId: 11309535548569890504
 Objects {
+  Id: 8313850972836672358
+  Name: "Bottle 02"
+  Transform {
+    Location {
+      X: 376.248901
+      Y: 22.0173798
+      Z: 100
+    }
+    Rotation {
+      Yaw: 1.7075472e-05
+    }
+    Scale {
+      X: 0.779280365
+      Y: 0.779280365
+      Z: 0.779280365
+    }
+  }
+  ParentId: 11309535548569890504
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 2268354729097534617
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
   Id: 6129191433039048669
   Name: "Bench Full"
   Transform {
@@ -280,51 +320,12 @@ Objects {
   }
 }
 Objects {
-  Id: 10209936400572606972
-  Name: "Bottle 05"
-  Transform {
-    Location {
-      X: 380
-      Y: 20
-      Z: 100
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11309535548569890504
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 4122864238686508655
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
   Id: 14637358698487173081
   Name: "Bottle 02"
   Transform {
     Location {
-      X: 360
-      Y: -10
+      X: 361.19342
+      Y: -5.99993896
       Z: 100
     }
     Rotation {

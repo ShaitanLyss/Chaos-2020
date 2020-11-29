@@ -5,12 +5,14 @@ Objects {
   Name: "Trigger"
   Transform {
     Location {
+      X: 51.6743584
+      Y: 0.000160217285
     }
     Rotation {
     }
     Scale {
-      X: 0.429954469
-      Y: 16.3516083
+      X: 1.58381152
+      Y: 16.3516026
       Z: 2.13751483
     }
   }
@@ -61,13 +63,12 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -6.83018879e-06
           }
         }
         Overrides {
           Name: "Scale"
           Vector {
-            X: 0.4
+            X: 1.479
             Y: 16.4
             Z: 2.10000014
           }
@@ -88,6 +89,13 @@ Objects {
           Name: "Collidable"
           Enum {
             Value: "mc:evisibilitysetting:forceoff"
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 50.6858902
+            Y: -0.000190734863
           }
         }
       }

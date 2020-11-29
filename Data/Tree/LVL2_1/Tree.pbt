@@ -22,6 +22,18 @@ Objects {
         SelfId: 8424844563706345866
       }
     }
+    Overrides {
+      Name: "cs:townPlatforms"
+      ObjectReference {
+        SelfId: 9381559815308714482
+      }
+    }
+    Overrides {
+      Name: "cs:floorWarts"
+      ObjectReference {
+        SelfId: 9321819753426735430
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -40,16 +52,16 @@ Objects {
   Name: "Trigger"
   Transform {
     Location {
-      X: 6573.74561
-      Y: 3698.57739
+      X: 6466.33447
+      Y: 3769.09814
       Z: 2869.6062
     }
     Rotation {
-      Yaw: -154.543793
+      Yaw: -152.517258
     }
     Scale {
-      X: 4.91811562
-      Y: 3.80000305
+      X: 7.35952854
+      Y: 3.08981276
       Z: 3.60000014
     }
   }
@@ -63,7 +75,7 @@ Objects {
   }
   Trigger {
     Interactable: true
-    InteractionLabel: "press F to test "
+    InteractionLabel: "press F to challenge"
     TeamSettings {
       IsTeamCollisionEnabled: true
       IsEnemyCollisionEnabled: true

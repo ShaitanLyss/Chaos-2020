@@ -209,9 +209,9 @@ Objects {
   Name: "Lvl2_SpawnPoint_2"
   Transform {
     Location {
-      X: 6588.22461
-      Y: 3673.27979
-      Z: 2821.08789
+      X: 6588.4
+      Y: 3639.44019
+      Z: 2871.84521
     }
     Rotation {
       Yaw: -75.6150513
@@ -239,12 +239,12 @@ Objects {
   Name: "Lvl2_SpawnPoint"
   Transform {
     Location {
-      X: 7350.43213
-      Y: 2238.87598
-      Z: 2821.08789
+      X: 6803.98877
+      Y: -2865.89502
+      Z: 3190.88916
     }
     Rotation {
-      Yaw: -177.357178
+      Yaw: -149.797852
     }
     Scale {
       X: 1
@@ -269,8 +269,8 @@ Objects {
   Name: "Lvl1_SpawnPoint_2"
   Transform {
     Location {
-      X: 4952.77637
-      Y: 8170.34
+      X: 4908.57324
+      Y: 8203.29883
       Z: 1140.75281
     }
     Rotation {
