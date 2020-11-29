@@ -134,7 +134,7 @@ function Dialogs.RegisterDialogue()
 	API.AddText(id, "They think that they\'ve learned from it, "..
 	"but they\'re stuck.")
 	API.AddText(id, "They believe they\'ve fixed their issue, "..
-	"but little do they know, Hell's maw is ready and waiting"..
+	"but little do they know, Hell's maw is ready and waiting "..
 	"to swallow them whole.")
 	
 	-- Pre-Challenge / Interaction 4 - Repeats
@@ -165,7 +165,7 @@ function Dialogs.RegisterDialogue()
 	
 	-- Lv. 1 - NPC #1
 	-- Before Bench / No Repeat
-	id = "Lv1NPC1PreBench"
+	id = "NPC1PreBenchLv1"
 	API.RegisterDialogueId(id)
 	API.AddText(id, "Oh, have you seen that bench over there?")
 	API.AddText(id, "I know it looks a little worse for wear, "..
@@ -174,12 +174,12 @@ function Dialogs.RegisterDialogue()
 	"if you\'d like to.", TALK_ANIMATION)
 	
 	-- Before Bench / Repeat
-	id = "Lv1NPC1PreBench_repeat"
+	id = "NPC1PreBenchLv1_repeat"
 	API.RegisterDialogueId(id)
 	API.AddText(id, "Feel free to take a seat.", TALK_ANIMATION)
 	
 	-- After Bench / No Repeat
-	id = "Lv1NPC1PostBench"
+	id = "NPC1PostBenchLv1"
 	API.RegisterDialogueId(id)
 	API.AddText(id, "I\'ve been meaning to repair it, "..
 	"but I haven\'t found the right materials to do so.")
@@ -187,7 +187,7 @@ function Dialogs.RegisterDialogue()
 	"but I haven\'t had the time to look around.")
 	
 	-- After Bench / Repeat
-	id = "Lv1NPC1PostBench_repeat"
+	id = "NPC1PostBenchLv1_repeat"
 	API.RegisterDialogueId(id)
 	API.AddText(id, "Thinking: "..
 	"Just needs a little touch-up...")
@@ -367,7 +367,7 @@ function Dialogs.RegisterDialogue()
 	API.AddText(id, "Hopefully, you do not follow in their footsteps.")
 	
 	-- Pre-Challenge / Interaction 3 - Repeat
-	id = "OldManPreLv2_3_repeat"
+	id = "OldManPreLv2_repeat"
 	API.RegisterDialogueId(id)
 	API.AddText(id, "Hopefully, you do not follow in their footsteps.")
 	
@@ -405,7 +405,8 @@ function Dialogs.RegisterDialogue()
 	"off into that virus-ridden wasteland, never to come back.")
 	API.AddText(id, "My son is the only thing I have left and "..
 	"you\'re standing there telling me that I can\'t see him?!")
-	API.AddText(id, "MOVE OUT OF MY WAY!\nI MUST SEE MY SON!")
+	API.AddText(id, "MOVE OUT OF MY WAY!")
+	API.AddText(id, "I MUST SEE MY SON!")
 	API.AddText(id, "Doctor: ...")
 	
 	-- Normal Dialogue / Repeat
@@ -436,18 +437,23 @@ function Dialogs.RegisterDialogue()
 	"and GO AWAY!")
 	
 	-- Pre-Challenge / Interaction 3 - Repeat
-	id = "NPC2PreLv2_3_repeat"
+	id = "NPC2PreLv2_repeat"
 	API.RegisterDialogueId(id)
 	API.AddText(id, "GO AWAY!")
 	
-	-- Post-Challenge
+	-- Post-Challenge / No Repeat
 	id = "NPC2PostLv2"
 	API.RegisterDialogueId(id)
 	API.AddText(id, "That crazy old man said he wanted "..
 	"to tell me about something.")
 	API.AddText(id, "Hopefully HE has some concept of distance...")
 	
-	-- Post-Game / Interaction 1
+	-- Post-Challenge / Repeat
+	id = "NPC2PostLv2_repeat"
+	API.RegisterDialogueId(id)
+	API.AddText(id, "*Thinking:* Gotta go see the old man...")
+	
+	-- Post-Game / No Repeat
 	id = "NPC2Game2Lv2"
 	API.RegisterDialogueId(id)
 	API.AddText(id, "*Sigh.* This is the second time, "..
@@ -455,6 +461,11 @@ function Dialogs.RegisterDialogue()
 	API.AddText(id, "I guess I\'ll have to see if the old man "..
 	"has a few tips...")
 	
+	-- Post-Game / Repeat
+	id = "NPC2Game2Lv2_repeat"
+	API.RegisterDialogueId(id)
+	API.AddText(id, "I guess I\'ll have to see if the old man "..
+	"has a few tips...")
 	
 	-- Lv. 3 - Deity
 	-- Pre-Challenge / Interaction 1
@@ -564,7 +575,7 @@ function Dialogs.RegisterDialogue()
 	API.AddText(id, "Rememeber that.")
 	
 	-- Pre-Challenge / Interaction 4 - Repeat
-	id = "OldManPreLv3_4_repeat"
+	id = "OldManPreLv3_repeat"
 	API.RegisterDialogueId(id)
 	API.AddText(id, "No matter what you see around here...\n"..
 	"No matter what happens...\n")
@@ -586,7 +597,7 @@ function Dialogs.RegisterDialogue()
 	"behind for those to follow.", TALK_ANIMATION)
 	
 	-- Post-Challenge / Interaciton 2 - Repeat
-	id = "OldManPostLv3_2_repeat"
+	id = "OldManPostLv3_repeat"
 	API.RegisterDialogueId(id)
 	API.AddText(id, "Stride forward, and forge a path "..
 	"behind for those to follow.", TALK_ANIMATION)

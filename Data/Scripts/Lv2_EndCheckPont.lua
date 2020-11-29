@@ -1,4 +1,4 @@
-﻿local trigger = script:GetChildren():WaitForObject()[1]
+﻿local trigger = script:GetChildren()[1]
 
 function OnBeginOverlap(t, other)
 	if other:IsA("Player") then
@@ -6,4 +6,4 @@ function OnBeginOverlap(t, other)
 end
 	
 	
-trigger.beginOverlapEvent:Connect("OnBeginOverlap")
+trigger.beginOverlapEvent:Connect(OnBeginOverlap)

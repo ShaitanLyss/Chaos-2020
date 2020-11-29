@@ -18,9 +18,9 @@ Objects {
     }
   }
   ParentId: 138285899937258032
-  ChildIds: 6302950441153890411
   ChildIds: 16931361314753484855
   ChildIds: 8323812762821859972
+  ChildIds: 3078425468319678475
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -57,7 +57,7 @@ Objects {
     Overrides {
       Name: "cs:Behavior"
       ObjectReference {
-        SelfId: 6302950441153890411
+        SelfId: 3078425468319678475
       }
     }
     Overrides {
@@ -90,6 +90,37 @@ Objects {
     InstanceId: 13323824561795193947
     TemplateId: 522965690069926366
     WasRoot: true
+  }
+}
+Objects {
+  Id: 3078425468319678475
+  Name: "B_OldManLv1"
+  Transform {
+    Location {
+      X: -7276.3252
+      Y: 5476.82031
+      Z: -1017.42065
+    }
+    Rotation {
+      Yaw: -73.5456467
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7053738061777884388
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 15574483805238685483
+    }
   }
 }
 Objects {
@@ -271,39 +302,6 @@ Objects {
     SubobjectId: 4854949144634276002
     InstanceId: 13323824561795193947
     TemplateId: 522965690069926366
-  }
-}
-Objects {
-  Id: 6302950441153890411
-  Name: "B_PreteenGirl"
-  Transform {
-    Location {
-      X: 2917.73047
-      Y: 7841.25391
-      Z: -1040.69446
-    }
-    Rotation {
-      Yaw: -154.375137
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 7053738061777884388
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 2050106116674367942
-    }
   }
 }
 Objects {
