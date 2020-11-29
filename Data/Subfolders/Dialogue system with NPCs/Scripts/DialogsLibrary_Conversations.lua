@@ -651,6 +651,41 @@ function Dialogs.RegisterDialogue()
 	id = "NPC1Game2Lv3Part4"
 	API.RegisterDialogueId(id)
 	API.AddText(id, "Do you know where the cure is?", TALK_ANIMATION)
+	
+	
+	-- Lobby - Deity
+	-- Normal Dialouge / Interaction 1
+	id = "DeityLobbyDialogue_1"
+	API.RegisterDialogueId(id)
+	API.AddText(id, "Well uh... "..
+	"You aren\'t supposed to be up here. "..
+	"At least not this soon.")
+	API.AddText(id, "I guess it can't be helped.", TALK_ANIMATION)
+	API.AddText(id, "Time is of the essence after all. "..
+	"Not for you though, I assume.")
+	
+	-- Normal Dialogue / Interaction 2
+	id = "DeityLobbyDialogue_2"
+	API.RegisterDialogueId(id)
+	API.AddText(id, "Well, now that you\'re up here, "..
+	"you will be allowed to decend back down this "..
+	"structure and rise up once again.", TALK_ANIMATION)
+	API.AddText(id, "Click that button over there "..
+	"to continue your personal journey.")
+	
+	-- Normal Dialogue / Interaction 3
+	id = "DeityLobbyDialogue_3"
+	API.RegisterDialogueId(id)
+	API.AddText(id, "Also, I'm sure the people have "..
+	"still been impacted by your ascension.", TALK_ANIMATION)
+	API.AddText(id, "Ascending again might allow you "..
+	"to see the impact of your work...")
+	
+	-- Normal Dialouge / Repeat
+	id = "DeityLobbyDialogue_repeat"
+	API.RegisterDialogueId(id)
+	API.AddText(id, "Click that button over there "..
+	"to continue your personal journey.")
 end
 
 return Dialogs
