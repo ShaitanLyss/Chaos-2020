@@ -1,6 +1,213 @@
 ﻿Name: "Invisible outer wall"
 RootId: 18274242002942582486
 Objects {
+  Id: 1668071253412111843
+  Name: "Prism - 3-Sided"
+  Transform {
+    Location {
+      X: 1726.68652
+      Y: -5994.09473
+      Z: 2715.36108
+    }
+    Rotation {
+      Yaw: 94.2360153
+      Roll: -90
+    }
+    Scale {
+      X: 2.69401073
+      Y: 3.1999979
+      Z: 16.1661816
+    }
+  }
+  ParentId: 18274242002942582486
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6101413117148053853
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 5912850277408943894
+  Name: "Prism - 3-Sided"
+  Transform {
+    Location {
+      X: 52.9049072
+      Y: -6174.01318
+      Z: 2715.36133
+    }
+    Rotation {
+      Yaw: 81.0103073
+      Roll: -90
+    }
+    Scale {
+      X: 2.69401288
+      Y: 3.1999979
+      Z: 15.2708149
+    }
+  }
+  ParentId: 18274242002942582486
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6101413117148053853
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 16900557137291644926
+  Name: "Prism - 3-Sided"
+  Transform {
+    Location {
+      X: -1566.09631
+      Y: -5963.21
+      Z: 2715.36157
+    }
+    Rotation {
+      Yaw: 66.216507
+      Roll: -90
+    }
+    Scale {
+      X: 2.69401455
+      Y: 3.19999814
+      Z: 14.1345034
+    }
+  }
+  ParentId: 18274242002942582486
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6101413117148053853
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 114765024394590154
+  Name: "Prism - 3-Sided"
+  Transform {
+    Location {
+      X: -4373.68604
+      Y: -4278.28906
+      Z: 2715.35547
+    }
+    Rotation {
+      Pitch: 6.83018879e-06
+      Yaw: 38.1202202
+      Roll: -89.9998779
+    }
+    Scale {
+      X: 2.69401455
+      Y: 3.19999814
+      Z: 14.1345034
+    }
+  }
+  ParentId: 18274242002942582486
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6101413117148053853
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 7140021555185614041
+  Name: "Prism - 3-Sided"
+  Transform {
+    Location {
+      X: -5316.46
+      Y: -3014.71313
+      Z: 2715.35205
+    }
+    Rotation {
+      Pitch: 6.83018879e-06
+      Yaw: 23.8811169
+      Roll: -89.9998779
+    }
+    Scale {
+      X: 2.69401455
+      Y: 3.19999814
+      Z: 14.1345034
+    }
+  }
+  ParentId: 18274242002942582486
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 6101413117148053853
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
   Id: 10754088894910738226
   Name: "Prism - 3-Sided"
   Transform {

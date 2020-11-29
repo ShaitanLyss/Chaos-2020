@@ -9,9 +9,9 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 2.68614602
-      Y: 2.68614602
-      Z: 2.68614602
+      X: 3.120574
+      Y: 3.120574
+      Z: 3.120574
     }
   }
   ParentId: 13250733520815637966
@@ -124,9 +124,9 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 3
-            Y: 3
-            Z: 3
+            X: 3.5
+            Y: 3.5
+            Z: 3.5
           }
         }
         Overrides {
