@@ -21,7 +21,8 @@ local ROTATE_SPEED = .5
 local INDICATOR_OFFSET = 150
 
 -- MINE
-local Behavior = require(ROOT:GetCustomProperty("Behavior"))
+local Behavior = ROOT:GetCustomProperty("Behavior"):WaitForObject().context.Behavior
+print(Behavior)
 local i = 0
 
 
@@ -30,15 +31,20 @@ if Object.IsValid(ANIMATED_MESH) then
 end
 
 local indicatorInstance = nil
-
+local hide = false
 function Tick()
-    if not TRIGGER.isInteractable and not UI.IsCursorVisible() then
-        TRIGGER.isInteractable = true
+    if not hide and not TRIGGER.isInteractable and not UI.IsCursorVisible() then
+    	if not hide then
+	        hide = Behavior.OnDialogEnd() end
+	    if not hide then
+	        TRIGGER.isInteractable = true end
+	        
         if PLAY_ANIMATIONS then
             NPCPlayLoopAnimation()
             NPCResetRotation()
         end
     end
+    if hide then TriggerDialogIndicator(false) end
 end
 
 function NPCPlayLoopAnimation()
@@ -78,13 +84,14 @@ function TriggerDialogIndicator(trigger)
         indicatorInstance.visibility = Visibility.FORCE_OFF
     end
 end
-
+local dialog_start = false
 function OnInteracted(whichTrigger, other)
 	updateId()
     if other:IsA("Player") then
         if Object.IsValid(ANIMATED_MESH) and PLAY_ANIMATIONS then
             Events.Broadcast("StartDialog", NAME, id, ANIMATED_MESH.id)
             NPCRotateToPlayer()
+            dialog_start = true
             NPCStopLoopAnimation()
         else
             Events.Broadcast("StartDialog", NAME, id)
@@ -92,7 +99,8 @@ function OnInteracted(whichTrigger, other)
         Behavior.OnDialog()
         TRIGGER.isInteractable = false
 	end
-end
+end			
+
 
 function updateId()
 	i = Behavior.getI(i)
@@ -111,6 +119,6 @@ if PLAY_ANIMATIONS then
 end
 
 if INDICATOR_ASSET and Object.IsValid(ANIMATED_MESH) then
-    indicatorInstance = World.SpawnAsset(INDICATOR_ASSET, {position = ANIMATED_MESH:GetWorldPosition() + Vector3.UP * INDICATOR_OFFSET})
+    indicatorInstance = World.SpawnAsset(INDICATOR_ASSET, {parent = ROOT, position = Vector3.UP * INDICATOR_OFFSET * 2})
     indicatorInstance:LookAtContinuous(LOCAL_PLAYER, true)
 end

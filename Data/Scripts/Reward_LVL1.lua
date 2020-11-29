@@ -1,10 +1,11 @@
 ﻿local secondsToAdd = script:GetCustomProperty("SecondsToAdd")
 local platformMultiplayer = script:GetCustomProperty("PlatformMultiplayer")
+local isToReward = false
+local player
 
-
-
-function OnResourceChanged(player, resName, newResValue)
-    if (player:GetResource("level") == 1) and (player:GetResource("passChallenge") == 1) then
+function OnReward(player)
+    Task.Wait(2)
+    --if (player:GetResource("level") == 1) and (player:GetResource("passChallenge") == 1) and isToReward then
         local globalTimer = player:GetResource("timer") + (secondsToAdd * 100)
         --store timer
         player:SetResource("timer", globalTimer)
@@ -13,11 +14,13 @@ function OnResourceChanged(player, resName, newResValue)
         local resultCode,errorMessage = Storage.SetPlayerData(player, data)
        -- print("globalTimer") print(globalTimer)
         
-    end
+    --end
 end
 
-function OnPlayerJoined(player)
-    player.resourceChangedEvent:Connect(OnResourceChanged)
+
+function OnPlayerJoined(other)
+    --player.resourceChangedEvent:Connect(OnResourceChanged)
+    player = other
 end
 
 
@@ -31,5 +34,10 @@ function OnPlatformsSeparateChanged(platformsSeparation)
    -- print("globalTimer") print(globalTimer)
 end
 
+
+
+
+
+Events.Connect("E_Reward", OnReward)
 Events.Connect("E_PlatformsSeparateChanged", OnPlatformsSeparateChanged)
 Game.playerJoinedEvent:Connect(OnPlayerJoined)

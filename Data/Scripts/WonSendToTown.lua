@@ -1,4 +1,4 @@
-﻿local spawnPlaces = script:GetCustomProperty("SpawnPoints"):WaitForObject()
+local spawnPlaces = script:GetCustomProperty("SpawnPoints"):WaitForObject()
 local Lvl1_SpawnPoint = spawnPlaces:FindChildByName("Lvl1_SpawnPoint")
 local Lvl2_SpawnPoint = spawnPlaces:FindChildByName("Lvl2_SpawnPoint")
 
@@ -24,6 +24,7 @@ function OnBeginOverlap(trigger, other)
         
         player:SetResource("passChallenge", 1)
 
+        Events.Broadcast("E_Reward", player)
         --to reset the bar
         Events.BroadcastToAllPlayers("E_PlatformsSeparationChanged", 1000)
 
