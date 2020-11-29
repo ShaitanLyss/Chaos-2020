@@ -150,45 +150,6 @@ Objects {
   }
 }
 Objects {
-  Id: 16419821857300692292
-  Name: "SpawnPlace"
-  Transform {
-    Location {
-      X: 9920
-      Y: 14170
-      Z: 3290
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 13683379292976511251
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 15942125528727175174
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    EnableCameraCollision: true
-    StaticMesh {
-      Physics {
-      }
-    }
-  }
-}
-Objects {
   Id: 8768866053368028503
   Name: "FireWallModel"
   Transform {

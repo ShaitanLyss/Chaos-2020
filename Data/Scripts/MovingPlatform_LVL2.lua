@@ -2,6 +2,14 @@
 local movingPlatformModel = script:GetCustomProperty("MovingPlatformModel"):WaitForObject()
 local speed = script:GetCustomProperty("Speed")
 local turningSpeed = script:GetCustomProperty("TurningSpeed")
+local speed2 = script:GetCustomProperty("Speed2")
+local turning2 = script:GetCustomProperty("Turning2")
+local speed3 = script:GetCustomProperty("Speed3")
+local turning3 = script:GetCustomProperty("Turning3")
+local speed4 = script:GetCustomProperty("Speed4")
+local turning4 = script:GetCustomProperty("Turning4")
+
+
 
 local arr_pathWays = pathWays:GetChildren()
 --print("the number") print(#arr_pathWays)

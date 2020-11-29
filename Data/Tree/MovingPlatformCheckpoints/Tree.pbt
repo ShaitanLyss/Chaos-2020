@@ -70,12 +70,12 @@ Objects {
   Name: "Lv2_StartCheckPoint"
   Transform {
     Location {
-      X: -5874.51074
-      Y: -12754.8203
+      X: -7703.03125
+      Y: -11167.0957
       Z: 252.709961
     }
     Rotation {
-      Yaw: 160.32663
+      Yaw: 140.690369
     }
     Scale {
       X: 1
@@ -201,8 +201,8 @@ Objects {
   Name: "Lv2_StartCheckPoint"
   Transform {
     Location {
-      X: -10613.874
-      Y: -4787.87402
+      X: -10550.2227
+      Y: -4335.7583
       Z: 252.710205
     }
     Rotation {
