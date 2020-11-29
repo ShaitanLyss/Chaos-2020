@@ -1,8 +1,11 @@
 ﻿local addedTimeReward = script:GetCustomProperty("AddedTimeReward"):WaitForObject()
-local distanceTxtBox = addedTimeReward:GetChildren("DistanceTxtBox")
+local distanceTxtBox = addedTimeReward:FindChildByName("DistanceTxtBox")
 
 function OnRewardUI(distanceReward)
-    distanceTxtBox.text = string.format(distanceTxtBox .. "for Distance")
+    print("show ui")
+    local textToDistance = string.format(distanceReward .. " for Distance")
+    print(textToDistance)
+    distanceTxtBox.text =  textToDistance
     addedTimeReward.visibility = Visibility.FORCE_ON
     Task.Wait(10)
     addedTimeReward.visibility = Visibility.FORCE_OFF

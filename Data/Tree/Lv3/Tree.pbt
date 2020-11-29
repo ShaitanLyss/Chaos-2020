@@ -23,35 +23,39 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
-      String: "Deity"
+      String: "Old Man"
     }
     Overrides {
       Name: "cs:1"
-      String: ""
+      String: "OldManPreLv3_1"
     }
     Overrides {
       Name: "cs:2"
-      String: ""
+      String: "OldManPreLv3_2"
     }
     Overrides {
       Name: "cs:3"
-      String: ""
+      String: "OldManPreLv3_3"
     }
     Overrides {
       Name: "cs:4"
-      String: ""
+      String: "OldManPreLv3_4"
     }
     Overrides {
       Name: "cs:5"
-      String: ""
+      String: "OldManPreLv3_repeat"
     }
     Overrides {
       Name: "cs:6"
-      String: ""
+      String: "OldManPostLv3_1"
     }
     Overrides {
       Name: "cs:7"
-      String: ""
+      String: "OldManPostLv3_2"
+    }
+    Overrides {
+      Name: "cs:8"
+      String: "OldManPostLv3_repeat"
     }
     Overrides {
       Name: "cs:Behavior"
@@ -446,35 +450,43 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
-      String: "Deity"
+      String: "Plague Doctor"
     }
     Overrides {
       Name: "cs:1"
-      String: ""
+      String: "NPC1Lv3Part1"
     }
     Overrides {
       Name: "cs:2"
-      String: ""
+      String: "NPC1Lv3Part2"
     }
     Overrides {
       Name: "cs:3"
-      String: ""
+      String: "NPC1Lv3Part3"
     }
     Overrides {
       Name: "cs:4"
-      String: ""
+      String: "NPC1Lv3Part4"
     }
     Overrides {
       Name: "cs:5"
-      String: ""
+      String: "NPC1Lv3Part5"
     }
     Overrides {
       Name: "cs:6"
-      String: ""
+      String: "NPC1Game2Lv3Part1"
     }
     Overrides {
       Name: "cs:7"
-      String: ""
+      String: "NPC1Game2Lv3Part2"
+    }
+    Overrides {
+      Name: "cs:8"
+      String: "NPC1Game2Lv3Part3"
+    }
+    Overrides {
+      Name: "cs:9"
+      String: "NPC1Game2Lv3Part4"
     }
     Overrides {
       Name: "cs:Behavior"

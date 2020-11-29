@@ -28,31 +28,31 @@ Objects {
     }
     Overrides {
       Name: "cs:1"
-      String: "NPC3Lv1"
+      String: "OldManPreLv1_1"
     }
     Overrides {
       Name: "cs:2"
-      String: "NPC3Game2Lv1"
+      String: "OldManPreLv1_2"
     }
     Overrides {
       Name: "cs:3"
-      String: "NPC3Game2Lv1_repeat"
+      String: "OldManPreLv1_3"
     }
     Overrides {
       Name: "cs:4"
-      String: ""
+      String: "OldManPreLv1_repeat"
     }
     Overrides {
       Name: "cs:5"
-      String: ""
+      String: "OldManPostLv1"
     }
     Overrides {
       Name: "cs:6"
-      String: ""
+      String: "OldManGame2Lv1"
     }
     Overrides {
       Name: "cs:7"
-      String: ""
+      String: "OldManGame2Lv1_repeat"
     }
     Overrides {
       Name: "cs:Behavior"
@@ -1266,6 +1266,10 @@ Objects {
             Y: 1
             Z: 1
           }
+        }
+        Overrides {
+          Name: "cs:Name"
+          String: "???"
         }
       }
     }

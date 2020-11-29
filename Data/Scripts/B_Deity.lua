@@ -48,7 +48,7 @@ function Behavior.getI(i)
 				return 5
 			end
 		end
-	elseif goThrough == 3 then
+	elseif goThrough >= 3 then
 		if level == 1 then
 			if firstTime then
 				firstTime = false
