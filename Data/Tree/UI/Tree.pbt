@@ -1,6 +1,2412 @@
 ﻿Name: "UI"
 RootId: 14528963165088349492
 Objects {
+  Id: 5607978887559005250
+  Name: "AdvancedLeaderboard"
+  Transform {
+    Location {
+      X: 208.116211
+      Y: -10771.8145
+      Z: 9434.79199
+    }
+    Rotation {
+      Yaw: -35.4502602
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14528963165088349492
+  ChildIds: 2232105551226743998
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 5607978887559005250
+    SubobjectId: 870376106065777056
+    InstanceId: 275165851245066593
+    TemplateId: 6349500029874905781
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 2232105551226743998
+  Name: "Kill"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5607978887559005250
+  ChildIds: 11658295699976717397
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 2232105551226743998
+    SubobjectId: 6862836352289716572
+    InstanceId: 275165851245066593
+    TemplateId: 6349500029874905781
+  }
+}
+Objects {
+  Id: 11658295699976717397
+  Name: "KingdomFallGeneralLeaderboard"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 2232105551226743998
+  ChildIds: 5708395135787525783
+  ChildIds: 5067386957373965594
+  ChildIds: 16155681027855644868
+  ChildIds: 15359688521512341985
+  ChildIds: 15158227081780322784
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:LeaderboardRef"
+      NetReference {
+        Key: "D31E296303B117B8"
+        Type {
+          Value: "mc:enetreferencetype:leaderboard"
+        }
+      }
+    }
+    Overrides {
+      Name: "cs:UpdateInterval"
+      Int: 3
+    }
+    Overrides {
+      Name: "cs:AssetToTrack"
+      String: "Kills"
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 11658295699976717397
+    SubobjectId: 16144612237158519223
+    InstanceId: 275165851245066593
+    TemplateId: 6349500029874905781
+  }
+}
+Objects {
+  Id: 15158227081780322784
+  Name: "Header"
+  Transform {
+    Location {
+      X: -3700
+      Y: -750
+      Z: 450
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11658295699976717397
+  ChildIds: 132552735222364606
+  ChildIds: 7219393119662207418
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 15158227081780322784
+    SubobjectId: 10636216273931432962
+    InstanceId: 275165851245066593
+    TemplateId: 6349500029874905781
+  }
+}
+Objects {
+  Id: 7219393119662207418
+  Name: "LevelHeader"
+  Transform {
+    Location {
+      X: -5.00002337
+      Y: 80.2512665
+      Z: 42.9082031
+    }
+    Rotation {
+      Pitch: 0.999987423
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 2
+      Y: 2
+      Z: 2
+    }
+  }
+  ParentId: 15158227081780322784
+  ChildIds: 13956405940476847946
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Text {
+    Text: "Overall Time"
+    Color {
+      R: 1
+      G: 1
+      B: 1
+      A: 1
+    }
+    HorizontalSize: 1
+    VerticalSize: 1
+    HorizontalAlignment {
+      Value: "mc:ecoretexthorizontalalign:left"
+    }
+    VerticalAlignment {
+      Value: "mc:ecoretextverticalalign:center"
+    }
+  }
+  InstanceHistory {
+    SelfId: 7219393119662207418
+    SubobjectId: 2735891332144620632
+    InstanceId: 275165851245066593
+    TemplateId: 6349500029874905781
+  }
+}
+Objects {
+  Id: 13956405940476847946
+  Name: "World Text"
+  Transform {
+    Location {
+      X: 0.000122070313
+      Y: -18.7833462
+      Z: -12.861824
+    }
+    Rotation {
+      Roll: 2.66804214e-08
+    }
+    Scale {
+      X: 1.00000191
+      Y: 0.1
+      Z: 1
+    }
+  }
+  ParentId: 7219393119662207418
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Text {
+    Text: "-----------------------------------------------------------------------------------------------------"
+    Color {
+      R: 0.822786
+      A: 1
+    }
+    HorizontalSize: 1
+    VerticalSize: 1
+    HorizontalAlignment {
+      Value: "mc:ecoretexthorizontalalign:left"
+    }
+    VerticalAlignment {
+      Value: "mc:ecoretextverticalalign:center"
+    }
+  }
+}
+Objects {
+  Id: 132552735222364606
+  Name: "PlayerNameHeader"
+  Transform {
+    Location {
+      X: -4.76208496
+      Y: -209.949829
+      Z: 42.9082031
+    }
+    Rotation {
+      Pitch: 0.999987423
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 2
+      Y: 2
+      Z: 2
+    }
+  }
+  ParentId: 15158227081780322784
+  ChildIds: 18437975709479465330
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Text {
+    Text: "Name"
+    Color {
+      R: 1
+      G: 1
+      B: 1
+      A: 1
+    }
+    HorizontalSize: 1
+    VerticalSize: 1
+    HorizontalAlignment {
+      Value: "mc:ecoretexthorizontalalign:left"
+    }
+    VerticalAlignment {
+      Value: "mc:ecoretextverticalalign:center"
+    }
+  }
+  InstanceHistory {
+    SelfId: 132552735222364606
+    SubobjectId: 4616564979594619996
+    InstanceId: 275165851245066593
+    TemplateId: 6349500029874905781
+  }
+}
+Objects {
+  Id: 18437975709479465330
+  Name: "World Text"
+  Transform {
+    Location {
+      X: 5.14984131e-05
+      Y: -10.0863934
+      Z: -12.8623114
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.00000191
+      Y: 0.1
+      Z: 1
+    }
+  }
+  ParentId: 132552735222364606
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Text {
+    Text: "----------------------------------------------"
+    Color {
+      R: 0.822786
+      A: 1
+    }
+    HorizontalSize: 1
+    VerticalSize: 1
+    HorizontalAlignment {
+      Value: "mc:ecoretexthorizontalalign:left"
+    }
+    VerticalAlignment {
+      Value: "mc:ecoretextverticalalign:center"
+    }
+  }
+}
+Objects {
+  Id: 15359688521512341985
+  Name: "Pipe - 4-Sided Thin"
+  Transform {
+    Location {
+      X: -3589.5332
+      Y: -682.959106
+      Z: 175.535156
+    }
+    Rotation {
+      Pitch: 90
+      Yaw: -90
+      Roll: -89.9150696
+    }
+    Scale {
+      X: 8
+      Y: 7
+      Z: 1.28730059
+    }
+  }
+  ParentId: 11658295699976717397
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 17950435965993613615
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 1996112450426760324
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 16155681027855644868
+  Name: "Cube"
+  Transform {
+    Location {
+      X: -3650.00024
+      Y: -685.310364
+      Z: 156.02832
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.999999702
+      Y: 7
+      Z: 7.84300709
+    }
+  }
+  ParentId: 11658295699976717397
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 10184847056121543272
+      }
+    }
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:color"
+      Color {
+        A: 1
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12095835209017042614
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 16155681027855644868
+    SubobjectId: 11669736125551602982
+    InstanceId: 275165851245066593
+    TemplateId: 6349500029874905781
+  }
+}
+Objects {
+  Id: 5067386957373965594
+  Name: "LeaderboardClient"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11658295699976717397
+  ChildIds: 1917205299206211930
+  ChildIds: 8661486383493377286
+  ChildIds: 7018919052209231086
+  ChildIds: 12263918230949970709
+  ChildIds: 10021514924478819374
+  ChildIds: 6857089353973095056
+  ChildIds: 3531815976571332016
+  ChildIds: 17460190251717964688
+  ChildIds: 8593043636397710420
+  ChildIds: 13261457335754472303
+  ChildIds: 3085110433416483100
+  ChildIds: 18093123758087116459
+  ChildIds: 1603505849276839442
+  ChildIds: 7879570921638939062
+  ChildIds: 5732528290315006960
+  ChildIds: 13183240626395813013
+  ChildIds: 17417661961868572628
+  ChildIds: 1912790364647655370
+  ChildIds: 16043163856261078897
+  ChildIds: 440392583162983755
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+  InstanceHistory {
+    SelfId: 5067386957373965594
+    SubobjectId: 546414363396313336
+    InstanceId: 275165851245066593
+    TemplateId: 6349500029874905781
+  }
+}
+Objects {
+  Id: 440392583162983755
+  Name: "GoldLeaderboardUIClient"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5067386957373965594
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Place1"
+      ObjectReference {
+        SelfId: 1917205299206211930
+      }
+    }
+    Overrides {
+      Name: "cs:Place2"
+      ObjectReference {
+        SelfId: 7018919052209231086
+      }
+    }
+    Overrides {
+      Name: "cs:Place3"
+      ObjectReference {
+        SelfId: 10021514924478819374
+      }
+    }
+    Overrides {
+      Name: "cs:Place4"
+      ObjectReference {
+        SelfId: 3531815976571332016
+      }
+    }
+    Overrides {
+      Name: "cs:Place5"
+      ObjectReference {
+        SelfId: 8593043636397710420
+      }
+    }
+    Overrides {
+      Name: "cs:Place6"
+      ObjectReference {
+        SelfId: 3085110433416483100
+      }
+    }
+    Overrides {
+      Name: "cs:Place7"
+      ObjectReference {
+        SelfId: 1603505849276839442
+      }
+    }
+    Overrides {
+      Name: "cs:Place9"
+      ObjectReference {
+        SelfId: 5732528290315006960
+      }
+    }
+    Overrides {
+      Name: "cs:Place8"
+      ObjectReference {
+        SelfId: 17417661961868572628
+      }
+    }
+    Overrides {
+      Name: "cs:Place10"
+      ObjectReference {
+        SelfId: 16043163856261078897
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 6633605582675032970
+    }
+  }
+  InstanceHistory {
+    SelfId: 440392583162983755
+    SubobjectId: 5177784808246665385
+    InstanceId: 275165851245066593
+    TemplateId: 6349500029874905781
+  }
+}
+Objects {
+  Id: 16043163856261078897
+  Name: "Place10"
+  Transform {
+    Location {
+      X: -3700.00024
+      Y: -750
+      Z: -140
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.34290731
+      Y: 1.34290731
+      Z: 1.34290731
+    }
+  }
+  ParentId: 5067386957373965594
+  ChildIds: 9578331309902790425
+  ChildIds: 3010459411199562685
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 1917205299206211930
+    SubobjectId: 6583402213672967352
+    InstanceId: 275165851245066593
+    TemplateId: 6349500029874905781
+  }
+}
+Objects {
+  Id: 3010459411199562685
+  Name: "Level"
+  Transform {
+    Location {
+      X: -5.00026512
+      Y: 114.485382
+    }
+    Rotation {
+      Pitch: 0.999987423
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16043163856261078897
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Text {
+    Text: "XX:XX:XX"
+    Color {
+      R: 1
+      G: 1
+      B: 1
+      A: 1
+    }
+    HorizontalSize: 1
+    VerticalSize: 1
+    HorizontalAlignment {
+      Value: "mc:ecoretexthorizontalalign:left"
+    }
+    VerticalAlignment {
+      Value: "mc:ecoretextverticalalign:center"
+    }
+  }
+  InstanceHistory {
+    SelfId: 12255130218452670205
+    SubobjectId: 16993560657323836191
+    InstanceId: 275165851245066593
+    TemplateId: 6349500029874905781
+  }
+}
+Objects {
+  Id: 9578331309902790425
+  Name: "PlayerName"
+  Transform {
+    Location {
+      X: -5.00019073
+      Y: -124.827
+    }
+    Rotation {
+      Pitch: 0.999987423
+      Yaw: -179.999954
+      Roll: -5.08966242e-14
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16043163856261078897
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Text {
+    Text: "Placeholder"
+    Color {
+      R: 1
+      G: 1
+      B: 1
+      A: 1
+    }
+    HorizontalSize: 1
+    VerticalSize: 1
+    HorizontalAlignment {
+      Value: "mc:ecoretexthorizontalalign:left"
+    }
+    VerticalAlignment {
+      Value: "mc:ecoretextverticalalign:center"
+    }
+  }
+  InstanceHistory {
+    SelfId: 12941788040449082953
+    SubobjectId: 17464342281934623659
+    InstanceId: 275165851245066593
+    TemplateId: 6349500029874905781
+  }
+}
+Objects {
+  Id: 1912790364647655370
+  Name: "World Text"
+  Transform {
+    Location {
+      X: -3704.06396
+      Y: -691.655518
+      Z: -113.65625
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5067386957373965594
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Text {
+    Text: "-------------------------------------------------------------"
+    Color {
+      R: 1
+      G: 1
+      B: 1
+      A: 1
+    }
+    HorizontalSize: 1
+    VerticalSize: 1
+    HorizontalAlignment {
+      Value: "mc:ecoretexthorizontalalign:center"
+    }
+    VerticalAlignment {
+      Value: "mc:ecoretextverticalalign:center"
+    }
+  }
+}
+Objects {
+  Id: 17417661961868572628
+  Name: "Place9"
+  Transform {
+    Location {
+      X: -3700.00024
+      Y: -750
+      Z: -80
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.34290731
+      Y: 1.34290731
+      Z: 1.34290731
+    }
+  }
+  ParentId: 5067386957373965594
+  ChildIds: 200006911486804442
+  ChildIds: 1566906120830408771
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 1917205299206211930
+    SubobjectId: 6583402213672967352
+    InstanceId: 275165851245066593
+    TemplateId: 6349500029874905781
+  }
+}
+Objects {
+  Id: 1566906120830408771
+  Name: "Level"
+  Transform {
+    Location {
+      X: -5.00026512
+      Y: 114.485382
+    }
+    Rotation {
+      Pitch: 0.999987423
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17417661961868572628
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Text {
+    Text: "XX:XX:XX"
+    Color {
+      R: 1
+      G: 1
+      B: 1
+      A: 1
+    }
+    HorizontalSize: 1
+    VerticalSize: 1
+    HorizontalAlignment {
+      Value: "mc:ecoretexthorizontalalign:left"
+    }
+    VerticalAlignment {
+      Value: "mc:ecoretextverticalalign:center"
+    }
+  }
+  InstanceHistory {
+    SelfId: 12255130218452670205
+    SubobjectId: 16993560657323836191
+    InstanceId: 275165851245066593
+    TemplateId: 6349500029874905781
+  }
+}
+Objects {
+  Id: 200006911486804442
+  Name: "PlayerName"
+  Transform {
+    Location {
+      X: -5.00019073
+      Y: -124.827
+    }
+    Rotation {
+      Pitch: 0.999987423
+      Yaw: -179.999954
+      Roll: -5.08966242e-14
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17417661961868572628
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Text {
+    Text: "Placeholder"
+    Color {
+      R: 1
+      G: 1
+      B: 1
+      A: 1
+    }
+    HorizontalSize: 1
+    VerticalSize: 1
+    HorizontalAlignment {
+      Value: "mc:ecoretexthorizontalalign:left"
+    }
+    VerticalAlignment {
+      Value: "mc:ecoretextverticalalign:center"
+    }
+  }
+  InstanceHistory {
+    SelfId: 12941788040449082953
+    SubobjectId: 17464342281934623659
+    InstanceId: 275165851245066593
+    TemplateId: 6349500029874905781
+  }
+}
+Objects {
+  Id: 13183240626395813013
+  Name: "World Text"
+  Transform {
+    Location {
+      X: -3704.06396
+      Y: -691.655518
+      Z: -49.1855469
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5067386957373965594
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Text {
+    Text: "-------------------------------------------------------------"
+    Color {
+      R: 1
+      G: 1
+      B: 1
+      A: 1
+    }
+    HorizontalSize: 1
+    VerticalSize: 1
+    HorizontalAlignment {
+      Value: "mc:ecoretexthorizontalalign:center"
+    }
+    VerticalAlignment {
+      Value: "mc:ecoretextverticalalign:center"
+    }
+  }
+}
+Objects {
+  Id: 5732528290315006960
+  Name: "Place8"
+  Transform {
+    Location {
+      X: -3700.00024
+      Y: -750
+      Z: -20
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.34290731
+      Y: 1.34290731
+      Z: 1.34290731
+    }
+  }
+  ParentId: 5067386957373965594
+  ChildIds: 11441638919914417244
+  ChildIds: 14554155004008637407
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 1917205299206211930
+    SubobjectId: 6583402213672967352
+    InstanceId: 275165851245066593
+    TemplateId: 6349500029874905781
+  }
+}
+Objects {
+  Id: 14554155004008637407
+  Name: "Level"
+  Transform {
+    Location {
+      X: -5.00026512
+      Y: 114.485382
+    }
+    Rotation {
+      Pitch: 0.999987423
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5732528290315006960
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Text {
+    Text: "XX:XX:XX"
+    Color {
+      R: 1
+      G: 1
+      B: 1
+      A: 1
+    }
+    HorizontalSize: 1
+    VerticalSize: 1
+    HorizontalAlignment {
+      Value: "mc:ecoretexthorizontalalign:left"
+    }
+    VerticalAlignment {
+      Value: "mc:ecoretextverticalalign:center"
+    }
+  }
+  InstanceHistory {
+    SelfId: 12255130218452670205
+    SubobjectId: 16993560657323836191
+    InstanceId: 275165851245066593
+    TemplateId: 6349500029874905781
+  }
+}
+Objects {
+  Id: 11441638919914417244
+  Name: "PlayerName"
+  Transform {
+    Location {
+      X: -5.00019073
+      Y: -124.827
+    }
+    Rotation {
+      Pitch: 0.999987423
+      Yaw: -179.999954
+      Roll: -5.08966242e-14
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5732528290315006960
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Text {
+    Text: "Placeholder"
+    Color {
+      R: 1
+      G: 1
+      B: 1
+      A: 1
+    }
+    HorizontalSize: 1
+    VerticalSize: 1
+    HorizontalAlignment {
+      Value: "mc:ecoretexthorizontalalign:left"
+    }
+    VerticalAlignment {
+      Value: "mc:ecoretextverticalalign:center"
+    }
+  }
+  InstanceHistory {
+    SelfId: 12941788040449082953
+    SubobjectId: 17464342281934623659
+    InstanceId: 275165851245066593
+    TemplateId: 6349500029874905781
+  }
+}
+Objects {
+  Id: 7879570921638939062
+  Name: "World Text"
+  Transform {
+    Location {
+      X: -3704.06396
+      Y: -691.655518
+      Z: 9.25488281
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5067386957373965594
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Text {
+    Text: "-------------------------------------------------------------"
+    Color {
+      R: 1
+      G: 1
+      B: 1
+      A: 1
+    }
+    HorizontalSize: 1
+    VerticalSize: 1
+    HorizontalAlignment {
+      Value: "mc:ecoretexthorizontalalign:center"
+    }
+    VerticalAlignment {
+      Value: "mc:ecoretextverticalalign:center"
+    }
+  }
+}
+Objects {
+  Id: 1603505849276839442
+  Name: "Place7"
+  Transform {
+    Location {
+      X: -3700.00024
+      Y: -750
+      Z: 40
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.34290731
+      Y: 1.34290731
+      Z: 1.34290731
+    }
+  }
+  ParentId: 5067386957373965594
+  ChildIds: 8100560693094667217
+  ChildIds: 17885420900451982066
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 1917205299206211930
+    SubobjectId: 6583402213672967352
+    InstanceId: 275165851245066593
+    TemplateId: 6349500029874905781
+  }
+}
+Objects {
+  Id: 17885420900451982066
+  Name: "Level"
+  Transform {
+    Location {
+      X: -5.00026512
+      Y: 114.485382
+    }
+    Rotation {
+      Pitch: 0.999987423
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1603505849276839442
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Text {
+    Text: "XX:XX:XX"
+    Color {
+      R: 1
+      G: 1
+      B: 1
+      A: 1
+    }
+    HorizontalSize: 1
+    VerticalSize: 1
+    HorizontalAlignment {
+      Value: "mc:ecoretexthorizontalalign:left"
+    }
+    VerticalAlignment {
+      Value: "mc:ecoretextverticalalign:center"
+    }
+  }
+  InstanceHistory {
+    SelfId: 12255130218452670205
+    SubobjectId: 16993560657323836191
+    InstanceId: 275165851245066593
+    TemplateId: 6349500029874905781
+  }
+}
+Objects {
+  Id: 8100560693094667217
+  Name: "PlayerName"
+  Transform {
+    Location {
+      X: -5.00019073
+      Y: -124.827
+    }
+    Rotation {
+      Pitch: 0.999987423
+      Yaw: -179.999954
+      Roll: -5.08966242e-14
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1603505849276839442
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Text {
+    Text: "Placeholder"
+    Color {
+      R: 1
+      G: 1
+      B: 1
+      A: 1
+    }
+    HorizontalSize: 1
+    VerticalSize: 1
+    HorizontalAlignment {
+      Value: "mc:ecoretexthorizontalalign:left"
+    }
+    VerticalAlignment {
+      Value: "mc:ecoretextverticalalign:center"
+    }
+  }
+  InstanceHistory {
+    SelfId: 12941788040449082953
+    SubobjectId: 17464342281934623659
+    InstanceId: 275165851245066593
+    TemplateId: 6349500029874905781
+  }
+}
+Objects {
+  Id: 18093123758087116459
+  Name: "World Text"
+  Transform {
+    Location {
+      X: -3704.06396
+      Y: -691.655518
+      Z: 71.9423828
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5067386957373965594
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Text {
+    Text: "-------------------------------------------------------------"
+    Color {
+      R: 1
+      G: 1
+      B: 1
+      A: 1
+    }
+    HorizontalSize: 1
+    VerticalSize: 1
+    HorizontalAlignment {
+      Value: "mc:ecoretexthorizontalalign:center"
+    }
+    VerticalAlignment {
+      Value: "mc:ecoretextverticalalign:center"
+    }
+  }
+}
+Objects {
+  Id: 3085110433416483100
+  Name: "Place6"
+  Transform {
+    Location {
+      X: -3700.00024
+      Y: -750
+      Z: 100
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.34290731
+      Y: 1.34290731
+      Z: 1.34290731
+    }
+  }
+  ParentId: 5067386957373965594
+  ChildIds: 11695665028793641623
+  ChildIds: 14204342180744071610
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 1917205299206211930
+    SubobjectId: 6583402213672967352
+    InstanceId: 275165851245066593
+    TemplateId: 6349500029874905781
+  }
+}
+Objects {
+  Id: 14204342180744071610
+  Name: "Level"
+  Transform {
+    Location {
+      X: -5.00026512
+      Y: 114.485382
+    }
+    Rotation {
+      Pitch: 0.999987423
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3085110433416483100
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Text {
+    Text: "XX:XX:XX"
+    Color {
+      R: 1
+      G: 1
+      B: 1
+      A: 1
+    }
+    HorizontalSize: 1
+    VerticalSize: 1
+    HorizontalAlignment {
+      Value: "mc:ecoretexthorizontalalign:left"
+    }
+    VerticalAlignment {
+      Value: "mc:ecoretextverticalalign:center"
+    }
+  }
+  InstanceHistory {
+    SelfId: 12255130218452670205
+    SubobjectId: 16993560657323836191
+    InstanceId: 275165851245066593
+    TemplateId: 6349500029874905781
+  }
+}
+Objects {
+  Id: 11695665028793641623
+  Name: "PlayerName"
+  Transform {
+    Location {
+      X: -5.00019073
+      Y: -124.827
+    }
+    Rotation {
+      Pitch: 0.999987423
+      Yaw: -179.999954
+      Roll: -5.08966242e-14
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3085110433416483100
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Text {
+    Text: "Placeholder"
+    Color {
+      R: 1
+      G: 1
+      B: 1
+      A: 1
+    }
+    HorizontalSize: 1
+    VerticalSize: 1
+    HorizontalAlignment {
+      Value: "mc:ecoretexthorizontalalign:left"
+    }
+    VerticalAlignment {
+      Value: "mc:ecoretextverticalalign:center"
+    }
+  }
+  InstanceHistory {
+    SelfId: 12941788040449082953
+    SubobjectId: 17464342281934623659
+    InstanceId: 275165851245066593
+    TemplateId: 6349500029874905781
+  }
+}
+Objects {
+  Id: 13261457335754472303
+  Name: "World Text"
+  Transform {
+    Location {
+      X: -3704.06396
+      Y: -691.655518
+      Z: 131.461914
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5067386957373965594
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Text {
+    Text: "-------------------------------------------------------------"
+    Color {
+      R: 1
+      G: 1
+      B: 1
+      A: 1
+    }
+    HorizontalSize: 1
+    VerticalSize: 1
+    HorizontalAlignment {
+      Value: "mc:ecoretexthorizontalalign:center"
+    }
+    VerticalAlignment {
+      Value: "mc:ecoretextverticalalign:center"
+    }
+  }
+}
+Objects {
+  Id: 8593043636397710420
+  Name: "Place5"
+  Transform {
+    Location {
+      X: -3700.00024
+      Y: -750
+      Z: 160
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.34290731
+      Y: 1.34290731
+      Z: 1.34290731
+    }
+  }
+  ParentId: 5067386957373965594
+  ChildIds: 1382762238817100790
+  ChildIds: 12818630235674872873
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 1917205299206211930
+    SubobjectId: 6583402213672967352
+    InstanceId: 275165851245066593
+    TemplateId: 6349500029874905781
+  }
+}
+Objects {
+  Id: 12818630235674872873
+  Name: "Level"
+  Transform {
+    Location {
+      X: -5.00026512
+      Y: 114.485382
+    }
+    Rotation {
+      Pitch: 0.999987423
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8593043636397710420
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Text {
+    Text: "XX:XX:XX"
+    Color {
+      R: 1
+      G: 1
+      B: 1
+      A: 1
+    }
+    HorizontalSize: 1
+    VerticalSize: 1
+    HorizontalAlignment {
+      Value: "mc:ecoretexthorizontalalign:left"
+    }
+    VerticalAlignment {
+      Value: "mc:ecoretextverticalalign:center"
+    }
+  }
+  InstanceHistory {
+    SelfId: 12255130218452670205
+    SubobjectId: 16993560657323836191
+    InstanceId: 275165851245066593
+    TemplateId: 6349500029874905781
+  }
+}
+Objects {
+  Id: 1382762238817100790
+  Name: "PlayerName"
+  Transform {
+    Location {
+      X: -5.00019073
+      Y: -124.827
+    }
+    Rotation {
+      Pitch: 0.999987423
+      Yaw: -179.999954
+      Roll: -5.08966242e-14
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8593043636397710420
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Text {
+    Text: "Placeholder"
+    Color {
+      R: 1
+      G: 1
+      B: 1
+      A: 1
+    }
+    HorizontalSize: 1
+    VerticalSize: 1
+    HorizontalAlignment {
+      Value: "mc:ecoretexthorizontalalign:left"
+    }
+    VerticalAlignment {
+      Value: "mc:ecoretextverticalalign:center"
+    }
+  }
+  InstanceHistory {
+    SelfId: 12941788040449082953
+    SubobjectId: 17464342281934623659
+    InstanceId: 275165851245066593
+    TemplateId: 6349500029874905781
+  }
+}
+Objects {
+  Id: 17460190251717964688
+  Name: "World Text"
+  Transform {
+    Location {
+      X: -3704.06396
+      Y: -691.655518
+      Z: 191.987305
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5067386957373965594
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Text {
+    Text: "-------------------------------------------------------------"
+    Color {
+      R: 1
+      G: 1
+      B: 1
+      A: 1
+    }
+    HorizontalSize: 1
+    VerticalSize: 1
+    HorizontalAlignment {
+      Value: "mc:ecoretexthorizontalalign:center"
+    }
+    VerticalAlignment {
+      Value: "mc:ecoretextverticalalign:center"
+    }
+  }
+}
+Objects {
+  Id: 3531815976571332016
+  Name: "Place4"
+  Transform {
+    Location {
+      X: -3700.00024
+      Y: -750
+      Z: 220
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.34290731
+      Y: 1.34290731
+      Z: 1.34290731
+    }
+  }
+  ParentId: 5067386957373965594
+  ChildIds: 7874679177323654166
+  ChildIds: 7574616849924195665
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 1917205299206211930
+    SubobjectId: 6583402213672967352
+    InstanceId: 275165851245066593
+    TemplateId: 6349500029874905781
+  }
+}
+Objects {
+  Id: 7574616849924195665
+  Name: "Level"
+  Transform {
+    Location {
+      X: -5.00026512
+      Y: 114.485382
+    }
+    Rotation {
+      Pitch: 0.999987423
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3531815976571332016
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Text {
+    Text: "XX:XX:XX"
+    Color {
+      R: 1
+      G: 1
+      B: 1
+      A: 1
+    }
+    HorizontalSize: 1
+    VerticalSize: 1
+    HorizontalAlignment {
+      Value: "mc:ecoretexthorizontalalign:left"
+    }
+    VerticalAlignment {
+      Value: "mc:ecoretextverticalalign:center"
+    }
+  }
+  InstanceHistory {
+    SelfId: 12255130218452670205
+    SubobjectId: 16993560657323836191
+    InstanceId: 275165851245066593
+    TemplateId: 6349500029874905781
+  }
+}
+Objects {
+  Id: 7874679177323654166
+  Name: "PlayerName"
+  Transform {
+    Location {
+      X: -5.00019073
+      Y: -124.827
+    }
+    Rotation {
+      Pitch: 0.999987423
+      Yaw: -179.999954
+      Roll: -5.08966242e-14
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 3531815976571332016
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Text {
+    Text: "Placeholder"
+    Color {
+      R: 1
+      G: 1
+      B: 1
+      A: 1
+    }
+    HorizontalSize: 1
+    VerticalSize: 1
+    HorizontalAlignment {
+      Value: "mc:ecoretexthorizontalalign:left"
+    }
+    VerticalAlignment {
+      Value: "mc:ecoretextverticalalign:center"
+    }
+  }
+  InstanceHistory {
+    SelfId: 12941788040449082953
+    SubobjectId: 17464342281934623659
+    InstanceId: 275165851245066593
+    TemplateId: 6349500029874905781
+  }
+}
+Objects {
+  Id: 6857089353973095056
+  Name: "World Text"
+  Transform {
+    Location {
+      X: -3704.06396
+      Y: -691.655518
+      Z: 250.164063
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5067386957373965594
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Text {
+    Text: "-------------------------------------------------------------"
+    Color {
+      R: 1
+      G: 1
+      B: 1
+      A: 1
+    }
+    HorizontalSize: 1
+    VerticalSize: 1
+    HorizontalAlignment {
+      Value: "mc:ecoretexthorizontalalign:center"
+    }
+    VerticalAlignment {
+      Value: "mc:ecoretextverticalalign:center"
+    }
+  }
+}
+Objects {
+  Id: 10021514924478819374
+  Name: "Place3"
+  Transform {
+    Location {
+      X: -3700.00024
+      Y: -750
+      Z: 280
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.34290731
+      Y: 1.34290731
+      Z: 1.34290731
+    }
+  }
+  ParentId: 5067386957373965594
+  ChildIds: 4550123090625496367
+  ChildIds: 10150066940248318537
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 1917205299206211930
+    SubobjectId: 6583402213672967352
+    InstanceId: 275165851245066593
+    TemplateId: 6349500029874905781
+  }
+}
+Objects {
+  Id: 10150066940248318537
+  Name: "Level"
+  Transform {
+    Location {
+      X: -5.00026512
+      Y: 114.485382
+    }
+    Rotation {
+      Pitch: 0.999987423
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10021514924478819374
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Text {
+    Text: "XX:XX:XX"
+    Color {
+      R: 1
+      G: 1
+      B: 1
+      A: 1
+    }
+    HorizontalSize: 1
+    VerticalSize: 1
+    HorizontalAlignment {
+      Value: "mc:ecoretexthorizontalalign:left"
+    }
+    VerticalAlignment {
+      Value: "mc:ecoretextverticalalign:center"
+    }
+  }
+  InstanceHistory {
+    SelfId: 12255130218452670205
+    SubobjectId: 16993560657323836191
+    InstanceId: 275165851245066593
+    TemplateId: 6349500029874905781
+  }
+}
+Objects {
+  Id: 4550123090625496367
+  Name: "PlayerName"
+  Transform {
+    Location {
+      X: -5.00019073
+      Y: -124.827
+    }
+    Rotation {
+      Pitch: 0.999987423
+      Yaw: -179.999954
+      Roll: -5.08966242e-14
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10021514924478819374
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Text {
+    Text: "Placeholder"
+    Color {
+      R: 1
+      G: 1
+      B: 1
+      A: 1
+    }
+    HorizontalSize: 1
+    VerticalSize: 1
+    HorizontalAlignment {
+      Value: "mc:ecoretexthorizontalalign:left"
+    }
+    VerticalAlignment {
+      Value: "mc:ecoretextverticalalign:center"
+    }
+  }
+  InstanceHistory {
+    SelfId: 12941788040449082953
+    SubobjectId: 17464342281934623659
+    InstanceId: 275165851245066593
+    TemplateId: 6349500029874905781
+  }
+}
+Objects {
+  Id: 12263918230949970709
+  Name: "World Text"
+  Transform {
+    Location {
+      X: -3704.06396
+      Y: -691.655518
+      Z: 310.458984
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5067386957373965594
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Text {
+    Text: "-------------------------------------------------------------"
+    Color {
+      R: 1
+      G: 1
+      B: 1
+      A: 1
+    }
+    HorizontalSize: 1
+    VerticalSize: 1
+    HorizontalAlignment {
+      Value: "mc:ecoretexthorizontalalign:center"
+    }
+    VerticalAlignment {
+      Value: "mc:ecoretextverticalalign:center"
+    }
+  }
+}
+Objects {
+  Id: 7018919052209231086
+  Name: "Place2"
+  Transform {
+    Location {
+      X: -3700.00024
+      Y: -750
+      Z: 340
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.34290731
+      Y: 1.34290731
+      Z: 1.34290731
+    }
+  }
+  ParentId: 5067386957373965594
+  ChildIds: 12863999253718294785
+  ChildIds: 10162534796614941531
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 1917205299206211930
+    SubobjectId: 6583402213672967352
+    InstanceId: 275165851245066593
+    TemplateId: 6349500029874905781
+  }
+}
+Objects {
+  Id: 10162534796614941531
+  Name: "Level"
+  Transform {
+    Location {
+      X: -5.00026512
+      Y: 114.485382
+    }
+    Rotation {
+      Pitch: 0.999987423
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7018919052209231086
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Text {
+    Text: "XX:XX:XX"
+    Color {
+      R: 1
+      G: 1
+      B: 1
+      A: 1
+    }
+    HorizontalSize: 1
+    VerticalSize: 1
+    HorizontalAlignment {
+      Value: "mc:ecoretexthorizontalalign:left"
+    }
+    VerticalAlignment {
+      Value: "mc:ecoretextverticalalign:center"
+    }
+  }
+  InstanceHistory {
+    SelfId: 12255130218452670205
+    SubobjectId: 16993560657323836191
+    InstanceId: 275165851245066593
+    TemplateId: 6349500029874905781
+  }
+}
+Objects {
+  Id: 12863999253718294785
+  Name: "PlayerName"
+  Transform {
+    Location {
+      X: -5.00019073
+      Y: -124.827
+    }
+    Rotation {
+      Pitch: 0.999987423
+      Yaw: -179.999954
+      Roll: -5.08966242e-14
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7018919052209231086
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Text {
+    Text: "Placeholder"
+    Color {
+      R: 1
+      G: 1
+      B: 1
+      A: 1
+    }
+    HorizontalSize: 1
+    VerticalSize: 1
+    HorizontalAlignment {
+      Value: "mc:ecoretexthorizontalalign:left"
+    }
+    VerticalAlignment {
+      Value: "mc:ecoretextverticalalign:center"
+    }
+  }
+  InstanceHistory {
+    SelfId: 12941788040449082953
+    SubobjectId: 17464342281934623659
+    InstanceId: 275165851245066593
+    TemplateId: 6349500029874905781
+  }
+}
+Objects {
+  Id: 8661486383493377286
+  Name: "World Text"
+  Transform {
+    Location {
+      X: -3704.06445
+      Y: -691.655518
+      Z: 369.55957
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5067386957373965594
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Text {
+    Text: "-------------------------------------------------------------"
+    Color {
+      R: 1
+      G: 1
+      B: 1
+      A: 1
+    }
+    HorizontalSize: 1
+    VerticalSize: 1
+    HorizontalAlignment {
+      Value: "mc:ecoretexthorizontalalign:center"
+    }
+    VerticalAlignment {
+      Value: "mc:ecoretextverticalalign:center"
+    }
+  }
+}
+Objects {
+  Id: 1917205299206211930
+  Name: "Place1"
+  Transform {
+    Location {
+      X: -3700
+      Y: -750
+      Z: 399.484375
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.34290731
+      Y: 1.34290731
+      Z: 1.34290731
+    }
+  }
+  ParentId: 5067386957373965594
+  ChildIds: 12941788040449082953
+  ChildIds: 12255130218452670205
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 1917205299206211930
+    SubobjectId: 6583402213672967352
+    InstanceId: 275165851245066593
+    TemplateId: 6349500029874905781
+  }
+}
+Objects {
+  Id: 12255130218452670205
+  Name: "Level"
+  Transform {
+    Location {
+      X: -5.0000329
+      Y: 114.485329
+    }
+    Rotation {
+      Pitch: 0.999987423
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1917205299206211930
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Text {
+    Text: "XX:XX:XX"
+    Color {
+      R: 1
+      G: 1
+      B: 1
+      A: 1
+    }
+    HorizontalSize: 1
+    VerticalSize: 1
+    HorizontalAlignment {
+      Value: "mc:ecoretexthorizontalalign:left"
+    }
+    VerticalAlignment {
+      Value: "mc:ecoretextverticalalign:center"
+    }
+  }
+  InstanceHistory {
+    SelfId: 12255130218452670205
+    SubobjectId: 16993560657323836191
+    InstanceId: 275165851245066593
+    TemplateId: 6349500029874905781
+  }
+}
+Objects {
+  Id: 12941788040449082953
+  Name: "PlayerName"
+  Transform {
+    Location {
+      X: -5.00000715
+      Y: -124.826782
+    }
+    Rotation {
+      Pitch: 0.999987423
+      Yaw: -179.999954
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1917205299206211930
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Text {
+    Text: "Placeholder"
+    Color {
+      R: 1
+      G: 1
+      B: 1
+      A: 1
+    }
+    HorizontalSize: 1
+    VerticalSize: 1
+    HorizontalAlignment {
+      Value: "mc:ecoretexthorizontalalign:left"
+    }
+    VerticalAlignment {
+      Value: "mc:ecoretextverticalalign:center"
+    }
+  }
+  InstanceHistory {
+    SelfId: 12941788040449082953
+    SubobjectId: 17464342281934623659
+    InstanceId: 275165851245066593
+    TemplateId: 6349500029874905781
+  }
+}
+Objects {
+  Id: 5708395135787525783
+  Name: "LeaderboardServer"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11658295699976717397
+  ChildIds: 17660523488197793042
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+    Type: Server
+  }
+  InstanceHistory {
+    SelfId: 5708395135787525783
+    SubobjectId: 1080848795270345589
+    InstanceId: 275165851245066593
+    TemplateId: 6349500029874905781
+  }
+}
+Objects {
+  Id: 17660523488197793042
+  Name: "GoldLeaderboardServer"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5708395135787525783
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:AjDateTimeAPI"
+      AssetReference {
+        Id: 5639284499963982187
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 14662230161377777158
+    }
+  }
+  InstanceHistory {
+    SelfId: 17660523488197793042
+    SubobjectId: 13029320446907597040
+    InstanceId: 275165851245066593
+    TemplateId: 6349500029874905781
+  }
+}
+Objects {
   Id: 16507600671481062074
   Name: "Go_Through"
   Transform {

@@ -63,14 +63,14 @@ Objects {
     Location {
       X: -3913.61499
       Y: -7836.13477
-      Z: 9532.3623
+      Z: -1306.64307
     }
     Rotation {
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 0.638285
+      Y: 0.638285
+      Z: 0.638285
     }
   }
   ParentId: 11404857991553905137
@@ -94,12 +94,12 @@ Objects {
   Name: "Prism - 3-Sided Convex"
   Transform {
     Location {
-      X: 226.279953
-      Y: 14.5576782
-      Z: 3.5546875
+      X: -11.1266756
+      Y: -310.192963
+      Z: 3.55471444
     }
     Rotation {
-      Pitch: -52.9152794
+      Pitch: -52.9152832
       Yaw: 12.1415377
       Roll: -40.7417908
     }
@@ -136,11 +136,11 @@ Objects {
   Name: "Prism - 3-Sided Convex"
   Transform {
     Location {
-      X: -93.9525452
-      Y: 203.721741
+      X: -331.359192
+      Y: -121.028923
     }
     Rotation {
-      Pitch: -73.5182648
+      Pitch: -73.5182495
       Yaw: 168.141113
       Roll: 169.061203
     }
@@ -177,9 +177,9 @@ Objects {
   Name: "Prism - 3-Sided Polished"
   Transform {
     Location {
-      X: 6.69229126
-      Y: -3.02426147
-      Z: 141.298828
+      X: -230.714355
+      Y: -327.774841
+      Z: 141.298798
     }
     Rotation {
       Yaw: -38.2614136
@@ -217,8 +217,8 @@ Objects {
   Name: "Prism - 3-Sided"
   Transform {
     Location {
-      X: 53.221405
-      Y: -235.332031
+      X: -184.185211
+      Y: -560.082764
       Z: 487.074219
     }
     Rotation {
@@ -256,8 +256,8 @@ Objects {
   Name: "Prism - 3-Sided"
   Transform {
     Location {
-      X: -184.143738
-      Y: 30.3441772
+      X: -421.550385
+      Y: -294.406403
       Z: 476.306641
     }
     Rotation {
