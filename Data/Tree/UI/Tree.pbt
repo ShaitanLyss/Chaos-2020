@@ -5044,7 +5044,7 @@ Objects {
       }
     }
     Text {
-      Label: "Press E to view"
+      Label: "Press Tab to view"
       Color {
         R: 1
         G: 1

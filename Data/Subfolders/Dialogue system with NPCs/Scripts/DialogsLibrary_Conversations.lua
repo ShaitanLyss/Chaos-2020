@@ -70,8 +70,8 @@ function Dialogs.RegisterDialogue()
 	API.AddText(id, "Well done.", YES_ANIMATION)
 	API.AddText(id, "With the challenge complete, "..
 	"the path forward opens.")
-	API.AddText(id, "I wonder...\n"..
-	"How will you approach future challenges?")
+	API.AddText(id, "I wonder...")
+	API.AddText(id, "How will you approach future challenges?")
 	API.AddText(id, "I expect great things from you.")
 	API.AddText(id, "Oh, by the way...")
 	API.AddText(id, "Do know that you will not be able"..
@@ -102,15 +102,16 @@ function Dialogs.RegisterDialogue()
 	API.RegisterDialogueId(id)
 	API.AddText(id, "Well well well, "..
 	"you look a little tired.")
-	API.AddText(id, "Don\'t worry!\n"..
-	"I\'m sure all of that effort will pay off in time.")
+	API.AddText(id, "Don\'t worry!")
+	API.AddText(id, "I\'m sure all of that effort "..
+	"will pay off in time.")
 	
 	-- Post-Game 2 / Repeat
 	id = "DeityGame3Lv1_repeat"
 	API.RegisterDialogueId(id)
-	API.AddText(id, "Don\'t worry!\n"..
-	"I\'m sure all of that effort will pay off in time.")
-	
+	API.AddText(id, "Don\'t worry!")
+	API.AddText(id, "I\'m sure all of that effort "..
+	"will pay off in time.")	
 	
 	-- Lv. 1 - Old Man
 	-- Pre-Challenge / Interaction 1
@@ -240,7 +241,7 @@ function Dialogs.RegisterDialogue()
 	id = "NPC2PostLv1"
 	API.RegisterDialogueId(id)
 	API.AddText(id, "I see the ladder is back, but not dad.")
-	API.AddText(id, "It\'s the wood, isn\'t it?\n"..
+	API.AddText(id, "It\'s the wood, isn\'t it? "..
 	"The wood took my father.")
 	API.AddText(id, "I want my father back!", CRY_ANIMATION)
 	
@@ -255,7 +256,7 @@ function Dialogs.RegisterDialogue()
 	-- Normal Dialogue
 	id = "NPC3Lv1"
 	API.RegisterDialogueId(id)
-	API.AddText(id, "Ran out of food...\nKids are starving...")
+	API.AddText(id, "Ran out of food... Kids are starving...")
 	API.AddText(id, "Gotta go pick up food and make dinner...")
 	
 	-- Post-Game / No Repeat
@@ -264,7 +265,8 @@ function Dialogs.RegisterDialogue()
 	API.AddText(id, "So I leave the market, "..
 	"take a nap on the bench, and THIS is what I see after "..
 	"waking up?!")
-	API.AddText(id, "Where am I?\nAre my kids ok?")
+	API.AddText(id, "Where am I?")
+	API.AddText(id, "Are my kids ok?")
 	API.AddText(id, "I have to get home. Quickly.")
 	
 	-- Post-Game / Repeat
@@ -293,7 +295,8 @@ function Dialogs.RegisterDialogue()
 	-- Post-Challenge / No Repeat
 	id = "DeityPostLv2"
 	API.RegisterDialogueId(id)
-	API.AddText(id, "Congratulations.\nI hope you came out unscathed.")
+	API.AddText(id, "Congratulations!", TALK_ANIMATION)
+	API.AddText(id, "I hope you came out unscathed.")
 	API.AddText(id, "Regardless, to show my gratitude, "..
 	"I have opened the path to the next section.")
 	API.AddText(id, "Please, continue your journey.", TALK_ANIMATION)
@@ -306,20 +309,20 @@ function Dialogs.RegisterDialogue()
 	-- Post-Game 1 / No Repeat
 	id = "DeityGame2Lv2"
 	API.RegisterDialogueId(id)
-	API.AddText(id, "Doing it again eh?\nExcellent work.", YES_ANIMATION)
-	API.AddText(id, "Continue to refine your skills.\n"..
-	"They will help you with the challenges ahead.")
+	API.AddText(id, "Doing it again eh? Excellent work.", YES_ANIMATION)
+	API.AddText(id, "Continue to refine your skills.", TALK_ANIMATION)
+	API.AddText(id, "They will help you with the challenges ahead.")
 	
 	-- Post-Game 1 / Repeat
 	id = "DeityGame2Lv2_repeat"
 	API.RegisterDialogueId(id)
-	API.AddText(id, "Continue to refine your skills.\n"..
-	"They will help you with the challenges ahead.")
+	API.AddText(id, "Continue to refine your skills.", TALK_ANIMATION)
+	API.AddText(id, "They will help you with the challenges ahead.")
 	
 	-- Post-Game 2 / No Repeat
 	id = "DeityGame3Lv2"
 	API.RegisterDialogueId(id)
-	API.AddText(id, "Third time\'s the charm.\n"..
+	API.AddText(id, "Third time\'s the charm. "..
 	"You seem to be pretty good at this.")
 	API.AddText(id, "That\'s good.")
 	API.AddText(id, "Just make sure you translate some "..
@@ -471,8 +474,8 @@ function Dialogs.RegisterDialogue()
 	-- Pre-Challenge / Interaction 1
 	id = "DeityPreLv3_1"
 	API.RegisterDialogueId(id)
-	API.AddText(id, "Well done!\n"..
-	"It seems you\'re already halway there!", YES_ANIMATION)
+	API.AddText(id, "Well done!")
+	API.AddText(id, "It seems you\'re already halway there!", YES_ANIMATION)
 	API.AddText(id, "For your next challenge, you must look "..
 	"inside yourself and face your personal demons.")
 	API.AddText(id, "I understand this may be a difficult task, "..
@@ -520,8 +523,8 @@ function Dialogs.RegisterDialogue()
 	-- Post-Game 2 / Interaction 2 - No Repeat
 	id = "DeityGame3Lv3_2"
 	API.RegisterDialogueId(id)
-	API.AddText(id, "Eh, I don\'t mind.\nPeople use time in various "..
-	"different ways.", TALK_ANIMATION)
+	API.AddText(id, "Eh, I don\'t mind. "..
+	"People use time in various ways.", TALK_ANIMATION)
 	API.AddText(id, "Time is a finite resource.")
 	API.AddText(id, "So long as you don't notice its passing, time is "..
 	"not being wasted.")
@@ -540,8 +543,9 @@ function Dialogs.RegisterDialogue()
 	id = "OldManPreLv3_1"
 	API.RegisterDialogueId(id)
 	API.AddText(id, "A little lonely around here, isn\'t it?")
-	API.AddText(id, "I hope you have been paying attention.\n"..
-	"I will be quizzing you on this information later.")
+	API.AddText(id, "I hope you have been paying attention.", 
+	TALK_ANIMATION)
+	API.AddText(id, "I will be quizzing you on this information later.")
 	
 	-- Pre-Challenge / Interaction 2
 	id = "OldManPreLv3_2"
@@ -559,7 +563,7 @@ function Dialogs.RegisterDialogue()
 	API.AddText(id, "Being starved for interaction and residing in "..
 	"the dark part of town led to the mental decline of this area\'s "..
 	"residents.")
-	API.AddText(id, "It\'s quite a shame too.\n"..
+	API.AddText(id, "It\'s quite a shame too... "..
 	"There\'s a lot of bright people around here.")
 	API.AddText(id, "Unfortunately, all of them are locked in their "..
 	"minds, searching for a key that doesn\'t exist within themselves, "..
@@ -569,16 +573,16 @@ function Dialogs.RegisterDialogue()
 	id = "OldManPreLv3_4"
 	API.RegisterDialogueId(id)
 	API.AddText(id, "Don\'t let this discourage you.")
-	API.AddText(id, "No matter what you see around here...\n"..
-	"No matter what happens...\n")
+	API.AddText(id, "No matter what you see around here... "..
+	"No matter what happens...")
 	API.AddText(id, "You will never be alone.")
 	API.AddText(id, "Rememeber that.")
 	
 	-- Pre-Challenge / Interaction 4 - Repeat
 	id = "OldManPreLv3_repeat"
 	API.RegisterDialogueId(id)
-	API.AddText(id, "No matter what you see around here...\n"..
-	"No matter what happens...\n")
+	API.AddText(id, "No matter what you see around here... "..
+	"No matter what happens...")
 	API.AddText(id, "You will never be alone.")
 	API.AddText(id, "Rememeber that.")
 	
@@ -612,8 +616,8 @@ function Dialogs.RegisterDialogue()
 	-- Normal Dialogue / Part 2
 	id = "NPC1Lv3Part2"
 	API.RegisterDialogueId(id)
-	API.AddText(id, "I remember a child...\n"..
-	"I wonder what he\'s become...")
+	API.AddText(id, "I remember a child...")
+	API.AddText(id, "I wonder what he\'s become...")
 	API.AddText(id, "He was so cheerful...")
 	
 	-- Normal Dialogue / Part 3
@@ -630,22 +634,24 @@ function Dialogs.RegisterDialogue()
 	-- Normal Dialogue / Part 5
 	id = "NPC1Lv3Part5"
 	API.RegisterDialogueId(id)
-	API.AddText(id, "So...\nSo dark...", CRY_ANIMATION)
+	API.AddText(id, "So... So dark...", CRY_ANIMATION)
 	
 	-- Post-Game / Part 1
 	id = "NPC1Game2Lv3Part1"
 	API.RegisterDialogueId(id)
-	API.AddText(id, "Things seem...\ndifferent.")
+	API.AddText(id, "Things seem... different.")
 	
 	-- Post-Game / Part 2
 	id = "NPC1Game2Lv3Part2"
 	API.RegisterDialogueId(id)
-	API.AddText(id, "A cure...\nWhere is it?")
+	API.AddText(id, "A cure...")
+	API.AddText(id, "Where is it?")
 	
 	-- Post-Game / Part 3
 	id = "NPC1Game2Lv3Part3"
 	API.RegisterDialogueId(id)
-	API.AddText(id, "You...\nYou\'re alive")
+	API.AddText(id, "You...")
+	API.AddText(id, "You\'re alive")
 	
 	-- Post-Game / Part 4 - Repeats
 	id = "NPC1Game2Lv3Part4"
