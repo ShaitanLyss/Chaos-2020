@@ -62,6 +62,7 @@ Objects {
   ParentId: 14792647947751181369
   ChildIds: 9138693326573119774
   ChildIds: 15100817093088856507
+  ChildIds: 10866409966391389999
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -77,6 +78,59 @@ Objects {
     SubobjectId: 5073100564011509672
     InstanceId: 5100835390174757607
     TemplateId: 14125914624941304983
+  }
+}
+Objects {
+  Id: 10866409966391389999
+  Name: "L1_Platform"
+  Transform {
+    Location {
+      X: -9403.0957
+      Y: 431.584473
+      Z: 1399.51624
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16048844520376875244
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 10448264138309517194
+      value {
+        Overrides {
+          Name: "Name"
+          String: "L1_Platform"
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Z: 99.4326172
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13982914773098688377
+    }
   }
 }
 Objects {

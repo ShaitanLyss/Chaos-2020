@@ -1,6 +1,46 @@
 ﻿Name: "Spots"
 RootId: 7234109698507287551
 Objects {
+  Id: 8302882738896427548
+  Name: "Urban Plank Debris 02"
+  Transform {
+    Location {
+      X: 1339.41943
+      Y: -1892.96875
+      Z: 260.169952
+    }
+    Rotation {
+      Yaw: -33.5202637
+    }
+    Scale {
+      X: 0.64271605
+      Y: 1.00000346
+      Z: 1
+    }
+  }
+  ParentId: 7234109698507287551
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 17112985054030154012
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
   Id: 3282953327965546199
   Name: "ClientContext"
   Transform {
@@ -47,9 +87,9 @@ Objects {
       Roll: 172.710159
     }
     Scale {
-      X: 1.24135101
-      Y: 2.06891894
-      Z: 2.57488942
+      X: 1.24135184
+      Y: 2.06891847
+      Z: 1.39892924
     }
   }
   ParentId: 3282953327965546199
@@ -71,7 +111,6 @@ Objects {
     StaticMesh {
       Physics {
         IsEnabled: true
-        OverrideMass: true
         Mass: 0.4
       }
     }
@@ -116,7 +155,6 @@ Objects {
     StaticMesh {
       Physics {
         IsEnabled: true
-        OverrideMass: true
         Mass: 0.4
       }
     }
@@ -127,18 +165,18 @@ Objects {
   Name: "Urban Plank Debris 03"
   Transform {
     Location {
-      X: 90.6657715
-      Y: 225.111816
-      Z: 59.5427856
+      X: 156.624023
+      Y: 173.124023
+      Z: 49.5426941
     }
     Rotation {
-      Pitch: 22.5000019
-      Yaw: 127.276375
+      Pitch: 7.01095676
+      Yaw: 127.276047
     }
     Scale {
-      X: 2.06891584
-      Y: 2.06891894
-      Z: 2.57488942
+      X: 2.06891894
+      Y: 2.06891632
+      Z: 0.992669284
     }
   }
   ParentId: 3282953327965546199
@@ -160,7 +198,6 @@ Objects {
     StaticMesh {
       Physics {
         IsEnabled: true
-        OverrideMass: true
         Mass: 0.4
       }
     }
@@ -181,9 +218,9 @@ Objects {
       Roll: 9.40809631
     }
     Scale {
-      X: 1.6551342
-      Y: 2.06891894
-      Z: 2.57488942
+      X: 1.65513659
+      Y: 2.06891632
+      Z: 0.992669284
     }
   }
   ParentId: 3282953327965546199
@@ -205,7 +242,6 @@ Objects {
     StaticMesh {
       Physics {
         IsEnabled: true
-        OverrideMass: true
         Mass: 0.4
       }
     }
@@ -216,19 +252,19 @@ Objects {
   Name: "Urban Plank Debris 01"
   Transform {
     Location {
-      X: -140.793457
-      Y: -168.709961
-      Z: 123.336395
+      X: -81.8855
+      Y: -259.761719
+      Z: 165.545502
     }
     Rotation {
-      Pitch: -63.8131714
-      Yaw: -93.3494873
-      Roll: -9.76022339
+      Pitch: -49.6648254
+      Yaw: -97.0555725
+      Roll: -6.6373291
     }
     Scale {
-      X: 1.65513015
-      Y: 2.06891823
-      Z: 2.3124969
+      X: 1.65512562
+      Y: 2.06891584
+      Z: 1.3468734
     }
   }
   ParentId: 3282953327965546199
@@ -250,7 +286,6 @@ Objects {
     StaticMesh {
       Physics {
         IsEnabled: true
-        OverrideMass: true
         Mass: 0.4
       }
     }
@@ -2273,9 +2308,9 @@ Objects {
       Yaw: 127.276482
     }
     Scale {
-      X: 2.06891203
-      Y: 2.06891203
-      Z: 2.06891203
+      X: 2.06891513
+      Y: 2.06890941
+      Z: 0.797605336
     }
   }
   ParentId: 7234109698507287551

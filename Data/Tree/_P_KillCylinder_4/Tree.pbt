@@ -5,8 +5,8 @@ Objects {
   Name: "Mesh"
   Transform {
     Location {
-      X: 31.7605953
-      Y: -10.8692856
+      X: 31.7606
+      Y: -10.8692865
       Z: -89.7914429
     }
     Rotation {
@@ -14,7 +14,7 @@ Objects {
     Scale {
       X: 0.7
       Y: 0.7
-      Z: 10.0066442
+      Z: 9.69538593
     }
   }
   ParentId: 8141045852989790784

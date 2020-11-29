@@ -1,6 +1,66 @@
 ﻿Name: "C2-P_93"
 RootId: 6906494961255926961
 Objects {
+  Id: 10607378696702726302
+  Name: "L1_Platform"
+  Transform {
+    Location {
+      X: 6031.97217
+      Y: -6912.88672
+      Z: 271.323547
+    }
+    Rotation {
+      Yaw: 18.7805538
+      Roll: 3.28096248e-05
+    }
+    Scale {
+      X: 0.999999881
+      Y: 0.999999881
+      Z: 1
+    }
+  }
+  ParentId: 6906494961255926961
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 10448264138309517194
+      value {
+        Overrides {
+          Name: "Name"
+          String: "L1_Platform"
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+            Pitch: 6.83018879e-06
+            Yaw: 18.7805805
+            Roll: 3.94307535e-05
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.999999881
+            Y: 0.999999881
+            Z: 1
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 2484.2832
+            Y: -14737.2295
+            Z: -605.35791
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13982914773098688377
+    }
+  }
+}
+Objects {
   Id: 2532838489505677781
   Name: "PlatformCheckPoint"
   Transform {
@@ -136,12 +196,12 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 16646680597962164372
+        Id: 12480403223543061490
       }
     }
     Overrides {
       Name: "ma:Shared_BaseMaterial:smart"
-      Bool: false
+      Bool: true
     }
   }
   WantsNetworking: true

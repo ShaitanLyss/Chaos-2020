@@ -131,6 +131,7 @@ Objects {
     }
   }
   ParentId: 7970068308325393974
+  ChildIds: 6913736093811568177
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -170,5 +171,60 @@ Objects {
     InstanceId: 16117614151007411202
     TemplateId: 18334579412935951086
     WasRoot: true
+  }
+}
+Objects {
+  Id: 6913736093811568177
+  Name: "L1_Platform"
+  Transform {
+    Location {
+      X: -757.060059
+      Y: 8195.83594
+      Z: 980.345
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10268948551292007940
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 10448264138309517194
+      value {
+        Overrides {
+          Name: "Name"
+          String: "L1_Platform"
+        }
+        Overrides {
+          Name: "Rotation"
+          Rotator {
+          }
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 0.222213045
+            Y: 0.222222224
+            Z: 2.84818292
+          }
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 6.82003069
+            Y: 24.7724609
+            Z: 293.935822
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 13982914773098688377
+    }
   }
 }

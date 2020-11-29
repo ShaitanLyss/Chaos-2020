@@ -402,6 +402,8 @@ Objects {
   ChildIds: 8160452676438116904
   ChildIds: 11454280204067308112
   ChildIds: 16827729749185432995
+  ChildIds: 17069729444221820863
+  ChildIds: 15010489616770969232
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -409,6 +411,106 @@ Objects {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
   NetworkContext {
+  }
+}
+Objects {
+  Id: 15010489616770969232
+  Name: "Point Light"
+  Transform {
+    Location {
+      X: -6052.39453
+      Y: -69.7651367
+      Z: -50.733429
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5254811617204239850
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Light {
+    Intensity: 50
+    Color {
+      R: 0.9
+      G: 0.160927176
+      A: 1
+    }
+    VolumetricIntensity: 5
+    TeamSettings {
+    }
+    Light {
+      Temperature: 6500
+      LocalLight {
+        AttenuationRadius: 688.626221
+        PointLight {
+          SourceRadius: 20
+          SoftSourceRadius: 20
+          FallOffExponent: 8
+          UseFallOffExponent: true
+        }
+      }
+      MaxDrawDistance: 5000
+      MaxDistanceFadeRange: 1000
+    }
+  }
+}
+Objects {
+  Id: 17069729444221820863
+  Name: "Point Light"
+  Transform {
+    Location {
+      X: -5992.97656
+      Y: 93.3198242
+      Z: 252.715942
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5254811617204239850
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Light {
+    Intensity: 50
+    Color {
+      R: 0.9
+      G: 0.160927176
+      A: 1
+    }
+    VolumetricIntensity: 5
+    TeamSettings {
+    }
+    Light {
+      Temperature: 6500
+      LocalLight {
+        AttenuationRadius: 688.626221
+        PointLight {
+          SourceRadius: 20
+          SoftSourceRadius: 20
+          FallOffExponent: 8
+          UseFallOffExponent: true
+        }
+      }
+      MaxDrawDistance: 5000
+      MaxDistanceFadeRange: 1000
+    }
   }
 }
 Objects {
@@ -1414,9 +1516,19 @@ Objects {
   }
 }
 Objects {
-  Id: 6473136026829744648
+  Id: 875848258178843
   Name: "E_BurningTree_Oak"
   Transform {
+    Location {
+      X: -1158.48584
+      Y: -2255.37451
+      Z: 95.8916321
+    }
+    Rotation {
+      Pitch: 18.0751171
+      Yaw: -85.749588
+      Roll: 6.14789915
+    }
     Scale {
       X: 1
       Y: 1
@@ -1424,61 +1536,477 @@ Objects {
     }
   }
   ParentId: 10910845249869573806
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 4845555115822503453
-      value {
-        Overrides {
-          Name: "AutoPlay"
-          Bool: false
-        }
+  ChildIds: 17462670048031995465
+  ChildIds: 10448309266968233779
+  ChildIds: 11566486177908588964
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 875848258178843
+    SubobjectId: 10807362143353798128
+    InstanceId: 6473136026829744648
+    TemplateId: 4396061058153971384
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 11566486177908588964
+  Name: "Fx"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 875848258178843
+  ChildIds: 16102268644639899436
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+  InstanceHistory {
+    SelfId: 11566486177908588964
+    SubobjectId: 3853959700859073359
+    InstanceId: 6473136026829744648
+    TemplateId: 4396061058153971384
+  }
+}
+Objects {
+  Id: 16102268644639899436
+  Name: "FX_OptiFx"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Pitch: 6.83018879e-06
+      Yaw: 2.13441254e-07
+      Roll: -3.41509367e-05
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 11566486177908588964
+  ChildIds: 15476255889655620854
+  ChildIds: 6130418883643194318
+  ChildIds: 15894890021579372691
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:farDensity"
+      Float: 5
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4020526502442220911
+    }
+  }
+  InstanceHistory {
+    SelfId: 16102268644639899436
+    SubobjectId: 5372418376305921479
+    InstanceId: 6473136026829744648
+    TemplateId: 4396061058153971384
+  }
+}
+Objects {
+  Id: 15894890021579372691
+  Name: "Fire Volume VFX"
+  Transform {
+    Location {
+      X: -304.317108
+      Y: 105.963531
+      Z: 430.266022
+    }
+    Rotation {
+      Pitch: -2.65914917
+      Yaw: 69.4935913
+      Roll: 4.6318264
+    }
+    Scale {
+      X: 3.42493391
+      Y: 3.46573257
+      Z: 6.27148199
+    }
+  }
+  ParentId: 16102268644639899436
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Density"
+      Float: 6.3416419
+    }
+    Overrides {
+      Name: "bp:Wind Speed"
+      Vector {
+        X: 50
+        Y: -500
+        Z: 400
       }
     }
-    ParameterOverrideMap {
-      key: 10807362143353798128
-      value {
-        Overrides {
-          Name: "Name"
-          String: "E_BurningTree_Oak"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -1158.48584
-            Y: -2255.37451
-            Z: 95.8916321
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Pitch: 18.0751171
-            Yaw: -85.749588
-            Roll: 6.14789915
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 6474768715633236406
+    }
+    TeamSettings {
+    }
+    Vfx {
+      AutoPlay: true
+    }
+  }
+  InstanceHistory {
+    SelfId: 6130418883643194318
+    SubobjectId: 13901474565490673957
+    InstanceId: 6473136026829744648
+    TemplateId: 4396061058153971384
+  }
+}
+Objects {
+  Id: 6130418883643194318
+  Name: "Fire Volume VFX"
+  Transform {
+    Location {
+      X: -85.6540375
+      Y: 19.6604
+      Z: 797.413
+    }
+    Rotation {
+      Pitch: 6.22968531
+      Yaw: 68.1338348
+      Roll: 3.66236
+    }
+    Scale {
+      X: 3.42493391
+      Y: 3.46573257
+      Z: 6.27148199
+    }
+  }
+  ParentId: 16102268644639899436
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Density"
+      Float: 6.3416419
+    }
+    Overrides {
+      Name: "bp:Wind Speed"
+      Vector {
+        X: 50
+        Y: -500
+        Z: 400
       }
     }
-    ParameterOverrideMap {
-      key: 13901474565490673957
-      value {
-        Overrides {
-          Name: "AutoPlay"
-          Bool: false
-        }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 6474768715633236406
+    }
+    TeamSettings {
+    }
+    Vfx {
+      AutoPlay: true
+    }
+  }
+  InstanceHistory {
+    SelfId: 6130418883643194318
+    SubobjectId: 13901474565490673957
+    InstanceId: 6473136026829744648
+    TemplateId: 4396061058153971384
+  }
+}
+Objects {
+  Id: 15476255889655620854
+  Name: "Fire Volume VFX"
+  Transform {
+    Location {
+      X: 38.4381638
+      Y: 38.8247223
+      Z: 211.093414
+    }
+    Rotation {
+      Pitch: 6.22967863
+      Yaw: 68.1338348
+      Roll: 3.66238737
+    }
+    Scale {
+      X: 8.77265263
+      Y: 8.42206
+      Z: 3.31925917
+    }
+  }
+  ParentId: 16102268644639899436
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Density"
+      Float: 6.3416419
+    }
+    Overrides {
+      Name: "bp:Wind Speed"
+      Vector {
+        X: 50
+        Y: -500
+        Z: 400
       }
     }
-    TemplateAsset {
-      Id: 4396061058153971384
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 6474768715633236406
     }
+    TeamSettings {
+    }
+    Vfx {
+      AutoPlay: true
+    }
+  }
+  InstanceHistory {
+    SelfId: 15476255889655620854
+    SubobjectId: 4845555115822503453
+    InstanceId: 6473136026829744648
+    TemplateId: 4396061058153971384
+  }
+}
+Objects {
+  Id: 10448309266968233779
+  Name: "lights"
+  Transform {
+    Location {
+      X: -16.0636597
+      Y: -387.700806
+      Z: 443.651276
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 875848258178843
+  ChildIds: 5799716111729431837
+  ChildIds: 5018558608800486796
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+  InstanceHistory {
+    SelfId: 10448309266968233779
+    SubobjectId: 362456086336599512
+    InstanceId: 6473136026829744648
+    TemplateId: 4396061058153971384
+  }
+}
+Objects {
+  Id: 5018558608800486796
+  Name: "Point Light"
+  Transform {
+    Location {
+      X: 2.66552734
+      Y: 114.72168
+      Z: 769.415405
+    }
+    Rotation {
+      Pitch: 4.81493473
+      Yaw: 85.9453583
+      Roll: -18.4626217
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10448309266968233779
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Light {
+    Intensity: 7.31868505
+    Color {
+      R: 0.910545051
+      G: 0.206079975
+      B: 0.919999957
+      A: 1
+    }
+    VolumetricIntensity: 5
+    TeamSettings {
+    }
+    Light {
+      Temperature: 6500
+      LocalLight {
+        AttenuationRadius: 1327.01733
+        PointLight {
+          SourceRadius: 20
+          SoftSourceRadius: 20
+          FallOffExponent: 8
+          UseFallOffExponent: true
+        }
+      }
+      MaxDrawDistance: 5000
+      MaxDistanceFadeRange: 1000
+    }
+  }
+  InstanceHistory {
+    SelfId: 5018558608800486796
+    SubobjectId: 15014414565043414887
+    InstanceId: 6473136026829744648
+    TemplateId: 4396061058153971384
+  }
+}
+Objects {
+  Id: 5799716111729431837
+  Name: "Point Light"
+  Transform {
+    Location {
+      X: -2.66601563
+      Y: -114.720703
+    }
+    Rotation {
+      Pitch: 4.81493473
+      Yaw: 85.9453583
+      Roll: -18.462635
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10448309266968233779
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Light {
+    Intensity: 50
+    Color {
+      R: 0.919999957
+      G: 0.127947
+      A: 1
+    }
+    VolumetricIntensity: 5
+    TeamSettings {
+    }
+    Light {
+      Temperature: 6500
+      LocalLight {
+        AttenuationRadius: 1000
+        PointLight {
+          SourceRadius: 20
+          SoftSourceRadius: 20
+          FallOffExponent: 8
+          UseFallOffExponent: true
+        }
+      }
+      MaxDrawDistance: 5000
+      MaxDistanceFadeRange: 1000
+    }
+  }
+  InstanceHistory {
+    SelfId: 5799716111729431837
+    SubobjectId: 14232730636634499062
+    InstanceId: 6473136026829744648
+    TemplateId: 4396061058153971384
+  }
+}
+Objects {
+  Id: 17462670048031995465
+  Name: "Tree Oak Bare 01"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.22733414
+      Y: 1.22733414
+      Z: 1.22733414
+    }
+  }
+  ParentId: 875848258178843
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Nature_Trunk:id"
+      AssetReference {
+        Id: 224266157351479866
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 17663353483073332670
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 17462670048031995465
+    SubobjectId: 7471392528572990626
+    InstanceId: 6473136026829744648
+    TemplateId: 4396061058153971384
   }
 }
 Objects {

@@ -1,6 +1,39 @@
 ﻿Name: "Q4"
 RootId: 10390371329247681140
 Objects {
+  Id: 6338815440500934726
+  Name: "LVL1"
+  Transform {
+    Location {
+      X: 1812.18457
+      Y: -1320.92041
+      Z: -919.720093
+    }
+    Rotation {
+      Pitch: -6.83018879e-06
+      Yaw: -0.81702
+      Roll: 1.8047665e-06
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10390371329247681140
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "LVL1_3"
+  }
+}
+Objects {
   Id: 1450751409615459384
   Name: "C2-P_108"
   Transform {
