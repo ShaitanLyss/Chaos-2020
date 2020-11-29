@@ -226,8 +226,8 @@ function Dialogs.RegisterDialogue()
 	id = "NPC2PreLv1_2"
 	API.RegisterDialogueId(id)
 	API.AddText(id, "Dad tried to repair this ladder once.")
-	API.AddText(id, "He was constantly mumbling to himself about how, "..
-	"\'That can\'t possibly be the only material around here.\'")
+	API.AddText(id, "He was constantly mumbling to himself about how "..
+	"\"that can\'t possibly be the only material around here.\"")
 	API.AddText(id, "Eventually, he went off on his own and "..
 	"never came back.")
 	API.AddText(id, "I miss him.", CRY_ANIMATION)
