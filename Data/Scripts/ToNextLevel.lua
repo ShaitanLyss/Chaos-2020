@@ -6,7 +6,7 @@ local Lobby_SpawnPoint = spawnPlaces:FindChildByName("Lobby_SpawnPoint")
 
 local lvlFinished = script.parent
 local lvlFinishedTrigger =  lvlFinished:FindChildByName("Trigger")
-local player = Game.FindNearestPlayer(lvlFinishedTrigger:GetWorldPosition())
+local player 
 
 local broken = script:GetCustomProperty("broken"):WaitForObject()
 local fixed = script:GetCustomProperty("fixed"):WaitForObject()
@@ -105,7 +105,8 @@ lvlFinishedTrigger.interactedEvent:Connect(OnInteracted)
 
 
 
-function OnPlayerJoined(player)
+function OnPlayerJoined(other)
+    player = other
     toStart = true
 end
 
