@@ -3118,31 +3118,31 @@ Objects {
     }
     Overrides {
       Name: "cs:1"
-      String: "DeityPreLvl1"
+      String: ""
     }
     Overrides {
       Name: "cs:2"
-      String: "DeityPostLvl1"
+      String: ""
     }
     Overrides {
       Name: "cs:3"
-      String: "DeityPostLvl1_repeat"
+      String: ""
     }
     Overrides {
       Name: "cs:4"
-      String: "DeityGame2Lv1"
+      String: ""
     }
     Overrides {
       Name: "cs:5"
-      String: "DeityGame2Lv1_repeat"
+      String: ""
     }
     Overrides {
       Name: "cs:6"
-      String: "DeityGame3Lv1"
+      String: ""
     }
     Overrides {
       Name: "cs:7"
-      String: "DeityGame3Lv1_repeat"
+      String: ""
     }
     Overrides {
       Name: "cs:Behavior"
@@ -3606,31 +3606,31 @@ Objects {
     }
     Overrides {
       Name: "cs:1"
-      String: "DeityPreLvl1"
+      String: ""
     }
     Overrides {
       Name: "cs:2"
-      String: "DeityPostLvl1"
+      String: ""
     }
     Overrides {
       Name: "cs:3"
-      String: "DeityPostLvl1_repeat"
+      String: ""
     }
     Overrides {
       Name: "cs:4"
-      String: "DeityGame2Lv1"
+      String: ""
     }
     Overrides {
       Name: "cs:5"
-      String: "DeityGame2Lv1_repeat"
+      String: ""
     }
     Overrides {
       Name: "cs:6"
-      String: "DeityGame3Lv1"
+      String: ""
     }
     Overrides {
       Name: "cs:7"
-      String: "DeityGame3Lv1_repeat"
+      String: ""
     }
     Overrides {
       Name: "cs:Behavior"
@@ -4094,31 +4094,31 @@ Objects {
     }
     Overrides {
       Name: "cs:1"
-      String: "DeityPreLvl1"
+      String: ""
     }
     Overrides {
       Name: "cs:2"
-      String: "DeityPostLvl1"
+      String: ""
     }
     Overrides {
       Name: "cs:3"
-      String: "DeityPostLvl1_repeat"
+      String: ""
     }
     Overrides {
       Name: "cs:4"
-      String: "DeityGame2Lv1"
+      String: ""
     }
     Overrides {
       Name: "cs:5"
-      String: "DeityGame2Lv1_repeat"
+      String: ""
     }
     Overrides {
       Name: "cs:6"
-      String: "DeityGame3Lv1"
+      String: ""
     }
     Overrides {
       Name: "cs:7"
-      String: "DeityGame3Lv1_repeat"
+      String: ""
     }
     Overrides {
       Name: "cs:Behavior"
@@ -4582,31 +4582,31 @@ Objects {
     }
     Overrides {
       Name: "cs:1"
-      String: "DeityPreLvl1"
+      String: ""
     }
     Overrides {
       Name: "cs:2"
-      String: "DeityPostLvl1"
+      String: ""
     }
     Overrides {
       Name: "cs:3"
-      String: "DeityPostLvl1_repeat"
+      String: ""
     }
     Overrides {
       Name: "cs:4"
-      String: "DeityGame2Lv1"
+      String: ""
     }
     Overrides {
       Name: "cs:5"
-      String: "DeityGame2Lv1_repeat"
+      String: ""
     }
     Overrides {
       Name: "cs:6"
-      String: "DeityGame3Lv1"
+      String: ""
     }
     Overrides {
       Name: "cs:7"
-      String: "DeityGame3Lv1_repeat"
+      String: ""
     }
     Overrides {
       Name: "cs:Behavior"
@@ -5070,31 +5070,31 @@ Objects {
     }
     Overrides {
       Name: "cs:1"
-      String: "DeityPreLvl1"
+      String: ""
     }
     Overrides {
       Name: "cs:2"
-      String: "DeityPostLvl1"
+      String: ""
     }
     Overrides {
       Name: "cs:3"
-      String: "DeityPostLvl1_repeat"
+      String: ""
     }
     Overrides {
       Name: "cs:4"
-      String: "DeityGame2Lv1"
+      String: ""
     }
     Overrides {
       Name: "cs:5"
-      String: "DeityGame2Lv1_repeat"
+      String: ""
     }
     Overrides {
       Name: "cs:6"
-      String: "DeityGame3Lv1"
+      String: ""
     }
     Overrides {
       Name: "cs:7"
-      String: "DeityGame3Lv1_repeat"
+      String: ""
     }
     Overrides {
       Name: "cs:Behavior"
@@ -5577,6 +5577,34 @@ Objects {
             Z: 1
           }
         }
+        Overrides {
+          Name: "cs:7"
+          String: ""
+        }
+        Overrides {
+          Name: "cs:6"
+          String: ""
+        }
+        Overrides {
+          Name: "cs:5"
+          String: ""
+        }
+        Overrides {
+          Name: "cs:4"
+          String: ""
+        }
+        Overrides {
+          Name: "cs:3"
+          String: ""
+        }
+        Overrides {
+          Name: "cs:2"
+          String: ""
+        }
+        Overrides {
+          Name: "cs:1"
+          String: ""
+        }
       }
     }
     TemplateAsset {
@@ -5632,6 +5660,34 @@ Objects {
             Y: 1
             Z: 1
           }
+        }
+        Overrides {
+          Name: "cs:7"
+          String: ""
+        }
+        Overrides {
+          Name: "cs:6"
+          String: ""
+        }
+        Overrides {
+          Name: "cs:5"
+          String: ""
+        }
+        Overrides {
+          Name: "cs:4"
+          String: ""
+        }
+        Overrides {
+          Name: "cs:3"
+          String: ""
+        }
+        Overrides {
+          Name: "cs:2"
+          String: ""
+        }
+        Overrides {
+          Name: "cs:1"
+          String: ""
         }
       }
     }
@@ -5689,6 +5745,34 @@ Objects {
             Z: 1
           }
         }
+        Overrides {
+          Name: "cs:7"
+          String: ""
+        }
+        Overrides {
+          Name: "cs:6"
+          String: ""
+        }
+        Overrides {
+          Name: "cs:5"
+          String: ""
+        }
+        Overrides {
+          Name: "cs:4"
+          String: ""
+        }
+        Overrides {
+          Name: "cs:3"
+          String: ""
+        }
+        Overrides {
+          Name: "cs:2"
+          String: ""
+        }
+        Overrides {
+          Name: "cs:1"
+          String: ""
+        }
       }
     }
     TemplateAsset {
@@ -5744,6 +5828,34 @@ Objects {
             Y: 1
             Z: 1
           }
+        }
+        Overrides {
+          Name: "cs:7"
+          String: ""
+        }
+        Overrides {
+          Name: "cs:6"
+          String: ""
+        }
+        Overrides {
+          Name: "cs:5"
+          String: ""
+        }
+        Overrides {
+          Name: "cs:4"
+          String: ""
+        }
+        Overrides {
+          Name: "cs:3"
+          String: ""
+        }
+        Overrides {
+          Name: "cs:2"
+          String: ""
+        }
+        Overrides {
+          Name: "cs:1"
+          String: ""
         }
       }
     }
