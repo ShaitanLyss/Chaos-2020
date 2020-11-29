@@ -40,9 +40,9 @@ Objects {
   Name: "Trigger"
   Transform {
     Location {
-      X: 881.870605
-      Y: 7924.15186
-      Z: 238.221786
+      X: 1122.48267
+      Y: 9295.19141
+      Z: 239.74585
     }
     Rotation {
       Yaw: -130
@@ -75,9 +75,9 @@ Objects {
   Name: "MeshModel"
   Transform {
     Location {
-      X: 881.870605
-      Y: 7924.15186
-      Z: 238.221786
+      X: 1122.48267
+      Y: 9295.19141
+      Z: 239.745911
     }
     Rotation {
       Yaw: -130
