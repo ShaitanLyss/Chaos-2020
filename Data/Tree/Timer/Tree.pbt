@@ -181,7 +181,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 20
+      Size: 30
       Justification {
         Value: "mc:etextjustify:left"
       }
@@ -240,7 +240,7 @@ Objects {
         B: 1
         A: 1
       }
-      Size: 20
+      Size: 30
       Justification {
         Value: "mc:etextjustify:left"
       }
