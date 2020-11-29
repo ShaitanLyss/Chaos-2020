@@ -12,6 +12,8 @@ local broken = script:GetCustomProperty("broken"):WaitForObject()
 local fixed = script:GetCustomProperty("fixed"):WaitForObject()
 local ladderLevel = script:GetCustomProperty("ladderLevel")
 
+local toStart = false
+
 function  OnInteracted(theTrigger, other)
     player = other
     local data = Storage.GetPlayerData(player)
@@ -73,19 +75,21 @@ function SetForNewLevel(data)
 end
 
 function Tick()
-	level = player:GetResource("level")
-	passChallenge = player:GetResource("passChallenge")
-	
-	if level == ladderLevel and passChallenge == 1 then
-		hide(broken)
-		show(fixed)
-		lvlFinishedTrigger.isInteractable = true
-	else 
-		hide(fixed)
-		show(broken)
-		lvlFinishedTrigger.isInteractable = false
-	end
-	Task.Wait(0.5)
+    if toStart then
+        level = player:GetResource("level")
+        passChallenge = player:GetResource("passChallenge")
+        
+        if level == ladderLevel and passChallenge == 1 then
+            hide(broken)
+            show(fixed)
+            lvlFinishedTrigger.isInteractable = true
+        else 
+            hide(fixed)
+            show(broken)
+            lvlFinishedTrigger.isInteractable = false
+        end
+        Task.Wait(0.5)
+    end
 end
 
 function show(o)
@@ -98,4 +102,15 @@ function hide(o)
 end
 	
 lvlFinishedTrigger.interactedEvent:Connect(OnInteracted)
+
+
+
+function OnPlayerJoined(player)
+    toStart = true
+end
+
+
+
+Game.playerJoinedEvent:Connect(OnPlayerJoined)
+
 
