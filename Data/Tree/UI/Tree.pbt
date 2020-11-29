@@ -15,6 +15,13 @@ Objects {
     }
   }
   ParentId: 14528963165088349492
+  ChildIds: 85128763412629194
+  ChildIds: 17003287702878729265
+  ChildIds: 18058262341668808325
+  ChildIds: 1872093636634070375
+  ChildIds: 9869464212081570039
+  ChildIds: 16507600671481062074
+  ChildIds: 5607978887559005250
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -34,7 +41,7 @@ Objects {
       Z: 9434.79199
     }
     Rotation {
-      Yaw: -35.4502602
+      Yaw: -35.450264
     }
     Scale {
       X: 1
@@ -42,7 +49,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14528963165088349492
+  ParentId: 548379078227970428
   ChildIds: 2232105551226743998
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2444,7 +2451,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14528963165088349492
+  ParentId: 548379078227970428
   ChildIds: 504286938872167749
   ChildIds: 1953248174265921219
   ChildIds: 10029984291627840912
@@ -3305,7 +3312,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14528963165088349492
+  ParentId: 548379078227970428
   ChildIds: 2755734471360588757
   ChildIds: 11673831376518547533
   ChildIds: 10261992008142004552
@@ -4731,7 +4738,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14528963165088349492
+  ParentId: 548379078227970428
   ChildIds: 968526756787087530
   ChildIds: 1275692969525725224
   Collidable_v2 {
@@ -4881,6 +4888,47 @@ Objects {
   }
 }
 Objects {
+  Id: 18058262341668808325
+  Name: "UnlockController"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 548379078227970428
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:DoublespeedUnlock"
+      ObjectReference {
+        SelfId: 85128763412629194
+      }
+    }
+    Overrides {
+      Name: "cs:JournalUnlock"
+      ObjectReference {
+        SelfId: 17003287702878729265
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 11590474626896701108
+    }
+  }
+}
+Objects {
   Id: 17003287702878729265
   Name: "Journal Unlock"
   Transform {
@@ -4894,7 +4942,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14528963165088349492
+  ParentId: 548379078227970428
   ChildIds: 12791773530824291463
   ChildIds: 6548248336195959342
   ChildIds: 8189554313715558760
@@ -5165,7 +5213,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14528963165088349492
+  ParentId: 548379078227970428
   ChildIds: 7274555405586758132
   ChildIds: 3192411926032340008
   ChildIds: 7309349719996659328
