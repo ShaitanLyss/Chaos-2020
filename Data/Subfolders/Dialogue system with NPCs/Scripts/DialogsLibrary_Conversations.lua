@@ -426,7 +426,7 @@ function Dialogs.RegisterDialogue()
 	id = "NPC2PreLv2_3"
 	API.RegisterDialogueId(id)
 	API.AddText(id, "I can\'t stand people like you.")
-	API.AddText(Id, "Read the definition for distance "..
+	API.AddText(id, "Read the definition for distance "..
 	"and GO AWAY!")
 	
 	-- Pre-Challenge / Interaction 3 - Repeat

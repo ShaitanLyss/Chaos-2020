@@ -12,14 +12,50 @@ local rightboob = script:GetCustomProperty("right_boob"):WaitForObject()
 local mesh = script:GetCustomProperty("mesh"):WaitForObject()
 local root = script.parent
 local pos = root:GetWorldPosition()
+local player = Game.GetLocalPlayer()
 local byebye = false
+
 Behavior = {}
 
 -- function to set which dialog to play
 -- must return a number corresponding to one of the dialog ids set in NPC Dialog Trigger
 -- more dialog ids can be added by adding custom properties with the string type
+firstTime = true
 function Behavior.getI(i)
-	return 1
+	level = player:GetResource("level")
+	goThrough = player:GetResource("goThrough")
+	passChallenge = player:GetResource("passChallenge")
+	if goThrough == 1 then
+		if level == 1 then
+			if passChallenge == 0 then
+				firstTime = true
+				return 1
+			elseif firstTime then
+				firstTime = false
+				return 2
+			else 
+				return 3
+			end
+		end
+	elseif goThrough == 2 then
+		if level == 1 then
+			if firstTime then
+				firstTime = false
+				return 4
+			else
+				return 5
+			end
+		end
+	elseif goThrough == 3 then
+		if level == 1 then
+			if firstTime then
+				firstTime = false
+				return 6
+			else
+				return 7
+			end
+		end
+	end
 end
 
 -- function called when a conversation starts, useful to update variables
@@ -31,6 +67,7 @@ function Behavior.OnDialogEnd()
 	byebye = true
 	return true
 end
+
 
 local p = leftboob:GetWorldPosition()
 local r = leftboob:GetWorldRotation()
