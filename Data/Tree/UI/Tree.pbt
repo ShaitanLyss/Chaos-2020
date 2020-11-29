@@ -4772,9 +4772,9 @@ Objects {
     Text {
       Label: "+ xx for Distance"
       Color {
-        R: 1
-        G: 1
-        B: 1
+        R: 0.045186203
+        G: 0.904661477
+        B: 0.0578054339
         A: 1
       }
       Size: 20
@@ -4831,9 +4831,9 @@ Objects {
     Text {
       Label: "+ 20 for Finish"
       Color {
-        R: 1
-        G: 1
-        B: 1
+        R: 0.045186203
+        G: 0.904661477
+        B: 0.0578054339
         A: 1
       }
       Size: 20
@@ -4992,9 +4992,9 @@ Objects {
     Text {
       Label: "Unlocked"
       Color {
-        R: 0.0449000113
-        G: 0.898
-        B: 0.0584410243
+        R: 0.045186203
+        G: 0.904661477
+        B: 0.0578054339
         A: 1
       }
       Size: 40
