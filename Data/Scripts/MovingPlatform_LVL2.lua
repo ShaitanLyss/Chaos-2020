@@ -87,16 +87,21 @@ function RoundFn(num, numDecimalPlaces)
     return tonumber(string.format("%." .. (numDecimalPlaces or 0) .. "f", num))
 end
 ]]--
+local checkpoint = 0
+local checkpoint_pos
+local checkpoint_rot 
 
 function OnStopMovingPlatform()
-    toStart = false
-    Task.Wait(3)
+	movingPlatformModel:StopRotate()
+	if checkpoint ~= 0 then
+		index = checkpoint
+		movingPlatformModel:SetWorldPosition(checkpoint_pos)
+		movingPlatformModel:SetWorldRotation(checkpoint_rot)
+	end
+	toStart = false
+    Task.Wait(2)
     toStart = true
 end
-
-
-
-
 
 
 function OnPlayerJoined(player)
@@ -107,21 +112,27 @@ end
 Game.playerJoinedEvent:Connect(OnPlayerJoined)
 Events.Connect("E_StopMovingPlatform_LVL2", OnStopMovingPlatform)
 
-local checkpoint
-local checkpoint_pos
-local checkpoint_rot
 
 function OnStartCheckpoint()
-	checkpoint = index
-	checkpoint_pos = movingPlatformModel:GetWorldPosition()
-	checkpoint_rot = movingPlatformModel:GetWorldRotation()
+	if checkpoint == 0 then
+		print("Start checkpoint")
+		checkpoint = index
+		checkpoint_pos = movingPlatformModel:GetWorldPosition()
+		checkpoint_rot = movingPlatformModel:GetWorldRotation()
+	end
 end
 
 function OnEndCheckpoint()
-	checkpoint = index
-	movingPlatformModel:SetWorldPosition(checkpoint_pos)
-	movingPlatformModel:SetWorldRotation(checkpoint_rot)
+	if checkpoint ~= 0 then
+		print("End checkpoint")
+		checkpoint = 0
+	end
 end
+
+Events.Connect("platformStartCheckpoint", OnStartCheckpoint)
+Events.Connect("platformEndCheckpoint", OnEndCheckpoint)
+
+
 
 
 	
