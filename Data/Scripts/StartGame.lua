@@ -2,6 +2,7 @@
 local Lvl1_SpawnPoint = spawnPlaces:FindChildByName("Lvl1_SpawnPoint")
 local Lvl2_SpawnPoint = spawnPlaces:FindChildByName("Lvl2_SpawnPoint")
 local Lvl3_SpawnPoint = spawnPlaces:FindChildByName("Lvl3_SpawnPoint")
+local Lobby_SpawnPoint = spawnPlaces:FindChildByName("Lobby_SpawnPoint")
 
 function OnPlayerJoined(player)
     local data = Storage.GetPlayerData(player)
@@ -31,14 +32,9 @@ function OnPlayerJoined(player)
             player:Respawn({position = Lvl3_SpawnPoint:GetWorldPosition(), rotation = Rotation.New(0,0,0)})
 
         elseif player:GetResource("level") == 4 then 
-            print("level 4") 
-            player:Respawn({position = Lvl4_SpawnPoint:GetWorldPosition(), rotation = Rotation.New(0,0,0)})
-
-        elseif player:GetResource("level") == 5 then 
-            print("level 5")
-            player:Respawn({position = Lvl5_SpawnPoint:GetWorldPosition(), rotation = Rotation.New(0,0,0)})
- 
-        end 
+            print("looby") 
+            player:Respawn({position = Lobby_SpawnPoint:GetWorldPosition(), rotation = Rotation.New(0,0,0)})
+        end
     end
 
 end
