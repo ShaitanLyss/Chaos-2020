@@ -2,7 +2,7 @@
 RootId: 18292893993279474414
 Objects {
   Id: 16840634325345446481
-  Name: "Plane Circle - One Sided"
+  Name: "floor"
   Transform {
     Location {
       X: -1044.58118

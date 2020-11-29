@@ -180,11 +180,12 @@ Objects {
   Name: "Lvl3_SpawnPoint"
   Transform {
     Location {
-      X: 5083.45459
-      Y: 1066.73413
+      X: 4161.86621
+      Y: 2139.83252
       Z: 4661.354
     }
     Rotation {
+      Yaw: 112.344986
     }
     Scale {
       X: 1

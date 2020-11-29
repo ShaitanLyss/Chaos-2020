@@ -5,6 +5,8 @@ Objects {
   Name: "Fantasy Castle Stairs 01 - 150cm"
   Transform {
     Location {
+      X: 140.800171
+      Y: -783.407776
     }
     Rotation {
     }

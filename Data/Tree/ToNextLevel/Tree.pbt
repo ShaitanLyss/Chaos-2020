@@ -31,6 +31,8 @@ Objects {
   Name: "LVL3"
   Transform {
     Location {
+      X: -465.564453
+      Y: -3083.99512
     }
     Rotation {
     }

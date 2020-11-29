@@ -62,7 +62,7 @@ Objects {
     Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   CoreMesh {
     MeshAsset {
@@ -145,7 +145,7 @@ Objects {
     Overrides {
       Name: "cs:shadow"
       AssetReference {
-        Id: 4619753164645928062
+        Id: 3262264329666782174
       }
     }
   }

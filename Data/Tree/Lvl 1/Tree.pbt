@@ -1,6 +1,35 @@
 ﻿Name: "Lvl 1"
 RootId: 15120048121696321390
 Objects {
+  Id: 6183768124328555045
+  Name: "CirclePlatforms"
+  Transform {
+    Location {
+      X: 460.666504
+      Y: -8230.21582
+      Z: 3619.71729
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15120048121696321390
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "CirclePlatforms"
+  }
+}
+Objects {
   Id: 11810328581223926000
   Name: "Group"
   Transform {
