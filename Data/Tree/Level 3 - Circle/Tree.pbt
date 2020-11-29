@@ -5840,7 +5840,7 @@ Objects {
 }
 Objects {
   Id: 11351972216480617470
-  Name: "Collectable_LVL3"
+  Name: "Collectable_2"
   Transform {
     Scale {
       X: 1
@@ -5850,45 +5850,13 @@ Objects {
   }
   ParentId: 3730128779952504670
   WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
   TemplateInstance {
-    ParameterOverrideMap {
-      key: 5296214327162928900
-      value {
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.457492799
-            Y: 1
-            Z: 2.40123034
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 7778288891034583354
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            Y: 7.09482431
-            Z: 30.8004894
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.594516635
-            Y: 0.2
-            Z: 1.3641113
-          }
-        }
-      }
-    }
     ParameterOverrideMap {
       key: 10146649453250517653
       value {
@@ -5907,24 +5875,6 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 17764568532139589397
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
           }
         }
       }
