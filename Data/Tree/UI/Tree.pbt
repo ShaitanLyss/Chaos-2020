@@ -1,6 +1,30 @@
 ﻿Name: "UI"
 RootId: 14528963165088349492
 Objects {
+  Id: 548379078227970428
+  Name: "ClientContext"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14528963165088349492
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+}
+Objects {
   Id: 5607978887559005250
   Name: "AdvancedLeaderboard"
   Transform {
