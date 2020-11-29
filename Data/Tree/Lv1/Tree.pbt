@@ -1361,6 +1361,8 @@ Objects {
   Name: "Fantasy Human Guy"
   Transform {
     Location {
+      X: -2.47536516
+      Y: 20.3525543
       Z: 58.520752
     }
     Rotation {

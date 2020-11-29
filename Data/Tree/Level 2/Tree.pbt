@@ -1,6 +1,66 @@
 ﻿Name: "Level 2"
 RootId: 8473058261175908689
 Objects {
+  Id: 1107710928828590138
+  Name: "Block house"
+  Transform {
+    Location {
+      X: 6570.61328
+      Y: 3297.16455
+      Z: 2813.77441
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8473058261175908689
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceoff"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Block house"
+  }
+}
+Objects {
+  Id: 9321819753426735430
+  Name: "FloorWarts"
+  Transform {
+    Location {
+      X: 6235
+      Y: 170
+      Z: 2944.15308
+    }
+    Rotation {
+      Pitch: 22.5000019
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8473058261175908689
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:forceoff"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:forceoff"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "FloorWarts"
+  }
+}
+Objects {
   Id: 7325224074645116302
   Name: "Border"
   Transform {

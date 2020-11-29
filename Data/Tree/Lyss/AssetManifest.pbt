@@ -1,54 +1,36 @@
 ﻿Assets {
-  Id: 14655116653287160419
-  Name: "Hill 04"
-  PlatformAssetType: 1
+  Id: 17950435965993613615
+  Name: "Marble Basic 01"
+  PlatformAssetType: 2
   PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_hill_004"
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_gen_marble_tiles_001_uv"
   }
 }
 Assets {
-  Id: 14023144080669477239
-  Name: "Hill 02"
-  PlatformAssetType: 1
+  Id: 13917838053009891317
+  Name: "Human Gal 2"
+  PlatformAssetType: 17
   PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_hill_002"
+    AssetType: "AnimatedMeshAssetRef"
+    AssetId: "npc_human_gal_basic_002_ref"
   }
 }
 Assets {
-  Id: 8960293663979334663
-  Name: "Cube - Polished"
-  PlatformAssetType: 1
+  Id: 12827530473249900764
+  Name: "Opaque Emissive"
+  PlatformAssetType: 2
   PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_hq_test_001"
+    AssetType: "MaterialAssetRef"
+    AssetId: "fxma_opaque_emissive"
   }
 }
 Assets {
-  Id: 7562682327141705794
-  Name: "Bone Human Ribcage 01"
+  Id: 2257297360522618184
+  Name: "Teardrop - Truncated"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_bones_human_ribcage_01_ref"
-  }
-}
-Assets {
-  Id: 7559416490291028773
-  Name: "Hill 05"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_hill_005"
-  }
-}
-Assets {
-  Id: 1878561067824770111
-  Name: "Hill 01"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_hill_001"
+    AssetId: "sm_truncated_teardrop_001"
   }
 }
