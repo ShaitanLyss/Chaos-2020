@@ -25,7 +25,9 @@ end
 
 
 function OnPlatformsSeparateChanged(platformsSeparation)
-    local globalTimer = player:GetResource("timer") + (platformsSeparation * platformMultiplayer)
+    local distanceReward = (platformsSeparation * platformMultiplayer)
+    local globalTimer = player:GetResource("timer") + distanceReward
+    Events.BroadcastToAllPlayers("E_RewardUI", distanceReward)
     --store timer
     player:SetResource("timer", globalTimer)
     local data = Storage.GetPlayerData(player)
