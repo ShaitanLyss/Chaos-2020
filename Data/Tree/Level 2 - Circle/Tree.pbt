@@ -111,7 +111,7 @@ Objects {
           Vector {
             X: -2327.92236
             Y: -15482.7207
-            Z: 1705
+            Z: 1702.64355
           }
         }
         Overrides {
@@ -123,8 +123,8 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 2.4
-            Y: 2.4
+            X: 2.7
+            Y: 2.7
             Z: 0.15
           }
         }
@@ -3375,7 +3375,7 @@ Objects {
         }
         Overrides {
           Name: "cs:LaunchSpeed"
-          Float: 3290
+          Float: 3230
         }
       }
     }
@@ -4139,8 +4139,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -9570.63281
-            Y: -11259.1738
+            X: -9592.75586
+            Y: -11295.748
             Z: 2000
           }
         }
@@ -4195,8 +4195,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -9875
-            Y: -10540
+            X: -9866.16211
+            Y: -10561.874
             Z: 1830
           }
         }

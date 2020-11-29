@@ -44,7 +44,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Duration"
-      Float: 0.9
+      Float: 0.8
     }
     Overrides {
       Name: "cs:AutoStart"
@@ -62,7 +62,7 @@ Objects {
     Overrides {
       Name: "cs:IntervalDelayRange"
       Vector2 {
-        Y: 0.3
+        Y: 0.1
       }
     }
     Overrides {

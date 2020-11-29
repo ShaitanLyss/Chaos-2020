@@ -107,14 +107,15 @@ Objects {
   Name: "KillTrigger"
   Transform {
     Location {
+      Y: -436.442871
       Z: 2440
     }
     Rotation {
     }
     Scale {
-      X: 186.5
-      Y: 169.1
-      Z: 0.310343027
+      X: 307.165649
+      Y: 278.507965
+      Z: 0.511135519
     }
   }
   ParentId: 12923939140733709101

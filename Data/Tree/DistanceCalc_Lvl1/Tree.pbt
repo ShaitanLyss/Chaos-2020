@@ -120,7 +120,7 @@ Objects {
     }
     Overrides {
       Name: "cs:MintuesToFill"
-      Float: 0.08
+      Float: 0.07
     }
     Overrides {
       Name: "cs:IncAfterSmallDiePer"
