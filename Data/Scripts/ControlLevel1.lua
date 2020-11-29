@@ -51,4 +51,4 @@ function OnDPlayerChanged(pNumber)
 end
 
 
---Events.Connect("E_DPlayerChanged", OnDPlayerChanged)
+Events.Connect("E_DPlayerChanged", OnDPlayerChanged)
