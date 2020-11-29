@@ -50,7 +50,7 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 16646680597962164372
+              Id: 12480403223543061490
             }
           }
           Overrides {
@@ -293,15 +293,6 @@
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_cube_hq_003"
-      }
-    }
-    Assets {
-      Id: 16646680597962164372
-      Name: "Rocky Ground 01"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "rocky_001"
       }
     }
     Assets {

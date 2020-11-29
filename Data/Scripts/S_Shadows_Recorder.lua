@@ -13,11 +13,15 @@ local i = 1
 
 
 delta = 1 / fps
-
+local recording = false
 function Tick()
-	shadows[nShadows][i] = {time() -t0, player:GetWorldPosition()}
-	i = i + 1	
-	Task.Wait(delta)
+	if recording then
+		shadows[nShadows][i] = {time() -t0, player:GetWorldPosition()}
+		i = i + 1	
+		Task.Wait(delta)
+	else 
+		Task.Wait(1)
+	end
 end
 
 

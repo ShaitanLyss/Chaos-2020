@@ -23,6 +23,7 @@ Objects {
       }
     }
   }
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -59,8 +60,9 @@ Objects {
     }
   }
   ParentId: 17488040670370244456
-  ChildIds: 15799124051076384207
+  ChildIds: 6581549312493595450
   ChildIds: 13285763897264222549
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -95,6 +97,7 @@ Objects {
     }
   }
   ParentId: 2587487532256878711
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -112,9 +115,13 @@ Objects {
   }
 }
 Objects {
-  Id: 15799124051076384207
+  Id: 6581549312493595450
   Name: "_PS_Rectangle_wide"
   Transform {
+    Location {
+    }
+    Rotation {
+    }
     Scale {
       X: 1
       Y: 1
@@ -122,61 +129,22 @@ Objects {
     }
   }
   ParentId: 2587487532256878711
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 1825230877436865430
-      value {
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 6.90000391
-            Y: 6.35127497
-            Z: 1
-          }
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 19.2072716
-            Y: 40.3864517
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 11667518170341861543
-      value {
-        Overrides {
-          Name: "Name"
-          String: "_PS_Rectangle_wide"
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 17594147940704495209
-    }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "_PS_Rectangle_wide_13"
+  }
+  InstanceHistory {
+    SelfId: 6581549312493595450
+    SubobjectId: 11667518170341861543
+    InstanceId: 15799124051076384207
+    TemplateId: 17594147940704495209
+    WasRoot: true
   }
 }

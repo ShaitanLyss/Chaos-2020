@@ -23,6 +23,7 @@ Objects {
       }
     }
   }
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -62,8 +63,9 @@ Objects {
     }
   }
   ParentId: 1327666995500275262
-  ChildIds: 2510212772660750299
+  ChildIds: 6530075659862459108
   ChildIds: 14112566470479866421
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -98,6 +100,7 @@ Objects {
     }
   }
   ParentId: 14241841054650303392
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -115,9 +118,16 @@ Objects {
   }
 }
 Objects {
-  Id: 2510212772660750299
+  Id: 6530075659862459108
   Name: "_P_KillCylinder"
   Transform {
+    Location {
+      X: 5.54865037e-05
+      Y: 66.6233139
+      Z: 40.7715454
+    }
+    Rotation {
+    }
     Scale {
       X: 1
       Y: 1
@@ -125,69 +135,22 @@ Objects {
     }
   }
   ParentId: 14241841054650303392
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 330025034838458396
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 0.0223484039
-            Y: 15.1347132
-            Z: -17.8754883
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -3.05175781e-05
-          }
-        }
-        Overrides {
-          Name: "bp:Density"
-          Float: 8
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 4392278056409421585
-      value {
-        Overrides {
-          Name: "cs:nearDensity"
-          Int: 8
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 14666212901670409171
-      value {
-        Overrides {
-          Name: "Name"
-          String: "_P_KillCylinder"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 5.54865037e-05
-            Y: 66.6233139
-            Z: 40.7715454
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 6965630994047288269
-    }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "_P_KillCylinder_20"
+  }
+  InstanceHistory {
+    SelfId: 6530075659862459108
+    SubobjectId: 14666212901670409171
+    InstanceId: 2510212772660750299
+    TemplateId: 6965630994047288269
+    WasRoot: true
   }
 }

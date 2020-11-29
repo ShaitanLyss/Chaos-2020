@@ -23,6 +23,7 @@ Objects {
       }
     }
   }
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -59,8 +60,9 @@ Objects {
     }
   }
   ParentId: 12292399251098599679
-  ChildIds: 1479341319412185474
+  ChildIds: 945726205309092924
   ChildIds: 8827762200473205265
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -95,6 +97,7 @@ Objects {
     }
   }
   ParentId: 16993225817337067486
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -112,9 +115,13 @@ Objects {
   }
 }
 Objects {
-  Id: 1479341319412185474
+  Id: 945726205309092924
   Name: "_PS_Rectangle_small"
   Transform {
+    Location {
+    }
+    Rotation {
+    }
     Scale {
       X: 1
       Y: 1
@@ -122,56 +129,22 @@ Objects {
     }
   }
   ParentId: 16993225817337067486
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 10953068183107250475
-      value {
-        Overrides {
-          Name: "Name"
-          String: "_PS_Rectangle_small"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 12159032773331541081
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -86.752739
-            Y: -25.9607544
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 11.7
-            Y: 15
-            Z: 0.7
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 18160197662068348531
-    }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "_PS_Rectangle_small_10"
+  }
+  InstanceHistory {
+    SelfId: 945726205309092924
+    SubobjectId: 10953068183107250475
+    InstanceId: 1479341319412185474
+    TemplateId: 18160197662068348531
+    WasRoot: true
   }
 }

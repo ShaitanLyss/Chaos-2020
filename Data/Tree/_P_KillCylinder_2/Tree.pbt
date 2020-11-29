@@ -48,6 +48,7 @@ Objects {
       Float: 2.05550051
     }
   }
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -94,6 +95,7 @@ Objects {
   }
   ParentId: 1327277281437886249
   ChildIds: 909968097197509524
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }

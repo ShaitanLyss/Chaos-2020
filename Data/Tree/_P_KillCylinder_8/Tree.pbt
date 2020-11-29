@@ -1,21 +1,24 @@
 ﻿Name: "_P_KillCylinder_8"
-RootId: 16660464359365187699
+RootId: 14316018034775456130
 Objects {
-  Id: 882844625498178818
+  Id: 8531282490218486515
   Name: "Mesh"
   Transform {
     Location {
+      X: -18.181818
+      Y: -5.21883869
+      Z: -111.751068
     }
     Rotation {
     }
     Scale {
-      X: 1.1
-      Y: 1.1
-      Z: 4.5
+      X: 1.7996434
+      Y: 1.7996434
+      Z: 9.25383091
     }
   }
-  ParentId: 16660464359365187699
-  ChildIds: 10799801073416604709
+  ParentId: 14316018034775456130
+  ChildIds: 15215026742416331729
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:color"
@@ -31,18 +34,6 @@ Objects {
       AssetReference {
         Id: 9787085779403850679
       }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:smart"
-      Bool: false
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:utile"
-      Float: 0.163558602
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:vtile"
-      Float: 2.05550051
     }
   }
   WantsNetworking: true
@@ -67,31 +58,34 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 3575229073143125905
+    SelfId: 8531282490218486515
     SubobjectId: 8881477080085901474
-    InstanceId: 7499451274498972607
+    InstanceId: 4949643255569738848
     TemplateId: 6965630994047288269
   }
 }
 Objects {
-  Id: 10799801073416604709
-  Name: "fx"
+  Id: 15215026742416331729
+  Name: "FX_OptiFire"
   Transform {
     Location {
-      X: -34.0911026
-      Y: 23.4814243
-      Z: 52.9742126
+      X: -2.01742
+      Y: -1.48939657
+      Z: 50.4106636
     }
     Rotation {
+      Pitch: 88.7835541
+      Yaw: 87.4129105
+      Roll: 130.513947
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 0.568181753
+      Y: 0.568181753
+      Z: 0.053475935
     }
   }
-  ParentId: 882844625498178818
-  ChildIds: 17553278853654848012
+  ParentId: 8531282490218486515
+  ChildIds: 3589630581408169280
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
@@ -101,28 +95,84 @@ Objects {
   }
   NetworkContext {
   }
+  InstanceHistory {
+    SelfId: 15215026742416331729
+    SubobjectId: 15997575694623963520
+    InstanceId: 4949643255569738848
+    TemplateId: 6965630994047288269
+  }
 }
 Objects {
-  Id: 17553278853654848012
+  Id: 3589630581408169280
+  Name: "FX_OptiFire"
+  Transform {
+    Location {
+    }
+    Rotation {
+      Yaw: 1.36603776e-05
+    }
+    Scale {
+      X: 0.5
+      Y: 0.526315808
+      Z: 0.476190448
+    }
+  }
+  ParentId: 15215026742416331729
+  ChildIds: 698075968425224781
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:nearDensity"
+      Int: 10
+    }
+    Overrides {
+      Name: "cs:farDensity"
+      Int: 3
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4020526502442220911
+    }
+  }
+  InstanceHistory {
+    SelfId: 3589630581408169280
+    SubobjectId: 4392278056409421585
+    InstanceId: 4949643255569738848
+    TemplateId: 6965630994047288269
+  }
+}
+Objects {
+  Id: 698075968425224781
   Name: "Fire Volume VFX"
   Transform {
     Location {
-      X: 6.61450755e-12
-      Y: 0.000136692208
-      Z: 1.38463893e-05
+      X: -0.000819549372
+      Y: 0.000368871173
+      Z: 0.000380394777
     }
     Rotation {
-      Pitch: 88.004425
-      Yaw: 89.9278
-      Roll: 87.9546585
+      Yaw: -2.04905609e-05
+      Roll: -1.70754652e-06
     }
     Scale {
-      X: 6.80000067
-      Y: 0.900000036
-      Z: 0.0999999791
+      X: 38.8699493
+      Y: 4.68159771
+      Z: 4.37435389
     }
   }
-  ParentId: 10799801073416604709
+  ParentId: 3589630581408169280
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Density"
+      Float: 10
+    }
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -139,9 +189,9 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 5641013319878518575
+    SelfId: 698075968425224781
     SubobjectId: 330025034838458396
-    InstanceId: 7499451274498972607
+    InstanceId: 4949643255569738848
     TemplateId: 6965630994047288269
   }
 }

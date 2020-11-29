@@ -1,4 +1,22 @@
 ﻿Assets {
+  Id: 18184239439133469957
+  Name: "Fantasy Human Gal 2"
+  PlatformAssetType: 17
+  PrimaryAsset {
+    AssetType: "AnimatedMeshAssetRef"
+    AssetId: "npc_human_gal_fantasy_001_ref"
+  }
+}
+Assets {
+  Id: 18039984299850060191
+  Name: "Fantasy Human Guy"
+  PlatformAssetType: 17
+  PrimaryAsset {
+    AssetType: "AnimatedMeshAssetRef"
+    AssetId: "npc_human_guy_fantasy_001_ref"
+  }
+}
+Assets {
   Id: 17950435965993613615
   Name: "Marble Basic 01"
   PlatformAssetType: 2
@@ -113,6 +131,15 @@ Assets {
   PrimaryAsset {
     AssetType: "AudioAssetRef"
     AssetId: "sfx_magic_star_collect_03_Cue_ref"
+  }
+}
+Assets {
+  Id: 7582734378740322169
+  Name: "Fantasy Human Guy 2"
+  PlatformAssetType: 17
+  PrimaryAsset {
+    AssetType: "AnimatedMeshAssetRef"
+    AssetId: "npc_human_guy_fantasy_003_ref"
   }
 }
 Assets {

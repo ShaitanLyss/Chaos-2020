@@ -23,6 +23,7 @@ Objects {
       }
     }
   }
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -62,6 +63,7 @@ Objects {
   ChildIds: 12592455942390714704
   ChildIds: 11393629739767000262
   ChildIds: 11234216700400486384
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -97,6 +99,7 @@ Objects {
     }
   }
   ParentId: 16582308009053101296
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -134,6 +137,7 @@ Objects {
   ChildIds: 16958397333880667658
   ChildIds: 41789420388625977
   ChildIds: 15139424427110024761
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -160,6 +164,7 @@ Objects {
   }
   ParentId: 11393629739767000262
   ChildIds: 12326166400386840676
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
@@ -467,6 +472,7 @@ Objects {
     }
   }
   ParentId: 11393629739767000262
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -526,6 +532,7 @@ Objects {
       }
     }
   }
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -562,6 +569,7 @@ Objects {
     }
   }
   ParentId: 16582308009053101296
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -570,7 +578,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "_P_KillCylinder_11"
+    FilePartitionName: "_P_KillCylinder_18"
   }
   InstanceHistory {
     SelfId: 12592455942390714704

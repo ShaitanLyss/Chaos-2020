@@ -23,6 +23,7 @@ Objects {
       }
     }
   }
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -59,8 +60,9 @@ Objects {
     }
   }
   ParentId: 17387814025883341094
-  ChildIds: 6419621411597514088
+  ChildIds: 4169008508223611137
   ChildIds: 14451468259298315254
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -95,6 +97,7 @@ Objects {
     }
   }
   ParentId: 6846479196811137344
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -112,49 +115,61 @@ Objects {
   }
 }
 Objects {
-  Id: 6419621411597514088
+  Id: 4169008508223611137
   Name: "_P_Circle_platform"
   Transform {
+    Location {
+      X: 6.70214844
+      Y: 33.1792
+      Z: 6.10351563e-05
+    }
+    Rotation {
+    }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 2.5
+      Y: 2.5
+      Z: 0.3
     }
   }
   ParentId: 6846479196811137344
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 9158560559571464872
-      value {
-        Overrides {
-          Name: "Name"
-          String: "_P_Circle_platform"
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 2.5
-            Y: 2.5
-            Z: 0.3
-          }
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 6.70214844
-            Y: 33.1792
-            Z: 6.10351563e-05
-          }
-        }
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 12480403223543061490
       }
     }
-    TemplateAsset {
-      Id: 18334579412935951086
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
     }
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12905923173550510229
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 4169008508223611137
+    SubobjectId: 9158560559571464872
+    InstanceId: 6419621411597514088
+    TemplateId: 18334579412935951086
+    WasRoot: true
   }
 }

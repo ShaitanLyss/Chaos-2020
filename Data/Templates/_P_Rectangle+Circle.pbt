@@ -7,7 +7,7 @@
       RootId: 15366785812141456811
       Objects {
         Id: 15366785812141456811
-        Name: "P_Rectangle+Circle"
+        Name: "_P_Rectangle+Circle"
         Transform {
           Scale {
             X: 1
@@ -103,7 +103,7 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 16646680597962164372
+              Id: 12480403223543061490
             }
           }
           Overrides {
@@ -154,7 +154,7 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 16646680597962164372
+              Id: 12480403223543061490
             }
           }
         }
@@ -187,15 +187,6 @@
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_cube_hq_003"
-      }
-    }
-    Assets {
-      Id: 16646680597962164372
-      Name: "Rocky Ground 01"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "rocky_001"
       }
     }
     Assets {

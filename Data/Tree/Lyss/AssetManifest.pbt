@@ -17,15 +17,6 @@ Assets {
   }
 }
 Assets {
-  Id: 10506924591740075662
-  Name: "Fantasy Human Gal 1"
-  PlatformAssetType: 17
-  PrimaryAsset {
-    AssetType: "AnimatedMeshAssetRef"
-    AssetId: "npc_human_gal_fantasy_003_ref"
-  }
-}
-Assets {
   Id: 8960293663979334663
   Name: "Cube - Polished"
   PlatformAssetType: 1

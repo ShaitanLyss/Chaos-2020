@@ -7,7 +7,7 @@
       RootId: 9158560559571464872
       Objects {
         Id: 9158560559571464872
-        Name: "Cylinder - Polished"
+        Name: "_P_Circle_platform"
         Transform {
           Scale {
             X: 3.7
@@ -20,7 +20,7 @@
           Overrides {
             Name: "ma:Shared_BaseMaterial:id"
             AssetReference {
-              Id: 16646680597962164372
+              Id: 12480403223543061490
             }
           }
           Overrides {
@@ -57,15 +57,6 @@
       PrimaryAsset {
         AssetType: "StaticMeshAssetRef"
         AssetId: "sm_cylinder_hq_test_001"
-      }
-    }
-    Assets {
-      Id: 16646680597962164372
-      Name: "Rocky Ground 01"
-      PlatformAssetType: 2
-      PrimaryAsset {
-        AssetType: "MaterialAssetRef"
-        AssetId: "rocky_001"
       }
     }
     PrimaryAssetId {

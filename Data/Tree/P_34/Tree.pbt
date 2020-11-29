@@ -23,6 +23,7 @@ Objects {
       }
     }
   }
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -59,9 +60,10 @@ Objects {
     }
   }
   ParentId: 16990563399086519095
-  ChildIds: 7536686970917528251
+  ChildIds: 17067446045919287797
   ChildIds: 6542599155492560163
   Lifespan: -1396.89697
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -97,6 +99,7 @@ Objects {
     }
   }
   ParentId: 16070735910079566269
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -114,9 +117,13 @@ Objects {
   }
 }
 Objects {
-  Id: 7536686970917528251
+  Id: 17067446045919287797
   Name: "_PS_Rectangle_small"
   Transform {
+    Location {
+    }
+    Rotation {
+    }
     Scale {
       X: 1
       Y: 1
@@ -124,62 +131,22 @@ Objects {
     }
   }
   ParentId: 16070735910079566269
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 10953068183107250475
-      value {
-        Overrides {
-          Name: "Name"
-          String: "_PS_Rectangle_small"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 12159032773331541081
-      value {
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 4.3
-            Y: 13.4000006
-            Z: 0.7
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -45
-          }
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 60.4323044
-            Y: 109.597977
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 18160197662068348531
-    }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "_PS_Rectangle_small_6"
+  }
+  InstanceHistory {
+    SelfId: 17067446045919287797
+    SubobjectId: 10953068183107250475
+    InstanceId: 7536686970917528251
+    TemplateId: 18160197662068348531
+    WasRoot: true
   }
 }

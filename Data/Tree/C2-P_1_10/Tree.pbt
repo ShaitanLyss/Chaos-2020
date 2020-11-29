@@ -23,6 +23,7 @@ Objects {
       }
     }
   }
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -59,8 +60,9 @@ Objects {
     }
   }
   ParentId: 12746370414913924657
-  ChildIds: 16705107965778516240
+  ChildIds: 9646542584050124167
   ChildIds: 8328496687088352688
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -95,6 +97,7 @@ Objects {
     }
   }
   ParentId: 6304130125922609515
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -112,41 +115,56 @@ Objects {
   }
 }
 Objects {
-  Id: 16705107965778516240
+  Id: 9646542584050124167
   Name: "_P_Circle_platform"
   Transform {
+    Rotation {
+    }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 3.7
+      Y: 3.7
+      Z: 0.351101041
     }
   }
   ParentId: 6304130125922609515
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 9158560559571464872
-      value {
-        Overrides {
-          Name: "Name"
-          String: "_P_Circle_platform"
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 3.7
-            Y: 3.7
-            Z: 0.351101041
-          }
-        }
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 12480403223543061490
       }
     }
-    TemplateAsset {
-      Id: 18334579412935951086
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
     }
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12905923173550510229
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 9646542584050124167
+    SubobjectId: 9158560559571464872
+    InstanceId: 16705107965778516240
+    TemplateId: 18334579412935951086
+    WasRoot: true
   }
 }

@@ -23,6 +23,7 @@ Objects {
       }
     }
   }
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -58,8 +59,9 @@ Objects {
     }
   }
   ParentId: 16170634328938234546
-  ChildIds: 8923308012556149605
+  ChildIds: 7698865266863441908
   ChildIds: 18334428074425859826
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -92,6 +94,7 @@ Objects {
     }
   }
   ParentId: 8363980925085256385
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -109,46 +112,58 @@ Objects {
   }
 }
 Objects {
-  Id: 8923308012556149605
+  Id: 7698865266863441908
   Name: "_P_Circle_platform"
   Transform {
+    Location {
+    }
+    Rotation {
+    }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 3.4
+      Y: 3.4
+      Z: 0.351101041
     }
   }
   ParentId: 8363980925085256385
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 9158560559571464872
-      value {
-        Overrides {
-          Name: "Name"
-          String: "_P_Circle_platform"
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 3.4
-            Y: 3.4
-            Z: 0.351101041
-          }
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
-        }
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 12480403223543061490
       }
     }
-    TemplateAsset {
-      Id: 18334579412935951086
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
     }
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12905923173550510229
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 7698865266863441908
+    SubobjectId: 9158560559571464872
+    InstanceId: 8923308012556149605
+    TemplateId: 18334579412935951086
+    WasRoot: true
   }
 }

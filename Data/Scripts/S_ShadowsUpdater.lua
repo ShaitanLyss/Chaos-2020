@@ -19,23 +19,27 @@ function getIntervalle(t, shadow)
 	return deb, fin
 end
 	
-
+local recording = false
 function Tick(dt)
-	t0 = recorder.t0
-	for i, shadow in ipairs(shadows) do				
-		t = time() - t0 - delay
-		if #shadow >= 2 then
-			a, b = getIntervalle(t, shadow)
-			if shadow[b] then
-				ta, tb = shadow[a][1], shadow[b][1]
-				progress = (t - ta) / (tb - ta)
-				from = shadow[a][2]
-				to = shadow[b][2]
-				
-				-- spawn a new clone if needed
-				if not clones[i] then clones[i] = World.SpawnAsset(clone, {parent = script}) end
-				clones[i]:SetWorldPosition(Vector3.Lerp(from, to, progress))
+	if recording then
+		t0 = recorder.t0
+		for i, shadow in ipairs(shadows) do				
+			t = time() - t0 - delay
+			if #shadow >= 2 then
+				a, b = getIntervalle(t, shadow)
+				if shadow[b] then
+					ta, tb = shadow[a][1], shadow[b][1]
+					progress = (t - ta) / (tb - ta)
+					from = shadow[a][2]
+					to = shadow[b][2]
+					
+					-- spawn a new clone if needed
+					if not clones[i] then clones[i] = World.SpawnAsset(clone, {parent = script}) end
+					clones[i]:SetWorldPosition(Vector3.Lerp(from, to, progress))
+				end
 			end
 		end
+	else 
+		Task.Wait(1)
 	end
 end

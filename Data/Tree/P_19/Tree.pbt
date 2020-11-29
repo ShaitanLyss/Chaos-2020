@@ -23,6 +23,7 @@ Objects {
       }
     }
   }
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -59,8 +60,9 @@ Objects {
     }
   }
   ParentId: 2269621066976956319
-  ChildIds: 2200314000855798281
+  ChildIds: 10904639055320104134
   ChildIds: 3322741858804489566
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -94,6 +96,7 @@ Objects {
     }
   }
   ParentId: 12013178931832474336
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -111,9 +114,13 @@ Objects {
   }
 }
 Objects {
-  Id: 2200314000855798281
+  Id: 10904639055320104134
   Name: "_PS_Rectangle_small"
   Transform {
+    Location {
+    }
+    Rotation {
+    }
     Scale {
       X: 1
       Y: 1
@@ -121,67 +128,22 @@ Objects {
     }
   }
   ParentId: 12013178931832474336
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 1864464778962449078
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            Z: 590
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 10953068183107250475
-      value {
-        Overrides {
-          Name: "Name"
-          String: "_PS_Rectangle_small"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 12159032773331541081
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -128.261749
-            Y: 21.187912
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 4.4
-            Y: 6.70000029
-            Z: 0.7
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 18160197662068348531
-    }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "_PS_Rectangle_small_12"
+  }
+  InstanceHistory {
+    SelfId: 10904639055320104134
+    SubobjectId: 10953068183107250475
+    InstanceId: 2200314000855798281
+    TemplateId: 18160197662068348531
+    WasRoot: true
   }
 }

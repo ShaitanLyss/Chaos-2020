@@ -23,6 +23,7 @@ Objects {
       }
     }
   }
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -60,8 +61,9 @@ Objects {
     }
   }
   ParentId: 12754848223143629643
-  ChildIds: 15831443557508759340
+  ChildIds: 15501362264968068782
   ChildIds: 2955754042316262901
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -97,6 +99,7 @@ Objects {
     }
   }
   ParentId: 18128099781660728064
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -114,9 +117,13 @@ Objects {
   }
 }
 Objects {
-  Id: 15831443557508759340
+  Id: 15501362264968068782
   Name: "_PS_Rectangle_wide"
   Transform {
+    Location {
+    }
+    Rotation {
+    }
     Scale {
       X: 1
       Y: 1
@@ -124,73 +131,22 @@ Objects {
     }
   }
   ParentId: 18128099781660728064
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 1825230877436865430
-      value {
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 5.91055536
-            Y: 10.6658401
-            Z: 0.298515558
-          }
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -53.046772
-            Y: 322.996582
-            Z: 113.129677
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 3186520718007181718
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            Z: 590
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 11667518170341861543
-      value {
-        Overrides {
-          Name: "Name"
-          String: "_PS_Rectangle_wide"
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 17594147940704495209
-    }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "_PS_Rectangle_wide_1"
+  }
+  InstanceHistory {
+    SelfId: 15501362264968068782
+    SubobjectId: 11667518170341861543
+    InstanceId: 15831443557508759340
+    TemplateId: 17594147940704495209
+    WasRoot: true
   }
 }

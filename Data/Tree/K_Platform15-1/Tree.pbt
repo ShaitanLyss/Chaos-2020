@@ -23,6 +23,7 @@ Objects {
       }
     }
   }
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -62,8 +63,9 @@ Objects {
     }
   }
   ParentId: 5274152421684043174
-  ChildIds: 8180784399161167879
+  ChildIds: 10054227802415640514
   ChildIds: 15225756764867969953
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -100,6 +102,7 @@ Objects {
     }
   }
   ParentId: 15441700947933427242
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -117,9 +120,13 @@ Objects {
   }
 }
 Objects {
-  Id: 8180784399161167879
+  Id: 10054227802415640514
   Name: "_P_KillCylinder"
   Transform {
+    Location {
+    }
+    Rotation {
+    }
     Scale {
       X: 1
       Y: 1
@@ -127,62 +134,22 @@ Objects {
     }
   }
   ParentId: 15441700947933427242
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 8881477080085901474
-      value {
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1.1
-            Y: 1.1
-            Z: 8.90000057
-          }
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 48.2762527
-            Y: 150.362274
-            Z: 509.224396
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 14666212901670409171
-      value {
-        Overrides {
-          Name: "Name"
-          String: "_P_KillCylinder"
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 6965630994047288269
-    }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "_P_KillCylinder_12"
+  }
+  InstanceHistory {
+    SelfId: 10054227802415640514
+    SubobjectId: 14666212901670409171
+    InstanceId: 8180784399161167879
+    TemplateId: 6965630994047288269
+    WasRoot: true
   }
 }

@@ -3065,10 +3065,9 @@ Objects {
   ChildIds: 2086483169583747052
   ChildIds: 4927039458253437432
   ChildIds: 7400540463490825264
-  ChildIds: 16842061155451119447
-  ChildIds: 13323824561795193947
-  ChildIds: 4530593895269753547
-  ChildIds: 833678128794384461
+  ChildIds: 17792082863491444086
+  ChildIds: 545774171915658462
+  ChildIds: 7053738061777884388
   ChildIds: 14085276996630549787
   ChildIds: 8488852784620626170
   ChildIds: 15458498923047675628
@@ -5530,16 +5529,16 @@ Objects {
   }
 }
 Objects {
-  Id: 833678128794384461
-  Name: "Deity"
+  Id: 7053738061777884388
+  Name: "1_Old Man"
   Transform {
     Location {
-      X: 9249.63281
-      Y: 1900.32495
-      Z: 1040.69446
+      X: -1469.1958
+      Y: 3407.38916
+      Z: -32.5793457
     }
     Rotation {
-      Yaw: -15.7922831
+      Yaw: 73.5457
     }
     Scale {
       X: 1
@@ -5548,82 +5547,141 @@ Objects {
     }
   }
   ParentId: 12442667162174322088
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 5874788770236028590
-      value {
-        Overrides {
-          Name: "Name"
-          String: "1_Old Man"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 466.890625
-            Y: -119.303589
-            Z: -9.30554199
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -15.7923
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        Overrides {
-          Name: "cs:7"
-          String: ""
-        }
-        Overrides {
-          Name: "cs:6"
-          String: ""
-        }
-        Overrides {
-          Name: "cs:5"
-          String: ""
-        }
-        Overrides {
-          Name: "cs:4"
-          String: ""
-        }
-        Overrides {
-          Name: "cs:3"
-          String: ""
-        }
-        Overrides {
-          Name: "cs:2"
-          String: ""
-        }
-        Overrides {
-          Name: "cs:1"
-          String: ""
-        }
+  ChildIds: 6302950441153890411
+  ChildIds: 16931361314753484855
+  ChildIds: 8323812762821859972
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Name"
+      String: "Old Man"
+    }
+    Overrides {
+      Name: "cs:1"
+      String: "NPC3Lv1"
+    }
+    Overrides {
+      Name: "cs:2"
+      String: "NPC3Game2Lv1"
+    }
+    Overrides {
+      Name: "cs:3"
+      String: "NPC3Game2Lv1_repeat"
+    }
+    Overrides {
+      Name: "cs:4"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:5"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:6"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:7"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Behavior"
+      ObjectReference {
+        SelfId: 6302950441153890411
       }
     }
-    TemplateAsset {
-      Id: 522965690069926366
+    Overrides {
+      Name: "cs:AnimatedMesh"
+      ObjectReference {
+        SelfId: 8323812762821859972
+      }
+    }
+    Overrides {
+      Name: "cs:DefaultLoopAnimation"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:PlayDialogAnimations"
+      Bool: true
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 17792082863491444086
+    SubobjectId: 5874788770236028590
+    InstanceId: 13323824561795193947
+    TemplateId: 522965690069926366
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 8323812762821859972
+  Name: "Fantasy Human Gal 2"
+  Transform {
+    Location {
+      X: 13.971077
+      Y: 31.4919186
+      Z: 137.297363
+    }
+    Rotation {
+      Yaw: -46.1128082
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7053738061777884388
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 8483265604398699294
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 18039984299850060191
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    AnimatedMesh {
+      AnimationStance: "1hand_pistol_idle_ready"
+      AnimationStancePlaybackRate: 1
+      AnimationStanceShouldLoop: true
+      AnimationPlaybackRateMultiplier: 1
+      PlayOnStartAnimation {
+        PlaybackRate: 1
+      }
     }
   }
 }
 Objects {
-  Id: 4530593895269753547
-  Name: "Deity"
+  Id: 16931361314753484855
+  Name: "ClientContext"
   Transform {
     Location {
-      X: 9249.63281
-      Y: 1900.32495
-      Z: 1040.69446
+      Z: 104
     }
     Rotation {
-      Yaw: -15.7922535
     }
     Scale {
       X: 1
@@ -5631,83 +5689,163 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 12442667162174322088
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 5874788770236028590
-      value {
-        Overrides {
-          Name: "Name"
-          String: "1_MiddleAged Man"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 466.890625
-            Y: -119.303589
-            Z: -9.30554199
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -15.7922688
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        Overrides {
-          Name: "cs:7"
-          String: ""
-        }
-        Overrides {
-          Name: "cs:6"
-          String: ""
-        }
-        Overrides {
-          Name: "cs:5"
-          String: ""
-        }
-        Overrides {
-          Name: "cs:4"
-          String: ""
-        }
-        Overrides {
-          Name: "cs:3"
-          String: ""
-        }
-        Overrides {
-          Name: "cs:2"
-          String: ""
-        }
-        Overrides {
-          Name: "cs:1"
-          String: ""
-        }
+  ParentId: 7053738061777884388
+  ChildIds: 3825991981850470654
+  ChildIds: 15066359951748614393
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+  InstanceHistory {
+    SelfId: 13654200498093386934
+    SubobjectId: 1878048706741589870
+    InstanceId: 13323824561795193947
+    TemplateId: 522965690069926366
+  }
+}
+Objects {
+  Id: 15066359951748614393
+  Name: "Trigger"
+  Transform {
+    Location {
+      X: -10.0140448
+      Y: 4.25817299
+    }
+    Rotation {
+      Yaw: 3.20017958
+    }
+    Scale {
+      X: 1.79999709
+      Y: 1.74855912
+      Z: 2
+    }
+  }
+  ParentId: 16931361314753484855
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    Interactable: true
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+  InstanceHistory {
+    SelfId: 4761943717928776122
+    SubobjectId: 16535123053133924962
+    InstanceId: 13323824561795193947
+    TemplateId: 522965690069926366
+  }
+}
+Objects {
+  Id: 3825991981850470654
+  Name: "DialogNPCTriggerClient"
+  Transform {
+    Location {
+      Z: 104
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16931361314753484855
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Root"
+      ObjectReference {
+        SelfId: 7053738061777884388
       }
     }
-    TemplateAsset {
-      Id: 522965690069926366
+    Overrides {
+      Name: "cs:Trigger"
+      ObjectReference {
+        SelfId: 15066359951748614393
+      }
+    }
+    Overrides {
+      Name: "cs:DialogIndicator"
+      AssetReference {
+        Id: 12362618696425433544
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 520210685784922352
+    }
+  }
+  InstanceHistory {
+    SelfId: 16432899320839439226
+    SubobjectId: 4854949144634276002
+    InstanceId: 13323824561795193947
+    TemplateId: 522965690069926366
+  }
+}
+Objects {
+  Id: 6302950441153890411
+  Name: "B_PreteenGirl"
+  Transform {
+    Location {
+      X: 2917.73047
+      Y: 7841.25391
+      Z: -1040.69446
+    }
+    Rotation {
+      Yaw: -154.375137
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7053738061777884388
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 2050106116674367942
     }
   }
 }
 Objects {
-  Id: 13323824561795193947
-  Name: "Deity"
+  Id: 545774171915658462
+  Name: "1_MiddleAged Man"
   Transform {
     Location {
-      X: 9146.03613
-      Y: 1900.32495
-      Z: 1040.69446
+      X: -1726.26318
+      Y: 4728.85693
+      Z: -32.5793457
     }
     Rotation {
-      Yaw: -15.7922249
+      Yaw: 95.2322464
     }
     Scale {
       X: 1
@@ -5716,82 +5854,297 @@ Objects {
     }
   }
   ParentId: 12442667162174322088
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 5874788770236028590
-      value {
-        Overrides {
-          Name: "Name"
-          String: "1_Preteen Girl"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 466.890625
-            Y: -119.303589
-            Z: -9.30554199
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -15.7922363
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        Overrides {
-          Name: "cs:7"
-          String: ""
-        }
-        Overrides {
-          Name: "cs:6"
-          String: ""
-        }
-        Overrides {
-          Name: "cs:5"
-          String: ""
-        }
-        Overrides {
-          Name: "cs:4"
-          String: ""
-        }
-        Overrides {
-          Name: "cs:3"
-          String: ""
-        }
-        Overrides {
-          Name: "cs:2"
-          String: ""
-        }
-        Overrides {
-          Name: "cs:1"
-          String: ""
-        }
+  ChildIds: 5686768681598986495
+  ChildIds: 1836674443463696878
+  ChildIds: 14682794215665505465
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Name"
+      String: "Middle-Aged Man"
+    }
+    Overrides {
+      Name: "cs:1"
+      String: "NPC3Lv1"
+    }
+    Overrides {
+      Name: "cs:2"
+      String: "NPC3Game2Lv1"
+    }
+    Overrides {
+      Name: "cs:3"
+      String: "NPC3Game2Lv1_repeat"
+    }
+    Overrides {
+      Name: "cs:4"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:5"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:6"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:7"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Behavior"
+      ObjectReference {
+        SelfId: 5686768681598986495
       }
     }
-    TemplateAsset {
-      Id: 522965690069926366
+    Overrides {
+      Name: "cs:AnimatedMesh"
+      ObjectReference {
+        SelfId: 14682794215665505465
+      }
+    }
+    Overrides {
+      Name: "cs:DefaultLoopAnimation"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:PlayDialogAnimations"
+      Bool: true
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 17792082863491444086
+    SubobjectId: 5874788770236028590
+    InstanceId: 13323824561795193947
+    TemplateId: 522965690069926366
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 14682794215665505465
+  Name: "Fantasy Human Gal 2"
+  Transform {
+    Location {
+      X: 13.971077
+      Y: 31.4919186
+      Z: 137.297363
+    }
+    Rotation {
+      Yaw: -46.1128082
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 545774171915658462
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 7582734378740322169
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    AnimatedMesh {
+      AnimationStance: "zombie_unarmed_idle_relaxed"
+      AnimationStancePlaybackRate: 1
+      AnimationStanceShouldLoop: true
+      AnimationPlaybackRateMultiplier: 1
+      PlayOnStartAnimation {
+        PlaybackRate: 1
+      }
     }
   }
 }
 Objects {
-  Id: 16842061155451119447
-  Name: "Deity"
+  Id: 1836674443463696878
+  Name: "ClientContext"
   Transform {
     Location {
-      X: 9049.09863
-      Y: 1802.81299
-      Z: 1040.69446
+      Z: 104
     }
     Rotation {
-      Yaw: -15.7921925
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 545774171915658462
+  ChildIds: 9588828731138764783
+  ChildIds: 6628096028334589150
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+  InstanceHistory {
+    SelfId: 13654200498093386934
+    SubobjectId: 1878048706741589870
+    InstanceId: 13323824561795193947
+    TemplateId: 522965690069926366
+  }
+}
+Objects {
+  Id: 6628096028334589150
+  Name: "Trigger"
+  Transform {
+    Location {
+      X: -10.0140448
+      Y: 4.25817299
+    }
+    Rotation {
+      Yaw: 3.20017958
+    }
+    Scale {
+      X: 1.79999709
+      Y: 1.74855912
+      Z: 2
+    }
+  }
+  ParentId: 1836674443463696878
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    Interactable: true
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+  InstanceHistory {
+    SelfId: 4761943717928776122
+    SubobjectId: 16535123053133924962
+    InstanceId: 13323824561795193947
+    TemplateId: 522965690069926366
+  }
+}
+Objects {
+  Id: 9588828731138764783
+  Name: "DialogNPCTriggerClient"
+  Transform {
+    Location {
+      Z: 104
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 1836674443463696878
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Root"
+      ObjectReference {
+        SelfId: 545774171915658462
+      }
+    }
+    Overrides {
+      Name: "cs:Trigger"
+      ObjectReference {
+        SelfId: 6628096028334589150
+      }
+    }
+    Overrides {
+      Name: "cs:DialogIndicator"
+      AssetReference {
+        Id: 12362618696425433544
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 520210685784922352
+    }
+  }
+  InstanceHistory {
+    SelfId: 16432899320839439226
+    SubobjectId: 4854949144634276002
+    InstanceId: 13323824561795193947
+    TemplateId: 522965690069926366
+  }
+}
+Objects {
+  Id: 5686768681598986495
+  Name: "B_PreteenGirl"
+  Transform {
+    Location {
+      X: 2917.73047
+      Y: 7841.25391
+      Z: -1040.69446
+    }
+    Rotation {
+      Yaw: -154.375137
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 545774171915658462
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 2050106116674367942
+    }
+  }
+}
+Objects {
+  Id: 17792082863491444086
+  Name: "1_Preteen Girl"
+  Transform {
+    Location {
+      X: -2758.68262
+      Y: 3740.39111
+      Z: -9.30554199
+    }
+    Rotation {
+      Yaw: -118.628845
     }
     Scale {
       X: 1
@@ -5800,68 +6153,281 @@ Objects {
     }
   }
   ParentId: 12442667162174322088
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 5874788770236028590
-      value {
-        Overrides {
-          Name: "Name"
-          String: "1_Younger Man"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 363.293945
-            Y: -119.303589
-            Z: -9.30554199
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: -15.7922058
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-        Overrides {
-          Name: "cs:7"
-          String: ""
-        }
-        Overrides {
-          Name: "cs:6"
-          String: ""
-        }
-        Overrides {
-          Name: "cs:5"
-          String: ""
-        }
-        Overrides {
-          Name: "cs:4"
-          String: ""
-        }
-        Overrides {
-          Name: "cs:3"
-          String: ""
-        }
-        Overrides {
-          Name: "cs:2"
-          String: ""
-        }
-        Overrides {
-          Name: "cs:1"
-          String: ""
-        }
+  ChildIds: 1321703423885176418
+  ChildIds: 13654200498093386934
+  ChildIds: 18325661570928425848
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Name"
+      String: "Preteen"
+    }
+    Overrides {
+      Name: "cs:1"
+      String: "NPC2PreLv1_1"
+    }
+    Overrides {
+      Name: "cs:2"
+      String: "NPC2PreLv1_2"
+    }
+    Overrides {
+      Name: "cs:3"
+      String: "NPC2PreLv1_repeat"
+    }
+    Overrides {
+      Name: "cs:4"
+      String: "NPC2PostLv1"
+    }
+    Overrides {
+      Name: "cs:5"
+      String: "NPC2PostLv1_repeat"
+    }
+    Overrides {
+      Name: "cs:6"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:7"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:Behavior"
+      ObjectReference {
+        SelfId: 1321703423885176418
       }
     }
-    TemplateAsset {
-      Id: 522965690069926366
+    Overrides {
+      Name: "cs:AnimatedMesh"
+      ObjectReference {
+        SelfId: 18325661570928425848
+      }
+    }
+    Overrides {
+      Name: "cs:DefaultLoopAnimation"
+      String: ""
+    }
+    Overrides {
+      Name: "cs:PlayDialogAnimations"
+      Bool: true
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 17792082863491444086
+    SubobjectId: 5874788770236028590
+    InstanceId: 13323824561795193947
+    TemplateId: 522965690069926366
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 18325661570928425848
+  Name: "Fantasy Human Gal 2"
+  Transform {
+    Location {
+      Z: 111.065308
+    }
+    Rotation {
+      Yaw: -66.3689575
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17792082863491444086
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 18184239439133469957
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    AnimatedMesh {
+      AnimationStance: "unarmed_idle_relaxed"
+      AnimationStancePlaybackRate: 1
+      AnimationStanceShouldLoop: true
+      AnimationPlaybackRateMultiplier: 1
+      PlayOnStartAnimation {
+        PlaybackRate: 1
+      }
+    }
+  }
+}
+Objects {
+  Id: 13654200498093386934
+  Name: "ClientContext"
+  Transform {
+    Location {
+      Z: 104
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17792082863491444086
+  ChildIds: 16432899320839439226
+  ChildIds: 4761943717928776122
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  NetworkContext {
+  }
+  InstanceHistory {
+    SelfId: 13654200498093386934
+    SubobjectId: 1878048706741589870
+    InstanceId: 13323824561795193947
+    TemplateId: 522965690069926366
+  }
+}
+Objects {
+  Id: 4761943717928776122
+  Name: "Trigger"
+  Transform {
+    Location {
+      X: -10.0140448
+      Y: 4.25817299
+    }
+    Rotation {
+      Yaw: 3.20017958
+    }
+    Scale {
+      X: 1.79999709
+      Y: 1.74855912
+      Z: 2
+    }
+  }
+  ParentId: 13654200498093386934
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    Interactable: true
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+  InstanceHistory {
+    SelfId: 4761943717928776122
+    SubobjectId: 16535123053133924962
+    InstanceId: 13323824561795193947
+    TemplateId: 522965690069926366
+  }
+}
+Objects {
+  Id: 16432899320839439226
+  Name: "DialogNPCTriggerClient"
+  Transform {
+    Location {
+      Z: 104
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 13654200498093386934
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Root"
+      ObjectReference {
+        SelfId: 17792082863491444086
+      }
+    }
+    Overrides {
+      Name: "cs:Trigger"
+      ObjectReference {
+        SelfId: 4761943717928776122
+      }
+    }
+    Overrides {
+      Name: "cs:DialogIndicator"
+      AssetReference {
+        Id: 12362618696425433544
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 520210685784922352
+    }
+  }
+  InstanceHistory {
+    SelfId: 16432899320839439226
+    SubobjectId: 4854949144634276002
+    InstanceId: 13323824561795193947
+    TemplateId: 522965690069926366
+  }
+}
+Objects {
+  Id: 1321703423885176418
+  Name: "B_PreteenGirl"
+  Transform {
+    Location {
+      X: 2917.73047
+      Y: 7841.25391
+      Z: -1040.69446
+    }
+    Rotation {
+      Yaw: -154.375137
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17792082863491444086
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 2050106116674367942
     }
   }
 }
@@ -6279,12 +6845,12 @@ Objects {
   Name: "IntroChild"
   Transform {
     Location {
-      X: -1551.68604
-      Y: 3961.18408
+      X: 436.083
+      Y: 460.190552
       Z: 0.000122070313
     }
     Rotation {
-      Yaw: 105.814262
+      Yaw: 175.525146
     }
     Scale {
       X: 1

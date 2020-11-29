@@ -23,6 +23,7 @@ Objects {
       }
     }
   }
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -58,6 +59,7 @@ Objects {
   ParentId: 14588450779597311200
   ChildIds: 4518937748087082688
   ChildIds: 9052772619432555744
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -163,6 +165,7 @@ Objects {
     }
   }
   ParentId: 17003918926460498651
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

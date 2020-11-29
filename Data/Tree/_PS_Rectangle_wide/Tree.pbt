@@ -1,7 +1,7 @@
 ﻿Name: "_PS_Rectangle_wide"
-RootId: 2712328764055476191
+RootId: 7578777071448211128
 Objects {
-  Id: 4139043546409629395
+  Id: 689048195789946818
   Name: "P_PlatformBehavior"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 2712328764055476191
+  ParentId: 7578777071448211128
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -28,40 +28,39 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 6989069950514818741
+    SelfId: 689048195789946818
     SubobjectId: 13927836823075236317
-    InstanceId: 2867604839955150811
+    InstanceId: 15433789880022753378
     TemplateId: 17594147940704495209
   }
 }
 Objects {
-  Id: 13369598951954819282
+  Id: 15101385056760708489
   Name: "Mesh"
   Transform {
     Location {
-      X: 11.551466
-      Y: 10.796463
     }
     Rotation {
     }
     Scale {
-      X: 6.9
-      Y: 9.8
-      Z: 1
+      X: 4.20354223
+      Y: 7.87831116
+      Z: 0.298515558
     }
   }
-  ParentId: 2712328764055476191
-  ChildIds: 14438680950803687411
+  ParentId: 7578777071448211128
+  ChildIds: 7250582903361868302
+  ChildIds: 17598334168159197663
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 16646680597962164372
+        Id: 12480403223543061490
       }
     }
     Overrides {
       Name: "ma:Shared_BaseMaterial:smart"
-      Bool: false
+      Bool: true
     }
   }
   WantsNetworking: true
@@ -86,17 +85,18 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 13322547146146786558
+    SelfId: 15101385056760708489
     SubobjectId: 1825230877436865430
-    InstanceId: 2867604839955150811
+    InstanceId: 15433789880022753378
     TemplateId: 17594147940704495209
   }
 }
 Objects {
-  Id: 14438680950803687411
-  Name: "fx"
+  Id: 17598334168159197663
+  Name: "2"
   Transform {
     Location {
+      Z: 480
     }
     Rotation {
     }
@@ -106,53 +106,102 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 13369598951954819282
-  ChildIds: 902103382846748177
-  ChildIds: 18156819635931671740
+  ParentId: 15101385056760708489
+  ChildIds: 16500815025109366665
+  ChildIds: 10500630007732794379
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   NetworkContext {
   }
+  InstanceHistory {
+    SelfId: 17598334168159197663
+    SubobjectId: 4395433853734375360
+    InstanceId: 15433789880022753378
+    TemplateId: 17594147940704495209
+  }
 }
 Objects {
-  Id: 18156819635931671740
-  Name: "2"
+  Id: 10500630007732794379
+  Name: "Basic Sparks"
   Transform {
     Location {
     }
     Rotation {
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 0.4
+      Y: 0.2
+      Z: 8.99999619
     }
   }
-  ParentId: 14438680950803687411
+  ParentId: 17598334168159197663
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceoff"
+    Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "2_1"
+  Blueprint {
+    BlueprintAsset {
+      Id: 13379203971815039509
+    }
+    TeamSettings {
+    }
+    Vfx {
+    }
   }
   InstanceHistory {
-    SelfId: 9048328686960536646
-    SubobjectId: 15863270921210538798
-    InstanceId: 2867604839955150811
+    SelfId: 10500630007732794379
+    SubobjectId: 6449114232206631444
+    InstanceId: 15433789880022753378
     TemplateId: 17594147940704495209
   }
 }
 Objects {
-  Id: 902103382846748177
+  Id: 16500815025109366665
+  Name: "Fire Volume VFX"
+  Transform {
+    Location {
+      Z: 590
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 10.7999992
+    }
+  }
+  ParentId: 17598334168159197663
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 6474768715633236406
+    }
+    TeamSettings {
+    }
+    Vfx {
+    }
+  }
+  InstanceHistory {
+    SelfId: 16500815025109366665
+    SubobjectId: 3186520718007181718
+    InstanceId: 15433789880022753378
+    TemplateId: 17594147940704495209
+  }
+}
+Objects {
+  Id: 7250582903361868302
   Name: "1"
   Transform {
     Location {
@@ -165,21 +214,97 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 14438680950803687411
+  ParentId: 15101385056760708489
+  ChildIds: 966020894762004933
+  ChildIds: 1140575434643367409
+  WantsNetworking: true
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:forceoff"
   }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "1_1"
+  NetworkContext {
   }
   InstanceHistory {
-    SelfId: 16752187908442515300
-    SubobjectId: 5317640646511861772
-    InstanceId: 2867604839955150811
+    SelfId: 7250582903361868302
+    SubobjectId: 12419061757564699665
+    InstanceId: 15433789880022753378
+    TemplateId: 17594147940704495209
+  }
+}
+Objects {
+  Id: 1140575434643367409
+  Name: "Basic Sparks"
+  Transform {
+    Location {
+      Z: 480
+    }
+    Rotation {
+    }
+    Scale {
+      X: 0.4
+      Y: 0.2
+      Z: 8.99999619
+    }
+  }
+  ParentId: 7250582903361868302
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 13379203971815039509
+    }
+    TeamSettings {
+    }
+    Vfx {
+    }
+  }
+  InstanceHistory {
+    SelfId: 1140575434643367409
+    SubobjectId: 14344601646285960174
+    InstanceId: 15433789880022753378
+    TemplateId: 17594147940704495209
+  }
+}
+Objects {
+  Id: 966020894762004933
+  Name: "Fire Volume VFX"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1.6
+    }
+  }
+  ParentId: 7250582903361868302
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 6474768715633236406
+    }
+    TeamSettings {
+    }
+    Vfx {
+    }
+  }
+  InstanceHistory {
+    SelfId: 966020894762004933
+    SubobjectId: 14240837770989479898
+    InstanceId: 15433789880022753378
     TemplateId: 17594147940704495209
   }
 }

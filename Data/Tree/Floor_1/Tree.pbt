@@ -1,6 +1,155 @@
 ﻿Name: "Floor_1"
 RootId: 16093149801066646306
 Objects {
+  Id: 1702945671018033136
+  Name: "Border"
+  Transform {
+    Location {
+      X: 5174.05322
+      Y: 2341.18311
+      Z: 1024.99988
+    }
+    Rotation {
+      Yaw: -45.8768311
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 16093149801066646306
+  ChildIds: 8399485718811692276
+  ChildIds: 15892789879426084986
+  ChildIds: 6171380740858247812
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 6171380740858247812
+  Name: "Fantasy Castle Stairs Spiral Trim 01 - 4m"
+  Transform {
+    Location {
+      X: -468.060791
+      Y: -805.365295
+    }
+    Rotation {
+      Yaw: -120.163864
+    }
+    Scale {
+      X: 2.33333
+      Y: 4
+      Z: 2.3
+    }
+  }
+  ParentId: 1702945671018033136
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 4286823887220239396
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 15892789879426084986
+  Name: "Fantasy Castle Stairs Spiral Trim 01 - 4m"
+  Transform {
+    Location {
+      X: 0.369689286
+      Y: 0.64530015
+    }
+    Rotation {
+      Yaw: -120.163864
+    }
+    Scale {
+      X: 2.33333
+      Y: 4
+      Z: 2.3
+    }
+  }
+  ParentId: 1702945671018033136
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 4286823887220239396
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
+  Id: 8399485718811692276
+  Name: "Fantasy Castle Stairs Spiral Trim 01 - 4m"
+  Transform {
+    Location {
+      X: 467.691071
+      Y: 804.72052
+    }
+    Rotation {
+      Yaw: -120.163864
+    }
+    Scale {
+      X: 2.33333
+      Y: 4
+      Z: 2.3
+    }
+  }
+  ParentId: 1702945671018033136
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 4286823887220239396
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+}
+Objects {
   Id: 11474994198141531463
   Name: "Border"
   Transform {

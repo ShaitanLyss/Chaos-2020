@@ -234,7 +234,7 @@ function Dialogs.RegisterDialogue()
 	-- Pre-Challenge / Repeat
 	id = "NPC2PreLv1_repeat"
 	API.RegisterDialogueId(id)
-	API.AddText(id, "Thinking: I hope he found the right ladder...")
+	API.AddText(id, "* I hope he found the right ladder... *")
 	
 	-- Post-Challenge / No Repeat
 	id = "NPC2PostLv1"

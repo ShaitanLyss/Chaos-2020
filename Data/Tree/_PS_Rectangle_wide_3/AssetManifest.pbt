@@ -8,11 +8,20 @@
   }
 }
 Assets {
-  Id: 16646680597962164372
-  Name: "Rocky Ground 01"
-  PlatformAssetType: 2
+  Id: 13379203971815039509
+  Name: "Basic Sparks"
+  PlatformAssetType: 8
   PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "rocky_001"
+    AssetType: "VfxBlueprintAssetRef"
+    AssetId: "fxbp_basic_sparks"
+  }
+}
+Assets {
+  Id: 6474768715633236406
+  Name: "Fire Volume VFX"
+  PlatformAssetType: 8
+  PrimaryAsset {
+    AssetType: "VfxBlueprintAssetRef"
+    AssetId: "fxbp_fire_volume_vfx"
   }
 }

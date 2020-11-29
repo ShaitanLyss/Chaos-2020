@@ -23,6 +23,7 @@ Objects {
       }
     }
   }
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -59,7 +60,8 @@ Objects {
     }
   }
   ParentId: 13088615373440394531
-  ChildIds: 5139363712539777457
+  ChildIds: 6228170418184405689
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -77,48 +79,60 @@ Objects {
   }
 }
 Objects {
-  Id: 5139363712539777457
+  Id: 6228170418184405689
   Name: "_P_Circle_platform"
   Transform {
+    Location {
+      Z: -0.000122070313
+    }
+    Rotation {
+    }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 3.5
+      Y: 3.5
+      Z: 0.3
     }
   }
   ParentId: 7705394398035598077
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 9158560559571464872
-      value {
-        Overrides {
-          Name: "Name"
-          String: "_P_Circle_platform"
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 3.5
-            Y: 3.5
-            Z: 0.3
-          }
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            Z: -0.000122070313
-          }
-        }
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 12480403223543061490
       }
     }
-    TemplateAsset {
-      Id: 18334579412935951086
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:smart"
+      Bool: false
     }
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12905923173550510229
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
+    }
+  }
+  InstanceHistory {
+    SelfId: 6228170418184405689
+    SubobjectId: 9158560559571464872
+    InstanceId: 5139363712539777457
+    TemplateId: 18334579412935951086
+    WasRoot: true
   }
 }
 Objects {
@@ -139,6 +153,7 @@ Objects {
     }
   }
   ParentId: 13088615373440394531
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
