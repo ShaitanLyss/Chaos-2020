@@ -4759,8 +4759,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -2737.72607
-            Y: -1046.61963
+            X: -2733.93408
+            Y: -1015.73633
             Z: 1853
           }
         }
