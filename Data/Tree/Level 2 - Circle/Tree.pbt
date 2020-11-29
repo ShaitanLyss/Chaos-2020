@@ -136,6 +136,35 @@ Objects {
   }
 }
 Objects {
+  Id: 16367439448487044000
+  Name: "C-14_LVL2"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 5239628783255204261
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "C-14_LVL2"
+  }
+  InstanceHistory {
+    SelfId: 16367439448487044000
+    SubobjectId: 16654495292939890785
+    InstanceId: 635521848385500239
+    TemplateId: 3915291774251592516
+    WasRoot: true
+  }
+}
+Objects {
   Id: 17315922363621527349
   Name: "CS_Wasteland"
   Transform {
@@ -2571,6 +2600,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
+            X: -104.167313
+            Y: 3.83409452
             Z: -128.906494
           }
         }
@@ -3220,115 +3251,32 @@ Objects {
   }
 }
 Objects {
-  Id: 8649590279419668664
-  Name: "_Level.2.Wall"
+  Id: 6227612686924122681
+  Name: "C-13_LVL2"
   Transform {
-    Location {
-      X: -275
-      Y: -7255
-      Z: 2600
-    }
-    Rotation {
-      Yaw: 8.00000858
-    }
     Scale {
-      X: 0.4
-      Y: 17
-      Z: 1.30000007
+      X: 1
+      Y: 1
+      Z: 1
     }
   }
   ParentId: 5239628783255204261
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 5594672932005031246
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Wall 8"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -890.611816
-            Y: -14742.6699
-            Z: 1600.00024
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 24
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.4
-            Y: 17
-            Z: 1.30000007
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 7813499516720574108
-    }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
   }
-}
-Objects {
-  Id: 643136935303920036
-  Name: "_Level.2.Wall"
-  Transform {
-    Location {
-      X: -6060
-      Y: -4395
-      Z: 2705
-    }
-    Rotation {
-      Yaw: -52.0000191
-    }
-    Scale {
-      X: 0.4
-      Y: 16.4
-      Z: 3.19999981
-    }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  ParentId: 5239628783255204261
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 5594672932005031246
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Wall 7"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -3875
-            Y: -15505
-            Z: 1600
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Yaw: 8
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 0.4
-            Y: 17
-            Z: 1.30000007
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 7813499516720574108
-    }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "C-13_LVL2"
+  }
+  InstanceHistory {
+    SelfId: 6227612686924122681
+    SubobjectId: 16654495292939890785
+    InstanceId: 11226623229966437252
+    TemplateId: 3915291774251592516
+    WasRoot: true
   }
 }
 Objects {
@@ -4759,8 +4707,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: -2737.72607
-            Y: -1046.61963
+            X: -2733.93408
+            Y: -1015.73633
             Z: 1853
           }
         }

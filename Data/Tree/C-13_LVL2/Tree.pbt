@@ -1,13 +1,10 @@
-﻿Name: "C-3_LVL2"
-RootId: 6537915064670928007
+﻿Name: "C-13_LVL2"
+RootId: 6227612686924122681
 Objects {
-  Id: 5470575707696656824
+  Id: 8207121627246268032
   Name: "CoronaSquare"
   Transform {
     Location {
-      X: -6247.2666
-      Y: -1302.13818
-      Z: 1420.23486
     }
     Rotation {
     }
@@ -17,23 +14,23 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6537915064670928007
+  ParentId: 6227612686924122681
   UnregisteredParameters {
     Overrides {
       Name: "cs:CPlatform"
       ObjectReference {
-        SelfId: 6537915064670928007
+        SelfId: 6227612686924122681
       }
     }
     Overrides {
       Name: "cs:CPlatformModel"
       ObjectReference {
-        SelfId: 14837378477550255154
+        SelfId: 13924935159055780492
       }
     }
     Overrides {
       Name: "cs:DecreaseSpeedPer"
-      Float: 0.45
+      Float: 0.7
     }
     Overrides {
       Name: "cs:JumpSpeedPer"
@@ -52,23 +49,23 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 18067898532816862284
+    SelfId: 8207121627246268032
     SubobjectId: 13882845199832216792
-    InstanceId: 4748421921087412187
+    InstanceId: 11226623229966437252
     TemplateId: 3915291774251592516
   }
 }
 Objects {
-  Id: 14837378477550255154
+  Id: 13924935159055780492
   Name: "CPlatformModel"
   Transform {
     Location {
-      X: -7254.90234
-      Y: -1935.99609
-      Z: 1725
+      X: -3875
+      Y: -15505
+      Z: 1666.68848
     }
     Rotation {
-      Yaw: 22.9998932
+      Yaw: 8
     }
     Scale {
       X: 1
@@ -76,7 +73,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 6537915064670928007
+  ParentId: 6227612686924122681
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -85,12 +82,12 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "CPlatformModel_13"
+    FilePartitionName: "CPlatformModel_1"
   }
   InstanceHistory {
-    SelfId: 14837378477550255154
+    SelfId: 13924935159055780492
     SubobjectId: 8102825907411153108
-    InstanceId: 6951953528707084326
+    InstanceId: 11226623229966437252
     TemplateId: 3915291774251592516
   }
 }

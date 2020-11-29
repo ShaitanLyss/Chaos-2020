@@ -24,7 +24,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
-      String: "Old Man"
+      String: "Max"
     }
     Overrides {
       Name: "cs:1"
@@ -328,7 +328,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
-      String: "Middle-Aged"
+      String: "Trevor"
     }
     Overrides {
       Name: "cs:1"
@@ -627,7 +627,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
-      String: "Preteen"
+      String: "Elizabeth"
     }
     Overrides {
       Name: "cs:1"
@@ -1279,8 +1279,8 @@ Objects {
   Name: "IntroChild"
   Transform {
     Location {
-      X: 1879.40137
-      Y: -2231.06128
+      X: 1122.57617
+      Y: -1313.40234
       Z: 32.5794678
     }
     Rotation {
