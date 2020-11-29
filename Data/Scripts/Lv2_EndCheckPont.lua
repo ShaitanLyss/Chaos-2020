@@ -1,7 +1,7 @@
 ﻿local trigger = script:GetChildren()[1]
 
 function OnBeginOverlap(t, other)
-	if other:IsA("Player") then
+	if other.name == "Moving platform" then
 		Events.Broadcast("platformEndCheckpoint") end
 end
 	
