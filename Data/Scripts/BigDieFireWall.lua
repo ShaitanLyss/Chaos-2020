@@ -37,4 +37,4 @@ end
 
 -- Connect trigger overlap event
 trigger.beginOverlapEvent:Connect(OnBeginOverlap)
---Events.Connect("E_BigDie", OnBigDie)
+Events.Connect("E_BigDie", OnBigDie)

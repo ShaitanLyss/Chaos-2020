@@ -150,7 +150,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Lyss"
+    FilePartitionName: "Lyss_1"
   }
 }
 Objects {

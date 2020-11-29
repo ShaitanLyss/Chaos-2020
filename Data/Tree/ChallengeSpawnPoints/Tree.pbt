@@ -35,8 +35,8 @@ Objects {
   Name: "Lvl2_Challenge"
   Transform {
     Location {
-      X: 5461.19678
-      Y: 4049.03271
+      X: 5342.86963
+      Y: 4157.34277
       Z: 2649.10498
     }
     Rotation {

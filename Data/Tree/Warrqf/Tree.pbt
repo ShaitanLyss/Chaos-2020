@@ -1,23 +1,23 @@
 ﻿Name: "Warrqf"
 RootId: 2945555324994538590
 Objects {
-  Id: 8050152611084489607
-  Name: "Hill 05"
+  Id: 14612293521746151341
+  Name: "Hill 02"
   Transform {
     Location {
-      X: 128.779663
-      Y: -1126.03772
-      Z: 65.9921875
+      X: -717.251526
+      Y: 822.332764
+      Z: 202.18335
     }
     Rotation {
-      Pitch: 4.26003647
-      Yaw: -72.7029419
-      Roll: -94.3708496
+      Pitch: 2.11366343
+      Yaw: 5
+      Roll: 85.3483353
     }
     Scale {
-      X: 2.60620451
-      Y: 2.60620451
-      Z: 2.25962496
+      X: 2.50838614
+      Y: 2.50838614
+      Z: 2.50838614
     }
   }
   ParentId: 2945555324994538590
@@ -50,7 +50,7 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 7559416490291028773
+      Id: 14023144080669477239
     }
     Teams {
       IsTeamCollisionEnabled: true
@@ -1208,7 +1208,7 @@ Objects {
     }
     Rotation {
       Pitch: 4.26007748
-      Yaw: -81.5864105
+      Yaw: -81.5864258
       Roll: -94.3708496
     }
     Scale {

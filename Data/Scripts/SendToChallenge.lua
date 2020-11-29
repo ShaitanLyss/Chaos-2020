@@ -24,6 +24,11 @@ function OnInteracted(theTrigger, player)
             Events.BroadcastToAllPlayers("hideLadder")
         elseif player:GetResource("level") == 2 then 
             print("level 2 Challenge") 
+            
+            local townPlatforms = script:GetCustomProperty("townPlatforms"):WaitForObject()
+            local floorWarts = script:GetCustomProperty("floorWarts"):WaitForObject()
+            show(townPlatforms)
+            floorWarts.visibility = Visibility.FORCE_ON
             player:Respawn({position = lvl2_Challenge:GetWorldPosition(), rotation = lvl2_Challenge:GetWorldRotation()})
 
         elseif player:GetResource("level") == 3 then 

@@ -10,6 +10,12 @@ function OnBigDie(player)
     CanGoToNextLVL(player)
     
     if player:GetResource("level") == 2 then
+   	local townPlatforms = script:GetCustomProperty("townPlatforms"):WaitForObject()
+   	local floorWarts = script:GetCustomProperty("floorWarts"):WaitForObject()
+   	townPlatforms.collision = Collision.FORCE_OFF
+   	townPlatforms.visibility = Visibility.FORCE_OFF
+   	floorWarts.visibility = Visibility.FORCE_OFF
+   	
     player:Respawn({position = spawnPlace_2:GetWorldPosition(), rotation = Rotation.New(0,0,0)})
     elseif player:GetResource("level") == 3 then
         player:Respawn({position = spawnPlace_3:GetWorldPosition(), rotation = Rotation.New(0,0,0)})

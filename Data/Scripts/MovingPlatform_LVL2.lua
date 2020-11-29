@@ -99,3 +99,22 @@ end
 Game.playerJoinedEvent:Connect(OnPlayerJoined)
 Events.Connect("E_StopMovingPlatform_LVL2", OnStopMovingPlatform)
 
+local checkpoint
+local checkpoint_pos
+local checkpoint_rot
+
+function OnStartCheckpoint()
+	checkpoint = index
+	checkpoint_pos = movingPlatformModel:GetWorldPosition()
+	checkpoint_rot = movingPlatformModel:GetWorldRotation()
+end
+
+function OnEndCheckpoint()
+	checkpoint = index
+	movingPlatformModel:SetWorldPosition(checkpoint_pos)
+	movingPlatformModel:SetWorldRotation(checkpoint_rot)
+end
+
+
+	
+

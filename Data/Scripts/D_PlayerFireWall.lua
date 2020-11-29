@@ -27,6 +27,15 @@ function DistanceCalc()
     local platformsSeparation = playerCount - FireWallCount
     Events.BroadcastToAllPlayers("E_PlatformsSeparationChanged", platformsSeparation)
 
+    --kill the player if firewall pass him
+    if platformsSeparation <= -1 then
+        Task.Wait(1)
+        if platformsSeparation <= -1 then
+            Events.Broadcast("E_BigDie")
+        end
+    end
+
+
     if (player:GetResource("level") == 1) and (player:GetResource("passChallenge") == 1) then
         Events.Broadcast("E_PlatformsSeparateChanged", platformsSeparation)
     end
