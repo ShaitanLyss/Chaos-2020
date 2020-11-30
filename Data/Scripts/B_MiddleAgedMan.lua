@@ -26,13 +26,13 @@ function Behavior.getI(i)
 			return midLifeCrisisLevel
 		end
 	-- Subsequent Playthroughs
-	else 
+	else
 		if midLifeCrisisLevel < 3 then
 			midLifeCrisisLevel = midLifeCrisisLevel + 1
 			return midLifeCrisisLevel
 		else
 			return midLifeCrisisLevel
-		end
+		end 
 	end
 end
 
