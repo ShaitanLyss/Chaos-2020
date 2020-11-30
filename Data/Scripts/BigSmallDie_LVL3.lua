@@ -11,6 +11,7 @@ function OnCheckPointChanged(hitPos, playerRot)
  end
  
  
+ --[[
  --for small die 
  function OnSmallDie()
     if thePlayer:IsA("Player")  and not thePlayer.isDead and (thePlayer:GetResource("challenge") == 1) and (thePlayer:GetResource("level") == 3) then
@@ -21,11 +22,7 @@ function OnCheckPointChanged(hitPos, playerRot)
         thePlayer:Respawn({position = checkpointPos + Vector3.UP * 100, rotation = checkpointRot})
     end
 end
-
-function OnTouchGround()
-	OnSmallDie()
-end
- 
+]]-- 
 
 --Big Die
 function OnOverlapBigDie()
