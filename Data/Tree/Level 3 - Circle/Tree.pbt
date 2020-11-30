@@ -1616,9 +1616,9 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-            Pitch: 40.6217041
-            Yaw: -54.7922363
-            Roll: 31.2813454
+            Pitch: 42.9836388
+            Yaw: -53.2590942
+            Roll: 33.5807571
           }
         }
         Overrides {
@@ -1846,6 +1846,12 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 9704002950564038913
           }
         }
       }
@@ -2523,6 +2529,12 @@ Objects {
             X: 2
             Y: 2
             Z: 6.08997774
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 9704002950564038913
           }
         }
       }
@@ -3205,6 +3217,12 @@ Objects {
             Z: 6.08997774
           }
         }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 9704002950564038913
+          }
+        }
       }
     }
     TemplateAsset {
@@ -3372,6 +3390,12 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 9704002950564038913
           }
         }
       }
@@ -3846,6 +3870,19 @@ Objects {
             X: 0.457492799
             Y: 1
             Z: 2.40123034
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 7277854644635037849
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -1.19224226
+            Y: 3.6896584
+            Z: -10.4304686
           }
         }
       }
@@ -4458,6 +4495,12 @@ Objects {
             Z: 6.08997774
           }
         }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 9704002950564038913
+          }
+        }
       }
     }
     TemplateAsset {
@@ -4646,6 +4689,12 @@ Objects {
             Z: 5.0759
           }
         }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 9704002950564038913
+          }
+        }
       }
     }
     TemplateAsset {
@@ -4754,7 +4803,7 @@ Objects {
           Vector {
             X: 5.5
             Y: 5.5
-            Z: 8
+            Z: 6
           }
         }
         Overrides {
@@ -5452,6 +5501,12 @@ Objects {
             Z: 5.0759
           }
         }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 7900313160984104139
+          }
+        }
       }
     }
     TemplateAsset {
@@ -5841,9 +5896,16 @@ Objects {
   }
 }
 Objects {
-  Id: 11351972216480617470
+  Id: 7763766046298919936
   Name: "Collectable_2"
   Transform {
+    Location {
+      X: -8583.29395
+      Y: -7049.59473
+      Z: 4390.68
+    }
+    Rotation {
+    }
     Scale {
       X: 1
       Y: 1
@@ -5858,32 +5920,16 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 10146649453250517653
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Collectable_2"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -8583.29395
-            Y: -7049.59473
-            Z: 4390.68
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 2923063795454212422
-    }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Collectable_LVL3"
+  }
+  InstanceHistory {
+    SelfId: 7763766046298919936
+    SubobjectId: 10146649453250517653
+    InstanceId: 11351972216480617470
+    TemplateId: 2923063795454212422
+    WasRoot: true
   }
 }
 Objects {
@@ -5933,6 +5979,12 @@ Objects {
             Z: 0.7
           }
         }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 9704002950564038913
+          }
+        }
       }
     }
     TemplateAsset {
@@ -5978,6 +6030,12 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
+          }
+        }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 4209508232667492342
           }
         }
       }

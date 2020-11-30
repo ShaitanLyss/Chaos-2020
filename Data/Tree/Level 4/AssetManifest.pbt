@@ -26,11 +26,11 @@ Assets {
   }
 }
 Assets {
-  Id: 2763058971144746285
-  Name: "Bricks Concrete Cinder Block 01"
+  Id: 5943931403553382604
+  Name: "Terrain - Snow"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
-    AssetId: "mi_brick_concrete_001"
+    AssetId: "mi_terrain_rock-snow_001_wa"
   }
 }

@@ -5,7 +5,7 @@ Objects {
   Name: "Floor 1"
   Transform {
     Location {
-      Z: 10200
+      Z: 10203.6035
     }
     Rotation {
     }
@@ -64,7 +64,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 10863862208740259149
+        Id: 14714700150105103329
       }
     }
   }

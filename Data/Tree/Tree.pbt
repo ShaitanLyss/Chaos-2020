@@ -24,8 +24,8 @@ Objects {
   ChildIds: 4434011006133901618
   ChildIds: 7135527698524595111
   ChildIds: 9979578846465070629
-  ChildIds: 4902195944565990465
-  ChildIds: 1584735495395996414
+  ChildIds: 3310458964701018004
+  ChildIds: 1154504680341791018
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -38,9 +38,13 @@ Objects {
   }
 }
 Objects {
-  Id: 1584735495395996414
-  Name: "Shadow"
+  Id: 1154504680341791018
+  Name: "B_DeityLobby"
   Transform {
+    Location {
+    }
+    Rotation {
+    }
     Scale {
       X: 1
       Y: 1
@@ -48,45 +52,26 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
-  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 5540234023341183585
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Shadow"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 4180
-            Y: 980
-            Z: 4690
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 12758099782926035155
+  Script {
+    ScriptAsset {
+      Id: 8665520862023892415
     }
   }
 }
 Objects {
-  Id: 4902195944565990465
-  Name: "S_ShadowClone"
+  Id: 3310458964701018004
+  Name: "B_DeityLv3"
   Transform {
+    Location {
+    }
+    Rotation {
+    }
     Scale {
       X: 1
       Y: 1
@@ -94,27 +79,15 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
-  WantsNetworking: true
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 10712725236508178735
-      value {
-        Overrides {
-          Name: "Name"
-          String: "S_ShadowClone"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 3730
-            Y: 5770
-            Z: 4870
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 3262264329666782174
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 7007360782605763221
     }
   }
 }

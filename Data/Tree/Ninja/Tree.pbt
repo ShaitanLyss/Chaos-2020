@@ -143,7 +143,7 @@ Objects {
     }
   }
   ParentId: 5014142082355729336
-  ChildIds: 13497086169591971060
+  ChildIds: 11365870398754136002
   UnregisteredParameters {
     Overrides {
       Name: "cs:0"
@@ -177,8 +177,8 @@ Objects {
   }
 }
 Objects {
-  Id: 13497086169591971060
-  Name: "S_2"
+  Id: 11365870398754136002
+  Name: "S_3"
   Transform {
     Scale {
       X: 1
@@ -189,11 +189,11 @@ Objects {
   ParentId: 16202712489828477249
   TemplateInstance {
     ParameterOverrideMap {
-      key: 5935379882917571387
+      key: 13664821734768608629
       value {
         Overrides {
           Name: "Name"
-          String: "S_2"
+          String: "S_3"
         }
         Overrides {
           Name: "Scale"
@@ -206,7 +206,7 @@ Objects {
       }
     }
     TemplateAsset {
-      Id: 8905796207810385488
+      Id: 11108699866060967321
     }
   }
 }

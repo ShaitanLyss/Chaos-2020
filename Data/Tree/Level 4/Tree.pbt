@@ -5,14 +5,17 @@ Objects {
   Name: "Floor 2"
   Transform {
     Location {
-      Z: 7400
+      X: -62.703125
+      Y: 30.8127441
+      Z: 7402.02686
     }
     Rotation {
+      Yaw: -12.6469727
     }
     Scale {
-      X: 63.9550552
-      Y: 63.9550552
-      Z: 63.9550552
+      X: 72.3134613
+      Y: 74.0875
+      Z: 70.4689407
     }
   }
   ParentId: 2921182672303638915
@@ -20,7 +23,7 @@ Objects {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
       AssetReference {
-        Id: 2763058971144746285
+        Id: 5943931403553382604
       }
     }
   }
