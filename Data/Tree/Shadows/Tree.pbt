@@ -140,7 +140,7 @@ Objects {
     }
     Overrides {
       Name: "cs:delay"
-      Float: 1.5
+      Float: 1.9
     }
     Overrides {
       Name: "cs:shadow"
