@@ -79,7 +79,7 @@ Objects {
     Value: "mc:ecollisionsetting:forceon"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceon"
+    Value: "mc:evisibilitysetting:inheritfromparent"
   }
   CoreMesh {
     MeshAsset {

@@ -15,13 +15,16 @@ end
 
 
 function OnBigDie(other)
-    player:Die()
-    Task.Wait(3)
-    --Events.Broadcast("E_FireWallReset")
-    CanGoToNextLVL(player)
-    --player:SetResource("localTimer", -1)  --  -1 reset the timer
-    player:Respawn({position = spawnPlace:GetWorldPosition(), rotation = spawnPlace:GetWorldRotation()})
-    Events.BroadcastToAllPlayers("toNextScene")
+	if fireWallModel.visibility == Visibility.FORCE_ON then
+		fireWallModel.visibility = Visibility.FORCE_OFF
+	    player:Die()
+	    Task.Wait(3)
+	    --Events.Broadcast("E_FireWallReset")
+	    CanGoToNextLVL(player)
+	    --player:SetResource("localTimer", -1)  --  -1 reset the timer
+	    player:Respawn({position = spawnPlace:GetWorldPosition(), rotation = spawnPlace:GetWorldRotation()})
+	    Events.BroadcastToAllPlayers("toNextScene")
+	end
 end
 
 

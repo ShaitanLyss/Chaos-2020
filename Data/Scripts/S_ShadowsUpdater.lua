@@ -21,7 +21,7 @@ function getIntervalle(t, shadow)
 	return deb, fin
 end
 	
-local recording = true
+local recording = false
 function Tick(dt)
 	if recording then
 		t0 = recorder.t0
@@ -58,3 +58,12 @@ function Tick(dt)
 		Task.Wait(1)
 	end
 end
+
+function onStart()
+	recording = true
+end
+function onEnd()
+	recording = false
+end
+Events.Connect("startShadows", onStart)
+Events.Connect("endShadows", onEnd)

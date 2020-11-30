@@ -66,7 +66,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Top_5"
+    FilePartitionName: "Top_6"
   }
 }
 Objects {
@@ -1666,7 +1666,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Top_6"
+    FilePartitionName: "Top_7"
   }
 }
 Objects {

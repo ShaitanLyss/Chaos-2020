@@ -28,12 +28,12 @@ function OnPlayerJoined(player)
     end
     Events.BroadcastToAllPlayers("initScenes")
 
-    print("report")
+    --[[print("report")
     print("lvl is " .. player:GetResource("level"))
     print("pass challenge is " ..  player:GetResource("passChallenge"))
     print("challenge is " .. player:GetResource("challenge"))
     print("timer is " .. player:GetResource("timer"))
-    print("local timer is " .. player:GetResource("localTimer"))
+    print("local timer is " .. player:GetResource("localTimer"))]]
 end
 
 

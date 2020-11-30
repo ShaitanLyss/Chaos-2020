@@ -1267,7 +1267,7 @@ Objects {
         }
         Overrides {
           Name: "cs:Name"
-          String: "???"
+          String: "Deity"
         }
       }
     }
@@ -1281,12 +1281,14 @@ Objects {
   Name: "IntroChild"
   Transform {
     Location {
-      X: 1122.57617
-      Y: -1313.40234
+      X: 1111.4873
+      Y: -1422.09204
       Z: 32.5794678
     }
     Rotation {
-      Yaw: 175.525146
+      Pitch: -2.75073242
+      Yaw: -149.235809
+      Roll: 0.215439558
     }
     Scale {
       X: 1

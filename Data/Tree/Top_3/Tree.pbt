@@ -1,7 +1,7 @@
 ﻿Name: "Top_3"
-RootId: 282796774637214985
+RootId: 16428186181827475494
 Objects {
-  Id: 3680331634981865970
+  Id: 10736754579702371005
   Name: "Craftsman Roof 01"
   Transform {
     Location {
@@ -18,7 +18,7 @@ Objects {
       Z: 1.13319361
     }
   }
-  ParentId: 282796774637214985
+  ParentId: 16428186181827475494
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_Trim:id"
@@ -55,7 +55,7 @@ Objects {
   }
 }
 Objects {
-  Id: 14652784749561182302
+  Id: 8937792220780612222
   Name: "Whitebox Wall 01 Corner"
   Transform {
     Location {
@@ -71,7 +71,7 @@ Objects {
       Z: 0.156308532
     }
   }
-  ParentId: 282796774637214985
+  ParentId: 16428186181827475494
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -102,7 +102,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6394619102544822513
+  Id: 5370473827014761864
   Name: "Whitebox Wall 01 Corner"
   Transform {
     Location {
@@ -118,7 +118,7 @@ Objects {
       Z: 0.156308532
     }
   }
-  ParentId: 282796774637214985
+  ParentId: 16428186181827475494
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -149,7 +149,7 @@ Objects {
   }
 }
 Objects {
-  Id: 15556440770529834640
+  Id: 7717097657266495529
   Name: "Whitebox Wall 01"
   Transform {
     Location {
@@ -164,7 +164,7 @@ Objects {
       Z: 0.165244207
     }
   }
-  ParentId: 282796774637214985
+  ParentId: 16428186181827475494
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -201,7 +201,7 @@ Objects {
   }
 }
 Objects {
-  Id: 4743772095334933038
+  Id: 2301802930610900536
   Name: "Whitebox Wall 01 Triangle"
   Transform {
     Location {
@@ -217,7 +217,7 @@ Objects {
       Z: 0.2
     }
   }
-  ParentId: 282796774637214985
+  ParentId: 16428186181827475494
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"
@@ -254,7 +254,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9141048834068408767
+  Id: 16474420325357480850
   Name: "Whitebox Wall 01 Triangle"
   Transform {
     Location {
@@ -270,7 +270,7 @@ Objects {
       Z: 0.2
     }
   }
-  ParentId: 282796774637214985
+  ParentId: 16428186181827475494
   UnregisteredParameters {
     Overrides {
       Name: "ma:Building_WallInner:id"

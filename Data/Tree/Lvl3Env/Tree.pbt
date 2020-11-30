@@ -111,6 +111,19 @@ Objects {
         }
       }
     }
+    ParameterOverrideMap {
+      key: 8177648559980958764
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 47.3413391
+            Y: 62.1500854
+            Z: 610.123535
+          }
+        }
+      }
+    }
     TemplateAsset {
       Id: 11032636878201616222
     }
@@ -163,6 +176,19 @@ Objects {
             X: 1
             Y: 1
             Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 8177648559980958764
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 47.3410225
+            Y: 62.1499939
+            Z: 610.123535
           }
         }
       }
@@ -235,6 +261,19 @@ Objects {
         }
       }
     }
+    ParameterOverrideMap {
+      key: 8177648559980958764
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 47.3413
+            Y: 62.1500359
+            Z: 610.123535
+          }
+        }
+      }
+    }
     TemplateAsset {
       Id: 11032636878201616222
     }
@@ -287,6 +326,19 @@ Objects {
             X: 1
             Y: 1
             Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 8177648559980958764
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 47.341362
+            Y: 62.150135
+            Z: 610.123535
           }
         }
       }
@@ -383,6 +435,19 @@ Objects {
             X: 1.71694946
             Y: 4.00000143
             Z: 2.3
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 8177648559980958764
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 47.3413
+            Y: 62.1499519
+            Z: 610.123535
           }
         }
       }
@@ -523,6 +588,19 @@ Objects {
         }
       }
     }
+    ParameterOverrideMap {
+      key: 8177648559980958764
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 47.3412285
+            Y: 62.1499634
+            Z: 610.123535
+          }
+        }
+      }
+    }
     TemplateAsset {
       Id: 11032636878201616222
     }
@@ -567,6 +645,19 @@ Objects {
           Name: "Rotation"
           Rotator {
             Yaw: 172.747162
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 8177648559980958764
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 47.3415489
+            Y: 62.1500702
+            Z: 610.123535
           }
         }
       }
@@ -627,6 +718,19 @@ Objects {
         }
       }
     }
+    ParameterOverrideMap {
+      key: 8177648559980958764
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 47.3411942
+            Y: 62.1503181
+            Z: 610.123535
+          }
+        }
+      }
+    }
     TemplateAsset {
       Id: 11032636878201616222
     }
@@ -678,6 +782,19 @@ Objects {
             X: 1
             Y: 1
             Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 8177648559980958764
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 47.341217
+            Y: 62.1496887
+            Z: 610.123535
           }
         }
       }
@@ -750,6 +867,19 @@ Objects {
         }
       }
     }
+    ParameterOverrideMap {
+      key: 8177648559980958764
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 47.3413048
+            Y: 62.1498299
+            Z: 610.123535
+          }
+        }
+      }
+    }
     TemplateAsset {
       Id: 11032636878201616222
     }
@@ -805,6 +935,19 @@ Objects {
         }
       }
     }
+    ParameterOverrideMap {
+      key: 8177648559980958764
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 47.3414
+            Y: 62.1498947
+            Z: 610.123535
+          }
+        }
+      }
+    }
     TemplateAsset {
       Id: 11032636878201616222
     }
@@ -856,6 +999,19 @@ Objects {
             X: 1
             Y: 1
             Z: 1
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 8177648559980958764
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 47.3414
+            Y: 62.150116
+            Z: 610.123535
           }
         }
       }
@@ -1089,6 +1245,19 @@ Objects {
           Name: "Rotation"
           Rotator {
             Yaw: -10.8501587
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 8177648559980958764
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 47.3413086
+            Y: 62.1501465
+            Z: 610.123535
           }
         }
       }

@@ -1,7 +1,7 @@
 ﻿local fires1 = script:GetCustomProperty("1"):WaitForObject():FindDescendantsByName("Fire Volume VFX")
 local fires2 = script:GetCustomProperty("1_2"):WaitForObject():FindDescendantsByName("Fire Volume VFX")
 local lights1 = script:GetCustomProperty("L1"):WaitForObject():FindDescendantsByType("Light")
-local firewall = script:GetCustomProperty("firewall"):WaitForObject()
+--local firewall = script:GetCustomProperty("firewall"):WaitForObject()
 local bushes = script:GetCustomProperty("bushes"):WaitForObject():GetChildren()
 
 local coral_trees = script:GetCustomProperty("CoralPapa"):WaitForObject():FindDescendantsByName("Coral")
@@ -15,7 +15,6 @@ function init(frst, nbr)
 	n = nbr
 	i = frst
 	updateBushes()
-	updateFireWall()
 	updateFires()
 	updateLv_2()
 end
@@ -25,14 +24,10 @@ function next()
 	
 	-- level 1
 	if i == 0 then
-		updateFireWall()
 		updateBushes()
 	elseif i == 1 then
-		updateFireWall()
 		updateBushes()
 		updateFires()
-	elseif i == 2 then
-		updateFireWall()
 	-- level 2
 	elseif i == 3 then
 		updateLv_2()
@@ -58,9 +53,6 @@ function updateBushes()
 	for k, bush in ipairs(bushes) do
 		if i == 0 then show(bush) else hide(bush) end
 	end
-end
-function updateFireWall()
-	if i == 1 then show(firewall) else hide(firewall) end
 end
 
 function updateLv_2()

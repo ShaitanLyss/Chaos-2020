@@ -597,7 +597,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
-      String: "Woman & Doctor"
+      String: "Woman&Doctor"
     }
     Overrides {
       Name: "cs:1"
@@ -946,7 +946,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
-      String: "???"
+      String: "Deity"
     }
     Overrides {
       Name: "cs:1"
@@ -1038,7 +1038,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "fx_4"
+    FilePartitionName: "fx_1"
   }
 }
 Objects {

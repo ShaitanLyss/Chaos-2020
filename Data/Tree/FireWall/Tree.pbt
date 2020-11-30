@@ -154,8 +154,8 @@ Objects {
   Name: "FireWallModel"
   Transform {
     Location {
-      X: 9448.17578
-      Y: 14486.5039
+      X: 9284.60352
+      Y: 14600.2773
       Z: 1103.2666
     }
     Rotation {
@@ -173,7 +173,7 @@ Objects {
     Value: "mc:ecollisionsetting:forceon"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:forceon"
+    Value: "mc:evisibilitysetting:forceoff"
   }
   Folder {
     IsFilePartition: true

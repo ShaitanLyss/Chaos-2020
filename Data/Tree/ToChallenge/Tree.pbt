@@ -5,8 +5,11 @@ Objects {
   Name: "LVL3"
   Transform {
     Location {
+      X: 122.205566
+      Y: -561.812378
     }
     Rotation {
+      Yaw: 0.603033125
     }
     Scale {
       X: 1

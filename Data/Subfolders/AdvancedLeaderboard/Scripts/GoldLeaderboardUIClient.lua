@@ -34,7 +34,7 @@ function Tick()
     end
 
     while (Leaderboards.HasLeaderboards())==false do --Safety check
-        print("Waiting on leaderboards") 
+        --print("Waiting on leaderboards") 
         Task.Wait(1)
     end
 

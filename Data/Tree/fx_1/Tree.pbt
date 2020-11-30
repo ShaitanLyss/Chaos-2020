@@ -1,7 +1,7 @@
-﻿Name: "fx_4"
-RootId: 6649083082922038386
+﻿Name: "fx_1"
+RootId: 9024795415387962400
 Objects {
-  Id: 14447963836269338691
+  Id: 16696226481456118354
   Name: "Wispy Fog Volume VFX"
   Transform {
     Location {
@@ -18,7 +18,7 @@ Objects {
       Z: 3.99609661
     }
   }
-  ParentId: 6649083082922038386
+  ParentId: 9024795415387962400
   UnregisteredParameters {
     Overrides {
       Name: "bp:Wind Speed"
@@ -68,7 +68,7 @@ Objects {
   }
 }
 Objects {
-  Id: 3223535029244413725
+  Id: 3116794056821321634
   Name: "Falling Leaves Volume VFX"
   Transform {
     Location {
@@ -85,7 +85,7 @@ Objects {
       Z: 4.26747942
     }
   }
-  ParentId: 6649083082922038386
+  ParentId: 9024795415387962400
   UnregisteredParameters {
     Overrides {
       Name: "bp:color"

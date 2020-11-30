@@ -56,12 +56,13 @@ Objects {
   Name: "Trigger"
   Transform {
     Location {
-      X: 3430.49976
-      Y: 478.241577
-      Z: 4738.75537
+      X: 3968.79248
+      Y: 3260.77368
+      Z: 4775.6167
     }
     Rotation {
-      Yaw: -77.4975586
+      Yaw: -77.4975
+      Roll: -9.15527344e-05
     }
     Scale {
       X: 3.91056204
@@ -126,14 +127,14 @@ Objects {
   Name: "fixed"
   Transform {
     Location {
-      X: 3327.50439
-      Y: 572.63562
-      Z: 5160.07617
+      X: 3855.21655
+      Y: 3356.67358
+      Z: 5057.5874
     }
     Rotation {
-      Pitch: 70.6150513
-      Yaw: -172.531082
-      Roll: 74.759819
+      Pitch: 66.854
+      Yaw: -169.940231
+      Roll: 77.1754074
     }
     Scale {
       X: 1

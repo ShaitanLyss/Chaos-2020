@@ -1,14 +1,14 @@
 ﻿local spawnPlace = script:GetCustomProperty("Lvl3_SpawnPoint"):WaitForObject()
 local thePlayer = Game.FindNearestPlayer(script:GetWorldPosition()) 
 ---small die
-
+local savePlatformModel
 -- For Respawn the player
-function OnCheckPointChanged(hitPos, playerRot)
+function OnCheckPointChanged(platform)
     -- print("New State = ")
     -- print(platformPosition)
-    checkpointPos = hitPos
-    checkpointRot = playerRot
- end
+    print("safe : " .. platform.name)
+    savePlatformModel = platform
+end
  
  
  --for small die 
@@ -19,7 +19,7 @@ function OnCheckPointChanged(hitPos, playerRot)
         thePlayer:Die()
         Task.Wait(2)
         -- print(savePlatformModel:GetWorldPosition() + Vector3.UP * 50)
-        thePlayer:Respawn({position = checkpointPos + Vector3.UP * 100, rotation = checkpointRot})
+        thePlayer:Respawn({position =  savePlatformModel:GetWorldPosition() + Vector3.UP * 100, rotation = playerRotation})
     end
 end
 

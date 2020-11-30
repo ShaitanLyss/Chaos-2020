@@ -13,7 +13,7 @@ local i = 1
 
 
 delta = 1 / fps
-local recording = true
+local recording = false
 function Tick()
 	if recording then
 		shadows[nShadows][i] = {time() -t0, player:GetWorldPosition(), player:GetWorldRotation()}
@@ -37,4 +37,14 @@ function OnEndOverlap(t, other)
 end
 
 newLapTrigger.endOverlapEvent:Connect(OnEndOverlap)
+
+function onStart()
+	print("start")
+	recording = true
+end
+function onEnd()
+	recording = false
+end
+Events.Connect("startShadows", onStart)
+Events.Connect("endShadows", onEnd)
 

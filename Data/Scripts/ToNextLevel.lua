@@ -78,8 +78,8 @@ function Tick()
     if toStart then
         level = player:GetResource("level")
         passChallenge = player:GetResource("passChallenge")
-        
-        if level == ladderLevel and passChallenge == 1 then
+        if level == 4 then lvlFinishedTrigger.isInteractable = true
+        elseif level == ladderLevel and passChallenge == 1 then
             hide(broken)
             show(fixed)
             lvlFinishedTrigger.isInteractable = true

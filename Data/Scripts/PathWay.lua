@@ -90,9 +90,9 @@ function FireMoveInCircle(dt)
 
     if (pathWay:GetWorldPosition() == fireWallModel:GetWorldPosition()) then
        -- print("index") print(index) print(reach) 
-        --pathWay:Destroy()
+        --pathWay:Destroy() 
         index = index + 1 
-    end    
+    end 
     --print("next index")  print(index)
 end
   
@@ -103,9 +103,6 @@ function OnPlayerJoined(player)
     toStart = true
     player.resourceChangedEvent:Connect(OnResourceChanged)
 end
-
-
-
 
 function Tick(dt)
     --Task.Wait(0.1)

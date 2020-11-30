@@ -9,14 +9,14 @@ function OnDPlayerChanged(pNumber)
     if (pNumber ~= 9999) then  -- 9999 only to let it work 
         playerCount = pNumber
     end
-    print("player") print(pNumber)
+    print("player : " .. pNumber)
     DistanceCalc()
 end
 
 
 function OnDFireWallChanged(pNumber)
     FireWallCount = pNumber 
-    print("firewall") print(pNumber)
+    print("firewall : " .. pNumber)
     DistanceCalc()
 end
 
@@ -27,7 +27,6 @@ local start = true
 local  happen = false
 
 function DistanceCalc()
-    print("in distance calc")
     local platformsSeparation = playerCount - FireWallCount
     Events.BroadcastToAllPlayers("E_PlatformsSeparationChanged", platformsSeparation)
    

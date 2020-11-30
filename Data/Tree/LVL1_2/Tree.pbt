@@ -34,6 +34,12 @@ Objects {
         SelfId: 5428243162874404798
       }
     }
+    Overrides {
+      Name: "cs:fireWall"
+      ObjectReference {
+        SelfId: 8768866053368028503
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"

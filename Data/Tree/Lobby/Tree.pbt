@@ -1,7 +1,7 @@
 ﻿Name: "Lobby"
 RootId: 18192348592058206296
 Objects {
-  Id: 14040166676181401396
+  Id: 14386797829047170302
   Name: "broken"
   Transform {
     Location {
@@ -64,7 +64,7 @@ Objects {
     Overrides {
       Name: "cs:broken"
       ObjectReference {
-        SelfId: 14040166676181401396
+        SelfId: 14386797829047170302
       }
     }
     Overrides {
@@ -89,14 +89,12 @@ Objects {
   Name: "Trigger"
   Transform {
     Location {
-      X: 173.797058
-      Y: 123.116028
-      Z: 10383.7012
+      X: 945.890564
+      Y: 71.5044
+      Z: 10326.0205
     }
     Rotation {
-      Pitch: 67.0171432
-      Yaw: -158.916428
-      Roll: 92.3373108
+      Yaw: 90.2917938
     }
     Scale {
       X: 4.75602102

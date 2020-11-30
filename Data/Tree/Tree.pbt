@@ -24,8 +24,8 @@ Objects {
   ChildIds: 4434011006133901618
   ChildIds: 7135527698524595111
   ChildIds: 9979578846465070629
-  ChildIds: 3310458964701018004
-  ChildIds: 1154504680341791018
+  ChildIds: 1334701924027230784
+  ChildIds: 5588371487373907384
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -38,17 +38,21 @@ Objects {
   }
 }
 Objects {
-  Id: 1154504680341791018
-  Name: "B_DeityLobby"
+  Id: 5588371487373907384
+  Name: "Cube"
   Transform {
     Location {
+      X: 3908.23169
+      Y: 1832.48547
+      Z: 4545.29492
     }
     Rotation {
+      Yaw: 25.1445427
     }
     Scale {
-      X: 1
-      Y: 1
-      Z: 1
+      X: 28.7831135
+      Y: 1.00001144
+      Z: 9.37193394
     }
   }
   ParentId: 4781671109827199097
@@ -56,21 +60,34 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
+    Value: "mc:evisibilitysetting:forceoff"
   }
-  Script {
-    ScriptAsset {
-      Id: 8665520862023892415
+  CoreMesh {
+    MeshAsset {
+      Id: 17925326465180611494
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
     }
   }
 }
 Objects {
-  Id: 3310458964701018004
-  Name: "B_DeityLv3"
+  Id: 1334701924027230784
+  Name: "Carpet Tile 01"
   Transform {
     Location {
+      X: 3956.05811
+      Y: 267.431091
+      Z: 4539.79639
     }
     Rotation {
+      Roll: -0.606323242
     }
     Scale {
       X: 1
@@ -85,9 +102,18 @@ Objects {
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
   }
-  Script {
-    ScriptAsset {
-      Id: 7007360782605763221
+  CoreMesh {
+    MeshAsset {
+      Id: 17494157907821717151
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    EnableCameraCollision: true
+    StaticMesh {
+      Physics {
+      }
     }
   }
 }

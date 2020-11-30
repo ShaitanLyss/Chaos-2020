@@ -14,11 +14,12 @@ function OnInteracted(theTrigger, player)
     if player:GetResource("goThrough") == 1 and player:GetResource("passChallenge") == 0  then
         if player:GetResource("level") == 1 then
             print("level 1 Challenge")
-            
+            local fireWall = script:GetCustomProperty("fireWall"):WaitForObject()
             local challengeWay = script:GetCustomProperty("challengeWay"):WaitForObject():GetChildren()
 			local closedWay = script:GetCustomProperty("closedWay"):WaitForObject():GetChildren()
-						
+			
             player:Respawn({position = lvl1_Challenge:GetWorldPosition(), rotation = lvl1_Challenge:GetWorldRotation()})
+            fireWall.visibility = Visibility.FORCE_ON
             hide(challengeWay)
             show(closedWay)
             Events.BroadcastToAllPlayers("hideLadder")
@@ -34,6 +35,7 @@ function OnInteracted(theTrigger, player)
         elseif player:GetResource("level") == 3 then 
             print("level 3 Challenge") 
             player:Respawn({position = lvl3_Challenge:GetWorldPosition(), rotation = lvl3_Challenge:GetWorldRotation()})
+            Events.Broadcast("startShadows")
 
         elseif player:GetResource("level") == 4 then 
             print("level 4 Challenge") 

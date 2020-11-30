@@ -21,6 +21,7 @@ function OnBigDie(player)
         player:Respawn({position = spawnPlace_3:GetWorldPosition(), rotation = Rotation.New(0,0,0)})
     end
     Events.BroadcastToAllPlayers("toNextScene")
+    Events.Broadcast("stopShadows")
 end
 
 function CanGoToNextLVL(player)

@@ -16,8 +16,7 @@ function Tick()
 			if  frst == "P" then
 				if not current or hit.other ~= current then
 					current = hit.other
-					hitPos = hit:GetImpactPosition()
-					Events.Broadcast("E_CheckPointChanged_LVL3", hitPos, player:GetWorldRotation())	
+					Events.Broadcast("E_CheckPointChanged_LVL3", hit.other)	
 				end
 			elseif frst == "T" or frst == "F" or frst == "C" then
 				Events.Broadcast("OnTouchGround")
