@@ -29,7 +29,9 @@ function OnPlatformsSeparateChanged(platformsSeparation)
     local distanceReward = (platformsSeparation * platformMultiplayer)
     local globalTimer = player:GetResource("timer") + distanceReward
     print("send ui")
-    Events.BroadcastToAllPlayers("E_RewardUI", distanceReward)
+    if platformsSeparation >= 1 then
+        Events.BroadcastToAllPlayers("E_RewardUI", distanceReward)
+    end
     --store timer
     player:SetResource("timer", globalTimer)
     local data = Storage.GetPlayerData(player)
