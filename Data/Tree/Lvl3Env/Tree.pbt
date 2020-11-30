@@ -154,7 +154,7 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -105.697578
+            Yaw: -105.697571
           }
         }
         Overrides {
@@ -222,7 +222,7 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -76.4485855
+            Yaw: -76.4485779
           }
         }
         Overrides {
@@ -278,7 +278,7 @@ Objects {
         Overrides {
           Name: "Rotation"
           Rotator {
-            Yaw: -45.7714767
+            Yaw: -45.7714844
           }
         }
         Overrides {
@@ -567,14 +567,6 @@ Objects {
           Name: "Rotation"
           Rotator {
             Yaw: 172.747162
-          }
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
           }
         }
       }

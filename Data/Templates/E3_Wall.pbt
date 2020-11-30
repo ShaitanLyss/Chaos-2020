@@ -38,7 +38,8 @@
         Name: "Group"
         Transform {
           Location {
-            X: 0.000122070313
+            X: 72.2599487
+            Y: 94.8624
           }
           Rotation {
             Yaw: 142.702362
@@ -224,7 +225,8 @@
         Name: "Group"
         Transform {
           Location {
-            X: 0.000122070313
+            X: 47.3413048
+            Y: 62.1500397
             Z: 539.182617
           }
           Rotation {
@@ -413,7 +415,8 @@
         Name: "Group"
         Transform {
           Location {
-            X: 0.000122070313
+            X: 47.3413048
+            Y: 62.1500397
             Z: 1104.8667
           }
           Rotation {
@@ -602,7 +605,8 @@
         Name: "Group"
         Transform {
           Location {
-            X: 0.000122070313
+            X: 47.3413048
+            Y: 62.1500397
             Z: 1584.86914
           }
           Rotation {
@@ -791,7 +795,8 @@
         Name: "Group"
         Transform {
           Location {
-            X: 0.000122070313
+            X: 47.3413048
+            Y: 62.1500397
             Z: 2117.53955
           }
           Rotation {
@@ -980,7 +985,8 @@
         Name: "Group"
         Transform {
           Location {
-            X: 0.000122070313
+            X: 47.3413048
+            Y: 62.1500397
             Z: 2568.64648
           }
           Rotation {
@@ -1169,7 +1175,8 @@
         Name: "Group"
         Transform {
           Location {
-            X: 0.000122070313
+            X: 47.3413048
+            Y: 62.1500397
             Z: 3016.23682
           }
           Rotation {
