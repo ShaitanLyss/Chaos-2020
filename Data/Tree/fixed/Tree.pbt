@@ -5,9 +5,9 @@ Objects {
   Name: "Craftsman Porch Fence Railing 01"
   Transform {
     Location {
-      X: -162.896667
-      Y: -654.814819
-      Z: 409.307465
+      X: 196.758209
+      Y: 207.35202
+      Z: 79.5007
     }
     Rotation {
       Pitch: 11.0705204

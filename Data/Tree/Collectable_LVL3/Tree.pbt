@@ -24,7 +24,7 @@ Objects {
     }
     Overrides {
       Name: "cs:TimeToAppearAgain"
-      Float: 15
+      Float: 25
     }
   }
   WantsNetworking: true

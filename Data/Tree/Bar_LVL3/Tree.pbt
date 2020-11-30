@@ -94,19 +94,19 @@ Objects {
     }
     Overrides {
       Name: "cs:MintuesToFill"
-      Float: 1
+      Float: 1.5
     }
     Overrides {
       Name: "cs:IncAfterSmallDiePer"
-      Float: 0.2
+      Float: 0.05
     }
     Overrides {
       Name: "cs:DecPerCollectPercentage"
-      Float: 0.3
+      Float: 0.22
     }
     Overrides {
       Name: "cs:MultiplayFactorEveryCycle"
-      Float: 0.8
+      Float: 0.85
     }
   }
   Collidable_v2 {
