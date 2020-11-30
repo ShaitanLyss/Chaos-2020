@@ -2213,7 +2213,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "NewFolder_4"
+    FilePartitionName: "NewFolder_5"
   }
 }
 Objects {
@@ -3213,7 +3213,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "NewFolder_7"
+    FilePartitionName: "NewFolder_8"
   }
 }
 Objects {
@@ -6136,7 +6136,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "NewFolder_8"
+    FilePartitionName: "NewFolder_9"
   }
 }
 Objects {

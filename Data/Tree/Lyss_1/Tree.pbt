@@ -1,6 +1,34 @@
 ﻿Name: "Lyss_1"
 RootId: 10490075164851024102
 Objects {
+  Id: 15591901008226350021
+  Name: "NewFolder"
+  Transform {
+    Location {
+      X: -410.694427
+      Y: 2.08034
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10490075164851024102
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "NewFolder"
+  }
+}
+Objects {
   Id: 5260094553541001925
   Name: "Lv 3"
   Transform {

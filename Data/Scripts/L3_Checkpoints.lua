@@ -11,10 +11,16 @@ function Tick()
 		to = start - Vector3.UP * 20
 		hit = World.Raycast(start, to)
 		
-		if hit and hit.other.name:sub(1,1) == "P" then
-			if not current or hit.other ~= current then
-				current = hit.other
-				Events.Broadcast("E_CheckPointChanged_LVL3", current)	
+		if hit then 
+			frst = hit.other.name:sub(1,1)
+			if  frst == "P" then
+				if not current or hit.other ~= current then
+					current = hit.other
+					hitPos = hit:GetImpactPosition()
+					Events.Broadcast("E_CheckPointChanged_LVL3", hitPos, player:GetWorldRotation())	
+				end
+			elseif frst == "T" or frst == "F" or frst == "C" then
+				Events.Broadcast("OnTouchGround")
 			end
 		end
 	end

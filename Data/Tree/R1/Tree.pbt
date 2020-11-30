@@ -115,6 +115,12 @@ Objects {
             Z: 5.0759
           }
         }
+        Overrides {
+          Name: "ma:Shared_BaseMaterial:id"
+          AssetReference {
+            Id: 7900313160984104139
+          }
+        }
       }
     }
     TemplateAsset {

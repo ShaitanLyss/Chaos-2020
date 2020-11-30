@@ -1,7 +1,7 @@
 ﻿Name: "NewFolder_2"
-RootId: 15765550189943799001
+RootId: 10618002590035291180
 Objects {
-  Id: 6343725291868188180
+  Id: 1457845868013779351
   Name: "Coral Spikes Small"
   Transform {
     Location {
@@ -20,7 +20,7 @@ Objects {
       Z: 0.977879226
     }
   }
-  ParentId: 15765550189943799001
+  ParentId: 10618002590035291180
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -72,7 +72,7 @@ Objects {
   }
 }
 Objects {
-  Id: 16407376764663488952
+  Id: 5708327088108335613
   Name: "Coral Spikes Small"
   Transform {
     Location {
@@ -91,7 +91,7 @@ Objects {
       Z: 0.918114841
     }
   }
-  ParentId: 15765550189943799001
+  ParentId: 10618002590035291180
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -143,7 +143,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6814182466079457233
+  Id: 10032028211477861029
   Name: "Coral Spikes Small"
   Transform {
     Location {
@@ -162,7 +162,7 @@ Objects {
       Z: 0.682152331
     }
   }
-  ParentId: 15765550189943799001
+  ParentId: 10618002590035291180
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -214,7 +214,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5001737835948974970
+  Id: 3741259203250930606
   Name: "Coral Spikes Small"
   Transform {
     Location {
@@ -233,7 +233,7 @@ Objects {
       Z: 0.682152331
     }
   }
-  ParentId: 15765550189943799001
+  ParentId: 10618002590035291180
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -285,7 +285,7 @@ Objects {
   }
 }
 Objects {
-  Id: 9175627396485568518
+  Id: 11023532563475456569
   Name: "Coral Spikes Small"
   Transform {
     Location {
@@ -303,7 +303,7 @@ Objects {
       Z: 1.26922262
     }
   }
-  ParentId: 15765550189943799001
+  ParentId: 10618002590035291180
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -355,7 +355,7 @@ Objects {
   }
 }
 Objects {
-  Id: 17278344996078323016
+  Id: 7497050599535350842
   Name: "Coral Spikes Small"
   Transform {
     Location {
@@ -374,7 +374,7 @@ Objects {
       Z: 1.26922262
     }
   }
-  ParentId: 15765550189943799001
+  ParentId: 10618002590035291180
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
