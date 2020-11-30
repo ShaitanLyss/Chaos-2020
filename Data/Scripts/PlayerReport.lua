@@ -1,6 +1,7 @@
 ﻿local resetForTest = script:GetCustomProperty("ResetForTest")
 local level = script:GetCustomProperty("Level")
 local challenge = script:GetCustomProperty("Challenge")
+local goThrough = script:GetCustomProperty("GoThrough")
 
 function OnPlayerJoined(player)
     local data = Storage.GetPlayerData(player)
@@ -13,6 +14,10 @@ function OnPlayerJoined(player)
         data["timer"] = 0
         data["passChallenge"] = 0
         player:SetResource("passChallenge", 0)
+
+        data["goThrough"] = goThrough
+        player:SetResource("goThrough", goThrough)
+
         local resultCode,errorMessage = Storage.SetPlayerData(player, data)
         --player:SetResource("passChallenge", data["passChallenge"])
        
