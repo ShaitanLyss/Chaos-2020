@@ -201,8 +201,8 @@ Objects {
   Name: "Lv2_StartCheckPoint"
   Transform {
     Location {
-      X: -10550.2227
-      Y: -4335.7583
+      X: -10588.9736
+      Y: -4580.73047
       Z: 252.710205
     }
     Rotation {

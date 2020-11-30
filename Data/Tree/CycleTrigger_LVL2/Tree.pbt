@@ -40,9 +40,9 @@ Objects {
   Name: "Trigger"
   Transform {
     Location {
-      X: 9354.28711
-      Y: 7641.146
-      Z: 5434.23438
+      X: 9032.07227
+      Y: 8500.92676
+      Z: 5434.23389
     }
     Rotation {
       Yaw: -155
