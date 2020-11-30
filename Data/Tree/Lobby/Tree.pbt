@@ -1,6 +1,39 @@
 ﻿Name: "Lobby"
 RootId: 18192348592058206296
 Objects {
+  Id: 9287288260016116293
+  Name: "fixed"
+  Transform {
+    Location {
+      X: 229.402283
+      Y: 210.984741
+      Z: 10191.6436
+    }
+    Rotation {
+      Pitch: 67.0171738
+      Yaw: -158.916458
+      Roll: 92.3373413
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 18192348592058206296
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "fixed"
+  }
+}
+Objects {
   Id: 14386797829047170302
   Name: "broken"
   Transform {
@@ -58,7 +91,7 @@ Objects {
     Overrides {
       Name: "cs:fixed"
       ObjectReference {
-        SelfId: 610494782154160582
+        SelfId: 9287288260016116293
       }
     }
     Overrides {
@@ -120,38 +153,5 @@ Objects {
     TriggerShape_v2 {
       Value: "mc:etriggershape:box"
     }
-  }
-}
-Objects {
-  Id: 610494782154160582
-  Name: "fixed"
-  Transform {
-    Location {
-      X: 229.402283
-      Y: 210.984741
-      Z: 10191.6436
-    }
-    Rotation {
-      Pitch: 67.0171432
-      Yaw: -158.916428
-      Roll: 92.3373108
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 18192348592058206296
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Folder {
-    IsFilePartition: true
-    FilePartitionName: "fixed"
   }
 }
