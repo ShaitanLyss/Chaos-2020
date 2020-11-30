@@ -124,7 +124,7 @@ Objects {
     }
     Overrides {
       Name: "cs:IncAfterSmallDiePer"
-      Float: 0.15
+      Float: 0.2
     }
   }
   Collidable_v2 {
