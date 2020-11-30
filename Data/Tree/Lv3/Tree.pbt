@@ -17,9 +17,9 @@ Objects {
     }
   }
   ParentId: 115049576835718536
+  ChildIds: 16551422945529364161
   ChildIds: 4462623589378197264
   ChildIds: 13889669167512955409
-  ChildIds: 16551422945529364161
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -86,37 +86,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-}
-Objects {
-  Id: 16551422945529364161
-  Name: "B_OldManLv3"
-  Transform {
-    Location {
-      X: -3912.99707
-      Y: -914.100708
-      Z: -4525.1123
-    }
-    Rotation {
-      Yaw: 15.7924824
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 15412018892609026582
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 4708794190412403784
-    }
   }
 }
 Objects {
@@ -428,6 +397,37 @@ Objects {
   }
 }
 Objects {
+  Id: 16551422945529364161
+  Name: "B_OldManLv3"
+  Transform {
+    Location {
+      X: -3912.99707
+      Y: -914.100708
+      Z: -4525.1123
+    }
+    Rotation {
+      Yaw: 15.7924824
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15412018892609026582
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4708794190412403784
+    }
+  }
+}
+Objects {
   Id: 7761130600285732274
   Name: "3_Plague Doctor"
   Transform {
@@ -444,9 +444,9 @@ Objects {
     }
   }
   ParentId: 115049576835718536
+  ChildIds: 11872741275943493599
   ChildIds: 3438476904927533553
   ChildIds: 5708945976036377539
-  ChildIds: 11872741275943493599
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -517,37 +517,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-}
-Objects {
-  Id: 11872741275943493599
-  Name: "B_PlagueDoctor"
-  Transform {
-    Location {
-      X: -3857.323
-      Y: -1110.94775
-      Z: -4525.1123
-    }
-    Rotation {
-      Yaw: 15.79245
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 7761130600285732274
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 5127782549386404550
-    }
   }
 }
 Objects {
@@ -855,6 +824,37 @@ Objects {
   Script {
     ScriptAsset {
       Id: 520210685784922352
+    }
+  }
+}
+Objects {
+  Id: 11872741275943493599
+  Name: "B_PlagueDoctor"
+  Transform {
+    Location {
+      X: -3857.323
+      Y: -1110.94775
+      Z: -4525.1123
+    }
+    Rotation {
+      Yaw: 15.7924652
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7761130600285732274
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 5127782549386404550
     }
   }
 }

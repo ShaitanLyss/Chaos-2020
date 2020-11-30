@@ -19,9 +19,9 @@ Objects {
     }
   }
   ParentId: 14391129023223850957
+  ChildIds: 15706791120447407694
   ChildIds: 4743319022038302210
   ChildIds: 13718351964952385051
-  ChildIds: 15706791120447407694
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -84,37 +84,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-}
-Objects {
-  Id: 15706791120447407694
-  Name: "B_OldManLv2"
-  Transform {
-    Location {
-      X: -6272.43457
-      Y: -2725.60571
-      Z: -3176.55078
-    }
-    Rotation {
-      Yaw: 15.7924223
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 15458498923047675628
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 17486759880388238699
-    }
   }
 }
 Objects {
@@ -280,6 +249,37 @@ Objects {
   }
 }
 Objects {
+  Id: 15706791120447407694
+  Name: "B_OldManLv2"
+  Transform {
+    Location {
+      X: -6272.43457
+      Y: -2725.60571
+      Z: -3176.55078
+    }
+    Rotation {
+      Yaw: 15.7924223
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15458498923047675628
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 17486759880388238699
+    }
+  }
+}
+Objects {
   Id: 8488852784620626170
   Name: "2_Late Teen"
   Transform {
@@ -297,9 +297,9 @@ Objects {
     }
   }
   ParentId: 14391129023223850957
+  ChildIds: 16213584374373804082
   ChildIds: 17354884574788785685
   ChildIds: 7049850241875858101
-  ChildIds: 16213584374373804082
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -315,22 +315,26 @@ Objects {
     }
     Overrides {
       Name: "cs:3"
-      String: "NPC2PreLv2_repeat"
+      String: "NPC2PreLv2_3"
     }
     Overrides {
       Name: "cs:4"
-      String: "NPC2PostLv2"
+      String: "NPC2PreLv2_repeat"
     }
     Overrides {
       Name: "cs:5"
-      String: "NPC2PostLv2_repeat"
+      String: "NPC2PostLv2"
     }
     Overrides {
       Name: "cs:6"
-      String: "NPC2Game2Lv2"
+      String: "NPC2PostLv2_repeat"
     }
     Overrides {
       Name: "cs:7"
+      String: "NPC2Game2Lv2"
+    }
+    Overrides {
+      Name: "cs:8"
       String: "NPC2Game2Lv2_repeat"
     }
     Overrides {
@@ -362,37 +366,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-}
-Objects {
-  Id: 16213584374373804082
-  Name: "B_LateTeen"
-  Transform {
-    Location {
-      X: -2630.98486
-      Y: -6735.90332
-      Z: -2659.2146
-    }
-    Rotation {
-      Yaw: 42.199585
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8488852784620626170
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 10978044909396645231
-    }
   }
 }
 Objects {
@@ -569,6 +542,37 @@ Objects {
   }
 }
 Objects {
+  Id: 16213584374373804082
+  Name: "B_LateTeen"
+  Transform {
+    Location {
+      X: -2630.98486
+      Y: -6735.90332
+      Z: -2659.2146
+    }
+    Rotation {
+      Yaw: 42.199585
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8488852784620626170
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 10978044909396645231
+    }
+  }
+}
+Objects {
   Id: 14085276996630549787
   Name: "2_Woman n Doctor"
   Transform {
@@ -586,10 +590,10 @@ Objects {
     }
   }
   ParentId: 14391129023223850957
+  ChildIds: 16063827135374648548
   ChildIds: 9867297545612203227
   ChildIds: 8968447392922604070
   ChildIds: 7500598267226178440
-  ChildIds: 16063827135374648548
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -652,37 +656,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-}
-Objects {
-  Id: 16063827135374648548
-  Name: "B_WomanAndDoctor"
-  Transform {
-    Location {
-      X: -2614.04517
-      Y: 6206.16748
-      Z: -2659.2146
-    }
-    Rotation {
-      Yaw: -62.8781319
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 14085276996630549787
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 13095680216722159333
-    }
   }
 }
 Objects {
@@ -918,6 +891,37 @@ Objects {
   }
 }
 Objects {
+  Id: 16063827135374648548
+  Name: "B_WomanAndDoctor"
+  Transform {
+    Location {
+      X: -2614.04517
+      Y: 6206.16748
+      Z: -2659.2146
+    }
+    Rotation {
+      Yaw: -62.8781319
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 14085276996630549787
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 13095680216722159333
+    }
+  }
+}
+Objects {
   Id: 10266231935730486786
   Name: "2_Deity"
   Transform {
@@ -935,7 +939,7 @@ Objects {
     }
   }
   ParentId: 14391129023223850957
-  ChildIds: 13815219964294877028
+  ChildIds: 14726093337972039099
   ChildIds: 5194383536430840542
   ChildIds: 1564578254974191913
   ChildIds: 9024795415387962400
@@ -979,7 +983,7 @@ Objects {
     Overrides {
       Name: "cs:Behavior"
       ObjectReference {
-        SelfId: 13815219964294877028
+        SelfId: 14726093337972039099
       }
     }
     Overrides {
@@ -1346,16 +1350,16 @@ Objects {
   }
 }
 Objects {
-  Id: 13815219964294877028
-  Name: "B_Deity"
+  Id: 14726093337972039099
+  Name: "B_DeityLv2"
   Transform {
     Location {
-      X: 493.984375
-      Y: 9229.72461
-      Z: -1050
+      X: -7578.94824
+      Y: -1080.45313
+      Z: -2659.2146
     }
     Rotation {
-      Yaw: -105.814308
+      Yaw: -20.0670815
     }
     Scale {
       X: 1
@@ -1364,38 +1368,6 @@ Objects {
     }
   }
   ParentId: 10266231935730486786
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:left_boob"
-      ObjectReference {
-        SelfId: 14849683853291929398
-      }
-    }
-    Overrides {
-      Name: "cs:right_boob"
-      ObjectReference {
-        SelfId: 2450022396111155410
-      }
-    }
-    Overrides {
-      Name: "cs:fx"
-      ObjectReference {
-        SelfId: 9024795415387962400
-      }
-    }
-    Overrides {
-      Name: "cs:trigger"
-      ObjectReference {
-        SelfId: 9381965062500126105
-      }
-    }
-    Overrides {
-      Name: "cs:mesh"
-      ObjectReference {
-        SelfId: 1564578254974191913
-      }
-    }
-  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -1404,7 +1376,7 @@ Objects {
   }
   Script {
     ScriptAsset {
-      Id: 1346516749618547230
+      Id: 14112737832667798771
     }
   }
 }
