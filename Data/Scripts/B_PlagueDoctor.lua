@@ -19,17 +19,18 @@ function Behavior.getI(i)
 	goThrough = player:GetResource("goThrough")
 	
 	-- First Playthrough - Cycles through dialogue.
-	repeat
-		if pdDialougeSetOne >= 6 then
-			pdDialougeSetOne = 0
-		end
-		
-		pdDialougeSetOne = pdDialougeSetOne + 1
-		return pdDialougeSetOne
-	until goThrough > 1	
+	if goThrough == 0 then
+		repeat
+			if pdDialougeSetOne >= 5 then
+				pdDialougeSetOne = 0
+			end
+			
+			pdDialougeSetOne = pdDialougeSetOne + 1
+			return pdDialougeSetOne
+		until goThrough >= 1	
 	
 	-- Future Playthroughs - Linear Progression
-	if goThrough > 1 then
+	else
 		if pdDialougeSetTwo < 9 then
 			pdDialougeSetTwo = pdDialougeSetTwo + 1
 			return pdDialougeSetTwo
