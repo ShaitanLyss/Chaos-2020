@@ -12,6 +12,7 @@ function OnCheckPointChanged(platformModel)
  end
  
  
+ --[[
  --for small die 
  function OnOverlapSmallDie(trigger, thePlayer)
     if thePlayer:IsA("Player")  and not thePlayer.isDead and (thePlayer:GetResource("challenge") == 1) and (thePlayer:GetResource("level") == 3) then
@@ -22,7 +23,7 @@ function OnCheckPointChanged(platformModel)
         thePlayer:Respawn({position = savePlatformModel:GetWorldPosition() + Vector3.UP * 100, rotation = playerRotation})
     end
 end
- 
+]]-- 
 
 --Big Die
 function OnOverlapBigDie(trigger, thePlayer)
