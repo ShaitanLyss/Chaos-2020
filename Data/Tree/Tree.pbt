@@ -26,6 +26,7 @@ Objects {
   ChildIds: 9979578846465070629
   ChildIds: 3310458964701018004
   ChildIds: 1154504680341791018
+  ChildIds: 4212740717364945
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -35,6 +36,49 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 4212740717364945
+  Name: "World Text"
+  Transform {
+    Location {
+      X: 386.528961
+      Y: -920.982605
+      Z: 11110.8496
+    }
+    Rotation {
+      Yaw: 145.699844
+    }
+    Scale {
+      X: 5.48263216
+      Y: 5.48263216
+      Z: 5.48263216
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Text {
+    Text: "Soon"
+    Color {
+      R: 1
+      G: 1
+      B: 1
+      A: 1
+    }
+    HorizontalSize: 1
+    VerticalSize: 1
+    HorizontalAlignment {
+      Value: "mc:ecoretexthorizontalalign:left"
+    }
+    VerticalAlignment {
+      Value: "mc:ecoretextverticalalign:center"
+    }
   }
 }
 Objects {
