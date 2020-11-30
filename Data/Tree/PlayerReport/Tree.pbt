@@ -22,7 +22,7 @@ Objects {
     }
     Overrides {
       Name: "cs:Level"
-      Int: 3
+      Int: 2
     }
     Overrides {
       Name: "cs:Challenge"
