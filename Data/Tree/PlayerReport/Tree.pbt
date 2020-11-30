@@ -22,11 +22,11 @@ Objects {
     }
     Overrides {
       Name: "cs:Level"
-      Int: 2
+      Int: 1
     }
     Overrides {
       Name: "cs:Challenge"
-      Int: 0
+      Int: 1
     }
     Overrides {
       Name: "cs:GoThrough"

@@ -34,33 +34,7 @@ Objects {
   }
 }
 Objects {
-  Id: 5012066826893764167
-  Name: "Wall"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 8768866053368028503
-  ChildIds: 4442114770646351124
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:forceon"
-  }
-  NetworkContext {
-  }
-}
-Objects {
-  Id: 4442114770646351124
+  Id: 7977107906174819864
   Name: "FireWallMesh"
   Transform {
     Location {
@@ -73,10 +47,10 @@ Objects {
       Z: 18.6999989
     }
   }
-  ParentId: 5012066826893764167
-  ChildIds: 14746454493348490980
-  ChildIds: 6377970170761544804
-  ChildIds: 12526067993820102116
+  ParentId: 8768866053368028503
+  ChildIds: 14570302365682521474
+  ChildIds: 9632153386252860721
+  ChildIds: 4570749298951757764
   UnregisteredParameters {
     Overrides {
       Name: "ma:Shared_BaseMaterial:id"
@@ -100,8 +74,9 @@ Objects {
       Float: 4.81224442
     }
   }
+  WantsNetworking: true
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:forceoff"
+    Value: "mc:ecollisionsetting:forceon"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:forceon"
@@ -122,24 +97,24 @@ Objects {
   }
 }
 Objects {
-  Id: 12526067993820102116
+  Id: 4570749298951757764
   Name: "Fire Volume VFX"
   Transform {
     Location {
       X: 110.544914
-      Y: -0.355920672
+      Y: -0.355920702
       Z: -1.45210803
     }
     Rotation {
-      Yaw: -1.12643433
+      Yaw: -1.1264323
     }
     Scale {
       X: 1.08810842
-      Y: 0.945410967
-      Z: 0.924459457
+      Y: 0.945411
+      Z: 0.924459517
     }
   }
-  ParentId: 4442114770646351124
+  ParentId: 7977107906174819864
   UnregisteredParameters {
     Overrides {
       Name: "bp:Particle Scale Multiplier"
@@ -174,6 +149,7 @@ Objects {
       }
     }
   }
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -192,7 +168,7 @@ Objects {
   }
 }
 Objects {
-  Id: 6377970170761544804
+  Id: 9632153386252860721
   Name: "Fire and Flame Burning Loop Set 01 SFX"
   Transform {
     Location {
@@ -201,11 +177,12 @@ Objects {
     }
     Scale {
       X: 0.625
-      Y: 0.0510204062
+      Y: 0.0510204099
       Z: 0.0534759387
     }
   }
-  ParentId: 4442114770646351124
+  ParentId: 7977107906174819864
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -229,24 +206,25 @@ Objects {
   }
 }
 Objects {
-  Id: 14746454493348490980
+  Id: 14570302365682521474
   Name: "Area Light"
   Transform {
     Location {
-      X: -93.1886292
-      Y: 7.00282478
+      X: -93.1885681
+      Y: 7.00284
       Z: 3.65495181
     }
     Rotation {
-      Yaw: -179.999985
+      Yaw: -179.999954
     }
     Scale {
       X: 0.625
-      Y: 0.0510204062
+      Y: 0.0510204099
       Z: 0.0534759387
     }
   }
-  ParentId: 4442114770646351124
+  ParentId: 7977107906174819864
+  WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }

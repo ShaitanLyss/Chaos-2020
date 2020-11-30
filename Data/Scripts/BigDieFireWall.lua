@@ -4,7 +4,7 @@ local trigger = fireWallModel:FindChildByName("Trigger")
 local spawnPlace = script:GetCustomProperty("Lvl1_SpawnPoint"):WaitForObject()
 local challengeWay = script:GetCustomProperty("challengeWay"):WaitForObject()
 
-
+local player
 -- Kills a player when they enter the trigger
 function OnBeginOverlap(trigger, other)
     if other:IsA("Player") then
@@ -14,7 +14,7 @@ function OnBeginOverlap(trigger, other)
 end
 
 
-function OnBigDie(player)
+function OnBigDie(other)
     player:Die()
     Task.Wait(3)
     --Events.Broadcast("E_FireWallReset")
@@ -34,6 +34,13 @@ function CanGoToNextLVL(player)
     local resultCode,errorMessage = Storage.SetPlayerData(player, data)
 end
 
+function OnPlayerJoined(other)
+    --player.resourceChangedEvent:Connect(OnResourceChanged)
+    player = other
+end
+
+
+Game.playerJoinedEvent:Connect(OnPlayerJoined)
 
 -- Connect trigger overlap event
 trigger.beginOverlapEvent:Connect(OnBeginOverlap)
