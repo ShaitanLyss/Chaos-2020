@@ -4,7 +4,7 @@ local isToReward = false
 local player
 
 function OnReward(player)
-    Task.Wait(2)
+    --Task.Wait(2)
     --if (player:GetResource("level") == 1) and (player:GetResource("passChallenge") == 1) and isToReward then
         local globalTimer = player:GetResource("timer") + (secondsToAdd * 100)
         --store timer
@@ -14,6 +14,7 @@ function OnReward(player)
         local resultCode,errorMessage = Storage.SetPlayerData(player, data)
        -- print("globalTimer") print(globalTimer)
         
+    print("rewarded")
     --end
 end
 
@@ -27,7 +28,10 @@ end
 function OnPlatformsSeparateChanged(platformsSeparation)
     local distanceReward = (platformsSeparation * platformMultiplayer)
     local globalTimer = player:GetResource("timer") + distanceReward
-    Events.BroadcastToAllPlayers("E_RewardUI", distanceReward)
+    print("send ui")
+    if platformsSeparation >= 1 then
+        Events.BroadcastToAllPlayers("E_RewardUI", distanceReward)
+    end
     --store timer
     player:SetResource("timer", globalTimer)
     local data = Storage.GetPlayerData(player)

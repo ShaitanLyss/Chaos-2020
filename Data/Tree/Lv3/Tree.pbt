@@ -17,41 +17,45 @@ Objects {
     }
   }
   ParentId: 115049576835718536
+  ChildIds: 16551422945529364161
   ChildIds: 4462623589378197264
   ChildIds: 13889669167512955409
-  ChildIds: 16551422945529364161
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
-      String: "Deity"
+      String: "Old Man"
     }
     Overrides {
       Name: "cs:1"
-      String: ""
+      String: "OldManPreLv3_1"
     }
     Overrides {
       Name: "cs:2"
-      String: ""
+      String: "OldManPreLv3_2"
     }
     Overrides {
       Name: "cs:3"
-      String: ""
+      String: "OldManPreLv3_3"
     }
     Overrides {
       Name: "cs:4"
-      String: ""
+      String: "OldManPreLv3_4"
     }
     Overrides {
       Name: "cs:5"
-      String: ""
+      String: "OldManPreLv3_repeat"
     }
     Overrides {
       Name: "cs:6"
-      String: ""
+      String: "OldManPostLv3_1"
     }
     Overrides {
       Name: "cs:7"
-      String: ""
+      String: "OldManPostLv3_2"
+    }
+    Overrides {
+      Name: "cs:8"
+      String: "OldManPostLv3_repeat"
     }
     Overrides {
       Name: "cs:Behavior"
@@ -82,37 +86,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-}
-Objects {
-  Id: 16551422945529364161
-  Name: "B_OldManLv3"
-  Transform {
-    Location {
-      X: -3912.99707
-      Y: -914.100708
-      Z: -4525.1123
-    }
-    Rotation {
-      Yaw: 15.7924824
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 15412018892609026582
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 4708794190412403784
-    }
   }
 }
 Objects {
@@ -424,6 +397,37 @@ Objects {
   }
 }
 Objects {
+  Id: 16551422945529364161
+  Name: "B_OldManLv3"
+  Transform {
+    Location {
+      X: -3912.99707
+      Y: -914.100708
+      Z: -4525.1123
+    }
+    Rotation {
+      Yaw: 15.7924824
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 15412018892609026582
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 4708794190412403784
+    }
+  }
+}
+Objects {
   Id: 7761130600285732274
   Name: "3_Plague Doctor"
   Transform {
@@ -440,41 +444,49 @@ Objects {
     }
   }
   ParentId: 115049576835718536
+  ChildIds: 11872741275943493599
   ChildIds: 3438476904927533553
   ChildIds: 5708945976036377539
-  ChildIds: 11872741275943493599
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
-      String: "Deity"
+      String: "Plague Doctor"
     }
     Overrides {
       Name: "cs:1"
-      String: ""
+      String: "NPC1Lv3Part1"
     }
     Overrides {
       Name: "cs:2"
-      String: ""
+      String: "NPC1Lv3Part2"
     }
     Overrides {
       Name: "cs:3"
-      String: ""
+      String: "NPC1Lv3Part3"
     }
     Overrides {
       Name: "cs:4"
-      String: ""
+      String: "NPC1Lv3Part4"
     }
     Overrides {
       Name: "cs:5"
-      String: ""
+      String: "NPC1Lv3Part5"
     }
     Overrides {
       Name: "cs:6"
-      String: ""
+      String: "NPC1Game2Lv3Part1"
     }
     Overrides {
       Name: "cs:7"
-      String: ""
+      String: "NPC1Game2Lv3Part2"
+    }
+    Overrides {
+      Name: "cs:8"
+      String: "NPC1Game2Lv3Part3"
+    }
+    Overrides {
+      Name: "cs:9"
+      String: "NPC1Game2Lv3Part4"
     }
     Overrides {
       Name: "cs:Behavior"
@@ -505,37 +517,6 @@ Objects {
   }
   Folder {
     IsGroup: true
-  }
-}
-Objects {
-  Id: 11872741275943493599
-  Name: "B_PlagueDoctor"
-  Transform {
-    Location {
-      X: -3857.323
-      Y: -1110.94775
-      Z: -4525.1123
-    }
-    Rotation {
-      Yaw: 15.79245
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 7761130600285732274
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 5127782549386404550
-    }
   }
 }
 Objects {
@@ -843,6 +824,37 @@ Objects {
   Script {
     ScriptAsset {
       Id: 520210685784922352
+    }
+  }
+}
+Objects {
+  Id: 11872741275943493599
+  Name: "B_PlagueDoctor"
+  Transform {
+    Location {
+      X: -3857.323
+      Y: -1110.94775
+      Z: -4525.1123
+    }
+    Rotation {
+      Yaw: 15.7924652
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7761130600285732274
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 5127782549386404550
     }
   }
 }

@@ -74,7 +74,7 @@ function Dialogs.RegisterDialogue()
 	API.AddText(id, "How will you approach future challenges?")
 	API.AddText(id, "I expect great things from you.")
 	API.AddText(id, "Oh, by the way...")
-	API.AddText(id, "Do know that you will not be able"..
+	API.AddText(id, "Do know that you will not be able "..
 	"to return to this town once you leave.")
 	API.AddText(id, "If you have unfinished business, "..
 	"I would advise you to finish it.")
@@ -226,8 +226,8 @@ function Dialogs.RegisterDialogue()
 	id = "NPC2PreLv1_2"
 	API.RegisterDialogueId(id)
 	API.AddText(id, "Dad tried to repair this ladder once.")
-	API.AddText(id, "He was constantly mumbling to himself about how, "..
-	"\'That can\'t possibly be the only material around here.\'")
+	API.AddText(id, "He was constantly mumbling to himself about how "..
+	"\"that can\'t possibly be the only material around here.\"")
 	API.AddText(id, "Eventually, he went off on his own and "..
 	"never came back.")
 	API.AddText(id, "I miss him.", CRY_ANIMATION)
@@ -235,7 +235,7 @@ function Dialogs.RegisterDialogue()
 	-- Pre-Challenge / Repeat
 	id = "NPC2PreLv1_repeat"
 	API.RegisterDialogueId(id)
-	API.AddText(id, "* I hope he found the right ladder... *")
+	API.AddText(id, "Thinking: I hope he found the right ladder...")
 	
 	-- Post-Challenge / No Repeat
 	id = "NPC2PostLv1"
@@ -454,7 +454,7 @@ function Dialogs.RegisterDialogue()
 	-- Post-Challenge / Repeat
 	id = "NPC2PostLv2_repeat"
 	API.RegisterDialogueId(id)
-	API.AddText(id, "*Thinking:* Gotta go see the old man...")
+	API.AddText(id, "Thinking: Gotta go see the old man...")
 	
 	-- Post-Game / No Repeat
 	id = "NPC2Game2Lv2"
@@ -491,7 +491,7 @@ function Dialogs.RegisterDialogue()
 	API.AddText(id, "Good luck, and godspeed.")
 	
 	-- Pre-Challenge / Interaction 2 - Repeat
-	id = "DeityPreLv3_2_repeat"
+	id = "DeityPreLv3_repeat"
 	API.RegisterDialogueId(id)
 	API.AddText(id, "Good luck, and godspeed.")
 	
@@ -532,7 +532,7 @@ function Dialogs.RegisterDialogue()
 	TALK_ANIMATION)
 	
 	-- Post-Game 2 / Interaction 2 - Repeat
-	id = "DeityGame3Lv3_2_repeat"
+	id = "DeityGame3Lv3_repeat"
 	API.RegisterDialogueId(id)
 	API.AddText(id, "Enjoy yourself. It is your right to do so.", 
 	TALK_ANIMATION)
@@ -690,6 +690,14 @@ function Dialogs.RegisterDialogue()
 	-- Normal Dialouge / Repeat
 	id = "DeityLobbyDialogue_repeat"
 	API.RegisterDialogueId(id)
+	API.AddText(id, "Click that button over there "..
+	"to continue your personal journey.")
+	
+	-- Future Dialogue - Repeats
+	id = "DeityLobbyFutureRuns"
+	API.RegisterDialogueId(id)
+	API.AddText(id, "I\'m sure you already know what to do, "..
+	"but if you need a refresher...")
 	API.AddText(id, "Click that button over there "..
 	"to continue your personal journey.")
 end

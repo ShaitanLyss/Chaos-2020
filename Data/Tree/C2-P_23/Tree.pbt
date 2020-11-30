@@ -47,8 +47,8 @@ Objects {
   Name: "PlatformModel"
   Transform {
     Location {
-      X: -13399.4277
-      Y: -6108.67773
+      X: -13397.6465
+      Y: -6089.11914
       Z: 300
     }
     Rotation {

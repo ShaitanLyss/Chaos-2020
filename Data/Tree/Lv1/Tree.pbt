@@ -18,9 +18,9 @@ Objects {
     }
   }
   ParentId: 138285899937258032
+  ChildIds: 3078425468319678475
   ChildIds: 16931361314753484855
   ChildIds: 8323812762821859972
-  ChildIds: 3078425468319678475
   UnregisteredParameters {
     Overrides {
       Name: "cs:Name"
@@ -28,31 +28,31 @@ Objects {
     }
     Overrides {
       Name: "cs:1"
-      String: "NPC3Lv1"
+      String: "OldManPreLv1_1"
     }
     Overrides {
       Name: "cs:2"
-      String: "NPC3Game2Lv1"
+      String: "OldManPreLv1_2"
     }
     Overrides {
       Name: "cs:3"
-      String: "NPC3Game2Lv1_repeat"
+      String: "OldManPreLv1_3"
     }
     Overrides {
       Name: "cs:4"
-      String: ""
+      String: "OldManPreLv1_repeat"
     }
     Overrides {
       Name: "cs:5"
-      String: ""
+      String: "OldManPostLv1"
     }
     Overrides {
       Name: "cs:6"
-      String: ""
+      String: "OldManGame2Lv1"
     }
     Overrides {
       Name: "cs:7"
-      String: ""
+      String: "OldManGame2Lv1_repeat"
     }
     Overrides {
       Name: "cs:Behavior"
@@ -90,37 +90,6 @@ Objects {
     InstanceId: 13323824561795193947
     TemplateId: 522965690069926366
     WasRoot: true
-  }
-}
-Objects {
-  Id: 3078425468319678475
-  Name: "B_OldManLv1"
-  Transform {
-    Location {
-      X: -7276.3252
-      Y: 5476.82031
-      Z: -1017.42065
-    }
-    Rotation {
-      Yaw: -73.5456467
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 7053738061777884388
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 15574483805238685483
-    }
   }
 }
 Objects {
@@ -305,6 +274,37 @@ Objects {
   }
 }
 Objects {
+  Id: 3078425468319678475
+  Name: "B_OldManLv1"
+  Transform {
+    Location {
+      X: -7276.3252
+      Y: 5476.82031
+      Z: -1017.42065
+    }
+    Rotation {
+      Yaw: -73.5456467
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 7053738061777884388
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 15574483805238685483
+    }
+  }
+}
+Objects {
   Id: 545774171915658462
   Name: "1_MiddleAged Man"
   Transform {
@@ -322,7 +322,7 @@ Objects {
     }
   }
   ParentId: 138285899937258032
-  ChildIds: 5686768681598986495
+  ChildIds: 5383997860258907813
   ChildIds: 1836674443463696878
   ChildIds: 14682794215665505465
   UnregisteredParameters {
@@ -361,7 +361,7 @@ Objects {
     Overrides {
       Name: "cs:Behavior"
       ObjectReference {
-        SelfId: 5686768681598986495
+        SelfId: 5383997860258907813
       }
     }
     Overrides {
@@ -570,16 +570,16 @@ Objects {
   }
 }
 Objects {
-  Id: 5686768681598986495
-  Name: "B_PreteenGirl"
+  Id: 5383997860258907813
+  Name: "B_MiddleAgedMan"
   Transform {
     Location {
-      X: 2917.73047
-      Y: 7841.25391
-      Z: -1040.69446
+      X: -6076.86377
+      Y: 7642.49121
+      Z: -1017.42065
     }
     Rotation {
-      Yaw: -154.375137
+      Yaw: -95.2322464
     }
     Scale {
       X: 1
@@ -588,8 +588,6 @@ Objects {
     }
   }
   ParentId: 545774171915658462
-  UnregisteredParameters {
-  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -598,7 +596,7 @@ Objects {
   }
   Script {
     ScriptAsset {
-      Id: 2050106116674367942
+      Id: 15609343117464871787
     }
   }
 }
@@ -1266,6 +1264,10 @@ Objects {
             Y: 1
             Z: 1
           }
+        }
+        Overrides {
+          Name: "cs:Name"
+          String: "???"
         }
       }
     }

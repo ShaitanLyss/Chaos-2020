@@ -7,7 +7,7 @@ local winChallengeTrigger =  lvlChallenge:FindChildByName("Trigger")
 
 --local isTimerReached = false
 
-local player = Game.FindNearestPlayer(Lvl1_SpawnPoint:GetWorldPosition())
+local player 
 
 function OnBeginOverlap(trigger, other)
     player = other
@@ -22,7 +22,11 @@ function OnBeginOverlap(trigger, other)
         data["level"] = player:GetResource("level")
         local resultCode,errorMessage = Storage.SetPlayerData(player, data)
         
+        print("inside overlap")
+
         player:SetResource("passChallenge", 1)
+
+        Events.Broadcast("E_DPlayerChanged", 9999)
 
         Events.Broadcast("E_Reward", player)
         --to reset the bar
@@ -55,17 +59,31 @@ end
 
 
 function OnTimerChanged(localTime100)
-   -- print("inside the timerchanged")
-    player:SetResource("localTimer", localTime100)
+        print("inside the timerchanged")
+        player:SetResource("localTimer", localTime100)
 
-    local globalTimer = player:GetResource("timer") + player:GetResource("localTimer")
-    --store timer
-    local data = Storage.GetPlayerData(player)
-    data["timer"] = globalTimer
-    local resultCode,errorMessage = Storage.SetPlayerData(player, data)
-   -- print("globalTimer") print(globalTimer)
-    player:SetResource("timer", globalTimer)
+        local globalTimer = player:GetResource("timer") + player:GetResource("localTimer")
+        --store timer
+        local data = Storage.GetPlayerData(player)
+        data["timer"] = globalTimer
+        local resultCode,errorMessage = Storage.SetPlayerData(player, data)
+    -- print("globalTimer") print(globalTimer)
+        player:SetResource("timer", globalTimer)
+        print("g") print(globalTimer)
 end
+
+
+
+
+function OnPlayerJoined(other)
+    --player.resourceChangedEvent:Connect(OnResourceChanged)
+    player = other
+end
+
+
+Game.playerJoinedEvent:Connect(OnPlayerJoined)
+
+
 
 
 

@@ -95,12 +95,12 @@ Objects {
   Name: "Lvl1_Challenge"
   Transform {
     Location {
-      X: 2217.15063
-      Y: 8673.81543
-      Z: 319.574432
+      X: -152.798706
+      Y: 9085.45898
+      Z: 419.881866
     }
     Rotation {
-      Yaw: 168.250122
+      Yaw: -16.1887817
     }
     Scale {
       X: 1

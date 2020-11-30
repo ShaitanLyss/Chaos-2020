@@ -6,15 +6,17 @@ local inRangeNum = 3
 local player
 
 function OnDPlayerChanged(pNumber)
-    playerCount = pNumber
-   -- print(pNumber)
+    if (pNumber ~= 9999) then  -- 9999 only to let it work 
+        playerCount = pNumber
+    end
+    print("player") print(pNumber)
     DistanceCalc()
 end
 
 
 function OnDFireWallChanged(pNumber)
     FireWallCount = pNumber 
-  --  print(pNumber)
+    print("firewall") print(pNumber)
     DistanceCalc()
 end
 
@@ -22,21 +24,27 @@ end
 local previousDInRange = true
 local currentDInRange
 local start = true
+local  happen = false
 
 function DistanceCalc()
+    print("in distance calc")
     local platformsSeparation = playerCount - FireWallCount
     Events.BroadcastToAllPlayers("E_PlatformsSeparationChanged", platformsSeparation)
-
+   
     --kill the player if firewall pass him
-    if platformsSeparation <= -1 then
-        Task.Wait(1)
-        if platformsSeparation <= -1 then
-            Events.Broadcast("E_BigDie")
-        end
+    if platformsSeparation <= -1 and happen then
+        Events.Broadcast("E_BigDie")
     end
+    if platformsSeparation <= -1 then
+        happen = true
+        Task.Wait(2)
+    end
+   
+    print("platformsSeparation") print(platformsSeparation)
 
-
+    print("level") print(player:GetResource("level"))    print("passChallenge") print(player:GetResource("passChallenge"))
     if (player:GetResource("level") == 1) and (player:GetResource("passChallenge") == 1) then
+        print("plat sep send")
         Events.Broadcast("E_PlatformsSeparateChanged", platformsSeparation)
     end
     --print(platformsSeparation)  --testing

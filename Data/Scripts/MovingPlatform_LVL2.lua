@@ -8,7 +8,7 @@ local speed3 = script:GetCustomProperty("Speed3")
 local turning3 = script:GetCustomProperty("Turning3")
 local speed4 = script:GetCustomProperty("Speed4")
 local turning4 = script:GetCustomProperty("Turning4")
-
+local cycle = 1
 
 
 local arr_pathWays = pathWays:GetChildren()
@@ -26,8 +26,20 @@ for i,way in ipairs(arr_pathWays) do
 function FollowPath()
     local pathWay = arr_pathWays[index] 
 
-    movingPlatformModel:LookAtContinuous(pathWay, true, turningSpeed)
-    movingPlatformModel:Follow(pathWay, speed)
+    if (cycle == 1) then 
+        movingPlatformModel:LookAtContinuous(pathWay, true, turningSpeed)
+        movingPlatformModel:Follow(pathWay, speed)
+    elseif (cycle == 2) then 
+        movingPlatformModel:LookAtContinuous(pathWay, true, turning2)
+        movingPlatformModel:Follow(pathWay, speed2)
+    elseif (cycle == 3) then 
+        movingPlatformModel:LookAtContinuous(pathWay, true, turning3)
+        movingPlatformModel:Follow(pathWay, speed3)
+    else 
+        movingPlatformModel:LookAtContinuous(pathWay, true, turning4)
+        movingPlatformModel:Follow(pathWay, speed4)
+    end
+
 
     local pathWayPos = pathWay:GetWorldPosition()
     local movingPlatformModelPos = movingPlatformModel:GetWorldPosition()
@@ -129,6 +141,15 @@ function OnEndCheckpoint()
 	end
 end
 
+
+function OnCycleDone()
+    if (localPlayer:GetResource("challenge") == 1) then
+        cycle = cycle + 1
+    end
+end
+
+
+Events.Connect("E_CycleDone_LVL2", OnCycleDone)
 Events.Connect("platformStartCheckpoint", OnStartCheckpoint)
 Events.Connect("platformEndCheckpoint", OnEndCheckpoint)
 

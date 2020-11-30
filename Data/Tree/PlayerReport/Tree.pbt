@@ -28,6 +28,10 @@ Objects {
       Name: "cs:Challenge"
       Int: 1
     }
+    Overrides {
+      Name: "cs:GoThrough"
+      Int: 1
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"

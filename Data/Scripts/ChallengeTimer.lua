@@ -45,7 +45,7 @@ end
 
 
 
-Events.Connect("E_TimerChanged", OnTimerChanged)
+--Events.Connect("E_TimerChanged", OnTimerChanged)
 
 
 
