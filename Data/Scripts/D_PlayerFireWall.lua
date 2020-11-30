@@ -24,19 +24,20 @@ end
 local previousDInRange = true
 local currentDInRange
 local start = true
+local  happen = false
 
 function DistanceCalc()
     print("in distance calc")
     local platformsSeparation = playerCount - FireWallCount
     Events.BroadcastToAllPlayers("E_PlatformsSeparationChanged", platformsSeparation)
    
-    local  happen = false
     --kill the player if firewall pass him
     if platformsSeparation <= -1 and happen then
         Events.Broadcast("E_BigDie")
     end
     if platformsSeparation <= -1 then
         happen = true
+        Task.Wait(2)
     end
    
     print("platformsSeparation") print(platformsSeparation)

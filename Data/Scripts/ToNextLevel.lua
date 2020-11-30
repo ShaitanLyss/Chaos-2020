@@ -46,7 +46,7 @@ function  OnInteracted(theTrigger, other)
 
             elseif player:GetResource("level") == 4 then 
                 print("lobby") 
-                player:Respawn({position = Lobby_SpawnPoint:GetWorldPosition(), rotation = Lvl4_SpawnPoint:GetWorldRotation()})
+                player:Respawn({position = Lobby_SpawnPoint:GetWorldPosition(), rotation = Lobby_SpawnPoint:GetWorldRotation()})
                 
             end 
             Events.BroadcastToAllPlayers("toNextScene")
