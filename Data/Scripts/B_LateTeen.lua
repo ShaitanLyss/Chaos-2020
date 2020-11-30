@@ -47,6 +47,9 @@ function Behavior.getI(i)
 	end
 end
 
+function Behavior.OnDialog()
+end
+
 -- return true to hide dialog indicator
 function Behavior.OnDialogEnd()
 	level = player:GetResource("level")

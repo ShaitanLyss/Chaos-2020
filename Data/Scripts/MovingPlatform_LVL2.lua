@@ -77,8 +77,8 @@ function Tick(dt)
     if toStart then -- wait till player join
         --Challenge = 1 means start Challenge
         --print("out")
-
-        if (localPlayer:GetResource("level") == 2) and (localPlayer:GetResource("challenge") == 1) then
+		localPlayer = Game.GetPlayers()[1]
+        if localPlayer and (localPlayer:GetResource("level") == 2) and (localPlayer:GetResource("challenge") == 1) then
             FollowPath()
           --  print("in")
            -- Task.Wait(1)

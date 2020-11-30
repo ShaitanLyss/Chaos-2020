@@ -77,14 +77,14 @@ Objects {
   Name: "Urban Plank Debris 04"
   Transform {
     Location {
-      X: -133.637207
-      Y: -113.499023
-      Z: 63.3768921
+      X: -280.013916
+      Y: -119.43457
+      Z: -12.013031
     }
     Rotation {
-      Pitch: 5.20984268
-      Yaw: 117.435722
-      Roll: 172.710159
+      Pitch: 1.92409146
+      Yaw: 117.826935
+      Roll: 178.991806
     }
     Scale {
       X: 1.24135184
@@ -94,7 +94,7 @@ Objects {
   }
   ParentId: 3282953327965546199
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -110,7 +110,6 @@ Objects {
     EnableCameraCollision: true
     StaticMesh {
       Physics {
-        IsEnabled: true
         Mass: 0.4
       }
     }
@@ -126,8 +125,8 @@ Objects {
       Z: -97.5592194
     }
     Rotation {
-      Pitch: -38.9236794
-      Yaw: -37.6705666
+      Pitch: -38.9236755
+      Yaw: -37.6705627
       Roll: 4.55785275
     }
     Scale {
@@ -138,7 +137,7 @@ Objects {
   }
   ParentId: 3282953327965546199
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -154,7 +153,6 @@ Objects {
     EnableCameraCollision: true
     StaticMesh {
       Physics {
-        IsEnabled: true
         Mass: 0.4
       }
     }
@@ -167,11 +165,11 @@ Objects {
     Location {
       X: 156.624023
       Y: 173.124023
-      Z: 49.5426941
+      Z: -22.5114899
     }
     Rotation {
-      Pitch: 7.01095676
-      Yaw: 127.276047
+      Pitch: 3.46090436
+      Yaw: 127.274803
     }
     Scale {
       X: 2.06891894
@@ -197,7 +195,6 @@ Objects {
     EnableCameraCollision: true
     StaticMesh {
       Physics {
-        IsEnabled: true
         Mass: 0.4
       }
     }
@@ -208,14 +205,14 @@ Objects {
   Name: "Urban Plank Debris 01"
   Transform {
     Location {
-      X: 134.155029
-      Y: 211.984863
-      Z: 15.3305664
+      X: 145.54248
+      Y: 227.000488
+      Z: -25.9322968
     }
     Rotation {
-      Pitch: -6.19760132
-      Yaw: 161.572113
-      Roll: 9.40809631
+      Pitch: 1.81632483
+      Yaw: 161.18338
+      Roll: -2.76849365
     }
     Scale {
       X: 1.65513659
@@ -241,7 +238,6 @@ Objects {
     EnableCameraCollision: true
     StaticMesh {
       Physics {
-        IsEnabled: true
         Mass: 0.4
       }
     }
@@ -253,8 +249,8 @@ Objects {
   Transform {
     Location {
       X: -81.8855
-      Y: -259.761719
-      Z: 165.545502
+      Y: -305.489258
+      Z: -87.3421326
     }
     Rotation {
       Pitch: -49.6648254
@@ -269,7 +265,7 @@ Objects {
   }
   ParentId: 3282953327965546199
   Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
+    Value: "mc:ecollisionsetting:forceoff"
   }
   Visible_v2 {
     Value: "mc:evisibilitysetting:inheritfromparent"
@@ -285,7 +281,6 @@ Objects {
     EnableCameraCollision: true
     StaticMesh {
       Physics {
-        IsEnabled: true
         Mass: 0.4
       }
     }

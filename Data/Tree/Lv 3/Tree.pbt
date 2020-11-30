@@ -1,6 +1,40 @@
 ﻿Name: "Lv 3"
 RootId: 5260094553541001925
 Objects {
+  Id: 17667423830899752285
+  Name: "Trigger"
+  Transform {
+    Location {
+      X: -3219.23535
+      Y: -941.455933
+      Z: 4337.58203
+    }
+    Rotation {
+    }
+    Scale {
+      X: 201.172668
+      Y: 236.656143
+      Z: 1
+    }
+  }
+  ParentId: 5260094553541001925
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Trigger {
+    TeamSettings {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    TriggerShape_v2 {
+      Value: "mc:etriggershape:box"
+    }
+  }
+}
+Objects {
   Id: 17988744285259464605
   Name: "aRT"
   Transform {
@@ -47,6 +81,12 @@ Objects {
   }
   ParentId: 5260094553541001925
   UnregisteredParameters {
+    Overrides {
+      Name: "cs:trigger"
+      ObjectReference {
+        SelfId: 17667423830899752285
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"

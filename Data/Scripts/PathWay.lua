@@ -107,8 +107,8 @@ end
 function Tick(dt)
     --Task.Wait(0.1)
     --FollowPlayer()
-    
-    if toStart then -- wait till player join
+    localPlayer = Game.GetPlayers()[1]
+    if localPlayer and toStart then -- wait till player join
         --Challenge = 1 means start Challenge
         if (localPlayer:GetResource("level") == 1) and (localPlayer:GetResource("challenge") == 1) then
             --number of pathWays ended restart for circle 2 

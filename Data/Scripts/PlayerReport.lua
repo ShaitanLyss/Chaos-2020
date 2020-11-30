@@ -22,11 +22,10 @@ function OnPlayerJoined(player)
         --player:SetResource("passChallenge", data["passChallenge"])
        
 
-
        
 
     end
-    Events.BroadcastToAllPlayers("initScenes")
+    Events.BroadcastToPlayer(player, "initScenes")
 
     --[[print("report")
     print("lvl is " .. player:GetResource("level"))

@@ -17,11 +17,10 @@ function SceneSelector.next()
 	sky.next()
 end
 
-function SceneSelector.init()
-	local player = Game.GetLocalPlayer()
-	level = player:GetResource("level")
-	challenge = player:GetResource("challenge")
-	passChallenge = player:GetResource("passChallenge")
+function SceneSelector.init(p)
+	level = p:GetResource("level")
+	challenge = p:GetResource("challenge")
+	passChallenge = p:GetResource("passChallenge")
 	i = level - 1 + challenge + 2 * passChallenge
 	music.init(i, n)
 	sound.init(i, n)
@@ -34,5 +33,6 @@ while loop do
 	SceneSelector.next()
 end
 
-Events.Connect("initScenes", SceneSelector.init)
+--Events.Connect("initScenes", SceneSelector.init)
 Events.Connect("toNextScene", SceneSelector.next)
+Game.playerJoinedEvent:Connect(SceneSelector.init)

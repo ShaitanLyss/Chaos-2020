@@ -18,7 +18,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:ResetForTest"
-      Bool: true
+      Bool: false
     }
     Overrides {
       Name: "cs:Level"

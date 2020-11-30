@@ -1,5 +1,5 @@
 ﻿local spawnPlace = script:GetCustomProperty("Lvl3_SpawnPoint"):WaitForObject()
-local thePlayer = Game.FindNearestPlayer(script:GetWorldPosition()) 
+
 ---small die
 local savePlatformModel
 -- For Respawn the player
@@ -13,13 +13,14 @@ end
  
  --for small die 
  function OnSmallDie()
+ 	thePlayer = Game.GetPlayers()[1]
     if thePlayer:IsA("Player")  and not thePlayer.isDead and (thePlayer:GetResource("challenge") == 1) and (thePlayer:GetResource("level") == 3) then
         Events.BroadcastToAllPlayers("E_IncreaseTheQBar")
         local playerRotation = thePlayer:GetWorldRotation()
         thePlayer:Die()
         Task.Wait(2)
         -- print(savePlatformModel:GetWorldPosition() + Vector3.UP * 50)
-        thePlayer:Respawn({position =  savePlatformModel:GetWorldPosition() + Vector3.UP * 100, rotation = playerRotation})
+        thePlayer:Respawn({position =  savePlatformModel:GetWorldPosition() + Vector3.UP * 300, rotation = playerRotation})
     end
 end
 

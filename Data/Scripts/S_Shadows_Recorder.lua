@@ -1,5 +1,4 @@
 ﻿local fps = script:GetCustomProperty("fps")
-local player = Game.GetPlayers()[1]
 local newLapTrigger = script:GetCustomProperty("newLapTrigger"):WaitForObject()
 
 t0 = time()
@@ -15,6 +14,7 @@ local i = 1
 delta = 1 / fps
 local recording = false
 function Tick()
+	player = Game.GetPlayers()[1]
 	if recording then
 		shadows[nShadows][i] = {time() -t0, player:GetWorldPosition(), player:GetWorldRotation()}
 		i = i + 1	

@@ -188,48 +188,6 @@ Objects {
   }
 }
 Objects {
-  Id: 12168192182146555413
-  Name: "KPlatform"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 18388149044005963685
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:K_Platform"
-      ObjectReference {
-        SelfId: 18388149044005963685
-      }
-    }
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 520047518029508837
-    }
-  }
-  InstanceHistory {
-    SelfId: 15478015494772436055
-    SubobjectId: 13276555526046159268
-    InstanceId: 9465508632573721086
-    TemplateId: 4296020210974480709
-  }
-}
-Objects {
   Id: 9927972250082592026
   Name: "PlatformModel"
   Transform {

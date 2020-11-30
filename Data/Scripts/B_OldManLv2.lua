@@ -36,6 +36,8 @@ function Behavior.getI(i)
 		end
 	end
 end
+function Behavior.OnDialog()
+end
 
 -- return true to hide dialog indicator
 function Behavior.OnDialogEnd()

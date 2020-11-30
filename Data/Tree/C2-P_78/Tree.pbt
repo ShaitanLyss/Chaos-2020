@@ -1,48 +1,6 @@
 ﻿Name: "C2-P_78"
 RootId: 11348040040171170812
 Objects {
-  Id: 16106081186033247223
-  Name: "PlatformCheckPoint"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11348040040171170812
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:Platform"
-      ObjectReference {
-        SelfId: 11348040040171170812
-      }
-    }
-  }
-  WantsNetworking: true
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 10184727586948426952
-    }
-  }
-  InstanceHistory {
-    SelfId: 14707221357464986453
-    SubobjectId: 15925019654078393750
-    InstanceId: 5100835390174757607
-    TemplateId: 14125914624941304983
-  }
-}
-Objects {
   Id: 17145407263358799429
   Name: "PlatformModel"
   Transform {

@@ -88,6 +88,12 @@ Objects {
       Name: "cs:loop"
       Bool: false
     }
+    Overrides {
+      Name: "cs:test"
+      ObjectReference {
+        SelfId: 3853792088576620236
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -117,7 +123,7 @@ Objects {
     }
   }
   ParentId: 5014142082355729336
-  ChildIds: 11365870398754136002
+  ChildIds: 6771334904228432968
   UnregisteredParameters {
     Overrides {
       Name: "cs:0"
@@ -151,8 +157,8 @@ Objects {
   }
 }
 Objects {
-  Id: 11365870398754136002
-  Name: "S_3"
+  Id: 6771334904228432968
+  Name: "S_Level1"
   Transform {
     Scale {
       X: 1
@@ -163,11 +169,11 @@ Objects {
   ParentId: 16202712489828477249
   TemplateInstance {
     ParameterOverrideMap {
-      key: 13664821734768608629
+      key: 13112717259869648442
       value {
         Overrides {
           Name: "Name"
-          String: "S_3"
+          String: "S_Level1"
         }
         Overrides {
           Name: "Scale"
@@ -180,7 +186,7 @@ Objects {
       }
     }
     TemplateAsset {
-      Id: 11108699866060967321
+      Id: 5642498572428842119
     }
   }
 }

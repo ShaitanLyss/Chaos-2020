@@ -1,7 +1,7 @@
 ﻿local platform = script:GetCustomProperty("Platform"):WaitForObject()
 local platformModel = platform:FindChildByName("PlatformModel")
 local platformTrigger = platformModel:FindChildByName("Trigger")
-
+if not platformTrigger then print("Azmio, you forgot the trigger !! " .. script.parent.name) end
 
 function OnBeginOverlap(trigger, other)
     if other:IsA("Player")  and not other.isDead then
