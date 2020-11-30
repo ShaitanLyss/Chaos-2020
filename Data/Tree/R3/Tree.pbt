@@ -48,9 +48,9 @@ Objects {
         Overrides {
           Name: "Scale"
           Vector {
-            X: 1.99999487
-            Y: 1.9999994
-            Z: 21.0023937
+            X: 1.99999797
+            Y: 1.99999475
+            Z: 22.7773552
           }
         }
         Overrides {

@@ -14,6 +14,7 @@ function OnCheckPointChanged(hitPos, playerRot)
  --for small die 
  function OnSmallDie()
     if thePlayer:IsA("Player")  and not thePlayer.isDead and (thePlayer:GetResource("challenge") == 1) and (thePlayer:GetResource("level") == 3) then
+        Events.BroadcastToAllPlayers("E_IncreaseTheQBar")
         local playerRotation = thePlayer:GetWorldRotation()
         thePlayer:Die()
         Task.Wait(2)
@@ -23,7 +24,7 @@ function OnCheckPointChanged(hitPos, playerRot)
 end
 
 function OnTouchGround()
-	OnSmallDie()
+    OnSmallDie()
 end
  
 
@@ -39,7 +40,3 @@ end
 Events.Connect("E_CheckPointChanged_LVL3", OnCheckPointChanged)
 Events.Connect("OnTouchGround", OnTouchGround)
 --Events.Connect("E_SmallDie_LVL3", OnSmallDie)
-
-
-
-
