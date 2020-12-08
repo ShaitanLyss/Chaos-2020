@@ -1,4 +1,5 @@
-﻿local addedTimeReward = script:GetCustomProperty("AddedTimeReward"):WaitForObject()
+﻿local u = require("F66E2795811FE1B8:Utils")
+local addedTimeReward = script:GetCustomProperty("AddedTimeReward"):WaitForObject()
 local distanceTxtBox = addedTimeReward:FindChildByName("DistanceTxtBox")
 
 function OnRewardUI(distanceReward)
@@ -6,9 +7,9 @@ function OnRewardUI(distanceReward)
     local textToDistance = string.format(distanceReward .. " for Distance")
     print(textToDistance)
     distanceTxtBox.text =  textToDistance
-    addedTimeReward.visibility = Visibility.FORCE_ON
+    u.show(addedTimeReward)
     Task.Wait(10)
-    addedTimeReward.visibility = Visibility.FORCE_OFF
+    u.hide(addedTimeReward)
 end
 
 Events.Connect("E_RewardUI", OnRewardUI)

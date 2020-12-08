@@ -112,7 +112,7 @@ Objects {
   Name: "A_SkySelector"
   Transform {
     Location {
-      Z: 2105.35303
+      Z: -2692.36279
     }
     Rotation {
     }

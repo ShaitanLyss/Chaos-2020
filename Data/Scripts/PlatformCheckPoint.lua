@@ -1,28 +1,21 @@
 ﻿local platform = script:GetCustomProperty("Platform"):WaitForObject()
 local platformModel = platform:FindChildByName("PlatformModel")
 local platformTrigger = platformModel:FindChildByName("Trigger")
-if not platformTrigger then print("Azmio, you forgot the trigger !! " .. script.parent.name) end
+
+local pNumber = string.sub(platform.name, 6)
+
 
 function OnBeginOverlap(trigger, other)
     if other:IsA("Player")  and not other.isDead then
-        --local platformPosition = platformModel:GetWorldPosition()
         Events.Broadcast("E_CheckPointChanged", platformModel)
-        local pNumber = string.sub(platform.name, 6)
         Events.Broadcast("E_DPlayerChanged", pNumber)
-    elseif other.name == "FireWallMesh" then
-        local pNumber = string.sub(platform.name, 6)
+    elseif other.name == "FireWallMesh" then  
         Events.Broadcast("E_DFireWallChanged", pNumber)
     end
 end
 
 
---[[
-function Tick()
-    --print(xx)
-    print(platform.name)
-    local pNumber = string.sub(platform.name, 6)
-    print(pNumber)
-end
-]]--
-
-platformTrigger.beginOverlapEvent:Connect(OnBeginOverlap)
+if platformTrigger then
+	platformTrigger.beginOverlapEvent:Connect(OnBeginOverlap)
+else
+	print("Azmio, you forgot the trigger !! " .. script.parent.name) end

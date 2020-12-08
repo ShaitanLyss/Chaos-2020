@@ -18,11 +18,11 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:ResetForTest"
-      Bool: false
+      Bool: true
     }
     Overrides {
       Name: "cs:Level"
-      Int: 1
+      Int: 2
     }
     Overrides {
       Name: "cs:Challenge"

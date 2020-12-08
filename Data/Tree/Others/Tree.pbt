@@ -930,7 +930,6 @@ Objects {
     }
   }
   ParentId: 2408386144015549029
-  ChildIds: 3207736379587026382
   ChildIds: 15301029453972206478
   ChildIds: 15406908674864220876
   Collidable_v2 {
@@ -1038,48 +1037,6 @@ Objects {
   InstanceHistory {
     SelfId: 15301029453972206478
     SubobjectId: 9926771754585888902
-    InstanceId: 6031563484630275945
-    TemplateId: 11934995597691856320
-  }
-}
-Objects {
-  Id: 3207736379587026382
-  Name: "E_ControlFloorFire"
-  Transform {
-    Location {
-      X: 0.210955
-      Y: 2.02599
-    }
-    Rotation {
-      Yaw: -3.4150944e-06
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 15634515690485245744
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:isFireOn"
-      Bool: false
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 472496742980669028
-    }
-  }
-  InstanceHistory {
-    SelfId: 3207736379587026382
-    SubobjectId: 8151229816479528646
     InstanceId: 6031563484630275945
     TemplateId: 11934995597691856320
   }

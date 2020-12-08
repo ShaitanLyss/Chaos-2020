@@ -2,7 +2,7 @@
 RootId: 2019659306417366488
 Objects {
   Id: 12176260018631284497
-  Name: "LevelTester"
+  Name: "T_LevelTester"
   Transform {
     Location {
       X: 350

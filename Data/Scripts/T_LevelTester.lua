@@ -13,15 +13,19 @@ local LyssTest = levelTester:GetCustomProperty("LyssTest")
 local BrandonTest = levelTester:GetCustomProperty("BrandonTest")
 
 function OnPlayerJoined(player)
-    Task.Wait(1)
-    if(AlaaTest) then
-        player:Respawn({position = Alaa_SpawnPoint:GetWorldPosition(), rotation = Rotation.New(0,0,0)})
+    --Task.Wait(1)
+    if (AlaaTest) then
+        player:Respawn({position = Alaa_SpawnPoint:GetWorldPosition(), 
+        				rotation = Alaa_SpawnPoint:GetWorldRotation()})
     elseif (AzmioTest) then 
-        player:Respawn({position = Azmio_SpawnPoint:GetWorldPosition(), rotation = Rotation.New(0,0,0)})
+        player:Respawn({position = Azmio_SpawnPoint:GetWorldPosition(),
+        				rotation = Azmio_SpawnPoint:GetWorldRotation()})
     elseif (LyssTest) then 
-    player:Respawn({position = Lyss_SpawnPoint:GetWorldPosition(), rotation = Rotation.New(0,0,0)})
+    	player:Respawn({position = Lyss_SpawnPoint:GetWorldPosition(),
+    					rotation = Lyss_SpawnPoint:GetWorldRotation()})
     elseif (BrandonTest) then 
-    player:Respawn({position = Brandon_SpawnPoint:GetWorldPosition(), rotation = Rotation.New(0,0,0)})
+    	player:Respawn({position = Brandon_SpawnPoint:GetWorldPosition(),
+    					rotation = Brandon_SpawnPoint:GetWorldRotation()})
     end
 
 end

@@ -24,6 +24,7 @@ Objects {
   ChildIds: 4434011006133901618
   ChildIds: 7135527698524595111
   ChildIds: 9979578846465070629
+  ChildIds: 712781936481127587
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -33,6 +34,33 @@ Objects {
     Value: "mc:evisibilitysetting:forceon"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 712781936481127587
+  Name: "Test"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 11682362396952548192
+    }
   }
 }
 Objects {

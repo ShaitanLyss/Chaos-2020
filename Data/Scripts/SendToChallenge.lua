@@ -25,7 +25,7 @@ function OnInteracted(theTrigger, player)
             Events.BroadcastToAllPlayers("hideLadder")
         elseif player:GetResource("level") == 2 then 
             print("level 2 Challenge") 
-            
+            Events.Broadcast("startMovingPlatform")
             local townPlatforms = script:GetCustomProperty("townPlatforms"):WaitForObject()
             local floorWarts = script:GetCustomProperty("floorWarts"):WaitForObject()
             show(townPlatforms)

@@ -7,11 +7,13 @@ local killZones = killZonesLVL2_SmallDie:GetChildren()
 function OnSmallDie(player)
     local playerRotation = player:GetWorldRotation()
     player:Die()
-    Events.Broadcast("E_StopMovingPlatform_LVL2")
+    Events.Broadcast("stopMovingPlatform")
     Task.Wait(2)
+    
    -- print(savePlatformModel:GetWorldPosition() + Vector3.UP * 50)
     Events.BroadcastToPlayer(player, "E_IncreaseTheCoronaBar")
     player:Respawn({position = MovingPlatformModel:GetWorldPosition() + Vector3.UP * 100, rotation = playerRotation})
+    Events.Broadcast("startMovingPlatform")
 end
 
 function OnBeginOverlap(trigger, thePlayer)

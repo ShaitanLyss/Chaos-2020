@@ -29,36 +29,8 @@ Objects {
       }
     }
     Overrides {
-      Name: "cs:Speed"
-      Float: 520
-    }
-    Overrides {
-      Name: "cs:TurningSpeed"
-      Float: 0.1
-    }
-    Overrides {
-      Name: "cs:Speed2"
-      Float: 710
-    }
-    Overrides {
-      Name: "cs:Turning2"
-      Float: 0.18
-    }
-    Overrides {
-      Name: "cs:Speed3"
-      Float: 910
-    }
-    Overrides {
-      Name: "cs:Turning3"
-      Float: 0.22
-    }
-    Overrides {
-      Name: "cs:Speed4"
-      Float: 1130
-    }
-    Overrides {
-      Name: "cs:Turning4"
-      Float: 0.26
+      Name: "cs:StartingLap"
+      Int: 1
     }
   }
   Collidable_v2 {
